@@ -1,6 +1,6 @@
 ---
-name: ss14-ecs-systems
-description: Architecture guide for EntitySystem in Space Station 14 — lifecycle, events, queries, networking, prediction, and partial class decomposition patterns
+name: "ss14-ecs-systems"
+description: "Use when creating or changing SS14 EntitySystems."
 metadata:
   source_skill: "../../../.agents/skills/ss14-ecs-systems/SKILL.md"
 ---

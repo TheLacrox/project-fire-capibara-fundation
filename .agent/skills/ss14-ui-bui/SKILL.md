@@ -1,6 +1,6 @@
 ---
-name: ss14-ui-bui
-description: A practical guide to Bound User Interface (BUI) in SS14: architecture, network messages, input validation, prediction through component state, lifecycle windows and server-client working patterns. Use it when developing and refactoring entity-bound interfaces.
+name: "ss14-ui-bui"
+description: "Use when implementing an SS14 Bound User Interface."
 metadata:
   source_skill: "../../../.agents/skills/ss14-ui-bui/SKILL.md"
 ---

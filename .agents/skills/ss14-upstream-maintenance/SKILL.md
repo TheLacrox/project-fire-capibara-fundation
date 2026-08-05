@@ -1,6 +1,6 @@
 ---
-name: ss14-upstream-maintenance
-description: Guide to working with Space Station 14 forks with project-folder pattern (`_Sunrise`, `_Scp`, `_Fish`, `_Lust`) to minimize merge conflicts with the upstream. Use when modifying vanilla code or prototypes.
+name: "ss14-upstream-maintenance"
+description: "Use when changing fork-owned or inherited SS14 code."
 ---
 
 # 🛡️ Working with Upstream code and minimizing conflicts
@@ -11,6 +11,26 @@ This skill describes the standards and patterns adopted in Space Station 14 fork
 Before making changes, first determine the active codebase prefix, project folder and edit markers using the `ss14-codebase-prefix-detection` rule.
 
 After the active fork is determined, keep all new fork-owned code in that fork's project folder. Do not switch folders because the touched behavior is vanilla, inherited from another fork, or looks "not fork-specific". For Fire, the correct folder is `_Scp`; new code, prototypes and assets for Fire go there even when the hook or parent prototype lives in vanilla or in a Sunrise-looking repository mirror.
+
+## One-way downstream boundary
+
+This repository consumes changes from `space-sunrise/project-fire` but does not contribute changes back to it. Treat the original repository and any Git remote named `upstream` as strictly read-only.
+
+1. Fetch and merge from `upstream` into a temporary synchronization branch in this fork.
+2. Never push a branch, tag, or commit to `upstream`.
+3. Never open, prepare, or target a pull request whose base repository is `space-sunrise/project-fire`, even when a local change might also be useful there.
+4. Create pull requests only inside this fork. Before using `gh pr create`, a GitHub API mutation, or another PR tool, verify that the base repository is this fork's `origin`, not `upstream`.
+
+The permitted direction is always:
+
+```text
+space-sunrise/project-fire (read-only upstream)
+                    |
+                    v fetch / merge
+TheLacrox/project-fire-capibara-fundation (downstream fork)
+```
+
+Commands such as `git push upstream ...` or `gh pr create --repo space-sunrise/project-fire ...` are prohibited. If a task appears to request either operation, stop without performing it and explain that this fork has a downstream-only policy.
 
 ## ⚠️ Golden rule
 

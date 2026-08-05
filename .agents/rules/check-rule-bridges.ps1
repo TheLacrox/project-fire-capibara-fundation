@@ -8,7 +8,7 @@ $sourceRoot = Join-Path $RepoRoot ".agents/rules"
 $antigravityBridgeRoot = Join-Path $RepoRoot ".agent/rules"
 $claudeBridgeRoot = Join-Path $RepoRoot ".claude/rules"
 $cursorBridgeRoot = Join-Path $RepoRoot ".cursor/rules"
-$githubBridgeRoot = Join-Path $RepoRoot ".github/rules"
+$githubBridgeRoot = Join-Path $RepoRoot ".github/instructions"
 
 function Get-RuleData {
     param([string]$RulePath)
@@ -22,6 +22,18 @@ function Get-RuleData {
     $frontmatter = $fmMatch.Groups[1].Value
     $body = $raw.Substring($fmMatch.Index + $fmMatch.Length).Trim()
     $trigger = [regex]::Match($frontmatter, "(?m)^trigger:\s*(.+)$").Groups[1].Value.Trim()
+    $description = [regex]::Match(
+        $frontmatter,
+        "(?m)^description:\s*`"?([^`"\r\n]+)`"?\s*$"
+    ).Groups[1].Value.Trim()
+    $alwaysApply = [regex]::Match(
+        $frontmatter,
+        "(?m)^alwaysApply:\s*(.+)$"
+    ).Groups[1].Value.Trim()
+    $applyTo = [regex]::Match(
+        $frontmatter,
+        "(?m)^applyTo:\s*`"?([^`"\r\n]+)`"?\s*$"
+    ).Groups[1].Value.Trim()
     $sourceRule = [regex]::Match(
         $frontmatter,
         "(?m)^\s*source_rule:\s*`"?([^`"\r\n]+)`"?\s*$"
@@ -31,6 +43,9 @@ function Get-RuleData {
         raw = $raw
         body = $body
         trigger = $trigger
+        description = $description
+        always_apply = $alwaysApply
+        apply_to = $applyTo
         source_rule = $sourceRule
     }
 }
@@ -60,24 +75,32 @@ $antigravityBridgeRules = Get-ChildItem $antigravityBridgeRoot -File -Filter "*.
     Sort-Object Name
 $claudeBridgeRules = Get-ChildItem $claudeBridgeRoot -File -Filter "*.md" |
     Sort-Object Name
-$cursorBridgeRules = Get-ChildItem $cursorBridgeRoot -File -Filter "*.md" |
+$cursorBridgeRules = Get-ChildItem $cursorBridgeRoot -File -Filter "*.mdc" |
     Sort-Object Name
-$githubBridgeRules = Get-ChildItem $githubBridgeRoot -File -Filter "*.md" |
+$githubBridgeRules = Get-ChildItem $githubBridgeRoot -File -Filter "*.instructions.md" |
     Sort-Object Name
 
 $sourceNames = @($sourceRules.Name)
 $antigravityBridgeNames = @($antigravityBridgeRules.Name)
 $claudeBridgeNames = @($claudeBridgeRules.Name)
-$cursorBridgeNames = @($cursorBridgeRules.Name)
-$githubBridgeNames = @($githubBridgeRules.Name)
+$cursorBridgeNames = @(
+    $cursorBridgeRules | ForEach-Object { "$($_.BaseName).md" }
+)
+$githubBridgeNames = @(
+    $githubBridgeRules | ForEach-Object {
+        $_.Name -replace "\.instructions\.md$", ".md"
+    }
+)
 
 foreach ($source in $sourceRules) {
     $name = $source.Name
     $sourceRuleMd = $source.FullName
     $antigravityBridgeRuleMd = Join-Path $antigravityBridgeRoot $name
     $claudeBridgeRuleMd = Join-Path $claudeBridgeRoot $name
-    $cursorBridgeRuleMd = Join-Path $cursorBridgeRoot $name
-    $githubBridgeRuleMd = Join-Path $githubBridgeRoot $name
+    $cursorBridgeName = $name -replace "\.md$", ".mdc"
+    $githubBridgeName = $name -replace "\.md$", ".instructions.md"
+    $cursorBridgeRuleMd = Join-Path $cursorBridgeRoot $cursorBridgeName
+    $githubBridgeRuleMd = Join-Path $githubBridgeRoot $githubBridgeName
 
     if (-not (Test-Path $antigravityBridgeRuleMd)) {
         $errors.Add("Missing Antigravity bridge rule for '$name'.")
@@ -101,7 +124,7 @@ foreach ($source in $sourceRules) {
     $cursorData = Get-RuleData -RulePath $cursorBridgeRuleMd
     $githubData = Get-RuleData -RulePath $githubBridgeRuleMd
 
-    $expectedSourceRule = "../../../.agents/rules/$name"
+    $expectedSourceRule = "../../.agents/rules/$name"
 
     if ($antigravityData.trigger -ne $sourceData.trigger) {
         $errors.Add("Antigravity bridge trigger mismatch for '$name'.")
@@ -118,24 +141,22 @@ foreach ($source in $sourceRules) {
     if ($claudeData.trigger -ne $sourceData.trigger) {
         $errors.Add("Claude bridge trigger mismatch for '$name'.")
     }
-    if ($claudeData.body -notmatch [regex]::Escape($expectedSourceRule)) {
-        $errors.Add("Claude bridge reference mismatch for '$name'.")
+    if ($claudeData.body -notmatch [regex]::Escape("@$expectedSourceRule")) {
+        $errors.Add("Claude bridge import mismatch for '$name'.")
     }
 
-    if ($cursorData.trigger -ne $sourceData.trigger) {
-        $errors.Add("Cursor bridge trigger mismatch for '$name'.")
+    if ($cursorData.always_apply -ne "true") {
+        $errors.Add("Cursor bridge is not always applied for '$name'.")
+    }
+    if ([string]::IsNullOrWhiteSpace($cursorData.description)) {
+        $errors.Add("Cursor bridge description is missing for '$name'.")
     }
     if ($cursorData.body -notmatch [regex]::Escape($expectedSourceRule)) {
         $errors.Add("Cursor bridge reference mismatch for '$name'.")
     }
 
-    if ($githubData.trigger -ne $sourceData.trigger) {
-        $errors.Add("GitHub Copilot bridge trigger mismatch for '$name'.")
-    }
-    if ($githubData.source_rule -ne $expectedSourceRule) {
-        $errors.Add(
-            "GitHub Copilot bridge source_rule mismatch for '$name': '$($githubData.source_rule)'"
-        )
+    if ($githubData.apply_to -ne "**") {
+        $errors.Add("GitHub Copilot applyTo mismatch for '$name'.")
     }
     if ($githubData.body -notmatch [regex]::Escape($expectedSourceRule)) {
         $errors.Add("GitHub Copilot bridge reference mismatch for '$name'.")

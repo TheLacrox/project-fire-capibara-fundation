@@ -1,6 +1,6 @@
 ---
-name: ss14-pvs
-description: Architecture guide for PVS in Space Station 14 — chunk-based spatial partitioning, visibility determination, override types, budgets, Level-of-Detail, leave mechanics, visibility masks, and ExpandPvsEvent
+name: "ss14-pvs"
+description: "Use when changing SS14 PVS and entity visibility."
 ---
 
 # Cursor Bridge

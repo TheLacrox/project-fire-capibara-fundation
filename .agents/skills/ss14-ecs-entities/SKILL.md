@@ -1,6 +1,6 @@
 ---
-name: SS14 ECS Entities
-description: Working with entities in Space Station 14 — EntityUid, Entity<T>, implicit Entity<T>-as-EntityUid usage, component operations, containers, network identity, and entity lifecycle
+name: "ss14-ecs-entities"
+description: "Use when working with SS14 entities and EntityUid."
 ---
 
 # Entity - entities in ECS

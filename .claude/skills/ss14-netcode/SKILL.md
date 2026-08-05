@@ -1,6 +1,6 @@
 ---
-name: ss14-netcode
-description: Architecture guide for networking in Space Station 14 — Lidgren integration, NetManager abstraction, message system, game state synchronization, PVS, network events, and component networking
+name: "ss14-netcode"
+description: "Use when changing SS14 networking architecture."
 ---
 
 # Claude Bridge

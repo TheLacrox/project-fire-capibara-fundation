@@ -21,7 +21,10 @@ function Get-SkillData {
 
     $frontmatter = $fmMatch.Groups[1].Value
     $body = $raw.Substring($fmMatch.Index + $fmMatch.Length).Trim()
-    $name = [regex]::Match($frontmatter, "(?m)^name:\s*(.+)$").Groups[1].Value.Trim()
+    $name = [regex]::Match(
+        $frontmatter,
+        "(?m)^name:\s*`"?([^`"\r\n]+)`"?\s*$"
+    ).Groups[1].Value.Trim()
     $description = [regex]::Match($frontmatter, "(?m)^description:\s*(.+)$").Groups[1].Value.Trim()
     $sourceSkill = [regex]::Match(
         $frontmatter,
@@ -108,6 +111,10 @@ foreach ($source in $sourceSkills) {
     $githubData = Get-SkillData -SkillMdPath $githubBridgeSkillMd
 
     $expectedSourceSkill = "../../../.agents/skills/$name/SKILL.md"
+
+    if ($sourceData.name -ne $name) {
+        $errors.Add("Canonical skill name mismatch for '$name': '$($sourceData.name)'")
+    }
 
     if ($antigravityData.name -ne $name) {
         $errors.Add("Antigravity bridge name mismatch for '$name': '$($antigravityData.name)'")

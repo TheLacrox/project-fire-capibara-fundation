@@ -1,6 +1,6 @@
 ---
-name: SS14 Graphics Overlays
-description: An in-depth practical guide to the SS14 overlay architecture: OverlaySpace, lifecycle, communication with shaders, ScreenTexture, render targets, stencil composition, graphics primitives and render optimization.
+name: "ss14-graphics-overlays"
+description: "Use when implementing SS14 rendering overlays."
 ---
 
 # Overlays and graphics pipeline SS14

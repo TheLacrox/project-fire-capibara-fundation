@@ -1,0 +1,65 @@
+name: Agent Context
+
+on:
+  merge_group:
+  push:
+    paths:
+      - AGENTS.md
+      - CLAUDE.md
+      - .cursorrules
+      - .hermes.md
+      - HERMES.md
+      - "**/.hermes.md"
+      - "**/HERMES.md"
+      - .agents/**
+      - .agent/**
+      - .claude/**
+      - .cursor/**
+      - .github/copilot-instructions.md
+      - .github/instructions/**
+      - .github/rules/**
+      - .github/skills/**
+      - .github/workflows/agent-context.yml
+  pull_request:
+    paths:
+      - AGENTS.md
+      - CLAUDE.md
+      - .cursorrules
+      - .hermes.md
+      - HERMES.md
+      - "**/.hermes.md"
+      - "**/HERMES.md"
+      - .agents/**
+      - .agent/**
+      - .claude/**
+      - .cursor/**
+      - .github/copilot-instructions.md
+      - .github/instructions/**
+      - .github/rules/**
+      - .github/skills/**
+      - .github/workflows/agent-context.yml
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: Validate agent context and bridges
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4.2.2
+      - name: Set up Python
+        uses: actions/setup-python@v5.6.0
+        with:
+          python-version: "3.11"
+      - name: Set up Go for actionlint
+        uses: actions/setup-go@v5.5.0
+        with:
+          go-version: "stable"
+      - name: Validate GitHub Actions workflow syntax
+        run: go run github.com/rhysd/actionlint/cmd/actionlint@v1.7.7 .github/workflows/agent-context.yml
+      - name: Test agent setup checker
+        run: python3 -m unittest discover -s .agents/tests -p 'test_check_agent_setup.py' -v
+      - name: Validate agent setup
+        run: python3 .agents/check_agent_setup.py

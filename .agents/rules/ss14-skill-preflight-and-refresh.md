@@ -28,16 +28,18 @@ When a bridge file points to a source file under `.agents`, load the `.agents` s
 
 ## 3. How to select skills
 
-Prefer file extensions and concrete subsystems over loose text matching.
+Prefer file extensions together with concrete subsystems over loose text matching. Do not classify generic CI/tool configuration as gameplay content merely because both use YAML.
 
 If a task touches these file extensions, load the listed skills before planning or editing:
 
 | File extension | Required skills |
 | --- | --- |
 | `.cs` | `ss14-ecs-components`, `ss14-ecs-entities`, `ss14-ecs-prototypes`, `ss14-ecs-systems`, `ss14-events`, `ss14-prediction` |
-| `.yml`, `.yaml` | `ss14-naming-conventions`, `ss14-ecs-prototypes`, `ss14-upstream-maintenance` |
+| `.yml`, `.yaml` under SS14 content/resource/prototype paths | `ss14-naming-conventions`, `ss14-ecs-prototypes`, `ss14-upstream-maintenance` |
 | `.ftl` | `ss14-naming-conventions`, `ss14-ecs-prototypes`, `ss14-upstream-maintenance`, `ss14-localization-strings` |
 | `.swsl` | `ss14-naming-conventions`, `ss14-ecs-prototypes`, `ss14-upstream-maintenance` |
+
+GitHub Actions, Dependabot, Docker Compose, and other tool/configuration YAML do not activate the ECS prototype skills by extension alone. Load a workflow- or tool-specific skill when one exists and validate with that configuration's owning tool.
 
 Also load subsystem-specific skills when the affected area is clear from file paths, prototypes, APIs, or the requested behavior. Examples:
 

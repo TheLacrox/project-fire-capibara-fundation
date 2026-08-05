@@ -1,6 +1,6 @@
 ---
-name: ss14-databases
-description: SS14 Database System Guide (PostgreSQL and SQLite)
+name: "ss14-databases"
+description: "Use when working with SS14 PostgreSQL or SQLite."
 ---
 
 # 🗄️ Databases SS14 (Databases)
