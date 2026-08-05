@@ -1,6 +1,6 @@
 ---
-name: ss14-npc-system-core
-description: Deep dive into the NPC system in SS14/Sunrise: HTN planning, utility target selection, steering/pathfinding, blackboard and execution contracts. Use it when you need to understand the general scheme and logic of NPCs, create or rework behavior prototypes (`htnCompound`, `rootTask`, `blackboard`), or write your own AI code (operators, preconditions, components, systems) and safely integrate it into runtime.
+name: "ss14-npc-system-core"
+description: "Use when changing SS14 NPC HTN or steering systems."
 metadata:
   source_skill: "../../../.agents/skills/ss14-npc-system-core/SKILL.md"
 ---

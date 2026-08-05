@@ -1,6 +1,6 @@
 ---
-name: ss14-skill-authoring
-description: Creating and updating skills for sunrise-station/SS14: decomposing the topic into several narrow skills, researching fresh code and docs, forming patterns/anti-patterns, writing high-quality SKILL.md with examples and quality checks. Use it when you need to write a new skill, rework an existing skill, or systematically improve the skill pool.
+name: "ss14-skill-authoring"
+description: "Use when creating or updating repository SS14 skills."
 ---
 
 # Claude Bridge

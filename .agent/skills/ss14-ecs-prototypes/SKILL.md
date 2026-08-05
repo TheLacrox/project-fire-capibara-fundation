@@ -1,6 +1,6 @@
 ---
-name: ss14-ecs-prototypes
-description: YAML prototypes in Space Station 14 — entity definitions, field inheritance, prototype classes, YAML linter, naming conventions, and localization
+name: "ss14-ecs-prototypes"
+description: "Use when creating or changing SS14 YAML prototypes."
 metadata:
   source_skill: "../../../.agents/skills/ss14-ecs-prototypes/SKILL.md"
 ---

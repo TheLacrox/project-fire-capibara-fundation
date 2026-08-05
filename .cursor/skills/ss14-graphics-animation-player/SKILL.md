@@ -1,6 +1,6 @@
 ---
-name: ss14-graphics-animation-player
-description: A deep practical guide to entity animations using the AnimationPlayerSystem in SS14: lifecycle, API, track types, keyframes/interpolation/easing, completion events, patterns and anti-patterns for production code.
+name: "ss14-graphics-animation-player"
+description: "Use when implementing SS14 entity animations."
 ---
 
 # Cursor Bridge

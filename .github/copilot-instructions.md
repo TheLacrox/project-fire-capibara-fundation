@@ -1,6 +1,5 @@
-# GitHub Copilot Bridge
+# GitHub Copilot Compatibility Bridge
 
-Этот файл является bridge к `../AGENTS.md`.
+`../AGENTS.md` is the authoritative repository context.
 
-Перед началом работы прочитай и выполни инструкции из `../AGENTS.md`.
-Если между файлами есть расхождение, приоритет всегда у `../AGENTS.md`.
+Before analyzing, planning, or editing, read and follow `../AGENTS.md`. If these files ever disagree, `AGENTS.md` wins; do not duplicate its instructions here.

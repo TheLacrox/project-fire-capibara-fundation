@@ -1,6 +1,6 @@
 ---
-name: ss14-eventbus
-description: Architectural guide to EventBus in Space Station 14 - strict event taxonomy, subscription storage, dispatch logic and internal optimization mechanisms.
+name: "ss14-eventbus"
+description: "Use when changing the SS14 EventBus architecture."
 ---
 
 # Cursor Bridge

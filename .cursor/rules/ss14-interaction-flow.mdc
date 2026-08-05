@@ -1,0 +1,12 @@
+---
+description: "Always-on bridge to the canonical SS14 interaction flow rule."
+globs:
+alwaysApply: true
+---
+
+# Cursor Rule Bridge
+
+Canonical source rule file:
+../../.agents/rules/ss14-interaction-flow.md.
+
+Load and follow the canonical rule instead of duplicating its instructions here.

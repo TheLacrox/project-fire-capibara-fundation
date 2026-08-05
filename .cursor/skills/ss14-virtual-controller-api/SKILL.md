@@ -1,6 +1,6 @@
 ---
-name: ss14-virtual-controller-api
-description: Gives a practical catalog of APIs around the VirtualController in Space Station 14: selection of hooks and order, physics mutators, relay/movement/climb scripts, prediction constraints and safe application patterns.
+name: "ss14-virtual-controller-api"
+description: "Use when calling SS14 VirtualController APIs."
 ---
 
 # Cursor Bridge

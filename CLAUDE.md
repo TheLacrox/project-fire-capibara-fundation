@@ -1,6 +1,5 @@
-# Claude Bridge
+# Claude Code Compatibility Bridge
 
-Этот файл является bridge к [AGENTS.md](./AGENTS.md).
+@./AGENTS.md
 
-Перед началом работы прочитай и выполни инструкции из [AGENTS.md](./AGENTS.md).
-Если между файлами есть расхождение, приоритет всегда у [AGENTS.md](./AGENTS.md).
+`AGENTS.md` is the authoritative repository context. If these files ever disagree, `AGENTS.md` wins; do not duplicate its instructions here.

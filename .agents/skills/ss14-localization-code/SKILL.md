@@ -1,6 +1,6 @@
 ---
-name: ss14-localization-code
-description: A guide to using localization in Space Station 14 C# code. Describes the ILocalizationManager, LocId, and proper dependency injection patterns.
+name: "ss14-localization-code"
+description: "Use when localizing strings from SS14 C# code."
 ---
 
 # SS14 Localization in Code (Russian)

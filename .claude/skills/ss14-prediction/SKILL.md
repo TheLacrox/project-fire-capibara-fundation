@@ -1,6 +1,6 @@
 ---
-name: ss14-prediction
-description: Architecture guide for client-side prediction in Space Station 14 — prediction loop, timing properties, predicted entities, state reconciliation, randomness, and common pitfalls
+name: "ss14-prediction"
+description: "Use when implementing SS14 client-side prediction."
 ---
 
 # Claude Bridge

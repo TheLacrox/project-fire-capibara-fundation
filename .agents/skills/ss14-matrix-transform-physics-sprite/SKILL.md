@@ -1,6 +1,6 @@
 ---
-name: ss14-matrix-transform-physics-sprite
-description: Highly specialized skill in matrix transformations in SS14: world/grid/local/screen conversions, Sprite render matrices, broadphase-space physics queries, Transform/Physics/Sprite client and server chains.
+name: "ss14-matrix-transform-physics-sprite"
+description: "Use when converting SS14 coordinates and transforms."
 ---
 
 # Matrices for Transform/Physics/Sprite in SS14
@@ -195,4 +195,12 @@ var localDir = Vector2.Transform(worldDir, invNoTrans).Normalized();
 
 ---
 
-Use this skill as a narrow matrix playbook: take only fresh and clean areas, and send questionable/old cases to `rejected`.
+## Supporting references
+
+Read only what the task requires:
+
+1. [`references/fresh-pattern-catalog.md`](references/fresh-pattern-catalog.md) for current representative API and implementation patterns.
+2. [`references/docs-context.md`](references/docs-context.md) for secondary conceptual context; verify every claim against current code.
+3. [`references/rejected-snippets.md`](references/rejected-snippets.md) before reusing old, obsolete, duplicated, or TODO-adjacent examples.
+
+Use this skill as a narrow matrix playbook: take only fresh and clean areas, and send questionable or old cases to the rejected-snippet catalog.
