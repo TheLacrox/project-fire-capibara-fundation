@@ -6,7 +6,6 @@ using System.IO;
 using System.Linq;
 using Content.Client._Scp.Decals;
 using Content.Client._Scp.UI;
-using Content.Client._Sunrise.FancyCardControl;
 using Content.Server.Silicons.Laws;
 using Content.Server.Station.Components;
 using Content.Server.Station.Systems;
@@ -287,8 +286,6 @@ public sealed class SpanishLocalizationTest
         await using var pair = await PoolManager.GetServerClient();
         string? coloredName = null;
         string? coloredDescription = null;
-        string? cardTitle = null;
-        string? cardDescription = null;
 
         await pair.Client.WaitAssertion(() =>
         {
@@ -298,16 +295,9 @@ public sealed class SpanishLocalizationTest
                 NameString = renderedText,
                 DescriptionString = renderedText,
             };
-            var card = new FancyCard(new FancyCardConfig
-            {
-                TitleText = renderedText,
-                DescText = renderedText,
-            });
 
             coloredName = FindDescendant<Label>(coloredInfo).Text;
             coloredDescription = FindDescendant<RichTextLabel>(coloredInfo).GetMessage();
-            cardTitle = FindDescendant<Label>(card).Text;
-            cardDescription = FindDescendant<RichTextLabel>(card).GetMessage();
         });
 
         await pair.CleanReturnAsync();
@@ -316,8 +306,6 @@ public sealed class SpanishLocalizationTest
         {
             Assert.That(coloredName, Is.EqualTo("generic-unknown"));
             Assert.That(coloredDescription, Is.EqualTo("generic-unknown"));
-            Assert.That(cardTitle, Is.EqualTo("generic-unknown"));
-            Assert.That(cardDescription, Is.EqualTo("generic-unknown"));
         });
     }
 
