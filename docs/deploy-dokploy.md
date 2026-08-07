@@ -52,7 +52,7 @@ configuración de compilación soportada y no define `SUNRISE_PRIVATE`.
 | `SS14_AUTH_MODE` | `0` opcional, `1` requerido, `2` desactivado | `1` |
 | `SS14_HOST_USER` | Cuenta que recibe host completo al entrar | `TheLacrox` |
 | `SS14_SOFT_MAX` | Límite blando de jugadores | `50` |
-| `SS14_DISCORD` / `SS14_WEBSITE` / `SS14_WIKI` | Botones de info del launcher | solo Discord |
+| `SS14_DISCORD` / `SS14_WEBSITE` / `SS14_WIKI` | Botones de info del launcher | Discord, web y wiki de Estación Capibara |
 | `SS14_TTS_ENABLED` | Activar TTS | `false` |
 | `SS14_TTS_API_URL` | Endpoint de la API de TTS | vacío |
 | `SS14_TTS_API_TOKEN` | Token de la API de TTS (**secreto**) | vacío |

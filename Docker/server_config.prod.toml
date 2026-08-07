@@ -45,9 +45,11 @@ tags = "lang:es,region:es,rp:mrp"
 
 [infolinks]
 # Botones de «Ver información del servidor» en el launcher.
-# website y wiki se dejan vacíos a propósito: rellénalos vía $SS14_WEBSITE / $SS14_WIKI
-# cuando existan, en vez de apuntar a un dominio que no responde.
+# Se comparten con Estación Capibara: misma comunidad, mismo dominio y mismo Discord.
+# Sobrescribibles por despliegue con $SS14_DISCORD / $SS14_WEBSITE / $SS14_WIKI.
 discord = "https://discord.gg/xRsRcpmCVX"
+website = "https://estacioncapibara.com/"
+wiki = "https://estacioncapibara.com/wiki"
 
 [auth]
 mode = 1   # 0=opcional 1=requerido 2=desactivado. Servidor público -> requerido.
