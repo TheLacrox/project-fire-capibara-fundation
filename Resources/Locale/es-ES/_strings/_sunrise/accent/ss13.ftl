@@ -1,0 +1,12 @@
+accent-ss13-words-1 = di
+accent-ss13-words-replace-1 = RD
+accent-ss13-words-2 = dm
+accent-ss13-words-replace-2 = CMO
+accent-ss13-words-3 = jp
+accent-ss13-words-replace-3 = HoP
+accent-ss13-words-4 = js
+accent-ss13-words-replace-4 = HoS
+accent-ss13-words-5 = ij
+accent-ss13-words-replace-5 = CE
+accent-ss13-words-6 = depósito de combustible
+accent-ss13-words-replace-6 = fuel tank

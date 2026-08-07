@@ -1,0 +1,30 @@
+﻿<Document>
+  # Gas Canisters
+  <Box>
+    <GuideEntityEmbed Entity="AirCanister"/>
+    <GuideEntityEmbed Entity="OxygenCanister"/>
+    <GuideEntityEmbed Entity="NitrogenCanister"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="CarbonDioxideCanister"/>
+    <GuideEntityEmbed Entity="StorageCanister"/>
+    <GuideEntityEmbed Entity="GasPort"/>
+  </Box>
+
+  Gas canisters allow gas to be stored in a portable container for easy transport.
+  They can hold [color=orange][protodata="StorageCanister" comp="GasCanister" member="Volume"/] liters[/color] of gas.
+
+  Portable tanks can be connected to a gas canister and refilled through the canister's output valve.
+  The output valve also has an adjustable pressure regulator that controls the pressure of the connected portable tank.
+
+  Opening a canister's output valve without a portable tank connected will release gas into the atmosphere at the regulator's set pressure.
+
+  [bold]Always close the output valve before removing a portable tank![/bold]
+
+  ## Connector Ports
+  Gas canisters and [textlink="portable scrubbers" link="PortableScrubber"] can be connected to a [textlink="pipe network" link="PipeNetworks"] by wrenching the device over a connector port.
+  Once connected, gas moves freely into and out of the canister, equalizing pressure, temperature, and composition.
+
+  A pump can be used to feed gas into the canister or draw gas out of it, which is useful for filling or emptying the canister completely.
+
+</Document>

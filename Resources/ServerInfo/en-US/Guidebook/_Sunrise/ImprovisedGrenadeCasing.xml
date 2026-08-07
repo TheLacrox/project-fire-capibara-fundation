@@ -1,0 +1,14 @@
+﻿  # Improvised Grenade: Empty Casing
+
+  An empty casing is the base for improvised grenades. Fill it and choose a branch in the crafting graph to produce one of the variants.
+
+  ## What You Can Craft and How
+    ### To Craft a Pipe Bomb
+      - A pipe bomb with a contact trigger and additional fragmentation components.
+      <GuideEntityEmbed Entity="PipeBomb" Caption="Pipe bomb" Scale="1"/><GuideEntityEmbed Entity="ImprovisedGrenadeCasingEmpty" Caption="empty improvised grenade casing" Scale="1"/>
+    ### To Craft a Fire Bomb
+      - A fire bomb with a contact trigger and additional incendiary components.
+      <GuideEntityEmbed Entity="FireBomb" Caption="Fire bomb" Scale="1"/><GuideEntityEmbed Entity="ImprovisedGrenadeCasingEmpty" Caption="empty improvised grenade casing" Scale="1"/>
+    ### To Craft Glass Buckshot
+      - Glass buckshot: causes many small wounds at the point of impact.
+      5 units <GuideEntityEmbed Entity="CrushedPhosphorus" Caption="5 units of phosphorus powder" Scale="1.1"/><GuideEntityEmbed Entity="ShardGlass" Caption="5 glass shards" Scale="1"/><GuideEntityEmbed Entity="ImprovisedGrenadeCasingEmpty" Caption="empty improvised grenade casing" Scale="1"/>

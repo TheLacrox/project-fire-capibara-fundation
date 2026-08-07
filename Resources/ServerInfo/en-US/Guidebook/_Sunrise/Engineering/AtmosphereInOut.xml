@@ -1,0 +1,25 @@
+﻿<Document>
+  # Atmosphere Input and Output
+  Feeding gases into and extracting them from an existing atmosphere or a vacuum is an important part of an atmospheric technician's job.
+  <Box>
+    <GuideEntityEmbed Entity="GasVentPump"/>
+    <GuideEntityEmbed Entity="GasPassiveVent"/>
+    <GuideEntityEmbed Entity="GasOutletInjector"/>
+    <GuideEntityEmbed Entity="GasVentScrubber"/>
+    <GuideEntityEmbed Entity="PortableScrubber"/>
+  </Box>
+
+  Using these devices, an atmospheric technician can supply, extract, or scrub unwanted gases from any atmosphere.
+  This makes it possible to maintain a safe, breathable atmosphere.
+
+  Some of these devices require [textlink="power" link="Power"] to operate and can be linked to an [textlink="air alarm" link="AirAlarms"].
+
+  [textlink="Linking" link="Networking"] compatible devices to an air alarm enables additional settings and functions. Otherwise, these devices operate in their default mode as described in the subsections.
+
+  <Box>
+    <GuideEntityEmbed Entity="AirAlarm"/>
+    <GuideEntityEmbed Entity="Multitool"/>
+    <GuideEntityEmbed Entity="NetworkConfigurator"/>
+  </Box>
+
+</Document>

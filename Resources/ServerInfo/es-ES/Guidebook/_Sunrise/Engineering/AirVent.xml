@@ -1,0 +1,64 @@
+﻿<Document>
+  # Respiradero
+  El respiradero es el dispositivo de ventilación estándar presente en todas las salas que necesitan llenarse con una atmósfera respirable.
+  Su función principal consiste en liberar gases en la atmósfera circundante hasta alcanzar la presión establecida.
+
+  <Box>
+    <GuideEntityEmbed Entity="GasVentPump"/>
+  </Box>
+
+  Para funcionar, el respiradero necesita [textlink="energía" link="Power"] mediante un [textlink="cable LV" link="VoltageNetworks"] cercano.
+
+  Puedes soldar el respiradero con cualquier herramienta de soldadura para detenerlo.
+
+  ## Funcionamiento predeterminado
+  De forma predeterminada, el respiradero se limita a liberar gas en la atmósfera circundante hasta alcanzar una presión de [color=orange][protodata="GasVentPump" comp="GasVentPump" member="DefaultExternalBound"/] kPa[/color].
+
+  La velocidad del respiradero depende de la diferencia entre el doble de la presión de la [textlink="red de tuberías" link="PipeNetworks"] conectada y la presión de la atmósfera circundante.
+  Expresado como fórmula:
+  <Box>
+    [italic]Velocidad = 2 × presión de la red de tuberías - presión de la atmósfera circundante[/italic]
+  </Box>
+
+  Por ejemplo, esto significa que el respiradero no podrá elevar la presión hasta 101.3 kPa si la presión del gas dentro del propio respiradero cae por debajo de la mitad de ese valor.
+
+  ## Bloqueo por presión
+  Los respiraderos entran en [color=red]bloqueo por presión[/color] cuando la presión de la atmósfera circundante es inferior a [color=orange][protodata="GasVentPump" comp="GasVentPump" member="UnderPressureLockoutThreshold"/] kPa[/color].
+  Esto impide desperdiciar gases útiles en el espacio cuando una sala no es hermética.
+  Los indicadores del respiradero se volverán [color=yellow]amarillos[/color] para mostrar este estado.
+
+  Puedes [color=green]anularlo[/color] pulsando el respiradero con el botón derecho y eligiendo «Desactivar bloqueo por presión», o seleccionando el modo Llenado en la [textlink="alarma atmosférica" link="AirAlarms"] conectada.
+
+  Es importante recordar que los respiraderos sometidos a [color=red]bloqueo por presión[/color] siguen liberando gas con mucha lentitud.
+  La cantidad liberada depende de la presión actual de la red de tuberías a la que estén conectados.
+
+  ## Configuración
+  Al [textlink="vincularse" link="Networking"] a una [textlink="alarma atmosférica" link="AirAlarms"], los respiraderos obtienen más funciones.
+
+  Los respiraderos ofrecen dos opciones de «vent direction»: Releasing y Siphoning.
+  - Releasing se limita a liberar en la atmósfera los gases de la red de tuberías conectada.
+  - Siphoning aspira el aire de la atmósfera y lo introduce en la red conectada. Los indicadores del respiradero se volverán [color=red]rojos[/color] para mostrar este cambio.
+
+  ## Límites de presión
+  Los respiraderos disponen de un sistema de límites de presión que determina hasta qué presión introducirán gas en la atmósfera o lo extraerán de la red de tuberías conectada. Estos límites se aplican tanto al liberar como al aspirar gas.
+
+  El ajuste «PressureBound» ofrece cuatro opciones:
+  - ExternalBound obliga al respiradero a respetar el límite de presión del campo External bound.
+  - InternalBound obliga al respiradero a respetar el límite de presión del campo Internal bound.
+  - Both obliga al respiradero a respetar los límites External e Internal bound.
+  - NoBound desactiva los límites.
+
+  Cuando el respiradero está liberando gas:
+  - Si External bound está fijado en 101.3 kPa, el respiradero no elevará la presión de la atmósfera por encima de 101.3 kPa.
+  - Si Internal bound está fijado en 50 kPa, el respiradero no extraerá gas de la tubería conectada cuando su presión sea inferior a 50 kPa.
+
+  Cuando el respiradero está aspirando gas:
+  - Si External bound está fijado en 101.3 kPa, el respiradero aspirará gases hasta que la atmósfera alcance 101.3 kPa.
+  - Si Internal bound está fijado en 50 kPa, el respiradero no introducirá gases en la red de tuberías cuando su presión sea superior a 50 kPa.
+
+  Si los PressureBounds todavía te resultan confusos, puedes entenderlos así:
+  - External bound es el límite superior de la atmósfera circundante. «No aumentaré la presión de la atmósfera circundante por encima de este valor ni extraeré gas de ella por debajo de este valor».
+  - Internal bound es el límite inferior de la red de tuberías conectada. «No extraeré gas de una fuente por debajo de esta presión ni introduciré aire en la red por encima de ella».
+  - Los ajustes «Pressure bound» simplemente determinan qué límites se respetan y cuáles se ignoran.
+
+</Document>

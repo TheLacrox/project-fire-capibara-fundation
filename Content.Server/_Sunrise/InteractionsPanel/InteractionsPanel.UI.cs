@@ -67,7 +67,9 @@ public partial class InteractionsPanel
         }
 
         _log.Add(LogType.Interactions, LogImpact.Low,
-            $"[InteractionsPanel] {ToPretty(user)} открыл панель взаимодействий с {ToPretty(target)}");
+            $"{Loc.GetString("fire-interactions-log-opened",
+                ("user", ToPretty(user)),
+                ("target", ToPretty(target)))}"); // Fire edit - Локализация административного лога.
     }
 
     private InteractionWindowBoundUserInterfaceState PrepareUIState(EntityUid user, EntityUid target)

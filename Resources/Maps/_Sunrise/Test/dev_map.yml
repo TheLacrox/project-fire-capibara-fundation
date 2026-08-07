@@ -13079,7 +13079,7 @@ entities:
       parent: 1
     - type: MapText
       fontSize: 14
-      text: Other
+      locText: map-text-dev-department-other
     - type: PointLight
       energy: 2
       radius: 2
@@ -13091,7 +13091,7 @@ entities:
       parent: 1
     - type: MapText
       fontSize: 14
-      text: Weapons
+      locText: map-text-dev-department-weapons
     - type: PointLight
       energy: 5
       color: '#FF0000FF'
@@ -13104,7 +13104,7 @@ entities:
       parent: 1
     - type: MapText
       fontSize: 14
-      text: Service
+      locText: map-text-dev-department-service
     - type: PointLight
       energy: 5
       color: '#87EB87FF'
@@ -13117,7 +13117,7 @@ entities:
       parent: 1
     - type: MapText
       fontSize: 14
-      text: Medical
+      locText: map-text-dev-department-medical
     - type: PointLight
       energy: 5
       color: '#87D1EBFF'
@@ -13130,7 +13130,7 @@ entities:
       parent: 1
     - type: MapText
       fontSize: 14
-      text: Engi & Atmos
+      locText: map-text-dev-department-engineering-atmospherics
     - type: PointLight
       energy: 5
       color: '#FFA500FF'
@@ -13143,7 +13143,7 @@ entities:
       parent: 1
     - type: MapText
       fontSize: 14
-      text: R&D
+      locText: map-text-dev-department-research-development
     - type: PointLight
       energy: 5
       color: '#EB87EBFF'
@@ -13156,7 +13156,7 @@ entities:
       parent: 1
     - type: MapText
       fontSize: 14
-      text: Prison
+      locText: map-text-dev-department-prison
 - proto: MaterialBiomass
   entities:
   - uid: 1186

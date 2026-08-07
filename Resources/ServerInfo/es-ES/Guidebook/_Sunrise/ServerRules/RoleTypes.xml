@@ -1,0 +1,30 @@
+<Document>
+  # Tipos de papel
+
+  ## Bando de la tripulación / No antagonista
+  En la mayoría de las rondas, casi todos los jugadores son no antagonistas, es decir, pertenecen al bando de la tripulación. Este es el papel «predeterminado»: si el juego no te indica de forma explícita que perteneces a uno de los demás tipos descritos aquí, eres no antagonista. En general, los no antagonistas deben actuar en beneficio de la ronda.
+
+  ## Antagonista solitario
+  Algunos papeles están concebidos para crear amenazas y problemas durante la ronda o para los no antagonistas. Solo eres un antagonista solitario si el juego te lo indica de forma directa e inequívoca. Los antagonistas están exentos de muchas reglas de rol, pero no de todas.
+
+  ## Antagonista de equipo
+  Los antagonistas de equipo se parecen a los solitarios, pero cuentan con aliados antagonistas a quienes no deben entorpecer y a quienes quizá estén obligados a ayudar. Solo eres un antagonista de equipo si el juego te lo indica de forma directa e inequívoca.
+
+  ## Agente libre
+  Algunos papeles pueden decidir si actuar como antagonistas o no antagonistas y cambiar de decisión durante la ronda. Solo eres un agente libre si el juego te lo indica de forma directa e inequívoca.
+
+  ## Familiar
+  Los familiares se consideran no antagonistas, pero deben obedecer a un personaje concreto. Han de cumplir sus órdenes aunque esto suponga infringir las reglas de rol o morir. Solo eres un familiar si el juego te lo indica de forma directa e inequívoca, y únicamente del personaje que el juego señale.
+
+  ## Sintético / Sintético alterado
+  Los sintéticos disponen de un conjunto de leyes que deben obedecer por encima de todo, salvo las reglas fundamentales del servidor. Solo eres un sintético si el juego te lo indica de forma directa e inequívoca.
+  Los sintéticos alterados funcionan igual, pero este tipo de papel sirve para señalar conjuntos de leyes pirateados, dañados o, por cualquier otro motivo, anómalos y peligrosos.
+
+  ## Bando corporativo
+  Los papeles del bando corporativo deben servir a los intereses de NanoTrasen y del Mando Central, aunque estos entren en conflicto con los de la tripulación de la estación.
+  Solo perteneces al bando corporativo si el juego te lo indica de forma directa e inequívoca.
+
+  ## FTS (Federación Trans-Solar)
+  Los papeles del bando de la FTS deben servir a los intereses de la Federación Trans-Solar.
+  Solo perteneces al bando de la FTS si el juego te lo indica de forma directa e inequívoca.
+</Document>

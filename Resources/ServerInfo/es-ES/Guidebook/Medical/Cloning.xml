@@ -1,0 +1,23 @@
+<Document>
+# Clonación
+Si todo lo demás falla, habrá que clonar al paciente. La clonación sólo debe utilizarse como último recurso cuando la recuperación sea imposible, por lo general porque el cuerpo ha empezado a pudrirse o presenta una cantidad excesiva de daño.
+
+El proceso es relativamente sencillo, siempre que la red esté configurada. Arrastra el cuerpo hasta el escáner, consulta la consola de clonación y crea el clon. Si ha sufrido daño celular o lleva demasiado tiempo descomponiéndose, el resultado puede ser... desagradable.
+
+Ten en cuenta que la clonación no siempre está disponible y es mejor no depender de ella. 
+<Box>
+<GuideEntityEmbed Entity="ComputerCloningConsole" Caption="Consola de clonación"/>
+<GuideEntityEmbed Entity="MedicalScanner"/>
+<GuideEntityEmbed Entity="CloningPod"/>
+<GuideEntityEmbed Entity="NetworkConfigurator"/>
+</Box>
+## Biomasa
+Crear un clon requiere biomasa, lo que implica, de forma bastante macabra, reciclar materia orgánica. Pueden reciclarse tripulantes sin alma, mascotas de la estación o criaturas hostiles de las que alguien ya se haya «ocupado».
+
+Arrastra un cuerpo con el cursor hasta el reciclador de biomasa para triturarlo y reutilizarlo. Si se trata de un tripulante, lo habitual es quitarle antes la ropa y devolver el equipo de su departamento.
+<Box>
+<GuideEntityEmbed Entity="BiomassReclaimer"/>
+<GuideEntityEmbed Entity="MaterialBiomass"/>
+</Box>
+
+</Document>

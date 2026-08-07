@@ -1,0 +1,17 @@
+<Document>
+  # Vulpkanin
+
+  <Box>
+    <GuideEntityEmbed Entity="MobVulpkanin" Caption=""/>
+  </Box>
+
+  Debido a su pelaje espeso, los vulpkanin [color=#1e90ff]prefieren temperaturas más frías[/color] y [color=#ffa500]se sobrecalientan con mayor rapidez.[/color]
+  Sus ágiles —aunque algo torpes— patas les permiten saltar distancias cortas. ¡Ten cuidado de no chocar contra nada!
+
+  Su dieta les permite comer carne cruda sin peligro, pero la teobromina es venenosa para ellos.
+
+  La forma peculiar de su hocico les dificulta beber, por lo que a veces derraman parte del líquido en el suelo.
+  Dejan huellas características de su especie.
+
+  Reciben [color=#1e90ff]un 15% menos de daño por frío[/color], pero [color=#ffa500]un 15% más de daño por calor.[/color]
+</Document>

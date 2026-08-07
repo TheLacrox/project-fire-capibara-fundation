@@ -1,3 +1,7 @@
+# Fire added - добавлена отсутствовавшая локализация для описаний винтовок Fire
+ent-BaseWeaponRifleSunrise = base rifle
+    .desc = A rooty tooty point and shooty.
+
 ent-WeaponRifleAKMU = AKM-U
     .desc = { ent-BaseWeaponRifle.desc }
 ent-WeaponRifleAK514 = AK-514

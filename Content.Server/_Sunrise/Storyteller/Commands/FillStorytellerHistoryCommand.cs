@@ -10,8 +10,8 @@ namespace Content.Server._Sunrise.Storyteller.Commands;
 public sealed class FillStorytellerHistoryCommand : IConsoleCommand
 {
     public string Command => "fill_storyteller_history";
-    public string Description => "Adds a mock entry for every type of storyteller history event for debugging purposes.";
-    public string Help => "Usage: fill_storyteller_history";
+    public string Description => Loc.GetString("storyteller-debug-history-command-description"); // Fire edit - Локализация команды.
+    public string Help => Loc.GetString("storyteller-debug-history-command-help");
 
     public void Execute(IConsoleShell shell, string argStr, string[] args)
     {
@@ -38,28 +38,28 @@ public sealed class FillStorytellerHistoryCommand : IConsoleCommand
             };
 
             historySystem.LogHistoryEntry(type, locKey, 
-                ("name", "DEBUG_EVENT"), 
-                ("job", "DEBUG_JOB"),
-                ("location", "DEBUG_LOCATION"),
-                ("cause", "DEBUG_CAUSE"),
-                ("severity", "DEBUG_SEVERITY"),
-                ("discipline", "DEBUG_DISCIPLINE"),
-                ("level", "Красный"),
+                ("name", Loc.GetString("storyteller-debug-history-event")),
+                ("job", Loc.GetString("storyteller-debug-history-job")),
+                ("location", Loc.GetString("storyteller-debug-history-location")),
+                ("cause", Loc.GetString("storyteller-debug-history-cause")),
+                ("severity", Loc.GetString("storyteller-debug-history-severity")),
+                ("discipline", Loc.GetString("storyteller-debug-history-discipline")),
+                ("level", Loc.GetString("alert-level-red")),
                 ("color", "#ff0000"));
         }
 
         historySystem.LogHistoryEntry(StorytellerHistoryType.StationEvent, "storyteller-history-alert-level-changed-with-prev", 
-            ("level", "Красный"),
+            ("level", Loc.GetString("alert-level-red")),
             ("color", "#ff0000"),
-            ("prev", "Синий"),
+            ("prev", Loc.GetString("alert-level-blue")),
             ("prevColor", "#0000ff"),
             ("duration", 10));
 
         historySystem.LogHistoryEntry(StorytellerHistoryType.StationEvent, "storyteller-history-nuke-armed", 
-            ("location", "Капитанская"));
+            ("location", Loc.GetString("storyteller-debug-history-captain-quarters")));
             
         historySystem.LogHistoryEntry(StorytellerHistoryType.StationEvent, "storyteller-history-nuke-disarmed");
 
-        shell.WriteLine("Added debug history entries.");
+        shell.WriteLine(Loc.GetString("storyteller-debug-history-command-success"));
     }
 }

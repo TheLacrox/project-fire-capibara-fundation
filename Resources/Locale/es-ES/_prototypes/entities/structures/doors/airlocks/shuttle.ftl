@@ -1,0 +1,9 @@
+ent-AirlockGlassShuttle = esclusa exterior
+    .desc = Necesaria para unir dos naves espaciales.
+    .suffix = Cristal, acoplamiento
+ent-AirlockGlassShuttleSyndicate = esclusa exterior
+    .desc = Necesaria para unir dos naves espaciales.
+    .suffix = Cristal, acoplamiento
+ent-AirlockShuttleSyndicate = esclusa exterior
+    .desc = Necesaria para unir dos naves espaciales.
+    .suffix = Acoplamiento

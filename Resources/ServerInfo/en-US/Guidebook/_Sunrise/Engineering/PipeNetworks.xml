@@ -1,0 +1,41 @@
+﻿<Document>
+  # Pipe Networks
+  Pipe networks, commonly called pipenets, are a series of connected [textlink="pipes" link="Pipes"] that usually perform a common task.
+
+  <Box>
+    <GuideEntityEmbed Entity="GasPipeStraight" Caption=""/>
+    <GuideEntityEmbed Entity="GasPipeHalf" Caption=""/>
+    <GuideEntityEmbed Entity="GasPipeBend" Caption=""/>
+    <GuideEntityEmbed Entity="GasPipeTJunction" Caption=""/>
+    <GuideEntityEmbed Entity="GasPipeFourway" Caption=""/>
+    <GuideEntityEmbed Entity="GasPressurePump" Caption=""/>
+    <GuideEntityEmbed Entity="GasVolumePump" Caption=""/>
+  </Box>
+
+  Pipenets are used throughout the station to supply, remove, or otherwise transport gas.
+  Good examples are the station's Distro and Wastenet, which supply breathable air and remove waste gases, respectively.
+
+  ## How pipe networks work
+  In Space Station 14, a pipenet behaves as a single defined volume with entry and exit points at the ends of the network.
+  Forcing gas into or out of a pipenet with a [textlink="pump" link="Pumps"] affects the entire network, not just the pipe to which it is connected.
+
+  Pipenets are only separated by devices capable of interrupting flow or by certain special devices.
+  For example, a [textlink="pressure pump" link="Pumps"] will not allow gas to pass through if it is unpowered or has nothing to pump.
+
+  Examples of devices that separate pipe networks include:
+  - [textlink="Pressure and volume pumps" link="Pumps"]
+  - [textlink="Gas mixers and filters" link="MixingAndFiltering"]
+  - [textlink="All valves" link="Valves"]
+  - [textlink="Radiators" link="Radiators"]
+
+  Below is an example of a pipenet divided into two separate pipenets by a [textlink="pump" link="Pumps"]:
+
+  <Box>
+    <GuideEntityEmbed Entity="GasPipeStraight" Caption="Pipenet 1" Rotation="90"/>
+    <GuideEntityEmbed Entity="GasPipeStraight" Caption="" Rotation="90"/>
+    <GuideEntityEmbed Entity="GasPressurePump" Caption="Network separator" Rotation="90"/>
+    <GuideEntityEmbed Entity="GasPipeStraight" Caption="" Rotation="90"/>
+    <GuideEntityEmbed Entity="GasPipeStraight" Caption="Pipenet 2" Rotation="90"/>
+  </Box>
+
+</Document>

@@ -105,8 +105,14 @@ namespace Content.Client.Arcade
             if (message is SharedSpaceVillainArcadeComponent.SpaceVillainArcadeMetaDataUpdateMessage metaMessage)
                 UpdateMetadata(metaMessage);
 
-            _playerInfoLabel.Text = $"HP: {message.PlayerHP} MP: {message.PlayerMP}";
-            _enemyInfoLabel.Text = $"HP: {message.EnemyHP} MP: {message.EnemyMP}";
+            // Fire edit start - локализация показателей здоровья и магии
+            _playerInfoLabel.Text = Loc.GetString("spacevillain-menu-stats",
+                ("health", message.PlayerHP),
+                ("magic", message.PlayerMP));
+            _enemyInfoLabel.Text = Loc.GetString("spacevillain-menu-stats",
+                ("health", message.EnemyHP),
+                ("magic", message.EnemyMP));
+            // Fire edit end
             _playerActionLabel.Text = message.PlayerActionMessage;
             _enemyActionLabel.Text = message.EnemyActionMessage;
         }

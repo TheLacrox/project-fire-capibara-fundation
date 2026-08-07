@@ -1,0 +1,16 @@
+<Document>
+  # Reptilians
+
+  <Box>
+    <GuideEntityEmbed Entity="MobReptilian" Caption=""/>
+  </Box>
+
+  They can ONLY eat fruit and meat, but can safely consume raw meat and drink blood.
+  They prefer slightly higher temperatures than humans.
+  They can drag objects with their tails, leaving both hands free.
+
+  Their unarmed claw attacks deal slash damage instead of blunt damage.
+
+  They take [color=#ffa500]30% more cold damage.[/color]
+
+</Document>

@@ -1,6 +1,8 @@
+# Fire edit - локализуемые названия карты и станции
 - type: gameMap
   id: ScpComplexModular
-  mapName: 'Комплекс типа - Modular'
+  mapName: 'Modular-type complex'
+  mapNameLocId: map-name-scp-complex-modular
   mapPath: /Maps/_Scp/scp_complex_modular.yml
   maxRandomOffset: 0
   randomRotation: false
@@ -10,12 +12,14 @@
       stationProto: ScpComplexModular
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Участок-{0} тип - Modular'
+          mapNameTemplate: 'Site-{0}, Modular type'
+          stationNameTemplateLocId: station-name-template-scp-complex-modular
           nameGenerator:
             !type:ScpSiteNameGenerator
             prefixCreator: '15'
         - type: StationEmergencyShuttle
           emergencyShuttlePath: /Maps/_Scp/Shuttles/emergency_complex.yml
+          emergencyShuttleName: grid-name-scp-armored-emergency-shuttle
         - type: StationJobs
           availableJobs:
             # SCP

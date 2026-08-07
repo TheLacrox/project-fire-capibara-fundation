@@ -1,0 +1,31 @@
+﻿<Document>
+  # Capacidades de SCP-082
+
+  Aquí se describen las capacidades activas disponibles para el objeto y sus mecánicas exclusivas.
+
+  [textlink="Información general sobre Fernand" link="Scp082About"]
+
+  ## Capacidad para forzar esclusas
+
+  Al activar esta capacidad sobre una esclusa, la fuerzas y la abres de par en par.
+  Solo está disponible durante la última fase de ira. Úsala para abrir esclusas que de otro modo serían inaccesibles.
+
+  [bold]Para activar esta capacidad, pulsa E sobre la esclusa. Después, quédate quieto durante unos segundos, hasta que se complete la barra de progreso situada sobre tu cabeza.[/bold]
+
+  ## Capacidad para devorar cadáveres
+
+  Al activar esta capacidad, Fernand devora el cadáver de una persona.
+  Solo está disponible durante la última fase de ira.
+
+  [bold]Para activar esta capacidad, haz clic derecho sobre un cadáver y pulsa «Comer» en el menú contextual. Después, quédate quieto durante unos segundos, hasta que se complete la barra de progreso situada sobre tu cabeza.[/bold]
+
+  ## Mecánica de ira
+
+  Con el tiempo, el objeto empezará a tener hambre. A medida que aumente su hambre, su daño y su velocidad de ataque se multiplicarán. Un texto emergente rojo te avisará de que estás hambriento.
+  Durante la última fase de ira, el personal de Seguridad ya no puede agarrar a Fernand.
+
+  Esta mecánica permite a Fernand iniciar una fuga.
+
+  [textlink="Más información sobre los métodos de fuga" link="Scp082ContainmentBreach"]
+
+</Document>

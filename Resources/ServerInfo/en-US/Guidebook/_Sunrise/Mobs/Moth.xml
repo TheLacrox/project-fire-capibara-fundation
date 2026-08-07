@@ -1,0 +1,21 @@
+<Document>
+  # Moths
+
+  <Box>
+    <GuideEntityEmbed Entity="MobMoth" Caption=""/>
+  </Box>
+
+  They can eat cotton, cloth, and clothing, but almost none of what others consider "food." They prefer slightly lower temperatures than humans.
+  Their insectoid blood cannot be replenished with iron like ordinary blood.
+
+  Their wings give them better acceleration without gravity aboard the station, though they still cannot move through open space without equipment.
+
+  They take [color=#1e90ff]30% less cold damage[/color], but [color=#ffa500]20% more heat damage and catch fire more easily[/color].
+  <Box>
+    <GuideEntityEmbed Entity="MobMothroach" Caption=""/>
+    <GuideEntityEmbed Entity="LightBulb" Caption=""/>
+    <GuideEntityEmbed Entity="MobMothroach" Caption=""/>
+    <GuideEntityEmbed Entity="LightBulb" Caption=""/>
+    <GuideEntityEmbed Entity="MobMothroach" Caption=""/>
+  </Box>
+</Document>

@@ -1,0 +1,41 @@
+﻿<Document>
+  # Redes de tuberías
+  Las redes de tuberías, llamadas habitualmente «pipenets», son conjuntos de [textlink="tuberías" link="Pipes"] interconectadas que suelen cumplir una función común.
+
+  <Box>
+    <GuideEntityEmbed Entity="GasPipeStraight" Caption=""/>
+    <GuideEntityEmbed Entity="GasPipeHalf" Caption=""/>
+    <GuideEntityEmbed Entity="GasPipeBend" Caption=""/>
+    <GuideEntityEmbed Entity="GasPipeTJunction" Caption=""/>
+    <GuideEntityEmbed Entity="GasPipeFourway" Caption=""/>
+    <GuideEntityEmbed Entity="GasPressurePump" Caption=""/>
+    <GuideEntityEmbed Entity="GasVolumePump" Caption=""/>
+  </Box>
+
+  Las redes se utilizan por toda la estación para suministrar, retirar o transportar gases.
+  Buenos ejemplos son Distro y Wastenet: la primera suministra aire respirable y la segunda retira los gases residuales.
+
+  ## Funcionamiento de las redes de tuberías
+  En Space Station 14, una red de tuberías se comporta como un único volumen definido, con puntos de entrada y salida en sus extremos.
+  Introducir o extraer gas a la fuerza mediante una [textlink="bomba" link="Pumps"] afecta a toda la red, no solo a la tubería a la que está conectada.
+
+  Las redes solo quedan separadas por dispositivos capaces de interrumpir el flujo o por ciertos dispositivos especiales.
+  Por ejemplo, una [textlink="bomba de presión" link="Pumps"] no dejará pasar gas si no recibe energía o no tiene nada que bombear.
+
+  Algunos dispositivos que separan redes de tuberías son:
+  - [textlink="Bombas de presión y volumétricas" link="Pumps"]
+  - [textlink="Mezcladores y filtros de gas" link="MixingAndFiltering"]
+  - [textlink="Todas las válvulas" link="Valves"]
+  - [textlink="Radiadores" link="Radiators"]
+
+  A continuación se muestra una red dividida en dos redes independientes mediante una [textlink="bomba" link="Pumps"]:
+
+  <Box>
+    <GuideEntityEmbed Entity="GasPipeStraight" Caption="Red 1" Rotation="90"/>
+    <GuideEntityEmbed Entity="GasPipeStraight" Caption="" Rotation="90"/>
+    <GuideEntityEmbed Entity="GasPressurePump" Caption="Separador de redes" Rotation="90"/>
+    <GuideEntityEmbed Entity="GasPipeStraight" Caption="" Rotation="90"/>
+    <GuideEntityEmbed Entity="GasPipeStraight" Caption="Red 2" Rotation="90"/>
+  </Box>
+
+</Document>

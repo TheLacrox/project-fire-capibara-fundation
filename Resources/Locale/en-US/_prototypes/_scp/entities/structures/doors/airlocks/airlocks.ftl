@@ -57,7 +57,8 @@ ent-ScpAirlockLaboratoryGlass = { ent-ScpAirlockMedicalGlass }
 ent-ScpAirlockMedicalGlass = { ent-ScpAirlockGlass }
     .suffix = SCP Medical
     .desc = { ent-ScpAirlockGlass.desc }
-ent-ScpAirlockVirologyGlass = { ent-ScpAirllockMedicalGlass }
+# Fire edit - исправлена ссылка для резервной английской локализации es-ES
+ent-ScpAirlockVirologyGlass = { ent-ScpAirlockMedicalGlass }
     .suffix = SCP Virology
     .desc = { ent-ScpAirlockMedicalGlass.desc }
 ent-ScpAirlockEngineeringGlass = { ent-ScpAirlockGlass }

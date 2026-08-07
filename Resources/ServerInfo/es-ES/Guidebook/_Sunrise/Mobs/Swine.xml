@@ -1,0 +1,16 @@
+<Document>
+  # Trottins
+
+  <Box>
+    <GuideEntityEmbed Entity="MobSwine" Caption=""/>
+  </Box>
+
+  Los trottins sienten hambre y sed con rapidez.
+  Son más lentos que otros humanoides y tienen un acento característico.
+  Dejan huellas de pezuñas.
+  Su umbral de estado crítico por salud es más alto de lo normal, al igual que su umbral crítico de resistencia.
+
+  Reciben [color=#1e90ff]un 20% menos de daño contundente y cortante[/color],
+  y también [color=#1e90ff]un 20% menos de daño por frío[/color].
+
+</Document>

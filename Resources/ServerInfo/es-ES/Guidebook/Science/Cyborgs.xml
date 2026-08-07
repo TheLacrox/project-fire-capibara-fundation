@@ -1,0 +1,65 @@
+<Document>
+  # Cíborgs
+  Los cíborgs son híbridos entre máquina y ser humano, construidos expresamente por la división de [textlink="Robótica"  link="Robotics"] de Ciencia para desempeñar distintas tareas por toda la estación. Sujetos a unas [color=cyan]leyes de silicio[/color] que obedecen de forma estricta, sirven incondicionalmente a la tripulación. [italic](Casi siempre.)[italic]
+
+  ## Componentes básicos
+  <Box>
+    <GuideEntityEmbed Entity="CyborgEndoskeleton" Caption="Endoesqueleto de cíborg"/>
+    <GuideEntityEmbed Entity="ExosuitFabricator" Caption="Fabricador de exotrajes"/>
+  </Box>
+  Todos los cíborgs se construyen sobre un endoesqueleto fabricado en un [color=#a4885c]fabricador de exotrajes[/color]. Puedes [color=#a4885c]examinar[/color] el endoesqueleto para consultar los siguientes pasos del montaje. Una vez construido, podrás añadir mejoras como herramientas adicionales y una batería de mayor duración mediante módulos o baterías superiores.
+
+  Los cíborgs recién construidos necesitan un [color=#a4885c]cerebro[/color] capaz de conectarse al cuerpo electrónico. Existen dos tipos principales y ambos pueden hablar por sí solos si el chasis se retira del servicio, se sustituye o sufre algún desmontaje imprevisto.
+  - La [color=#a4885c]interfaz hombre-máquina[/color], abreviada IHM, permite que un cerebro biológico se comunique con componentes electrónicos. Gracias a ella, quienes hayan sufrido accidentes laborales graves pueden seguir sirviendo a la tripulación mucho después de perder el cuerpo.
+  - El [color=#a4885c]cerebro positrónico[/color] es completamente artificial y puede generar actividad neuronal espontánea. Sus neuronas sintéticas tardan un tiempo muy variable en ordenarse, pero permite crear cíborgs sin extraerle el cerebro a un tripulante.
+  <Box>
+    <GuideEntityEmbed Entity="MMIFilled" Caption="Interfaz hombre-máquina"/>
+    <GuideEntityEmbed Entity="PositronicBrain" Caption="Cerebro positrónico"/>
+  </Box>
+  Ambos cerebros pueden fabricarse sin investigación adicional.
+
+  ## Tipos de cíborg
+  Una vez creado, el cíborg debe especializar su chasis para una tarea de la estación. La especialización determina los módulos iniciales, qué módulos adicionales admite y a qué [color=#a4885c]canal de radio departamental[/color] puede acceder. Todos los cíborgs tienen acceso a los canales de [color=#D381C9]Ciencia[/color] y [color=green]general de la estación[/color]. Todos los tipos de cíborg disponen de [color=#a4885c]acceso total[/color].
+  <Box>
+    <GuideEntityEmbed Entity="BorgChassisGeneric" Caption="Genérico"/>
+    <GuideEntityEmbed Entity="BorgChassisEngineer" Caption="Ingeniería"/>
+    <GuideEntityEmbed Entity="BorgChassisMining" Caption="Salvamento"/>
+    <GuideEntityEmbed Entity="BorgChassisJanitor" Caption="Limpieza"/>
+    <GuideEntityEmbed Entity="BorgChassisService" Caption="Servicio"/>
+    <GuideEntityEmbed Entity="BorgChassisMedical" Caption="Medicina"/>
+  </Box>
+  <Box>
+    [italic]Ejemplos de distintos tipos de cíborg[/italic]
+  </Box>
+  Después de especializar un chasis no podrás cambiar su tipo. Para hacerlo tendrás que construir otro chasis, aunque puedes reutilizar el cerebro, la batería y los módulos [italic](si son compatibles con el nuevo chasis)[/italic].
+
+  ## Módulos
+  <Box>
+    <GuideEntityEmbed Entity="BorgModuleTool" Caption="Módulo de herramientas para cíborg"/>
+  </Box>
+  Los cíborgs no tienen manos y, por tanto, no pueden recoger objetos como la mayoría de los jugadores. En su lugar, obtienen equipo mediante distintos [color=#a4885c]módulos[/color]. Cada tipo comienza con un conjunto concreto, pero se pueden insertar módulos adicionales como mejoras. Estos módulos se imprimen en el [color=#a4885c]fabricador de exotrajes[/color].
+
+  Los módulos [color=#a4885c]genéricos[/color] aumentan la versatilidad. Pueden instalarse en cualquier chasis y proporcionan herramientas útiles como palancas, GPS y la capacidad de manipular cables. [bold]El chasis de cíborg genérico admite hasta cinco módulos adicionales.[/bold]
+  <Box>
+    <GuideEntityEmbed Entity="BorgModuleCable" Caption="Cables"/>
+    <GuideEntityEmbed Entity="BorgModuleFireExtinguisher" Caption="Extintor"/>
+  </Box>
+  <Box>
+    [italic]Ejemplos de módulos genéricos[/italic]
+  </Box>
+
+  Para necesidades concretas existen módulos [color=#a4885c]especializados[/color], que permiten escanear anomalías, construir paredes, reanimar tripulantes o limpiar un vertido de lubricante espacial. Suelen usar los colores del departamento [italic](o profesión)[/italic] correspondiente. [italic]Salvo los módulos de [color=#D381C9]Ciencia[/color], que encajan en cualquier chasis,[/italic] los demás sólo pueden instalarse en el chasis asociado. [bold]Los chasis especializados —Ingeniería, Limpieza, Servicio, Medicina y Minería— admiten hasta tres módulos adicionales.[/bold]
+  <Box>
+    <GuideEntityEmbed Entity="BorgModuleAnomaly" Caption="Anomalías"/>
+    <GuideEntityEmbed Entity="BorgModuleRCD" Caption="RCD"/>
+    <GuideEntityEmbed Entity="BorgModuleMining" Caption="Minería"/>
+    <GuideEntityEmbed Entity="BorgModuleCleaning" Caption="Limpieza"/>
+    <GuideEntityEmbed Entity="BorgModuleService" Caption="Servicio"/>
+    <GuideEntityEmbed Entity="BorgModuleChemical" Caption="Química"/>
+  </Box>
+  <Box>
+    [italic]Ejemplos de módulos especializados. Observa los colores de la carcasa y la placa de circuito.
+  </Box>
+  Los científicos pueden investigar nuevas [textlink="tecnologías"  link="Technologies"] para obtener más módulos con funciones avanzadas o novedosas.
+</Document>
+

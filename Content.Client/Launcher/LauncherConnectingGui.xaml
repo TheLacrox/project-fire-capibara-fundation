@@ -18,10 +18,10 @@
             <BoxContainer Orientation="Vertical" Margin="0 5">
                 <controls:StripeBack>
                     <BoxContainer Orientation="Vertical" Margin="4 8">
-                        <Label Text="Наше сообщество!"
+                        <Label Text="{Loc 'fire-launcher-community'}"
                                StyleClasses="LabelHeadingBigger"
                                HorizontalAlignment="Center"/>
-                        <Label Text="Присоединяйтесь к нам!"
+                        <Label Text="{Loc 'fire-launcher-join-us'}"
                                StyleClasses="LabelSubText"
                                HorizontalAlignment="Center"/>
                     </BoxContainer>
@@ -185,7 +185,7 @@
                     <controls:StripeBack>
                         <BoxContainer Orientation="Horizontal">
                             <Label HorizontalExpand="True"
-                                   Text="Сейчас играет: 0/0"
+                                   Text="{Loc 'fire-ui-now-playing-placeholder'}"
                                    Name="ServersHubHeaderLabel"
                                    VAlign="Center"
                                    StyleClasses="LabelBigger"
@@ -217,7 +217,7 @@
                             Margin="0 5"
                             HorizontalAlignment="Center">
                     <Label Name="LoginTipTitle"
-                           Text="Tip"
+                           Text="{Loc 'fire-launcher-tip'}"
                            StyleClasses="LabelBigger"
                            Align="Center"
                            HorizontalAlignment="Center"

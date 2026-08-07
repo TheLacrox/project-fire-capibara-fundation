@@ -1,0 +1,17 @@
+marking-SlimeCatEars = Orejas de gato de limo
+marking-SlimeCatTail = Cola de gato de limo
+marking-SlimeCatTail-slime_tail_cat_wag = Cola de gato de limo
+marking-SlimeCatEars-ears_slime_cat_outer = Oreja exterior
+marking-SlimeCatEars-ears_slime_cat_inner = Oreja interior
+marking-SlimeCatTailStripes = Cola de gato de limo (a rayas)
+marking-SlimeCatTailStripes-slime_tail_cat_wag_stripes_prime = Rayas primarias
+marking-SlimeCatTailStripes-slime_tail_cat_wag_stripes_second = Rayas secundarias
+marking-SlimeCatEarsStubby = Orejas de gato de limo cortas
+marking-SlimeCatEarsStubby-ears_slime_stubby_outer = Oreja exterior
+marking-SlimeCatEarsStubby-ears_slime_stubby_inner = Oreja interior
+marking-SlimeCatEarsCurled = Orejas de gato de limo curvadas
+marking-SlimeCatEarsCurled-ears_slime_curled_outer = Oreja exterior
+marking-SlimeCatEarsCurled-ears_slime_curled_inner = Oreja interior
+marking-SlimeCatEarsTorn = Orejas de gato de limo rasgadas
+marking-SlimeCatEarsTorn-ears_slime_torn_outer = Oreja exterior
+marking-SlimeCatEarsTorn-ears_slime_torn_inner = Oreja interior

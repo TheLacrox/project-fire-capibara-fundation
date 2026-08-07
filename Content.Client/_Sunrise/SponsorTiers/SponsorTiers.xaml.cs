@@ -44,7 +44,10 @@ public sealed partial class SponsorTiers : Control
             var sponsorTier = sponsorTiers[i];
             var entry = new SponsorTierEntry(sponsorTier, i);
             SponsorTiersContainer.AddChild(entry);
-            SponsorTiersContainer.SetTabTitle(i, sponsorTier.Title ?? "No Title");
+            // Fire edit start: локализация заголовка отсутствующего уровня спонсора
+            SponsorTiersContainer.SetTabTitle(i,
+                sponsorTier.Title ?? Loc.GetString("fire-sponsor-tier-no-title"));
+            // Fire edit end
             var stylesheet = IoCManager.Resolve<IStylesheetManager>().SheetNano;
             var notoSans20 = _resourceCache.GetFont(
                 [

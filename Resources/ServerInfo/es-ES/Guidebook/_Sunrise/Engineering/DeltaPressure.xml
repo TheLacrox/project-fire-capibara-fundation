@@ -1,0 +1,69 @@
+﻿<Document>
+  # Diferencia de presión
+  La diferencia de presión, o ΔP, es la diferencia entre la presión de dos zonas.
+  Puede generar una fuerza que actúa sobre los objetos situados entre ambas y causa [bold]daño por presión[/bold] a algunos de ellos.
+
+  Diversos objetos de vidrio, como ventanas, puertas-ventana y persianas, pueden sufrir daño por presión si la ΔP entre sus dos lados es lo bastante alta.
+  Este daño puede romperlos y permitir que el gas fluya libremente entre las zonas.
+
+  Cada tipo de objeto soporta un umbral de ΔP distinto antes de romperse.
+  Por lo general, cuanto más resistente sea el vidrio, mayor será el umbral. Los objetos delgados también tienen umbrales más bajos.
+
+  Las paredes, esclusas y compuertas cortafuegos no se ven afectadas por la ΔP.
+
+  ## Vidrio normal y otros objetos
+  <Box>
+    <GuideEntityEmbed Entity="Window" Caption=""/>
+    <GuideEntityEmbed Entity="WindowDirectional" Caption=""/>
+    <GuideEntityEmbed Entity="Windoor" Caption=""/>
+    <GuideEntityEmbed Entity="ShuttersWindow" Caption=""/>
+    <GuideEntityEmbed Entity="InflatableWall" Caption=""/>
+  </Box>
+
+  Los paneles de vidrio normal de tamaño completo y otros objetos débiles soportan una ΔP de hasta [color=orange][protodata="Window" comp="DeltaPressure" member="MinPressureDelta"/] kPa[/color] antes de empezar a agrietarse.
+
+  Los paneles de vidrio de un cuarto de tamaño, como las ventanas direccionales, soportan una ΔP de hasta [color=orange][protodata="WindowDirectional" comp="DeltaPressure" member="MinPressureDelta"/] kPa[/color] antes de empezar a agrietarse.
+
+  ## Vidrio reforzado y otros objetos
+  <Box>
+    <GuideEntityEmbed Entity="ReinforcedWindow" Caption=""/>
+    <GuideEntityEmbed Entity="WindowReinforcedDirectional" Caption=""/>
+    <GuideEntityEmbed Entity="WindoorSecure" Caption=""/>
+    <GuideEntityEmbed Entity="ShuttleWindow" Caption=""/>
+  </Box>
+
+  Los paneles de vidrio reforzado de tamaño completo soportan una ΔP de hasta [color=orange][protodata="ReinforcedWindow" comp="DeltaPressure" member="MinPressureDelta"/] kPa[/color] antes de empezar a agrietarse.
+
+  Los paneles de vidrio reforzado de un cuarto de tamaño soportan una ΔP de hasta [color=orange][protodata="WindowReinforcedDirectional" comp="DeltaPressure" member="MinPressureDelta"/] kPa[/color] antes de empezar a agrietarse.
+
+  ## Vidrio de plasma y de uranio
+  <Box>
+    <GuideEntityEmbed Entity="PlasmaWindow" Caption=""/>
+    <GuideEntityEmbed Entity="PlasmaWindowDirectional" Caption=""/>
+    <GuideEntityEmbed Entity="WindoorPlasma" Caption=""/>
+    <GuideEntityEmbed Entity="UraniumWindow" Caption=""/>
+    <GuideEntityEmbed Entity="UraniumWindowDirectional" Caption=""/>
+    <GuideEntityEmbed Entity="WindoorUranium" Caption=""/>
+  </Box>
+
+  Los paneles de vidrio de plasma y de uranio soportan una ΔP de hasta [color=orange][protodata="PlasmaWindow" comp="DeltaPressure" member="MinPressureDelta"/] kPa[/color] antes de empezar a agrietarse.
+
+  Los paneles de vidrio de plasma y de uranio de un cuarto de tamaño soportan una ΔP de hasta [color=orange][protodata="PlasmaWindowDirectional" comp="DeltaPressure" member="MinPressureDelta"/] kPa[/color] antes de empezar a agrietarse.
+
+  ## Vidrio reforzado de plasma y de uranio
+
+  <Box>
+    <GuideEntityEmbed Entity="ReinforcedPlasmaWindow" Caption=""/>
+    <GuideEntityEmbed Entity="PlasmaReinforcedWindowDirectional" Caption=""/>
+    <GuideEntityEmbed Entity="WindoorSecurePlasma" Caption=""/>
+    <GuideEntityEmbed Entity="ReinforcedUraniumWindow" Caption=""/>
+    <GuideEntityEmbed Entity="UraniumReinforcedWindowDirectional" Caption=""/>
+    <GuideEntityEmbed Entity="WindoorSecureUranium" Caption=""/>
+
+  </Box>
+
+  Los paneles de vidrio reforzado de plasma y de uranio soportan una ΔP de hasta [color=orange][protodata="ReinforcedPlasmaWindow" comp="DeltaPressure" member="MinPressureDelta"/] kPa[/color] antes de empezar a agrietarse.
+
+  Los paneles de vidrio reforzado de plasma y de uranio de un cuarto de tamaño soportan una ΔP de hasta [color=orange][protodata="PlasmaReinforcedWindowDirectional" comp="DeltaPressure" member="MinPressureDelta"/] kPa[/color] antes de empezar a agrietarse.
+
+</Document>

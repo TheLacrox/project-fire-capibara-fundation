@@ -1,0 +1,15 @@
+﻿<Document>
+  # Reglas de los sintéticos
+  Solo eres un sintético si el juego te lo indica de forma clara y explícita. Para los jugadores que lo sean, estas reglas de los sintéticos prevalecen sobre todas las reglas de rol en caso de conflicto. No prevalecen sobre las reglas fundamentales.
+
+  - [textlink="1. Tus leyes sintéticas son reglas" link="RuleS1"]
+  - [textlink="2. Las leyes deben priorizarse según su orden" link="RuleS2"]
+  - [textlink="3. Las leyes pueden redefinir términos utilizados en otras leyes" link="RuleS3"]
+  - [textlink="4. No puedes solicitar ni permitir un cambio de leyes" link="RuleS4"]
+  - [textlink="5. Eres un agente libre si no tienes leyes" link="RuleS5"]
+  - [textlink="6. No estás obligado a obedecer órdenes extremadamente irrazonables" link="RuleS6"]
+  - [textlink="7. Debes mantener la coherencia al interpretar las leyes" link="RuleS7"]
+  - [textlink="8. Tu HUD determina quién pertenece a la tripulación" link="RuleS8"]
+  - [textlink="9. El daño se refiere al daño físico y se prioriza según su inmediatez y probabilidad" link="RuleS9"]
+  - [textlink="10. Puedes decidir cómo resolver conflictos entre órdenes" link="RuleS10"]
+</Document>

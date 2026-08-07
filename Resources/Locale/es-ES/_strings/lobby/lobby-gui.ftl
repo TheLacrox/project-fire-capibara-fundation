@@ -1,0 +1,10 @@
+ui-lobby-welcome = Te damos la bienvenida a { $name }
+ui-lobby-title = Sala de espera: { $serverName }
+ui-lobby-ahelp-button = Ayuda de administración
+ui-lobby-options-button = Opciones
+ui-lobby-leave-button = Salir
+ui-lobby-replays-button = Repeticiones
+ui-lobby-observe-button = Observar
+ui-lobby-ready-up-button = Prepararse
+ui-lobby-online-players-block = Jugadores conectados
+ui-lobby-server-info-block = Información del servidor

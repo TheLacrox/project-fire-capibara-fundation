@@ -1,0 +1,12 @@
+tts-preview-sample-1 = The quick brown fox jumps over the lazy dog.
+tts-preview-sample-2 = Clown, stop scattering banana peels under the security officers' feet!
+tts-preview-sample-3 = Captain, are you sure you want to appoint the clown as head of personnel?
+tts-preview-sample-4 = Security! There's someone in a gray suit, carrying a toolbox and wearing a mask! Help!
+tts-preview-sample-5 = Scientists, there is a strange anomaly in the bar! It has already eaten the mime!
+tts-preview-sample-6 = I hope the engineers are keeping a close eye on the singularity...
+tts-preview-sample-7 = Did you hear those strange screams in maintenance? I don't think it is safe to go there.
+tts-preview-sample-8 = Have you seen Hamlet? I think he ran into your kitchen.
+tts-preview-sample-9 = Is there a doctor here? Someone is dying from a poisoned doughnut! We need help!
+tts-preview-sample-10 = You need the quartermaster's approval and stamp if you want to order a shipment of shotguns.
+tts-preview-sample-11 = There is a breach near the evacuation shuttle! Engineers, we need your help immediately!
+tts-preview-sample-12 = Bartender, pour me the strongest wine you have in stock!

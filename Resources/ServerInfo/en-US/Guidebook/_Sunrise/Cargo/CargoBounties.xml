@@ -1,0 +1,44 @@
+<Document>
+  # Cargo Bounties
+  While [textlink="Cargo" link="Cargo"] can earn [color=cyan]spesos[/color] by selling almost anything, even more money can be made by completing [color=cyan]bounties[/color] issued by the [color=cyan]Cargo Bounty Computer[/color].
+
+  ## Starting Bounties
+
+  <Box>
+    <GuideEntityEmbed Entity="ComputerCargoBounty"/>
+    <GuideEntityEmbed Entity="PaperCargoBountyManifest"/>
+  </Box>
+
+  To start a bounty, interact with the [color=cyan]Cargo Bounty Computer[/color]. It displays the current bounties, and you can either print a label or skip one.
+
+  - Printing a label gives you a [color=cyan]Bounty Manifest[/color] listing the goods you need to obtain. You can print the label as many times as you like; just do not take over a bounty another technician has recently started.
+  - Skipping replaces the current bounty with a new one, as only six can be active at once. Skipping has a 15-minute cooldown and voids the old bounty, which may anger other technicians.
+
+  ## Fulfilling Bounties
+
+  <Box>
+    <GuideEntityEmbed Entity="PaperCargoBountyManifest"/>
+    <GuideEntityEmbed Entity="CrateGenericSteel"/>
+    <GuideEntityEmbed Entity="AppraisalTool"/>
+  </Box>
+
+  Once you have a [color=cyan]Bounty Manifest[/color], all that remains is to gather the required goods. Most departments will hand them over if you show them the Manifest.
+
+  After collecting everything, return to Cargo and place it all in an empty [color=cyan]Crate[/color]. Close the crate and attach the Manifest to it.
+
+  To confirm that the bounty is complete, use the [color=cyan]Appraisal Tool[/color] on the crate. It should report that the bounty has been fulfilled.
+
+  ## Selling Bounties
+
+  <Box>
+    <GuideEntityEmbed Entity="PaperCargoBountyManifest"/>
+    <GuideEntityEmbed Entity="CrateGenericSteel"/>
+    <GuideEntityEmbed Entity="CargoPalletSell"/>
+  </Box>
+
+  Once you have verified that the bounty is complete, proceed as you would with a normal sale.
+
+  Take the shipment to the [color=cyan]Trading Station[/color], sell it, and you are done!
+
+  When you return, a new bounty will be waiting in its place.
+</Document>

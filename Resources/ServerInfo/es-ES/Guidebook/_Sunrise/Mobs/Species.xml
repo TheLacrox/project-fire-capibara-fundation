@@ -1,0 +1,34 @@
+<Document>
+  # Especies
+
+  Nanotrasen emplea a muchas especies inteligentes.
+
+  <Box>
+    <GuideEntityEmbed Entity="MobArachnid" Caption="Arácnido"/>
+    <GuideEntityEmbed Entity="MobDiona" Caption="Diona"/>
+    <GuideEntityEmbed Entity="MobDwarf" Caption="Enano"/>
+    <GuideEntityEmbed Entity="MobHuman" Caption="Humano"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="MobMoth" Caption="Persona polilla"/>
+    <GuideEntityEmbed Entity="MobReptilian" Caption="Reptiliano"/>
+    <GuideEntityEmbed Entity="MobSlimePerson" Caption="Persona slime"/>
+    <GuideEntityEmbed Entity="MobVox" Caption="Vox"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="MobVulpkanin" Caption="Vulpkanin"/>
+    <GuideEntityEmbed Entity="MobFelinid" Caption="Felínido"/>
+    <GuideEntityEmbed Entity="MobSwine" Caption="Trottin"/>
+    <GuideEntityEmbed Entity="MobTajaran" Caption="Tajara"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="MobPredator" Caption="Yautja"/>
+    <GuideEntityEmbed Entity="MobXenoDummy" Caption="Xenomorfo"/>
+    <GuideEntityEmbed Entity="MobDemon" Caption="Arcana"/>
+    <GuideEntityEmbed Entity="MobResomi" Caption="Resomi"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="MobMilira" Caption="Milira"/>
+  </Box>
+
+</Document>

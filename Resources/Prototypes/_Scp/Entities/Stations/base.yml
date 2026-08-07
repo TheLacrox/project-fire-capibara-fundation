@@ -27,6 +27,7 @@
   components:
   - type: StationCentComm
     station: AdminFaxBase
+    gridName: grid-name-scp-command-offices
     shuttleWhitelist:
       components:
       - CentCommShuttle
@@ -38,5 +39,7 @@
   components:
   - type: StationTransitHub
     map: /Maps/_Scp/transithub.yml
+    gridName: map-name-scp-transit-hub
+    warpPointName: map-name-scp-transit-hub
     biomes:
     - Snow

@@ -1,0 +1,23 @@
+﻿<Document>
+  # Inlet pressure regulator
+  An inlet pressure regulator is a passive device that allows gas to leave a [textlink="pipe network" link="PipeNetworks"] when the pressure exceeds a set threshold.
+
+  <Box>
+    <GuideEntityEmbed Entity="GasPressureRegulator"/>
+  </Box>
+
+  ## Operation
+  The valve automatically [color=green]opens[/color] when pipe pressure exceeds the set threshold, allowing gas to escape into the connected outlet pipe.
+
+  The valve [color=red]closes[/color] again when pressure falls below the set threshold.
+
+  The valve's flow rate is limited to [color=orange][protodata="GasPressureRegulator" comp="GasPressureRegulator" member="MaxTransferRate"/] L/s[/color].
+
+  ## Example uses
+  The valve is often used to prevent excessive pressure in gas systems, such as [textlink="TEG" link="TEG"] cooling loops and [textlink="pipes" link="Pipes"], where it could cause system failures such as clogged [textlink="pumps" link="Pumps"].
+
+  The valve can also be used to vent hot, ready-to-use gas from a burn chamber.
+  For example, allowing pressure in a burn chamber to remain below a certain level for too long may be undesirable: the gas can cool and thin out too much, extinguishing the flame.
+
+  An inlet pressure regulator can vent excess gas while keeping burn chamber pressure above a certain threshold. This can help keep the chamber burning.
+</Document>

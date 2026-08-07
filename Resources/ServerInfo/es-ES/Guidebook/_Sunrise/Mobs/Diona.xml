@@ -1,0 +1,44 @@
+<Document>
+  # Diona
+
+  <Box>
+    <GuideEntityEmbed Entity="MobDiona" Caption=""/>
+  </Box>
+
+  No pueden llevar calzado, pero el kudzu no las ralentiza.
+  Tardan más en sentir hambre y sed.
+  Su «sangre» es savia y no puede reponerse con hierro.
+  Al ser plantas, el herbicida las envenena y la Cosecha robusta las cura, aunque abusar de ella entraña riesgos.
+
+  Reciben [color=#1e90ff]un 30% menos de daño contundente y un 20% menos de daño cortante[/color],
+  pero sufren [color=#ffa500]un 50% más de daño por calor, un 20% más de daño eléctrico y
+  se incendian con facilidad al recibir suficiente daño térmico de cualquier fuente.[/color]
+
+  ## Haz como un árbol y echa raíces
+  <Box>
+    <GuideEntityEmbed Entity="FloraTree" Caption=""/>
+  </Box>
+  Al exponerse a una gran cantidad de Cosecha robusta, una diona comienza a crecer sin control y se convierte en un árbol inmóvil, dejando caer todo su equipo.
+  Talar el árbol permite «devolver» a la diona a su estado móvil.
+
+  ## Ninfas diona
+  <Box>
+    <GuideEntityEmbed Entity="MobDionaNymph" Caption=""/>
+    <GuideEntityEmbed Entity="MobDionaNymph" Caption=""/>
+    <GuideEntityEmbed Entity="MobDionaNymph" Caption=""/>
+  </Box>
+  Tras morir, una diona puede destruir voluntariamente su cuerpo y liberar sus «órganos internos» en forma de tres ninfas;
+  el jugador pasa entonces a controlar la ninfa cerebral.
+  Esta puede hablar, pero no tiene manos ni inventario y apenas puede hacer nada. Gracias a su pequeño tamaño, la ninfa
+  cabe dentro de un bolso o una mochila, aunque no puede introducirse por sí sola.
+  Su reducido tamaño también le permite colarse por las tuberías de ventilación.
+  <Box>
+    <GuideEntityEmbed Entity="GasVentScrubber" Caption=""/>
+    <GuideEntityEmbed Entity="ClothingBackpackSatchel" Caption=""/>
+    <GuideEntityEmbed Entity="GasVentPump" Caption=""/>
+  </Box>
+  Transcurridos 10 minutos, la ninfa puede regenerarse como una diona completa. Tendrá un cuerpo nuevo generado al azar y un nombre distinto,
+  y apenas quedará rastro de quién era antes, salvo por su propio testimonio.
+
+
+</Document>

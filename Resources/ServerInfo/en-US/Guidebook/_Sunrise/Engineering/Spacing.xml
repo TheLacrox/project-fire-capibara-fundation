@@ -1,0 +1,23 @@
+﻿<Document>
+  # Depressurization
+  Depressurization is the most common type of atmospheric emergency aboard the station.
+
+  Although the damage that caused the depressurization often takes a long time to [textlink="repair" link="ExpandingRepairingStation"], the atmospheric problem itself can be solved quickly by repressurizing the area.
+
+  Fixing depressurization usually consists of two simple steps:
+
+  1. Find the depressurized area and [textlink="seal the breach" link="ExpandingRepairingStation"].
+
+  - If the breach is hard to find and air is still escaping into space, listen carefully for the sound of rushing air.
+  - Look for holes hidden beneath girders that may be difficult to spot.
+
+  2. Repressurize the area.
+
+  - [textlink="Air vents" link="AirVent"] engage a pressure lockout to avoid losing even more air during depressurization, so you must override them to repressurize the area. You can do this by setting the connected [textlink="air alarm" link="AirAlarms"] to Fill mode, or by right-clicking the vent and selecting 'Release pressure lock out' to override it manually for a short time.
+
+  ## What to avoid
+  - Remember: although you have an infinite supply of [textlink="mined gas" link="GasMiningAndStorage"], it is not produced fast enough to fill several rooms at once. Setting [textlink="air alarms" link="AirAlarms"] to Fill mode [italic]before[/italic] fixing the underlying problem often wastes time and gas.
+
+  - Leaving an unattended [textlink="air alarm" link="AirAlarms"] in Fill mode can overpressurize a room and injure the crew if the situation gets out of control.
+
+</Document>

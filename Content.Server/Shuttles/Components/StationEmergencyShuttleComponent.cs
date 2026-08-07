@@ -23,6 +23,9 @@ public sealed partial class StationEmergencyShuttleComponent : Component
     [DataField("emergencyShuttlePath", customTypeSerializer: typeof(ResPathSerializer))]
     public ResPath EmergencyShuttlePath { get; set; } = new("/Maps/_Sunrise/Shuttles/Evac/emergency.yml"); // Sunrise-Edit
 
+    [DataField]
+    public LocId? EmergencyShuttleName;
+
     /// <summary>
     /// The announcement made when the shuttle has successfully docked with the station.
     /// </summary>

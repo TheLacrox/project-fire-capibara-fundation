@@ -1,0 +1,25 @@
+﻿<Document>
+  # Fires
+  Fires are perhaps the most dangerous atmospheric emergencies that can occur on the station.
+
+  <Box>
+    <GuideEntityEmbed Entity="Firelock" Caption=""/>
+    <GuideEntityEmbed Entity="FirelockGlass" Caption=""/>
+  </Box>
+
+  They often create high-pressure, high-temperature gases that can spread rapidly through the station if firelocks or doors are carelessly opened, even for a moment.
+
+  People caught in a fire can quickly lose consciousness, die, and even be burned to ash, after which they cannot be revived.
+
+  ## Fighting Fires
+  The key elements of a fire are fuel and oxygen.
+  Removing either one will extinguish the fire.
+  For example, fires without an oxygen supply will gradually suffocate, and fires without fuel will also go out.
+
+  Exposing a fire to space will extinguish it because all the gas will simply escape outside.
+  You can then [textlink="repair" link="ExpandingRepairingStation"] the [textlink="breach" link="Spacing"] and repressurize the area.
+
+  ## Tips
+  - [bold]Know the warning signs of a fire.[/bold] If an area is filled with highly flammable gases, it is only a matter of time before a careless passenger ignites them. Try to isolate the area and remove the gases as quickly as possible.
+  - [bold]Prevent gases from spreading with a holofan projector.[/bold] Letting gas pass through a firelock, even for a moment, can make other rooms dangerous and increase the number of areas you will need to repair.
+</Document>

@@ -1,0 +1,68 @@
+﻿<Document>
+  # Estados
+
+  El Tímido posee varios estados exclusivos que determinan sus capacidades y mecánicas.
+
+  Cuando juegues como el Tímido, podrás identificar tu estado mediante la representación de tu rostro situada a la derecha, en el panel de efectos de estado. Al pasar el ratón por encima, verás una descripción más detallada y comentarios de tu «voz» interior sobre la situación.
+
+  El personal del complejo puede identificar el estado por los sonidos que emite el Tímido. Algunos estados también presentan acciones o aspectos únicos y reconocibles.
+
+  [textlink="Información general sobre el Tímido" link="Scp096About"]
+
+  ## Normal
+
+  En este estado, el Tímido se mueve despacio y no puede atacar. Es el estado predeterminado de la entidad cuando aparece en la ronda.
+
+  Para pasar a otro estado, debe [bold]desollarse el rostro[/bold] o esperar a que [bold]alguien vea su cara[/bold], ya sea en persona o en una fotografía.
+
+  Este estado se reconoce por el llanto de la entidad y su baja velocidad de movimiento.
+
+  ## Ira incipiente
+
+  En este estado, el Tímido no puede moverse, tiembla y emite un sonido fuerte.
+  El estado dura 40 segundos, tras los cuales el Tímido pasa automáticamente al estado «Ira».
+
+  [bold]El Tímido pasa a este estado cuando alguien ve su rostro. Puede ocurrir de las siguientes formas:[/bold]
+  - En persona, cuando tú y el Tímido os miráis directamente a la cara.
+  - En una fotografía; basta con examinarla.
+
+  Este estado se reconoce por el fuerte sonido y los temblores de la entidad.
+
+  ## Ira
+
+  Al pasar a este estado, la entidad buscará a quienes hayan visto su rostro para matar brutalmente a sus objetivos.
+
+  [bold]El Tímido pasará al siguiente estado cuando:[/bold]
+  - Mate a todos sus objetivos o estos dejen de existir.
+  - Transcurran unos 4 minutos desde el inicio del estado.
+
+  Este estado se reconoce por el fuerte rugido del Tímido, su gran velocidad y la forma decidida en que se desplaza por el complejo.
+
+  ## Dormido/Sentado
+
+  En este estado, el Tímido no puede moverse y queda en una posición vulnerable.
+  Puede entrar en él de las siguientes formas:
+  - Al salir del estado «Ira». Podrá despertarse pasado un tiempo.
+  - Al usar la habilidad «Sentarse». Podrá volver a levantarse enseguida.
+  - Al agotar toda su resistencia y quedar aturdido. Volverá a levantarse pasado un tiempo.
+
+  En este estado, el Tímido llora con más frecuencia y segrega más lágrimas. También se le puede arrastrar.
+
+  Este estado se reconoce por su aspecto característico: la entidad está «sentada» y emite sonidos de llanto.
+
+  ## Rostro desollado
+
+  Este estado exclusivo se produce cuando la entidad se arranca toda la piel del rostro y pierde sus facciones.
+
+  [textlink="Más información sobre las habilidades" link="Scp096Abilities"]
+
+  En este estado, puede atacar libremente al personal del complejo, abrir esclusas y compuertas blindadas cerradas y moverse algo más deprisa.
+
+  Hasta que se restaure el rostro, mirarlo no hará que la entidad pase al estado «Ira», ni siquiera si se observa una fotografía.
+
+  Para salir de este estado, es necesario restaurar el rostro. Esto ocurrirá automáticamente 15 minutos después de entrar en él, aunque el proceso puede acelerarse curándolo a mano con parches médicos.
+
+  [textlink="Más información sobre el restablecimiento de la contención" link="Scp096Containment"]
+
+  Este estado se reconoce por el particular sonido estridente que emite la entidad y porque se desplaza libremente por el complejo.
+</Document>

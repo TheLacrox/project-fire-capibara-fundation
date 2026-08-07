@@ -1,0 +1,44 @@
+<Document>
+  # Recompensas de Carga
+  Aunque [textlink="Carga" link="Cargo"] puede ganar [color=cyan]spesos[/color] vendiendo casi cualquier cosa, obtendrá más dinero completando las [color=cyan]recompensas[/color] del [color=cyan]ordenador de recompensas de Carga[/color].
+
+  ## Iniciar recompensas
+
+  <Box>
+    <GuideEntityEmbed Entity="ComputerCargoBounty"/>
+    <GuideEntityEmbed Entity="PaperCargoBountyManifest"/>
+  </Box>
+
+  Interactúa con el [color=cyan]ordenador de recompensas de Carga[/color] para empezar. Verás la lista de recompensas actuales y podrás imprimir una etiqueta u omitir una recompensa.
+
+  - Al imprimir la etiqueta obtendrás un [color=cyan]manifiesto de recompensa[/color] con los productos que debes conseguir. Puedes imprimir tantas copias como quieras, pero no te apropies de una tarea que otro técnico acaba de aceptar.
+  - Omitir sustituye la recompensa actual por otra nueva, pues sólo puede haber seis activas a la vez. Esta acción tiene un tiempo de recarga de 15 minutos y anula la recompensa anterior, lo que puede enfadar a otros técnicos.
+
+  ## Completar recompensas
+
+  <Box>
+    <GuideEntityEmbed Entity="PaperCargoBountyManifest"/>
+    <GuideEntityEmbed Entity="CrateGenericSteel"/>
+    <GuideEntityEmbed Entity="AppraisalTool"/>
+  </Box>
+
+  Con el [color=cyan]manifiesto de recompensa[/color] sólo te queda reunir los productos necesarios. La mayoría de los departamentos te los entregará si les enseñas el manifiesto.
+
+  Cuando los tengas, vuelve al muelle de carga y guárdalos en una [color=cyan]caja[/color] vacía. Cierra la caja y pega el manifiesto en ella.
+
+  Para confirmar que todo está correcto, utiliza la [color=cyan]herramienta de tasación[/color] sobre la caja. Deberá indicar que la recompensa está completa.
+
+  ## Vender recompensas
+
+  <Box>
+    <GuideEntityEmbed Entity="PaperCargoBountyManifest"/>
+    <GuideEntityEmbed Entity="CrateGenericSteel"/>
+    <GuideEntityEmbed Entity="CargoPalletSell"/>
+  </Box>
+
+  Después de verificar la recompensa, procede como en cualquier venta normal.
+
+  Lleva el cargamento a la [color=cyan]estación comercial[/color], véndelo y habrás terminado.
+
+  Cuando regreses habrá una recompensa nueva en su lugar.
+</Document>

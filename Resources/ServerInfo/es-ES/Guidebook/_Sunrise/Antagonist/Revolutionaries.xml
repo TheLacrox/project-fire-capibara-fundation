@@ -1,0 +1,85 @@
+<Document>
+  # Revolucionarios
+
+  <Box>
+    [color=#999999][italic]«¡Viva la revolución!»[/italic][/color]
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="PosterContrabandRevolt" Caption=""/>
+  </Box>
+
+  Los revolucionarios son antagonistas de conversión patrocinados por el [color=#ff0000]Sindicato[/color], cuya misión es tomar el control de la estación. No cuentan con trucos ingeniosos: solo con una causa y la fuerza de sus números.
+
+  ## Objetivos
+  Debes convertir, esposar o matar a todos los integrantes del [bold]mando[/bold], en cualquier orden.
+  <Box>
+    <GuideEntityEmbed Entity="ToyFigurineCaptain" Caption="Capitán"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="ToyFigurineHeadOfPersonnel" Caption="Jefe de Personal"/>
+    <GuideEntityEmbed Entity="ToyFigurineHeadOfSecurity" Caption="Jefe de Seguridad"/>
+    <GuideEntityEmbed Entity="ToyFigurineChiefMedicalOfficer" Caption="Director Médico"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="ToyFigurineChiefEngineer" Caption="Ingeniero Jefe"/>
+    <GuideEntityEmbed Entity="ToyFigurineResearchDirector" Caption="Director de Investigación"/>
+    <GuideEntityEmbed Entity="ToyFigurineQuartermaster" Caption="Intendente"/>
+  </Box>
+  Tu objetivo [bold]no es destruir la estación[/bold], sino [italic]apoderarte de ella[/italic], así que intenta reducir los daños al mínimo.
+
+  [bold]La revolución fracasará[/bold] si mueren todos los [bold][color=#5e9cff]líderes revolucionarios[/color][/bold]; en ese mismo instante, todos los [color=red]revolucionarios[/color] dejarán de serlo.
+
+  <Box>
+    <GuideEntityEmbed Entity="ClothingBackpackSatchelSmugglerFilled" Caption=""/>
+  </Box>
+  ## Alijos
+  Los peones del [color=#ff0000]Sindicato[/color] han tenido la amabilidad de esconder entre 6 y 15 alijos. Cualquiera puede encontrarlos, pero los [bold][color=#5e9cff]líderes revolucionarios[/color][/bold] disponen de un localizador que señala su ubicación.
+  Para buscarlos necesitarás un escáner de rayos T, además de una palanca y una llave inglesa para levantar las baldosas del suelo.
+
+  ## Líderes revolucionarios y conversión
+  Los [bold][color=#5e9cff]líderes revolucionarios[/color][/bold] se eligen al comienzo del turno y empiezan con un [color=cyan]flash[/color] y unas [color=cyan]gafas de sol[/color].
+
+  <Box>
+    <GuideEntityEmbed Entity="Flash"/>
+    <GuideEntityEmbed Entity="ClothingEyesGlassesSunglasses"/>
+  </Box>
+
+  Puedes convertir a un tripulante a tu causa atacándolo con cualquier [bold]flash[/bold] en [color=#ff0000]modo de combate[/color].
+  Sin embargo, [bold]no puedes convertir a un objetivo que lleve [color=cyan]protección contra flashes[/color][/bold], como gafas o una máscara de soldadura.
+
+  <Box>
+    <GuideEntityEmbed Entity="ClothingEyesGlassesSunglasses"/>
+    <GuideEntityEmbed Entity="ClothingEyesGlassesSecurity"/>
+    <GuideEntityEmbed Entity="ClothingHeadHatWelding"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="MindShieldImplanter"/>
+  </Box>
+  Otro obstáculo son los [color=cyan]implantes de escudo mental[/color]. Estos:
+  - Impiden que la persona implantada se convierta en [color=red]revolucionaria[/color]
+  - Desconvierten a los revolucionarios y eliminan su lealtad al [color=#5e9cff]líder revolucionario[/color]
+  - [bold]Se destruyen de forma visible al implantarlos en un [color=#5e9cff]líder revolucionario[/color][/bold], delatándote
+  - NO protegen contra la desorientación causada por un flash
+
+  Da por hecho que el personal de [color=#cb0000]Seguridad[/color] ya lleva implantes. Algunos miembros del mando también pueden estar protegidos y, aun sin escudo mental, no podrás convertir a un jefe de departamento salvo que sea un jefe interino procedente del personal ordinario. [bold]El implante de escudo mental puede retirarse con un extractor de implantes tras seleccionar la extracción de escudos mentales.[/bold]
+
+  El extractor puede obtenerse de varias formas:
+  - El [color=#5e9cff]líder revolucionario[/color] empieza con el diseño para el autolathe
+  - Puede aparecer un extractor en los alijos
+  - Puedes esperar a que I+D investigue los implantes e imprimirlo en el MedFab
+
+  [bold]Particularidad de esta versión:[/bold] no puedes convertir a los jefes de la estación aunque no lleven escudo mental. Los objetivos de la revolución son únicamente los jefes asignados al inicio de la ronda o llegados desde el Cosmopuerto; los jefes interinos no cuentan como jefes de pleno derecho ni como objetivos.
+  <Box>
+    <GuideEntityEmbed Entity="RandomHumanoidSpawnerBlueShieldOperative"/>
+  </Box>
+  ### Oficial del Escudo Azul
+  - Este rol especial se encarga de proteger a los miembros del mando. Todos los jefes llevan [bold]implantes de aviso del Escudo Azul[/bold]. Estos implantes informan [color=red][bold]automáticamente[/bold][/color] al Escudo Azul por el canal de radio cuando un jefe entra en estado crítico.
+  - Consejo: sabotea los servidores de telecomunicaciones, busca una forma de desactivar las radios y los sensores de seguimiento de la ropa, o actúa de forma repentina para no dar tiempo a tus adversarios a reagruparse.
+  <Box>
+    <GuideEntityEmbed Entity="TelecomServerFilledBlueShield"/>
+  </Box>
+  ## Revolucionario
+  Un [color=red]revolucionario[/color] es un tripulante convertido por un [bold][color=#5e9cff]líder revolucionario[/color][/bold].
+
+  [bold]Los [color=red]revolucionarios[/color] no pueden convertir a otras personas,[/bold] pero sí pueden encargarse del trabajo sucio y cumplir órdenes.
+</Document>

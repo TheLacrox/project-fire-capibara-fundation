@@ -1,0 +1,11 @@
+﻿<Document>
+  # Válvula pasiva
+  La válvula pasiva es una válvula unidireccional que solo permite que el gas fluya en un sentido.
+  <Box>
+    <GuideEntityEmbed Entity="GasPassiveGate"/>
+  </Box>
+
+  No necesita [textlink="energía" link="Power"] ni dispone de una interfaz de configuración.
+
+  Resulta útil cuando el gas debe avanzar libremente sin poder retroceder, por ejemplo en líneas sencillas de evacuación o derivaciones de seguridad.
+</Document>

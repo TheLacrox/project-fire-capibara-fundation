@@ -61,6 +61,7 @@ public sealed partial class GameMapPrototype : IPrototype
         {
             ID = ID,
             MapName = MapName,
+            MapNameLocId = MapNameLocId, // Fire edit - сохраняем LocId названия карты
             MapPath = mapPath,
             _stations = _stations
         };

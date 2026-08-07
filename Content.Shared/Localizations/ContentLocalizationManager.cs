@@ -10,8 +10,10 @@ namespace Content.Shared.Localizations
         [Dependency] private readonly ILocalizationManager _loc = default!;
 
         // If you want to change your codebase's language, do it here.
-        private const string Culture = "ru-RU"; // Russian-Localization
-        private const string FallbackCulture = "en-US"; // Russian-Localization
+        // Fire edit start - испанская локализация Capibara Foundation
+        private const string Culture = "es-ES";
+        private const string FallbackCulture = "en-US";
+        // Fire edit end
 
         /// <summary>
         /// Custom format strings used for parsing and displaying minutes:seconds timespans.
@@ -27,23 +29,34 @@ namespace Content.Shared.Localizations
         public void Initialize()
         {
             var culture = new CultureInfo(Culture);
-            var fallbackCulture = new CultureInfo(FallbackCulture); // Russian-Localization
+            var fallbackCulture = new CultureInfo(FallbackCulture);
 
             _loc.LoadCulture(culture);
-            _loc.LoadCulture(fallbackCulture); // Russian-Localization
-            _loc.SetFallbackCluture(fallbackCulture); // Russian-Localization
-            _loc.AddFunction(culture, "PRESSURE", FormatPressure);
-            _loc.AddFunction(culture, "POWERWATTS", FormatPowerWatts);
-            _loc.AddFunction(culture, "POWERJOULES", FormatPowerJoules);
-            // NOTE: ENERGYWATTHOURS() still takes a value in joules, but formats as watt-hours.
-            _loc.AddFunction(culture, "ENERGYWATTHOURS", FormatEnergyWattHours);
-            _loc.AddFunction(culture, "UNITS", FormatUnits);
-            _loc.AddFunction(culture, "TOSTRING", args => FormatToString(culture, args));
-            _loc.AddFunction(culture, "LOC", FormatLoc);
-            _loc.AddFunction(culture, "NATURALFIXED", FormatNaturalFixed);
-            _loc.AddFunction(culture, "NATURALPERCENT", FormatNaturalPercent);
-            _loc.AddFunction(culture, "PLAYTIME", FormatPlaytime);
-            _loc.AddFunction(culture, "MANY", FormatMany); // TODO: Temporary fix for MANY() fluent errors. Remove after resolve errors.
+            _loc.LoadCulture(fallbackCulture);
+            _loc.SetFallbackCluture(fallbackCulture);
+            // Fire edit start - общие функции нужны испанским строкам и английскому fallback
+            foreach (var functionCulture in new[] { culture, fallbackCulture })
+            {
+                _loc.AddFunction(functionCulture, "PRESSURE", FormatPressure);
+                _loc.AddFunction(functionCulture, "POWERWATTS", FormatPowerWatts);
+                _loc.AddFunction(functionCulture, "POWERJOULES", FormatPowerJoules);
+                // NOTE: ENERGYWATTHOURS() still takes a value in joules, but formats as watt-hours.
+                _loc.AddFunction(functionCulture, "ENERGYWATTHOURS", FormatEnergyWattHours);
+                _loc.AddFunction(functionCulture, "UNITS", FormatUnits);
+                _loc.AddFunction(functionCulture, "TOSTRING", args => FormatToString(culture, args));
+                _loc.AddFunction(functionCulture, "LOC", FormatLoc);
+                _loc.AddFunction(functionCulture, "NATURALFIXED", FormatNaturalFixed);
+                _loc.AddFunction(functionCulture, "NATURALPERCENT", FormatNaturalPercent);
+                _loc.AddFunction(functionCulture, "PLAYTIME", FormatPlaytime);
+            }
+            // Fire added start - испанская форма «a» с артиклем
+            _loc.AddFunction(culture, "AT-THE", FormatAtThe);
+            // Fire added end
+            // Fire added start - испанское множественное число для динамических единиц
+            _loc.AddFunction(culture, "MAKEPLURAL", FormatMakePluralEs);
+            // Fire added end
+            // Fire edit end
+            // Fire edit - испанские строки используют селекторы множественного числа вместо английского MANY().
 
 
             /*
@@ -55,8 +68,6 @@ namespace Content.Shared.Localizations
 
             _loc.AddFunction(cultureEn, "MAKEPLURAL", FormatMakePlural);
             _loc.AddFunction(cultureEn, "MANY", FormatMany);
-            _loc.AddFunction(cultureEn, "NATURALFIXED", FormatNaturalFixed);
-            _loc.AddFunction(cultureEn, "LOC", FormatLoc);
         }
 
         private ILocValue FormatMany(LocArgs args)
@@ -72,6 +83,13 @@ namespace Content.Shared.Localizations
                 return (LocValueString) FormatMakePlural(args);
             }
         }
+
+        // Fire added start - испанская форма «a» с артиклем
+        private ILocValue FormatAtThe(LocArgs args)
+        {
+            return new LocValueString(_loc.GetString("zzzz-at-the", ("ent", args.Args[0])));
+        }
+        // Fire added end
 
         private ILocValue FormatNaturalPercent(LocArgs args)
         {
@@ -92,6 +110,21 @@ namespace Content.Shared.Localizations
         }
 
         private static readonly Regex PluralEsRule = new("^.*(s|sh|ch|x|z)$");
+        // Fire added start - правила испанского множественного числа
+        private static readonly Regex SpanishPluralWithSRule = new(@"[aeiouáéó]$", RegexOptions.IgnoreCase);
+        private static readonly Regex SpanishPluralSOrXRule = new(@"[sx]$", RegexOptions.IgnoreCase);
+        private static readonly Regex SpanishVowelGroupRule = new(@"[aeiouáéíóúü]+", RegexOptions.IgnoreCase);
+        private static readonly Regex SpanishFinalStressRule = new(@"[áéíóú][^aeiouáéíóúü]*[nsx]$", RegexOptions.IgnoreCase);
+        private static readonly HashSet<string> SpanishPhrasePrepositions = new()
+        {
+            "a", "ante", "bajo", "con", "contra", "de", "del", "desde", "durante", "en", "entre", "hacia",
+            "hasta", "mediante", "para", "por", "según", "sin", "sobre", "tras",
+        };
+        // Fire added end
+        // Fire added start - эвфонические союзы испанского языка
+        private static readonly Regex EConjunctionEsRule = new(@"^(?:(?:i|hi)(?![aeouáéóú])|í|hí)", RegexOptions.IgnoreCase);
+        private static readonly Regex UConjunctionEsRule = new(@"^(?:o|ho)", RegexOptions.IgnoreCase);
+        // Fire added end
 
         private ILocValue FormatMakePlural(LocArgs args)
         {
@@ -114,32 +147,184 @@ namespace Content.Shared.Localizations
             }
         }
 
+        // Fire added start - испанское множественное число
+        private static ILocValue FormatMakePluralEs(LocArgs args)
+        {
+            var text = ((LocValueString) args.Args[0]).Value;
+            return new LocValueString(FormatPluralEs(text));
+        }
+
+        /// <summary>
+        /// Pluralizes the agreeing words of a simple Spanish noun phrase up to its first preposition.
+        /// </summary>
+        public static string FormatPluralEs(string text)
+        {
+            var words = text.Split(' ');
+            var pluralize = true;
+
+            for (var index = 0; index < words.Length; index++)
+            {
+                var word = words[index];
+                if (word.Length == 0)
+                    continue;
+
+                if (index > 0 && SpanishPhrasePrepositions.Contains(word.ToLowerInvariant()))
+                    pluralize = false;
+
+                if (pluralize)
+                    words[index] = FormatPluralWordEs(word);
+            }
+
+            return string.Join(' ', words);
+        }
+
+        private static string FormatPluralWordEs(string word)
+        {
+
+            string plural;
+            if (word.EndsWith('z'))
+                plural = $"{word[..^1]}ces";
+            else if (word.EndsWith('Z'))
+                plural = $"{word[..^1]}CES";
+            else if (SpanishPluralSOrXRule.IsMatch(word))
+            {
+                var vowelGroups = SpanishVowelGroupRule.Matches(word).Count;
+                var pluralStem = SpanishFinalStressRule.IsMatch(word)
+                    ? RemoveAcuteAccent(word)
+                    : word;
+                plural = vowelGroups <= 1 || SpanishFinalStressRule.IsMatch(word)
+                    ? $"{pluralStem}es"
+                    : word;
+            }
+            else if (SpanishPluralWithSRule.IsMatch(word))
+                plural = $"{word}s";
+            else
+            {
+                var vowelGroups = SpanishVowelGroupRule.Matches(word);
+                var pluralStem = word.EndsWith("n", StringComparison.OrdinalIgnoreCase) &&
+                                 !SpanishFinalStressRule.IsMatch(word) &&
+                                 vowelGroups.Count > 1
+                    ? AddAcuteAccent(word, vowelGroups[^2])
+                    : SpanishFinalStressRule.IsMatch(word)
+                        ? RemoveAcuteAccent(word)
+                        : word;
+                plural = $"{pluralStem}es";
+            }
+
+            return plural;
+        }
+
+        private static string AddAcuteAccent(string text, Match vowelGroup)
+        {
+            var index = vowelGroup.Index;
+            for (var offset = 0; offset < vowelGroup.Length; offset++)
+            {
+                var candidate = vowelGroup.Value[offset];
+                if (candidate is 'a' or 'e' or 'o' or 'A' or 'E' or 'O')
+                {
+                    index += offset;
+                    break;
+                }
+
+                if (offset == vowelGroup.Length - 1)
+                    index += offset;
+            }
+
+            var accented = text[index] switch
+            {
+                'a' => 'á',
+                'e' => 'é',
+                'i' => 'í',
+                'o' => 'ó',
+                'u' => 'ú',
+                'A' => 'Á',
+                'E' => 'É',
+                'I' => 'Í',
+                'O' => 'Ó',
+                'U' => 'Ú',
+                _ => text[index],
+            };
+
+            return string.Concat(text.Substring(0, index), accented.ToString(), text.Substring(index + 1));
+        }
+
+        private static string RemoveAcuteAccent(string text)
+        {
+            return text
+                .Replace('á', 'a')
+                .Replace('é', 'e')
+                .Replace('í', 'i')
+                .Replace('ó', 'o')
+                .Replace('ú', 'u')
+                .Replace('Á', 'A')
+                .Replace('É', 'E')
+                .Replace('Í', 'I')
+                .Replace('Ó', 'O')
+                .Replace('Ú', 'U');
+        }
+        // Fire added end
+
+        // Fire added start - испанские названия должностей используют регистр предложений
+        /// <summary>
+        /// Formats a localized title without capitalizing Spanish articles and prepositions.
+        /// </summary>
+        public static string FormatTitleCase(string text)
+        {
+            return FormatTitleCase(text, CultureInfo.CurrentCulture);
+        }
+
+        /// <summary>
+        /// Formats a localized title using the casing rules of the supplied culture.
+        /// </summary>
+        /// <param name="text">The title to format.</param>
+        /// <param name="culture">The culture that owns the title.</param>
+        /// <returns>The title with culture-appropriate casing.</returns>
+        public static string FormatTitleCase(string text, CultureInfo culture)
+        {
+            if (!culture.Name.Equals(Culture, StringComparison.OrdinalIgnoreCase))
+                return culture.TextInfo.ToTitleCase(text);
+
+            if (string.IsNullOrEmpty(text))
+                return text;
+
+            return string.Concat(char.ToUpper(text[0], culture).ToString(), text.Substring(1));
+        }
+        // Fire added end
+
         // TODO: allow fluent to take in lists of strings so this can be a format function like it should be.
         /// <summary>
-        /// Formats a list as per english grammar rules.
+        /// Formats a list as per Spanish grammar rules.
         /// </summary>
         public static string FormatList(List<string> list)
         {
+            // Fire edit start - испанский союз меняется перед звуком «и»
+            var conjunction = list.Count > 1 && EConjunctionEsRule.IsMatch(list[^1].TrimStart()) ? "e" : "y";
+
             return list.Count switch
             {
                 <= 0 => string.Empty,
                 1 => list[0],
-                2 => $"{list[0]} and {list[1]}",
-                _ => $"{string.Join(", ", list.GetRange(0, list.Count - 1))}, and {list[^1]}"
+                2 => $"{list[0]} {conjunction} {list[1]}",
+                _ => $"{string.Join(", ", list.GetRange(0, list.Count - 1))} {conjunction} {list[^1]}"
+                // Fire edit end
             };
         }
 
         /// <summary>
-        /// Formats a list as per english grammar rules, but uses or instead of and.
+        /// Formats a list as per Spanish grammar rules, but uses or instead of y.
         /// </summary>
         public static string FormatListToOr(List<string> list)
         {
+            // Fire edit start - испанский союз меняется перед звуком «о»
+            var conjunction = list.Count > 1 && UConjunctionEsRule.IsMatch(list[^1].TrimStart()) ? "u" : "o";
+
             return list.Count switch
             {
                 <= 0 => string.Empty,
                 1 => list[0],
-                2 => $"{list[0]} or {list[1]}",
-                _ => $"{string.Join(", ", list.GetRange(0, list.Count - 1))}, or {list[^1]}"
+                2 => $"{list[0]} {conjunction} {list[1]}",
+                _ => $"{string.Join(", ", list.GetRange(0, list.Count - 1))} {conjunction} {list[^1]}"
+                // Fire edit end
             };
         }
 

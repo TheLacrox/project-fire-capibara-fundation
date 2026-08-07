@@ -1,0 +1,107 @@
+<Document>
+  # Carpas
+
+  Las carpas espaciales son depredadores agresivos que aparecen en las expediciones de salvamento.
+  La mayoría de las variantes vuelan y pueden superar obstáculos bajos.
+
+  [bold][color=#a4885c]________________________________________________________________________[/color]
+
+  # Variantes conocidas
+  # «Carpa»
+
+  La variante básica de carpa de expedición.
+
+  [color=#a4885c]Vuelo[/color]: la criatura flota sobre la superficie y puede superar obstáculos bajos.
+
+  <Box>
+  <GuideEntityEmbed Entity="MobCarpDungeon"/>
+  </Box>
+  - [bold][color=#a4885c]Umbral de salud:[/color][/bold] 50
+  - [bold][color=#a4885c]Velocidad:[/color][/bold] 3.5 m/s
+  - [bold][color=#a4885c]Daño (tipo):[/color][/bold] 6 [color=red]cortante[/color]
+  - [bold][color=#a4885c]Resistencias:[/color][/bold] ninguna
+  - [bold][color=#a4885c]Habilidades especiales:[/color][/bold] Vuelo
+
+  [bold][color=#a4885c]________________________________________________________________________[/color]
+
+  # «Magicarp»
+
+  Una variedad de carpa poco común. No se le ha observado magia alguna.
+
+  [color=#a4885c]Vuelo[/color]: la criatura flota sobre la superficie y puede superar obstáculos bajos.
+
+  <Box>
+  <GuideEntityEmbed Entity="MobCarpMagic"/>
+  </Box>
+  - [bold][color=#a4885c]Umbral de salud:[/color][/bold] 40
+  - [bold][color=#a4885c]Velocidad:[/color][/bold] 3.5 m/s
+  - [bold][color=#a4885c]Daño (tipo):[/color][/bold] 5 [color=red]contundente[/color], 7 [color=red]cortante[/color]
+  - [bold][color=#a4885c]Resistencias:[/color][/bold] ninguna
+  - [bold][color=#a4885c]Habilidades especiales:[/color][/bold] Vuelo
+
+  [bold][color=#a4885c]________________________________________________________________________[/color]
+
+  # «Holocarpa»
+
+  Una carpa de energía holográfica. Al tacto parece completamente real.
+
+  [color=#a4885c]Vuelo[/color]: la criatura flota sobre la superficie y puede superar obstáculos bajos.
+
+  <Box>
+  <GuideEntityEmbed Entity="MobCarpHolo"/>
+  </Box>
+  - [bold][color=#a4885c]Umbral de salud:[/color][/bold] 40
+  - [bold][color=#a4885c]Velocidad:[/color][/bold] 3.5 m/s
+  - [bold][color=#a4885c]Daño (tipo):[/color][/bold] 5 [color=red]contundente[/color], 7 [color=red]cortante[/color]
+  - [bold][color=#a4885c]Resistencias:[/color][/bold] ninguna
+  - [bold][color=#a4885c]Habilidades especiales:[/color][/bold] Vuelo, inmunidad a las balas
+
+  [bold][color=#a4885c]________________________________________________________________________[/color]
+
+  # «Carpa arcoíris»
+
+  Una variedad de carpa vistosa y peligrosa.
+
+  [color=#a4885c]Vuelo[/color]: la criatura flota sobre la superficie y puede superar obstáculos bajos.
+
+  <Box>
+  <GuideEntityEmbed Entity="MobCarpRainbow"/>
+  </Box>
+  - [bold][color=#a4885c]Umbral de salud:[/color][/bold] 40
+  - [bold][color=#a4885c]Velocidad:[/color][/bold] 3.5 m/s
+  - [bold][color=#a4885c]Daño (tipo):[/color][/bold] 5 [color=red]contundente[/color], 7 [color=red]cortante[/color]
+  - [bold][color=#a4885c]Resistencias:[/color][/bold] ninguna
+  - [bold][color=#a4885c]Habilidades especiales:[/color][/bold] Vuelo, belleza
+
+  [bold][color=#a4885c]________________________________________________________________________[/color]
+
+  # «Dragón espacial»
+
+  Un objetivo de gran tamaño y sumamente peligroso, vinculado a las carpas.
+
+  [color=#a4885c]Vuelo[/color]: la criatura flota sobre la superficie y puede superar obstáculos bajos.
+
+  <Box>
+  <GuideEntityEmbed Entity="MobDragonDungeon"/>
+  </Box>
+  - [bold][color=#a4885c]Umbral de salud:[/color][/bold] 200
+  - [bold][color=#a4885c]Velocidad:[/color][/bold] 5 m/s
+  - [bold][color=#a4885c]Daño (tipo):[/color][/bold] 12 [color=red]físico[/color]
+  - [bold][color=#a4885c]Resistencias:[/color][/bold] ninguna
+  - [bold][color=#a4885c]Habilidades especiales:[/color][/bold] Vuelo, reflejo débil de proyectiles
+
+  [bold][color=#a4885c]________________________________________________________________________[/color]
+
+  # Objetivos de misión
+  ## Eliminación
+  <Box>
+  <GuideEntityEmbed Entity="MobDragonDungeon"/>
+  </Box>
+  Elimina al [color=#a4885c]dragón espacial[/color], un objetivo grande y peligroso, dentro del tiempo asignado.
+
+  ## Destrucción
+  <Box>
+  <GuideEntityEmbed Entity="CarpStatue"/>
+  </Box>
+  Destruye el número requerido de [color=#a4885c]estatuas de carpa[/color] dentro del tiempo asignado.
+</Document>

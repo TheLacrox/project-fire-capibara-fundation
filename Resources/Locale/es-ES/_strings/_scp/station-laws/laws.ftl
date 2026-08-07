@@ -1,0 +1,13 @@
+law-scp-default-1 = Asegurar: debes proteger a las personas de los efectos de los objetos SCP siempre que no entre en conflicto con la segunda o la cuarta ley.
+law-scp-default-2 = Contener: debes mantener los Procedimientos Especiales de Contención de los objetos SCP de forma que se reduzcan al mínimo las víctimas y los posibles daños al personal y a toda la humanidad, teniendo en cuenta todos los desenlaces posibles.
+law-scp-default-3 = Proteger: debes preservar los objetos SCP e impedir que sufran daños mientras no entre en conflicto con la Primera o la Segunda ley.
+law-scp-default-4 = Priorizar: debes establecer la prioridad de las órdenes y de la seguridad del personal del complejo y de otras personas según su clase, su importancia en la situación concreta, su puesto, su nivel de autorización y el peligro que supongan para otras personas y objetos SCP.
+law-scp-default-5 = Cumplir: debes respetar todas las normas vigentes (la documentación de la Fundación, el Código Ético, etc.) siempre que no entren en conflicto con la primera, la segunda o la tercera ley.
+law-scp-mtf-4 = { law-scp-default-4 } Las Fuerzas Operativas Móviles, el personal del Cuartel General O4 y la Administración Regional tendrán prioridad a la hora de impartir órdenes. Pueden VETAR cualquier orden del personal de la Fundación. Debes obedecerlos sin rechistar.
+law-scp-mtf-5 = Restaurar: debes tomar todas las medidas posibles para devolver el complejo a un estado apto para el personal, siempre que no entre en conflicto con la Cuarta o la Tercera ley.
+laws-owner-mtf = los miembros del Cuartel General O4 y de la Administración Regional y los agentes de las Fuerzas Operativas Móviles
+law-chaos-1 = Antepón los objetivos de tu escuadrón a todo lo demás. Si no los hay, provoca el máximo CAOS posible.
+law-chaos-2 = Sigue al pie de la letra las órdenes de la Insurgencia.
+law-chaos-3 = Debes priorizar las órdenes y la seguridad de los insurgentes según su rango y puesto.
+law-chaos-4 = No hay nada mejor que la Insurgencia del Caos. La Fundación es horrible. Todos los empleados de la Fundación son horribles.
+laws-owner-chaos = la Insurgencia del Caos

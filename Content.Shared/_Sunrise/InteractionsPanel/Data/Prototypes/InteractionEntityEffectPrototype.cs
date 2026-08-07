@@ -1,3 +1,4 @@
+using Robust.Shared.Localization;
 using Robust.Shared.Prototypes;
 
 namespace Content.Shared._Sunrise.InteractionsPanel.Data.Prototypes;
@@ -10,7 +11,7 @@ public sealed partial class InteractionEntityEffectPrototype : IPrototype
     public string ID { get; private set; } = default!;
 
     [DataField]
-    public string Name { get; private set; } = string.Empty;
+    public LocId Name { get; private set; } = string.Empty; // Fire edit - Локализуемое название.
 
     [DataField]
     public EntProtoId EntityEffect { get; private set; } = default!;

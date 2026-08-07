@@ -1,0 +1,78 @@
+<Document>
+  # Communists
+
+  Communists are an organized hostile expedition faction that relies on squads and mutual support.
+  Unlike scattered groups of pirates, Soviet troops usually fight in teams: leader + riflemen + medic.
+
+  # Regular Army Soldiers
+  [bold][color=#a4885c]General characteristics:[/color][/bold]
+  - [bold][color=#a4885c]Health:[/color][/bold] usually 100; medics have 80
+  - [bold][color=#a4885c]Speed:[/color][/bold] 3.5 m/s (basic rifleman templates)
+  - [bold][color=#a4885c]Armor protection (Flak):[/color][/bold] [color=red]Blunt[/color] 15% [color=red]Slash[/color] 15% [color=yellow]Piercing[/color] 45% [color=orange]Heat[/color] 40%
+  - [bold][color=#a4885c]Traits:[/color][/bold] light standard-issue armor, strength in numbers, quality ammunition, and throwable explosive grenades.
+
+  <Box>
+  <GuideEntityEmbed Entity="MobSovietT1Pistol" Caption=""/>
+  <GuideEntityEmbed Entity="MobSovietT1Mosin" Caption=""/>
+  <GuideEntityEmbed Entity="MobSovietT1SMGAlt" Caption=""/>
+  <GuideEntityEmbed Entity="MobSovietT1Dp28" Caption=""/>
+  <GuideEntityEmbed Entity="MobSovietT1RPD" Caption=""/>
+  </Box>
+  <Box>
+  <GuideEntityEmbed Entity="MobSovietT1SLRifle" Caption=""/>
+  <GuideEntityEmbed Entity="MobSovietT1SerzhantSMG" Caption=""/>
+  <GuideEntityEmbed Entity="MobSovietT1SKM" Caption=""/>
+  <GuideEntityEmbed Entity="MobSovietT1PPSH" Caption=""/>
+  <GuideEntityEmbed Entity="MobSovietT1Medic" Caption=""/>
+  </Box>
+
+  - [bold][color=#a4885c]Roles:[/color][/bold] squad sergeants, riflemen, submachine gunners, machine gunners, and medics.
+
+  # Landing Troops
+  [bold][color=#a4885c]General characteristics:[/color][/bold]
+  - [bold][color=#a4885c]Health:[/color][/bold] usually 100; medics have 80
+  - [bold][color=#a4885c]Speed:[/color][/bold] 3.5 m/s base, with marines sprinting up to 4.5 m/s
+  - [bold][color=#a4885c]Armor protection:[/color][/bold] 15% / 50% (typically [color=red]Blunt[/color] and [color=red]Slash[/color] around 15%, [color=yellow]Piercing[/color] up to 50%)
+  - [bold][color=#a4885c]Traits:[/color][/bold] jumping and rolling, heavier equipment, and reinforced breaching roles
+
+  <Box>
+  <GuideEntityEmbed Entity="MobSovietT2Revolver" Caption=""/>
+  <GuideEntityEmbed Entity="MobSovietT2Rifle" Caption=""/>
+  <GuideEntityEmbed Entity="MobSovietT2RifleW" Caption=""/>
+  <GuideEntityEmbed Entity="MobSovietT2Raider" Caption=""/>
+  </Box>
+  <Box>
+  <GuideEntityEmbed Entity="MobSovietT3Shotgun" Caption=""/>
+  <GuideEntityEmbed Entity="MobSovietT2Mech" Caption=""/>
+  <GuideEntityEmbed Entity="MobSovietT3Rifle" Caption=""/>
+  <GuideEntityEmbed Entity="MobSovietT3Medic" Caption=""/>
+  </Box>
+
+  # Squad Tactics
+  Communist groups usually appear as ready-made units:
+  - Infantry squads (leader + riflemen + medic)
+  - Submachine gun squads, machine gun teams, and patrol groups
+  - Light and heavy [bold][color=#FF3B3BFF]MECH[/color][/bold]anized units
+
+  In combat, this means steadier, sustained pressure and fewer "lone" targets.
+
+  # Commanders and Heavy Support
+  [bold][color=#a4885c]General characteristics:[/color][/bold]
+  - [bold][color=#a4885c]Captain:[/color][/bold] speed 4.5 m/s, serving as leader and firepower support
+  - [bold][color=#a4885c]Light mech (Hammer):[/color][/bold] 300 HP, increased hull armor
+  - [bold][color=#a4885c]Heavy mech:[/color][/bold] 400 HP, maximum durability and suppression
+  - [bold][color=#a4885c]Combat bears:[/color][/bold] up to 300 HP, high melee damage
+
+  <Box>
+  <GuideEntityEmbed Entity="MobSovietCaptain" Caption=""/>
+  <GuideEntityEmbed Entity="MobSovietT2Mech" Caption=""/>
+  <GuideEntityEmbed Entity="MobSovietT3Mech" Caption=""/>
+  </Box>
+  <Box>
+  <GuideEntityEmbed Entity="MobSovietBear" Caption=""/>
+  <GuideEntityEmbed Entity="MobSovietBearAlt" Caption=""/>
+  <GuideEntityEmbed Entity="MobSovietSpaceBear" Caption=""/>
+  </Box>
+
+  - [bold][color=#a4885c]Threat:[/color][/bold] THEY HAVE A COMBAT BEAR!!!
+</Document>

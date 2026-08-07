@@ -1,0 +1,21 @@
+﻿<Document>
+  # Portable Scrubber
+  A portable scrubber is a mobile machine used to clean the atmosphere in a room.
+  <Box>
+    <GuideEntityEmbed Entity="PortableScrubber"/>
+  </Box>
+
+  It is invaluable for quickly removing unwanted gases from a room when ordinary [textlink="scrubbers" link="AirScrubber"] work too slowly or when there is no [textlink="scrubber" link="AirScrubber"] nearby.
+
+  A portable scrubber requires [textlink="power" link="Power"] from a nearby [textlink="LV cable" link="VoltageNetworks"].
+
+  The portable scrubber automatically begins removing all unbreathable gases from the room when it is secured to the floor with a wrench.
+
+  It stops cleaning the air if it is unsecured from the floor or if its internal volume fills up. The scrubber's internal capacity is [color=orange][protodata="PortableScrubber" comp="PortableScrubber" member="Volume"/] liters[/color].
+
+  ## Emptying Waste and Storage
+  The scrubber's internal volume can be emptied by securing it with a wrench to a [textlink="connector" link="GasCanisters"].
+
+  Stations often have a dedicated unloading point for quickly transferring waste from the scrubber into the station's waste network.
+
+</Document>

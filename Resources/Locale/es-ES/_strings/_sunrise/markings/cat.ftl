@@ -1,0 +1,17 @@
+marking-CatTail = Cola de gato
+marking-CatTail-tail_cat_wag = Base
+marking-CatTailStripes = Cola de gato (a rayas)
+marking-CatTailStripes-tail_cat_wag_stripes_prime = Rayas primarias
+marking-CatTailStripes-tail_cat_wag_stripes_second = Rayas secundarias
+marking-CatEars = Orejas de gato
+marking-CatEars-ears_cat_outer = Oreja exterior
+marking-CatEars-ears_cat_inner = Oreja interior
+marking-CatEarsStubby = Orejas de gato cortas
+marking-CatEarsStubby-ears_stubby_outer = Oreja exterior
+marking-CatEarsStubby-ears_stubby_inner = Oreja interior
+marking-CatEarsCurled = Orejas de gato curvadas
+marking-CatEarsCurled-ears_curled_outer = Oreja exterior
+marking-CatEarsCurled-ears_curled_inner = Oreja interior
+marking-CatEarsTorn = Orejas de gato rasgadas
+marking-CatEarsTorn-ears_torn_outer = Oreja exterior
+marking-CatEarsTorn-ears_torn_inner = Oreja interior

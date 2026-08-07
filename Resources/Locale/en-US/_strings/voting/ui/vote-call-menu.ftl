@@ -25,9 +25,15 @@ ui-vote-type-timeout = This vote was called too recently ({$remaining})
 ui-vote-type-not-available = This vote type has been disabled
 
 # Vote option only available for specific users.
-ui-vote-trusted-users-notice =
-  This vote option is only available to players who have enough playtime or are whitelisted.
-  In addition, you must have been a ghost for { $timeReq } seconds.
+# Fire edit start - сообщения синхронизированы с условиями голосования Sunrise
+ui-vote-trusted-users-notice-whitelist =
+  This vote option is only available to whitelisted players.
+  In addition, you must have been a ghost for { $ghostTimeReq } seconds.
+ui-vote-trusted-users-notice-time-req =
+  This vote option is only available to players with at least { $timeReq } hours of playtime.
+  In addition, you must have been a ghost for { $ghostTimeReq } seconds.
+ui-vote-trusted-users-notice = You must have been a ghost for { $ghostTimeReq } seconds.
+# Fire edit end
 
 # Warning to not abuse a specific vote option.
 ui-vote-abuse-warning =

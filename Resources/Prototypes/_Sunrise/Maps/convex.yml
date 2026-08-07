@@ -10,7 +10,9 @@
       stationProto: StandardNanotrasenStation
       components:
         - type: StationNameSetup
-          mapNameTemplate: '{0} Конвекс {1}'
+          # Fire edit - локализуемое название станции
+          mapNameTemplate: '{0} Convex {1}'
+          stationNameTemplateLocId: station-name-template-sunrise-convex
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14-SM'

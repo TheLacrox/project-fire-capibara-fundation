@@ -5,7 +5,9 @@
     <BoxContainer Orientation="Vertical">
         <ItemList Name="PaletteList" VerticalExpand="True" Access="Public"/>
         <BoxContainer Orientation="Horizontal">
-            <Label Text="Palette"/>
+            <!-- Fire edit start - локализуем подпись палитры. -->
+            <Label Text="{Loc 'fire-palette-label'}"/>
+            <!-- Fire edit end -->
             <OptionButton Name="Palettes"/>
         </BoxContainer>
     </BoxContainer>

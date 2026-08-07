@@ -1,0 +1,221 @@
+﻿<Document>
+  # Ammunition
+
+  A quick reference for ammunition calibers and cartridge types. Damage and armor penetration values may vary slightly
+  between calibers and specific rounds, but the general behavior of each type remains the same.
+
+  ## Calibers and available types
+  <Table Columns="2">
+    <ColorBox Color="#a88b5e">
+      <Box VerticalAlignment="Center">
+      Caliber
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#a88b5e">
+      <Box VerticalAlignment="Center">
+      Cartridge types
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="2">
+      Pistol (.35)
+      <GuideEntityEmbed Entity="CartridgePistolFMJ" Caption="Cartridge" Scale="1.0"/>
+      <GuideEntityEmbed Entity="MagazineBoxPistolFMJ" Caption="Box" Scale="0.9"/>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="2">
+      - [color=#3F47DB]SP[/color] (16 piercing damage, armor penetration -13%)
+      - [color=#F5514C]HP[/color] (21 piercing damage, armor penetration -100%)
+      - [color=#B68F0E]FMJ[/color] (11 piercing damage, armor penetration 25%)
+      - [color=#540000]AP[/color] (11 piercing damage, armor penetration 69%)
+      - [color=#00c1b8]Rubber[/color] (3 blunt damage, 8.5 stamina damage, armor penetration -99%)
+      - [color=#dbdbdb]Practice[/color] (2 blunt damage)
+      - [color=#ff6e52]Incendiary[/color] (12 piercing damage, 4 heat damage)
+      - [color=#65fe08]Uranium[/color] (6 radiation damage, 10 piercing damage)
+      </Box>
+    </ColorBox>
+
+    <ColorBox>
+      <Box Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="2">
+      Heavy pistol (.40)
+      <GuideEntityEmbed Entity="CartridgePistol40FMJ" Caption="Cartridge" Scale="1.0"/>
+      <GuideEntityEmbed Entity="MagazineBoxPistol40FMJ" Caption="Box" Scale="0.9"/>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="2">
+      - [color=#3F47DB]SP[/color] (20 piercing damage, armor penetration -50%)
+      - [color=#F5514C]HP[/color] (26 piercing damage, armor penetration -100%)
+      - [color=#B68F0E]FMJ[/color] (16 piercing damage, armor penetration 15%)
+      - [color=#540000]AP[/color] (14 piercing damage, armor penetration 50%)
+      </Box>
+    </ColorBox>
+
+    <ColorBox>
+      <Box Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="2">
+      Magnum (.45)
+      <GuideEntityEmbed Entity="CartridgeMagnumFMJ" Caption="Cartridge" Scale="1.0"/>
+      <GuideEntityEmbed Entity="MagazineBoxMagnumFMJ" Caption="Box" Scale="0.9"/>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="2">
+      - [color=#3F47DB]SP[/color] (35 piercing damage, armor penetration -13%)
+      - [color=#F5514C]HP[/color] (45 piercing damage, armor penetration -100%)
+      - [color=#B68F0E]FMJ[/color] (25 piercing damage, armor penetration 25%)
+      - [color=#540000]AP[/color] (25 piercing damage, armor penetration 69%)
+      - [color=#00c1b8]Rubber[/color] (5 blunt damage, 20 stamina damage, armor penetration -99%)
+      - [color=#dbdbdb]Practice[/color] (2 blunt damage)
+      - [color=#ff6e52]Incendiary[/color] (26 piercing damage, 9 heat damage)
+      - [color=#65fe08]Uranium[/color] (15 radiation damage, 20 piercing damage)
+      </Box>
+    </ColorBox>
+
+    <ColorBox>
+      <Box Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="2">
+      Rifle (5.56)
+      <GuideEntityEmbed Entity="CartridgeRifleFMJ" Caption="Cartridge" Scale="1.0"/>
+      <GuideEntityEmbed Entity="MagazineBoxRifleFMJ" Caption="Box" Scale="0.9"/>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="2">
+      - [color=#3F47DB]SP[/color] (17 piercing damage, armor penetration -13%)
+      - [color=#F5514C]HP[/color] (23 piercing damage, armor penetration -100%)
+      - [color=#B68F0E]FMJ[/color] (12 piercing damage, armor penetration 25%)
+      - [color=#540000]AP[/color] (12 piercing damage, armor penetration 69%)
+      - [color=#dbdbdb]Practice[/color] (2 blunt damage)
+      - [color=#ff6e52]Incendiary[/color] (12 piercing damage, 5 heat damage)
+      - [color=#65fe08]Uranium[/color] (7 radiation damage, 8 piercing damage)
+      </Box>
+    </ColorBox>
+
+    <ColorBox>
+      <Box Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="2">
+      Light rifle (7,62)
+      <GuideEntityEmbed Entity="CartridgeLightRifleFMJ" Caption="Cartridge" Scale="1.0"/>
+      <GuideEntityEmbed Entity="MagazineBoxLightRifleFMJ" Caption="Box" Scale="0.9"/>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="2">
+      - [color=#3F47DB]SP[/color] (19 piercing damage, armor penetration -13%)
+      - [color=#F5514C]HP[/color] (25 piercing damage, armor penetration -100%)
+      - [color=#B68F0E]FMJ[/color] (13 piercing damage, armor penetration 25%)
+      - [color=#540000]AP[/color] (13 piercing damage, armor penetration 69%)
+      - [color=#dbdbdb]Practice[/color] (2 blunt damage)
+      - [color=#ff6e52]Incendiary[/color] (14 piercing damage, 5 heat damage)
+      - [color=#65fe08]Uranium[/color] (9 radiation damage, 10 piercing damage)
+      </Box>
+    </ColorBox>
+
+    <ColorBox>
+      <Box Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="2">
+      Heavy rifle (.308 / 7,62R)
+      <GuideEntityEmbed Entity="CartridgeRifleHeavyFMJ" Caption="Cartridge" Scale="1.0"/>
+      <GuideEntityEmbed Entity="MagazineBoxHeavyRifleFMJ" Caption="Box" Scale="0.9"/>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="2">
+      - [color=#3F47DB]SP[/color] (25 piercing damage, 10 structural damage, armor penetration -13%)
+      - [color=#F5514C]HP[/color] (30 piercing damage, armor penetration -90%)
+      - [color=#B68F0E]FMJ[/color] (20 piercing damage, 5 structural damage, armor penetration 25%)
+      - [color=#540000]AP[/color] (20 piercing damage, 2 structural damage, armor penetration 69%)
+      - [color=#dbdbdb]Practice[/color] (5 blunt damage)
+      - [color=#ff6e52]Incendiary[/color] (20 piercing damage, 5 heat damage)
+      - [color=#65fe08]Uranium[/color] (10 radiation damage, 12 piercing damage)
+      - [color=#7f009b]Artillery[/color] (19 piercing damage, long-range)
+      </Box>
+    </ColorBox>
+
+    <ColorBox>
+      <Box Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="2">
+      Caseless (.25)
+      <GuideEntityEmbed Entity="CartridgeCaselessRifle" Caption="Cartridge" Scale="1.0"/>
+      <GuideEntityEmbed Entity="MagazineBoxCaselessRifle" Caption="Box" Scale="0.9"/>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="2">
+      - [color=#B68F0E]Standard[/color] (19 piercing damage)
+      - [color=#dbdbdb]Practice[/color] (2 blunt damage)
+      </Box>
+    </ColorBox>
+
+    <ColorBox>
+      <Box Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="2">
+      Anti-materiel (15 mm)
+      <GuideEntityEmbed Entity="CartridgeAntiMateriel" Caption="Cartridge" Scale="1.0"/>
+      <GuideEntityEmbed Entity="MagazineBoxAntiMateriel" Caption="Box" Scale="0.9"/>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="2">
+      - [color=#9b0000]Armor-piercing[/color] (75 piercing damage, 226 structural damage, armor penetration 35%)
+      - [color=#7f009b]Anti-materiel[/color] (75 piercing damage, 226 structural damage)
+      - [color=#7ea53b]Fragmentation[/color] (25 explosive damage, x10 cluster)
+      - [color=#8d6425]Explosive[/color] (50 explosive damage)
+      - [color=#005396]EMP[/color] (EMP, 3 tiles)
+      </Box>
+    </ColorBox>
+
+    <ColorBox>
+      <Box Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="2">
+      12 gauge
+      <GuideEntityEmbed Entity="ShellShotgun" Caption="Cartridge" Scale="1.0"/>
+      <GuideEntityEmbed Entity="BoxLethalshot" Caption="Box" Scale="0.9"/>
+      <GuideEntityEmbed Entity="BoxShotgunBreaching" Caption="Box (breaching)" Scale="0.9"/>
+      <GuideEntityEmbed Entity="BoxShotgunFlechette" Caption="Box (flechette)" Scale="0.9"/>
+      <GuideEntityEmbed Entity="SpeedLoaderShellShotgun" Caption="Speed loader" Scale="0.9"/>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="2">
+      - [color=#F4001F]Buckshot[/color] (5 piercing damage, 5 structural damage, x12, armor penetration -15%)
+      - Slug (40 piercing damage, 15 structural damage, armor penetration 5%)
+      - [color=#149A1E]Less-lethal[/color] (10 blunt damage, 35 stamina damage)
+      - [color=#FFFF0B]Flare[/color] (5 heat damage, ignition)
+      - [color=#FFFF0B]Incendiary[/color] (7 piercing damage, 3 heat damage, x6)
+      - [color=#0096FF]Breaching[/color] (5 piercing damage, 20 structural damage, x12)
+      - [color=#5da0b5]Flechette[/color] (4 piercing damage, 4 structural damage, 3 stamina damage, x8, armor penetration 40%)
+      - [color=#dbdbdb]Practice[/color] (1 blunt damage, x12)
+      - [color=#49CECE]Tranquilizer[/color] (1 blunt damage, 9 units of chloral hydrate)
+      - [color=#65fe08]Uranium[/color] (2 radiation damage, 3 piercing damage, x10)
+      - Improvised [color=#555555]buckshot[/color] (2 piercing damage, 2 slashing damage, x14)
+      - Improvised [color=#FFFF0B]incendiary[/color] (1.5 piercing damage, 1.5 slashing damage, 7 heat damage, x6)
+      - Improvised [color=#65fe08]uranium[/color] (1.5 piercing damage, 1.5 slashing damage, 2.5 radiation damage, x10)
+      - Improvised ([color=#caa44a]coin shot[/color]) (14 piercing damage, x2)
+      - [color=#149A1E]Alcohol[/color] (1 blunt damage, 35 units of reagents)
+      - [color=#e4e4e4]Holy[/color] (2 blunt damage, 18 holy damage)
+      </Box>
+    </ColorBox>
+  </Table>
+  ## What each type does
+  - SP (soft point): standard damage for its caliber, with slightly worse armor penetration at -13%; moderate penetration and ricochet chances.
+  - HP (hollow point): usually around +30% damage, no armor penetration, and -70…100% effectiveness against armor; low penetration and ricochet chances.
+  - FMJ (full metal jacket): usually -30…-40% damage, but around 25% armor penetration; high penetration and ricochet chances.
+  - AP (armor-piercing): maximum armor penetration (around 69%) with reduced damage; the best choice against armor.
+  - Rubber: low damage and high stamina damage; non-lethal.
+  - Practice: minimal damage; training ammunition.
+  - Incendiary: deals part of its damage as heat and can ignite the target.
+  - Uranium: adds radiation damage and has better penetration and ricochet performance.
+  - Buckshot: multiple pellets, best damage at point-blank range, and rapidly loses effectiveness over distance.
+  - Slug: one heavy projectile with better range and armor penetration, but no area damage.
+  - Less-lethal: non-lethal damage and severe stamina damage or stunning.
+  - Flare: light and ignition with low direct damage.
+  - Tranquilizer: a chemical effect (sedation) with minimal direct damage.
+  - Improvised (glass): homemade ammunition with wide spread and low accuracy; best at close range.
+  - Improvised incendiary: homemade ammunition that ignites targets.
+  - Improvised uranium: homemade ammunition with radiation damage.
+  - Improvised (coin shot): a heavy improvised projectile with a strong close-range impact but poor range.
+  - Alcohol: a chemical payload that applies reagent effects.
+  - Holy: special effects and holy damage, useful against certain targets.
+  - 15 mm anti-materiel: enormous structural damage and stopping power; cannot penetrate targets or structures without destroying them completely.
+  - 15 mm armor-piercing: maximum armor penetration and the chance to penetrate targets or structures.
+  - 15 mm fragmentation: a small explosion and area shrapnel damage.
+  - 15 mm explosive: explosive area and structural damage.
+  - 15 mm EMP: causes an EMP, disables electronics, and damages mechs and cyborgs.
+  - Artillery: travels vastly farther than other ammunition at the cost of performance. It is usually used in shuttle weaponry.
+</Document>

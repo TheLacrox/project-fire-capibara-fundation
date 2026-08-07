@@ -1,0 +1,32 @@
+<Document>
+# Medicina
+Las personas heridas acuden a este departamento; quienes trabajan aquí tienen la responsabilidad de curarlas.
+
+## Personal
+El personal de [color=#5b97bc]Medicina[/color] está formado por internos, médicos, paramédicos y químicos. El [color=#5b97bc]departamento de Medicina[/color] está dirigido por el director médico.
+
+  <Box>
+    <GuideEntityEmbed Entity="ToyFigurineMedicalDoctor" Caption="Médico"/>
+    <GuideEntityEmbed Entity="ToyFigurineParamedic" Caption="Paramédico"/>
+    <GuideEntityEmbed Entity="ToyFigurineChemist" Caption="Químico"/>
+    <GuideEntityEmbed Entity="ToyFigurineChiefMedicalOfficer" Caption="Director médico"/>
+  </Box>
+  
+En la actualidad, la enfermería se divide en dos áreas asistenciales:
+
+## Tratamiento médico
+  <Box>
+    <GuideEntityEmbed Entity="Brutepack"/>
+    <GuideEntityEmbed Entity="Bloodpack"/>
+    <GuideEntityEmbed Entity="Ointment"/>
+    <GuideEntityEmbed Entity="Gauze"/>
+    <GuideEntityEmbed Entity="HandheldHealthAnalyzer"/>
+  </Box>
+## Producción química
+  <Box>
+    <GuideEntityEmbed Entity="ChemDispenser"/>
+    <GuideEntityEmbed Entity="LargeBeaker"/>
+    <GuideEntityEmbed Entity="PillCanister"/>
+    <GuideEntityEmbed Entity="ChemMaster"/>
+  </Box>
+</Document>

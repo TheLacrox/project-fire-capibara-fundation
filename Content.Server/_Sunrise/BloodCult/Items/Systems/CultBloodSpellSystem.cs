@@ -83,7 +83,7 @@ public sealed class CultBloodSpellSystem : EntitySystem
 
         if (otherHand == null || !_handsSystem.CanPickupToHand(args.User, entity.Owner, otherHand))
         {
-            _popupSystem.PopupEntity($"Рука занята",
+            _popupSystem.PopupEntity(Loc.GetString("cult-blood-spell-hand-occupied"), // Fire edit - Локализация видимого сообщения.
                 args.User,
                 args.User,
                 PopupType.Large);
@@ -113,7 +113,8 @@ public sealed class CultBloodSpellSystem : EntitySystem
         if (!TryComp<BloodCultistComponent>(args.Examiner, out var cultistComponent))
             return;
 
-        args.PushMarkup($"[bold][color=white]Доступно {cultistComponent.BloodCharges} зарядов[/color][bold]");
+        args.PushMarkup(Loc.GetString("cult-blood-spell-examine-charges",
+            ("charges", cultistComponent.BloodCharges))); // Fire edit - Локализация осмотра заклинания.
     }
 
     private void OnCreateOrb(EntityUid uid, CultBloodSpellComponent component, CountSelectorMessage args)
@@ -201,7 +202,7 @@ public sealed class CultBloodSpellSystem : EntitySystem
         {
             cultistComponent.BloodCharges += bloodOrbComponent.BloodCharges;
             QueueDel(args.Target);
-            _popupSystem.PopupEntity($"Собрано {bloodOrbComponent.BloodCharges} зарядов",
+            _popupSystem.PopupEntity(Loc.GetString("cult-blood-spell-charges-collected", ("charges", bloodOrbComponent.BloodCharges)), // Fire edit - Локализация видимого сообщения.
                 args.User,
                 args.User,
                 PopupType.Large);
@@ -229,7 +230,7 @@ public sealed class CultBloodSpellSystem : EntitySystem
                         100,
                         "Blood");
                     cultistComponent.BloodCharges += blood.Volume / 2;
-                    _popupSystem.PopupEntity($"Собрано {blood.Volume / 2} зарядов",
+                    _popupSystem.PopupEntity(Loc.GetString("cult-blood-spell-charges-collected", ("charges", blood.Volume / 2)), // Fire edit - Локализация видимого сообщения.
                         args.User,
                         args.User,
                         PopupType.Large);
@@ -301,7 +302,7 @@ public sealed class CultBloodSpellSystem : EntitySystem
             return 0;
 
         var getCharges = absorbBlood.Volume / 1.5;
-        _popupSystem.PopupEntity($"Собрано {getCharges} зарядов",
+        _popupSystem.PopupEntity(Loc.GetString("cult-blood-spell-charges-collected", ("charges", getCharges)), // Fire edit - Локализация видимого сообщения.
             user,
             user,
             PopupType.Large);
@@ -412,7 +413,7 @@ public sealed class CultBloodSpellSystem : EntitySystem
 
         bloodCultistComponent.BloodCharges -= usedCharges;
         _damageableSystem.TryChangeDamage(target, healingDamage, ignoreResistances: true);
-        _popupSystem.PopupEntity($"Излечено {totalHeal} урона и восстановлено {fillBlood} крови",
+        _popupSystem.PopupEntity(Loc.GetString("cult-blood-spell-healed", ("damage", totalHeal), ("blood", fillBlood)), // Fire edit - Локализация видимого сообщения.
             user,
             user,
             PopupType.Large);

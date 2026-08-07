@@ -1,0 +1,17 @@
+chat-speech-verb-felinid-1 = ronronea
+chat-speech-verb-felinid-2 = maúlla
+chat-speech-verb-felinid-3 = maúlla
+chat-speech-verb-felinid-4 = ronronea
+chat-speech-verb-name-felinid = Maullido
+chat-speech-verb-vulpkanin-1 = gruñe
+chat-speech-verb-vulpkanin-2 = ladra
+chat-speech-verb-vulpkanin-3 = gruñe
+chat-speech-verb-vulpkanin-4 = ladra
+chat-speech-verb-vulpkanin-5 = gime
+chat-speech-verb-name-vulpkanin = Gruñido
+chat-speech-verb-name-swine = Gruñido porcino
+chat-speech-verb-swine-1 = chilla
+chat-speech-verb-swine-2 = gruñe
+chat-speech-verb-name-resomi = Resomi
+chat-speech-verb-resomi-1 = grazna
+chat-speech-verb-resomi-2 = gorjea

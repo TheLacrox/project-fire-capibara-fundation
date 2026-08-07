@@ -1,0 +1,48 @@
+﻿<Document>
+  # SCP-457 Abilities
+
+  This section describes the object's available activated abilities and the unique mechanics associated with it.
+
+  [textlink="General information about the Burning Man" link="Scp457About"]
+
+  ## "Absorb Fuel" Ability
+
+  Activating this ability causes SCP-457 to absorb every combustible item within a radius of 4 tiles.
+  Use it to grow larger and become stronger.
+
+  [textlink="More about escape methods" link="Scp457ContainmentBreach"]
+
+  ## "Ignite Tile" Ability
+
+  Activating this ability creates a flame that sets any creature who steps on it alight.
+  Use it to control an area and deal double damage to an opponent.
+
+  ## "Ignite" Ability
+
+  Activating this ability sets every nearby creature on fire, even through windows and walls.
+
+  ## Dying Flame Mechanic
+
+  Over time, your flame will gradually weaken and you will shrink, eventually allowing you to enter and travel through the ventilation system.
+
+  This mechanic helps you escape at the start of the round, but it also makes SCP-457 weaker!
+
+  ## Immunity
+
+  The Burning Man is completely immune to every damage type except cold damage.
+
+  The only thing that can harm you is water. Watch out for it!
+
+  ## Absorption Mechanic
+
+  By absorbing fuel, you grow larger, increase your combat damage, and gain the ability to destroy barricades and walls while moving.
+
+  [textlink="More about states" link="Scp457States"]
+
+  ## Safety Time Mechanic
+
+  During the first 15 minutes of the round, you cannot enter the ventilation system while in your small state.
+
+  This mechanic restricts SCP objects at the start of the round, giving personnel time to prepare for the shift.
+
+</Document>

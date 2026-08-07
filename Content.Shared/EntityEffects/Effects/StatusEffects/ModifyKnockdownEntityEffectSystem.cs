@@ -66,6 +66,7 @@ public sealed partial class ModifyKnockdown : BaseStatusEntityEffect<ModifyKnock
         : Loc.GetString(
             "entity-effect-guidebook-knockdown",
             ("chance", Probability),
+            ("key", "entity-effect-status-effect-KnockedDown"),
             ("type", Type),
             ("time", Time.Value.TotalSeconds)
         );

@@ -1,0 +1,39 @@
+<Document>
+  # Ampliación y reparación de estaciones
+  En Space Station 14 es habitual ampliar la estación o reparar agujeros causados por meteoritos y otros daños.
+
+  ## Celosía
+  Una celosía es una estructura desnuda de varillas colocada en el espacio vacío. Sirve como base para ampliar la estación y anclar objetos.
+
+  <Box>
+    <GuideEntityEmbed Entity="SheetSteel" Caption=""/>
+    <GuideEntityEmbed Entity="PartRodMetal" Caption=""/>
+  </Box>
+
+  Para crearla, coloca varillas en el espacio vacío con [color=yellow][bold][keybind="Use"][/bold][/color]. Recuerda que el menú de construcción permite convertir láminas de acero en varillas.
+
+  La celosía no retiene la presión: todos los gases escaparán al espacio a través de ella.
+
+  Puedes desmontarla utilizando un cortacables con [color=yellow][bold][keybind="Use"][/bold][/color].
+
+  Si el juego no te permite colocar una celosía, probablemente haya otra cuadrícula independiente demasiado cerca de la que intentas ampliar. Usa un cortacables para retirar la cuadrícula que estorba.
+
+  ## Placas de casco
+  Las placas de casco constituyen una base sólida sobre la que descansan las demás partes de la estación.
+
+  <Box>
+    <GuideEntityEmbed Entity="SheetSteel" Caption=""/>
+    <GuideEntityEmbed Entity="FloorTileItemSteel" Caption=""/>
+    <GuideEntityEmbed Entity="FloorTileItemDark" Caption=""/>
+    <GuideEntityEmbed Entity="FloorTileItemWhite" Caption=""/>
+  </Box>
+
+  Convierte una celosía en placa de casco utilizando acero o casi cualquier baldosa sobre ella con [color=yellow][bold][keybind="Use"][/bold][/color].
+  La placa resultante sí puede contener presión y gases.
+
+  Es preferible cubrir las celosías con baldosas en vez de láminas de acero, pues una sola lámina permite fabricar 4 baldosas.
+
+  Puedes utilizar un RCD para desmontar una placa de casco y convertirla en celosía.
+
+
+</Document>

@@ -2,6 +2,7 @@
 using Content.Shared.FixedPoint;
 using Content.Shared.Interaction.Events;
 using Content.Shared.Popups;
+using Robust.Shared.Localization;
 using Robust.Shared.Timing;
 
 namespace Content.Shared._Sunrise.BloodCult.Systems;
@@ -34,7 +35,7 @@ public sealed class CultMemberSystem : EntitySystem
         args.Cancel();
     }
 
-    private void ShowPopup(Entity<CultMemberComponent> user, EntityUid target, string reason)
+    private void ShowPopup(Entity<CultMemberComponent> user, EntityUid target, LocId reason)
     {
         // Popup logic.
         // Cooldown is needed because the input events for melee/shooting etc. will fire continuously

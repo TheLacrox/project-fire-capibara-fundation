@@ -1,0 +1,9 @@
+ent-BaseScp106Phantom = criatura fantasmal
+    .desc = Una creación desrealizada, tejida con las pesadillas de los dementes. Es una encarnación de SCP-106 más débil, pero también más flexible.
+    .suffix = Fantasma de SCP-106
+ent-Scp106Phantom = { ent-BaseScp106Phantom }
+    .desc = { ent-BaseScp106Phantom.desc }
+    .suffix = { ent-BaseScp106Phantom.suffix }
+ent-Scp106CorporealPhantom = { ent-BaseScp106Phantom }
+    .desc = { ent-BaseScp106Phantom.desc }
+    .suffix = { ent-BaseScp106Phantom.suffix }

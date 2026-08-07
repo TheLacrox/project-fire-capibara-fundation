@@ -58,13 +58,13 @@ public sealed class CultBloodSpearSystem : EntitySystem
 
         if (direction == null)
         {
-            _popupSystem.PopupEntity($"Копье не найдено", uid, uid, PopupType.Large);
+            _popupSystem.PopupEntity(Loc.GetString("cult-blood-spear-not-found"), uid, uid, PopupType.Large); // Fire edit - Локализация видимого сообщения.
             return;
         }
 
         if (direction.Value.Length() > component.MaxReturnDistance)
         {
-            _popupSystem.PopupEntity($"Слишком далеко", uid, uid, PopupType.Large);
+            _popupSystem.PopupEntity(Loc.GetString("cult-blood-spear-too-far"), uid, uid, PopupType.Large); // Fire edit - Локализация видимого сообщения.
             return;
         }
 

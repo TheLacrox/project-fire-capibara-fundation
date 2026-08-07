@@ -566,6 +566,9 @@ public sealed partial class EmergencyShuttleSystem : SharedEmergencyShuttleSyste
         }
 
         ent.Comp1.EmergencyShuttle = shuttle;
+        if (ent.Comp1.EmergencyShuttleName is { } emergencyShuttleName)
+            _metaData.SetEntityName(shuttle.Value.Owner, Loc.GetString(emergencyShuttleName));
+
         EnsureComp<ProtectedGridComponent>(shuttle.Value.Owner);
         EnsureComp<PreventPilotComponent>(shuttle.Value.Owner);
         EnsureComp<EmergencyShuttleComponent>(shuttle.Value.Owner);

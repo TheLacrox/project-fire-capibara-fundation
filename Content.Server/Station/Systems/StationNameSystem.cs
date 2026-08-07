@@ -1,14 +1,16 @@
 ﻿using Content.Server.Station.Components;
 using Content.Shared.Station.Components;
+using Robust.Shared.Localization;
 
 namespace Content.Server.Station.Systems;
 
 /// <summary>
 /// This handles naming stations.
 /// </summary>
-public sealed class StationNameSystem : EntitySystem
+public sealed partial class StationNameSystem : EntitySystem // Fire edit - локализуемые шаблоны названий станции
 {
     [Dependency] private readonly StationSystem _station = default!;
+    [Dependency] private readonly ILocalizationManager _localization = default!; // Fire added - локализуемые шаблоны названий станции
 
     /// <inheritdoc/>
     public override void Initialize()
@@ -27,10 +29,16 @@ public sealed class StationNameSystem : EntitySystem
     /// <summary>
     /// Generates a station name from the given config.
     /// </summary>
-    private static string GenerateStationName(StationNameSetupComponent config)
+    private string GenerateStationName(StationNameSetupComponent config)
     {
+        // Fire edit start - локализуемые шаблоны названий станции
+        var template = ResolveStationNameTemplate(
+            config.StationNameTemplate,
+            config.StationNameTemplateLocId,
+            _localization);
         return config.NameGenerator is not null
-            ? config.NameGenerator.FormatName(config.StationNameTemplate)
-            : config.StationNameTemplate;
+            ? config.NameGenerator.FormatName(template)
+            : template;
+        // Fire edit end
     }
 }

@@ -1,0 +1,25 @@
+﻿<Document>
+  # Atmosféricos
+  Atmosféricos es el subdepartamento de Ingeniería responsable de mantener la atmósfera de la estación y garantizar que siga siendo segura y respirable para la tripulación.
+
+  Los técnicos atmosféricos se ocupan de Atmosféricos bajo la supervisión del Ingeniero Jefe.
+
+  <Box>
+    <GuideEntityEmbed Entity="ToyFigurineAtmosTech" Caption="Técnico atmosférico"/>
+    <GuideEntityEmbed Entity="ToyFigurineChiefEngineer" Caption="Ingeniero Jefe"/>
+  </Box>
+  <Box>
+    [color=#999999][italic][italic][/color]
+  </Box>
+
+  ## Responsabilidades
+  Por lo general tendrás que responder a [textlink="incidentes atmosféricos" link="AtmosphericUpsets"] por toda la estación.
+  Pueden ir desde pequeñas fugas hasta auténticos [textlink="incendios" link="Fires"] o [textlink="despresurizaciones" link="Spacing"].
+
+  El personal de otros departamentos también puede pedir [textlink="contenedores de gas" link="GasCanisters"] para sus tareas, como [textlink="plasma" link="Gasses"] para el [textlink="Departamento de Investigación" link="Science"] o [textlink="dióxido de carbono" link="Gasses"] para [textlink="Química" link="Chemist"].
+
+  En tu tiempo libre puedes mejorar la estación preparando salas con atmósferas especiales para los [textlink="vox" link="Vox"] y otras especies, o poniendo en marcha la producción de [textlink="gases exóticos" link="Gasses"] para cubrir las necesidades de la estación.
+
+  Cuando no haya trabajo atmosférico, se esperará que ayudes a los ingenieros de estación con sus tareas y formes a los nuevos ingenieros y técnicos atmosféricos.
+
+</Document>

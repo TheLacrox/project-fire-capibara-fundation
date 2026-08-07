@@ -1,0 +1,1 @@
+announcement-gamma-armory = El Mando Central ha decidido enviar un transbordador equipado con una armería de código Gamma para eliminar la amenaza presente en la estación. El transbordador ha atracado { $location }. ¡Resistan! ¡Gloria a NT!

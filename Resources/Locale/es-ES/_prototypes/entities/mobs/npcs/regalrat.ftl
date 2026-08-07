@@ -1,0 +1,12 @@
+ent-ActionRatKingRaiseArmy = Alzar un ejército
+    .desc = Gasta algo de hambre para invocar una rata aliada que te ayude a defenderte.
+ent-ActionRatKingDomain = Dominio del Rey Rata
+    .desc = Gasta algo de hambre para liberar una nube de amoníaco en el aire.
+ent-ActionRatKingOrderStay = Quietas
+    .desc = Ordena a tu ejército que permanezca en el sitio.
+ent-ActionRatKingOrderFollow = Seguidme
+    .desc = Ordena a tu ejército que te siga.
+ent-ActionRatKingOrderCheeseEm = ¡Hacedlos queso!
+    .desc = Ordena a tu ejército que ataque a quien señales.
+ent-ActionRatKingOrderLoose = Libres
+    .desc = Ordena a tu ejército que actúe por su cuenta.

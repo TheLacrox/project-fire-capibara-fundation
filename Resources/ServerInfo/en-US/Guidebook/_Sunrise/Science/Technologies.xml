@@ -1,0 +1,22 @@
+﻿<Document>
+  # Technologies
+
+  Every technology has a cost and a tier requirement to research it. Unlocking a technology grants access to various recipes that can be printed at different machines.
+
+  The various technologies and their disciplines are listed below.
+
+  ## Industrial
+  <GuideTechDisciplineEmbed Discipline="Industrial"/>
+
+  ## Arsenal
+  <GuideTechDisciplineEmbed Discipline="Arsenal"/>
+
+  ## Experimental
+  <GuideTechDisciplineEmbed Discipline="Experimental"/>
+
+  ## Civilian Services
+  <GuideTechDisciplineEmbed Discipline="CivilianServices"/>
+
+  ## Biochemical
+  <GuideTechDisciplineEmbed Discipline="Biochemical"/>
+</Document>

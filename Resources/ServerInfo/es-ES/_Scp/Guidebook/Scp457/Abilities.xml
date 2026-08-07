@@ -1,0 +1,48 @@
+﻿<Document>
+  # Capacidades de SCP-457
+
+  Aquí se describen las capacidades activas disponibles para el objeto y sus mecánicas exclusivas.
+
+  [textlink="Información general sobre el Hombre Ardiente" link="Scp457About"]
+
+  ## Capacidad «Absorber combustible»
+
+  Al activar esta capacidad, SCP-457 absorbe todos los objetos combustibles que haya en un radio de 4 casillas.
+  Úsala para aumentar de tamaño y hacerte más fuerte.
+
+  [textlink="Más información sobre los métodos de fuga" link="Scp457ContainmentBreach"]
+
+  ## Capacidad «Incendiar una casilla»
+
+  Al activar esta capacidad, se crea una llama que prende fuego a cualquier criatura que la pise.
+  Úsala para controlar una zona e infligir el doble de daño a un adversario.
+
+  ## Capacidad «Prender fuego»
+
+  Al activar esta capacidad, todas las criaturas cercanas empiezan a arder, incluso si se encuentran tras ventanas o paredes.
+
+  ## Mecánica de extinción
+
+  Con el paso del tiempo, tu llama perderá intensidad y tú reducirás de tamaño, hasta poder entrar en el sistema de ventilación y desplazarte por él.
+
+  Esta mecánica facilita la fuga al principio de la ronda, pero también debilita a SCP-457.
+
+  ## Inmunidad
+
+  El Hombre Ardiente es completamente inmune a todos los tipos de daño salvo al daño por frío.
+
+  Lo único que puede hacerte daño es el agua. ¡Ten cuidado con ella!
+
+  ## Mecánica de absorción
+
+  Al absorber combustible, aumentas de tamaño, incrementas tu daño en combate y obtienes la capacidad de destruir barricadas y paredes mientras avanzas.
+
+  [textlink="Más información sobre los estados" link="Scp457States"]
+
+  ## Mecánica del Tiempo de seguridad
+
+  Durante los primeros 15 minutos de la ronda no podrás entrar en el sistema de ventilación mientras estés en el estado pequeño.
+
+  Esta mecánica limita a los objetos SCP al principio de la ronda y concede al personal tiempo para prepararse.
+
+</Document>

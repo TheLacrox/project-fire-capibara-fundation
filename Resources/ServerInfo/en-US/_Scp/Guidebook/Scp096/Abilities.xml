@@ -1,0 +1,44 @@
+﻿<Document>
+  # SCP-096 Abilities
+
+  This page describes the entity's available activated abilities and the unique mechanics associated with it.
+
+  [textlink="General information about the Shy Guy" link="Scp096About"]
+
+  ## Ability "Let Out a Pitiful Scream"
+
+  Activating this ability creates a powerful anomalous resonance that destroys nearby structures with a sonic wave.
+  This ability only works inside the containment chamber. Use it to destroy the chamber.
+
+  [textlink="More information about escape methods" link="Scp096ContainmentBreach"]
+
+  ## Ability "Rip the Skin off Your Face"
+
+  Activating this ability damages your face and splatters your blood everywhere.
+  Using the ability 5 times in a row will critically damage your face, putting you into the "Flayed Face" state.
+
+  [textlink="More information about states" link="Scp096States"]
+
+  [bold]To activate this ability, you must stand still without moving for a couple of seconds until the progress bar above your head is complete.[/bold]
+
+  This ability has a long cooldown!
+
+  ## Ability "Sit Down"
+
+  Activating this ability puts you into the "Sitting" state. The entity's appearance changes, and it loses the ability to move.
+  In this state, the Shy Guy sheds tears more often.
+
+  Overall, this state has no practical use. You can enter it at any time.
+
+  ## Safe Period Mechanic
+
+  During the first 15 minutes of the round, you cannot use the "Rip the Skin off Your Face" ability.
+
+  This mechanic restricts SCP entities at the start of the round, giving personnel time to prepare for the shift.
+
+  ## Vision Mechanic
+
+  The game has a unique system that checks whether each character is visible to every other character.
+
+  [bold]If you and another person look each other in the face, you will enter the "Pre-Rage" state and then the "Rage" state.[/bold] The person who saw you will become a valid target whom you can easily eliminate.
+</Document>

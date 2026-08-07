@@ -1,0 +1,14 @@
+﻿<Document>
+  # Inyector de aire
+  El inyector de aire es un conducto de ventilación especial que introduce gases a presión en la atmósfera circundante.
+  <Box>
+    <GuideEntityEmbed Entity="GasOutletInjector"/>
+  </Box>
+  Se utiliza sobre todo para introducir gases en salas con alta presión, como el [textlink="almacenamiento de gases" link="GasMiningAndStorage"] de la estación o una cámara de combustión.
+
+  El inyector de aire no necesita [textlink="energía" link="Power"] para funcionar.
+
+  El inyector de aire seguirá introduciendo gases en la atmósfera circundante hasta que esta alcance una presión de [color=orange][protodata="GasOutletInjector" comp="GasOutletInjector" member="MaxPressure"/] kPa[/color].
+
+  La velocidad del inyector de aire es proporcional a la cantidad de gas que contiene.
+</Document>

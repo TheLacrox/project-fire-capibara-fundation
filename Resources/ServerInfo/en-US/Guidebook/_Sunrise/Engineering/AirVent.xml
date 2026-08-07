@@ -1,0 +1,64 @@
+﻿<Document>
+  # Air Vent
+  An air vent is the standard ventilation device found in every room that needs to be filled with a breathable atmosphere.
+  Its primary purpose is to transfer gases into the surrounding atmosphere until the set pressure is reached.
+
+  <Box>
+    <GuideEntityEmbed Entity="GasVentPump"/>
+  </Box>
+
+  An air vent requires [textlink="power" link="Power"] from a nearby [textlink="LV cable" link="VoltageNetworks"] to operate.
+
+  An air vent can be welded shut with any welding tool to stop it from operating.
+
+  ## Default Operation
+  By default, an air vent simply releases gas into the surrounding atmosphere until it reaches [color=orange][protodata="GasVentPump" comp="GasVentPump" member="DefaultExternalBound"/] kPa[/color].
+
+  The vent's rate depends on the difference between twice the pressure of the connected [textlink="pipe network" link="PipeNetworks"] and the pressure of the surrounding atmosphere.
+  As a formula:
+  <Box>
+    [italic]Rate = 2 × pipe network pressure - surrounding atmosphere pressure[/italic]
+  </Box>
+
+  For example, this means that the vent cannot pump the atmosphere to 101.3 kPa if the gas pressure inside the vent itself falls below half that value.
+
+  ## Pressure Lockout
+  Air vents enter [color=red]pressure lockout[/color] when the surrounding atmosphere's pressure is below [color=orange][protodata="GasVentPump" comp="GasVentPump" member="UnderPressureLockoutThreshold"/] kPa[/color].
+  This prevents useful gases from being wasted into space when a room is not airtight.
+  The vent's indicators will turn [color=yellow]yellow[/color] to show this state.
+
+  This can be [color=green]overridden[/color] by right-clicking the vent and selecting 'Release pressure lock out', or by setting the connected [textlink="air alarm" link="AirAlarms"] to Fill mode.
+
+  It is important to remember that vents in [color=red]pressure lockout[/color] still release gas very slowly.
+  The amount released depends on the current pressure of the pipe network they are connected to.
+
+  ## Settings
+  When [textlink="linked" link="Networking"] to an [textlink="air alarm" link="AirAlarms"], air vents gain additional options.
+
+  Air vents have two "vent direction" options: Releasing and Siphoning.
+  - Releasing simply releases gases from the connected pipe network into the atmosphere.
+  - Siphoning draws air from the atmosphere into the connected pipe network. The vent's indicators will turn [color=red]red[/color] to show this change.
+
+  ## Pressure Bounds
+  Air vents have a system of pressure bounds that controls the pressure to which a vent will fill the atmosphere or draw gas from the connected pipe network. These bounds apply in both Releasing and Siphoning modes.
+
+  The "PressureBound" setting has four options:
+  - ExternalBound makes the vent obey the pressure limit in the External bound field.
+  - InternalBound makes the vent obey the pressure limit in the Internal bound field.
+  - Both makes the vent obey both the External and Internal bound limits.
+  - NoBound disables the limits.
+
+  When the vent is in Releasing mode:
+  - If External bound is set to 101.3 kPa, the vent will not raise the atmosphere above 101.3 kPa.
+  - If Internal bound is set to 50 kPa, the vent will not take gas from the connected pipe if its pressure is below 50 kPa.
+
+  When the vent is in Siphoning mode:
+  - If External bound is set to 101.3 kPa, the vent will siphon gases until the atmosphere reaches 101.3 kPa.
+  - If Internal bound is set to 50 kPa, the vent will not push gases into the pipe network if its pressure is above 50 kPa.
+
+  If PressureBounds are still confusing, here is a simple way to think about them:
+  - External bound is the upper limit for the surrounding atmosphere. "I will not pump the surrounding atmosphere above this pressure or take gas from it below this pressure."
+  - Internal bound is the lower limit for the connected pipe network. "I will not take gas from a source below this pressure or push air into the pipe network above this pressure."
+  - The "Pressure bound" settings simply determine which limits to obey and which to ignore.
+
+</Document>

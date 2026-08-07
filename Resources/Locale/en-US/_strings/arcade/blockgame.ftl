@@ -24,3 +24,5 @@ blockgame-menu-label-next = Next
 blockgame-menu-label-hold = Hold
 blockgame-menu-text-station = Station
 blockgame-menu-text-nanotrasen = Nanotrasen
+blockgame-menu-highscore-entry = #{$rank}: {$name} - {$score}
+blockgame-menu-highscore-empty-name = No record

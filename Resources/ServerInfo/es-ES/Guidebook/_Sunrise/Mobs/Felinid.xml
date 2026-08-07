@@ -1,0 +1,21 @@
+<Document>
+  # Felínidos
+
+  <Box>
+    <GuideEntityEmbed Entity="MobFelinid" Caption=""/>
+  </Box>
+
+  Los felínidos poseen garras que infligen daño cortante en combate cuerpo a cuerpo y tienen un característico acento «felino».
+  Disponen de visión nocturna que pueden activar y desactivar.
+  Pueden lamerse las heridas para ayudar a detener el sangrado y acelerar la recuperación.
+
+  Sus resistencias difieren ligeramente de las de los humanoides comunes:
+  reciben [color=#ffa500]un 10% más de daño contundente, cortante y perforante[/color],
+  [color=#ffa500]un 10% más de daño por calor[/color],
+  pero [color=#1e90ff]un 10% menos de daño por frío[/color].
+
+  <Box>
+    <GuideEntityEmbed Entity="ClothingBackpackDuffel" Caption=""/>
+  </Box>
+  Los felínidos son lo bastante compactos como para caber en una bolsa cuando sea necesario.
+</Document>

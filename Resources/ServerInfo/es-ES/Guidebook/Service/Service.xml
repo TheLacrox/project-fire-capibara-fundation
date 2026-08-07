@@ -1,0 +1,34 @@
+<Document>
+# Servicio
+El departamento de [color=#9fed58]Servicio[/color] mantiene la estación limpia, eficiente y en sus cabales para que los demás departamentos trabajen mejor y su personal esté contento. También acaba encargándose de la mayor parte del papeleo de la estación.
+
+## Personal
+El personal de [color=#9fed58]Servicio[/color] está compuesto por trabajadores de servicio, cocineros, botánicos, camareros, conserjes, capellanes, payasos, mimos, músicos, abogados, bibliotecarios y pasajeros. El jefe de personal dirige el departamento.
+
+  <Box>
+    <GuideEntityEmbed Entity="ToyFigurineChef" Caption="Cocinero"/>
+    <GuideEntityEmbed Entity="ToyFigurineBotanist" Caption="Botánico"/>
+    <GuideEntityEmbed Entity="ToyFigurineBartender" Caption="Camarero"/>
+    <GuideEntityEmbed Entity="ToyFigurineJanitor" Caption="Conserje"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="ToyFigurineChaplain" Caption="Capellán"/>
+    <GuideEntityEmbed Entity="ToyFigurineClown" Caption="Payaso"/>
+    <GuideEntityEmbed Entity="ToyFigurineMime" Caption="Mimo"/>
+    <GuideEntityEmbed Entity="ToyFigurineMusician" Caption="Músico"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="ToyFigurineLawyer" Caption="Abogado"/>
+    <GuideEntityEmbed Entity="ToyFigurineLibrarian" Caption="Bibliotecario"/>
+    <GuideEntityEmbed Entity="ToyFigurinePassenger" Caption="Pasajero"/>
+    <GuideEntityEmbed Entity="ToyFigurineHeadOfPersonnel" Caption="Jefe de Personal"/>
+  </Box>
+
+## Trabajo en equipo
+Aunque es el más diverso, [color=#9fed58]Servicio[/color] suele ser, con diferencia, el departamento más [color=#a4885c]interconectado[/color].
+La mayoría de los trabajos de [color=#9fed58]Servicio[/color] requieren [color=#a4885c]cooperación[/color] entre el personal.
+Los cocineros suelen necesitar ingredientes que sólo los botánicos pueden cultivar de forma eficiente. El camarero quizá pida plátanos, que los payasos llevan en abundancia.
+El abogado puede invitar al mimo a jugar a las charadas para convencer al juez de que su cliente es inocente.
+
+Hace falta mucha [color=#a4885c]colaboración[/color] tanto dentro como fuera de [color=#9fed58]Servicio[/color]. Los demás departamentos suelen necesitar la ayuda de [color=#9fed58]Servicio[/color], así que mantente alerta.
+</Document>

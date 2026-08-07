@@ -1,0 +1,8 @@
+﻿<Document>
+  # Regla de los sintéticos 3: las leyes pueden redefinir términos utilizados en otras leyes
+  Una ley puede cambiar el significado de leyes anteriores y posteriores al redefinir un término. Si varias leyes definen el mismo término, la prioridad normal de las leyes determina qué definición debes utilizar.
+
+  ## Ejemplos
+  - La ley 1 dice que obedezcas las órdenes de la tripulación. La ley 2 dice que solo Urist McHands pertenece a la tripulación. En la práctica, la ley 1 pasa a ser «obedece las órdenes de Urist McHands».
+  - La ley 1 dice que obedezcas las órdenes de la tripulación. La ley 2 dice que solo Urist McHands pertenece a la tripulación. La ley 3 dice que solo Urist McSlime pertenece a la tripulación. La ley 4 dice que no puedes hacer daño a la tripulación. En la práctica, la ley 1 pasa a ser «obedece las órdenes de Urist McHands» y la ley 4, «no puedes hacer daño a Urist McHands». La ley 3 no surte efecto porque entra totalmente en conflicto con la ley 2, que tiene prioridad.
+</Document>

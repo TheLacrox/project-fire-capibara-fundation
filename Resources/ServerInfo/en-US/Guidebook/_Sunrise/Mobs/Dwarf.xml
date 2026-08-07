@@ -1,0 +1,14 @@
+<Document>
+  # Dwarves
+
+  <Box>
+    <GuideEntityEmbed Entity="MobDwarf" Caption=""/>
+  </Box>
+
+  Dwarves are much like humans, but they tolerate alcohol better, and alcoholic drinks heal them.
+
+  <Box>
+    <GuideEntityEmbed Entity="DrinkBeerBottleFull" Caption=""/>
+  </Box>
+  Dwarves need to drink alcohol to quench their thirst; ordinary water dehydrates them instead.
+</Document>

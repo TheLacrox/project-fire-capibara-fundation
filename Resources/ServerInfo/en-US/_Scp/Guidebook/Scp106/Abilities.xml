@@ -1,0 +1,95 @@
+﻿<Document>
+  # SCP-106 Abilities
+
+  This section describes the object's available activated abilities and the unique mechanics associated with it.
+
+  [textlink="General information about the Old Man" link="Scp106About"]
+
+  ## "Teleport" Ability
+
+  Activating this ability lets you pass through any obstacle for a short time.
+  This ability works only outside the containment chamber.
+
+  ## "Teleport to Pocket Dimension" Ability
+
+  Activating this ability teleports you to the pocket dimension.
+  This ability works only outside the containment chamber.
+
+  ## "Teleport to the Facility" Ability
+
+  Activating this ability teleports you to a random location in the facility.
+  This ability works only outside the containment chamber.
+
+  ## "Embodiment of Suffering" Ability
+
+  Activating this ability lets you unlock new abilities by using the suffering absorbed from captured people.
+
+  ## "Become a Phantom" Ability
+
+  Activating this ability lets you assume phantom form. It allows you to leave your main body and pass through obstacles.
+  This ability works inside the chamber and is required to escape!
+
+  [textlink="More about escape methods" link="Scp106ContainmentBreach"]
+
+  ## "Pain Blade" Ability
+
+  Activating this ability gives the Old Man a blade that deals heavy slash damage.
+  This ability works only in the pocket dimension.
+  It costs 20 points of "suffering" in the shop.
+
+  ## "Rend" Ability
+
+  Activating this ability raises the fear of everyone nearby to its maximum level.
+  This ability works only outside the containment chamber.
+  It costs 20 points of "suffering" in the shop.
+
+  ## "Contamination" Ability
+
+  Activating this ability releases a moderate amount of black rot that slows anyone who steps on it.
+  It costs 15 points of "suffering" in the shop.
+
+  ## "Reversal" Ability
+
+  Activating this ability on a human corpse teleports SCP-106 to the corpse while sending the corpse to the pocket dimension.
+  This ability is required to escape!
+  This ability is available only in phantom form.
+
+  ## "Leave Phantom" Ability
+
+  Activating this ability destroys the phantom and returns you to SCP-106.
+  This ability is available only in phantom form.
+
+  ## "Shadow Passage" Ability
+
+  Activating this ability lets you pass through any obstacle for a short time.
+  This ability is available only in phantom form.
+
+  # SCP-106 Mechanics
+
+  ## Internal Shop Mechanic
+
+  The game has a unique system that lets the Old Man buy new abilities with "suffering," the shop's currency.
+
+  SCP-106 gains 2 points of suffering for every person he teleports to the pocket dimension.
+
+  ## Pocket Dimension
+
+  The game features the Old Man's pocket dimension, where his victims are sent.
+
+  Besides the Old Man himself roaming its corridors, other monsters inhabit the dimension. Be careful!
+
+  ### How Do You Escape the Pocket Dimension?
+
+  Some rooms may contain a staircase that teleports you back to the facility or takes you to the next floor of the pocket dimension.
+
+  ## Phantom
+
+  The game features a special form of SCP-106 called the "phantom." This form lets the Old Man leave the containment chamber and begin an escape attempt.
+
+  To escape, the phantom must find a corpse and use the "Reversal" ability on it. You can now play fully as SCP-106!
+
+  However, remember to stay hidden as the phantom, because it disappears when examined by a person!
+
+  [textlink="More about escape methods" link="Scp106ContainmentBreach"]
+
+</Document>

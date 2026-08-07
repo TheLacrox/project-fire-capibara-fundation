@@ -120,7 +120,11 @@ namespace Content.Client.MainMenu
             }
             catch (ArgumentException e)
             {
-                _userInterfaceManager.Popup($"Unable to connect: {e.Message}", "Connection error.");
+                // Fire edit start - локализация ошибки подключения
+                _userInterfaceManager.Popup(
+                    Loc.GetString("main-menu-failed-to-connect", ("reason", e.Message)),
+                    Loc.GetString("main-menu-connection-error"));
+                // Fire edit end
                 _sawmill.Warning(e.ToString());
                 _netManager.ConnectFailed -= _onConnectFailed;
                 _setConnectingState(false);

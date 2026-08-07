@@ -1,0 +1,10 @@
+ent-ActionScp049Resurrect = Resucitar
+    .desc = Transforma un cadáver en uno de tus fieles pacientes.
+ent-ActionScp049KillResurrected = Matar al resucitado
+    .desc = Mata al instante a un paciente al que habías resucitado.
+ent-ActionScp049KillLeavingBeing = Toque letal
+    .desc = Mata al instante a un ser vivo con solo tocarlo.
+ent-ActionScp049SelfHeal = Autocuración
+    .desc = Recupera salud y elimina todos los efectos negativos.
+ent-ActionScp049HealMinion = Curar al paciente
+    .desc = Devuelve la vitalidad a tu paciente y elimina todos sus efectos negativos.

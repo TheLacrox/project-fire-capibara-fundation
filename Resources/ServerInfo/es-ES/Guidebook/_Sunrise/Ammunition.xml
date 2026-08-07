@@ -1,0 +1,221 @@
+﻿<Document>
+  # Munición
+
+  Guía rápida de calibres y tipos de cartucho. Los valores de daño y penetración de armadura pueden variar ligeramente
+  entre calibres y municiones concretas, pero la lógica general de cada tipo es la misma.
+
+  ## Calibres y tipos disponibles
+  <Table Columns="2">
+    <ColorBox Color="#a88b5e">
+      <Box VerticalAlignment="Center">
+      Calibre
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#a88b5e">
+      <Box VerticalAlignment="Center">
+      Tipos de cartucho
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="2">
+      Pistola (.35)
+      <GuideEntityEmbed Entity="CartridgePistolFMJ" Caption="Cartucho" Scale="1.0"/>
+      <GuideEntityEmbed Entity="MagazineBoxPistolFMJ" Caption="Caja" Scale="0.9"/>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="2">
+      - [color=#3F47DB]SP[/color] (16 de daño perforante, penetración de armadura -13%)
+      - [color=#F5514C]HP[/color] (21 de daño perforante, penetración de armadura -100%)
+      - [color=#B68F0E]FMJ[/color] (11 de daño perforante, penetración de armadura 25%)
+      - [color=#540000]AP[/color] (11 de daño perforante, penetración de armadura 69%)
+      - [color=#00c1b8]De goma[/color] (3 de daño contundente, 8.5 de daño de aguante, penetración de armadura -99%)
+      - [color=#dbdbdb]De entrenamiento[/color] (2 de daño contundente)
+      - [color=#ff6e52]Incendiarios[/color] (12 de daño perforante, 4 de daño térmico)
+      - [color=#65fe08]De uranio[/color] (6 de daño por radiación, 10 de daño perforante)
+      </Box>
+    </ColorBox>
+
+    <ColorBox>
+      <Box Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="2">
+      Pistola pesada (.40)
+      <GuideEntityEmbed Entity="CartridgePistol40FMJ" Caption="Cartucho" Scale="1.0"/>
+      <GuideEntityEmbed Entity="MagazineBoxPistol40FMJ" Caption="Caja" Scale="0.9"/>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="2">
+      - [color=#3F47DB]SP[/color] (20 de daño perforante, penetración de armadura -50%)
+      - [color=#F5514C]HP[/color] (26 de daño perforante, penetración de armadura -100%)
+      - [color=#B68F0E]FMJ[/color] (16 de daño perforante, penetración de armadura 15%)
+      - [color=#540000]AP[/color] (14 de daño perforante, penetración de armadura 50%)
+      </Box>
+    </ColorBox>
+
+    <ColorBox>
+      <Box Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="2">
+      Magnum (.45)
+      <GuideEntityEmbed Entity="CartridgeMagnumFMJ" Caption="Cartucho" Scale="1.0"/>
+      <GuideEntityEmbed Entity="MagazineBoxMagnumFMJ" Caption="Caja" Scale="0.9"/>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="2">
+      - [color=#3F47DB]SP[/color] (35 de daño perforante, penetración de armadura -13%)
+      - [color=#F5514C]HP[/color] (45 de daño perforante, penetración de armadura -100%)
+      - [color=#B68F0E]FMJ[/color] (25 de daño perforante, penetración de armadura 25%)
+      - [color=#540000]AP[/color] (25 de daño perforante, penetración de armadura 69%)
+      - [color=#00c1b8]De goma[/color] (5 de daño contundente, 20 de daño de aguante, penetración de armadura -99%)
+      - [color=#dbdbdb]De entrenamiento[/color] (2 de daño contundente)
+      - [color=#ff6e52]Incendiarios[/color] (26 de daño perforante, 9 de daño térmico)
+      - [color=#65fe08]De uranio[/color] (15 de daño por radiación, 20 de daño perforante)
+      </Box>
+    </ColorBox>
+
+    <ColorBox>
+      <Box Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="2">
+      Fusil (5.56)
+      <GuideEntityEmbed Entity="CartridgeRifleFMJ" Caption="Cartucho" Scale="1.0"/>
+      <GuideEntityEmbed Entity="MagazineBoxRifleFMJ" Caption="Caja" Scale="0.9"/>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="2">
+      - [color=#3F47DB]SP[/color] (17 de daño perforante, penetración de armadura -13%)
+      - [color=#F5514C]HP[/color] (23 de daño perforante, penetración de armadura -100%)
+      - [color=#B68F0E]FMJ[/color] (12 de daño perforante, penetración de armadura 25%)
+      - [color=#540000]AP[/color] (12 de daño perforante, penetración de armadura 69%)
+      - [color=#dbdbdb]De entrenamiento[/color] (2 de daño contundente)
+      - [color=#ff6e52]Incendiarios[/color] (12 de daño perforante, 5 de daño térmico)
+      - [color=#65fe08]De uranio[/color] (7 de daño por radiación, 8 de daño perforante)
+      </Box>
+    </ColorBox>
+
+    <ColorBox>
+      <Box Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="2">
+      Fusil ligero (7,62)
+      <GuideEntityEmbed Entity="CartridgeLightRifleFMJ" Caption="Cartucho" Scale="1.0"/>
+      <GuideEntityEmbed Entity="MagazineBoxLightRifleFMJ" Caption="Caja" Scale="0.9"/>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="2">
+      - [color=#3F47DB]SP[/color] (19 de daño perforante, penetración de armadura -13%)
+      - [color=#F5514C]HP[/color] (25 de daño perforante, penetración de armadura -100%)
+      - [color=#B68F0E]FMJ[/color] (13 de daño perforante, penetración de armadura 25%)
+      - [color=#540000]AP[/color] (13 de daño perforante, penetración de armadura 69%)
+      - [color=#dbdbdb]De entrenamiento[/color] (2 de daño contundente)
+      - [color=#ff6e52]Incendiarios[/color] (14 de daño perforante, 5 de daño térmico)
+      - [color=#65fe08]De uranio[/color] (9 de daño por radiación, 10 de daño perforante)
+      </Box>
+    </ColorBox>
+
+    <ColorBox>
+      <Box Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="2">
+      Fusil pesado (.308 / 7,62R)
+      <GuideEntityEmbed Entity="CartridgeRifleHeavyFMJ" Caption="Cartucho" Scale="1.0"/>
+      <GuideEntityEmbed Entity="MagazineBoxHeavyRifleFMJ" Caption="Caja" Scale="0.9"/>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="2">
+      - [color=#3F47DB]SP[/color] (25 de daño perforante, 10 de daño estructural, penetración de armadura -13%)
+      - [color=#F5514C]HP[/color] (30 de daño perforante, penetración de armadura -90%)
+      - [color=#B68F0E]FMJ[/color] (20 de daño perforante, 5 de daño estructural, penetración de armadura 25%)
+      - [color=#540000]AP[/color] (20 de daño perforante, 2 de daño estructural, penetración de armadura 69%)
+      - [color=#dbdbdb]De entrenamiento[/color] (5 de daño contundente)
+      - [color=#ff6e52]Incendiarios[/color] (20 de daño perforante, 5 de daño térmico)
+      - [color=#65fe08]De uranio[/color] (10 de daño por radiación, 12 de daño perforante)
+      - [color=#7f009b]De artillería[/color] (19 de daño perforante, de largo alcance)
+      </Box>
+    </ColorBox>
+
+    <ColorBox>
+      <Box Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="2">
+      Sin casquillo (.25)
+      <GuideEntityEmbed Entity="CartridgeCaselessRifle" Caption="Cartucho" Scale="1.0"/>
+      <GuideEntityEmbed Entity="MagazineBoxCaselessRifle" Caption="Caja" Scale="0.9"/>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="2">
+      - [color=#B68F0E]Estándar[/color] (19 de daño perforante)
+      - [color=#dbdbdb]De entrenamiento[/color] (2 de daño contundente)
+      </Box>
+    </ColorBox>
+
+    <ColorBox>
+      <Box Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="2">
+      Antimaterial (15 mm)
+      <GuideEntityEmbed Entity="CartridgeAntiMateriel" Caption="Cartucho" Scale="1.0"/>
+      <GuideEntityEmbed Entity="MagazineBoxAntiMateriel" Caption="Caja" Scale="0.9"/>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="2">
+      - [color=#9b0000]Perforantes[/color] (75 de daño perforante, 226 de daño estructural, penetración de armadura 35%)
+      - [color=#7f009b]Antimaterial[/color] (75 de daño perforante, 226 de daño estructural)
+      - [color=#7ea53b]De fragmentación[/color] (25 de daño explosivo, clúster x10)
+      - [color=#8d6425]Explosivos[/color] (50 de daño explosivo)
+      - [color=#005396]PEM[/color] (PEM, 3 casillas)
+      </Box>
+    </ColorBox>
+
+    <ColorBox>
+      <Box Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="2">
+      Calibre 12
+      <GuideEntityEmbed Entity="ShellShotgun" Caption="Cartucho" Scale="1.0"/>
+      <GuideEntityEmbed Entity="BoxLethalshot" Caption="Caja" Scale="0.9"/>
+      <GuideEntityEmbed Entity="BoxShotgunBreaching" Caption="Caja (brecha)" Scale="0.9"/>
+      <GuideEntityEmbed Entity="BoxShotgunFlechette" Caption="Caja (flechette)" Scale="0.9"/>
+      <GuideEntityEmbed Entity="SpeedLoaderShellShotgun" Caption="Cargador rápido" Scale="0.9"/>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="2">
+      - [color=#F4001F]Perdigones[/color] (5 de daño perforante, 5 de daño estructural, x12, penetración de armadura -15%)
+      - Bala/Slug (40 de daño perforante, 15 de daño estructural, penetración de armadura 5%)
+      - [color=#149A1E]Traumático[/color] (10 de daño contundente, 35 de daño de aguante)
+      - [color=#FFFF0B]Bengala[/color] (5 de daño térmico, ignición)
+      - [color=#FFFF0B]Incendiario[/color] (7 de daño perforante, 3 de daño térmico, x6)
+      - [color=#0096FF]De brecha[/color] (5 de daño perforante, 20 de daño estructural, x12)
+      - [color=#5da0b5]Flechette[/color] (4 de daño perforante, 4 de daño estructural, 3 de daño de aguante, x8, penetración de armadura 40%)
+      - [color=#dbdbdb]De entrenamiento[/color] (1 de daño contundente, x12)
+      - [color=#49CECE]Tranquilizante[/color] (1 de daño contundente, 9 uds. de hidrato de cloral)
+      - [color=#65fe08]De uranio[/color] (2 de daño por radiación, 3 de daño perforante, x10)
+      - [color=#555555]Perdigones[/color] caseros (2 de daño perforante, 2 de daño cortante, x14)
+      - [color=#FFFF0B]Incendiario[/color] casero (1.5 de daño perforante, 1.5 de daño cortante, 7 de daño térmico, x6)
+      - [color=#65fe08]De uranio[/color] casero (1.5 de daño perforante, 1.5 de daño cortante, 2.5 de daño por radiación, x10)
+      - Improvisado ([color=#caa44a]bala de monedas[/color]) (14 de daño perforante, x2)
+      - [color=#149A1E]Alcohólico[/color] (1 de daño contundente, 35 uds. de reactivos)
+      - [color=#e4e4e4]Santo[/color] (2 de daño contundente, 18 de daño sagrado)
+      </Box>
+    </ColorBox>
+  </Table>
+  ## Qué hace cada tipo
+  - SP (punta blanda): daño estándar para el calibre, penetración de armadura algo peor, -13%; probabilidades moderadas de atravesar y rebotar.
+  - HP (punta hueca): suele infligir alrededor de +30% de daño, no atraviesa la armadura y su eficacia contra ella es de -70…100%; baja probabilidad de atravesar y rebotar.
+  - FMJ (encamisada): suele infligir -30…-40% de daño, pero tiene alrededor de 25% de penetración de armadura; alta probabilidad de atravesar y rebotar.
+  - AP (perforante): máxima penetración de armadura (alrededor de 69%) y daño reducido; la mejor opción contra armaduras.
+  - De goma: poco daño y mucho daño de aguante; no letal.
+  - De entrenamiento: daño mínimo; munición de práctica.
+  - Incendiario: parte del daño es térmico y puede prender fuego al objetivo.
+  - De uranio: añade daño por radiación y atraviesa o rebota mejor.
+  - Perdigones: varios proyectiles, máximo daño a quemarropa y rápida pérdida de eficacia con la distancia.
+  - Bala: un solo proyectil pesado, mejor alcance y penetración de armadura, pero sin daño de área.
+  - Traumático: daño no letal y gran pérdida de aguante o aturdimiento.
+  - Bengala: luz e ignición, con poco daño directo.
+  - Tranquilizante: efecto químico (sedación) y daño directo mínimo.
+  - Casero (vidrio): munición improvisada, mucha dispersión y poca precisión; rinde mejor de cerca.
+  - Incendiario casero: munición improvisada que prende fuego.
+  - De uranio casero: munición improvisada con daño por radiación.
+  - Improvisado (bala de monedas): proyectil pesado improvisado, gran impacto de cerca y poco alcance.
+  - Alcohólico: carga química que aplica los efectos de sus reactivos.
+  - Santo: efectos especiales y daño sagrado, útil contra ciertos objetivos.
+  - Antimaterial de 15 mm: enorme daño estructural y poder de detención; no puede atravesar objetivos o estructuras sin destruirlos por completo.
+  - Perforante de 15 mm: máxima penetración de armadura y probabilidad de atravesar objetivos o estructuras.
+  - Fragmentación de 15 mm: pequeña explosión y daño de metralla en área.
+  - Explosivo de 15 mm: daño explosivo de área y contra estructuras.
+  - PEM de 15 mm: provoca un PEM, inutiliza la electrónica y daña a mecas o cíborgs.
+  - De artillería: recorre una distancia incomparablemente mayor que el resto de la munición a cambio de peores prestaciones. Suele emplearse en armamento de transbordadores.
+</Document>

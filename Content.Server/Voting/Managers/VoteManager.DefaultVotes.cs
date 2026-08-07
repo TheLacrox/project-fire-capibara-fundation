@@ -280,13 +280,13 @@ namespace Content.Server.Voting.Managers
                 {
                     picked = (string) _random.Pick(args.Winners);
                     _chatManager.DispatchServerAnnouncement(
-                        Loc.GetString("ui-vote-gamemode-tie")); // Sunrise-Edit
+                        Loc.GetString("ui-vote-gamemode-tie", ("picked", Loc.GetString(presets[picked])))); // Sunrise-Edit
                 }
                 else
                 {
                     picked = (string) args.Winner;
                     _chatManager.DispatchServerAnnouncement(
-                        Loc.GetString("ui-vote-gamemode-win")); // Sunrise-Edit
+                        Loc.GetString("ui-vote-gamemode-win", ("winner", Loc.GetString(presets[picked])))); // Sunrise-Edit
                 }
                 _adminLogger.Add(LogType.Vote, LogImpact.Medium, $"Preset vote finished: {picked}");
                 var ticker = _entityManager.EntitySysManager.GetEntitySystem<GameTicker>();
@@ -297,7 +297,8 @@ namespace Content.Server.Voting.Managers
         private void CreateMapVote(ICommonSession? initiator)
         {
             // Sunrise-Start
-            var maps = new Dictionary<string, GameMapPrototype>();
+            var maps = new Dictionary<string, MapVoteOption>(StringComparer.Ordinal); // Fire edit - сохраняем секретность варианта голосования
+            var usedLabels = new HashSet<string>(StringComparer.Ordinal);
             var excludedMaps = _gameMapManager.CurrentlyExcludedMaps();
 
             var eligibleMaps = _gameMapManager.CurrentlyEligibleMaps()
@@ -312,10 +313,14 @@ namespace Content.Server.Voting.Managers
 
             var selectedMaps = eligibleMaps.OrderBy(_ => _random.Next()).ToList();
             maps.Clear();
-            maps.Add(Loc.GetString("ui-vote-secret-map"), _random.Pick(selectedMaps));
+            var secretLabel = Loc.GetString("ui-vote-secret-map");
+            usedLabels.Add(secretLabel);
+            maps.Add(secretLabel, new MapVoteOption(_random.Pick(selectedMaps), true));
             foreach (var map in selectedMaps)
             {
-                maps.Add(map.MapName, map);
+                var mapLabel = GetUniqueMapVoteLabel(map.GetLocalizedName(_loc), map.ID, usedLabels);
+                usedLabels.Add(mapLabel);
+                maps.Add(mapLabel, new MapVoteOption(map, false)); // Fire edit - локализуемые названия карт без конфликтов ключей
             }
             // Sunrise-End
 
@@ -344,18 +349,30 @@ namespace Content.Server.Voting.Managers
 
             vote.OnFinished += (_, args) =>
             {
-                GameMapPrototype picked;
+                // Fire edit start - не раскрываем карту, выбранную секретным вариантом
+                var isTie = args.Winner == null;
+                MapVoteOption pickedOption;
                 if (args.Winner == null)
-                {
-                    picked = (GameMapPrototype) _random.Pick(args.Winners);
-                    _chatManager.DispatchServerAnnouncement(
-                        Loc.GetString("ui-vote-map-tie")); // Sunrise-Edit
-                }
+                    pickedOption = (MapVoteOption) _random.Pick(args.Winners);
                 else
+                    pickedOption = (MapVoteOption) args.Winner;
+                var picked = pickedOption.Map;
+
+                switch (GetMapVoteAnnouncement(pickedOption.IsSecret, isTie))
                 {
-                    picked = (GameMapPrototype) args.Winner;
+                    case MapVoteAnnouncement.Secret:
+                        _chatManager.DispatchServerAnnouncement(Loc.GetString("ui-vote-secret-win"));
+                        break;
+                    case MapVoteAnnouncement.Tie:
+                        _chatManager.DispatchServerAnnouncement(
+                            Loc.GetString("ui-vote-map-tie", ("picked", picked.GetLocalizedName(_loc))));
+                        break;
+                    case MapVoteAnnouncement.Winner:
+                        _chatManager.DispatchServerAnnouncement(
+                            Loc.GetString("ui-vote-map-win", ("winner", picked.GetLocalizedName(_loc))));
+                        break;
                 }
-                _chatManager.DispatchServerAnnouncement(Loc.GetString("ui-vote-map-win")); // Sunrise-Edit
+                // Fire edit end
 
                 _adminLogger.Add(LogType.Vote, LogImpact.Medium, $"Map vote finished: {picked.MapName}");
                 var ticker = _entityManager.EntitySysManager.GetEntitySystem<GameTicker>();

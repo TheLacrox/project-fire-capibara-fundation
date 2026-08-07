@@ -77,57 +77,57 @@ public sealed partial class BodyAreaTagCondition : IAppearCondition
         switch (slot)
         {
             case "jumpsuit":
-                set.UnionWith(new[] { "грудь", "ляжки", "попа" });
-                if (tags.Tags.Contains("NudeBottom")) set = new() { "грудь" };
-                if (tags.Tags.Contains("NudeTop")) set = new() { "ляжки", "попа" };
-                if (tags.Tags.Contains("CommandSuit")) set = new() { "грудь", "ляжки", "попа" };
+                set.UnionWith(new[] { "chest", "thighs", "buttocks" });
+                if (tags.Tags.Contains("NudeBottom")) set = new() { "chest" };
+                if (tags.Tags.Contains("NudeTop")) set = new() { "thighs", "buttocks" };
+                if (tags.Tags.Contains("CommandSuit")) set = new() { "chest", "thighs", "buttocks" };
                 break;
 
             case "outerClothing":
-                set.UnionWith(new[] { "грудь", "ляжки", "попа" });
-                if (tags.Tags.Contains("NudeBottom")) set = new() { "грудь" };
+                set.UnionWith(new[] { "chest", "thighs", "buttocks" });
+                if (tags.Tags.Contains("NudeBottom")) set = new() { "chest" };
                 if (tags.Tags.Contains("NudeFull")) set.Clear();
                 if (tags.Tags.Contains("FullCovered")) set = new() {
-                    "щёки", "губы", "шея", "уши", "волосы",
-                    "рот", "грудь", "ступни", "ляжки", "попа", "лицо", "хвост", "ладони", "гладкие перчатки"
+                    "cheeks", "lips", "neck", "ears", "hair",
+                    "mouth", "chest", "feet", "thighs", "buttocks", "face", "tail", "palms", "smooth-gloves"
                 };
                 if (tags.Tags.Contains("FullBodyOuter")) set = new() {
-                    "грудь", "ступни", "ляжки", "попа", "шея", "ладони", "гладкие перчатки"
+                    "chest", "feet", "thighs", "buttocks", "neck", "palms", "smooth-gloves"
                 };
                 break;
 
             case "head":
-                set.UnionWith(new[] { "волосы" });
-                if (tags.Tags.Contains("TopCovered")) set = new() { "уши", "волосы" };
-                if (tags.Tags.Contains("FullCovered")) set = new() { "уши", "волосы", "рот", "лицо", "губы", "щёки" };
+                set.UnionWith(new[] { "hair" });
+                if (tags.Tags.Contains("TopCovered")) set = new() { "ears", "hair" };
+                if (tags.Tags.Contains("FullCovered")) set = new() { "ears", "hair", "mouth", "face", "lips", "cheeks" };
                 break;
 
             case "gloves":
-                set.UnionWith(new[] { "ладони", "гладкие перчатки" });
-                if (tags.Tags.Contains("SmoothGloves")) set = new() { "ладони" };
+                set.UnionWith(new[] { "palms", "smooth-gloves" });
+                if (tags.Tags.Contains("SmoothGloves")) set = new() { "palms" };
                 if (tags.Tags.Contains("Ring")) set.Clear();
                 break;
 
             case "neck":
-                set.UnionWith(new[] { "шея" });
+                set.UnionWith(new[] { "neck" });
                 if (tags.Tags.Contains("OpenNeck")) set.Clear();
                 break;
 
             case "mask":
-                set.UnionWith(new[] { "рот" });
-                if (tags.Tags.Contains("FaceCovered")) set = new() { "рот", "щёки", "лицо" };
+                set.UnionWith(new[] { "mouth" });
+                if (tags.Tags.Contains("FaceCovered")) set = new() { "mouth", "cheeks", "face" };
                 break;
 
             case "bra":
-                set.UnionWith(new[] { "грудь" });
+                set.UnionWith(new[] { "chest" });
                 break;
 
             case "socks":
-                set.UnionWith(new[] { "ступни" });
+                set.UnionWith(new[] { "feet" });
                 break;
 
             case "shoes":
-                set.UnionWith(new[] { "носки", "ступни" });
+                set.UnionWith(new[] { "socks", "feet" });
                 break;
         }
 

@@ -1,0 +1,48 @@
+﻿<Document>
+# Pumps
+  Pumps are the primary means of actively moving gases through a [textlink="pipe network" link="PipeNetworks"].
+  They draw gas in from one side and push it out the other.
+  There are two types of pumps:
+
+  <Box>
+    <GuideEntityEmbed Entity="GasPressurePump" Caption="pressure pump"/>
+    <GuideEntityEmbed Entity="GasVolumePump" Caption="volume pump"/>
+  </Box>
+
+  Important facts about pumps:
+  - Pumps [color=#a4885c]require power[/color] from a nearby LV cable.
+  - Pumps output gas on the side with the red stripe.
+  - Gas cannot flow backward through pumps, though if preventing backflow is all you need, it is better to use a [textlink="passive gate" link="PassiveGate"].
+  - Pumps cannot move gases into pipes whose pressure or volume exceeds their [color=#a4885c]limit[/color]. When this happens, they become [color=red]blocked[/color].
+
+  Pumps display a colored animation while operating.
+  If there is no gas to pump or the pump is blocked, it displays a flashing [color=red]red[/color] animation.
+  Pumps that are turned off, unpowered, or unanchored display no animation.
+
+  ## Pressure Pumps
+  Pressure pumps are the most common type of pump.
+  They move gas based on [color=#a4885c]pressure[/color], making them useful for precisely controlling pipe pressure or creating a vacuum.
+
+  <Box>
+    <GuideEntityEmbed Entity="GasPressurePump" Caption="pressure pump"/>
+  </Box>
+
+  A pressure pump [color=red]cannot[/color] move gas into a pipe whose pressure is greater than or equal to the pressure configured on the pump.
+
+  For example, a pressure pump set to 500 kPa cannot pump gas into a pipe already at 500 kPa.
+
+  Pressure pumps can pump up to a maximum pressure of [color=orange][protodata="GasPressurePump" comp="GasPressurePump" member="MaxTargetPressure"/] kPa[/color].
+  They become [color=red]blocked[/color] if they try to push gas into a pipe above that pressure.
+
+  ## Volume Pumps
+  Volume pumps are an alternative type of pump that moves gas based on [color=#a4885c]volume[/color].
+
+  <Box>
+    <GuideEntityEmbed Entity="GasVolumePump" Caption="volume pump"/>
+  </Box>
+
+  They are extremely useful for moving large quantities of gas quickly.
+  They can generally reach higher pressures than pressure pumps.
+
+  Although volume pumps operate by volume, they become [color=red]blocked[/color] if they try to push gas into a pipe above [color=orange][protodata="GasVolumePump" comp="GasVolumePump" member="HigherThreshold"/] kPa[/color].
+</Document>

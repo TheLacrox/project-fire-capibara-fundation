@@ -127,8 +127,8 @@ namespace Content.Client.Kitchen.UI
                 foreach (var (reagent, quantity) in reagents)
                 {
                     var reagentName = _prototypeManager.TryIndex(reagent.Prototype, out ReagentPrototype? proto)
-                        ? Loc.GetString($"{quantity} {proto.LocalizedName}")
-                        : "???";
+                        ? $"{quantity} {proto.LocalizedName}"
+                        : Loc.GetString("generic-unknown"); // Fire edit - Не передаём готовый видимый текст как LocId.
                     BeakerContentBox.BoxContents.AddItem(reagentName);
                 }
             }

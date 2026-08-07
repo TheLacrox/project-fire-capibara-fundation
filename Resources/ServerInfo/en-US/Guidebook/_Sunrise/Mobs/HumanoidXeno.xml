@@ -1,0 +1,27 @@
+<Document>
+  # Humanoid Xenomorphs
+
+  <Box>
+    <GuideEntityEmbed Entity="MobXenoDummy" Caption=""/>
+  </Box>
+
+  Humanoid xenomorphs are resistant to pressure differences and have acidic blood.
+  Their unarmed attacks deal slash, blunt, and acid damage.
+
+  <Box>
+    <GuideReagentEmbed Reagent="FluorosulfuricAcidHumanoidXeno"/>
+  </Box>
+
+  They take [color=#ffa500]5% more piercing damage[/color],
+  [color=#ffa500]take no cold damage[/color],
+  [color=#ffa500]take 20% more heat damage[/color], and
+  [color=#ffa500]take 25% more electrical damage[/color].
+
+  They become hungry more quickly and need to eat more often, by approximately 20%.
+  Xenomorphs do not suffer from suffocation.
+  They cannot wear certain items: hard helmets, hardsuits, or boots other than foot wraps, magboots, and ninja boots.
+  Their blood is a potent poison.
+  Their footprints resemble those of Unathi.
+  Their feet are immune to glass shards.
+
+</Document>

@@ -1,0 +1,110 @@
+# Fire added - Локализуемые наборы для законов ионного шторма.
+# Исходные английские значения остаются в унаследованных dataset для удобства обновления upstream.
+
+- type: localizedDataset
+  id: IonStormAdjectives
+  values:
+    prefix: ion-storm-dataset-adjectives-
+    count: 147
+
+- type: localizedDataset
+  id: IonStormAllergies
+  values:
+    prefix: ion-storm-dataset-allergies-
+    count: 33
+
+- type: localizedDataset
+  id: IonStormAllergySeverities
+  values:
+    prefix: ion-storm-dataset-allergy-severities-
+    count: 6
+
+- type: localizedDataset
+  id: IonStormAreas
+  values:
+    prefix: ion-storm-dataset-areas-
+    count: 46
+
+- type: localizedDataset
+  id: IonStormConcepts
+  values:
+    prefix: ion-storm-dataset-concepts-
+    count: 55
+
+- type: localizedDataset
+  id: IonStormCrew
+  values:
+    prefix: ion-storm-dataset-crew-
+    count: 38
+
+- type: localizedDataset
+  id: IonStormDrinks
+  values:
+    prefix: ion-storm-dataset-drinks-
+    count: 17
+
+- type: localizedDataset
+  id: IonStormFeelings
+  values:
+    prefix: ion-storm-dataset-feelings-
+    count: 23
+
+- type: localizedDataset
+  id: IonStormFeelingsPlural
+  values:
+    prefix: ion-storm-dataset-feelings-plural-
+    count: 23
+
+- type: localizedDataset
+  id: IonStormFoods
+  values:
+    prefix: ion-storm-dataset-foods-
+    count: 22
+
+- type: localizedDataset
+  id: IonStormMusts
+  values:
+    prefix: ion-storm-dataset-musts-
+    count: 90
+
+- type: localizedDataset
+  id: IonStormNumberBase
+  values:
+    prefix: ion-storm-dataset-number-base-
+    count: 19
+
+- type: localizedDataset
+  id: IonStormNumberMod
+  values:
+    prefix: ion-storm-dataset-number-mod-
+    count: 10
+
+- type: localizedDataset
+  id: IonStormObjects
+  values:
+    prefix: ion-storm-dataset-objects-
+    count: 154
+
+- type: localizedDataset
+  id: IonStormRequires
+  values:
+    prefix: ion-storm-dataset-requires-
+    count: 129
+
+- type: localizedDataset
+  id: IonStormActions
+  values:
+    prefix: ion-storm-dataset-actions-
+    count: 103
+
+- type: localizedDataset
+  id: IonStormThreats
+  values:
+    prefix: ion-storm-dataset-threats-
+    count: 74
+
+- type: localizedDataset
+  id: IonStormVerbs
+  values:
+    prefix: ion-storm-dataset-verbs-
+    count: 28

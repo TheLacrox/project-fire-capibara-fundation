@@ -1,0 +1,12 @@
+decal-placer-window-title = Colocador de calcomanías
+decal-placer-window-use-color = Color personalizado
+decal-placer-window-rotation = Rotación
+decal-placer-window-zindex = Profundidad de dibujo
+decal-placer-window-enable-auto = Usar ajustes automáticos
+decal-placer-window-enable-snap = Ajustar a la cuadrícula
+decal-placer-window-enable-cleanable = Se puede limpiar
+decal-placer-window-palette = Paleta
+decal-placer-window-search-placeholder = Buscar calcomanías…
+decal-placer-window-category = Categoría
+decal-placer-window-category-all = Todas las categorías
+palette-color-picker-window-title = Paletas

@@ -5,8 +5,10 @@ ent-ClothingOuterArmorChaosHeavyVest = heavy rebel vest
 ent-ClothingOuterCoatSquadLeader = squad leader coat
     .desc = A heavy-duty coat issued to squad leaders. Reinforced fabric offers additional protection while maintaining an authoritative appearance.
     .suffix = SCP Guard
+# Fire added - суффикс нужен унаследованным вариантам
 ent-ClothingOuterArmorSecurity = security vest
     .desc = A thin Type I vest, providing reasonable protection against most forms of damage.
+    .suffix = SCP Guard
 ent-ClothingOuterArmorSecurityWinter = winter armor vest
     .desc = A reinforced winter vest designed for prolonged exposure to low temperatures; the inner lining retains heat unnaturally well.
     .suffix = SCP Guard

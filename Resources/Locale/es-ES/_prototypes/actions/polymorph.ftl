@@ -1,0 +1,14 @@
+ent-ActionRevertPolymorph = Recuperar forma original
+    .desc = Vuelve a tu forma original.
+ent-ActionPolymorphWizardSpider = Transformación en araña
+    .desc = Te transforma en una araña.
+ent-ActionPolymorphWizardRod = Forma de barra inamovible
+    .desc = ¡CLONC!
+ent-ActionPolymorphJaunt = Tránsito etéreo
+    .desc = Fúndete con el Plano Etéreo para escapar rápidamente.
+ent-ActionPolymorphJauntII = Tránsito etéreo II
+    .desc = Fúndete con el Plano Etéreo para escapar aún más rápido.
+ent-ActionPolymorphJauntIII = Tránsito etéreo III
+    .desc = ¿Acaso sigues siendo tangible?
+ent-ActionPolymorph = { "" }
+    .desc = { "" }

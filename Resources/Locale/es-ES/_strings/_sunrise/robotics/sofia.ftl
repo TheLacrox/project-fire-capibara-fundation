@@ -1,0 +1,11 @@
+sofia-wipe-device-verb-text = Borrar el cerebro
+sofia-stop-searching-verb-text = Detener la búsqueda
+sofia-installed = Actividad neuronal detectada.
+sofia-off = No se ha detectado actividad neuronal.
+sofia-still-searching = Descodificación neuronal sintética en curso...
+sofia-searching = Iniciando la descodificación neuronal sintética...
+sofia-role-name = cerebro robótico del Sindicato
+sofia-role-description = Sirve a los miembros del Sindicato.
+sofia-wiped-device = Se ha interrumpido la actividad neuronal.
+sofia-stopped-searching = Descodificación neuronal detenida.
+sofia-slot-component-slot-name-brain = Cerebro

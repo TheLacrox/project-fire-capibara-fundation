@@ -1,0 +1,31 @@
+﻿<Document>
+
+  # SCP Research
+
+  [bold]Unlike research aboard a space station, research at the SCP Foundation focuses primarily on SCP objects.[/bold]
+  Researching every technology here requires [color=#8b0000]SCP research points[/color]. These can be obtained by discovering SCP nodes through the space station's artifact system or by performing unique interactions.
+
+  ## Using the artifact system
+
+  To begin, the SCP object must be within a radius of 10 tiles from the analysis platform. Unlike ordinary artifacts, it does not need to be placed directly on the platform.
+  This method only works on [color=#2B662B]living SCPs[/color], such as SCP-173.
+
+  As soon as you trigger an effect, the [color=#8b0000]SCP research points are immediately added to the research server[/color]. There is no need to extract them through a console.
+
+  Research then proceeds normally, except that the effect associated with the trigger remains hidden.
+
+  [italic]We have expanded the standard list of effects, so you will be able to discover entirely new effects that these objects can exhibit. Some of them are completely insane.[/italic]
+
+  ## Using unique interactions
+
+  Some SCPs have their own unique interactions, but they all follow the same pattern:
+
+  - The player interacts with the SCP using the required tool.
+  - After waiting for some time, the player receives [bold]research material[/bold].
+  - The SCP enters a cooldown whose duration depends on the interaction performed. No further interactions are possible until it ends, even if they are different interactions.
+
+  The resulting [bold]research material[/bold] can be studied like an ordinary artifact. Each of its nodes grants [color=#8b0000]far more SCP research points[/color] than the nodes of SCP objects studied directly.
+
+  [textlink="A list of the unique interactions available for each SCP can be found here" link="ScpResearchAdvanced"]
+
+</Document>

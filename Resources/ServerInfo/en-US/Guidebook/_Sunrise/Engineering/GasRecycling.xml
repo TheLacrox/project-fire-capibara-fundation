@@ -1,0 +1,11 @@
+﻿<Document>
+  # Gas Recycling
+  Gas recycling lets you return useful gases to the station's systems instead of simply venting them into space.
+
+  Waste gases are normally collected by scrubbers and sent into the waste network.
+  They can then be filtered, separated, and returned to [textlink="gas storage" link="GasMiningAndStorage"] or used in other processes.
+
+  A well-configured recycling system reduces the consumption of freshly mined gases and helps the station endure long shifts.
+
+  Monitor the composition and temperature of recycled gas: hot or hazardous mixtures can damage the system or cause another atmospheric incident.
+</Document>

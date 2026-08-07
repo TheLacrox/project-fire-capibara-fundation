@@ -1,0 +1,52 @@
+﻿<Document>
+  # Atmospherics Tools
+  Atmospheric technicians have the same basic set of tools as engineers, but they also have access to two special tools: the holofan projector and gas analyzer.
+
+  <Box>
+    <GuideEntityEmbed Entity="HolofanProjector"/>
+    <GuideEntityEmbed Entity="GasAnalyzer"/>
+  </Box>
+
+  ## Holofan projector
+  The holofan projector is a tool that creates a barrier of solid light. It blocks the flow of air and gases while allowing people to pass through it.
+
+  <Box>
+    <GuideEntityEmbed Entity="HolofanProjector"/>
+    <GuideEntityEmbed Entity="HoloFan"/>
+  </Box>
+
+  This is very useful for moving through [textlink="firelock buffers" link="FireAndGasControl"] without allowing gas to leak between rooms, as well as for warning the crew that entering a room may be dangerous.
+  It can also be used as a temporary barrier that lets crew members move quickly between depressurized and pressurized areas without risking the loss of air from adjacent rooms.
+
+  It has an internal charge that is consumed with each use. To recharge it, remove the battery and place it in a battery charger or recharger.
+
+  Holofans placed next to a [textlink="firelock" link="FireAndGasControl"] disable its interlock, allowing it to be opened manually.
+
+  ## Gas analyzer
+  The gas analyzer is a tool used to examine the gas composition of the surrounding atmosphere or any [textlink="atmospheric device" link="GasManipulation"] containing gas.
+
+  <Box>
+    <GuideEntityEmbed Entity="GasAnalyzer"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="GasPipeBend" Caption=""/>
+    <GuideEntityEmbed Entity="GasPressurePump" Caption=""/>
+    <GuideEntityEmbed Entity="SignalControlledValve" Caption=""/>
+    <GuideEntityEmbed Entity="GasFilter" Caption=""/>
+    <GuideEntityEmbed Entity="StorageCanister" Caption=""/>
+    <GuideEntityEmbed Entity="GasThermoMachineFreezer" Caption=""/>
+  </Box>
+
+  To use the gas analyzer, click on a [textlink="device" link="GasManipulation"] containing gas or on the air in a room.
+
+  When used, the gas analyzer reports:
+  - The volume of the device being measured, not the volume of the gas
+  - The total gas pressure in kPa
+  - The gas temperature in kelvin (K) and degrees Celsius (C)
+  - The exact gas composition in moles and as a percentage of the total volume
+
+  At the bottom of its interface, the gas analyzer displays a visual representation of the different [textlink="gases" link="Gasses"] in the mixture and their relative concentrations.
+
+  When analyzing binary and ternary [textlink="devices" link="GasManipulation"], meaning devices with two or three inputs or outputs, the gas analyzer displays the composition of each input and output separately. This is useful for diagnosing problems in gas [textlink="mixing and filtering" link="MixingAndFiltering"] setups.
+
+</Document>

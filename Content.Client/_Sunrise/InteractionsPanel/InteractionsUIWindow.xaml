@@ -3,7 +3,7 @@
                x:Class="Content.Client._Sunrise.InteractionsPanel.InteractionsUIWindow"
                xmlns:controls="clr-namespace:Content.Client.UserInterface.Controls"
                xmlns:gfx="clr-namespace:Robust.Client.Graphics;assembly=Robust.Client"
-               Title="Interactions Panel"
+               Title="{Loc 'fire-interactions-panel-title'}"
                MinSize="475 600"
                SetSize="475 600">
 
@@ -109,7 +109,7 @@
                     <BoxContainer Orientation="Vertical" Margin="0">
                         <LineEdit
                             Name="SearchInput"
-                            PlaceHolder="🔍 Поиск взаимодействий..."
+                            PlaceHolder="{Loc 'fire-interactions-panel-search'}"
                             HorizontalExpand="True"
                             MinHeight="26"
                             VerticalAlignment="Center"
@@ -139,7 +139,7 @@
 
                         <BoxContainer Orientation="Horizontal" Margin="8 8">
                             <Button Name="NewCustomInteractionButton"
-                                    Text="+ СОЗДАТЬ"
+                                    Text="{Loc 'fire-interactions-panel-create'}"
                                     StyleClasses="ButtonSquare"
                                     HorizontalExpand="False"
                                     VerticalAlignment="Center"
@@ -148,7 +148,7 @@
 
                             <LineEdit
                                 Name="CustomInteractionSearchInput"
-                                PlaceHolder="🔍 Поиск сохраненных..."
+                                PlaceHolder="{Loc 'fire-interactions-panel-search-saved'}"
                                 HorizontalExpand="True"
                                 MinHeight="26"
                                 VerticalAlignment="Center"
@@ -178,7 +178,7 @@
 
                     <BoxContainer Orientation="Vertical" Margin="0">
 
-                        <Label Text="⚙ НАСТРОЙКИ"
+                        <Label Text="{Loc 'fire-interactions-panel-settings'}"
                                FontColorOverride="#00d4ff"
                                HorizontalAlignment="Center"
                                StyleClasses="LabelHeading"
@@ -191,10 +191,10 @@
                                           Pressed="True"
                                           Margin="0 0 8 0"/>
                                 <BoxContainer Orientation="Vertical" HorizontalExpand="True">
-                                    <Label Text="Разрешить другим видеть ваши действия?"
+                                    <Label Text="{Loc 'fire-interactions-panel-public-actions'}"
                                            FontColorOverride="#b8e6ff"
                                            VerticalAlignment="Center"/>
-                                    <Label Text="Выключено: только вы и партнер видите действия.&#10;Включено: все игроки поблизости видят эмоуты."
+                                    <Label Text="{Loc 'fire-interactions-panel-public-actions-help'}"
                                            FontColorOverride="#7a9db3"
                                            StyleClasses="LabelSubText"
                                            Margin="0 2 0 0"
@@ -207,10 +207,10 @@
                                           Pressed="False"
                                           Margin="0 0 8 0"/>
                                 <BoxContainer Orientation="Vertical" HorizontalExpand="True">
-                                    <Label Text="Скрыть верхнюю панель с персонажами?"
+                                    <Label Text="{Loc 'fire-interactions-panel-hide-characters'}"
                                            FontColorOverride="#b8e6ff"
                                            VerticalAlignment="Center"/>
-                                    <Label Text="Позволяет освободить больше места под &#10; взаимодействия."
+                                    <Label Text="{Loc 'fire-interactions-panel-hide-characters-help'}"
                                            FontColorOverride="#7a9db3"
                                            StyleClasses="LabelSubText"
                                            Margin="0 2 0 0"
@@ -222,7 +222,7 @@
 
                             <BoxContainer Orientation="Horizontal" HorizontalAlignment="Center">
                                 <Button Name="ApplySettingsButton"
-                                        Text="ПРИМЕНИТЬ ИЗМЕНЕНИЯ"
+                                        Text="{Loc 'fire-interactions-panel-apply'}"
                                         StyleClasses="ButtonSquare"
                                         MinWidth="180"
                                         MinHeight="30"

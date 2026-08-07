@@ -1,0 +1,141 @@
+<Document>
+  # Pirates
+
+  The pirate forces encountered on expeditions are divided into three factions:
+  [bold]Scavengers (T1)[/bold], [bold]Pirates (T2)[/bold], and [bold]Mercenaries (T3)[/bold].
+  The factions field a wide range of forces and equipment; sometimes you will face entire groups rather than individual fighters.
+
+  # Scavengers
+  Low-tier raiders and looters. They use improvised and industrial equipment.
+
+  [bold][color=#a4885c]General characteristics:[/color][/bold]
+  - [bold][color=#a4885c]Health:[/color][/bold] 100; monkeys have 80
+  - [bold][color=#a4885c]Speed:[/color][/bold] 3.8 m/s (melee), 3.0 m/s (ranged)
+  - [bold][color=#a4885c]Resistances:[/color][/bold] [color=red]Blunt[/color] 40% [color=red]Slash[/color] 35% [color=yellow]Piercing[/color] 30% [color=orange]Heat[/color] 50% [color=orange]Caustic[/color] 50%
+  - [bold][color=#a4885c]Features:[/color][/bold] night vision, passive regeneration, and EVA equipment
+
+  ## Melee
+  <Box>
+  <GuideEntityEmbed Entity="MobPirateT1Knife" Caption=""/>
+  <GuideEntityEmbed Entity="MobPirateT1Pickaxe" Caption=""/>
+  <GuideEntityEmbed Entity="MobPirateT1MonkeyKnuckleDusters" Caption=""/>
+  <GuideEntityEmbed Entity="MobPirateT1ECutlass" Caption=""/>
+  <GuideEntityEmbed Entity="MobPirateT1EPickaxe" Caption=""/>
+  </Box>
+
+  ## Ranged
+  <Box>
+  <GuideEntityEmbed Entity="MobPirateT1Pistol" Caption=""/>
+  <GuideEntityEmbed Entity="MobPirateT1Mosin" Caption=""/>
+  <GuideEntityEmbed Entity="MobPirateT1Flintlock" Caption=""/>
+  <GuideEntityEmbed Entity="MobPirateT1PKA" Caption=""/>
+  <GuideEntityEmbed Entity="MobPirateT1ScrapSMG" Caption=""/>
+  <GuideEntityEmbed Entity="MobPirateT1SMG" Caption=""/>
+  <GuideEntityEmbed Entity="MobPirateT1ScrapRifle" Caption=""/>
+  <GuideEntityEmbed Entity="MobPirateT1Rifle" Caption=""/>
+  </Box>
+
+  ## Rare Variants
+  <Box>
+  <GuideEntityEmbed Entity="MobPirateT1MonkeyFireBomb" Caption=""/>
+  <GuideEntityEmbed Entity="MobPirateT1MonkeyEDagger" Caption=""/>
+  <GuideEntityEmbed Entity="MobPirateT1Hunter" Caption=""/>
+  <GuideEntityEmbed Entity="MobPirateT1HunterSmash" Caption=""/>
+  <GuideEntityEmbed Entity="MobPirateT1BombardierFire" Caption=""/>
+  <GuideEntityEmbed Entity="MobPirateT1BombardierGlass" Caption=""/>
+  <GuideEntityEmbed Entity="MobPirateT1BombardierPipe" Caption=""/>
+  </Box>
+
+  # Pirates
+  A medium-level threat. They carry classic pirate equipment and wear heavy armor.
+
+  [bold][color=#a4885c]General characteristics:[/color][/bold]
+  - [bold][color=#a4885c]Health:[/color][/bold] 100
+  - [bold][color=#a4885c]Speed:[/color][/bold] 3.8 m/s (melee), 3.0 m/s (ranged)
+  - [bold][color=#a4885c]Resistances:[/color][/bold] [color=red]Blunt[/color] 50% [color=red]Slash[/color] 40% [color=yellow]Piercing[/color] 60% [color=orange]Heat[/color] 40% [color=orange]Caustic[/color] 50% Bloodloss 30% Mangleness 30%
+  - [bold][color=#a4885c]Features:[/color][/bold] night vision, passive regeneration, and improved armor
+
+  ## Melee
+  <Box>
+  <GuideEntityEmbed Entity="MobPirateT2Cutlass" Caption=""/>
+  <GuideEntityEmbed Entity="MobPirateT2ECutlass" Caption=""/>
+  <GuideEntityEmbed Entity="MobPirateT2Sledgehammer" Caption=""/>
+  <GuideEntityEmbed Entity="MobPirateT2GauntletDrill" Caption=""/>
+  </Box>
+
+  ## Ranged
+  <Box>
+  <GuideEntityEmbed Entity="MobPirateT2Shotgun" Caption=""/>
+  <GuideEntityEmbed Entity="MobPirateT2ShotgunMiniBall" Caption=""/>
+  <GuideEntityEmbed Entity="MobPirateT2ShotgunGlass" Caption=""/>
+  <GuideEntityEmbed Entity="MobPirateT2Musket" Caption=""/>
+  <GuideEntityEmbed Entity="MobPirateT2MachineCannon" Caption=""/>
+  <GuideEntityEmbed Entity="MobPirateT2DoubleFlintlock" Caption=""/>
+  <GuideEntityEmbed Entity="MobPirateT2DoubleRevolver" Caption=""/>
+  </Box>
+
+  ## Rare Variants
+  <Box>
+  <GuideEntityEmbed Entity="MobPirateT2RevolverCutlass" Caption=""/>
+  <GuideEntityEmbed Entity="MobPirateT2Grapeshot" Caption=""/>
+  <GuideEntityEmbed Entity="MobPirateT2Cannoball" Caption=""/>
+  <GuideEntityEmbed Entity="MobPirateT2Mech" Caption=""/>
+  <GuideEntityEmbed Entity="MobPirateT2Juggernaut" Caption=""/>
+  <GuideEntityEmbed Entity="MobPirateT2JuggernautMG" Caption=""/>
+  </Box>
+
+  # Mercenaries
+  They field many specialized roles, battlefield control, and heavy firepower.
+
+  [bold][color=#a4885c]General characteristics:[/color][/bold]
+  - [bold][color=#a4885c]Health:[/color][/bold] 100
+  - [bold][color=#a4885c]Speed:[/color][/bold] 3.8 m/s (melee), 3.0 m/s (ranged)
+  - [bold][color=#a4885c]Resistances:[/color][/bold] [color=red]Blunt[/color] 60% [color=red]Slash[/color] 50% [color=yellow]Piercing[/color] 70% [color=orange]Heat[/color] 50% [color=orange]Caustic[/color] 50% Bloodloss 50% Mangleness 50%
+  - [bold][color=#a4885c]Features:[/color][/bold] superior equipment, shields, and advanced combat roles
+
+  ## Melee
+  <Box>
+  <GuideEntityEmbed Entity="MobPirateT3Bola" Caption=""/>
+  <GuideEntityEmbed Entity="MobPirateT3Stun" Caption=""/>
+  <GuideEntityEmbed Entity="MobPirateT3Shield1984" Caption=""/>
+  <GuideEntityEmbed Entity="MobPirateT3ShieldSMG" Caption=""/>
+  </Box>
+
+  ## Ranged
+  <Box>
+  <GuideEntityEmbed Entity="MobPirateT3DMR" Caption=""/>
+  <GuideEntityEmbed Entity="MobPirateT3Rifle" Caption=""/>
+  <GuideEntityEmbed Entity="MobPirateT3Rifle2" Caption=""/>
+  <GuideEntityEmbed Entity="MobPirateT3Revolver" Caption=""/>
+  <GuideEntityEmbed Entity="MobPirateT3LaserSMG" Caption=""/>
+  <GuideEntityEmbed Entity="MobPirateT3LaserCannon" Caption=""/>
+  <GuideEntityEmbed Entity="MobPirateT3SMG" Caption=""/>
+  <GuideEntityEmbed Entity="MobPirateT3Medic" Caption=""/>
+  </Box>
+
+  ## Rare Variants
+  <Box>
+  <GuideEntityEmbed Entity="MobPirateT3L6" Caption=""/>
+  <GuideEntityEmbed Entity="MobPirateT3RPD" Caption=""/>
+  <GuideEntityEmbed Entity="MobPirateT3Tachanka" Caption=""/>
+  <GuideEntityEmbed Entity="MobPirateT3Grenadier" Caption=""/>
+  <GuideEntityEmbed Entity="MobPirateT3Infiltrator" Caption=""/>
+  <GuideEntityEmbed Entity="MobPirateT3Sniper" Caption=""/>
+  </Box>
+
+  # Cyborgs and Bosses
+  <Box>
+  <GuideEntityEmbed Entity="MobPirateT1BorgAssault" Caption=""/>
+  <GuideEntityEmbed Entity="MobPirateT2BorgAssault" Caption=""/>
+  <GuideEntityEmbed Entity="MobPirateT3BorgAssault" Caption=""/>
+  <GuideEntityEmbed Entity="MobPirateT1BorgMining" Caption=""/>
+  <GuideEntityEmbed Entity="MobPirateT1BorgDerelict" Caption=""/>
+  </Box>
+  <Box>
+  <GuideEntityEmbed Entity="MobPirateT1Boss" Caption=""/>
+  <GuideEntityEmbed Entity="MobPirateT2Boss" Caption=""/>
+  <GuideEntityEmbed Entity="MobPirateT3Boss" Caption=""/>
+  </Box>
+
+  - [bold][color=#a4885c]Practical advice:[/color][/bold] eliminate medics and controllers first, then deal with the heavy targets. In prolonged fights, pirate squads become more dangerous through role coverage and synergy.
+</Document>

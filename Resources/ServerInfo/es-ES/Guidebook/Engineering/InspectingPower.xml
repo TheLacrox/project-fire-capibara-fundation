@@ -1,0 +1,60 @@
+﻿<Document>
+  # Inspección de la red eléctrica
+  Los ingenieros pueden inspeccionar una red eléctrica para consultar estadísticas útiles sobre ella.
+  Esto les ayuda a diagnosticar averías eléctricas y encontrar la causa de los problemas.
+
+  ## Computadora de supervisión eléctrica
+  La computadora de supervisión eléctrica permite inspeccionar todas las redes eléctricas de la estación.
+
+  <Box>
+    <GuideEntityEmbed Entity="ComputerPowerMonitoring"/>
+  </Box>
+
+  La computadora de supervisión eléctrica consta de dos secciones principales: un mapa de la estación y las estadísticas eléctricas.
+
+  El mapa de la estación muestra:
+  - La distribución de la estación, con las redes de [color=green]baja[/color], [color=yellow]media[/color] y [color=orange]alta[/color] [textlink="tensión" link="VoltageNetworks"] resaltadas.
+  - [textlink="Todos los APC, SMES y subestaciones." link="VoltageNetworks"]
+  - Todos los [textlink="generadores" link="Generators"] conectados a la estación (ten en cuenta que aparecerán aunque no estén conectados a una red eléctrica).
+
+  Las estadísticas eléctricas muestran:
+  - La producción total de los [textlink="generadores" link="Generators"], es decir, lo que están produciendo en ese momento para satisfacer la demanda de la red.
+  - El uso total de las [textlink="baterías" link="PowerStorage"], es decir, la cantidad de energía que se extrae de ellas. Las redes alimentadas por completo mediante generadores mostrarán un uso reducido de las baterías.
+  - La carga total de la red, es decir, la cantidad de energía que solicita la estación.
+
+  En condiciones ideales, la producción total de los generadores debería igualar la carga total de la red y el uso total de las baterías debería ser bajo.
+  Estas tres estadísticas ofrecen a los ingenieros una imagen precisa de la situación eléctrica de la estación.
+  Por ejemplo:
+  - Si la producción total de los generadores es inferior a la carga total de la red, la estación tiene un déficit energético.
+  - Si el uso total de las baterías es alto, la estación está extrayendo energía de ellas para compensar la diferencia.
+  - Si este valor es cero y la producción de los generadores es inferior a la carga total de la red, la estación está sufriendo un apagón parcial porque las baterías se han descargado por completo.
+  - Si la producción total de los generadores supera la carga total de la red, los SMES se están cargando.
+
+  ## Pestañas de dispositivos
+  La computadora de supervisión eléctrica contiene una pestaña para cada categoría de dispositivos de la estación.
+  Estas pestañas muestran las estadísticas eléctricas de cada categoría.
+  Por ejemplo:
+  - Al seleccionar una fuente, se muestra qué dispositivos alimenta y cuánta energía les suministra. También se resaltan los dispositivos conectados a esa fuente.
+  - Al seleccionar un SMES, una subestación o un APC, se muestran las dos redes eléctricas a las que está conectado, cuánta energía recibe y cuánta distribuye, además de los dispositivos concretos que intercambian energía con el dispositivo seleccionado.
+
+  ## Inspección con una multiherramienta
+  La multiherramienta permite inspeccionar cables eléctricos y consultar sus estadísticas.
+
+  <Box>
+    <GuideEntityEmbed Entity="Multitool"/>
+  </Box>
+
+  Al pulsar sobre un cable con la multiherramienta, se muestran sus estadísticas eléctricas, entre ellas:
+  - Suministro actual: la cantidad de energía que aporta la fuente.
+  - Suministro actual de las baterías: la cantidad de energía que se extrae de ellas.
+  - Suministro teórico: la cantidad máxima de energía que podría aportar la fuente si se solicitara.
+  - Consumo ideal: la demanda actual del cable.
+  - Almacenamiento de entrada: la capacidad de las baterías que se están cargando.
+  - Almacenamiento de salida: la capacidad de las baterías que se están descargando.
+
+  Ten en cuenta que esta información solo corresponde a la red de tensión que hayas inspeccionado.
+  Un cable de [color=green]baja tensión[/color] (que probablemente solo abastezca unas pocas salas) no mostrará las mismas estadísticas que uno de [color=orange]alta tensión[/color] (que abastece toda la estación).
+
+  Conviene tener presente esta información, pues puede ayudarte a averiguar por qué «¡esta sala tiene electricidad, pero esta otra no!».
+
+</Document>

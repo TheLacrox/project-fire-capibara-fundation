@@ -1,0 +1,41 @@
+<Document>
+# Investigación de anomalías
+
+La Investigación de anomalías es una subdivisión de Ciencia dedicada a contener y manipular distintas anomalías únicas.
+
+## Equipo
+<Box>
+<GuideEntityEmbed Entity="AnomalyScanner"/>
+<GuideEntityEmbed Entity="MachineAnomalyVessel"/>
+<GuideEntityEmbed Entity="MachineAPE"/>
+</Box>
+
+Los escáneres, recipientes y E.P.A. sirven para contener y observar anomalías.
+
+<Box>
+<GuideEntityEmbed Entity="MachineAnomalyGenerator"/>
+</Box>
+
+El generador de anomalías consume plasma para crear una anomalía aleatoria en algún punto de la estación.
+
+## Anomalías
+Las anomalías son objetos estáticos que aparecen en la estación. No pueden desplazarse, así que tendrás que trabajar a su alrededor sin importar dónde se encuentren.
+
+<Box>
+<GuideEntityEmbed Entity="AnomalyPyroclastic"/>
+</Box>
+
+Cada anomalía presenta tres parámetros principales; dos de ellos aparecen al escanearla:
+
+- [color=#a4885c]Gravedad:[/color] valor numérico que representa el peligro de una anomalía.
+- [color=#a4885c]Estabilidad:[/color] puede mostrarse como decreciente, estable o creciente e indica la frecuencia y extensión de los efectos.
+- [color=#a4885c]Salud:[/color] parámetro oculto que disminuye al utilizar [color=#a4885c]partículas de contención[/color] sobre una anomalía. Si aplicas demasiadas, la anomalía desaparecerá.
+
+## Pulsos y sucesos supercríticos
+Los efectos más peligrosos de las anomalías se manifiestan durante los [color=#a4885c]pulsos[/color] y los [color=#a4885c]sucesos supercríticos[/color].
+
+Los pulsos son ráfagas semirregulares de efectos anómalos. Su peligro es moderado y aumenta con la gravedad y la estabilidad de la anomalía.
+
+Los sucesos supercríticos sólo ocurren cuando una anomalía alcanza el 100% de gravedad. En ese caso, se hinchará antes de desaparecer en medio de un suceso catastrófico. ¡Evítalo a toda costa!
+
+</Document>

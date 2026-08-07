@@ -23,6 +23,7 @@ using Robust.Server.Audio;
 using Robust.Shared.Audio;
 using Robust.Shared.Configuration;
 using Robust.Shared.Enums;
+using Robust.Shared.Localization;
 using Robust.Shared.Player;
 using Robust.Shared.Timing;
 
@@ -87,7 +88,7 @@ public sealed class VigersRaySystem : EntitySystem
     {
         if (_notifyEveryone)
         {
-            _chatManager.DispatchServerAnnouncement("VigersRay ушел", Color.Green);
+            _chatManager.DispatchServerAnnouncement(Loc.GetString("vigers-ray-left-announcement"), Color.Green); // Fire edit - Локализация объявления.
         }
 
         if (_soundEveryone)
@@ -101,7 +102,7 @@ public sealed class VigersRaySystem : EntitySystem
     {
         if (_notifyEveryone)
         {
-            _chatManager.DispatchServerAnnouncement("VigersRay пришел", Color.Red);
+            _chatManager.DispatchServerAnnouncement(Loc.GetString("vigers-ray-joined-announcement"), Color.Red); // Fire edit - Локализация объявления.
         }
 
         if (_soundEveryone)

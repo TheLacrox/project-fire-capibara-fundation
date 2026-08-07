@@ -1,6 +1,7 @@
 using Content.Shared.StatusEffectNew;
 using Content.Server.Speech.Components;
 using Content.Shared.Speech;
+using Robust.Shared.Localization;
 using Robust.Shared.Random;
 
 namespace Content.Server.Speech.EntitySystems
@@ -9,8 +10,12 @@ namespace Content.Server.Speech.EntitySystems
     {
         [Dependency] private readonly IRobustRandom _random = default!;
 
-        private static readonly IReadOnlyList<string> Barks = new List<string>{
-            " Гав!", " ГАВ", " вуф-вуф"  // Russian-Localization
+        private static readonly IReadOnlyList<LocId> Barks = new List<LocId>{
+            "accent-words-dog-1",
+            "accent-words-dog-2",
+            "accent-words-dog-3",
+            "accent-words-dog-4",
+            "accent-words-dog-5",
         }.AsReadOnly();
 
         private static readonly IReadOnlyDictionary<string, string> SpecialWords = new Dictionary<string, string>()
@@ -40,7 +45,7 @@ namespace Content.Server.Speech.EntitySystems
                 message = message.Replace(word, repl);
             }
 
-            return message.Replace("!", _random.Pick(Barks))
+            return message.Replace("!", $" {Loc.GetString(_random.Pick(Barks))}") // Fire edit - Локализация лая.
                 // Russian-Localization-Start
                 .Replace("l", "r").Replace("L", "R")
                 .Replace("л", "р").Replace("Л", "Р");

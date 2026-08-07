@@ -1,0 +1,14 @@
+﻿  # Granada improvisada: carcasa vacía
+
+  La carcasa vacía es la base de las granadas improvisadas. Rellénala y elige una rama del árbol de fabricación para obtener una de las variantes.
+
+  ## Qué se puede fabricar y cómo
+    ### Para fabricar una bomba de tubo
+      - Bomba de tubo con activador de contacto y fragmentos adicionales.
+      <GuideEntityEmbed Entity="PipeBomb" Caption="Bomba de tubo" Scale="1"/><GuideEntityEmbed Entity="ImprovisedGrenadeCasingEmpty" Caption="carcasa de granada improvisada vacía" Scale="1"/>
+    ### Para fabricar una bomba incendiaria
+      - Bomba incendiaria con activador de contacto y componentes incendiarios adicionales.
+      <GuideEntityEmbed Entity="FireBomb" Caption="Bomba incendiaria" Scale="1"/><GuideEntityEmbed Entity="ImprovisedGrenadeCasingEmpty" Caption="carcasa de granada improvisada vacía" Scale="1"/>
+    ### Para fabricar metralla de vidrio
+      - Metralla de vidrio: provoca muchas heridas pequeñas en el punto de impacto.
+      5 unidades <GuideEntityEmbed Entity="CrushedPhosphorus" Caption="5 u de polvo de fósforo" Scale="1.1"/><GuideEntityEmbed Entity="ShardGlass" Caption="5 fragmentos de vidrio" Scale="1"/><GuideEntityEmbed Entity="ImprovisedGrenadeCasingEmpty" Caption="carcasa de granada improvisada vacía" Scale="1"/>

@@ -1,0 +1,136 @@
+<Document>
+  # Nave lanzadera
+
+  Construir una lanzadera es sencillo, aunque bastante caro y difícil de lograr en menos de una hora.
+
+  Es una buena actividad si tienes mucho tiempo libre y te apetece afrontar un reto.
+
+  ## Primeros pasos
+  <Box>Piezas necesarias:</Box>
+  <Box>
+  <GuideEntityEmbed Entity="Thruster"/>
+  <GuideEntityEmbed Entity="Gyroscope"/>
+  <GuideEntityEmbed Entity="ComputerShuttle"/>
+  <GuideEntityEmbed Entity="SubstationBasic"/>
+  <GuideEntityEmbed Entity="PortableGeneratorPacman" Caption="P.A.C.M.A.N." />
+  </Box>
+  <Box>
+  <GuideEntityEmbed Entity="CableHVStack"/>
+  <GuideEntityEmbed Entity="CableMVStack"/>
+  <GuideEntityEmbed Entity="CableApcStack"/>
+  <GuideEntityEmbed Entity="APCBasic"/>
+  </Box>
+
+  <Box>Piezas opcionales:</Box>
+  <Box>
+  <GuideEntityEmbed Entity="AirCanister"/>
+  <GuideEntityEmbed Entity="LightTube" Caption="iluminación"/>
+  <GuideEntityEmbed Entity="AirlockGlassShuttle"/>
+  <GuideEntityEmbed Entity="SMESBasic"/>
+  </Box>
+  <Box>
+  <GuideEntityEmbed Entity="MobCorgiIan"/>
+  <GuideEntityEmbed Entity="NuclearBomb"/>
+  </Box>
+
+  ## Cimientos
+  Para este paso necesitarás láminas de acero, barras de metal y baldosas (opcionales).
+
+  <Box>
+    <GuideEntityEmbed Entity="SheetSteel" Caption=""/>
+    <GuideEntityEmbed Entity="PartRodMetal" Caption=""/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="FloorTileItemSteel" Caption=""/>
+    <GuideEntityEmbed Entity="FloorTileItemDark" Caption=""/>
+    <GuideEntityEmbed Entity="FloorTileItemWhite" Caption=""/>
+  </Box>
+
+  Sal al espacio con láminas de acero y barras de metal y haz clic en el borde de la estación para colocar un entramado.
+
+  Coloca una línea de entramado que se aleje unas 3 o 4 casillas de la estación y luego empieza a construir una plataforma con más entramado.
+
+  Continúa hasta tener una plataforma de al menos 3x3 conectada a la estación mediante una única línea de entramado.
+
+  Cuando termines de construir la base de la lanzadera, usa un cortaalambres para cortar el entramado que conecta la nueva nave con la estación.
+
+  Esta plataforma se considera una cuadrícula distinta de la estación, por lo que no tendrá gravedad ni quedará sujeta por el anclaje de la estación: podrá moverse libremente.
+
+  Puedes ampliar la plataforma de entramado haciendo clic justo al otro lado del borde mientras sostienes unas barras.
+
+  ## Puertos de atraque
+  Las esclusas de lanzadera sirven como puertos de atraque donde las naves pueden acoplarse a las estaciones de forma segura.
+
+  La orientación de los puertos de atraque es importante, pues determina por qué lado se acoplará la lanzadera.
+
+  La pequeña protuberancia de la parte inferior indica la dirección del puerto de atraque.
+
+  <Box>
+    <GuideEntityEmbed Entity="AirlockShuttle"/>
+    <GuideEntityEmbed Entity="AirlockGlassShuttle"/>
+  </Box>
+
+  ## Control direccional
+  Cuando tengas la forma que deseas, lleva propulsores e instálalos en los bordes.
+
+  <Box>
+    <GuideEntityEmbed Entity="Thruster" Caption="" Rotation="0"/>
+    <GuideEntityEmbed Entity="Thruster" Caption="" Rotation="90"/>
+    <GuideEntityEmbed Entity="Thruster" Caption="" Rotation="180"/>
+    <GuideEntityEmbed Entity="Thruster" Caption="" Rotation="270"/>
+  </Box>
+
+  Es recomendable instalar cuatro propulsores, uno a cada lado de la plataforma, para poder moverte en cualquier dirección.
+
+  Deben apuntar hacia fuera, al espacio, para funcionar; no se activarán si hay una casilla delante de la tobera.
+  Puedes girar los propulsores —incluso si están anclados— con [color=yellow][bold][keybind="RotateObjectClockwise"][/bold][/color] o [color=yellow][bold][keybind="RotateObjectCounterclockwise"][/bold][/color] para rotarlos en sentido horario o antihorario.
+
+  Los propulsores se pueden activar o desactivar usando [color=yellow][bold][keybind="Use"][/bold][/color] con una mano vacía o mediante [color=yellow][bold][keybind="ActivateItemInWorld"][/bold][/color].
+
+  ## Control de rotación
+  Ahora que puedes controlar la dirección, tendrás que instalar un giroscopio para controlar la rotación.
+
+  <Box>
+    <GuideEntityEmbed Entity="Gyroscope"/>
+  </Box>
+  La ubicación del giroscopio no es tan importante como la de los propulsores, pero conviene colocarlo en un lugar accesible y fácil de alimentar.
+
+  En objetos de gran masa puede que necesites más de un giroscopio para girar con eficacia.
+
+  ## Energía
+  Ahora que todos los sistemas están instalados, tendrás que suministrarles energía.
+
+  Para lanzaderas pequeñas, un generador portátil de tipo J.R.P.A.C.M.A.N. es una buena opción. Suministra directamente energía de baja tensión (LV), así que no tendrás que preocuparte por los transformadores.
+  Además, es habitual encontrar combustible para el generador en los túneles de mantenimiento.
+
+  <Box HorizontalAlignment="Stretch">
+    <Box>
+      <GuideEntityEmbed Entity="PortableGeneratorJrPacman" Caption="J.R.P.A.C.M.A.N."/>
+    </Box>
+    <Box>
+      <GuideEntityEmbed Entity="WeldingFuelTankFull"/>
+    </Box>
+  </Box>
+
+  Sin embargo, algunas estaciones disponen de generadores mucho mejores y soluciones compactas, como la APU de lanzadera o el generador estático.
+  Estos suministran alta tensión (HV), que deberá reducirse a media (MV) y baja tensión (LV).
+  Por suerte, estas estaciones también suelen proporcionar placas para subestaciones murales con este fin.
+
+  <Box HorizontalAlignment="Stretch">
+    <Box>
+      <GuideEntityEmbed Entity="GeneratorWallmountAPU"/>
+    </Box>
+    <Box>
+      <GuideEntityEmbed Entity="GeneratorBasic15kW"/>
+    </Box>
+    <Box>
+      <GuideEntityEmbed Entity="SubstationWallBasic"/>
+    </Box>
+  </Box>
+
+  ## Pilotaje
+  Por último, instala la computadora de la lanzadera donde te resulte conveniente y asegúrate de que todos los propulsores y giroscopios reciban energía (¡recuerda cablear las redes de media y baja tensión!).
+  Si la reciben, ¡felicidades! Ya deberías tener una lanzadera funcional.
+
+  Lograr que sea habitable y tenga buen aspecto queda como ejercicio para quien lea esta guía.
+</Document>

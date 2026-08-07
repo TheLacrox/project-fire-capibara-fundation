@@ -9,6 +9,7 @@ using JetBrains.Annotations;
 using Robust.Client.GameObjects;
 using Robust.Client.Graphics;
 using Robust.Client.Player;
+using Robust.Shared.Localization;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Timing;
 using Robust.Shared.Utility;
@@ -144,7 +145,7 @@ public sealed class SurgeryBui : BoundUserInterface
         if (_window != null) return;
         _window = new SurgeryWindow();
         _window.OnClose += Close;
-        _window.Title = "Surgery";
+        _window.Title = Loc.GetString("fire-surgery-title");
 
         _window.PartsButton.OnPressed += _ =>
         {
@@ -243,7 +244,8 @@ public sealed class SurgeryBui : BoundUserInterface
 
                     var msg = new FormattedMessage();
                     var surgeryName = _entities.GetComponent<MetaDataComponent>(requirement).EntityName;
-                    msg.AddMarkupOrThrow($"[bold]Requires: {surgeryName}[/bold]");
+                    msg.AddMarkupOrThrow(
+                        $"[bold]{Loc.GetString("fire-surgery-requires", ("surgery", surgeryName))}[/bold]");
                     label.Set(msg, null);
 
                     _window.Steps.AddChild(label);
@@ -360,24 +362,26 @@ public sealed class SurgeryBui : BoundUserInterface
                     stepButton.ToolTip = popup;
                     stepButton.Button.Disabled = true;
 
+                    // Fire edit start - локализация причин недоступности этапа операции
                     switch (reason)
                     {
                         case StepInvalidReason.NeedsOperatingTable:
-                            stepName.AddMarkupOrThrow(" [color=red](Needs operating table)[/color]");
+                            stepName.AddMarkupOrThrow($" [color=red]({Loc.GetString("fire-surgery-needs-operating-table")})[/color]");
                             break;
                         case StepInvalidReason.Armor:
-                            stepName.AddMarkupOrThrow(" [color=red](Remove their armor!)[/color]");
+                            stepName.AddMarkupOrThrow($" [color=red]({Loc.GetString("fire-surgery-remove-armor")})[/color]");
                             break;
                         case StepInvalidReason.MissingTool:
-                            stepName.AddMarkupOrThrow(" [color=red](Missing tool)[/color]");
+                            stepName.AddMarkupOrThrow($" [color=red]({Loc.GetString("fire-surgery-missing-tool")})[/color]");
                             break;
                         case StepInvalidReason.DisabledTool:
-                            stepName.AddMarkupOrThrow(" [color=red](Disabled Tool)[/color]");
+                            stepName.AddMarkupOrThrow($" [color=red]({Loc.GetString("fire-surgery-disabled-tool")})[/color]");
                             break;
                         case StepInvalidReason.TooHigh:
-                            stepName.AddMarkupOrThrow(" [color=red](Item Too High)[/color]");
+                            stepName.AddMarkupOrThrow($" [color=red]({Loc.GetString("fire-surgery-tool-too-large")})[/color]");
                             break;
                     }
+                    // Fire edit end
                 }
             }
 
@@ -428,15 +432,17 @@ public sealed class SurgeryBui : BoundUserInterface
         if (_entities.TryGetComponent(_part, out MetaDataComponent? partMeta) &&
             _entities.TryGetComponent(_surgery?.Ent, out MetaDataComponent? surgeryMeta))
         {
-            _window.Title = $"Surgery - {partMeta.EntityName}, {surgeryMeta.EntityName}";
+            _window.Title = Loc.GetString("fire-surgery-title-operation",
+                ("part", partMeta.EntityName),
+                ("operation", surgeryMeta.EntityName));
         }
         else if (partMeta != null)
         {
-            _window.Title = $"Surgery - {partMeta.EntityName}";
+            _window.Title = Loc.GetString("fire-surgery-title-part", ("part", partMeta.EntityName));
         }
         else
         {
-            _window.Title = "Surgery";
+            _window.Title = Loc.GetString("fire-surgery-title");
         }
     }
 

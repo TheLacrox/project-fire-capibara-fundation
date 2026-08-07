@@ -1,0 +1,12 @@
+tts-preview-sample-1 = El veloz murciélago hindú comía feliz cardillo y kiwi.
+tts-preview-sample-2 = ¡Payaso, deja de tirar cáscaras de plátano bajo los pies de los agentes de seguridad!
+tts-preview-sample-3 = Capitán, ¿seguro que quiere nombrar al payaso jefe de personal?
+tts-preview-sample-4 = ¡Seguridad! ¡Hay alguien con traje gris, caja de herramientas y máscara! ¡Ayuda!
+tts-preview-sample-5 = ¡Científicos, hay una anomalía extraña en el bar! ¡Ya se ha comido al mimo!
+tts-preview-sample-6 = Espero que los ingenieros estén vigilando bien la singularidad...
+tts-preview-sample-7 = ¿Has oído esos gritos extraños en mantenimiento? No creo que sea seguro entrar allí.
+tts-preview-sample-8 = ¿Has visto a Hamlet? Creo que se metió en vuestra cocina.
+tts-preview-sample-9 = ¿Hay algún médico? ¡Alguien se muere por un dónut envenenado! ¡Necesitamos ayuda!
+tts-preview-sample-10 = Necesitas la autorización y el sello del intendente para encargar un cargamento de escopetas.
+tts-preview-sample-11 = ¡Hay una brecha cerca de la lanzadera de evacuación! ¡Ingenieros, necesitamos ayuda de inmediato!
+tts-preview-sample-12 = ¡Camarero, sírveme el vino más fuerte que tengas!

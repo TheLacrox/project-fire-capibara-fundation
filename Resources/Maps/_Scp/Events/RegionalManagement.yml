@@ -105,7 +105,9 @@ entities:
   - uid: 2
     components:
     - type: MetaData
-      name: Офисы Командования
+      name: Command Offices
+    - type: LocalizedGridName
+      name: grid-name-scp-command-offices
     - type: Transform
       pos: -2.106267,3.6015625
       parent: 1

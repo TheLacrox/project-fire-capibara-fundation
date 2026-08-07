@@ -11,7 +11,9 @@
       stationProto: StandardNanotrasenStation
       components:
       - type: StationNameSetup
-        mapNameTemplate: '{0} Багель {1}'
+        # Fire edit - локализуемое название станции
+        mapNameTemplate: '{0} Bagel {1}'
+        stationNameTemplateLocId: station-name-template-sunrise-bagel
         nameGenerator:
           !type:NanotrasenNameGenerator
           prefixCreator: '14'

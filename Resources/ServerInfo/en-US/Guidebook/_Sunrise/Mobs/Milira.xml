@@ -1,0 +1,22 @@
+<Document>
+  # Milira
+
+  <Box>
+    <GuideEntityEmbed Entity="MobMilira" Caption=""/>
+  </Box>
+
+  Milira have wings that they can extend and fold.
+  They are sensitive to high temperatures.
+
+  They take [color=#ffa500]15% more blunt and heat damage[/color],
+  [color=#ffa500]10% more slashing and piercing damage[/color],
+  but [color=#1e90ff]30% less cold damage[/color].
+
+  <Box>
+    <GuideEntityEmbed Entity="ClothingOuterArmorMiliraLight" Caption=""/>
+    <GuideEntityEmbed Entity="ClothingOuterArmorMiliraHeavy" Caption=""/>
+    <GuideEntityEmbed Entity="ClothingOuterHardsuitMilira" Caption=""/>
+  </Box>
+
+  Ordinary armor and hardsuits prevent Milira from extending their wings freely, but special armor designed for them allows them to spread their wings and fly.
+</Document>

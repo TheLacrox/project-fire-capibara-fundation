@@ -1,0 +1,75 @@
+﻿<Document>
+  # Thermomachines
+  Thermomachines are devices that change the temperature of gases inside a [textlink="pipe network" link="PipeNetworks"] or in the surrounding atmosphere.
+  <Box>
+    <GuideEntityEmbed Entity="SpaceHeater" Caption=""/>
+    <GuideEntityEmbed Entity="GasThermoMachineHeater" Caption=""/>
+    <GuideEntityEmbed Entity="GasThermoMachineFreezer" Caption=""/>
+  </Box>
+  They are essential for maintaining gas temperatures in a variety of applications.
+
+  All thermomachines use [textlink="electric power" link="Power"] to heat or cool the atmosphere.
+  The amount of heating or cooling they provide is directly related to how much power they consume.
+
+  Thermomachines also have an efficiency coefficient that determines how much they can heat or cool the atmosphere per unit of energy consumed.
+
+  To avoid overshooting the target, thermomachines reduce their heating or cooling power as they approach the target temperature.
+  However, they still consume the same amount of electricity even while idle.
+
+  All thermomachines have a target-temperature tolerance of [color=orange][protodata="GasThermoMachineFreezer" comp="GasThermoMachine" member="TemperatureTolerance"/] K[/color]. This means they stop heating or cooling when the temperature is within [color=orange][protodata="GasThermoMachineFreezer" comp="GasThermoMachine" member="TemperatureTolerance"/] K[/color] of the target.
+
+  ## Space Heater
+  The space heater is a portable temperature-control device that heats or cools gas in the surrounding atmosphere.
+  It is a simple and effective way to maintain a room's temperature without building a pipenet or another system.
+
+  <Box>
+    <GuideEntityEmbed Entity="SpaceHeater"/>
+  </Box>
+
+  They can often be found in Atmospherics, though the corresponding machine board can be printed at a circuit imprinter, usually located in Science.
+
+  The space heater can cool down to [color=orange][protodata="SpaceHeater" comp="SpaceHeater" member="MinTemperature"/] K[/color] and heat up to [color=orange][protodata="SpaceHeater" comp="SpaceHeater" member="MaxTemperature"/] K[/color].
+
+  It also has three power levels that determine how quickly it heats or cools the atmosphere.
+
+  Botany or Science will often request these devices to maintain the temperature of plants or their department.
+
+  ## Pipenet Thermomachines (Freezer and Heater)
+  Pipenet thermomachines are more powerful, stationary temperature-control devices that can heat or cool gas in a [textlink="pipenet" link="PipeNetworks"].
+
+  <Box>
+    <GuideEntityEmbed Entity="GasThermoMachineHeater"/>
+    <GuideEntityEmbed Entity="GasThermoMachineFreezer"/>
+  </Box>
+
+  They consume [color=orange][protodata="GasThermoMachineFreezer" comp="GasThermoMachine" member="HeatCapacity" format="N0"/] W[/color] of power and can heat or cool gas in the pipenet to a maximum of [color=orange][protodata="GasThermoMachineFreezer" comp="GasThermoMachine" member="MaxTemperature"/] K[/color] or a minimum of [color=orange][protodata="GasThermoMachineFreezer" comp="GasThermoMachine" member="MinTemperature"/] K[/color].
+
+  You can change a thermomachine's mode by disassembling it and using a screwdriver on its machine board.
+  The board can be printed at a circuit imprinter, usually located in Science.
+
+  <Box>
+    <GuideEntityEmbed Entity="GasThermoMachineFreezer" Caption=""/>
+    <GuideEntityEmbed Entity="MachineFrame" Caption=""/>
+    <GuideEntityEmbed Entity="ThermomachineFreezerMachineCircuitBoard" Caption=""/>
+    <GuideEntityEmbed Entity="Screwdriver" Caption=""/>
+    <GuideEntityEmbed Entity="ThermomachineHeaterMachineCircuitBoard" Caption=""/>
+    <GuideEntityEmbed Entity="MachineFrame" Caption=""/>
+    <GuideEntityEmbed Entity="GasThermoMachineHeater" Caption=""/>
+
+  </Box>
+
+  ## Hellfire Thermomachines
+  Science can research more powerful thermomachines, aptly named hellfire heaters and freezers.
+  These machines are much more powerful than their standard counterparts, but they also consume more power.
+
+  <Box>
+    <GuideEntityEmbed Entity="GasThermoMachineHellfireHeater"/>
+    <GuideEntityEmbed Entity="GasThermoMachineHellfireFreezer"/>
+  </Box>
+
+  These machines consume [color=orange][protodata="GasThermoMachineHellfireFreezer" comp="GasThermoMachine" member="HeatCapacity" format="N0"/] W[/color] of power and can heat or cool gas in the pipenet to a maximum of [color=orange][protodata="GasThermoMachineHellfireFreezer" comp="GasThermoMachine" member="MaxTemperature"/] K[/color] or a minimum of [color=orange][protodata="GasThermoMachineHellfireFreezer" comp="GasThermoMachine" member="MinTemperature"/] K[/color].
+
+  However, they also leak [color=orange][protodata="GasThermoMachineHellfireFreezer" comp="GasThermoMachine" member="EnergyLeakPercentage" format="P0"/][/color] of their energy into the surroundings, heating or cooling the surrounding atmosphere accordingly.
+  This can be dangerous without proper control.
+
+</Document>

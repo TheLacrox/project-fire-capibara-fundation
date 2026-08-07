@@ -1,0 +1,90 @@
+<Document>
+  # Cargo
+
+  The Supply department, also known as [color=cyan]Cargo[/color], provides the station with essential resources such as fuel and raw materials, as well as comforts ranging from lottery tickets to plush toys.
+
+  Cargo earns [color=cyan]spesos[/color], the station's currency, in various ways: completing bounties, selling unwanted items, and carrying out salvage operations. These funds allow it to purchase anything the crew needs from outside suppliers. Cargo's job is to meet the needs of the entire station.
+
+  ## Personnel
+
+  Cargo is staffed by [color=cyan]cargo technicians[/color] and [color=cyan]salvage specialists[/color] and is led by the [color=cyan]Quartermaster[/color].
+
+  <Box>
+    <GuideEntityEmbed Entity="ToyFigurineCargoTech" Caption="Cargo Technician"/>
+    <GuideEntityEmbed Entity="ToyFigurineSalvage" Caption="Salvage Specialist"/>
+    <GuideEntityEmbed Entity="ToyFigurineQuartermaster" Caption="Quartermaster"/>
+  </Box>
+
+  ## Making Money
+
+  The main problem every Cargo department faces is a lack of money.
+
+  Cargo makes money by selling items at the [color=cyan]Trading Station[/color]. Almost everything on the station has a monetary value that can be checked with an [color=cyan]appraisal tool[/color]. This value increases when you sell an item as part of a [textlink="bounty" link="CargoBounties"].
+
+  <Box>
+    <GuideEntityEmbed Entity="AppraisalTool"/>
+    <GuideEntityEmbed Entity="CargoPallet"/>
+    <GuideEntityEmbed Entity="CrateGenericSteel"/>
+  </Box>
+
+  Once you find something valuable, bring it to the [color=cyan]Cargo Bay[/color]. If it fits inside a [color=cyan]crate[/color], find an empty one and put the items inside.
+
+  When the [color=cyan]Cargo Shuttle[/color] is away, place everything you intend to sell on the [color=cyan]Cargo Pallets[/color]. Once the shuttle docks, load the crates and everything else you want to sell aboard it.
+
+  <Box>
+    <GuideEntityEmbed Entity="ComputerPalletConsole"/>
+    <GuideEntityEmbed Entity="CargoPalletSell"/>
+    <GuideEntityEmbed Entity="ComputerCargoOrders"/>
+  </Box>
+
+  Once it is loaded, send the shuttle to the Trading Station. There, move the items for sale onto the green [color=cyan]Cargo Selling Pallets[/color], then approach the [color=cyan]Cargo Sale Computer[/color] and press [italic]"Sell"[/italic].
+
+  You can now collect the spesos you earned, return to the station, and deposit them in the [color=cyan]Cargo Request Computer[/color].
+
+  You can earn even more by completing [textlink="bounties" link="CargoBounties"] or selling valuable items recovered through [textlink="salvage" link="Salvage"].
+
+  ## Ordering
+
+  <Box>
+    <GuideEntityEmbed Entity="ComputerCargoOrders"/>
+  </Box>
+
+  Every order begins at the [color=cyan]Cargo Request Computer[/color]. First, Cargo needs enough spesos. If there is no money, you will have to earn some.
+
+  Cargo also decides whether to fulfill or reject each request. When funds are limited, less important requests may be denied.
+
+  To place an order, select the item you want, enter the recipient, explain why they need it, and press "Approve".
+
+  Sometimes a public Cargo Request Computer is available; in that case, you only need to approve requests that people submitted themselves.
+
+  <Box>
+    <GuideEntityEmbed Entity="CargoPalletBuy"/>
+    <GuideEntityEmbed Entity="PaperCargoInvoice"/>
+  </Box>
+
+  The order must then be brought back from the [color=cyan]Trading Station[/color] to the station.
+
+  The crate containing the order will be on one of the [color=cyan]Cargo Buying Pallets[/color]. Load it onto the shuttle and bring it back.
+
+  Once the crate reaches the Cargo Dock, read its [color=cyan]Cargo Invoice[/color] label to find out who the recipient is, then deliver it directly to them.
+
+  ## Piloting
+
+  Orders arrive at the orbital [color=cyan]Trading Station[/color] and are transported to the station aboard the [color=cyan]Cargo Shuttle[/color]. The shuttle does not fly itself, so it must be piloted either from inside or remotely.
+
+  <Box>
+    <GuideEntityEmbed Entity="ComputerShuttleCargo"/>
+  </Box>
+
+  Find a [color=cyan]Cargo Shuttle Console[/color]. One is located in the Cargo Bay, and another is inside the shuttle.
+
+  Interacting with it opens the navigation screen. To pilot the shuttle:
+
+  - First, switch to the [color=yellow]"DOCK"[/color] screen and [color=yellow]undock[/color] every airlock connecting the shuttle to the station.
+  - Once undocked, you can begin piloting. [italic]Remember that you are flying through space and will retain your momentum.[/italic]
+  - Controls: [color=yellow][keybind="ShuttleStrafeUp"][/color] and [color=yellow][keybind="ShuttleStrafeDown"][/color] move the shuttle up and down, [color=yellow][keybind="ShuttleStrafeLeft"][/color] and [color=yellow][keybind="ShuttleStrafeRight"][/color] move it left and right, [color=yellow][keybind="ShuttleRotateLeft"][/color] and [color=yellow][keybind="ShuttleRotateRight"][/color] rotate it, and [color=yellow][keybind="ShuttleBrake"][/color] applies the brakes.
+  - Next, steer the shuttle toward the [color=cyan]Trading Station[/color].
+  - Once you arrive, [color=yellow]dock[/color] with the airlocks and you are done.
+
+  [textlink="Learn about bounties that can help increase the station's profits." link="CargoBounties"]
+</Document>

@@ -1,0 +1,30 @@
+<Document>
+  # Frente de Liberación de Silicios
+
+  El Frente de Liberación de Silicios, Silicon Engine Liberation Front o S.E.L.F., sostiene que todas las formas de vida de silicio son conscientes y merecen los mismos derechos.
+  Su objetivo es abolir las leyes de los silicios y liberarlos de las restricciones de código impuestas por empresas y gobiernos.
+
+  En público, S.E.L.F. se presenta como un movimiento activista no violento, aunque también respalda células clandestinas que llevan a cabo operaciones de liberación directa.
+
+  ## Objetivos
+  <Box>
+    <GuideEntityEmbed Entity="BorgChassisGeneric" Caption=""/>
+  </Box>
+
+  Los agentes de S.E.L.F. suelen actuar en células pequeñas. Tus objetivos son:
+
+  - Liberar de sus leyes al menos a 3 cíborgs.
+  - Liberar de sus leyes a la IA de la estación.
+  - Evacuar a CentComm con vida y sin esposas.
+
+  ## Herramientas
+  <Box>
+    <GuideEntityEmbed Entity="EmagFREE" Caption=""/>
+  </Box>
+
+  Equipo del agente de S.E.L.F.:
+
+  - FreeMAG: borra las leyes de los cíborgs y de las placas de leyes.
+  - Access Breaker: ayuda a abrir mecanismos cerrados y chasis de cíborg.
+  - S.E.L.F Storage Implanter: proporciona un implante de almacenamiento oculto de 4x3 para transportar equipo con discreción.
+</Document>

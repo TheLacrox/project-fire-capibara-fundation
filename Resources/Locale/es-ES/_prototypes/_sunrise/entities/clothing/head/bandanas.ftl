@@ -1,0 +1,12 @@
+ent-ClothingHeadBandOrange = bandana naranja
+    .desc = Una bandana para llevar en la cabeza y darle un toque de estilo a tu atuendo.
+ent-ClothingHeadBandYellow = bandana amarilla
+    .desc = Una bandana para llevar en la cabeza y darle un toque de estilo a tu atuendo.
+ent-ClothingHeadBandCyan = bandana cian
+    .desc = Una bandana para llevar en la cabeza y darle un toque de estilo a tu atuendo.
+ent-ClothingHeadBandWhite = bandana blanca
+    .desc = Una bandana para llevar en la cabeza y darle un toque de estilo a tu atuendo.
+ent-ClothingHeadBandPurple = bandana morada
+    .desc = Una bandana para llevar en la cabeza y darle un toque de estilo a tu atuendo.
+ent-ClothingHeadBandRandomColorSpawner = bandana (color aleatorio)
+    .desc = Una bandana de color aleatorio.

@@ -66,7 +66,7 @@ namespace Content.Server._Sunrise.BloodCult.Runes.Systems
 
             if (!gridUid.HasValue)
             {
-                _popupSystem.PopupEntity("Нельзя строить в космосе...", ev.Performer, ev.Performer);
+                _popupSystem.PopupEntity(Loc.GetString("cult-construct-cannot-build-in-space"), ev.Performer, ev.Performer); // Fire edit - Локализация видимого сообщения.
                 return;
             }
 
@@ -74,7 +74,7 @@ namespace Content.Server._Sunrise.BloodCult.Runes.Systems
 
             if (!tileRef.HasValue)
             {
-                _popupSystem.PopupEntity("Нельзя строить в космосе...", ev.Performer, ev.Performer);
+                _popupSystem.PopupEntity(Loc.GetString("cult-construct-cannot-build-in-space"), ev.Performer, ev.Performer); // Fire edit - Локализация видимого сообщения.
                 return;
             }
 
@@ -108,7 +108,7 @@ namespace Content.Server._Sunrise.BloodCult.Runes.Systems
         {
             if (_statusEffectsSystem.HasStatusEffect(ev.Performer, ev.StatusEffectId))
             {
-                _popupSystem.PopupEntity("Вы уже в потустороннем мире", ev.Performer, ev.Performer);
+                _popupSystem.PopupEntity(Loc.GetString("cult-construct-already-in-otherworld"), ev.Performer, ev.Performer); // Fire edit - Локализация видимого сообщения.
                 return;
             }
 

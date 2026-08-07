@@ -1,0 +1,77 @@
+﻿<Document>
+  # Fire and Gas Control
+  Unfortunately, [textlink="fires" link="Fires"], [textlink="depressurization" link="Spacing"], and other [textlink="atmospheric emergencies" link="AtmosphericUpsets"] are common aboard the station.
+  These emergencies can spread quickly and make the station's atmosphere uninhabitable for the crew.
+
+  <Box>
+    <GuideEntityEmbed Entity="Firelock"/>
+    <GuideEntityEmbed Entity="FirelockGlass"/>
+    <GuideEntityEmbed Entity="FirelockEdge"/>
+    <GuideEntityEmbed Entity="FireAlarm"/>
+  </Box>
+
+  To combat them, stations have a variety of devices that help prevent hazardous conditions from spreading.
+
+  ## Firelocks
+  Firelocks are a simple and effective way to prevent fires from spreading through the station.
+
+  Based on conditions they detect or commands from a connected [textlink="air alarm" link="AirAlarms"] or fire alarm, they can seal off sections of the station and prevent hazardous conditions from spreading.
+
+  ## Dividing the Station into Sections
+  Firelocks are deliberately placed at key locations to divide the station into sections. Open spaces such as hallways or promenades are separated into smaller areas. This prevents hazardous conditions from spreading across the entire station through connected rooms, corridors, and other open spaces.
+
+  ## Basic Operation
+  When firelocks are not connected to an [textlink="air alarm" link="AirAlarms"] or fire alarm, they respond to the conditions they detect themselves. Firelocks will close if:
+  - The temperature differs by [color=orange][protodata="Firelock" comp="Firelock" member="TemperatureThreshold"/] K[/color] or more between the two sides of the firelock.
+  - The pressure differs by [color=orange][protodata="Firelock" comp="Firelock" member="PressureThreshold"/] kPa[/color] or more between the two sides of the firelock.
+
+  If these conditions persist, the firelock enters lockdown mode. Locked-down firelocks show [color=red]red[/color] indicator lights and cannot be opened by hand. They can only be opened by someone with Engineering access or with a crowbar.
+
+  An unpowered firelock in lockdown mode cannot be opened with Engineering access. In that case, only a crowbar will work.
+
+  If the conditions on both sides return to an acceptable difference, the firelock leaves lockdown mode and can once again be opened by anyone.
+  Remember that this only means the conditions are equal on both sides, not that they are safe.
+
+  A common example is a firelock that rises again because both sides are exposed to space.
+
+  ## Connecting Air Alarms and Fire Alarms
+  Firelocks can be connected to [textlink="air alarms" link="AirAlarms"] and fire alarms so they can receive commands to close.
+  Firelocks use the [textlink="list system" link="Networking"], and these devices can be connected with a multitool or network configurator.
+
+  <Box>
+    <GuideEntityEmbed Entity="Firelock" Caption=""/>
+    <GuideEntityEmbed Entity="Multitool" Caption=""/>
+    <GuideEntityEmbed Entity="NetworkConfigurator" Caption=""/>
+    <GuideEntityEmbed Entity="FireAlarm" Caption=""/>
+    <GuideEntityEmbed Entity="AirAlarm" Caption=""/>
+  </Box>
+
+  Each firelock has its own unique address. The process is very similar to connecting vents, scrubbers, and sensors to air alarms.
+
+  ## Operation under an Air Alarm
+  When connected to an air alarm, firelocks also close when commanded by the connected [textlink="air alarm" link="AirAlarms"].
+
+  Firelocks will close if the air alarm reaches the [color=red]Danger[/color] state. They remain closed until the air alarm returns to [color=green]Green[/color].
+
+  Firelocks in lockdown mode will not rise even if the air alarm returns to [color=green]Green[/color]. Even after the pressure difference has been corrected, the firelock remains closed until the air alarm sends the green state again.
+
+  ## Operation under a Fire Alarm
+  When connected to a fire alarm, firelocks close if the fire alarm is triggered. They remain closed until the fire alarm is reset.
+
+  ## Fire Alarms
+  Fire alarms provide centralized control over every connected firelock.
+
+  <Box>
+    <GuideEntityEmbed Entity="FireAlarm"/>
+  </Box>
+
+  Devices with sensors can be [textlink="linked" link="Networking"] to fire alarms. The alarms trigger if a sensor reaches the [color=red]Danger[/color] temperature threshold defined by its settings.
+
+  When a fire alarm is triggered, every connected firelock receives the [color=red]Danger[/color] alarm state and closes.
+
+  The alarm automatically resets when the sensor returns to the [color=green]Normal[/color] temperature threshold.
+
+  A fire alarm can also be triggered and reset manually by interacting with it.
+
+  This can be used to quickly close all firelocks in a room by hand or raise them again once the emergency has been resolved.
+</Document>

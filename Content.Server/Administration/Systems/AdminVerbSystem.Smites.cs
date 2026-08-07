@@ -1193,7 +1193,7 @@ public sealed partial class AdminVerbSystem
 
     private void Irradiate(EntityUid target)
     {
-        _popupSystem.PopupEntity("3.6 roentgen, not great, not terrible...", target, target, PopupType.LargeCaution);
+        _popupSystem.PopupEntity(Loc.GetString("admin-smite-random-death-irradiate-self"), target, target, PopupType.LargeCaution); // Fire edit - Локализация видимого сообщения.
         var damageSpecifier = new DamageSpecifier()
         {
             DamageDict = new Dictionary<string, FixedPoint2>
@@ -1209,7 +1209,7 @@ public sealed partial class AdminVerbSystem
         if (TryComp<FlammableComponent>(target, out var flammable))
         {
             // Popup message to notify the target
-            _popupSystem.PopupEntity("You smell gas, Smoking kills...", target, target, PopupType.LargeCaution);
+            _popupSystem.PopupEntity(Loc.GetString("admin-smite-random-death-scorched-self"), target, target, PopupType.LargeCaution); // Fire edit - Локализация видимого сообщения.
 
             // Ignite the target
             flammable.FireStacks = 3;
@@ -1233,7 +1233,7 @@ public sealed partial class AdminVerbSystem
 
     private void Shock(EntityUid target)
     {
-        _popupSystem.PopupEntity("You trip on a loose wire...", target, target, PopupType.LargeCaution);
+        _popupSystem.PopupEntity(Loc.GetString("admin-smite-random-death-shock-self"), target, target, PopupType.LargeCaution); // Fire edit - Локализация видимого сообщения.
         var damageToKill = GetDamageToKill(target);
         _electrocutionSystem.TryDoElectrocution(target,
             null,
@@ -1245,7 +1245,7 @@ public sealed partial class AdminVerbSystem
 
     private void VomitToDeath(EntityUid target)
     {
-        _popupSystem.PopupEntity("You start vomiting uncontrollably...", target, target, PopupType.LargeCaution);
+        _popupSystem.PopupEntity(Loc.GetString("admin-smite-random-death-vomit-self"), target, target, PopupType.LargeCaution); // Fire edit - Локализация видимого сообщения.
         _vomitSystem.Vomit(target, -1000, -1000);
         var damageSpecifier = new DamageSpecifier()
         {
@@ -1260,7 +1260,7 @@ public sealed partial class AdminVerbSystem
     private void BluespaceAway(EntityUid target)
     {
         // Notify the player about the teleportation
-        _popupSystem.PopupEntity("You feel a strange sensation as you are teleported away...", target, target, PopupType.LargeCaution);
+        _popupSystem.PopupEntity(Loc.GetString("admin-smite-random-death-bluespace-self"), target, target, PopupType.LargeCaution); // Fire edit - Локализация видимого сообщения.
 
         // Get the current position of the target
         var currentCoordinates = _transformSystem.GetMapCoordinates(target);
@@ -1275,7 +1275,7 @@ public sealed partial class AdminVerbSystem
 
     private void BleedOut(EntityUid target)
     {
-        _popupSystem.PopupEntity("You start bleeding profusely...", target, target, PopupType.LargeCaution);
+        _popupSystem.PopupEntity(Loc.GetString("admin-smite-random-death-bleed-self"), target, target, PopupType.LargeCaution); // Fire edit - Локализация видимого сообщения.
 
         if (TryComp<BloodstreamComponent>(target, out var bloodstream))
         {

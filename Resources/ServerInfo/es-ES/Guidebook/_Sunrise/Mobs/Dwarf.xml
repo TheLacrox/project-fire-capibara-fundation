@@ -1,0 +1,14 @@
+<Document>
+  # Enanos
+
+  <Box>
+    <GuideEntityEmbed Entity="MobDwarf" Caption=""/>
+  </Box>
+
+  Los enanos se parecen mucho a los humanos, pero toleran mejor el alcohol y las bebidas alcohólicas los curan.
+
+  <Box>
+    <GuideEntityEmbed Entity="DrinkBeerBottleFull" Caption=""/>
+  </Box>
+  Los enanos necesitan beber alcohol para saciar la sed; el agua corriente, por el contrario, los deshidrata.
+</Document>

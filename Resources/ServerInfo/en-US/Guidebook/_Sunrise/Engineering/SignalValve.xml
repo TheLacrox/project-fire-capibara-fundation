@@ -1,0 +1,17 @@
+﻿<Document>
+  # Signal valve
+  A signal valve is a valve that can be controlled through [textlink="signals" link="Networking"].
+  <Box>
+    <GuideEntityEmbed Entity="SignalControlledValve"/>
+  </Box>
+
+  A signal valve is similar to a manual valve. Gas can flow freely in either direction, and the valve can also be toggled by hand.
+
+  A signal valve has 3 [textlink="signal" link="Networking"] inputs: open, close, and toggle state.
+
+  Signal valves can be used for various tasks, such as:
+  - Remotely controlling valves in hazardous areas or places inaccessible to the crew
+  - Conveniently operating a valve in a hard-to-reach area
+  - Automating it with other [textlink="signal" link="Networking"] machines and equipment, such as [textlink="air alarms" link="AirAlarms"] and remote signallers
+
+</Document>

@@ -1,0 +1,95 @@
+﻿<Document>
+  # Capacidades de SCP-106
+
+  Aquí se describen las capacidades activables de las que dispone el objeto y sus mecánicas exclusivas.
+
+  [textlink="Información general sobre el Viejo" link="Scp106About"]
+
+  ## Capacidad «Teletransporte»
+
+  Al activarla, puedes atravesar cualquier obstáculo durante un breve periodo.
+  Esta capacidad solo funciona fuera de la cámara de contención.
+
+  ## Capacidad «Teletransporte a la dimensión de bolsillo»
+
+  Al activarla, te teletransportas a la dimensión de bolsillo.
+  Esta capacidad solo funciona fuera de la cámara de contención.
+
+  ## Capacidad «Teletransporte al complejo»
+
+  Al activarla, te teletransportas a un lugar aleatorio del complejo.
+  Esta capacidad solo funciona fuera de la cámara de contención.
+
+  ## Capacidad «Encarnación del sufrimiento»
+
+  Al activarla, puedes descubrir nuevas capacidades mediante el sufrimiento absorbido de las personas capturadas.
+
+  ## Capacidad «Convertirse en fantasma»
+
+  Al activarla, adoptas la forma de un fantasma. Esto te permite abandonar el cuerpo principal y atravesar obstáculos.
+  Esta capacidad funciona dentro de la cámara y es imprescindible para escapar.
+
+  [textlink="Más información sobre los métodos de fuga" link="Scp106ContainmentBreach"]
+
+  ## Capacidad «Hoja del dolor»
+
+  Al activarla, el Viejo obtiene una hoja que inflige mucho daño cortante.
+  Esta capacidad solo funciona en la dimensión de bolsillo.
+  Cuesta 20 puntos de «sufrimiento» en la tienda.
+
+  ## Capacidad «Desgarro»
+
+  Al activarla, el miedo de todas las personas cercanas alcanza su nivel máximo.
+  Esta capacidad solo funciona fuera de la cámara de contención.
+  Cuesta 20 puntos de «sufrimiento» en la tienda.
+
+  ## Capacidad «Contaminación»
+
+  Al activarla, liberas una cantidad moderada de podredumbre negra que ralentiza a cualquiera que la pise.
+  Cuesta 15 puntos de «sufrimiento» en la tienda.
+
+  ## Capacidad «Reversión»
+
+  Al activarla sobre un cadáver humano, SCP-106 se teletransporta hasta el cadáver, que a su vez es enviado a la dimensión de bolsillo.
+  Esta capacidad es imprescindible para escapar.
+  Esta capacidad solo está disponible en forma de fantasma.
+
+  ## Capacidad «Abandonar el fantasma»
+
+  Al activarla, destruyes al fantasma y regresas al cuerpo de SCP-106.
+  Esta capacidad solo está disponible en forma de fantasma.
+
+  ## Capacidad «Paso sombrío»
+
+  Al activarla, puedes atravesar cualquier obstáculo durante un breve periodo.
+  Esta capacidad solo está disponible en forma de fantasma.
+
+  # Mecánicas de SCP-106
+
+  ## Mecánica de la tienda interna
+
+  El juego cuenta con un sistema exclusivo que permite al Viejo comprar nuevas capacidades a cambio de «sufrimiento», la moneda de la tienda.
+
+  SCP-106 obtiene 2 puntos de «sufrimiento» por cada persona que teletransporta a la dimensión de bolsillo.
+
+  ## Dimensión de bolsillo
+
+  En el juego existe una dimensión de bolsillo propia del Viejo, adonde van a parar sus víctimas.
+
+  Además del propio Viejo, que recorre sus pasillos, en la dimensión habitan otros monstruos. ¡Ten cuidado!
+
+  ### ¿Cómo escapar de la dimensión de bolsillo?
+
+  En algunas salas puede aparecer una escalera que te teletransporta de vuelta al complejo o te lleva a la siguiente planta de la dimensión de bolsillo.
+
+  ## Fantasma
+
+  En el juego existe una forma especial de SCP-106 llamada «fantasma». Esta forma permite al Viejo salir de la cámara de contención e intentar escapar.
+
+  Para completar la fuga, el fantasma debe encontrar un cadáver y usar sobre él la capacidad «Reversión». ¡A partir de ese momento podrás jugar plenamente como SCP-106!
+
+  Eso sí: cuando controles al fantasma, actúa con sigilo, pues desaparecerá si una persona lo examina.
+
+  [textlink="Más información sobre los métodos de fuga" link="Scp106ContainmentBreach"]
+
+</Document>

@@ -1,0 +1,20 @@
+recipe-ColorLight-description = Una lámpara de gran potencia con un pequeño cristal de color en su interior.
+recipe-CrystalLightTube = tubo luminoso de cristal
+recipe-CrystalLightBlub = bombilla de cristal
+
+recipe-CyanLightBulb-name = { recipe-CrystalLightBlub } cian
+recipe-CyanLight-name = { recipe-CrystalLightTube } cian
+recipe-BlueLightBulb-name = { recipe-CrystalLightBlub } azul
+recipe-BlueLight-name = { recipe-CrystalLightTube } azul
+recipe-PinkLightBulb-name = { recipe-CrystalLightBlub } rosa
+recipe-PinkLight-name = { recipe-CrystalLightTube } rosa
+recipe-OrangeLightBulb-name = { recipe-CrystalLightBlub } naranja
+recipe-OrangeLight-name = { recipe-CrystalLightTube } naranja
+recipe-RedLightBulb-name = { recipe-CrystalLightBlub } roja
+recipe-RedLight-name = { recipe-CrystalLightTube } rojo
+recipe-GreenLightBulb-name = { recipe-CrystalLightBlub } verde
+recipe-GreenLight-name = { recipe-CrystalLightTube } verde
+recipe-BlackLightBulb-name = { recipe-CrystalLightBlub } negra
+recipe-BlackLight-name = { recipe-CrystalLightTube } negro
+recipe-YellowLightBulb-name = { recipe-CrystalLightBlub } amarilla
+recipe-YellowLight-name = { recipe-CrystalLightTube } amarillo

@@ -30,6 +30,7 @@ public sealed class PlanetPrisonStationSystem : EntitySystem
     [Dependency] private readonly MapSystem _map = default!;
     [Dependency] private readonly GameTicker _gameTicker = default!;
     [Dependency] private readonly IMapManager _mapManager = default!;
+    [Dependency] private readonly ILocalizationManager _localization = default!; // Fire added - локализуемые названия карт
     [Dependency] private readonly BiomeSystem _biomeSystem = default!;
     [Dependency] private readonly IPrototypeManager _protoManager = default!;
     [Dependency] private readonly IEntityManager _entManager = default!;
@@ -100,7 +101,8 @@ public sealed class PlanetPrisonStationSystem : EntitySystem
             return;
         }
 
-        _chat.DispatchServerAnnouncement(Loc.GetString("planet-prison-select-map", ("stationName", gameMap.MapName)), Color.LightBlue);
+        _chat.DispatchServerAnnouncement(Loc.GetString("planet-prison-select-map",
+            ("stationName", gameMap.GetLocalizedName(_localization))), Color.LightBlue); // Fire edit
         _chat.DispatchServerAnnouncement(Loc.GetString("planet-prison-select-biome", ("biomeName", biome.ID)), Color.LightBlue);
 
         var opts = DeserializationOptions.Default with {InitializeMaps = true};

@@ -1,4 +1,3 @@
-using System.Globalization;
 using Content.Server._Sunrise.Chat.Sanitization;
 using Content.Server.Administration.Logs;
 using Content.Server.Chat.Systems;
@@ -8,6 +7,7 @@ using Content.Shared.Access.Components;
 using Content.Shared.Access.Systems;
 using Content.Shared.Chat;
 using Content.Shared.Database;
+using Content.Shared.Localizations;
 using Content.Shared.PDA;
 using Content.Shared.Radio;
 using Content.Shared.Radio.Components;
@@ -242,8 +242,7 @@ public sealed class RadioSystem : EntitySystem
         var idCardTitle = Loc.GetString("chat-radio-no-id");
         idCardTitle = GetIdCard(senderUid)?.LocalizedJobTitle ?? idCardTitle;
 
-        var textInfo = CultureInfo.CurrentCulture.TextInfo;
-        idCardTitle = textInfo.ToTitleCase(idCardTitle);
+        idCardTitle = ContentLocalizationManager.FormatTitleCase(idCardTitle); // Fire edit - сохраняем испанские предлоги
 
         return $"[{idCardTitle}] ";
     }

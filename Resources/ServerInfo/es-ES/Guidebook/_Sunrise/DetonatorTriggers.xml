@@ -1,0 +1,38 @@
+  # Cordón detonante, detonador y activadores
+
+  Esta guía explica los fundamentos para montar cargas explosivas: el detonador, los activadores y el cordón detonante.
+
+  ## Componentes principales
+  <Box>
+  <GuideEntityEmbed Entity="CableDetStack1" Caption="Cordón detonante" Scale="1"/>
+  <GuideEntityEmbed Entity="EmptyDetonator" Caption="Detonador vacío" Scale="1"/>
+  </Box>
+  ## Tipos de activador
+  <Box>
+  <GuideEntityEmbed Entity="TimerTrigger" Caption="Activador temporizado" Scale="1"/>
+  <GuideEntityEmbed Entity="SignalTrigger" Caption="Activador de señal" Scale="1"/>
+  <GuideEntityEmbed Entity="VoiceTrigger" Caption="Activador por voz" Scale="1"/>
+  </Box>
+  ## Montaje básico
+  1. Monta el detonador instalando uno de los activadores e introduce el cordón detonante.
+  <Box>
+  <GuideEntityEmbed Entity="BoxDetonator" Caption="" Scale="2"/>
+  <GuideEntityEmbed Entity="WiredDetonator" Caption="" Scale="2"/>
+  </Box>
+  <Box>
+  2. Tiende el cordón detonante por el suelo donde quieras provocar una explosión controlada para abrirte paso. La explosión tiene potencia suficiente para derribar una pared, pero su radio es lo bastante reducido como para no alcanzarte.
+  </Box>
+  <Box>
+  <GuideEntityEmbed Entity="CableDet" Caption="" Scale="1.5"/>
+  <GuideEntityEmbed Entity="CableDet" Caption="" Scale="1.5"/>
+  <GuideEntityEmbed Entity="CableDet" Caption="" Scale="1.5"/>
+  <GuideEntityEmbed Entity="CableDet" Caption="" Scale="1.5"/>
+  <GuideEntityEmbed Entity="CableDet" Caption="" Scale="1.5"/>
+  <GuideEntityEmbed Entity="CableDet" Caption="" Scale="1.5"/>
+  <GuideEntityEmbed Entity="CableDet" Caption="" Scale="1.5"/>
+  <GuideEntityEmbed Entity="CableDet" Caption="" Scale="1.5"/>
+  <GuideEntityEmbed Entity="CableDet" Caption="" Scale="1.5"/>
+  <GuideEntityEmbed Entity="CableDet" Caption="" Scale="1.5"/>
+  </Box>
+
+  3. Arma de antemano el activador temporizado para detonar el conjunto y conéctalo al cordón del suelo. También puedes conectar previamente un detonador listo con otro tipo de activador y hacerlo estallar a distancia.

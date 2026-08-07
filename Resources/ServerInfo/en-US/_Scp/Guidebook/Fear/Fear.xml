@@ -1,0 +1,57 @@
+﻿<Document>
+
+  # Fear System
+
+  [bold]The fear system is a global mechanic that affects how players interact with SCP objects and with the consequences of SCP containment breaches.[/bold]
+
+  [bold]Fear is a mechanic designed to enhance immersion. It connects the character's actions to the player, allowing the character's emotions to reach the player through a flat monitor screen.[/bold]
+
+  ## How does it work?
+
+  Every character has their own fears. The standard fears among Foundation personnel are:
+  - [bold]Exoremophobia[/bold] - Fear of an outside flow of reality and events that do not follow its natural course. This manifests as a fear of SCP objects.
+  - [bold]Necrophobia[/bold] - Fear of corpses, dead bodies, and other things associated with the dead.
+
+  These fears determine what will frighten a character. You can view your current fears in the character window, alongside antagonist objectives.
+
+  Every character can also experience several levels of fear:
+
+  - None. You are calm.
+  - Anxiety. Something is not right...
+  - Fear. Something has genuinely frightened you.
+  - Uncontrollable terror. SOMETHING is too REAL for you to come to terms with. This is a nightmare.
+
+  [bold]Characters can become frightened when they see a source of fear or get too close to one.[/bold]
+  There are exceptions, of course. Some facility personnel are accustomed to observing "frightening" objects and are therefore untroubled by them.
+
+  For example, scientists are prepared to work with a pane of glass between them and SCP objects, so they are comfortable observing them through glass.
+
+  Medical personnel have visited morgues since the beginning of their training, so the sight of dead bodies does not frighten them.
+
+  Security personnel are specially trained for possible encounters with SCP objects, allowing them to hold their weapons more steadily when firing under pressure.
+
+  ## How does it affect gameplay?
+
+  Every fear level except None applies negative effects to your character. Their mood worsens, shooting becomes more difficult, their body trembles, and their vision becomes blurred.
+
+  These are all basic negative modifiers whose strength depends on the level of fear.
+
+  There are several ways to deal with them, but the most obvious is to avoid the source of fear. Fear is your brain's way of telling you that you should avoid IT for your own safety. Trust your instincts.
+
+  If you have to face it, however, [bold]try having a drink.[/bold] Alcohol dulls the effects of fear.
+
+  You can also [bold]close your eyes.[/bold] If you cannot see IT, there is nothing to fear. Right?
+
+  ## What about the SCP objects?
+
+  Besides the obvious fact that different SCP objects inspire different degrees of fear, some can exploit your fear for their own purposes.
+
+  SCP-106's sadistic tendencies are common knowledge, so it will come as no surprise that it [bold]hunts its victims' fears[/bold].
+  Do not let it catch you under any circumstances, or you will end up in its [bold]horrific pocket dimension[/bold], where your previous problems will seem like **nothing**.
+
+  ## Character traits
+
+  The fear system also introduces new character traits with various minor fear-related mechanics.
+  Try them out; they can be fun.
+
+</Document>

@@ -27,7 +27,7 @@ entities:
   - uid: 1
     components:
     - type: MetaData
-      name: Бронированный эвакуационный шаттл
+      name: Armored emergency shuttle
     - type: Transform
       pos: 0.0859375,-1.15625
       parent: invalid

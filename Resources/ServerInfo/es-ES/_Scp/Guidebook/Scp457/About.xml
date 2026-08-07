@@ -1,0 +1,33 @@
+﻿<Document>
+  # SCP-457 «El Hombre Ardiente»
+
+  Esta guía explica cómo funciona el objeto dentro del juego y cuáles son sus mecánicas. No aborda su trasfondo narrativo.
+
+  Esta página reúne enlaces a otras guías más detalladas sobre el objeto e incluye una breve descripción de cada apartado.
+
+  ## Al comenzar la ronda
+
+  Al inicio de la ronda o tras aparecer, SCP-457 se encuentra en su cámara de contención.
+  La cámara de contención impide que el objeto pueda causar daños al personal del complejo.
+
+  Mientras permanezca dentro, apenas supone una amenaza.
+
+  - La tarea del personal del complejo es mantener al objeto dentro de la cámara de contención.
+  - La tarea de SCP-457 es escapar de la cámara de contención.
+
+  [textlink="Más información sobre la contención" link="Scp457Containment"]
+
+  [textlink="Más información sobre los métodos de fuga" link="Scp457ContainmentBreach"]
+
+  ## Estados
+
+  Los estados determinan las mecánicas disponibles y el comportamiento del objeto. Durante la ronda, el objeto cambiará de estado en función de las acciones del Hombre Ardiente y de quienes lo rodean.
+
+  [textlink="Más información sobre los estados" link="Scp457States"]
+
+  ## Capacidades
+
+  El Hombre Ardiente posee dos capacidades pasivas exclusivas y tres activas. Dos de ellas constituyen mecánicas esenciales para escapar de la cámara de contención.
+
+  [textlink="Más información sobre las capacidades" link="Scp457Abilities"]
+</Document>

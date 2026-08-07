@@ -64,16 +64,20 @@ public sealed class PersonalBiocodeSystem : SharedPersonalBiocodeSystem // По�
 
      public void OnEquip(EntityUid uid, PersonalBiocodeComponent comp, GotEquippedEvent args)
     {
-        if (comp.IsAuthorized == true)
-        {
-            if (TryComp(args.Equipee, out DnaComponent? PersonNDA) && comp.DNA == PersonNDA.DNA)
-            {
-                _popupSystem.PopupClient("biocode-equip-failure", args.Equipee, args.Equipee, PopupType.MediumCaution);     
-                return;    
-            }
+        if (comp.IsAuthorized != true)
+            return;
 
-            _inventory.TryUnequip(args.Equipee, "outerClothing", true, true);
-        }
+        // Fire edit start: проверка ДНК и локализация отказа в доступе
+        if (TryComp(args.Equipee, out DnaComponent? personDna) && comp.DNA == personDna.DNA)
+            return;
+
+        _popupSystem.PopupClient(
+            Loc.GetString("biocode-equip-failure"),
+            args.Equipee,
+            args.Equipee,
+            PopupType.MediumCaution);
+        _inventory.TryUnequip(args.Equipee, "outerClothing", true, true);
+        // Fire edit end
 
     }
 

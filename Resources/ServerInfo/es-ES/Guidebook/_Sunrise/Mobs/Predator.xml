@@ -1,0 +1,20 @@
+<Document>
+  # Yautja
+
+  <Box>
+    <GuideEntityEmbed Entity="MobPredator" Caption=""/>
+  </Box>
+
+  Los yautja tienen sangre ácida.
+
+  <Box>
+    <GuideReagentEmbed Reagent="FluorosulfuricAcidPredator"/>
+  </Box>
+
+  Reciben [color=#1e90ff]un 20% menos de daño contundente y perforante[/color],
+  [color=#1e90ff]un 15% menos de daño cortante[/color],
+  [color=#1e90ff]un 10% menos de daño eléctrico[/color],
+  [color=#1e90ff]un 20% menos de daño por veneno[/color],
+  pero [color=#ffa500]un 15% más de daño por calor y frío[/color].
+
+</Document>

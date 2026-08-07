@@ -1,0 +1,57 @@
+﻿<Document>
+
+  # Sistema de miedo
+
+  [bold]El sistema de miedo es una mecánica global que influye en la interacción de los jugadores con los objetos SCP y con las consecuencias de sus brechas de contención.[/bold]
+
+  [bold]El miedo es una mecánica diseñada para aumentar la inmersión. Actúa como un vínculo entre las acciones del personaje y el jugador, y permite transmitir las emociones del primero a través de la pantalla.[/bold]
+
+  ## ¿Cómo funciona?
+
+  Todos los personajes tienen sus propios miedos. Los miedos habituales del personal de la Fundación son:
+  - [bold]Exoremofobia[/bold]: miedo al flujo externo de la realidad y a los acontecimientos ajenos a su curso natural. Se manifiesta como temor a los objetos SCP.
+  - [bold]Necrofobia[/bold]: miedo a los cadáveres, a los cuerpos sin vida y a todo cuanto se relaciona con la muerte.
+
+  Estas fobias determinan qué asusta a cada personaje. Puedes consultar los miedos actuales en la ventana de información del personaje, donde aparecen los objetivos de antagonista.
+
+  Además, todos los personajes pueden experimentar varios niveles de miedo:
+
+  - Ninguno. Estás en calma.
+  - Ansiedad. Algo no va bien…
+  - Miedo. Algo te ha asustado de verdad.
+  - Terror incontrolable. ALGO es demasiado REAL para que puedas aceptarlo. Es una pesadilla.
+
+  [bold]Los personajes pueden asustarse al ver una fuente de miedo o al acercarse demasiado a ella.[/bold]
+  Claro que hay excepciones. Parte del personal del complejo está acostumbrado a observar objetos «aterradores», por lo que no le afectan.
+
+  Por ejemplo, el personal científico está preparado para trabajar separado de los objetos SCP por un cristal, de modo que puede observarlos a través de él sin inquietarse.
+
+  El personal médico visita morgues desde el comienzo de su formación, por lo que la visión de cuerpos sin vida no le asusta.
+
+  El personal de seguridad recibe preparación específica ante posibles encuentros con objetos SCP, por lo que sostiene el arma con más firmeza incluso al disparar bajo tensión.
+
+  ## ¿Cómo se manifiesta en el juego?
+
+  Cada nivel de miedo, salvo «Ninguno», provoca efectos negativos en el personaje. El estado de ánimo empeora, resulta más difícil disparar, el cuerpo tiembla y la visión se vuelve borrosa.
+
+  Todos ellos son modificadores negativos básicos cuya intensidad depende del nivel de miedo.
+
+  Puedes contrarrestarlos de varias formas, aunque la más evidente es alejarte de la fuente del miedo. El miedo es una señal de tu cerebro: te indica que debes evitar ESO por tu propia seguridad. Haz caso a tus instintos.
+
+  Pero, si tienes que enfrentarte a ello, [bold]prueba a beber algo.[/bold] El alcohol atenúa los efectos del miedo.
+
+  También puedes [bold]cerrar los ojos.[/bold] Si no LO ves, no hay nada que temer. ¿Verdad?
+
+  ## ¿Y qué papel desempeñan los objetos SCP?
+
+  Además de que, como es lógico, cada objeto SCP inspira un grado distinto de miedo, algunos pueden aprovecharlo para sus propios fines.
+
+  Todo el mundo conoce las tendencias sádicas de SCP-106, así que no te sorprenderá saber que va [bold]a la caza del miedo de sus víctimas[/bold].
+  No dejes que te atrape bajo ningún concepto: acabarías en su [bold]espantosa dimensión de bolsillo[/bold], donde tus problemas anteriores parecerían **nada**.
+
+  ## Rasgos de personaje
+
+  El sistema de miedo incorpora también nuevos rasgos de personaje con pequeñas mecánicas relacionadas.
+  Pruébalos; pueden resultar divertidos.
+
+</Document>

@@ -9,12 +9,12 @@
   - !type:BodyAreaTagCondition
     checkInitiator: false
     checkTarget: true
-    categories: [ "щёки", "рот" ]
+    categories: [ "cheeks", "mouth" ]
     requireExposed: true
   interactionMessages:
-  - "%user нежно треплет щёчки %target"
-  - "%user слегка растягивает щёчки %target"
-  - "%user тискает щечки %target"
+  - interaction-message-face-cheeks-pull-1
+  - interaction-message-face-cheeks-pull-2
+  - interaction-message-face-cheeks-pull-3
   cooldown: 1
 
 - type: interaction
@@ -28,12 +28,12 @@
   - !type:BodyAreaTagCondition
     checkInitiator: false
     checkTarget: true
-    categories: [ "лицо" ]
+    categories: [ "face" ]
     requireExposed: true
   interactionMessages:
-  - "%user нежно проводит ладонью по лицу %target"
-  - "%user ласково гладит ладонью лицо %target"
-  - "%user слегка поглаживает ладонью лицо %target"
+  - interaction-message-face-pats-1
+  - interaction-message-face-pats-2
+  - interaction-message-face-pats-3
   interactionSounds:
   - FacePatsSound
   cooldown: 3
@@ -49,21 +49,21 @@
   - !type:BodyAreaTagCondition
     checkInitiator: true
     checkTarget: false
-    categories: [ "рот" ]
+    categories: [ "mouth" ]
     requireExposed: true
   - !type:BodyAreaTagCondition
     checkInitiator: false
     checkTarget: true
-    categories: [ "лицо" ]
+    categories: [ "face" ]
     requireExposed: true
   - !type:SpeciesCondition
     checkTarget: false
     checkInitiator: true
     allowedSpecies: [ Vulpkanin, Felinid ]
   interactionMessages:
-  - "%user по-собачьи облизывает щёки %target"
-  - "%user по-собачьи облизывает губы %target"
-  - "%user по-собачьи лижет в нос %target"
+  - interaction-message-face-lick-doggy-style-1
+  - interaction-message-face-lick-doggy-style-2
+  - interaction-message-face-lick-doggy-style-3
   interactionSounds:
   - FaceLickDoggyStyleSound1
   - FaceLickDoggyStyleSound2

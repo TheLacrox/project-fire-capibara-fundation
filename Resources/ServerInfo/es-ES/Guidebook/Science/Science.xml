@@ -1,0 +1,54 @@
+<Document>
+# Ciencia
+El trabajo de [color=#c96dbf]Ciencia[/color], también llamado Investigación y Desarrollo, consiste en generar puntos de investigación para desbloquear nuevas tecnologías y utilizar esas tecnologías para fabricar en los tornos objetos nuevos que ayuden a la estación.
+
+## Personal
+El personal de [color=#c96dbf]Ciencia[/color] está formado por ayudantes de investigación y científicos. El [color=#c96dbf]departamento de Ciencia[/color] está dirigido por el director de investigación.
+
+  <Box>
+   <GuideEntityEmbed Entity="ToyFigurineScientist" Caption="Científico"/>
+   <GuideEntityEmbed Entity="ToyFigurineResearchDirector" Caption="Director de investigación"/>
+  </Box>
+
+## Tecnologías
+  <Box>
+    <GuideEntityEmbed Entity="ComputerResearchAndDevelopment"/>
+    <GuideEntityEmbed Entity="ResearchAndDevelopmentServer"/>
+  </Box>
+Lo más importante del departamento es el servidor de I+D, que almacena las tecnologías desbloqueadas, y el ordenador de I+D, que permite desbloquear [color=#a4885c]tecnologías[/color].
+
+Cada tecnología cuesta [color=#a4885c]puntos de investigación[/color] y desbloquea recetas en los tornos. Algunas tecnologías también tienen requisitos previos que deberás desbloquear antes de investigarlas.
+
+[textlink="Haz clic aquí para consultar la lista de tecnologías." link="Technologies"].
+
+## Disciplinas
+Las tecnologías se distribuyen entre 4 disciplinas diferentes:
+  <Box>
+    <GuideEntityEmbed Entity="Wrench" Caption="Industrial"/>
+    <GuideEntityEmbed Entity="WeaponTetherGun" Caption="Experimental"/>
+    <GuideEntityEmbed Entity="ComputerTelevision" Caption="Servicios civiles"/>
+    <GuideEntityEmbed Entity="WeaponXrayCannon" Caption="Arsenal"/>
+  </Box>
+
+<GuideEntityEmbed Entity="ComputerResearchAndDevelopment"/> Utiliza la consola de I+D más cercana para comprobar qué investigaciones están bloqueadas tras cada árbol de disciplinas.
+
+## Niveles
+Cada árbol de disciplinas cuenta con hasta 3 niveles tecnológicos. Al principio, el único nivel abierto y disponible es el nivel 1.
+
+Para avanzar, debes investigar al menos el [color=brown]75%[/color] del nivel actual. Por tanto, para desbloquear investigaciones de nivel 2 necesitas completar el 75% del nivel 1.
+
+El [color=green]nivel 3[/color] es donde la cosa se pone interesante. Si investigas una tecnología de nivel 3, [color=brown]bloquearás[/color] las tecnologías de nivel 3 de los demás árboles de disciplinas. A menos, claro, que encuentres otra forma de evitarlo... probablemente deberías consultar al [color=purple]director de investigación[/color].
+
+## Tornos
+  <Box>
+    <GuideEntityEmbed Entity="Protolathe"/>
+    <GuideEntityEmbed Entity="CircuitImprinter"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="ExosuitFabricator"/>
+    <GuideEntityEmbed Entity="MedicalTechFab"/>
+    <GuideEntityEmbed Entity="SecurityTechFab"/>
+  </Box>
+En un torno puedes seleccionar un servidor para que la máquina imprima las recetas que hayas desbloqueado. Estas recetas requieren distintos materiales —acero, vidrio, plástico, oro o plasma— que puedes obtener en Carga o Salvamento.
+
+</Document>

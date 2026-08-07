@@ -1,0 +1,95 @@
+﻿<Document>
+  # Redes de tensión
+  En Space Station 14, la distribución eléctrica se divide en tres redes de tensión independientes.
+  Estas son la red de [color=green]baja tensión[/color], la red de [color=Yellow]media tensión[/color] y la red de [color=orange]alta tensión[/color].
+
+  Cada red alimenta distintos tipos de maquinaria de la estación.
+
+  <Box>
+    <GuideEntityEmbed Entity="CableHVStack"/>
+    <GuideEntityEmbed Entity="CableMVStack"/>
+    <GuideEntityEmbed Entity="CableApcStack"/>
+  </Box>
+
+  ## Red de baja tensión
+  La red de [color=green]baja tensión[/color] se utiliza para alimentar casi todas las máquinas pequeñas de la estación, como luces, computadoras y otros dispositivos pequeños.
+
+  <Box>
+    <GuideEntityEmbed Entity="PoweredSmallLight" Caption=""/>
+    <GuideEntityEmbed Entity="ComputerShuttleCargo" Caption=""/>
+    <GuideEntityEmbed Entity="ComputerComms" Caption=""/>
+    <GuideEntityEmbed Entity="Autolathe" Caption=""/>
+    <GuideEntityEmbed Entity="VendingMachineEngivend" Caption=""/>
+    <GuideEntityEmbed Entity="VendingMachineMedical" Caption=""/>
+    <GuideEntityEmbed Entity="AlwaysPoweredWallLight" Caption=""/>
+  </Box>
+
+  Los APC proporcionan energía de [color=green]baja tensión[/color]. Son dispositivos instalados en la pared que convierten la energía de la red de [color=Yellow]media tensión[/color] en [color=green]baja tensión[/color].
+
+  <Box>
+    <GuideEntityEmbed Entity="APCBasic"/>
+  </Box>
+
+  No hace falta tender cable de [color=green]baja tensión[/color] directamente hasta cada máquina, pues puede alimentar varias siempre que el cable pase lo bastante cerca.
+  Puede alimentar máquinas en un radio de 2 casillas y hasta 3 casillas en cada dirección cardinal.
+
+  ## Red de media tensión
+  La red de [color=Yellow]media tensión[/color] se utiliza para alimentar los APC y otras máquinas de alto consumo que solo aceptan energía de [color=Yellow]media tensión[/color].
+  El acelerador de partículas es un ejemplo, ya que funciona con [color=Yellow]media tensión[/color].
+
+  <Box>
+    <GuideEntityEmbed Entity="ParticleAcceleratorEndCap" Caption="" Margin="0"/>
+  </Box>
+
+  <Box>
+    <GuideEntityEmbed Entity="ParticleAcceleratorControlBox" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="ParticleAcceleratorFuelChamber" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="CableMV" Caption="" Margin="0"/>
+  </Box>
+
+  <Box>
+    <GuideEntityEmbed Entity="ParticleAcceleratorPowerBox" Caption="" Margin="0"/>
+  </Box>
+
+  <Box>
+    <GuideEntityEmbed Entity="ParticleAcceleratorEmitterStarboard" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="ParticleAcceleratorEmitterFore" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="ParticleAcceleratorEmitterPort" Caption="" Margin="0"/>
+  </Box>
+
+  <Box>
+    [color=#999999][italic]El acelerador de partículas[italic][/color]
+  </Box>
+
+  Las subestaciones proporcionan energía de [color=Yellow]media tensión[/color]. Son máquinas grandes que convierten la energía de la red de [color=Orange]alta tensión[/color] en [color=Yellow]media tensión[/color].
+
+  También existen versiones murales de estas subestaciones para espacios reducidos, como las lanzaderas.
+  <Box HorizontalAlignment="Stretch">
+    <Box>
+      <GuideEntityEmbed Entity="SubstationBasic"/>
+    </Box>
+    <Box>
+      <GuideEntityEmbed Entity="SubstationWallBasic"/>
+    </Box>
+  </Box>
+
+  ## Red de alta tensión
+  La red de [color=Orange]alta tensión[/color] se utiliza para transportar grandes cantidades de energía por la estación. Alimenta la mayoría de los equipos de gestión eléctrica, como las unidades SMES y las subestaciones.
+
+  La mayoría de los generadores de alta potencia suministran energía a la red de [color=Orange]alta tensión[/color].
+
+  <Box>
+    <GuideEntityEmbed Entity="SMESBasic"/>
+    <GuideEntityEmbed Entity="RadiationCollector"/>
+    <GuideEntityEmbed Entity="TeslaCoil"/>
+    <GuideEntityEmbed Entity="SubstationBasic"/>
+  </Box>
+
+  ## Daño por descarga
+  Si recibes una descarga de un cable con corriente, sufrirás daño. La cantidad dependerá de la tensión del cable que te haya electrocutado.
+
+  Los cables de [color=green]baja tensión[/color] causan menos daño que los de [color=Yellow]media tensión[/color], y estos menos que los de [color=Orange]alta tensión[/color].
+
+  Los cables energizados de [color=Orange]alta tensión[/color] y [color=Yellow]media tensión[/color] hacen mucho daño, así que asegúrate de usar guantes aislantes al trabajar con ellos.
+
+</Document>

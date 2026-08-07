@@ -1,0 +1,12 @@
+ent-BaseItem = objeto
+    .desc = { "" }
+ent-BaseStorageItem = objeto de almacenamiento
+    .desc = { ent-BaseItem.desc }
+ent-BaseBagOpenClose = { "" }
+    .desc = { "" }
+ent-PowerCellSlotSmallItem = { "" }
+    .desc = { "" }
+ent-PowerCellSlotMediumItem = { "" }
+    .desc = { "" }
+ent-PowerCellSlotHighItem = { "" }
+    .desc = { "" }

@@ -1,0 +1,20 @@
+<Document>
+  # Yautja
+
+  <Box>
+    <GuideEntityEmbed Entity="MobPredator" Caption=""/>
+  </Box>
+
+  Yautja have acidic blood.
+
+  <Box>
+    <GuideReagentEmbed Reagent="FluorosulfuricAcidPredator"/>
+  </Box>
+
+  They take [color=#1e90ff]20% less blunt and piercing damage[/color],
+  [color=#1e90ff]15% less slash damage[/color],
+  [color=#1e90ff]10% less shock damage[/color],
+  [color=#1e90ff]20% less poison damage[/color],
+  but [color=#ffa500]15% more heat and cold damage[/color].
+
+</Document>

@@ -1,0 +1,84 @@
+<Document>
+  # Space Ninja
+
+  <Box>
+    [color=#999999][italic]"Spider of the night, silent is my bite."[/italic][/color]
+  </Box>
+
+  You are an elite mercenary sent by the [color=#66FF00]Spider Clan[/color] to sow chaos aboard the station. You are equipped to operate silently—but lethally.
+
+  Whether you leave a trail of blood or keep things relatively peaceful, your discipline has taught you that [italic]you must at least attempt to complete your objectives.[/italic] For honor!
+
+  ## Standard Equipment
+  You begin with an implanted [color=cyan]death acidifier[/color], ensuring that your valuable equipment will remain out of enemy hands if you are captured or killed.
+
+  Your bag contains [bold]tools[/bold] and a [bold]survival box[/bold]. You also carry a [color=cyan]jetpack[/color] and a [color=cyan]pinpointer[/color] that will guide you to the station.
+
+  <Box>
+    <GuideEntityEmbed Entity="JetpackBlack"/>
+    <GuideEntityEmbed Entity="PinpointerStation"/>
+  </Box>
+
+  ## Your Suit
+
+  <Box>
+    <GuideEntityEmbed Entity="ClothingEyesVisorNinja" Caption="your visor"/>
+    <GuideEntityEmbed Entity="ClothingOuterSuitSpaceNinja" Caption="your suit"/>
+    <GuideEntityEmbed Entity="ClothingShoesSpaceNinja" Caption="your boots"/>
+  </Box>
+
+  The most important item you possess is [color=cyan]your suit[/color]. Without it, none of your abilities will work.
+  The suit draws power from its [bold]internal battery[/bold]. You can replace it, and a [italic]high-capacity battery[/italic] will turn you into a [italic]truly formidable ninja[/italic].
+
+  [bold]You can recharge the internal battery directly[/bold] with [color=cyan]your gloves[/color]. Check its current charge by examining the suit or looking at the convenient battery indicator on your screen.
+
+  Your outfit also includes [color=cyan]special boots[/color] that keep you agile, upright, and anchored without consuming power. Your [color=cyan]visor[/color] also protects you from flashes.
+
+  ## Ninja Gloves
+
+  <Box>
+    <GuideEntityEmbed Entity="ClothingHandsGlovesSpaceNinja" Caption="your gloves"/>
+  </Box>
+
+  [color=#66FF00]These gloves are your bread and butter.[/color] They are made from [bold]insulated nanomachines[/bold], allowing you to infiltrate restricted areas quietly without leaving fingerprints.
+
+  You have an action that toggles the gloves. When enabled, they grant access to [bold]special abilities[/bold] that activate when you interact with an empty hand while combat mode is disabled.
+
+  Your abilities include:
+  - Emagging doors and airlocks.
+  - Draining power from [bold]transformers[/bold] such as APCs, substations, or SMES units (the higher the voltage, the more efficient the drain).
+  - Delivering an electrical shock to a mobile target, stunning it and dealing minor damage.
+  - Tampering with [bold]station equipment[/bold] to complete [color=#66FF00]objectives[/color].
+
+  ## Energy Katana
+
+  <Box>
+    <GuideEntityEmbed Entity="EnergyKatana"/>
+  </Box>
+
+  [bold]You have sworn to live by the sword and refuse to use firearms.[/bold] Fortunately, you have a very impressive blade.
+
+  Your [color=cyan]energy katana[/color] deals heavy damage and can be [bold]recalled to your hand[/bold] at the cost of suit power. The farther away it is, the more energy it takes to retrieve.
+
+  While holding it, you can also [color=cyan]teleport[/color] anywhere you can see, [bold]including through windows[/bold]. The charges needed to dash regenerate slowly, so keep one or two in reserve for a quick escape.
+
+  ## Spider Clan Charge
+
+  <Box>
+    <GuideEntityEmbed Entity="SpiderCharge"/>
+  </Box>
+
+  This is a [color=cyan]modified C-4 explosive[/color] carried in your pocket. It creates a powerful explosion, but [bold]must be armed directly at the target location[/bold]—doing so is one of your objectives.
+
+  It cannot be activated manually, so attach it to a wall or piece of furniture near the assigned target. Choose carefully: it cannot be removed once attached.
+
+  ## Objectives
+
+  - Download \[9-13\] research nodes: use your gloves on an R&D server with several unlocked technologies. You may need to unlock technologies yourself if there are not enough to steal.
+  - Emag \[15-40\] station doors: use your gloves to hack the required number of airlocks.
+  - Detonate the Spider Clan charge: place the charge at the designated location and set it off.
+  - Trigger a [textlink=\"threat\" link=\"MinorAntagonists\"]: use your gloves on a communications console.
+  - Set everyone to wanted: use your gloves on a criminal records console.
+  - Survive: do not die.
+
+</Document>

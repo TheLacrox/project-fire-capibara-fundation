@@ -10,7 +10,9 @@
       stationProto: StandardNanotrasenStation
       components:
         - type: StationNameSetup
-          mapNameTemplate: '{0} Дельта {1}'
+          # Fire edit - локализуемое название станции
+          mapNameTemplate: '{0} Delta {1}'
+          stationNameTemplateLocId: station-name-template-sunrise-delta
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: 'TG'

@@ -116,7 +116,7 @@ public sealed class GunneryConsoleWindow : FancyWindow
     {
         if (_radarControl.SelectedCannons.Count == 0)
         {
-            _statusLabel.Text = "No cannon selected";
+            _statusLabel.Text = Loc.GetString("fire-gunnery-no-cannon-selected");
             return;
         }
 
@@ -128,9 +128,13 @@ public sealed class GunneryConsoleWindow : FancyWindow
 
             if (sb.Length > 0) sb.Append('\n');
             sb.Append(cannon.CooldownSeconds > 0f
-                ? $"{cannon.Name}: COOLDOWN {cannon.CooldownSeconds:F1}s"
+                ? Loc.GetString("fire-gunnery-cooldown",
+                    ("cannon", cannon.Name),
+                    ("seconds", cannon.CooldownSeconds.ToString("F1")))
                 : cannon.Name);
         }
-        _statusLabel.Text = sb.Length > 0 ? sb.ToString() : "No cannon selected";
+        _statusLabel.Text = sb.Length > 0
+            ? sb.ToString()
+            : Loc.GetString("fire-gunnery-no-cannon-selected");
     }
 }

@@ -560,13 +560,23 @@ namespace Content.Client.Arcade
 
             for (var i = 0; i < 5; i++)
             {
-                localHighscoreText.AppendLine(localHighscores.Count > i
-                    ? $"#{i + 1}: {localHighscores[i].Name} - {localHighscores[i].Score}"
-                    : $"#{i + 1}: ??? - 0");
+                var localEntry = localHighscores.Count > i
+                    ? localHighscores[i]
+                    : new BlockGameMessages.HighScoreEntry(Loc.GetString("blockgame-menu-highscore-empty-name"), 0);
+                localHighscoreText.AppendLine(Loc.GetString(
+                    "blockgame-menu-highscore-entry",
+                    ("rank", i + 1),
+                    ("name", localEntry.Name),
+                    ("score", localEntry.Score))); // Fire edit - Локализация строки рекорда.
 
-                globalHighscoreText.AppendLine(globalHighscores.Count > i
-                    ? $"#{i + 1}: {globalHighscores[i].Name} - {globalHighscores[i].Score}"
-                    : $"#{i + 1}: ??? - 0");
+                var globalEntry = globalHighscores.Count > i
+                    ? globalHighscores[i]
+                    : new BlockGameMessages.HighScoreEntry(Loc.GetString("blockgame-menu-highscore-empty-name"), 0);
+                globalHighscoreText.AppendLine(Loc.GetString(
+                    "blockgame-menu-highscore-entry",
+                    ("rank", i + 1),
+                    ("name", globalEntry.Name),
+                    ("score", globalEntry.Score))); // Fire edit - Локализация строки рекорда.
             }
 
             _localHighscoresLabel.Text = localHighscoreText.ToString();

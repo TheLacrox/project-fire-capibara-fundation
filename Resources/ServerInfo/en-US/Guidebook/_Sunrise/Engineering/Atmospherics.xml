@@ -1,0 +1,25 @@
+﻿<Document>
+  # Atmospherics
+  Atmospherics is the Engineering subdepartment responsible for maintaining the station's atmosphere and ensuring that it remains safe and breathable for the crew.
+
+  Atmospheric Technicians handle Atmospherics under the supervision of the Chief Engineer.
+
+  <Box>
+    <GuideEntityEmbed Entity="ToyFigurineAtmosTech" Caption="Atmospheric Technician"/>
+    <GuideEntityEmbed Entity="ToyFigurineChiefEngineer" Caption="Chief Engineer"/>
+  </Box>
+  <Box>
+    [color=#999999][italic][italic][/color]
+  </Box>
+
+  ## Responsibilities
+  You will usually need to respond to [textlink="atmospheric incidents" link="AtmosphericUpsets"] across the station.
+  These can range from minor leaks to full-blown [textlink="fires" link="Fires"] or [textlink="depressurization" link="Spacing"].
+
+  Staff from other departments may also request [textlink="gas canisters" link="GasCanisters"] for their work, such as [textlink="plasma" link="Gasses"] for [textlink="Science" link="Science"] or [textlink="carbon dioxide" link="Gasses"] for [textlink="Chemistry" link="Chemist"].
+
+  In your spare time, you can improve the station by setting up rooms with special atmospheres for [textlink="Vox" link="Vox"] and other species, or by producing [textlink="exotic gases" link="Gasses"] for the station's needs.
+
+  When there is no Atmospherics work to do, you may be expected to help regular Station Engineers and train new engineers and Atmospheric Technicians.
+
+</Document>

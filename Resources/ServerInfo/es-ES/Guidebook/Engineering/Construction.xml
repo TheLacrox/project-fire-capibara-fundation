@@ -1,0 +1,27 @@
+<Document>
+  # Construcción
+
+  <Box>
+    <GuideEntityEmbed Entity="Bed" Caption=""/>
+    <GuideEntityEmbed Entity="TableReinforced" Caption=""/>
+    <GuideEntityEmbed Entity="WeaponImprovisedPneumaticCannon" Caption=""/>
+    <GuideEntityEmbed Entity="ScpChair" Caption=""/>
+  </Box>
+
+
+  El menú de construcción permite construir y fabricar objetos dentro del juego.
+  Puedes abrirlo pulsando [color=yellow][bold][keybind="OpenCraftingMenu"][/bold][/color].
+
+  Al colocar objetos que se ajustan a la cuadrícula, mantén pulsado [color=yellow][bold][keybind="EditorLinePlace"][/bold][/color] para colocar una línea completa o [color=yellow][bold][keybind="EditorGridPlace"][/bold][/color] para rellenar una cuadrícula entera.
+
+  Si un objeto requiere muchos ingredientes, no hace falta sostenerlos todos a la vez: déjalos en el suelo, en la mochila o sobre una mesa cercana y se consumirán de forma normal durante la fabricación.
+
+  Al colocar la silueta de una construcción en el mundo, pulsa [color=yellow][bold][keybind="EditorRotateObject"][/bold][/color] para girarla en sentido horario.
+  Si el componente puede reflejarse, como un mezclador o filtro de gases, pulsa [color=yellow][bold][keybind="EditorFlipObject"][/bold][/color] para invertir la silueta.
+
+  También puedes utilizar [color=yellow][bold][keybind="RotateObjectClockwise"][/bold][/color] y [color=yellow][bold][keybind="RotateObjectCounterclockwise"][/bold][/color] para girar en ambos sentidos un objeto ya construido, siempre que no esté anclado con una llave.
+
+
+
+
+</Document>

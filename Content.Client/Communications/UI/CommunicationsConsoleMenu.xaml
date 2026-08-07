@@ -93,7 +93,7 @@
 
             <Button Name="EmergencyShuttleButton"
                     Access="Public"
-                    Text="Placeholder Text"
+                    Text="{Loc 'fire-ui-placeholder-text'}"
                     ToolTip="{Loc 'comms-console-menu-emergency-shuttle-button-tooltip'}"/>
         </BoxContainer>
     </BoxContainer>

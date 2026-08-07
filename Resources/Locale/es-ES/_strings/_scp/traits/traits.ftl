@@ -1,0 +1,14 @@
+trait-category-fear = [SCP] Miedo
+trait-category-scp-traits = [SCP] Defectos
+trait-hemophobia-name = Hemofobia
+trait-hemophobia-desc = Se te acelera el pulso. Te tiemblan las manos. Cada rastro escarlata te recuerda que no eres inmortal.
+trait-stupor-name = Estupor por miedo
+trait-stupor-desc = Te quedas paralizado en el momento decisivo. A veces te salva. Casi nunca.
+trait-fear-stuttering-name = Voz entrecortada
+trait-fear-stuttering-desc = Cada palabra te cuesta un mundo. En momentos de peligro, se te entrecorta el habla, y los demás lo notan.
+trait-fainting-name = Conciencia vacilante
+trait-fainting-desc = A veces el miedo es tan intenso que tu cerebro decide que lo más fácil es apagarse. Te desplomas... y solo queda el silencio.
+trait-tunnel-vision-name = Visión de túnel
+trait-tunnel-vision-desc = Durante tu infancia, tu madre te golpeó en la cabeza con una sartén y te caíste... Cuando te levantaste, descubriste que el mundo se había estrechado.
+trait-bad-shooter-name = Falta de puntería
+trait-bad-shooter-desc = Siempre se te ha dado mal apuntar, especialmente con armas de fuego. ¡Parece que las balas van por libre!

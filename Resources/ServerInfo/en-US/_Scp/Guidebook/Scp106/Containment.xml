@@ -1,0 +1,31 @@
+﻿<Document>
+  # Containment of SCP-106
+
+  By default, SCP-106 spawns in its containment chamber, which restricts its movement and prevents it from leaving.
+  The containment chamber is a safety measure that makes containing the entity safe.
+
+  [textlink="General information about the Old Man" link="Scp106About"]
+
+  [textlink="More information about escaping as the Old Man" link="Scp106ContainmentBreach"]
+
+  ## What Should You Do?
+
+  The entity's main way to cause a containment breach is to use the "Become a Phantom" ability. It allows the Old Man to assume a phantom form that can pass through any obstacle.
+
+  [textlink="More information about abilities" link="Scp106Abilities"]
+
+  To escape, the phantom must find a corpse and use the "Reversion" ability on it. This sends the corpse to SCP-106's dimension and places the Old Man where it was.
+
+  The personnel's task is to stop the phantom from taking a corpse. This requires tracking SCP-106's location and checking people's condition on the personnel monitoring console.
+
+  ## What Should You Do If the Entity Escapes?
+
+  The Foundation has developed an advanced piece of technology called the "Locus Vest", which prevents the Old Man from teleporting a victim to the pocket dimension.
+
+  The entity is completely immune to damage, but you can still slow it briefly with a taser.
+
+  To return the Old Man to his containment chamber, drag a D-Class employee into a special compartment called the "bone breaker". You will recognize this room by its unusually small size and single blast door.
+  Once the D-Class enters the bone breaker, they will be disemboweled, and SCP-106 will immediately teleport back to its containment chamber.
+
+  [textlink="More information about unique interactions" link="ScpResearchAdvanced"]
+</Document>

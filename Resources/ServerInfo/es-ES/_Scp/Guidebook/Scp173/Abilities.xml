@@ -1,0 +1,44 @@
+﻿<Document>
+  # Capacidades de SCP-173
+
+  Aquí se describen las capacidades activables de las que dispone el objeto y sus mecánicas exclusivas.
+
+  [textlink="Información general sobre la Escultura" link="Scp173About"]
+
+  ## Capacidad «Contaminar una casilla»
+
+  Al activarla, contaminas la casilla con un reactivo especial que, al acumularse en cantidad suficiente, abre las compuertas herméticas de la cámara de contención.
+  Úsala para escapar de la cámara de contención.
+
+  [textlink="Más información sobre los métodos de fuga" link="Scp173ContainmentBreach"]
+
+  ## Capacidad «Profanar»
+
+  Al activarla, infliges una pequeña cantidad de daño a todas las estructuras cercanas y tienes cierta probabilidad de abrir las esclusas y sus compuertas herméticas.
+  Esta capacidad solo funciona fuera de la cámara de contención.
+
+  ## Capacidad «Salto»
+
+  Al activarla, te desplazas rápidamente a un punto cercano; cualquier persona que se cruce en tu trayectoria muere.
+  Esta capacidad solo funciona si te observan dos personas como máximo y no puede usarse dentro de la cámara de contención.
+
+  ## Capacidad «Cegar»
+
+  Al activarla, obligas a todas las personas cercanas a cerrar los ojos durante unos instantes.
+  Esta capacidad solo funciona si te observan al menos cuatro personas y no puede usarse fuera de la cámara de contención.
+
+  ## Mecánica del tiempo de seguridad
+
+  Durante los primeros 15 minutos de la ronda no podrás usar la capacidad «Contaminar una casilla».
+
+  Esta mecánica limita la actividad de los objetos SCP al comienzo de la ronda y da al personal tiempo para preparar el turno.
+
+  ## Mecánica de rotura de cuello
+
+  El juego cuenta con un sistema exclusivo que permite a SCP-173 matar de forma automática a las personas con las que choca. ¡Ni siquiera necesitas activar el modo de combate!
+
+  ## Mecánica de visión
+
+  El juego cuenta con un sistema exclusivo que comprueba qué personajes pueden ver a los demás.
+
+</Document>

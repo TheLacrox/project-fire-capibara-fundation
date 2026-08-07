@@ -1,0 +1,30 @@
+<Document>
+  # Role types
+
+  ## Crew-aligned / Non-antagonist
+  In most rounds, most players are non-antagonists, meaning they are crew-aligned. This is the "default" role: if the game does not explicitly tell you that you belong to one of the other role types described here, you are a non-antagonist. In general, non-antagonists should act in the round's best interests.
+
+  ## Solo antagonist
+  Some roles are meant to create threats and problems for the round and its non-antagonists. You are a solo antagonist only if the game tells you so directly and unambiguously. Antagonists are exempt from many roleplay rules, but not all of them.
+
+  ## Team antagonist
+  Team antagonists are similar to solo antagonists, but they have antagonist allies whom they must not hinder and may be required to support. You are a team antagonist only if the game tells you so directly and unambiguously.
+
+  ## Free agent
+  Some roles may choose whether to act as an antagonist or a non-antagonist and may change their decision during the round. You are a free agent only if the game tells you so directly and unambiguously.
+
+  ## Familiar
+  Familiars are considered non-antagonists, but must obey a specific character. They must follow that character's orders even if doing so breaks roleplay rules or gets them killed. You are a familiar only if the game tells you so directly and unambiguously. You are the familiar only of the character specified by the game.
+
+  ## Silicon / Altered silicon
+  Silicons have a set of laws they must follow above all else except the core server rules. You are a silicon only if the game tells you so directly and unambiguously.
+  Altered silicons are functionally identical, but this role type denotes hacked, damaged, or otherwise nonstandard and dangerous lawsets.
+
+  ## Corporate-aligned
+  Corporate-aligned roles must serve the interests of NanoTrasen and Central Command, even when those interests conflict with those of the station's crew.
+  You are corporate-aligned only if the game tells you so directly and unambiguously.
+
+  ## TSF (Trans-Solar Federation)
+  TSF-aligned roles must serve the interests of the Trans-Solar Federation.
+  You are TSF-aligned only if the game tells you so directly and unambiguously.
+</Document>

@@ -45,7 +45,8 @@
 
 - type: material
   id: SalvageTicket
-  name: ticket
+  # Fire edit - разделяем название материала и его единицу
+  name: materials-salvage-ticket
   unit: materials-unit-tickets
   stackEntity: SalvageTicket
   icon: { sprite: /Textures/_Sunrise/Objects/Economy/salvage_ticket.rsi, state: icon }

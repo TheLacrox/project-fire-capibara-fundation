@@ -1,0 +1,30 @@
+<Document>
+  # Mago
+
+  <Box>
+    [color=#457573][italic]¡ES LA HORA DEL MAGO, HIJO DE P-...[italic][/color]
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="ToyFigurineWizard" Caption=""/>
+  </Box>
+  Los magos son una fuerza de caos e imprevisibilidad. Nunca se sabe qué harán a continuación.
+  Por lo general los envía la [color=#40E0D0]Federación de Magos Espaciales[/color], aunque también puede tratarse de alguien convertido en mago por unos aficionados tras sacar un crítico con un dado maldito.
+  Y como los magos son sumamente imprevisibles, ¡pueden aparecer cuando menos te lo esperes!
+
+  ## Grimorio
+  <Box>
+    <GuideEntityEmbed Entity="WizardsGrimoire" Caption="Grimorio del mago"/>
+  </Box>
+
+  [bold]Según la ley mágica, el grimorio está vinculado a ti.[/bold] Esto significa que no puedes compartirlo. Sus hechizos y equipo son solo para ti.
+  El grimorio sirve para obtener toda clase de hechizos, objetos y criaturas. Todo lo que ofrece es [italic]sumamente poderoso,[/italic] por lo que solo dispones de 10 [color=#FF0000]W[/color][color=#FFA500]i[/color][color=#FFFF00]z[/color][color=#00FF00]?[/color][color=#0000FF]o[/color][color=#4B0082]i[/color][color=#8F00FF]n[/color]T para gastarlos.
+  Aparte del precio, el único límite es tu imaginación. ¡Prueba distintas combinaciones!
+
+  <Box>
+    <GuideEntityEmbed Entity="PonderingOrbWizard" Caption="Orbe de contemplación"/>
+  </Box>
+
+  Si necesitas meditar, el [bold]Orbe de contemplación[/bold] permite al mago conectarse a las cámaras de la estación y espiar sin ser visto.
+  Puede resultar útil cuando planeas algo o quieres mantenerte un paso por delante de [color=red]Seguridad[/color].
+
+</Document>

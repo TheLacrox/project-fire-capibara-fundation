@@ -122,7 +122,12 @@ namespace Content.Server.Administration.Systems
                     prayerVerb.Icon = new SpriteSpecifier.Texture(new("/Textures/Interface/pray.svg.png"));
                     prayerVerb.Act = () =>
                     {
-                        _quickDialog.OpenDialog(player, "Subtle Message", "Message", "Popup Message", (string message, string popupMessage) =>
+                        _quickDialog.OpenDialog(
+                            player,
+                            Loc.GetString("prayer-verbs-subtle-message"),
+                            Loc.GetString("prayer-popup-notify-pray-ui-message"),
+                            Loc.GetString("prayer-popup-subtle-dialog-popup-label"),
+                            (string message, string popupMessage) => // Fire edit - Локализация диалога скрытого послания.
                         {
                             _prayerSystem.SendSubtleMessage(targetActor.PlayerSession, player, message, popupMessage == "" ? Loc.GetString("prayer-popup-subtle-default") : popupMessage);
                         });

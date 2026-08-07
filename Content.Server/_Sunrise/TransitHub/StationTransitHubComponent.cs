@@ -17,6 +17,12 @@ public sealed partial class StationTransitHubComponent : Component
     [DataField]
     public EntityUid? MapEntity;
 
+    [DataField]
+    public LocId? GridName;
+
+    [DataField]
+    public LocId? WarpPointName;
+
     [ViewVariables(VVAccess.ReadOnly),
      DataField(customTypeSerializer: typeof(PrototypeIdListSerializer<BiomeTemplatePrototype>))]
     public List<string> Biomes = new();

@@ -1,0 +1,16 @@
+<Document>
+  # Tajaras
+
+  <Box>
+    <GuideEntityEmbed Entity="MobTajaran" Caption=""/>
+  </Box>
+
+  Los tajaras son una especie felina con garras y un acento característico.
+  Sus ataques sin armas infligen daño cortante.
+  Los flashes les afectan más de lo normal.
+
+  Pueden saltar distancias cortas, como los vulpkanin.
+  Al beber pueden derramar líquido, aunque con menos frecuencia que los vulpkanin.
+  Dejan huellas exclusivas de su especie.
+
+</Document>

@@ -1,0 +1,183 @@
+<Document>
+  # Controles
+
+  <Box>Puedes cambiar las asignaciones de teclas en cualquier momento desde aquí:</Box>
+  <Box Orientation="Vertical"><CommandButton Text="ui-options-tab-controls" Command="options 2"/></Box>
+
+  ## Interfaz
+  En la esquina superior izquierda verás todos los [bold]botones de menú[/bold] con sus correspondientes atajos de teclado.
+  Examina lo que hace cada uno, sobre todo el menú de gestos.
+  Cabe destacar que el botón del menú de [color=red]ayuda de administración[/color] ([italic]ahelp[/italic]) se volverá [color=red][bold]rojo[/bold][/color] si un administrador intenta ponerse en contacto contigo.
+
+  ### Barra de acciones
+  Debajo de los botones de menú está la [bold]barra de acciones[/bold], que muestra botones para las [color=cyan]acciones[/color] genéricas y dependientes del equipo que puede realizar tu personaje.
+  Pasa el cursor por encima para conocer su función.
+
+  También sirve como [bold]barra rápida[/bold]: realiza esas acciones pulsando las [color=yellow][bold]teclas numéricas[/bold][/color] correspondientes del teclado.
+  Reordénalas [bold]arrastrando[/bold] un icono sobre otro o quita temporalmente los iconos arrastrándolos fuera de la barra.
+
+  ### Barra de estado
+  Debajo de la ventana de chat, a la derecha, se encuentra la [bold]barra de estado[/bold], que muestra los estados de tu personaje.
+  Igual que en la barra de acciones, pasa el cursor sobre esos iconos para saber qué significan.
+
+  Algunos de esos iconos también se pueden pulsar.
+  Por ejemplo, si tu personaje llega a [color=orangered]incendiarse[/color], aparecerá un icono de fuego.
+  Tendrás que pulsarlo con [color=yellow][bold][keybind="Use"][/bold][/color] para [color=cyan]tirarte al suelo y rodar[/color].
+  Lo mismo se aplica a [color=cyan]romper las esposas[/color] si necesitas liberarte.
+
+  ### Barra de inventario
+  En la parte inferior encontrarás la [bold]barra de inventario[/bold], que contiene, de izquierda a derecha, todos los iconos relacionados con tu equipo y almacenamiento:
+  - el [color=cyan]inventario de ropa[/color] (esquina inferior izquierda), que se abre con [color=yellow][bold][keybind="OpenInventoryMenu"][/bold][/color] y tiene ranuras para los ojos, la cabeza, el cuello, la cara, las orejas, el cuerpo, ropa exterior, manos y zapatos;
+  - la ranura de la [bold]PDA[/bold], que permite guardar una PDA utilizable que contenga una identificación y un bolígrafo;
+  - la ranura del [bold]cinturón[/bold], usada para cinturones de herramientas y mochilas propulsoras;
+  - la ranura de la [bold]espalda[/bold], utilizada normalmente para bandoleras, mochilas y bolsas de lona, aunque también admite armas medianas o grandes y tanques de aire de tamaño completo;
+  - las ranuras de las [bold]manos[/bold], que puedes considerar ranuras de transferencia;
+  - las ranuras de los [bold]bolsillos[/bold], útiles para guardar objetos pequeños y tenerlos a mano;
+  - la ranura de [bold]almacenamiento del traje[/bold], que solo se puede usar al llevar un traje espacial, traje presurizado o armadura.
+  Está pensada para tanques de aire y mochilas propulsoras, pero también admite armas de fuego.
+
+  [italic]Nota: las especies no humanoides pueden tener ranuras algo distintas.[/italic]
+
+  ## Movimiento
+  Para mover a tu personaje, usa [color=yellow][bold][keybind="MoveUp"][keybind="MoveLeft"][keybind="MoveDown"][keybind="MoveRight"][/bold][/color].
+
+  Los objetos que transportes y las afecciones influyen en tu velocidad de movimiento, pero también puedes mantener pulsado [color=yellow][bold][keybind="Walk"][/bold][/color] para [color=cyan]caminar[/color].
+  Esto reduce tu velocidad y ayuda a evitar que [color=cyan]resbales[/color] y caigas al pasar sobre peligros resbaladizos, como cáscaras de plátano o líquidos derramados.
+  \n[italic]Nota: en el menú de controles se puede configurar caminar como una opción que se [bolditalic]activa y desactiva[/bolditalic].[/italic]
+
+  ### Desplazamiento espacial
+  Si te encuentras en [color=#EB2D3A]gravedad cero[/color], aún podrás moverte —aunque con menos fricción— siempre que tengas alguna estructura al alcance.
+
+  Si te alejas por completo de la estación y quedas a la deriva en el [color=#EB2D3A]espacio[/color], tendrás que aprovechar las leyes del movimiento, por ejemplo [bold]lanzando[/bold] objetos en la dirección opuesta.
+
+  ## Manos
+  Las manos de tu personaje están representadas por las [bold]ranuras de las manos[/bold], situadas en el centro de la parte inferior de la pantalla.
+  - Una de tus manos siempre es la [color=cyan]mano activa[/color].
+  - [color=cyan]Cambia[/color] de mano con [color=yellow][bold][keybind="SwapHands"][/bold][/color] para elegir cuál está activa.
+  - [color=cyan]Recoge[/color] objetos con la mano activa vacía usando [color=yellow][bold][keybind="Use"][/bold][/color].
+  - Usa [color=yellow][bold][keybind="Use"][/bold][/color] para [color=cyan]colocar[/color] en otro lugar un objeto que sostengas con la mano activa o para [color=cyan]usarlo[/color] sobre algo o alguien, según el contexto.
+  - Presta atención a tu mano activa al interactuar con el mundo para no usar por accidente los objetos que sostengas.
+
+  [bold]Los objetos no se pueden transferir arrastrándolos y soltándolos.[/bold]
+
+  ### Soltar y lanzar
+  Usa [color=yellow][bold][keybind="Drop"][/bold][/color] para [color=cyan]soltar[/color] (o colocar) un objeto de tu mano a una distancia al alcance del brazo.
+  \n[color=cyan]Lanza[/color] objetos hacia el cursor con [color=yellow][bold][keybind="ThrowItemInHand"][/bold][/color].
+
+  ### Arrastrar y empujar
+  Puedes arrastrar [bold]entidades[/bold] móviles —objetos, estructuras y criaturas como los jugadores— siempre que tengas una mano vacía.
+  - Usa [color=yellow][bold][keybind="TryPullObject"][/bold][/color] para empezar a [color=cyan]arrastrar[/color].
+  - [color=cyan]Empuja[/color] las entidades que estés arrastrando hacia el cursor con [color=yellow][bold][keybind="MovePulledObject"][/bold][/color].
+  - Para [color=cyan]soltarlas[/color], pulsa [color=yellow][bold][keybind="ReleasePulledObject"][/bold][/color] o vuelve a arrastrar la misma entidad.
+
+  También puedes usar [color=yellow][bold][keybind="Drop"][/bold][/color] para soltar las entidades arrastradas por tu mano activa.
+
+  ## Interacciones
+  El juego cuenta con [bold]seis[/bold] tipos de interacciones sensibles al contexto, disponibles mediante distintos métodos.
+
+  ### Estándar y alternativa
+  Pulsar con [color=yellow][bold][keybind="Use"][/bold][/color] realiza [color=cyan]interacciones estándar[/color].
+  Estas dependen en gran medida del objeto que sostengas y de aquello sobre lo que pulses.
+
+  Las interacciones estándar abarcan desde pulsar una [bold]mesa[/bold] para colocar encima un objeto que sostengas hasta [bold]usar[/bold] objetos del entorno con las manos vacías y, lo más habitual, emplear objetos en la mano para interactuar con criaturas y otros objetos.
+
+  En algunas situaciones puedes [color=cyan]intercambiar objetos[/color] directamente pulsando una máquina mientras sostienes uno.
+  Por ejemplo, si sostienes un vaso de precipitados, pulsa una máquina que contenga otro. Esto también funciona con tanques y bombonas de gas.
+
+  Algunos objetos tienen [color=cyan]interacciones alternativas[/color]: usa [color=yellow][bold][keybind="AltActivateItemInWorld"][/bold][/color] para [bold]cerrar con llave[/bold] las taquillas, [bold]expulsar[/bold] componentes como las baterías de otros objetos, etc.
+
+  ### Activación
+  Interactúa con objetos como los contenedores incluso si tienes las manos ocupadas mediante interacciones de [color=cyan]activación[/color] con [color=yellow][bold][keybind="ActivateItemInWorld"][/bold][/color].
+  Esto permite, por ejemplo, [bold]abrir contenedores[/bold] sin recogerlos, [bold]abrir puertas[/bold] sin usar el objeto que sostienes y [bold]accionar armas[/bold].
+
+  En particular, pulsa [color=yellow][bold][keybind="ActivateItemInWorld"][/bold][/color] sobre una criatura para abrir el [color=cyan]menú para quitar equipo[/color], desde el que podrás ver su inventario e intentar quitarle o robarle objetos.
+
+  ### En la mano
+  Muchos objetos también admiten [color=cyan]interacciones de uso en la mano[/color], como [bold]abrir[/bold] botellas, [bold]empuñar[/bold] con ambas manos armas de fuego a dos manos y armas cuerpo a cuerpo grandes (garrotes, lanzas, hachas, fregonas, escopetas, etc.), [bold]accionar[/bold] armas o [bold]alternar[/bold] las jeringas entre inyectar y extraer.
+
+  Puedes realizar interacciones en la mano pulsando tu mano activa con [color=yellow][bold][keybind="Use"][/bold][/color] o [color=yellow][bold][keybind="AltActivateItemInWorld"][/bold][/color], pero conviene recordar los atajos: [color=yellow][bold][keybind="ActivateItemInHand"][/bold][/color] y [color=yellow][bold][keybind="AltActivateItemInHand"][/bold][/color] para las interacciones en la mano [color=cyan]estándar[/color] y [color=cyan]alternativa[/color], respectivamente.
+
+  ### Pulsar y arrastrar
+  Puedes «usar» una entidad sobre otra arrastrando una encima de la otra con [color=yellow][bold][keybind="Use"][/bold][/color]. (No debe confundirse con [italic]arrastrar una entidad al moverte[/italic].)
+
+  Utilízalo para:
+  - [color=cyan]Colocar[/color] u obligar a una criatura (jugador o PNJ) a entrar o subirse en una silla, cama, cámara criogénica, unidad de residuos, etc.
+
+  - [color=cyan]Subirte[/color] a una mesa; también puedes pulsarla con [color=yellow][bold][keybind="AltActivateItemInWorld"][/bold][/color].
+
+  - Abrir el [color=cyan]menú para quitar equipo[/color] arrastrando otra criatura sobre tu personaje; como se indicó antes, también puedes hacerlo con [color=yellow][bold][keybind="ActivateItemInWorld"][/bold][/color].
+
+  - [color=cyan]Verter[/color] el contenido de un recipiente de líquidos (carro de conserje, cubo o vaso de precipitados) en otro recipiente, un desagüe, una máquina, etc. Recuerda primero colocar el recipiente en el suelo: no puedes hacerlo desde el inventario.
+
+  ### Señalar
+  Usa [color=yellow][bold][keybind="Point"][/bold][/color] para [color=cyan]señalar[/color] una ubicación del mundo y crear una flecha temporal visible para todo el mundo.
+
+  ### Resumen
+  Las interacciones principales son:
+  - [bolditalic]estándar[/bolditalic] ([color=yellow][bold][keybind="Use"][/bold][/color]);
+  - [italic]alternativa[/italic] ([color=yellow][bold][keybind="AltActivateItemInWorld"][/bold][/color]);
+  - [bold]activación[/bold] ([color=yellow][bold][keybind="ActivateItemInWorld"][/bold][/color]);
+  - [bolditalic]uso en la mano[/bolditalic] ([color=yellow][bold][keybind="ActivateItemInHand"][/bold][/color]);
+  - [italic]uso alternativo en la mano[/italic] ([color=yellow][bold][keybind="AltActivateItemInHand"][/bold][/color]);
+  - pulsar y arrastrar.
+
+  No te preocupes por memorizarlas: suelen ser intuitivas y coherentes entre las distintas categorías de entidades, y descubrirás que la mayoría solo utiliza una o dos interacciones.
+
+  [bold]Se puede seguir interactuando con los objetos guardados en contenedores.[/bold]
+
+  ## Menús contextuales
+  Pulsa cualquier entidad interactiva con [color=yellow][bold][keybind="UIRightClick"/][/bold][/color] para abrir el [color=cyan]menú contextual[/color], que muestra las interacciones adicionales disponibles en ese momento.
+  El menú contextual puede ofrecer acciones como:
+  - [bold]transferir todo el contenido[/bold] de un recipiente en tu mano activa a otro;
+  - [bold]dividir pilas de objetos[/bold] según cantidades predefinidas;
+  - elegir [bold]cantidades de transferencia[/bold] más precisas para las sustancias químicas;
+  - mostrar los [bold]pasos de desmontaje[/bold] de los objetos.
+
+  Si pulsas con [color=yellow][bold][keybind="UIRightClick"/][/bold][/color] una pila de objetos, abrirás el [color=cyan]menú de entidades[/color], que enumera las entidades superpuestas con las que puedes interactuar de forma normal.
+
+  ### Examinar
+  Si alguna vez tienes dudas sobre una entidad, ya sea un objeto o una criatura, [color=cyan]examínala[/color] con [color=yellow][bold][keybind="ExamineEntity"][/bold][/color].
+  También puedes examinar los objetos enumerados en el menú de entidades.
+
+  Además de la descripción de la entidad, verás varios iconos en la esquina inferior derecha del menú:
+  - un signo de interrogación que enlaza con la sección correspondiente de la guía;
+  - un rayo para consultar las estadísticas del objeto;
+  - un corazón para consultar la salud de una criatura;
+  - y otros más.
+
+  ## Inventario y ropa
+  Todos los objetos se pueden equipar o desequipar usando [color=yellow][bold][keybind="Use"][/bold][/color] en la ranura correspondiente.
+
+  La forma más sencilla de [color=cyan]ponerte[/color] (o equiparte) una prenda es [color=cyan]usarla[/color] en la mano activa con [color=yellow][bold][keybind="ActivateItemInHand"][/bold][/color].
+  Algunos objetos no permiten hacerlo, así que quizá tengas que [color=cyan]equiparlos manualmente[/color] en la ranura apropiada.
+
+  [bold]Algunas prendas tienen inventarios internos y se comportan como contenedores.[/bold]
+
+  ### Pilas de objetos
+  Para [color=cyan]dividir por la mitad[/color] una pila de objetos, usa [color=yellow][bold][keybind="AltActivateItemInWorld"][/bold][/color].
+
+  ### Ranuras de espalda y cinturón
+  Si tienes una bolsa o un cinturón, abre su inventario con [color=yellow][bold][keybind="ActivateItemInWorld"][/bold][/color] o pulsando los pequeños iconos de la [bold]esquina inferior derecha[/bold] de sus iconos.
+  También puedes usar para ello los atajos [color=yellow][bold][keybind="OpenBackpack"][/bold][/color] y [color=yellow][bold][keybind="OpenBelt"][/bold][/color].
+
+  ### Equipamiento inteligente
+  Puedes [color=cyan]mover rápidamente[/color] objetos entre la mano activa y la ranura correspondiente. Si esa ranura contiene un recipiente, la acción [color=cyan]guardará rápidamente[/color] el objeto o [color=cyan]sacará rápidamente[/color] el más reciente de ese recipiente (marcado con un icono de estrella dorada dentro del recipiente).
+
+  - [color=yellow][bold][keybind="SmartEquipBackpack"][/bold][/color] equipa de forma inteligente la ranura de la espalda.
+  - [color=yellow][bold][keybind="SmartEquipBelt"][/bold][/color] equipa de forma inteligente la ranura del cinturón.
+  - [color=yellow][bold][keybind="SmartEquipPocket1"][/bold][/color], [color=yellow][bold][keybind="SmartEquipPocket2"][/bold][/color] y [color=yellow][bold][keybind="SmartEquipSuitStorage"][/bold][/color] equipan de forma inteligente el bolsillo izquierdo, el derecho y la ranura de almacenamiento del traje, respectivamente.
+
+  ### Organización de inventarios en cuadrícula
+  [color=cyan]Reordena[/color] los objetos arrastrándolos con [color=yellow][bold][keybind="MoveStoredItem"][/bold][/color].
+  Mientras los arrastras, [color=cyan]gíralos[/color] con [color=yellow][bold][keybind="RotateStoredItem"][/bold][/color].
+
+  Pulsa un objeto dentro de un recipiente con [color=yellow][bold][keybind="SaveItemLocation"][/bold][/color] para [color=cyan]guardar[/color] su posición y hacer que siempre vuelva a ella al almacenarlo.
+  Para ver las posiciones guardadas, [color=yellow][bold]pasa el cursor[/bold][/color] sobre los objetos.
+
+  ## Cámara
+  [color=cyan]Acerca o aleja[/color] la cámara con [color=yellow][bold][keybind="ZoomIn"][/bold][/color] y [color=yellow][bold][keybind="ZoomOut"][/bold][/color], y restablécela con [color=yellow][bold][keybind="ResetZoom"][/bold][/color].
+  \n[color=cyan]Gírala[/color] con [color=yellow][bold][keybind="CameraRotateLeft"][/bold][/color] y [color=yellow][bold][keybind="CameraRotateRight"][/bold][/color], y restablece el giro con [color=yellow][bold][keybind="CameraReset"][/bold][/color].
+  \n[italic]Nota: por lo general, los mapas están diseñados para jugarse con la rotación predeterminada de la cámara.[/italic]
+
+  Para obtener más información sobre los controles, puedes consultar la [color=cyan]wiki[/color].
+</Document>

@@ -104,7 +104,8 @@ public sealed partial class SurgerySystem : SharedSurgerySystem
 
         if (user == args.Target)
         {
-            _popup.PopupEntity("You can't perform surgery on yourself!", user, user);
+            // Fire edit: локализация запрета операции на себе
+            _popup.PopupEntity(Loc.GetString("cant-perform-operation-on-yourself"), user, user);
             return;
         }
 

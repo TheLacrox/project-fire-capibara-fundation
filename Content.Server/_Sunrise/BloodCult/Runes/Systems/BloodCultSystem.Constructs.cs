@@ -50,7 +50,7 @@ namespace Content.Server._Sunrise.BloodCult.Runes.Systems
             if (!_mindSystem.TryGetMind(args.EntityUid, out _, out _) ||
                 !TryComp<ActorComponent>(args.EntityUid, out var actor))
             {
-                _popupSystem.PopupEntity("Нет души", uid);
+                _popupSystem.PopupEntity(Loc.GetString("cult-construct-no-soul"), uid); // Fire edit - Локализация видимого сообщения.
                 args.Cancel();
                 return;
             }

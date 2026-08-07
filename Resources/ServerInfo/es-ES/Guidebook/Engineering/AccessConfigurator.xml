@@ -1,0 +1,50 @@
+<Document>
+  # Configurador de accesos
+  El configurador de accesos es una herramienta que sirve para especificar qué tipo de personal puede utilizar determinados dispositivos.
+
+  <Box>
+	  <GuideEntityEmbed Entity="AccessConfigurator" Caption="configurador de accesos"/>
+  </Box>
+
+  Entre los dispositivos configurables se encuentran las esclusas, las cajas y taquillas seguras y las máquinas de acceso restringido.
+  Nota: para mayor comodidad, el acceso de las esclusas se puede configurar con el [color=#a4885c]configurador de red[/color] (o multiherramienta).
+
+  ## Dónde encontrar configuradores de accesos
+  Cada estación dispone de hasta dos configuradores de accesos. El primero está en posesión del ingeniero jefe y el segundo se encuentra con el jefe de personal.
+
+  ## Cómo usar el configurador de accesos
+  Para modificar un dispositivo con el configurador de accesos:
+  - Primero, usa el configurador de accesos sobre el dispositivo elegido para vincularlos. La interfaz del configurador se abrirá automáticamente.
+  - A continuación, introduce una tarjeta de identificación en el configurador de accesos.
+  - Establece los requisitos de acceso del dispositivo conectado. Los requisitos que se puedan añadir o quitar dependerán de los permisos de acceso de la tarjeta introducida.
+  - Los cambios se aplicarán [color=#a4885c]de inmediato[/color]: cuando termines, solo tienes que expulsar la tarjeta del configurador de accesos y cerrar la interfaz.
+
+  ## Restricciones al cambiar el acceso
+  Como medida de seguridad, la identificación introducida debe poseer [bold]todos[/bold] los accesos que estén activos en ese momento en el dispositivo conectado para poder modificarlo.
+
+  Por ejemplo, un dispositivo al que pueda acceder tanto el personal de «Ciencias» como el de «Medicina» solo se puede modificar con una tarjeta de identificación que tenga acceso a [color=#a4885c]ambos[/color] departamentos.
+  El configurador de accesos avisará al usuario si la tarjeta introducida no tiene permisos suficientes para modificar un dispositivo.
+
+  Un dispositivo sin requisitos de acceso, como una esclusa de acceso público, se puede modificar con cualquier tarjeta de identificación válida de la estación.
+
+  ## Reparación de lectores de tarjetas con el acceso averiado
+  Los agentes del Sindicato pueden intentar piratear dispositivos de acceso restringido mediante un [color=#a4885c]disruptor de autenticación[/color].
+  Esta infame herramienta cortocircuita por completo todos los lectores de tarjetas conectados al dispositivo y permite el acceso a cualquiera.
+
+  <Box>
+    <GuideEntityEmbed Entity="AccessBreaker"/>
+  </Box>
+
+  Para reparar los daños, por lo general tendrás que desmontar parcialmente el dispositivo y volver a montarlo.
+  Esto restablecerá los requisitos de acceso predeterminados y te permitirá volver a configurar el dispositivo como sea necesario.
+
+  ## Reparación del acceso averiado de las esclusas
+  Si se han manipulado sus requisitos de acceso, las esclusas se pueden reparar de varias maneras.
+
+  Si tienes un configurador de accesos, puedes usar un [color=#a4885c]destornillador[/color] para retirar el panel de mantenimiento de la esclusa y después emplear el configurador para restablecer sus requisitos de acceso.
+  No es necesario desmontarla parcialmente.
+
+  Si no tienes un configurador de accesos, puedes reparar la esclusa desmontándola parcialmente hasta retirar la electrónica de la puerta y volviendo a montarla.
+  Esto restablecerá los requisitos de acceso predeterminados que tenía la esclusa al comienzo del turno.
+
+</Document>

@@ -1,0 +1,14 @@
+ent-ClothingHeadBase = { ent-Clothing }
+    .desc = { ent-Clothing.desc }
+ent-ClothingHeadBaseButcherable = { ent-ClothingHeadBase }
+    .desc = { ent-ClothingHeadBase.desc }
+ent-ClothingHeadLightBase = casco básico con luz
+    .desc = { ent-ClothingHeadBase.desc }
+ent-ClothingHeadEVAHelmetBase = casco espacial básico
+    .desc = { ent-ClothingHeadBase.desc }
+ent-ClothingHeadHardsuitBase = casco básico de traje rígido
+    .desc = { "" }
+ent-ClothingHeadSuitWithLightBase = casco básico de traje rígido con luz
+    .desc = { "" }
+ent-ClothingHeadHatHoodWinterBase = capucha básica de abrigo de invierno
+    .desc = Una capucha hecha para mantenerte la cabeza abrigada.

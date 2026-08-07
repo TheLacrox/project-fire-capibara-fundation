@@ -1,0 +1,54 @@
+<Document>
+# Criogenia
+La criogenia puede resultar intimidante, pero este breve repaso del diagrama te ayudará a entenderla. Veamos la función de cada parte:
+
+- Entrada de aire: el aire entra desde la red de distribución o una bombona, permite respirar a quienes están dentro y proporciona al congelador un gas que enfriar.
+- Bomba de gas: limita la presión de la red para evitar que aplaste a las personas dentro de la cápsula.
+- Congelador: enfría el aire y, por extensión, al paciente de la cápsula para que pueda activarse la crioxadona.
+- Filtros de gas: eliminan del circuito los gases residuales, es decir, dióxido de carbono y óxido nitroso.
+- Salida de aire: conduce los gases residuales a una bombona de almacenamiento o a la red de residuos.
+<Box>
+<GuideEntityEmbed Entity="GasPipeBend" Rotation="90"/>
+<GuideEntityEmbed Entity="GasPipeStraight" Rotation="90"/>
+<GuideEntityEmbed Entity="GasPipeStraight" Rotation="90"/>
+<GuideEntityEmbed Entity="GasPipeBend" Rotation="0"/>
+<GuideEntityEmbed Entity="CryoPod" Caption="Cápsula criogénica" Rotation="0"/>
+<GuideEntityEmbed Entity="GasThermoMachineFreezerEnabled" Rotation="0"/>
+</Box>
+<Box>
+<GuideEntityEmbed Entity="GasPipeBend" Rotation="180"/>
+<GuideEntityEmbed Entity="GasFilterFlipped" Rotation="90"/>
+<GuideEntityEmbed Entity="GasFilterFlipped" Rotation="90"/>
+<GuideEntityEmbed Entity="GasPipeTJunction" Rotation="180"/>
+<GuideEntityEmbed Entity="GasPipeTJunction" Rotation="180"/>
+<GuideEntityEmbed Entity="GasPipeTJunction" Rotation="270"/>
+</Box>
+<Box>
+<GuideEntityEmbed Entity="GasPort" Caption="Salida de aire" Rotation="90"/>
+<GuideEntityEmbed Entity="GasPipeTJunction" Rotation="180"/>
+<GuideEntityEmbed Entity="GasPipeBend" Rotation="270"/>
+<GuideEntityEmbed Entity="GasPort" Caption="Entrada de aire" Rotation="90"/>
+<GuideEntityEmbed Entity="GasPressurePump" Rotation="90"/>
+<GuideEntityEmbed Entity="GasPipeBend" Rotation="270"/>
+</Box>
+
+No todas las redes tendrán este aspecto, pero el diagrama debería bastar para entender su funcionamiento básico.
+
+Recuerda que la ropa de invierno y los trajes rígidos reducen la eficacia del tratamiento criogénico o incluso lo anulan por completo. Retira la ropa que proteja contra el frío antes de introducir a alguien en la cápsula.
+
+## Uso de la cápsula
+Una vez configurado el sistema, necesitarás un medicamento concreto: crioxadona. La crioxadona cura todos los tipos de daño cuando el paciente está frío. Puedes administrarla de antemano en forma de pastilla o introducir un vaso de precipitados directamente en la cápsula. El paciente no empezará a curarse hasta alcanzar la temperatura adecuada, por lo que quizá convenga esperar un poco antes de colocar el vaso.
+
+## Información adicional:
+
+La presión estándar de una bomba de gas es 100.325 kpa. La crioxadona funciona por debajo de 170K, aunque lo habitual es configurar el congelador a 100K para acelerar el enfriamiento.
+
+<GuideReagentEmbed Reagent="Aloxadone"/>
+<GuideReagentEmbed Reagent="Cryoxadone"/>
+<GuideReagentEmbed Reagent="Doxarubixadone"/>
+<GuideReagentEmbed Reagent="Dexalin"/>
+<GuideReagentEmbed Reagent="Leporazine"/>
+<GuideReagentEmbed Reagent="Necrosol"/>
+<GuideReagentEmbed Reagent="Opporozidone"/>
+
+</Document>

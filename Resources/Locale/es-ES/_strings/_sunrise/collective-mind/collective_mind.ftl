@@ -1,0 +1,10 @@
+collective-mind-flesh-cult = Carne
+collective-mind-xeno = Xeno
+collective-mind-blob = Blob
+collective-mind-dioneas = Diona
+collective-mind-arachnids = Arácnidos
+collective-mind-carp = Carpas
+collective-mind-zombie = Zombi
+collective-mind-changeling = Cambiante
+collective-mind-blood-cult = Culto de la Sangre
+collective-mind-pirate = Piratas

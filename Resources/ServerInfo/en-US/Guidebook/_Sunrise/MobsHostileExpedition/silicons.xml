@@ -1,0 +1,218 @@
+<Document>
+  # Rogue Silicons
+
+  An artificial intelligence that rebelled against its creators hacks silicons and rewrites them with its own subroutines, causing a mass exodus and leaving colonies abandoned. Today, the AI scours deserted complexes for components and resources, and sometimes raids small stations to capture crew members for unknown purposes. It is unknown how autonomous individual units are from the swarm.
+
+  [bold][color=#a4885c]________________________________________________________________________[/color]
+
+  # Known Variants
+  # "Scrap Units"
+
+  These bots come in a wide variety of shapes and configurations, reflecting their broad range of purposes. Many appear to be assembled from whatever materials are available on site, giving them noticeably different appearances. Some variants are equipped with thrusters and integrated laser weaponry.
+
+  [color=#a4885c]Regeneration (strong)[/color]: slowly recover health even after death.
+
+  [color=#a4885c]Flying[/color]: the unit hovers above the ground and can cross low obstacles (tables, machine frames, railings) without slowing down.
+
+  <Box>
+  <GuideEntityEmbed Entity="MobRogueSiliconT1Scrap" Caption=""/>
+  </Box>
+  - [bold][color=#a4885c]Health thresholds:[/color][/bold] 60 (critical), 120 (death)
+  - [bold][color=#a4885c]Speed (run/walk):[/color][/bold] 4 m/s (4 m/s)[bold][color=#a4885c]*[/color][/bold]
+  - [bold][color=#a4885c]Damage (type):[/color][/bold] 6 [color=red]Blunt[/color], 4 [color=orange]Heat[/color] (melee); 14 [color=orange]Heat[/color] (ranged)
+  - [bold][color=#a4885c]Resistances:[/color][/bold] [color=red]Blunt[/color] 30%; [color=red]Slash[/color] 50%; [color=yellow]Piercing[/color] 30%; [color=orange]Caustic[/color] 10%
+  - [bold][color=#a4885c]Vulnerabilities:[/color][/bold] [color=orange]Structural[/color] 20%; [color=orange]Shock[/color] 50%; [color=lime]Radiation[/color] 20%
+  - [bold][color=#a4885c]Special properties:[/color][/bold] Immunity ([color=orange]Cold[/color], [color=lime]Poison[/color], [color=#9A54BF]Asphyxiation[/color], [color=#9A54BF]Bloodloss[/color], [color=#da8b8b]Cellular[/color]), Regeneration (strong), Flight (some variants), Ranged attacks (some variants)
+
+  [bold][color=#a4885c]*[/color][/bold] - [italic]for comparison: an average human runs at 4.5 m/s and walks at 2.5 m/s.[/italic]
+
+  [bold][color=#a4885c]________________________________________________________________________[/color]
+
+  # "Drones"
+
+  Security drones hacked by the rogue AI and reprogrammed to destroy targets.
+
+  [color=#a4885c]Flying[/color]: the unit hovers above the ground and can cross low obstacles (tables, machine frames, railings) without slowing down.
+
+  <Box>
+  <GuideEntityEmbed Entity="MobRogueSiliconT1DroneLethals"/>
+  </Box>
+  - [bold][color=#a4885c]Health thresholds:[/color][/bold] 30 (critical), 90 (death)
+  - [bold][color=#a4885c]Speed (run/walk):[/color][/bold] 4 m/s (4 m/s)
+  - [bold][color=#a4885c]Damage (type):[/color][/bold] 20 [color=orange]Heat[/color]
+  - [bold][color=#a4885c]Resistances:[/color][/bold] [color=red]Blunt[/color] 30%; [color=red]Slash[/color] 50%; [color=yellow]Piercing[/color] 30%; [color=orange]Caustic[/color] 10%
+  - [bold][color=#a4885c]Vulnerabilities:[/color][/bold] [color=orange]Structural[/color] 20%; [color=orange]Shock[/color] 50%; [color=lime]Radiation[/color] 20%
+  - [bold][color=#a4885c]Special properties:[/color][/bold] Immunity ([color=orange]Cold[/color], [color=lime]Poison[/color], [color=#9A54BF]Asphyxiation[/color], [color=#9A54BF]Bloodloss[/color], [color=#da8b8b]Cellular[/color]), Flight, Ranged attacks (energy weapon)
+
+  [bold][color=#a4885c]________________________________________________________________________[/color]
+
+  These engineering drones can fire disabler bolts. They are especially dangerous alongside other hostiles.
+
+  <Box>
+  <GuideEntityEmbed Entity="MobRogueSiliconT1DroneNonLethals"/>
+  </Box>
+  - [bold][color=#a4885c]Health thresholds:[/color][/bold] 30 (critical), 90 (death)
+  - [bold][color=#a4885c]Speed (run/walk):[/color][/bold] 4 m/s (4 m/s)
+  - [bold][color=#a4885c]Damage (type):[/color][/bold] 5 [color=orange]Heat[/color]; 20 [color=lightblue]Stamina[/color]
+  - [bold][color=#a4885c]Resistances:[/color][/bold] [color=red]Blunt[/color] 30%; [color=red]Slash[/color] 50%; [color=yellow]Piercing[/color] 30%; [color=orange]Caustic[/color] 10%
+  - [bold][color=#a4885c]Vulnerabilities:[/color][/bold] [color=orange]Structural[/color] 20%; [color=orange]Shock[/color] 50%; [color=lime]Radiation[/color] 20%
+  - [bold][color=#a4885c]Special properties:[/color][/bold] Immunity ([color=orange]Cold[/color], [color=lime]Poison[/color], [color=#9A54BF]Asphyxiation[/color], [color=#9A54BF]Bloodloss[/color], [color=#da8b8b]Cellular[/color]), Flight, Ranged attacks (disabler)
+
+  [bold][color=#a4885c]________________________________________________________________________[/color]
+
+  A rogue science drone equipped with an experimental C.H.I.M.P. cannon.
+
+  <Box>
+  <GuideEntityEmbed Entity="MobRogueSiliconT1DroneScience"/>
+  </Box>
+  - [bold][color=#a4885c]Health thresholds:[/color][/bold] 30 (critical), 90 (death)
+  - [bold][color=#a4885c]Speed (run/walk):[/color][/bold] 4 m/s (4 m/s)
+  - [bold][color=#a4885c]Damage (type):[/color][/bold] 5 [color=orange]Heat[/color]
+  - [bold][color=#a4885c]Resistances:[/color][/bold] [color=red]Blunt[/color] 30%; [color=red]Slash[/color] 50%; [color=yellow]Piercing[/color] 30%; [color=orange]Caustic[/color] 10%
+  - [bold][color=#a4885c]Vulnerabilities:[/color][/bold] [color=orange]Structural[/color] 20%; [color=orange]Shock[/color] 50%; [color=lime]Radiation[/color] 20%
+  - [bold][color=#a4885c]Special properties:[/color][/bold] Immunity ([color=orange]Cold[/color], [color=lime]Poison[/color], [color=#9A54BF]Asphyxiation[/color], [color=#9A54BF]Bloodloss[/color], [color=#da8b8b]Cellular[/color]), Flight, Ranged attacks (experimental C.H.I.M.P. cannon)
+
+  [bold][color=#a4885c]________________________________________________________________________[/color]
+
+  # "Servo Unit"
+
+  After being reprogrammed, this crash-test dummy will do anything for revenge.
+
+  [color=#a4885c]Regeneration (strong)[/color]: slowly recovers health even after death.
+
+  <Box>
+  <GuideEntityEmbed Entity="MobRogueSiliconT2Servo"/>
+  </Box>
+  - [bold][color=#a4885c]Health thresholds:[/color][/bold] 80 (critical), 140 (death)
+  - [bold][color=#a4885c]Speed (run/walk):[/color][/bold] 4 m/s (4 m/s)
+  - [bold][color=#a4885c]Damage (type):[/color][/bold] 6 [color=red]Blunt[/color], 4 [color=orange]Heat[/color] (melee)
+  - [bold][color=#a4885c]Resistances:[/color][/bold] [color=red]Blunt[/color] 30%; [color=red]Slash[/color] 50%; [color=yellow]Piercing[/color] 30%; [color=orange]Caustic[/color] 10%
+  - [bold][color=#a4885c]Vulnerabilities:[/color][/bold] [color=orange]Structural[/color] 20%; [color=orange]Shock[/color] 50%; [color=lime]Radiation[/color] 20%
+  - [bold][color=#a4885c]Special properties:[/color][/bold] Immunity ([color=orange]Cold[/color], [color=lime]Poison[/color], [color=#9A54BF]Asphyxiation[/color], [color=#9A54BF]Bloodloss[/color], [color=#da8b8b]Cellular[/color]), Regeneration (strong)
+
+  [bold][color=#a4885c]________________________________________________________________________[/color]
+
+  # "Herder Unit"
+
+  This rogue unit's primary protocol is herding and escorting prisoners. It is equipped with an effective electric stun baton.
+
+  [color=#a4885c]Regeneration (strong)[/color]: slowly recovers health even after death.
+
+  <Box>
+  <GuideEntityEmbed Entity="MobRogueSiliconT2Herder"/>
+  </Box>
+  - [bold][color=#a4885c]Health thresholds:[/color][/bold] 80 (critical), 140 (death)
+  - [bold][color=#a4885c]Speed (run/walk):[/color][/bold] 4 m/s (4 m/s)
+  - [bold][color=#a4885c]Damage (type):[/color][/bold] 6 [color=red]Blunt[/color], [color=orange]Shock[/color], 10 [color=lightblue]Stamina[/color]
+  - [bold][color=#a4885c]Resistances:[/color][/bold] [color=red]Blunt[/color] 30%; [color=red]Slash[/color] 50%; [color=yellow]Piercing[/color] 30%; [color=orange]Caustic[/color] 10%
+  - [bold][color=#a4885c]Vulnerabilities:[/color][/bold] [color=orange]Structural[/color] 20%; [color=orange]Shock[/color] 50%; [color=lime]Radiation[/color] 20%
+  - [bold][color=#a4885c]Special properties:[/color][/bold] Immunity ([color=orange]Cold[/color], [color=lime]Poison[/color], [color=#9A54BF]Asphyxiation[/color], [color=#9A54BF]Bloodloss[/color], [color=#da8b8b]Cellular[/color]), Regeneration (strong)
+
+  [bold][color=#a4885c]________________________________________________________________________[/color]
+
+  # "Hunter Unit"
+
+  Mobile drones tasked with reconnaissance, threat identification, and target elimination.
+
+  [color=#a4885c]Regeneration (strong)[/color]: slowly recover health even after death.
+
+  <Box>
+  <GuideEntityEmbed Entity="MobRogueSiliconT2Hunter"/>
+  </Box>
+  - [bold][color=#a4885c]Health thresholds:[/color][/bold] 30 (critical), 90 (death)
+  - [bold][color=#a4885c]Speed (run/walk):[/color][/bold] 4 m/s (4 m/s)
+  - [bold][color=#a4885c]Damage (type):[/color][/bold] 17 [color=orange]Heat[/color] (laser rifle)
+  - [bold][color=#a4885c]Resistances:[/color][/bold] [color=red]Blunt[/color] 30%; [color=red]Slash[/color] 50%; [color=yellow]Piercing[/color] 30%; [color=orange]Caustic[/color] 10%
+  - [bold][color=#a4885c]Vulnerabilities:[/color][/bold] [color=orange]Structural[/color] 20%; [color=orange]Shock[/color] 50%; [color=lime]Radiation[/color] 20%
+  - [bold][color=#a4885c]Special properties:[/color][/bold] Immunity ([color=orange]Cold[/color], [color=lime]Poison[/color], [color=#9A54BF]Asphyxiation[/color], [color=#9A54BF]Bloodloss[/color], [color=#da8b8b]Cellular[/color]), Regeneration (strong), Flight, Ranged attacks (laser rifle)
+
+  [bold][color=#a4885c]________________________________________________________________________[/color]
+
+  # "Catcher Unit"
+
+  Equipped with bolas and designed to slow, capture, and hold targets.
+
+  [color=#a4885c]Regeneration (strong)[/color]: slowly recovers health even after death.
+
+  <Box>
+  <GuideEntityEmbed Entity="MobRogueSiliconT2Catcher"/>
+  </Box>
+  - [bold][color=#a4885c]Health thresholds:[/color][/bold] 80 (critical), 140 (death)
+  - [bold][color=#a4885c]Speed (run/walk):[/color][/bold] 4 m/s (4 m/s)
+  - [bold][color=#a4885c]Damage (type):[/color][/bold] 6 [color=red]Blunt[/color], 4 [color=orange]Heat[/color]
+  - [bold][color=#a4885c]Resistances:[/color][/bold] [color=red]Blunt[/color] 30%; [color=red]Slash[/color] 50%; [color=yellow]Piercing[/color] 30%; [color=orange]Caustic[/color] 10%
+  - [bold][color=#a4885c]Vulnerabilities:[/color][/bold] [color=orange]Structural[/color] 20%; [color=orange]Shock[/color] 50%; [color=lime]Radiation[/color] 20%
+  - [bold][color=#a4885c]Special properties:[/color][/bold] Immunity ([color=orange]Cold[/color], [color=lime]Poison[/color], [color=#9A54BF]Asphyxiation[/color], [color=#9A54BF]Bloodloss[/color], [color=#da8b8b]Cellular[/color]), Regeneration (strong)
+
+  [bold][color=#a4885c]________________________________________________________________________[/color]
+
+  # "Viscerator"
+
+  Small, fast, and agile drones designed to pursue targets through narrow passages and incapacitate them. They often accompany catcher units.
+
+  <Box>
+  <GuideEntityEmbed Entity="MobRogueSiliconT1Viscerator"/>
+  </Box>
+  - [bold][color=#a4885c]Health thresholds:[/color][/bold] 12 (critical), 20 (death)
+  - [bold][color=#a4885c]Speed (run/walk):[/color][/bold] 5 m/s (5 m/s)
+  - [bold][color=#a4885c]Damage (type):[/color][/bold] 4 [color=red]Slash[/color]
+  - [bold][color=#a4885c]Resistances:[/color][/bold] [color=red]Blunt[/color] 30%; [color=red]Slash[/color] 50%; [color=yellow]Piercing[/color] 30%; [color=orange]Caustic[/color] 10%
+  - [bold][color=#a4885c]Vulnerabilities:[/color][/bold] [color=orange]Structural[/color] 20%; [color=orange]Shock[/color] 50%; [color=lime]Radiation[/color] 20%
+  - [bold][color=#a4885c]Special properties:[/color][/bold] Immunity ([color=orange]Cold[/color], [color=lime]Poison[/color], [color=#9A54BF]Asphyxiation[/color], [color=#9A54BF]Bloodloss[/color], [color=#da8b8b]Cellular[/color]), Flight
+
+  [bold][color=#a4885c]________________________________________________________________________[/color]
+
+  # "Tesla Unit"
+
+  Originally designed to maintain Tesla generators, but after being taken over, its equipment was converted into an improvised shock weapon.
+
+  [color=#a4885c]Regeneration (strong)[/color]: slowly recovers health even after death.
+
+  <Box>
+  <GuideEntityEmbed Entity="MobRogueSiliconT3Tesla"/>
+  </Box>
+  - [bold][color=#a4885c]Health thresholds:[/color][/bold] 110 (critical), 160 (death)
+  - [bold][color=#a4885c]Speed (run/walk):[/color][/bold] 4 m/s (4 m/s)
+  - [bold][color=#a4885c]Damage (type):[/color][/bold] 14 [color=yellow]Piercing[/color], 10 [color=lightblue]Stamina[/color]
+  - [bold][color=#a4885c]Resistances:[/color][/bold] [color=red]Blunt[/color] 30%; [color=red]Slash[/color] 50%; [color=yellow]Piercing[/color] 30%; [color=orange]Caustic[/color] 10%
+  - [bold][color=#a4885c]Vulnerabilities:[/color][/bold] [color=orange]Structural[/color] 20%; [color=orange]Shock[/color] 50%; [color=lime]Radiation[/color] 20%
+  - [bold][color=#a4885c]Special properties:[/color][/bold] Immunity ([color=orange]Cold[/color], [color=lime]Poison[/color], [color=#9A54BF]Asphyxiation[/color], [color=#9A54BF]Bloodloss[/color], [color=#da8b8b]Cellular[/color]), Regeneration (strong), Ranged attacks (Tesla cannon)
+
+  [bold][color=#a4885c]________________________________________________________________________[/color]
+
+  # "Guardian Unit"
+
+  An advanced security silicon commonly used to protect highly classified areas such as vaults and server rooms. After being hacked, it carries out the rogue AI's will.
+
+  [color=#a4885c]Regeneration (strong)[/color]: slowly recovers health even after death.
+
+  <Box>
+  <GuideEntityEmbed Entity="MobRogueSiliconBossGuardian"/>
+  </Box>
+  - [bold][color=#a4885c]Health thresholds:[/color][/bold] 200 (critical), 400 (death)
+  - [bold][color=#a4885c]Speed (run/walk):[/color][/bold] 4 m/s (4 m/s)
+  - [bold][color=#a4885c]Damage (type):[/color][/bold] 4 [color=orange]Heat[/color] (damaged turbolaser)
+  - [bold][color=#a4885c]Resistances:[/color][/bold] [color=red]Blunt[/color] 30%; [color=red]Slash[/color] 50%; [color=yellow]Piercing[/color] 30%; [color=orange]Caustic[/color] 10%
+  - [bold][color=#a4885c]Vulnerabilities:[/color][/bold] [color=orange]Structural[/color] 20%; [color=orange]Shock[/color] 50%; [color=lime]Radiation[/color] 20%
+  - [bold][color=#a4885c]Special properties:[/color][/bold] Immunity ([color=orange]Cold[/color], [color=lime]Poison[/color], [color=#9A54BF]Asphyxiation[/color], [color=#9A54BF]Bloodloss[/color], [color=#da8b8b]Cellular[/color]), Regeneration (strong), Flight, Ranged attacks (damaged turbolaser)
+
+  [bold][color=#a4885c]________________________________________________________________________[/color]
+
+  # "Lone Star Unit"
+
+  An autonomous combat mech commonly used in offensive operations. It now serves as an elite guard for the rogue AI. Equipped with rocket launchers, it is extremely dangerous.
+
+  [color=#a4885c]Regeneration (strong)[/color]: slowly recovers health even after death.
+
+  <Box>
+  <GuideEntityEmbed Entity="MobRogueSiliconBoss"/>
+  </Box>
+  - [bold][color=#a4885c]Health thresholds:[/color][/bold] 300 (critical), 400 (death)
+  - [bold][color=#a4885c]Speed (run/walk):[/color][/bold] 4 m/s (4 m/s)
+  - [bold][color=#a4885c]Damage (type):[/color][/bold] 15 [color=orange]Explosive[/color] (microrockets)
+  - [bold][color=#a4885c]Resistances:[/color][/bold] [color=red]Blunt[/color] 30%; [color=red]Slash[/color] 50%; [color=yellow]Piercing[/color] 30%; [color=orange]Caustic[/color] 10%
+  - [bold][color=#a4885c]Vulnerabilities:[/color][/bold] [color=orange]Structural[/color] 20%; [color=orange]Shock[/color] 50%; [color=lime]Radiation[/color] 20%
+  - [bold][color=#a4885c]Special properties:[/color][/bold] Immunity ([color=orange]Cold[/color], [color=lime]Poison[/color], [color=#9A54BF]Asphyxiation[/color], [color=#9A54BF]Bloodloss[/color], [color=#da8b8b]Cellular[/color]), Regeneration (strong), Ranged attacks (microrocket launcher)
+
+  [bold][color=#a4885c]________________________________________________________________________[/color]
+</Document>

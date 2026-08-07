@@ -3,7 +3,13 @@
                MinSize="250 500"
                SetSize="250 500">
     <BoxContainer Orientation="Vertical">
-        <LineEdit Name="Search" />
+        <!-- Fire added start - видимый поиск и фильтр по локализованной категории декали. -->
+        <LineEdit Name="Search" PlaceHolder="{Loc 'decal-placer-window-search-placeholder'}" />
+        <BoxContainer Orientation="Horizontal">
+            <Label Text="{Loc 'decal-placer-window-category'}" Margin="0 0 4 0" />
+            <OptionButton Name="CategoryFilter" HorizontalExpand="True" Filterable="True" />
+        </BoxContainer>
+        <!-- Fire added end -->
         <ScrollContainer VerticalExpand="True">
             <GridContainer Name="Grid" Columns="6">
                 <!-- Decals get added here by code -->

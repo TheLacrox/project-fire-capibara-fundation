@@ -68,7 +68,6 @@
                             HorizontalExpand="True"
                             Name="ServerName"
                             StyleClasses="LabelHeadingBigger"
-                            Text="{Loc 'ui-lobby-welcome'}"
                             VAlign="Center" />
                         <controls:HLine Color="{x:Static palette:ScpPalettes.BloodRed}" Thickness="2" />
                         <info:LinkBanner
@@ -171,7 +170,7 @@
                                             HorizontalExpand="True"
                                             Name="UserProfileHeaderLabel"
                                             StyleClasses="LabelHeading"
-                                            Text="Профиль"
+                                            Text="{Loc 'lobby-gui-profile'}"
                                             VAlign="Center" />
                                         <TextureRect
                                             Access="Public"
@@ -213,7 +212,7 @@
                                             HorizontalExpand="True"
                                             Name="ServersHubHeaderLabel"
                                             StyleClasses="LabelHeading"
-                                            Text="Сейчас играет: 0/0"
+                                            Text="{Loc 'fire-ui-now-playing-placeholder'}"
                                             VAlign="Center" />
                                         <TextureRect
                                             Access="Public"

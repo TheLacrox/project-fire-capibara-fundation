@@ -1,0 +1,68 @@
+﻿<Document>
+  # States
+
+  Shy Guy has several unique states that determine its capabilities and mechanics.
+
+  When playing as Shy Guy, you can identify your state by the representation of your face on the status-effect panel to the right. Hovering over it displays a more detailed description and comments from your inner "voice" about the situation.
+
+  Complex personnel can identify Shy Guy's state by the sounds it makes. Some states also have distinctive actions or appearances.
+
+  [textlink="General information about Shy Guy" link="Scp096About"]
+
+  ## Normal
+
+  In this state, Shy Guy moves slowly and cannot attack. This is the default state the object enters when it spawns in the round.
+
+  To enter another state, it must [bold]tear the skin from its face[/bold] or wait until [bold]someone sees its face[/bold] in person or in a photograph.
+
+  This state can be identified by the sound of crying or by Shy Guy's slow movement speed.
+
+  ## Pre-Enraged
+
+  In this state, Shy Guy cannot move, trembles, and makes a loud sound.
+  The state lasts 40 seconds, after which Shy Guy automatically enters the Enraged state.
+
+  [bold]Shy Guy enters this state after someone sees its face. This can happen:[/bold]
+  - In person, when you and Shy Guy look directly at each other's faces.
+  - In a photograph. Examining it is enough.
+
+  This state can be identified by the object's loud sound and trembling.
+
+  ## Enraged
+
+  Upon entering this state, the object hunts down anyone who saw its face and brutally kills its targets.
+
+  [bold]Shy Guy enters the next state when [/bold]
+  - It kills all its targets, or they cease to exist
+  - About 4 minutes have passed since the state began
+
+  This state can be identified by Shy Guy's loud roar, high speed, and purposeful movement through the complex.
+
+  ## Sleeping/Sitting
+
+  In this state, Shy Guy cannot move and is left vulnerable.
+  It can enter this state in the following ways:
+  - By leaving the Enraged state. It will wake up after some time
+  - By using the "Sit down" ability. It can quickly stand back up
+  - By depleting all its stamina and becoming stunned. It will stand up again after some time.
+
+  In this state, Shy Guy cries more rapidly and produces more tear fluid. It can also be dragged.
+
+  This state can be identified by its unique appearance: the object "sits" while making a crying sound.
+
+  ## Flayed Face State
+
+  A unique state that occurs when the object tears all the skin from its face, erasing all of its features.
+
+  [textlink="More about abilities" link="Scp096Abilities"]
+
+  In this state, it can freely attack complex personnel, open closed airlocks and blast doors, and move slightly faster.
+
+  Until its face is restored, seeing it will not cause the object to enter the Enraged state, even when looking at a photograph.
+
+  To leave this state, its face must be restored. This happens automatically 15 minutes after entering the state. The process can be accelerated by manually treating the face with bandages.
+
+  [textlink="More about restoring containment" link="Scp096Containment"]
+
+  This state can be identified by the unique "noisy" sound coming from the object and by its unrestricted movement through the complex.
+</Document>

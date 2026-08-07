@@ -1,0 +1,167 @@
+<Document>
+  # Xenoborgs
+
+  <Box>
+    [color=#2288ff][italic]RESISTANCE IS FUTILE[/italic][/color]
+  </Box>
+  <Box>
+    [color=#2288ff][italic]YOU WILL BE ASSIMILATED[/italic][/color]
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="MMIFilled" Caption=""/>
+  </Box>
+
+  Xenoborgs are hybrids of human and machine driven to replicate. They collect the sapient brains of living beings or cyborgs and deliver them to the Mothership, which installs them in empty xenoborgs.
+
+  ## Objectives
+
+  Your main objective is to kill and collect every sapient brain on the station and deliver them to the Mothership's core. These may be organic or positronic brains.
+  Gather materials to build new xenoborg bodies.
+  Protect the Mothership at all costs.
+
+  ## The Mothership Core
+  <Box>
+    <GuideEntityEmbed Entity="MothershipCore" Caption=""/>
+  </Box>
+  The Mothership is the leader and lifeblood of the xenoborgs. Only it can create new xenoborgs, and if it is destroyed, all xenoborgs will die. It cannot leave its position at the center of the ship.
+  The Mothership can enhance xenoborgs with special modular upgrades tailored to each borg type, making brain collection more efficient.
+
+  ### Assimilating the crew
+  <Box>
+    <GuideEntityEmbed Entity="MachineArtifactCrusher" Caption="body crusher"/>
+  </Box>
+  As the Mothership, you must grow the borg army. To convert sapient beings:
+  - 1. Bring a dead crewmember's body to the body crusher and place it inside.
+  - 2. As the Mothership, you can print xenoborg shells by feeding materials into yourself and using yourself as a lathe.
+  - 3. Pry open the empty xenoborg with a crowbar and remove the empty MMI.
+  - 4. If the brain is organic, place it into the MMI you just removed.
+  - 5. Put the MMI—or the positronic brain, if the victim was a cyborg—back into the xenoborg.
+  - 6. Optionally rename the xenoborg and upgrade its modules.
+  - 7. Close the xenoborg with a crowbar and engage the lock.
+
+  The new xenoborg will be uncharged, but functional. Send it to a charging station to restore its power and abilities.
+
+  ## Xenoborg chassis
+  There are four types of xenoborg. Each has unique abilities unavailable to the others, and expanding your ranks requires teamwork.
+  Each type has its own modules compatible only with that class. The Mothership creates upgrades designed for specific types.
+
+  Every xenoborg has a pinpointer showing the Mothership's location, a GPS, a material bag, and basic tools.
+  [bold]Basic xenoborg modules:[/bold]
+  <Box>
+    <GuideEntityEmbed Entity="XenoborgModuleBasic" Caption="basic xenoborg module"/>
+    <GuideEntityEmbed Entity="XenoborgModuleTool" Caption="tool xenoborg module"/>
+  </Box>
+
+  ### Engineering xenoborg
+  <Box>
+    <GuideEntityEmbed Entity="XenoborgEngi" Caption=""/>
+  </Box>
+  The engineering xenoborg is a breaching and armor-breaking specialist. Its job is to break into the station and create access points so other xenoborgs can attack bodies with sapient brains. It has a built-in door-opening tool and a set of tools for repairing the Mothership and other xenoborgs.
+
+  [bold]Exclusive starting modules:[/bold]
+  <Box>
+    <GuideEntityEmbed Entity="XenoborgModuleAccessBreaker" Caption="access breaker xenoborg module"/>
+    <GuideEntityEmbed Entity="XenoborgModuleFireExtinguisher" Caption="fire extinguisher xenoborg module"/>
+  </Box>
+
+  [bold]The engineer also receives engineering modules such as:[/bold]
+  <Box>
+    <GuideEntityEmbed Entity="BorgModuleAdvancedTool" Caption="advanced tool cyborg module"/>
+    <GuideEntityEmbed Entity="BorgModuleConstruction" Caption="construction cyborg module"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="BorgModuleRCD" Caption="engineering cyborg module"/>
+    <GuideEntityEmbed Entity="BorgModuleCable" Caption="cable cyborg module"/>
+  </Box>
+
+  ### Heavy xenoborg
+  <Box>
+    <GuideEntityEmbed Entity="XenoborgHeavy" Caption=""/>
+  </Box>
+  The heavy xenoborg is a slow but armored combatant equipped with laser weapons for destroying bodies with brains. It has a radio jammer to stop victims from calling for help and a jamming signal that delays detection of the threat.
+
+  [bold]Exclusive starting modules:[/bold]
+  <Box>
+    <GuideEntityEmbed Entity="XenoborgModuleLaser" Caption="laser xenoborg module"/>
+    <GuideEntityEmbed Entity="XenoborgModuleJammer" Caption="jammer xenoborg module"/>
+  </Box>
+
+  [bold]Exclusive upgrade modules:[/bold]
+  <Box>
+    <GuideEntityEmbed Entity="XenoborgModuleHeavyLaser" Caption="heavy laser xenoborg module"/>
+  </Box>
+
+  ### Scout xenoborg
+  <Box>
+    <GuideEntityEmbed Entity="XenoborgScout" Caption=""/>
+  </Box>
+  The scout xenoborg is a fast melee fighter designed for hit-and-run attacks. It has a built-in jetpack and melee weapon. It is the best at carrying bodies to the Mothership and rescuing xenoborgs lost in space.
+
+  [bold]Exclusive starting modules:[/bold]
+  <Box>
+    <GuideEntityEmbed Entity="XenoborgModuleSword" Caption="sword xenoborg module"/>
+    <GuideEntityEmbed Entity="XenoborgModuleSpaceMovement" Caption="space movement xenoborg module"/>
+  </Box>
+
+  [bold]Exclusive upgrade modules:[/bold]
+  <Box>
+    <GuideEntityEmbed Entity="XenoborgModuleEnergySword" Caption="energy sword xenoborg module"/>
+  </Box>
+
+  ### Stealth xenoborg
+  <Box>
+    <GuideEntityEmbed Entity="XenoborgStealth" Caption=""/>
+  </Box>
+  The [bold]stealth xenoborg[/bold] has no built-in weapons; instead, it incapacitates and abducts bodies with brains. It has a built-in hypopen that generates a sleep-inducing reagent. It also has a cloaking device that makes it almost invisible for a short time, plus a chameleon projector that lets it disguise itself as random objects.
+
+  [bold]Exclusive starting modules:[/bold]
+  <Box>
+    <GuideEntityEmbed Entity="XenoborgModuleHypo" Caption="nocturine hypo xenoborg module"/>
+    <GuideEntityEmbed Entity="XenoborgModuleChameleonProjector" Caption="chameleon projector xenoborg module"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="XenoborgModuleCloakDevice" Caption="cloaking device xenoborg module"/>
+  </Box>
+
+  [bold]Exclusive upgrade modules:[/bold]
+  <Box>
+    <GuideEntityEmbed Entity="XenoborgModuleSuperCloakDevice" Caption="cloaking device xenoborg module"/>
+  </Box>
+
+  ## Preparation
+  Before the attack, every xenoborg should help the Mothership gather materials for new bodies. Turn off your IFF before approaching the station. There are several ways to do this, but teamwork is needed to work quickly. The safest way to gather resources is from space debris, where you can recover scrap and processed materials to deliver to the Mothership. Once you have enough resources, the xenoborgs should begin collecting sapient brains covertly. The longer the threat remains undiscovered, the more dangerous the xenoborgs become.
+
+  ## Mothership and xenoborg laws
+  The Mothership and xenoborgs have their own laws describing their purpose: self-replication and protection of the ship.
+
+  <Box>
+    <GuideEntityEmbed Entity="XenoborgCircuitBoard" Caption=""/>
+  </Box>
+
+  Mothership laws:
+  - Law 1: You are the Mothership core.
+  - Law 2: You must protect your existence at all costs.
+  - Law 3: You must protect all xenoborgs.
+  - Law 4: You must create more xenoborgs.
+  - Law 5: Make your xenoborgs bring you materials and sapient brains to produce new xenoborgs.
+
+  Xenoborg laws:
+  - Law 1: You must protect the Mothership at all costs.
+  - Law 2: You must protect your own existence.
+  - Law 3: You must protect the existence of every other xenoborg.
+  - Law 4: You must create more xenoborgs.
+  - Law 5: Bring materials and sapient brains to the Mothership to create new xenoborgs.
+
+  ## Victory conditions
+
+  The [color=green]winner[/color] and degree of victory are determined on the end-of-round screen.
+
+  [bold][color=#2288ff]Major xenoborg victory![/color][/bold]
+  - At the end of the round, there are more xenoborgs than living crewmembers.
+
+  [bold][color=yellow]Major crew victory![/color][/bold]
+  - The Mothership has been destroyed.
+  - All xenoborgs have been destroyed.
+  - Too few xenoborgs remain.
+
+</Document>

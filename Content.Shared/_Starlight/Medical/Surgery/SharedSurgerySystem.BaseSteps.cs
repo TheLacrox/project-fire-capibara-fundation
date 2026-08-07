@@ -51,7 +51,8 @@ public abstract partial class SharedSurgerySystem
         if (!_random.Prob(args.SuccessRate))
         {
             if (_net.IsClient) return;
-            _popup.PopupEntity("Because of a careless tool, your hand shook. You need to start this step all over again!", args.User, PopupType.SmallCaution);
+            // Fire edit - локализация неудачного этапа операции
+            _popup.PopupEntity(Loc.GetString("fire-surgery-popup-careless-tool"), args.User, PopupType.SmallCaution);
             return;
         }
 
@@ -184,7 +185,7 @@ public abstract partial class SharedSurgerySystem
             if (items > 0)
             {
                 args.Invalid = StepInvalidReason.Armor;
-                args.Popup = $"You need to take off armor from patient to perform this step!";
+                args.Popup = Loc.GetString("fire-surgery-popup-remove-armor"); // Fire edit - локализация
                 return;
             }
         }
@@ -200,7 +201,8 @@ public abstract partial class SharedSurgerySystem
                 args.Invalid = StepInvalidReason.MissingTool;
 
                 if (reg.Component is ISurgeryToolComponent toolComp)
-                    args.Popup = $"You need {toolComp.ToolName} to perform this step!";
+                    args.Popup = Loc.GetString("fire-surgery-popup-needs-tool",
+                        ("tool", Loc.GetString(toolComp.ToolName))); // Fire edit - локализация
 
                 return;
             }
@@ -209,7 +211,8 @@ public abstract partial class SharedSurgerySystem
                 args.Invalid = StepInvalidReason.DisabledTool;
 
                 if (reg.Component is ISurgeryToolComponent toolComp)
-                    args.Popup = $"You need enable {toolComp.ToolName} to perform this step!";
+                    args.Popup = Loc.GetString("fire-surgery-popup-enable-tool",
+                        ("tool", Loc.GetString(toolComp.ToolName))); // Fire edit - локализация
 
                 return;
             }
@@ -246,7 +249,10 @@ public abstract partial class SharedSurgerySystem
         if (_net.IsServer && TryComp(step, out MetaDataComponent? meta))
         {
             var surgeonName = MetaData(user).EntityName;
-            _popup.PopupEntity($"{surgeonName.ToLower()} starts {meta.EntityName.ToLower()}", part, PopupType.LargeCaution);
+            // Fire edit - локализация начала этапа операции
+            _popup.PopupEntity(Loc.GetString("fire-surgery-popup-starts",
+                ("surgeon", surgeonName),
+                ("operation", meta.EntityName)), part, PopupType.LargeCaution);
         }
 
         var duration = stepComp.Duration;

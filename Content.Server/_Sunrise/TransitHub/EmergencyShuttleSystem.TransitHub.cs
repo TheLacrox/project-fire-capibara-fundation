@@ -14,6 +14,7 @@ using Content.Shared.Light.Components;
 using Content.Shared.Tiles;
 using Content.Server.Shuttles.Components;
 using Content.Shared.Salvage;
+using Content.Shared.Warps;
 using Robust.Shared.Random;
 
 #pragma warning disable IDE0130 // Namespace does not match folder structure
@@ -93,6 +94,24 @@ public sealed partial class EmergencyShuttleSystem
             Log.Error($"Failed to set up transit hub map!");
             QueueDel(mapUid);
             return;
+        }
+
+        if (component.GridName is { } gridName)
+            _metaData.SetEntityName(uid.Value.Owner, Loc.GetString(gridName));
+
+        if (component.WarpPointName is { } warpPointName)
+        {
+            var localizedWarpPointName = $"!{Loc.GetString(warpPointName)}";
+            var children = Transform(uid.Value.Owner).ChildEnumerator;
+            while (children.MoveNext(out var child))
+            {
+                if (!TryComp<WarpPointComponent>(child, out var warpPoint))
+                    continue;
+
+                warpPoint.Location = localizedWarpPointName;
+                Dirty(child, warpPoint);
+                _metaData.SetEntityName(child, localizedWarpPointName);
+            }
         }
 
         EnsureComp<LightCycleComponent>(mapUid);

@@ -4,6 +4,18 @@ background-type-Art = Art
 background-type-Random = Random
 # Animations
 lobby-animation-Random = Random
+lobby-animation-Scp049 = SCP-049
+lobby-animation-Scp096 = SCP-096
+lobby-animation-Scp173 = SCP-173
+lobby-animation-Camera = Camera
+lobby-animation-Foundation = Foundation
+lobby-animation-Mtf = Mobile Task Force
+lobby-animation-DeepFacility = Underground facility
+lobby-animation-Logo = Logo
+lobby-animation-PC = Computer
+lobby-animation-RedGuy = Man in red
+lobby-animation-Screen = Screen
+lobby-animation-WorldMap = World map
 # Arts
 lobby-art-Random = Random
 lobby-art-BarLife = Bar Life

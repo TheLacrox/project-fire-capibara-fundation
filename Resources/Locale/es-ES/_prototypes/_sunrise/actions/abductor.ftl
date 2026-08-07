@@ -1,0 +1,10 @@
+ent-ActionExitConsole = Salir de la consola
+    .desc = Sal de la consola.
+ent-ActionSendYourself = Teletransportarse
+    .desc = Te teletransporta al lugar seleccionado.
+ent-ActionGizmoMark = Marcar
+    .desc = Usa el artilugio que llevas en los bolsillos para marcar al agente.
+ent-ActionSendAgent = Teletransportar al agente
+    .desc = Teletransporta al agente desde la plataforma de teletransporte.
+ent-ActionReturnToShip = Regresar
+    .desc = Regresa a la nave.

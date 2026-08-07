@@ -200,12 +200,14 @@ public sealed partial class VoteManager
             if (args.Winner == null)
             {
                 picked = (string) _random.Pick(args.Winners);
-                _chatManager.DispatchServerAnnouncement(_loc.GetString("ui-vote-gamemode-tie"));
+                _chatManager.DispatchServerAnnouncement(
+                    _loc.GetString("ui-vote-gamemode-tie", ("picked", _loc.GetString(presets[picked]))));
             }
             else
             {
                 picked = (string) args.Winner;
-                _chatManager.DispatchServerAnnouncement(_loc.GetString("ui-vote-gamemode-win"));
+                _chatManager.DispatchServerAnnouncement(
+                    _loc.GetString("ui-vote-gamemode-win", ("winner", _loc.GetString(presets[picked]))));
             }
 
             _adminLogger.Add(LogType.Vote, LogImpact.Medium, $"Regular preset vote finished: {picked}");

@@ -1,0 +1,16 @@
+<Document>
+  # Trottins
+
+  <Box>
+    <GuideEntityEmbed Entity="MobSwine" Caption=""/>
+  </Box>
+
+  Trottins become hungry and thirsty quickly.
+  They are slower than other humanoids and have a distinctive accent.
+  They leave hoofprints behind.
+  Their critical health threshold is higher than normal, as is their stamina critical threshold.
+
+  They take [color=#1e90ff]20% less blunt and slashing damage[/color],
+  as well as [color=#1e90ff]20% less cold damage[/color].
+
+</Document>

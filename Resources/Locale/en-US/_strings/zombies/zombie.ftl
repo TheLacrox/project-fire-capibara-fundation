@@ -11,3 +11,6 @@ zombie-permadeath = This time, you're dead for real.
 zombification-resistance-coefficient-value = - [color=violet]Infection[/color] chance reduced by [color=lightblue]{$value}%[/color].
 
 zombie-roleban-ghosted = You have been ghosted because you are banned from playing the Zombie role.
+
+zombie-nearest-survivor-none = No nearby survivors were found.
+zombie-nearest-survivor = The nearest survivor is { $direction }.

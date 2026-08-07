@@ -1,0 +1,11 @@
+<Document>
+  # Humanos
+
+  <Box>
+    <GuideEntityEmbed Entity="MobHumanDummy" Caption=""/>
+  </Box>
+
+  Según a quién preguntes, los humanos son anodinos o el modelo versátil con el que se compara a todo el mundo.
+  No poseen mecánicas especiales ni diferencias destacables.
+
+</Document>

@@ -1,0 +1,16 @@
+new-life-gui-window-title = Nueva vida
+new-life-gui-button-disable = Nueva vida [PATROCINADOR]
+new-life-gui-button = Nueva vida
+new-life-gui-station-selector = Estación:
+new-life-gui-character-selector = Personaje:
+new-life-gui-role-selector = Puesto:
+new-life-gui-available-via = Disponible mediante:
+new-life-gui-new-life = Nueva vida
+new-life-gui-available = Disponible.
+new-life-gui-character-not-available = El personaje no está disponible.
+new-life-gui-role-not-available = El puesto no está disponible.
+new-life-gui-character-used = { $name } [No disponible]
+new-life-gui-character-rules_title = Reglas
+new-life-gui-character-rule1 = 1. No recuerdas nada de tu vida anterior.
+new-life-gui-character-rule2 = 2. Todos los personajes deben ser únicos.
+new-life-gui-character-rule3 = 3. No puedes aparecer como antagonista.

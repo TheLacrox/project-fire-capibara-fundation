@@ -1,0 +1,10 @@
+advertisement-honkers-1 = ¿Necesitas granadas que asusten sin hacer volar nada? Tengo la solución... ¡PUF!
+advertisement-honkers-2 = ¿Un agente nuclear? Sí, claro... Bueno, casi. ¡Pruébalo con la gente!
+advertisement-honkers-3 = ¿Un holoparásito? ¡Más bien una holoFARSA! ¡Pero qué divertido!
+advertisement-honkers-4 = ¿Buscas anomalías? Las mías son falsas pero convincentes: ¡hasta los científicos se devanarán los sesos!
+advertisement-honkers-5 = ¿Para qué quieres granadas de verdad teniendo estas? ¡Mucho ruido y ningún daño! ¡Seguras y divertidas!
+advertisement-honkers-6 = Un traje falso de agente nuclear: para quienes quieren parecer peligrosos, pero en realidad... ¡son payasos!
+advertisement-honkers-7 = Nada de holoparásitos reales: ¡solo una ilusión de primera! ¿Y qué si es de pega?
+advertisement-honkers-8 = ¡Estas anomalías son tan falsas que hasta tú empezarás a creer en ellas! ¡Engaño de primera!
+advertisement-honkers-9 = ¡Eh, payaso! ¡Estas cosas solo harán estallar tus chistes, no a tus amigos!
+advertisement-honkers-10 = Un traje de agente nuclear: para que no solo te teman, sino que también se rían de ti. ¡La sensación de la temporada!

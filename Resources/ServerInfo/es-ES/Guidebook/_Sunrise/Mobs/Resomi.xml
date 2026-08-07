@@ -1,0 +1,17 @@
+<Document>
+  # Resomi
+
+  <Box>
+    <GuideEntityEmbed Entity="MobResomi" Caption=""/>
+  </Box>
+
+  Los resomi pueden saltar distancias cortas y tienen garras.
+  Son bastante frágiles y toleran peor las temperaturas altas.
+  Disponen de visión nocturna que pueden activar y desactivar.
+
+  Reciben [color=#ffa500]un 25% más de daño por calor[/color],
+  pero [color=#1e90ff]un 25% menos de daño por frío[/color].
+
+  Debido a su baja estatura, los resomi pueden transportarse en un bolso o una mochila.
+
+</Document>

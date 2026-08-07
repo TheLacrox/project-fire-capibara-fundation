@@ -80,9 +80,12 @@ ban-panel-erase = Erase chat messages and player from round
 ban-panel-expiry-error = err
 
 # Ban string
-server-ban-string = {$admin} created a {$severity} severity server ban that expires {$expires} for [{$name}, {$ip}, {$hwid}], with reason: {$reason}
-server-ban-string-no-pii = {$admin} created a {$severity} severity server ban that expires {$expires} for {$name} with reason: {$reason}
+# Fire edit start - номер раунда уже передаётся вызывающим кодом
+server-ban-string = {$admin} created a {$severity} severity server ban that expires {$expires} for [{$name}, {$ip}, {$hwid}], with reason: {$reason}, round: {$round}
+server-ban-string-no-pii = {$admin} created a {$severity} severity server ban that expires {$expires} for {$name} with reason: {$reason}, round: {$round}
 server-ban-string-never = never
+server-ban-unknown-round = Unknown
+# Fire edit end
 
 # Kick on ban
 ban-kick-reason = You have been banned

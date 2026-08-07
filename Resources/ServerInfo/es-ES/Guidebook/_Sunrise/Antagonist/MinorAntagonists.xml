@@ -1,0 +1,77 @@
+<Document>
+  # Antagonistas menores
+
+  Los antagonistas menores son funciones controladas por fantasmas que ofrecen a los muertos una segunda oportunidad de divertirse —¡o sembrar el caos!— en la estación. Aparecen como resultado de eventos aleatorios.
+
+  # Clon paradójico
+
+  <Box>
+    <GuideEntityEmbed Entity="ParadoxCloneDummy"/>
+  </Box>
+
+  Es una copia perfecta de un tripulante al azar, traída hasta aquí por una anomalía espaciotemporal. Para corregir la paradoja y sobrevivir, debe encontrar y matar al original.
+
+  No posee habilidades especiales, pero su aspecto, ADN, huellas dactilares, ropa, equipo e identificación son completamente idénticos. Por eso resulta difícil saber quién es el original y quién la copia... ¡a menos que conozcas muy bien a tus compañeros!
+
+  # Espíritu vengativo
+
+  <Box>
+    <GuideEntityEmbed Entity="MobRevenant"/>
+  </Box>
+
+  Los espíritus vengativos son seres efímeros de ectomateria que acechan a la tripulación y absorben su [color=#8f63e6]esencia vital[/color].
+  - Tu esencia es tu propia [bold]fuerza vital[/bold]. Pierdes esencia cuando recibes daño.
+  - La esencia también se consume al utilizar [bold]habilidades[/bold].
+  - Para obtener esencia, primero [bold]examina[/bold] las almas y calcula su valor. Cuanto más valiosa sea un alma, más esencia proporcionará. Después debes [bold]absorberla[/bold] de una persona en estado crítico, muerta o dormida. Todo esto se hace mediante [color=yellow][bold][keybind="Use"][/bold][/color].
+  - La [bold]esencia robada[/bold] sirve para comprar habilidades nuevas con las que neutralizar a la tripulación con mayor eficacia.
+  - Cuando absorbes un alma o utilizas una habilidad, te vuelves [bold]vulnerable[/bold]. El estado [color=#8f63e6][italic]Forma corpórea[/italic][/color] te lo indica.
+
+  # Rey Rata
+
+  <Box>
+    <GuideEntityEmbed Entity="MobRatServant" Caption=""/>
+    <GuideEntityEmbed Entity="MobRatServant" Caption=""/>
+    <GuideEntityEmbed Entity="MobRatKing" Scale="2.4"/>
+    <GuideEntityEmbed Entity="MobRatServant" Caption=""/>
+    <GuideEntityEmbed Entity="MobRatServant" Caption=""/>
+  </Box>
+
+  Los Reyes Rata son roedores gigantes capaces de [color=yellow]crear ejércitos de ratas[/color] al consumir enormes cantidades de comida.
+  - Dispones de varias habilidades cuyo coste se paga con [bold]hambre[/bold].
+  - [color=yellow][italic]Invocar ejército[/italic][/color] llama a un [bold]sirviente rata[/bold]. Puedes [bold]ordenarle[/bold] que se quede quieto, te siga, ataque a un objetivo concreto o despedace todo lo que encuentre.
+  - [color=yellow][italic]Invocar guardia[/italic][/color] llama a un [bold]guardia rata[/bold]. No puedes [bold]darle órdenes[/bold] de la forma habitual porque lo controla otro jugador. El guardia es una rata grande que, a cambio de mucha hambre, puede invocar sirvientes rata para que lo ayuden.
+  - Puedes crear una nube de [color=#77b58e]amoníaco[/color] mediante el [color=purple][italic]Dominio del Rey Rata[/italic][/color]. Este gas morado es ligeramente venenoso para los humanos, pero cura a las ratas.
+  - [color=#9daa98][italic]Rebuscar[/italic][/color] en un cubo de basura desde el menú contextual permite recoger [bold]migas de comida[/bold] para reponer tu ejército.
+  - [bold]Eres más fuerte que la mayoría de los animales.[/bold] Tanto tú como tus sirvientes podéis hablar y pasar por debajo de esclusas y mesas.
+  - [bold]¡Pero tus subordinados son muy frágiles![/bold] Cuidado con el vacío, las explosiones y los objetos cortantes.
+
+  # Dragón espacial
+
+  <Box>
+    <GuideEntityEmbed Entity="MobCarp" Caption=""/>
+    <GuideEntityEmbed Entity="CarpRift" Caption=""/>
+    <GuideEntityEmbed Entity="MobDragon"/>
+    <GuideEntityEmbed Entity="CarpRift" Caption=""/>
+    <GuideEntityEmbed Entity="MobCarp" Caption=""/>
+  </Box>
+
+  Los dragones espaciales son peces alienígenas gigantes capaces de [color=red]devorar a la tripulación[/color] y crear [color=#4b7fcc]portales de carpas[/color].
+  - Los dragones tienen mandíbulas poderosas que les permiten [color=red][italic]devorar[/italic][/color] infraestructura, como puertas, ventanas y paredes.
+  - También pueden curarse devorando tripulantes inconscientes o muertos.
+  - Tu [color=orange][italic]Aliento de dragón[/italic][/color] es un [bold]proyectil incendiario[/bold] que avanza en línea recta, explota varias veces y prende todo lo que encuentra. ¡Procura no alcanzar a tus propias carpas!
+  - Puedes [color=#4b7fcc][italic]invocar un portal de carpas[/italic][/color]. Tras aparecer, tarda 5 minutos en cargarse y [bold]durante ese tiempo es vulnerable.[/bold] Después se vuelve invulnerable y continúa invocando carpas mientras el dragón siga vivo. El portal también cura en un radio pequeño a las carpas y al dragón que estén cerca.
+  - Si destruyen el portal antes de que termine de cargarse, sufrirás [bold]daño de retroalimentación temporal[/bold].
+  - Si pasan 5 minutos sin que hayas desbloqueado un portal, [bold]desaparecerás[/bold].
+  - Los dragones que completen tres portales [bold]no desaparecerán jamás[/bold], aunque todavía pueden morir.
+
+  # Slimes y arañas
+
+  <Box>
+    <GuideEntityEmbed Entity="MobAdultSlimesBlueAngry" Caption=""/>
+    <GuideEntityEmbed Entity="MobGiantSpiderAngry" Caption=""/>
+  </Box>
+
+  Los slimes y las arañas no tienen nada especial, pero [color=cyan]infestan la estación[/color] de manera independiente de vez en cuando. Persiguen y atacan todo lo que ven.
+  - Los slimes pueden [bold]infligir daño adicional por ácido o veneno[/bold], según su color. El agua les afecta igual que a las personas slime.
+  - Las arañas poseen una mordedura venenosa y pueden [bold]crear telarañas[/bold] difíciles de atravesar, aunque fáciles de cortar. También son capaces de romper puertas, ventanas y esclusas.
+</Document>

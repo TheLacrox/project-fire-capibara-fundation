@@ -1,0 +1,10 @@
+ent-ActionGhostBoo = ¡Buu!
+    .desc = ¡Asusta a tus compañeros de tripulación por puro aburrimiento!
+ent-ActionToggleLighting = Cambiar el modo de iluminación
+    .desc = Cambia cómo se muestra la iluminación para observar mejor las zonas oscuras.
+ent-ActionToggleFov = Alternar campo de visión (FoV)
+    .desc = Activa o desactiva el campo de visión para ver lo mismo que ven los jugadores.
+ent-ActionToggleGhosts = Mostrar u ocultar fantasmas
+    .desc = Muestra u oculta a los demás fantasmas.
+ent-ActionToggleGhostHearing = Cambiar el modo de escucha
+    .desc = Alterna entre oír todos los mensajes y oír solo la radio y los mensajes cercanos.

@@ -1,0 +1,17 @@
+﻿<Document>
+  # Válvula de señal
+  La válvula de señal puede controlarse mediante [textlink="señales" link="Networking"].
+  <Box>
+    <GuideEntityEmbed Entity="SignalControlledValve"/>
+  </Box>
+
+  Se parece a una válvula manual: el gas puede fluir sin restricciones en ambos sentidos y la válvula también puede accionarse a mano.
+
+  La válvula tiene 3 entradas de [textlink="señal" link="Networking"]: abrir, cerrar y alternar el estado.
+
+  Las válvulas de señal pueden utilizarse para distintas tareas, por ejemplo:
+  - Controlar a distancia válvulas situadas en zonas peligrosas o inaccesibles para la tripulación
+  - Accionar cómodamente una válvula en un lugar de difícil acceso
+  - Automatizarla junto con otras máquinas y equipos de [textlink="señales" link="Networking"], como [textlink="alarmas atmosféricas" link="AirAlarms"] y emisores de señal remotos
+
+</Document>

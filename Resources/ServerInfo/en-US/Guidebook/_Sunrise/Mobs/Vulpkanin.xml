@@ -1,0 +1,17 @@
+<Document>
+  # Vulpkanin
+
+  <Box>
+    <GuideEntityEmbed Entity="MobVulpkanin" Caption=""/>
+  </Box>
+
+  Because of their thick fur, vulpkanin [color=#1e90ff]prefer colder temperatures[/color] and [color=#ffa500]overheat more quickly.[/color]
+  Their nimble—if somewhat clumsy—legs let them leap short distances. Be careful not to crash into anything!
+
+  Their diet lets them eat raw meat safely, but theobromine is poisonous to them.
+
+  The unusual shape of their muzzle makes drinking difficult, so they sometimes spill some of the liquid onto the floor.
+  They leave distinctive tracks unique to their species.
+
+  They take [color=#1e90ff]15% less cold damage[/color], but [color=#ffa500]15% more heat damage.[/color]
+</Document>

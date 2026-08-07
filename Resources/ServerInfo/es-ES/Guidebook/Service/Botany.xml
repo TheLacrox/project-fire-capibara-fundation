@@ -1,0 +1,89 @@
+<Document>
+# Botánica
+Como botánico, tu trabajo consiste en cultivar suficiente comida para que el cocinero no busque «fuentes alternativas». Planta mucho trigo y, cuando te canses, cultiva cannabis. Prepara batidos de cannabis y adereza bebidas con ortigas. ¡Mientras sigas cuidando plantas, todo irá bien!
+
+## Inicio del turno
+Primero identifica las máquinas que utilizarás a tu alrededor. Coordínate con el cocinero para saber si necesita algún cultivo concreto; de lo contrario, planta trigo, plátanos y cualquier otra cosa que te apetezca. También puedes cultivar plantas para Química, el camarero o venderlas mediante Carga.
+
+
+# Herramientas
+Dispones de muchas herramientas para mantener los cultivos sanos y en crecimiento. La bandeja hidropónica será donde pases la mayor parte del tiempo como botánico.
+
+## Bandeja hidropónica
+<Box>
+<GuideEntityEmbed Entity="hydroponicsTray"/>
+</Box>
+Es una bandeja hidropónica: hace crecer plantas con agua. Llénala primero de agua y después añade semillas.
+Las luces de la bandeja indican distintas situaciones según su color y posición:
+- [color=red]Luz roja, izquierda[/color]: la planta está muerta y hay que sustituirla. Usa una pala de mano para retirarla.
+- [color=orange]Luz naranja intermitente, centro[/color]: el entorno no es óptimo. Usa Mayús + clic para comprobar qué afecta a la planta. Lo más probable es que haya malas hierbas, aunque también puede faltar oxígeno o haber una presión inadecuada. Si son malas hierbas, utiliza una azada pequeña o aplica 1 vez el herbicida. Ten cuidado: abusar del herbicida perjudica a las plantas y puede matarlas.
+- [color=#0336ff]Luz azul, derecha[/color]: necesita agua. Llena un cubo en el depósito de agua y viértelo en la bandeja.
+- [color=green]Luz verde, izquierda[/color]: está lista para cosechar. Haz clic izquierdo para recogerla.
+- [color=yellow]Luz amarilla, derecha[/color]: necesita nutrientes. Entierra cualquier fruta o consigue nutrientes EZ en Química.
+
+El ciclo vital de una bandeja hidropónica es el siguiente:
+- [color=lightgreen]Vacía[/color]: no contiene agua, semillas ni nutrientes.
+- [color=lightgreen]Hidratada[/color]: has añadido agua, por ejemplo con una botella o un cubo.
+- [color=lightgreen]Lista para plantar[/color]: has añadido agua y nutrientes, es decir, fertilizante.
+- [color=lightgreen]Plantada[/color]: has añadido una semilla.
+- [color=lightgreen]Lista para cosechar[/color]: has esperado a que crezca la planta.
+- [color=lightgreen]Muestreada[/color]: has extraído una muestra, es decir, una semilla.
+- [color=lightgreen]Cosechada[/color]: has recogido las plantas maduras. Algunas volverán a crecer; otras morirán y habrá que replantarlas.
+- [color=lightgreen]Enferma[/color]: has extraído demasiadas semillas o aplicado sustancias letales. La planta no lo está llevando bien, aunque seguirá creciendo. Puedes devolverle la salud con fertilizante o cortar por lo sano, extraer una semilla con las tijeras y volver a plantarla.
+- [color=lightgreen]Vieja / Marchita[/color]: la planta ha madurado y pronto morirá. Durante un breve periodo aún podrás cosecharla y extraer semillas. Obtén una semilla y después arráncala o córtala.
+- [color=lightgreen]Muerta[/color]: la planta ha sido cosechada y ha dejado de crecer. Hay que arrancarla o cortarla y ya no se pueden extraer semillas.
+
+## Extractor de semillas
+<Box>
+<GuideEntityEmbed Entity="SeedExtractor"/>
+</Box>
+Extrae semillas. Introduce un cultivo y obtendrás semillas.
+
+
+# Genética vegetal
+Como todas las formas de vida conocidas por NanoTrasen, las plantas transmiten rasgos a su descendencia mediante los genes. Al manipular su genética, los botánicos pueden producir variedades con mutaciones deseables que mejoren la salud y el rendimiento de las plantas.
+
+## Rasgos
+El fenotipo, o conjunto de características y rasgos observables de una planta, puede determinarse mediante un estudio cuidadoso. Algunos rasgos habituales son:
+
+- [color=lightgreen]Bioluminiscencia[/color]: las plantas brillan en la oscuridad.
+- [color=lightgreen]Alto rendimiento[/color]: producen más frutos en cada cosecha.
+- [color=lightgreen]Menor consumo de agua[/color]: necesitan menos agua de lo normal para crecer.
+- [color=lightgreen]Leñosa[/color]: se necesitan herramientas afiladas para cosecharlas.
+- [color=lightgreen]Longevidad[/color]: sobreviven más ciclos de cosecha antes de morir.
+- [color=lightgreen]Poca luz[/color]: necesitan menos luz de lo normal para crecer.
+- [color=lightgreen]Resistencia a plagas[/color]: son más resistentes a las plagas.
+- [color=lightgreen]Sin semillas[/color]: no producen semillas viables.
+- [color=lightgreen]Resistencia a malas hierbas[/color]: inhiben el crecimiento de malas hierbas.
+
+¡Puedes determinar el fenotipo de una planta con sólo cultivarla y observarla! Así las estudió Gregor Mendel, padre de la genética, en 1866.
+
+## Mutaciones
+Las plantas tratadas con [color=cyan]mutágeno inestable[/color] sufren mutaciones genéticas aleatorias que pueden alterar sus genes y rasgos. Cosecha las semillas de las plantas que presenten mutaciones que quieras conservar.
+
+Cuanto más mutágeno inestable utilices, más mutaciones obtendrás. Como muchos genes son esenciales para la supervivencia, la mayoría de las mutaciones matarán a la planta.
+
+<Box>
+<GuideEntityEmbed Entity="ChemistryBottleUnstableMutagen"/>
+</Box>
+
+## Polinización cruzada
+Puedes utilizar un [color=cyan]hisopo esterilizado[/color] para transferir polen de una planta a otra. Las plantas sometidas a polinización cruzada pueden transmitir sus rasgos. Ten cuidado al reutilizar los hisopos: ¡el polen es pegajoso!
+
+<Box>
+<GuideEntityEmbed Entity="BoxMouthSwab"/>
+<GuideEntityEmbed Entity="DiseaseSwab"/>
+</Box>
+
+## Sustancias químicas
+Algunas sustancias químicas producen efectos especiales en las plantas.
+
+[textlink="Haz clic aquí para consultar todas las sustancias botánicas." link="Botanical"]
+
+<GuideReagentEmbed Reagent="Dylovene"/>
+<GuideReagentEmbed Reagent="Cryoxadone"/>
+<GuideReagentEmbed Reagent="Necrosol"/>
+<GuideReagentEmbed Reagent="Phalanximine"/>
+<GuideReagentGroupEmbed Group="Botanical"/>
+
+</Document>

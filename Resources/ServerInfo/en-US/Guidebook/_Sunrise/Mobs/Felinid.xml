@@ -1,0 +1,21 @@
+<Document>
+  # Felinids
+
+  <Box>
+    <GuideEntityEmbed Entity="MobFelinid" Caption=""/>
+  </Box>
+
+  Felinids have claws that deal slash damage in melee combat and a distinctive "feline" accent.
+  They have night vision that can be toggled on and off.
+  They can lick their wounds, helping to stop bleeding and speed up recovery.
+
+  Their defenses differ slightly from those of standard humanoids:
+  they take [color=#ffa500]10% more blunt, slash, and piercing damage[/color],
+  [color=#ffa500]10% more heat damage[/color],
+  but [color=#1e90ff]10% less cold damage[/color].
+
+  <Box>
+    <GuideEntityEmbed Entity="ClothingBackpackDuffel" Caption=""/>
+  </Box>
+  Felinids are compact enough to fit inside a bag when necessary.
+</Document>

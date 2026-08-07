@@ -1,0 +1,14 @@
+research-discipline-scp = SCP
+research-technology-anti-anomalous-security-framework = Marco de seguridad antianómala
+research-technology-reactive-anomaly-suppression-complex = Complejo reactivo de supresión de anomalías
+research-technology-silent-step-module = Módulo de paso silencioso «Noctis-2»
+research-technology-counter-space-barrier = Barrera contraespacial «Gaia-11»
+research-technology-second-order-neurovisual-filter = Filtro neurovisual de segundo orden «Arret-96»
+research-technology-shielding-composite = Compuesto de blindaje «Lignus-C»
+research-technology-rapid-deployment-fiber-synthesis = Síntesis de fibras de despliegue rápido «GAZELVIV-9»
+research-technology-cognitive-screen-protocol = Protocolo de pantalla cognitiva «Arca-11»
+research-technology-conscious-inversion-filter = Filtro de inversión de la consciencia «Eón-8»
+research-technology-agent-type-solution = Solución de tipo agente «Vigilio»
+research-technology-anomalous-resonance-laser = Láser de resonancia anómala
+research-technology-anomalous-optical-destructor = Destructor óptico anómalo
+research-technology-conscious-inversion = Inversor psicoquímico «Ataraxia»

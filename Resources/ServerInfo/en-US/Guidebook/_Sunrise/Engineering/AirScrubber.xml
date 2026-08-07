@@ -1,0 +1,46 @@
+﻿<Document>
+  # Air Scrubber
+  The air scrubber is essential for keeping the atmosphere free of waste gases released by living creatures or produced by atmospheric incidents.
+  Its primary function is to remove unwanted gases from the surrounding atmosphere.
+  <Box>
+    <GuideEntityEmbed Entity="GasVentScrubber"/>
+  </Box>
+  An air scrubber requires [textlink="power" link="Power"] from a nearby [textlink="LV cable" link="VoltageNetworks"] to operate.
+
+  By default, the air scrubber removes every gas except nitrogen and oxygen from the surrounding atmosphere. It will continue operating this way until a [textlink="linked" link="Networking"] [textlink="air alarm" link="AirAlarms"] assigns it a different mode.
+
+  You can weld an air scrubber with any welding tool to stop it from operating.
+
+  ## Configuration
+  When [textlink="linked" link="Networking"] to an [textlink="air alarm" link="AirAlarms"], air scrubbers gain additional functionality.
+
+  Choose which gases to remove from the "Gas filters" drop-down list. Keep in mind that this selection resets whenever the [textlink="air alarm's" link="AirAlarms"] mode changes.
+
+  Air scrubbers have two direction settings: Scrubbing and Siphoning.
+  - Scrubbing removes gases according to the selected filters.
+  - Siphoning ignores every filter and draws all gases out of the atmosphere.
+
+  Both modes are limited by the Rate setting, which specifies in liters how quickly the scrubber draws gases from the surrounding atmosphere.
+
+  Air scrubbers also have a WideNet setting that extends their operating radius. Normally, a scrubber cleans only the atmosphere on its own tile.
+  In WideNet mode, the scrubber cleans gas from the 4 tiles around it, as shown below:
+
+  <Box>
+    <GuideEntityEmbed Entity="FloorTileItemSteel" Caption=""/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="FloorTileItemSteel" Caption=""/>
+    <GuideEntityEmbed Entity="GasVentScrubber" Caption=""/>
+    <GuideEntityEmbed Entity="FloorTileItemSteel" Caption=""/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="FloorTileItemSteel" Caption=""/>
+  </Box>
+
+  This effectively multiplies the total rate because the scrubber begins working on 5 tiles at once.
+
+  Scrubbers [textlink="linked" link="Networking"] to an [textlink="air alarm" link="AirAlarms"] in automatic mode will automatically enable WideNet through the [textlink="air alarm's" link="AirAlarms"] "Filtering (Wide)" mode when a high concentration of unwanted gases is detected in the atmosphere.
+
+  WideNet is extremely useful for quickly removing large quantities of tritium from plasma burn chambers.
+
+</Document>

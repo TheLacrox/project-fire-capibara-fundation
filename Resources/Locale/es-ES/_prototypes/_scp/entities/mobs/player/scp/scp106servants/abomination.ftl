@@ -1,0 +1,9 @@
+ent-MobScp106Monster = engendro sombrío
+    .desc = Una acumulación de miedo transformado en odio que ha emergido de una enorme grieta para invadir esta dimensión.
+    .suffix = Monstruo de SCP-106
+ent-Scp106Portal = grieta de la realidad
+    .desc = El horror inconcebible que aguarda al otro lado estremece incluso la mera idea de existir en su interior.
+    .suffix = Portal de SCP-106
+ent-MobScp106BigMonster = engendro sombrío gigante
+    .desc = { ent-MobScp106Monster.desc }
+    .suffix = { ent-MobScp106Monster.suffix }

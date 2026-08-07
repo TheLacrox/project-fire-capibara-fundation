@@ -122,7 +122,7 @@ public sealed partial class TutorialWindow : DefaultWindow
             };
             var config = new FancyCardConfig
             {
-                TitleText = proto.Name,
+                TitleText = Loc.GetString(proto.Name),
                 DescText = sb.ToString(),
                 BackdropTexture = proto.Texture,
                 CardSize = new Vector2(570, 350),

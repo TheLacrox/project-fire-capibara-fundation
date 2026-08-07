@@ -1,5 +1,6 @@
 ﻿using Robust.Shared.Audio;
 using Robust.Shared.GameStates;
+using Robust.Shared.Localization;
 using Robust.Shared.Prototypes;
 // Based on the RMC14.
 // https://github.com/RMC-14/RMC-14
@@ -28,47 +29,47 @@ public sealed partial class OperatingTableComponent : Component;
 [RegisterComponent, NetworkedComponent, Access(typeof(SharedSurgerySystem))]
 public sealed partial class BoneGelComponent : Component, ISurgeryToolComponent
 {
-    public string ToolName => "bone gel";
+    public LocId ToolName => "fire-surgery-tool-bone-gel"; // Fire edit - локализация
 }
 
 [RegisterComponent, NetworkedComponent, Access(typeof(SharedSurgerySystem))]
 public sealed partial class BoneSawComponent : Component, ISurgeryToolComponent
 {
-    public string ToolName => "a bone saw";
+    public LocId ToolName => "fire-surgery-tool-bone-saw"; // Fire edit - локализация
 }
 
 [RegisterComponent, NetworkedComponent, Access(typeof(SharedSurgerySystem))]
 public sealed partial class BoneSetterComponent : Component, ISurgeryToolComponent
 {
-    public string ToolName => "a bone setter";
+    public LocId ToolName => "fire-surgery-tool-bone-setter"; // Fire edit - локализация
 }
 
 [RegisterComponent, NetworkedComponent, Access(typeof(SharedSurgerySystem))]
 public sealed partial class CauteryComponent : Component, ISurgeryToolComponent
 {
-    public string ToolName => "a cautery";
+    public LocId ToolName => "fire-surgery-tool-cautery"; // Fire edit - локализация
 }
 
 [RegisterComponent, NetworkedComponent, Access(typeof(SharedSurgerySystem))]
 public sealed partial class HemostatComponent : Component, ISurgeryToolComponent
 {
-    public string ToolName => "a hemostat";
+    public LocId ToolName => "fire-surgery-tool-hemostat"; // Fire edit - локализация
 }
 
 [RegisterComponent, NetworkedComponent, Access(typeof(SharedSurgerySystem))]
 public sealed partial class RetractorComponent : Component, ISurgeryToolComponent
 {
-    public string ToolName => "a retractor";
+    public LocId ToolName => "fire-surgery-tool-retractor"; // Fire edit - локализация
 }
 
 [RegisterComponent, NetworkedComponent, Access(typeof(SharedSurgerySystem))]
 public sealed partial class ScalpelComponent : Component, ISurgeryToolComponent
 {
-    public string ToolName => "a scalpel";
+    public LocId ToolName => "fire-surgery-tool-scalpel"; // Fire edit - локализация
 }
 
 [RegisterComponent, NetworkedComponent, Access(typeof(SharedSurgerySystem))]
 public sealed partial class SurgicalDrillComponent : Component, ISurgeryToolComponent
 {
-    public string ToolName => "a surgical drill";
+    public LocId ToolName => "fire-surgery-tool-surgical-drill"; // Fire edit - локализация
 }

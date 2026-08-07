@@ -1,0 +1,11 @@
+<Document>
+  # Arcana
+
+  <Box>
+    <GuideEntityEmbed Entity="MobDemon" Caption=""/>
+  </Box>
+
+  Arcana deal piercing damage with unarmed attacks.
+  Otherwise, they are similar to ordinary humanoids.
+
+</Document>

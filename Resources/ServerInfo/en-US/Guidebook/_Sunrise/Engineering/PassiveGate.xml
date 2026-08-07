@@ -1,0 +1,11 @@
+﻿<Document>
+  # Passive gate
+  A passive gate is a one-way valve that allows gas to flow in only one direction.
+  <Box>
+    <GuideEntityEmbed Entity="GasPassiveGate"/>
+  </Box>
+
+  A passive gate requires no [textlink="power" link="Power"] and has no configuration interface.
+
+  It is useful wherever gas should flow freely forward but not back, such as in simple exhaust lines or safety bypasses.
+</Document>

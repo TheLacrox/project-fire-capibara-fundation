@@ -1,0 +1,9 @@
+ent-TribunalOfficerPDA = PDA de oficial del Tribunal
+    .desc = El mejor aliado de la documentación de la Fundación SCP.
+ent-TribunalOfficerIDCard = tarjeta de identificación de oficial del Tribunal
+    .desc = Una tarjeta necesaria para acceder a distintas zonas del complejo.
+ent-RubberStampTribunalOfficer = sello de oficial del Tribunal
+    .desc = Un sello de goma para marcar documentos importantes.
+ent-BriefcaseTribunalOfficerFilled = maletín marrón
+    .suffix = { job-name-tribunal-officer }
+    .desc = Resulta útil para llevar objetos en la mano.

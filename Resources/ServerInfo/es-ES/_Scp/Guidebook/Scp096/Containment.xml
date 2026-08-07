@@ -1,0 +1,66 @@
+﻿<Document>
+  # Contención de SCP-096
+
+  De forma predeterminada, SCP-096 aparece en su cámara de contención, que limita su zona de movimiento e impide que salga.
+  La cámara es una medida de contención que permite mantener la entidad de forma segura.
+
+  [textlink="Información general sobre el Tímido" link="Scp096About"]
+
+  [textlink="Más información sobre cómo escapar siendo el Tímido" link="Scp096ContainmentBreach"]
+
+  ## ¿Qué hay que hacer?
+
+  El principal método de la entidad para provocar una brecha de contención consiste en usar la habilidad «Desollarse el rostro», con la que se inflige daño en la cara.
+
+  [textlink="Más información sobre las habilidades" link="Scp096Abilities"]
+
+  Ten en cuenta que esta habilidad solo puede usarse cuando han transcurrido 15 minutos desde el inicio de la ronda. Hasta entonces se aplica el «periodo de seguridad», que limita la actividad de las entidades SCP y da al personal tiempo para prepararse.
+
+  Desollarse el rostro 5 veces lo reducirá a una masa de carne y hará que el Tímido pase al estado «Rostro desollado». En este estado podrá salir de la cámara de contención y atacar al personal.
+
+  [textlink="Más información sobre los estados" link="Scp096States"]
+
+  El objetivo del personal es impedir que el Tímido se destroce el rostro. Para ello, deberá curárselo periódicamente con parches médicos.
+
+  ## ¿Cómo se determina el grado de daño del rostro?
+
+  Es importante que el personal restaure a tiempo el rostro del Tímido, por lo que identificar correctamente su estado resulta fundamental.
+
+  El personal científico y parte del personal médico pueden evaluar de inmediato la gravedad de las lesiones de la entidad. Para ellos se muestra un icono en la esquina superior derecha, sobre la entidad.
+
+  Cuanta más sangre haya en el rostro del icono, mayor será el daño sufrido.
+
+  También se puede obtener información examinando al Tímido con Mayús+clic. El menú mostrará una descripción visual del estado de la entidad que puede ayudar a evaluar la situación.
+
+  El personal cualificado, como el personal científico, puede determinar la gravedad de las lesiones y emitir una evaluación inmediata.
+  Si el empleado cuenta con la cualificación necesaria, debajo aparecerá información sobre la urgencia de restaurar el rostro.
+
+  ## Reparación de la cámara de contención
+
+  La entidad puede generar una potente resonancia anómala que inflige daños enormes a todas las estructuras cercanas mediante una onda sonora. Por suerte, su cámara de contención está inspirada en las «cámaras anecoicas» y amortigua parcialmente esta capacidad destructiva.
+
+  ¡Pero la cámara de contención no es indestructible! La exposición constante a ondas sonoras extremadamente potentes deforma y daña sus paredes.
+
+  Para evitar una brecha de contención, deben realizarse reparaciones cada 20-25 minutos. Solicita la presencia de personal técnico cualificado provisto de materiales y herramientas.
+  ## ¿Qué hacer si la entidad escapa?
+
+  La Fundación dispone de desarrollos de alta tecnología, como la «capucha» y la «máscara», que pueden colocársele a la entidad.
+  Mientras lleve este equipamiento, no podrá atacar ni oponer resistencia durante el traslado.
+
+  Transcurrido cierto tiempo desde su colocación, la entidad puede romper el equipo de contención. Cuanto mejor sea el equipo, más le costará destrozarlo.
+
+  Si la entidad se ha destrozado el rostro, conviene emplear armamento no letal para reducirla antes de colocarle el equipo de contención.
+  Ten en cuenta que hará falta una fuerza considerable para reducirla. ¡Un solo empleado armado con un táser no será suficiente!
+
+  ## Fotografías
+
+  A veces, el azar puede ser decisivo. Existe un evento aleatorio que crea copias de una fotografía de SCP-096 por todo el complejo y en los inventarios de los jugadores.
+
+  Quienes miren la fotografía se convertirán en objetivos del Tímido y harán que pase a otro estado.
+
+  Las fotografías también pueden favorecer al personal. Si se encierra a un objetivo del Tímido en su cámara de contención y se cierra a tiempo, será posible restablecer los Procedimientos Especiales de Contención con pocas bajas.
+
+  También se puede crear una fotografía fotografiando al Tímido con una cámara de laboratorio.
+
+  [textlink="Más información sobre las interacciones especiales" link="ScpResearchAdvanced"]
+</Document>

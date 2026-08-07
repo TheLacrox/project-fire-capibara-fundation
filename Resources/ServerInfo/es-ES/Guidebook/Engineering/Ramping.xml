@@ -1,0 +1,20 @@
+﻿<Document>
+  # Aumento gradual de potencia
+  Al contrario de lo que cabría esperar de una simulación eléctrica en un videojuego, la energía solicitada no se suministra al instante.
+
+  Los generadores y las baterías necesitan tiempo para aumentar su producción hasta igualar el consumo que se les exige. Esto provoca apagones parciales cuando el consumo cambia mucho de golpe; por ejemplo, cuando se agotan las baterías.
+
+  Observa el siguiente ejemplo:
+  - Supongamos que tienes un generador que produce 100 kW de energía.
+  - Si tienes un dispositivo que consume 50 kW, el generador producirá 50 kW para adaptar su suministro a la demanda de la red.
+  - Si enciendes otro dispositivo que consume 50 kW adicionales, el generador tardará un tiempo en aumentar su producción hasta 100 kW. No suministrará esa energía al instante.
+  - Durante ese tiempo, los dispositivos no recibirán la energía que necesitan y la red sufrirá un apagón parcial temporal.
+  - Al cabo de unos segundos, el generador habrá alcanzado una producción de 100 kW y terminará el apagón parcial. Todos los dispositivos recibirán ya la energía que necesitan.
+
+  Durante un turno, esto suele ocurrir cuando un generador se queda sin combustible y deja de producir energía de repente.
+  La red sufre entonces un gran déficit energético (pues el suministro ha caído por debajo de la demanda) y todos los dispositivos padecerán un apagón parcial hasta que los SMES u otros generadores aumenten su producción para cubrir la nueva demanda.
+
+  También puede ocurrir cuando se vuelve a conectar a la red un dispositivo o un departamento con un consumo elevado.
+  El aumento repentino del consumo provocará un apagón parcial hasta que los generadores eleven su producción para satisfacer la nueva demanda.
+
+</Document>

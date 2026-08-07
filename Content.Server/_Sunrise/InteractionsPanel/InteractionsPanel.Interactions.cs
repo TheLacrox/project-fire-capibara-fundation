@@ -183,7 +183,7 @@ public partial class InteractionsPanel
         var userPref = _playerCacheManager.GetEmoteVisibility(userSession.UserId);
         var targetPref = _playerCacheManager.GetEmoteVisibility(targetIsPlayer ? targetSession!.UserId : null);
 
-        var rawMsg = _random.Pick(interactionPrototype.InteractionMessages);
+        var rawMsg = Loc.GetString(_random.Pick(interactionPrototype.InteractionMessages)); // Fire edit - Локализация стандартного взаимодействия.
         var msg = FormatInteractionMessage(rawMsg, ent.Owner, target.Value);
 
         if (userPref && targetPref && targetIsPlayer)
@@ -234,7 +234,10 @@ public partial class InteractionsPanel
         }
 
         _log.Add(LogType.Interactions, LogImpact.Medium,
-            $"[InteractionsPanel] {ToPretty(ent.Owner)} использует \"{interactionPrototype.ID}\" на {ToPretty(target.Value)}");
+            $"{Loc.GetString("fire-interactions-log-used",
+                ("user", ToPretty(ent.Owner)),
+                ("interaction", interactionPrototype.ID),
+                ("target", ToPretty(target.Value)))}"); // Fire edit - Локализация административного лога.
     }
 
     private void HandleCustomInteraction(
@@ -292,7 +295,11 @@ public partial class InteractionsPanel
         }
 
         _log.Add(LogType.Interactions, LogImpact.Medium,
-            $"[InteractionsPanel] {ToPretty(user)} кастомное взаимодействие \"{interactionId}\" с {ToPretty(target)}: \"{data.InteractionMessage}\"");
+            $"{Loc.GetString("fire-interactions-log-custom",
+                ("user", ToPretty(user)),
+                ("interaction", interactionId),
+                ("target", ToPretty(target)),
+                ("message", data.InteractionMessage))}"); // Fire edit - Локализация административного лога.
     }
 
     private string ToPretty(EntityUid uid)
@@ -376,7 +383,7 @@ public partial class InteractionsPanel
             {
                 OpenUI((user, interfaceComponent), target);
             },
-            Text = "Взаимодействовать [F]",
+            Text = Loc.GetString("fire-interactions-panel-verb"), // Fire edit - Локализация глагола панели.
             Priority = -1
         };
 

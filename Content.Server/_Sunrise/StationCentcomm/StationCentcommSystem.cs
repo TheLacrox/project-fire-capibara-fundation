@@ -17,6 +17,7 @@ public sealed partial class StationCentCommSystem : EntitySystem
     [Dependency] private readonly IPrototypeManager _prototypeManager = default!;
     [Dependency] private readonly ShuttleSystem _shuttle = default!;
     [Dependency] private readonly MapSystem _map = default!;
+    [Dependency] private readonly MetaDataSystem _metaData = default!;
 
     private ISawmill _sawmill = default!;
 
@@ -67,7 +68,16 @@ public sealed partial class StationCentCommSystem : EntitySystem
         {
             if (_prototypeManager.TryIndex<GameMapPrototype>(component.Station, out var gameMap))
             {
-                _gameTicker.LoadGameMap(gameMap, out var mapId);
+                var grids = _gameTicker.LoadGameMap(gameMap, out var mapId);
+
+                if (component.GridName is { } gridName)
+                {
+                    var localizedGridName = Loc.GetString(gridName);
+                    foreach (var grid in grids)
+                    {
+                        _metaData.SetEntityName(grid, localizedGridName);
+                    }
+                }
 
                 var mapEnt = _map.GetMapOrInvalid(mapId);
 

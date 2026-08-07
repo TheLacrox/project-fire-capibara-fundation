@@ -1,9 +1,9 @@
 ﻿<DefaultWindow xmlns="https://spacestation14.io"
                xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-               Title="Time to choose..">
+               Title="{Loc 'fire-blood-cult-selector-title'}">
     <BoxContainer Orientation="Vertical">
-        <Label Text="Задайте название для метки." />
+        <Label Text="{Loc 'fire-blood-cult-name-prompt'}" />
         <LineEdit Name="NameSelector" HorizontalExpand="True" />
-        <Button Name="NameSelectorSet" Text="Принять" />
+        <Button Name="NameSelectorSet" Text="{Loc 'fire-blood-cult-selector-accept'}" />
     </BoxContainer>
 </DefaultWindow>

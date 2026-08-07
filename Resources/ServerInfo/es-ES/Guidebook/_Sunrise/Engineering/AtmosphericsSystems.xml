@@ -1,0 +1,58 @@
+﻿<Document>
+  # Sistemas atmosféricos
+  Atmosféricos dispone de numerosos dispositivos para mover, controlar y manipular los gases de otras formas.
+  Estos dispositivos suelen funcionar en conjunto para mantener una atmósfera segura para la tripulación o cumplir una tarea común.
+
+  Esta sección describe los distintos sistemas disponibles en Atmosféricos, cómo se conectan y cuál es la mejor manera de utilizarlos.
+
+
+  <Box>
+    <GuideEntityEmbed Entity="GasPipeStraight" Caption=""/>
+    <GuideEntityEmbed Entity="GasPipeHalf" Caption=""/>
+    <GuideEntityEmbed Entity="GasPipeBend" Caption=""/>
+    <GuideEntityEmbed Entity="GasPipeTJunction" Caption=""/>
+    <GuideEntityEmbed Entity="GasPipeFourway" Caption=""/>
+    <GuideEntityEmbed Entity="GasPressurePump" Caption=""/>
+    <GuideEntityEmbed Entity="GasVolumePump" Caption=""/>
+  </Box>
+  <Box>
+    ## Redes de tuberías
+  </Box>
+  <Box>
+    [color=#999999][italic]Tuberías conectadas que cumplen una función común y suelen denominarse «pipenets»[italic][/color]
+  </Box>
+
+  <Box>
+    <GuideEntityEmbed Entity="ComputerAlert" Caption=""/>
+    <GuideEntityEmbed Entity="AirAlarm" Caption=""/>
+  </Box>
+  <Box>
+    ## Supervisión y control de dispositivos
+  </Box>
+  <Box>
+    [color=#999999][italic]Supervisión y control de los dispositivos que mantienen la atmósfera local[italic][/color]
+  </Box>
+
+  <Box>
+    <GuideEntityEmbed Entity="Firelock" Caption=""/>
+    <GuideEntityEmbed Entity="FireAlarm" Caption=""/>
+  </Box>
+  <Box>
+    ## Control de incendios y gases
+  </Box>
+  <Box>
+    [color=#999999][italic]Dispositivos para controlar y evitar fugas de gas e incendios[italic][/color]
+  </Box>
+
+  <Box>
+    <GuideEntityEmbed Entity="GasMinerOxygenStation" Caption=""/>
+    <GuideEntityEmbed Entity="AirCanister" Caption=""/>
+  </Box>
+  <Box>
+    ## Extracción y almacenamiento de gases
+  </Box>
+  <Box>
+    [color=#999999][italic]Dispositivos para extraer gases nuevos destinados a la estación y almacenarlos para más adelante[italic][/color]
+  </Box>
+
+</Document>

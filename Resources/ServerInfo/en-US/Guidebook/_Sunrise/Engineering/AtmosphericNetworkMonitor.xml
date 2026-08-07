@@ -1,0 +1,47 @@
+﻿<Document>
+  # Atmospheric Network Monitor
+  An atmospheric network monitor is a computer that displays information about the station's monitored [textlink="pipe networks" link="PipeNetworks"].
+
+  <Box>
+    <GuideEntityEmbed Entity="ComputerAtmosMonitoring"/>
+  </Box>
+
+  It is a useful tool for quickly assessing the temperature, pressure, and gas composition of the station's [textlink="pipe networks" link="PipeNetworks"], as well as their routes through the station.
+
+  ## Network List
+  The atmospheric network monitor displays a list of all the station's monitored [textlink="pipe networks" link="PipeNetworks"].
+
+  Each network takes its name and color from the gas pipe sensor monitoring it.
+  To change a network's name or color, rename it with a labeler or repaint it with a spray painter.
+
+  Clicking a network will display detailed information about it and highlight its route on the station map.
+
+  This information includes the total amount of gas in the network in moles, as well as its gas composition.
+  This is extremely useful for monitoring important networks such as Distro, which cannot operate properly below certain pressures.
+
+  ## Station Map
+  The atmospheric network monitor displays the location of every [textlink="pipe network" link="PipeNetworks"] on the station map, along with all pipe devices.
+  Note that a pipe network does not need a gas pipe sensor connected to it to appear on the map.
+
+  These devices appear on the map in the same color they have on the station. This helps distinguish individual [textlink="pipe networks" link="PipeNetworks"] and their connected devices.
+
+  Pipe devices are grouped in the map legend by function:
+  - [bold]Network Opening[/bold] - a device that connects a pipe network to the station atmosphere, such as [textlink="air vents" link="AirVents"], [textlink="passive vents" link="PassiveVent"], and [textlink="air injectors" link="AirInjector"].
+  - [bold]Air Scrubber[/bold] - simply an [textlink="air scrubber" link="AirScrubber"].
+  - [bold]Flow Regulator[/bold] - a device that controls gas flow through a pipe network, such as [textlink="gas pumps" link="Pumps"], [textlink="gas valves" link="Valves"], and [textlink="gas mixers/filters" link="MixingAndFiltering"]. The arrow on the device shows the direction of gas flow. This also often determines where a pipe network is separated or split.
+  - [bold]Thermoregulator[/bold] - any device that affects the temperature of gas in a pipe network, such as [textlink="thermomachines" link="Thermomachines"], [textlink="radiators" link="Radiators"], and even medical cryopods.
+
+  ## Gas Pipe Sensors
+  Atmospheric network monitors collect data about [textlink="pipe networks" link="PipeNetworks"] through gas pipe sensors.
+
+  <Box>
+    <GuideEntityEmbed Entity="GasPipeSensor"/>
+  </Box>
+
+  By default, the station should have gas pipe sensors on every major [textlink="pipe network" link="PipeNetworks"], such as the Distro and Waste networks.
+
+  If you want to monitor a new network, build a gas pipe sensor and it will automatically appear on the atmospheric network monitor.
+  Make sure you build the sensor on the pipe network you want to monitor.
+  [textlink="Pipe networks" link="PipeNetworks"] are easily separated by a simple gas pump or valve, which can cause the sensor to display data from an entirely different network.
+
+</Document>

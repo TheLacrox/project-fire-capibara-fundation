@@ -24,3 +24,4 @@ permissions-eui-edit-admin-window-remove-flag-button = Remove
 
 cmd-permissions-desc = Opens the admin permissions panel.
 cmd-permissions-help = Usage: permissions
+cmd-permissions-external-service = Permissions are managed through Stellar Echoes.

@@ -1,0 +1,11 @@
+<Document>
+  # Humans
+
+  <Box>
+    <GuideEntityEmbed Entity="MobHumanDummy" Caption=""/>
+  </Box>
+
+  Depending on whom you ask, humans are either unremarkable or the versatile standard against which everyone else is compared.
+  They have no special mechanics or notable differences.
+
+</Document>

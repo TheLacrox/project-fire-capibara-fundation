@@ -12,7 +12,10 @@ ion-storm-crew = CREW
 ion-storm-people = PEOPLE
 
 ion-storm-adjective-things = {$adjective} THINGS
+ion-storm-adjective-subjects = {$adjective} {$subjects}
 ion-storm-x-and-y = {$x} AND {$y}
+ion-storm-number = {$base} {$modifier}
+ion-storm-joined = {$number} {$adjective}
 
 # joined is short for {$number} {$adjective}
 # subjects can generally be threats or jobs or objects

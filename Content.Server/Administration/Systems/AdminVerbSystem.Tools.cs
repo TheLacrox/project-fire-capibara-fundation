@@ -634,21 +634,26 @@ public sealed partial class AdminVerbSystem
             args.Verbs.Add(haltMovement);
 
             // Sunrie-Start
+            // Fire edit - Локализация инструмента вращения.
             Verb spin = new()
             {
-                Text = "Spin",
+                Text = Loc.GetString("admin-verbs-spin"),
                 Category = VerbCategory.Tricks,
                 Icon = new SpriteSpecifier.Texture(new("/Textures/Interface/VerbIcons/rotate_cw.svg.192dpi.png")),
                 Act = () =>
                 {
-                    _quickDialog.OpenDialog<float, float>(player, "Spin", "Speed", "Angular Damping", (float speed, float drag) =>
+                    _quickDialog.OpenDialog<float, float>(player,
+                        Loc.GetString("admin-verbs-spin"),
+                        Loc.GetString("admin-verbs-dialog-spin-speed"),
+                        Loc.GetString("admin-verbs-dialog-spin-angular-damping"),
+                        (float speed, float drag) =>
                     {
                         _physics.SetAngularDamping(args.Target, physics, drag);
                         _physics.SetAngularVelocity(args.Target, speed, body: physics);
                     });
                 },
                 Impact = LogImpact.Medium,
-                Message = "Заставить объект вращаться",
+                Message = Loc.GetString("admin-trick-spin-description"),
                 Priority = (int) TricksVerbPriorities.HaltMovement - 1,
             };
             args.Verbs.Add(spin);
@@ -759,20 +764,25 @@ public sealed partial class AdminVerbSystem
         }
 
         // Sunrie-Start
+        // Fire edit - Локализация инструмента масштаба.
         Verb scaleSprite = new()
         {
-            Text = "Set Scale",
+            Text = Loc.GetString("admin-verbs-set-scale"),
             Category = VerbCategory.Tricks,
             Icon = new SpriteSpecifier.Texture(new("/Textures/Interface/AdminActions/zoom.png")),
             Act = () =>
             {
-                _quickDialog.OpenDialog<float, float>(player, "Set Scale", "Scale X", "Scale Y", (float scaleX, float scaleY) =>
+                _quickDialog.OpenDialog<float, float>(player,
+                    Loc.GetString("admin-verbs-set-scale"),
+                    Loc.GetString("admin-verbs-dialog-set-scale-x"),
+                    Loc.GetString("admin-verbs-dialog-set-scale-y"),
+                    (float scaleX, float scaleY) =>
                 {
                     _scaleSpriteSystem.Scale(args.Target, new Vector2(scaleX, scaleY));
                 });
             },
             Impact = LogImpact.Medium,
-            Message = "Изменить визуальный масштаб объекта",
+            Message = Loc.GetString("admin-trick-set-scale-description"),
             Priority = (int) TricksVerbPriorities.AdjustStack - 1,
         };
         args.Verbs.Add(scaleSprite);

@@ -1,0 +1,11 @@
+job-name-senior-medical-specialist = Médico sénior
+job-description-senior-medical-specialist = Forma a los auxiliares médicos y asume las funciones del director médico cuando está ausente.
+job-name-pharmaceutical-specialist = Farmacéutico
+job-description-pharmaceutical-specialist = Se encarga de abastecer a la instalación de medicamentos y productos farmacéuticos.
+job-name-psychotherapist = Parapsicólogo
+job-description-psychotherapist = Experto que realiza evaluaciones psicológicas periódicas al personal y a las anomalías inteligentes.
+job-name-medical-specialist = Médico
+job-description-medical-specialist = Médico de plantilla que presta asistencia sanitaria cualificada y está especializado en amnésicos y otros fármacos anómalos.
+job-name-hospital-intern = Auxiliar médico
+job-description-hospital-intern = Presta primeros auxilios en caso de lesión y asiste a los médicos de plantilla.
+job-supervisors-head-of-medical-sector = el director médico

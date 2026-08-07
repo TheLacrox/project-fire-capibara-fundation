@@ -1,0 +1,157 @@
+<Document>
+  # Xenos
+
+  Xenos (xenomorphs) are aggressive alien life forms that hunt in packs.
+  They have acidic blood, a hive mind, and the ability to force open doors.
+  Butchering them yields xenomorph meat.
+
+  [bold][color=#a4885c]________________________________________________________________________[/color]
+
+  # Known Variants
+  # "Driller"
+
+  A young form that prefers to hide and fight at close range.
+
+  <Box>
+  <GuideEntityEmbed Entity="MobXeno"/>
+  </Box>
+  - [bold][color=#a4885c]Health thresholds:[/color][/bold] 50
+  - [bold][color=#a4885c]Speed:[/color][/bold] 4 m/s
+  - [bold][color=#a4885c]Damage (type):[/color][/bold] 6 [color=red]Brute[/color]
+  - [bold][color=#a4885c]Resistances:[/color][/bold] none
+  - [bold][color=#a4885c]Special abilities:[/color][/bold] none
+
+  [bold][color=#a4885c]________________________________________________________________________[/color]
+
+  # "Drone"
+
+  The hive's worker caste. It supports the swarm and helps build the nest.
+
+  <Box>
+  <GuideEntityEmbed Entity="MobXenoDrone"/>
+  </Box>
+  - [bold][color=#a4885c]Health thresholds:[/color][/bold] 80
+  - [bold][color=#a4885c]Speed:[/color][/bold] 4 m/s
+  - [bold][color=#a4885c]Damage (type):[/color][/bold] 6 [color=red]Brute[/color]
+  - [bold][color=#a4885c]Resistances:[/color][/bold] none
+  - [bold][color=#a4885c]Special abilities:[/color][/bold] none
+
+  [bold][color=#a4885c]________________________________________________________________________[/color]
+
+  # "Praetorian"
+
+  A large and resilient guardian of the hive.
+
+  <Box>
+  <GuideEntityEmbed Entity="MobXenoPraetorian"/>
+  </Box>
+  - [bold][color=#a4885c]Health thresholds:[/color][/bold] 100
+  - [bold][color=#a4885c]Speed:[/color][/bold] 4 m/s
+  - [bold][color=#a4885c]Damage (type):[/color][/bold] 6 [color=red]Brute[/color]
+  - [bold][color=#a4885c]Resistances:[/color][/bold] none
+  - [bold][color=#a4885c]Special abilities:[/color][/bold] none
+
+  [bold][color=#a4885c]________________________________________________________________________[/color]
+
+  # "Ravager"
+
+  A powerful melee fighter, dangerous during breaches and at close range.
+
+  <Box>
+  <GuideEntityEmbed Entity="MobXenoRavager"/>
+  </Box>
+  - [bold][color=#a4885c]Health thresholds:[/color][/bold] 100
+  - [bold][color=#a4885c]Speed:[/color][/bold] 4 m/s
+  - [bold][color=#a4885c]Damage (type):[/color][/bold] 10 [color=red]Brute[/color]
+  - [bold][color=#a4885c]Resistances:[/color][/bold] none
+  - [bold][color=#a4885c]Special abilities:[/color][/bold] none
+
+  [bold][color=#a4885c]________________________________________________________________________[/color]
+
+  # "Runner"
+
+  A fast caste that uses hit-and-run tactics.
+
+  <Box>
+  <GuideEntityEmbed Entity="MobXenoRunner"/>
+  </Box>
+  - [bold][color=#a4885c]Health thresholds:[/color][/bold] 50
+  - [bold][color=#a4885c]Speed:[/color][/bold] 6 m/s
+  - [bold][color=#a4885c]Damage (type):[/color][/bold] 5 [color=red]Brute[/color]
+  - [bold][color=#a4885c]Resistances:[/color][/bold] none
+  - [bold][color=#a4885c]Special abilities:[/color][/bold] none
+
+  [bold][color=#a4885c]________________________________________________________________________[/color]
+
+  # "Rouny"
+
+  A rare variant of the runner.
+
+  <Box>
+  <GuideEntityEmbed Entity="MobXenoRouny"/>
+  </Box>
+  - [bold][color=#a4885c]Health thresholds:[/color][/bold] 50
+  - [bold][color=#a4885c]Speed:[/color][/bold] 6 m/s
+  - [bold][color=#a4885c]Damage (type):[/color][/bold] 5 [color=red]Brute[/color]
+  - [bold][color=#a4885c]Resistances:[/color][/bold] none
+  - [bold][color=#a4885c]Special abilities:[/color][/bold] none
+
+  [bold][color=#a4885c]________________________________________________________________________[/color]
+
+  # "Spitter"
+
+  A ranged fighter that attacks with acid.
+
+  <Box>
+  <GuideEntityEmbed Entity="MobXenoSpitter"/>
+  </Box>
+  - [bold][color=#a4885c]Health thresholds:[/color][/bold] 50
+  - [bold][color=#a4885c]Speed:[/color][/bold] 4 m/s
+  - [bold][color=#a4885c]Damage (type):[/color][/bold] 5 [color=orange]Caustic[/color]
+  - [bold][color=#a4885c]Resistances:[/color][/bold] none
+  - [bold][color=#a4885c]Special abilities:[/color][/bold] Acid damage
+
+  [bold][color=#a4885c]________________________________________________________________________[/color]
+
+  # "Acid Turret"
+
+  An immobile defensive organism that fires acid.
+
+  <Box>
+  <GuideEntityEmbed Entity="WeaponTurretXeno"/>
+  </Box>
+  - [bold][color=#a4885c]Durability:[/color][/bold] 100
+  - [bold][color=#a4885c]Damage (type):[/color][/bold] 5 [color=orange]Caustic[/color]
+  - [bold][color=#a4885c]Resistances:[/color][/bold] none
+  - [bold][color=#a4885c]Special abilities:[/color][/bold] Acid damage
+
+  [bold][color=#a4885c]________________________________________________________________________[/color]
+
+  # "Queen"
+
+  The hive's central organism and the most dangerous target.
+
+  <Box>
+  <GuideEntityEmbed Entity="MobXenoQueen"/>
+  </Box>
+  - [bold][color=#a4885c]Health thresholds:[/color][/bold] 300
+  - [bold][color=#a4885c]Speed:[/color][/bold] 4 m/s
+  - [bold][color=#a4885c]Damage (type):[/color][/bold] 12 [color=red]Brute[/color]
+  - [bold][color=#a4885c]Resistances:[/color][/bold] none
+  - [bold][color=#a4885c]Special abilities:[/color][/bold] none
+
+  [bold][color=#a4885c]________________________________________________________________________[/color]
+
+  # Mission Objectives
+  ## Elimination
+  <Box>
+  <GuideEntityEmbed Entity="MobXenoQueen"/>
+  </Box>
+  Eliminate the large and dangerous target—the [color=#a4885c]queen[/color]—within the allotted time.
+
+  ## Destruction
+  <Box>
+  <GuideEntityEmbed Entity="XenoWardingTower"/>
+  </Box>
+  Destroy the required number of [color=#a4885c]xeno warding towers[/color] within the allotted time.
+</Document>

@@ -1,0 +1,21 @@
+<Document>
+# E.P.A.
+
+El Emisor de Partículas Anómalas es una máquina que permite interactuar con anomalías. Es el principal medio para modificar sus parámetros.
+
+<Box>
+<GuideEntityEmbed Entity="MachineAPE"/>
+</Box>
+
+El E.P.A. puede disparar cuatro tipos de partículas anómalas: delta, épsilon, sigma y zeta. Cada tipo produce determinados efectos:
+
+- [color=crimson]Peligro:[/color] aumenta la gravedad de una anomalía.
+- [color=plum]Inestabilidad:[/color] aumenta la inestabilidad de una anomalía.
+- [color=goldenrod]Contención:[/color] aumenta la estabilidad de la anomalía a costa de su salud. Si recibe demasiadas partículas de contención, colapsará y dejará un núcleo de anomalía.
+- [color=#6b75fa]Transformación:[/color] aumenta la gravedad de la anomalía y puede modificar su comportamiento.
+
+La correspondencia entre cada tipo de partícula y cada efecto es única; puedes descubrirla escaneando la anomalía.
+
+Cualquier persona con acceso a Ciencia puede bloquear el E.P.A. para impedir que se desmonte, que se encienda o apague y que se cambie el tipo de partícula.
+
+</Document>

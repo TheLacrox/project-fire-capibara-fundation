@@ -81,7 +81,9 @@ public sealed partial class CustomInteractionEditor : DefaultWindow
             Cooldown = 5.0f
         };
 
-        Title = isNewInteraction ? "Создание взаимодействия" : "Редактирование взаимодействия";
+        Title = Loc.GetString(isNewInteraction
+            ? "fire-custom-interaction-editor-create-title"
+            : "fire-custom-interaction-editor-edit-title");
 
         InitializeUI();
         InitializeEvents();
@@ -149,7 +151,7 @@ public sealed partial class CustomInteractionEditor : DefaultWindow
 
         CategoryOption.Clear();
         int categoryId = 0;
-        CategoryOption.AddItem("Выберите категорию");
+        CategoryOption.AddItem(Loc.GetString("fire-custom-interaction-editor-select-category"));
         _categoryIds[categoryId] = string.Empty;
 
         categoryId++;
@@ -168,7 +170,7 @@ public sealed partial class CustomInteractionEditor : DefaultWindow
 
         IconOption.Clear();
         int iconId = 0;
-        IconOption.AddItem("Нет");
+        IconOption.AddItem(Loc.GetString("fire-custom-interaction-editor-none"));
         _iconIds[iconId] = string.Empty;
 
         iconId++;
@@ -187,7 +189,7 @@ public sealed partial class CustomInteractionEditor : DefaultWindow
 
         EffectOption.Clear();
         int effectId = 0;
-        EffectOption.AddItem("Нет");
+        EffectOption.AddItem(Loc.GetString("fire-custom-interaction-editor-none"));
         _effectIds[effectId] = string.Empty;
 
         effectId++;
@@ -206,7 +208,7 @@ public sealed partial class CustomInteractionEditor : DefaultWindow
 
         SoundOption.Clear();
         int soundId = 0;
-        SoundOption.AddItem("Выберите звук");
+        SoundOption.AddItem(Loc.GetString("fire-custom-interaction-editor-select-sound"));
         _soundIds[soundId] = string.Empty;
 
         soundId++;
@@ -235,7 +237,7 @@ public sealed partial class CustomInteractionEditor : DefaultWindow
         {
             if (_prototypeManager.TryIndex<InteractionSoundPrototype>(soundId2, out var soundProto))
             {
-                AddSoundToList(soundId2, soundProto.Name);
+                AddSoundToList(soundId2, Loc.GetString(soundProto.Name)); // Fire edit - Локализация названия звука.
             }
         }
 
@@ -255,7 +257,7 @@ public sealed partial class CustomInteractionEditor : DefaultWindow
 
     private void UpdateCooldownLabel(float value)
     {
-        CooldownLabel.Text = $"{(int)value}с";
+        CooldownLabel.Text = Loc.GetString("fire-custom-interaction-editor-seconds", ("seconds", (int) value));
     }
 
     private void UpdateEffectControlsEnabled()
@@ -307,7 +309,8 @@ public sealed partial class CustomInteractionEditor : DefaultWindow
 
         if (message.Length > MaxMessageLength)
         {
-            ShowError($"Сообщение слишком длинное (макс. {MaxMessageLength} символов)");
+            ShowError(Loc.GetString("fire-custom-interaction-editor-message-too-long",
+                ("max", MaxMessageLength)));
             return;
         }
 
@@ -330,7 +333,7 @@ public sealed partial class CustomInteractionEditor : DefaultWindow
         if (_prototypeManager.TryIndex<InteractionSoundPrototype>(selectedSoundId, out var soundProto))
         {
             _interaction.SoundIds.Add(selectedSoundId);
-            AddSoundToList(selectedSoundId, soundProto.Name);
+            AddSoundToList(selectedSoundId, Loc.GetString(soundProto.Name)); // Fire edit - Локализация названия звука.
         }
     }
 
@@ -343,31 +346,32 @@ public sealed partial class CustomInteractionEditor : DefaultWindow
     {
         if (string.IsNullOrEmpty(NameInput.Text.Trim()))
         {
-            ShowError("Имя взаимодействия не может быть пустым");
+            ShowError(Loc.GetString("fire-custom-interaction-editor-name-empty"));
             return;
         }
 
         if (_interaction.Name.Length > MaxNameLength)
         {
-            ShowError($"Имя слишком длинное (макс. {MaxNameLength} символов)");
+            ShowError(Loc.GetString("fire-custom-interaction-editor-name-too-long", ("max", MaxNameLength)));
             return;
         }
 
         if (_interaction.Description.Length > MaxDescriptionLength)
         {
-            ShowError($"Описание слишком длинное (макс. {MaxDescriptionLength} символов)");
+            ShowError(Loc.GetString("fire-custom-interaction-editor-description-too-long",
+                ("max", MaxDescriptionLength)));
             return;
         }
 
         if (_interaction.InteractionMessages.Count == 0)
         {
-            ShowError("Добавьте хотя бы одно сообщение взаимодействия");
+            ShowError(Loc.GetString("fire-custom-interaction-editor-message-required"));
             return;
         }
 
         if (!_categoryIds.TryGetValue(CategoryOption.SelectedId, out var categoryId) || string.IsNullOrEmpty(categoryId))
         {
-            ShowError("Выберите категорию");
+            ShowError(Loc.GetString("fire-custom-interaction-editor-category-required"));
             return;
         }
 
@@ -518,7 +522,7 @@ public sealed partial class CustomInteractionEditor : DefaultWindow
     {
         var dialog = new DefaultWindow
         {
-            Title = "Ошибка",
+            Title = Loc.GetString("fire-custom-interaction-editor-error-title"),
             MinSize = new Vector2(300, 150),
             SetSize = new Vector2(300, 150)
         };
@@ -553,7 +557,7 @@ public sealed partial class CustomInteractionEditor : DefaultWindow
 
         var closeButton = new Button
         {
-            Text = "ОК",
+            Text = Loc.GetString("fire-custom-interaction-editor-ok"),
             StyleClasses = { StyleClass.ButtonSquare },
             HorizontalAlignment = HAlignment.Center,
             MinWidth = 80,

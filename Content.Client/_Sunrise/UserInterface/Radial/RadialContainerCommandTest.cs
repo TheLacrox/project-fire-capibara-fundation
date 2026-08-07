@@ -1,4 +1,5 @@
 using Robust.Shared.Console;
+using Robust.Shared.Localization;
 using Robust.Shared.Random;
 
 namespace Content.Client._Sunrise.UserInterface.Radial;
@@ -13,13 +14,15 @@ public sealed partial class RadialContainerCommandTest : LocalizedCommands
     {
         string[] tips =
         {
-            "Testovый туултип. Здесь можете расписать разную инфу о кнопке/действии",
-            "Из окна дуло. Штирлиц закрыл окно. Дуло исчезло.",
+            Loc.GetString("fire-radial-test-tooltip-info"),
+            Loc.GetString("fire-radial-test-tooltip-joke"),
         };
         var radial = new RadialContainer();
         for (int i = 0; i < 8; i++)
         {
-            var testButton = radial.AddButton("Action " + i, "/Textures/Interface/emotions.svg.192dpi.png");
+            var testButton = radial.AddButton(
+                Loc.GetString("fire-radial-test-action", ("index", i)),
+                "/Textures/Interface/emotions.svg.192dpi.png");
             testButton.Tooltip = tips[_robustRandom.Next(0, 2)];
             testButton.Controller.OnPressed += (_) => { Logger.Debug("Press gay"); };
         }

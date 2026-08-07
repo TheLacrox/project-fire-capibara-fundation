@@ -15,11 +15,11 @@
     researchPointType: Scp
 
 # Базовые для всех СЦП эффекты
+# Fire edit - описания эффектов берутся из автоматической локализации прототипов
 
 - type: entity
   id: ScpArtifactWandering
   parent: BaseOneTimeScpArtifactEffect
-  description: artifact-effect-hint-data-deleted
   categories: [ HideSpawnMenu ]
   components:
   - type: XAEApplyComponents
@@ -33,7 +33,6 @@
 - type: entity
   id: ScpArtifactThrowThingsAround
   parent: BaseScpArtifactEffect
-  description: artifact-effect-hint-data-deleted
   categories: [ HideSpawnMenu ]
   components:
   - type: XAEThrowThingsAround
@@ -41,7 +40,6 @@
 - type: entity
   id: ScpArtifactKnock
   parent: BaseScpArtifactEffect
-  description: artifact-effect-hint-data-deleted
   categories: [ HideSpawnMenu ]
   components:
   - type: XAEKnock
@@ -50,7 +48,6 @@
 - type: entity
   id: ScpArtifactShatterWindows
   parent: BaseScpArtifactEffect
-  description: artifact-effect-hint-data-deleted
   categories: [ HideSpawnMenu ]
   components:
   - type: XenoArtifactNode
@@ -70,7 +67,6 @@
 - type: entity
   id: ScpEffectBoltAirlocks
   parent: BaseScpArtifactEffect
-  description: artifact-effect-hint-data-deleted
   categories: [ HideSpawnMenu ]
   components:
   - type: ArtifactBoltAirlocks
@@ -78,7 +74,6 @@
 - type: entity
   id: ScpEffectTeslaDischarge
   parent: BaseScpArtifactEffect
-  description: artifact-effect-hint-data-deleted
   categories: [ HideSpawnMenu ]
   components:
   - type: XAEApplyComponents
@@ -95,7 +90,6 @@
 - type: entity
   id: ScpEffectSpawn2054X
   parent: BaseScpArtifactEffect
-  description: artifact-effect-hint-data-deleted
   categories: [ HideSpawnMenu ]
   components:
   - type: XenoArtifactNode
@@ -135,7 +129,6 @@
 - type: entity
   id: ScpEffectShuffleUltra
   parent: BaseScpArtifactEffect
-  description: artifact-effect-hint-data-deleted
   categories: [ HideSpawnMenu ]
   components:
   - type: XAEShuffle
@@ -144,7 +137,6 @@
 - type: entity
   id: ScpEffectPolyChair
   parent: BaseScpArtifactEffect
-  description: artifact-effect-hint-data-deleted
   categories: [ HideSpawnMenu ]
   components:
   - type: XAEPolymorph
@@ -153,7 +145,6 @@
 - type: entity
   id: ScpEffectPolyWatermelon
   parent: BaseScpArtifactEffect
-  description: artifact-effect-hint-data-deleted
   categories: [ HideSpawnMenu ]
   components:
   - type: XAEPolymorph
@@ -162,7 +153,6 @@
 - type: entity
   id: ScpEffectPolyAppendix
   parent: BaseScpArtifactEffect
-  description: artifact-effect-hint-data-deleted
   categories: [ HideSpawnMenu ]
   components:
   - type: XAEPolymorph
@@ -171,7 +161,6 @@
 - type: entity
   id: ScpEffectPolyScrewdriver
   parent: BaseScpArtifactEffect
-  description: artifact-effect-hint-data-deleted
   categories: [ HideSpawnMenu ]
   components:
   - type: XAEPolymorph
@@ -180,7 +169,6 @@
 - type: entity
   id: ScpEffectPolyCigarSpent
   parent: BaseScpArtifactEffect
-  description: artifact-effect-hint-data-deleted
   categories: [ HideSpawnMenu ]
   components:
   - type: XAEPolymorph
@@ -189,7 +177,6 @@
 - type: entity
   id: ScpEffectPolyToyRubberDuck
   parent: BaseScpArtifactEffect
-  description: artifact-effect-hint-data-deleted
   categories: [ HideSpawnMenu ]
   components:
   - type: XAEPolymorph
@@ -198,7 +185,6 @@
 - type: entity
   id: ScpEffectPolyDisposal
   parent: BaseScpArtifactEffect
-  description: artifact-effect-hint-data-deleted
   categories: [ HideSpawnMenu ]
   components:
   - type: XAEPolymorph
@@ -207,7 +193,6 @@
 - type: entity
   id: ScpEffectPolyTable
   parent: BaseScpArtifactEffect
-  description: artifact-effect-hint-data-deleted
   categories: [ HideSpawnMenu ]
   components:
   - type: XAEPolymorph
@@ -216,7 +201,6 @@
 - type: entity
   id: ScpEffectSwap
   parent: BaseScpArtifactEffect
-  description: artifact-effect-hint-data-deleted
   categories: [ HideSpawnMenu ]
   components:
   - type: ArtifactWhitelistSwap
@@ -235,7 +219,6 @@
 - type: entity
   id: EffectMagnetUltra
   parent: BaseScpArtifactEffect
-  description: artifact-effect-hint-data-deleted
   categories: [ HideSpawnMenu ]
   components:
   - type: XAEApplyComponents
@@ -250,7 +233,6 @@
 - type: entity
   id: ScpEffectShiftedAsciiTableAccent
   parent: BaseScpArtifactEffect
-  description: artifact-effect-hint-data-deleted
   categories: [ HideSpawnMenu ]
   components:
   - type: AddComponentsInRadius
@@ -269,7 +251,6 @@
 - type: entity
   id: ScpEffectSmoke939
   parent: BaseScpArtifactEffect
-  description: artifact-effect-hint-data-deleted
   categories: [ HideSpawnMenu ]
   components:
   - type: ArtifactCreateSmoke
@@ -280,7 +261,6 @@
 - type: entity
   id: ScpEffectSleep939
   parent: BaseScpArtifactEffect
-  description: artifact-effect-hint-data-deleted
   categories: [ HideSpawnMenu ]
   components:
   - type: ArtifactScp939Sleep
@@ -288,7 +268,6 @@
 - type: entity
   id: ScpArtifactHunger
   parent: BaseScpArtifactEffect
-  description: artifact-effect-hint-data-deleted
   categories: [ HideSpawnMenu ]
   components:
   - type: ArtifactModifyHunger
@@ -296,7 +275,6 @@
 - type: entity
   id: ScpEffectThirst
   parent: BaseScpArtifactEffect
-  description: artifact-effect-hint-data-deleted
   categories: [ HideSpawnMenu ]
   components:
   - type: ArtifactModifyThirst
@@ -306,7 +284,6 @@
 - type: entity
   id: ScpArtifactTeleport
   parent: BaseScpArtifactEffect
-  description: artifact-effect-hint-data-deleted
   categories: [ HideSpawnMenu ]
   components:
   - type: XAEApplyComponents
@@ -316,7 +293,6 @@
 - type: entity
   id: ScpArtifactEmp
   parent: BaseScpArtifactEffect
-  description: artifact-effect-hint-data-deleted
   categories: [ HideSpawnMenu ]
   components:
   - type: XenoArtifactNode
@@ -329,7 +305,6 @@
 - type: entity
   id: ScpArtifactShuffle
   parent: BaseScpArtifactEffect
-  description: artifact-effect-hint-data-deleted
   categories: [ HideSpawnMenu ]
   components:
   - type: XAEShuffle
@@ -341,7 +316,6 @@
 - type: entity
   id: ScpArtifactScp106Teleport
   parent: BaseScpArtifactEffect
-  description: artifact-effect-hint-data-deleted
   categories: [ HideSpawnMenu ]
   components:
   - type: ArtifactScp106Teleport
@@ -349,7 +323,6 @@
 - type: entity
   id: ScpArtifactGenerateEnergy
   parent: BaseOneTimeScpArtifactEffect
-  description: artifact-effect-hint-data-deleted
   categories: [ HideSpawnMenu ]
   components:
   - type: XAEApplyComponents
@@ -368,7 +341,6 @@
 - type: entity
   id: ScpEffectHeal999
   parent: BaseScpArtifactEffect
-  description: Miraculously heals all nearby creatures.
   categories: [ HideSpawnMenu ]
   components:
   - type: XAEDamageInArea
@@ -387,7 +359,6 @@
 - type: entity
   id: ScpEffectBlind
   parent: BaseScpArtifactEffect
-  description: artifact-effect-hint-data-deleted
   categories: [ HideSpawnMenu ]
   components:
   - type: ArtifactScp173BlindEveryoneInRange
@@ -395,7 +366,6 @@
 - type: entity
   id: ScpArtifactEffectJunkSpawn
   parent: BaseScpArtifactEffect
-  description: artifact-effect-hint-data-deleted
   categories: [ HideSpawnMenu ]
   components:
   - type: XAEApplyComponents
@@ -415,7 +385,6 @@
 - type: entity
   id: ScpArtifactEffectLightFlicker
   parent: BaseScpArtifactEffect
-  description: artifact-effect-hint-data-deleted
   categories: [ HideSpawnMenu ]
   components:
   - type: XAELightFlicker
@@ -425,7 +394,6 @@
 - type: entity
   id: ScpEffectMadness096
   parent: BaseScpArtifactEffect
-  description: artifact-effect-hint-data-deleted
   categories: [ HideSpawnMenu ]
   components:
   - type: ArtifactScp096Madness
@@ -435,7 +403,6 @@
 - type: entity
   id: ScpEffectIgnite
   parent: BaseScpArtifactEffect
-  description: artifact-effect-hint-data-deleted
   categories: [ HideSpawnMenu ]
   components:
   - type: XAEIgnite
@@ -449,7 +416,6 @@
 - type: entity
   id: ScpEffectServantSpawn035
   parent: BaseScpArtifactEffect
-  description: artifact-effect-hint-data-deleted
   categories: [ HideSpawnMenu ]
   components:
   - type: XAEApplyComponents
@@ -469,7 +435,6 @@
 - type: entity
   id: ScpEffectMonsterSpawn019
   parent: BaseScpArtifactEffect
-  description: artifact-effect-hint-data-deleted
   categories: [ HideSpawnMenu ]
   components:
   - type: XAEApplyComponents

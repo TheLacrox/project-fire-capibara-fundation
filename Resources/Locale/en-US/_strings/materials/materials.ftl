@@ -5,12 +5,16 @@ materials-plasma-glass = plasma glass
 materials-reinforced-plasma-glass = reinforced plasma glass
 materials-uranium-glass = uranium glass
 materials-reinforced-uranium-glass = reinforced uranium glass
+# Fire added - отсутствовавший материал стекла
+materials-clockwork-glass = clockwork glass
 
 # Metals
 materials-steel = steel
 materials-gold = gold
 materials-silver = silver
 materials-plasteel = plasteel
+# Fire added - отсутствовавший материал металла
+materials-brass = brass
 
 # Other
 materials-biomass = biomass

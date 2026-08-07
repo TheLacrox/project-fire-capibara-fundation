@@ -1,4 +1,5 @@
 ui-headset-settings-title = Headset Settings
+ui-headset-settings-channels-label = Channels
 ui-headset-settings-channel-name = Channel: { $name }
 ui-headset-settings-volume = Volume
 ui-headset-settings-on = ON

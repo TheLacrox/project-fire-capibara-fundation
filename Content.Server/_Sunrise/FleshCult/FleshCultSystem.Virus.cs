@@ -82,7 +82,10 @@ public sealed partial class FleshCultSystem
                     if (HasComp<MindShieldComponent>(uid))
                     {
                         // SUNRISE-TODO: Сделать это внутри системы майншилда
-                        _popup.PopupEntity("Активация самоуничтожения импланта защиты разума", uid, PopupType.LargeCaution);
+                        // Fire edit: локализация самоуничтожения импланта защиты разума
+                        _popup.PopupEntity(Loc.GetString("flesh-cult-mindshield-self-destruct"),
+                            uid,
+                            PopupType.LargeCaution);
                         _gibbingSystem.Gib(uid, true);
                         _explosionSystem.QueueExplosion(uid, "Default", 50, 5, 30, canCreateVacuum: false);
                         break;

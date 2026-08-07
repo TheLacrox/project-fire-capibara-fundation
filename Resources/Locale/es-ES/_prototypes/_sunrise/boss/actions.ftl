@@ -1,0 +1,10 @@
+ent-ActionHellSpawnRush = EMBESTIDA
+    .desc = { "" }
+ent-ActionHellSpawnInvincibility = Invencibilidad
+    .desc = { "" }
+ent-ActionHellSpawnTentacleRight = Tentáculo
+    .desc = { "" }
+ent-ActionHellSpawnTentacleLeft = Tentáculo
+    .desc = { "" }
+ent-ActionHellSpawnSpiral = Espiral
+    .desc = { "" }

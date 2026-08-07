@@ -1,0 +1,28 @@
+<Document>
+  # Vox
+
+  <Box>
+    <GuideEntityEmbed Entity="MobVox" Caption=""/>
+  </Box>
+
+  [color=#ffa500]Warning! This species is not recommended for beginners due to its lethal oxygen allergy![/color]
+
+  Vox breathe nitrogen, and [color=#ffa500]oxygen is toxic to them.[/color]
+  Unfortunately, stations are full of oxygen,
+  so vox must almost always use an internal nitrogen supply to avoid lethal exposure.
+
+  Vox always spawn with working nitrogen breathing equipment.
+  Their survival box contains a spare breath mask and an emergency nitrogen tank.
+
+  In addition to regular food, vox can safely eat snack wrappers, banana peels, eggshells, and raw meat. They also enjoy drinking welding fuel.
+
+  Vox [color=#1e90ff]slowly recover from small amounts of poison damage[/color] on their own,
+  as long as they do not exceed 20 points of poison damage.
+  This lets them breathe station air for up to thirty seconds without lasting harm,
+  giving them time to quickly eat, drink, take pills, and so on.
+  Recovering from 30 seconds of oxygen exposure takes about two minutes.
+  If their health does not start improving within a minute of exposure, they should seek medical attention.
+
+  Vox deal slashing damage with unarmed attacks.
+
+</Document>

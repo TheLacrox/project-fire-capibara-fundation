@@ -1,0 +1,13 @@
+﻿<Document>
+  # Atmospheric Emergencies
+  An atmospheric emergency is any disruption of the station's safe atmosphere.
+
+  The most common types of atmospheric emergencies are:
+  - [textlink="Fires" link="Fires"]
+  - [textlink="Depressurization" link="Spacing"]
+  - [textlink="Pressure differences" link="DeltaPressure"]
+
+  Atmospheric technicians must assess these situations quickly, eliminate the cause, and return the area to a safe state.
+
+  This usually means isolating the area, stopping the leak or fire, and then restoring its pressure, temperature, and gas composition.
+</Document>

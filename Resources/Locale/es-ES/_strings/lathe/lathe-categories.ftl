@@ -1,0 +1,12 @@
+lathe-category-mechs-vim = Vim
+lathe-category-mechs-honker = H.O.N.K.
+lathe-category-mechs-hamptr = H.A.M.P.T.R.
+lathe-category-mechs-ripley = Ripley
+lathe-category-mechs-ripleymkii = Ripley MK-II
+lathe-category-mechs-clarke = Clarke
+lathe-category-mechs-gygax = Gygax
+lathe-category-mechs-durand = Durand
+lathe-category-mechs-phazon = Phazon
+lathe-category-mechs-equipment = Equipo para mecas
+lathe-category-mechs-weapons = Armamento para mecas
+lathe-category-scp = SCP

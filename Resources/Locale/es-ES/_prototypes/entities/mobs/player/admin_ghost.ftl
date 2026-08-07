@@ -1,0 +1,12 @@
+ent-ActionAGhostShowSolar = Interfaz de control solar
+    .desc = Abre una interfaz de control solar.
+ent-ActionAGhostShowCommunications = Interfaz de comunicaciones
+    .desc = Abre una interfaz de comunicaciones.
+ent-ActionAGhostShowRadar = Interfaz del escáner de masas
+    .desc = Abre la interfaz del escáner de masas.
+ent-ActionAGhostShowCargo = Interfaz de pedidos de carga
+    .desc = Abre una interfaz de pedidos de carga.
+ent-ActionAGhostShowCrewMonitoring = Interfaz de supervisión de la tripulación
+    .desc = Abre una interfaz de supervisión de la tripulación.
+ent-ActionAGhostShowStationRecords = Interfaz de registros de la estación
+    .desc = Abre una interfaz de registros de la estación.

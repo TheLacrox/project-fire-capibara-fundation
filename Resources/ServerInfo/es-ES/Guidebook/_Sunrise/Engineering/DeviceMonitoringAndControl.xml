@@ -1,0 +1,39 @@
+﻿<Document>
+  # Supervisión y control de dispositivos
+  Como la red atmosférica abarca toda la estación, es importante poder supervisar y controlar sus dispositivos desde un punto central.
+
+  Con estos sistemas, el departamento de Atmósfera puede supervisar y controlar el ambiente de toda la estación.
+
+  <Box>
+    <GuideEntityEmbed Entity="AirAlarm" Caption=""/>
+    <GuideEntityEmbed Entity="AirSensor" Caption=""/>
+  </Box>
+  <Box>
+    ## Alarmas de aire
+  </Box>
+  <Box>
+    [color=#999999][italic]Supervisión de zonas amplias y control de dispositivos atmosféricos[italic][/color]
+  </Box>
+
+  <Box>
+    <GuideEntityEmbed Entity="ComputerAlert" Caption=""/>
+  </Box>
+  <Box>
+    ## Computadora de alertas atmosféricas
+  </Box>
+  <Box>
+    [color=#999999][italic]Supervisión de las alarmas de aire de toda la estación[italic][/color]
+  </Box>
+
+  <Box>
+    <GuideEntityEmbed Entity="ComputerAtmosMonitoring" Caption=""/>
+    <GuideEntityEmbed Entity="GasPipeSensor" Caption=""/>
+  </Box>
+  <Box>
+    ## Monitor de redes atmosféricas
+  </Box>
+  <Box>
+    [color=#999999][italic]Supervisión de redes de tuberías completas[italic][/color]
+  </Box>
+
+</Document>

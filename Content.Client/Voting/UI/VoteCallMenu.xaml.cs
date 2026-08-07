@@ -49,7 +49,8 @@ namespace Content.Client.Voting.UI
         {
             { VotekickReasonType.Raiding.ToString(), Loc.GetString("ui-vote-votekick-type-raiding") },
             { VotekickReasonType.Cheating.ToString(), Loc.GetString("ui-vote-votekick-type-cheating") },
-            { VotekickReasonType.Spam.ToString(), Loc.GetString("ui-vote-votekick-type-spamming") }
+            // Fire edit - используем существующий LocId.
+            { VotekickReasonType.Spam.ToString(), Loc.GetString("ui-vote-votekick-type-spam") }
         };
 
         public Dictionary<NetUserId, (NetEntity, string)> PlayerList = new();

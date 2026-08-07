@@ -1,0 +1,10 @@
+ent-MindRoleScp2054X = SCP-2054-X, el doble
+    .desc = { ent-BaseMindRoleAntag.desc }
+ent-MindRoleChaosRaiderFighter = Asaltante de la Insurgencia del Caos
+    .desc = { ent-BaseMindRoleAntag.desc }
+ent-MindRoleChaosRaiderMedic = Médico de la Insurgencia del Caos
+    .desc = { ent-BaseMindRoleAntag.desc }
+ent-MindRoleChaosRaiderLeader = Líder de la Insurgencia del Caos
+    .desc = { ent-BaseMindRoleAntag.desc }
+ent-MindRoleChaosSpy = Espía de la Insurgencia del Caos
+    .desc = { ent-BaseMindRoleAntag.desc }

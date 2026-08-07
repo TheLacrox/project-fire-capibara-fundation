@@ -50,7 +50,10 @@ public sealed partial class SRLateJoinJobButton : Button
         JobIcon.Texture = jobIcon.Icon.Frame0();
 
         var displayName = _alternativeTitle ?? prototype.LocalizedName;
-        JobText.Text = $"{displayName} ({obj[_station][_jobId]?.ToString() ?? "Unlimited"})";
+        // Fire edit start - локализация неограниченного числа мест
+        var slots = obj[_station][_jobId]?.ToString() ?? Loc.GetString("late-join-gui-job-slots-unlimited");
+        JobText.Text = $"{displayName} ({slots})";
+        // Fire edit end
 
         Disabled = obj[_station][_jobId] == 0;
     }

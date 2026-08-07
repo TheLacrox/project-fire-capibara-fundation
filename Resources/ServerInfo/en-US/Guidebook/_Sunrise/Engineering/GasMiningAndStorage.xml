@@ -1,0 +1,66 @@
+﻿<Document>
+  # Gas Mining and Storage
+  Gases are often consumed irreversibly. Whether they are lost to [textlink="space" link="Spacing"] or used in a burn chamber, the station must produce new gas to replace what was lost.
+  The station must also store that gas safely and efficiently.
+
+  ## Gas Miners
+  Gas miners replenish the station's gas reserves. They are located in Atmospherics' gas storage chambers.
+
+  <Box>
+    <GuideEntityEmbed Entity="GasMinerOxygenStation"/>
+    <GuideEntityEmbed Entity="GasMinerNitrogenStation"/>
+  </Box>
+
+  Gas miners constantly produce room-temperature gas and release it into the surrounding atmosphere. They require no power and never stop working until they reach their configured [bold]cutoff pressure[/bold].
+
+  More information about gas miners can be seen by examining them with [color=yellow][bold][keybind="ExamineEntity"][/bold][/color].
+  Try examining the gas miners shown above.
+
+  Gas miners have tiers: larger versions have a higher cutoff pressure than smaller ones.
+
+  <Box>
+    <GuideEntityEmbed Entity="GasMinerNitrogen" Caption="300 kPa"/>
+    <GuideEntityEmbed Entity="GasMinerNitrogenStation" Caption="1000 kPa"/>
+    <GuideEntityEmbed Entity="GasMinerNitrogenStationLarge" Caption="4500 kPa"/>
+  </Box>
+
+  If gas miners are ever unanchored from the station, they can be secured again with an ordinary wrench.
+
+  ## Gas Storage
+  Gas storage chambers hold gas produced by miners and supply it to other processes. They are located in Atmospherics.
+
+  <Box>
+    <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="ReinforcedPlasmaWindow" Rotation="0" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="GasOutletInjector" Rotation="270" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="GasMinerOxygenStation" Rotation="0" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="GasPassiveVent" Rotation="0" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
+  </Box>
+
+  <Box>
+    [color=#999999][italic]Example of a small gas storage chamber[italic][/color]
+  </Box>
+
+  Various atmospheric processes feed gases into storage chambers and draw them back out.
+  For example:
+  - Gas miners feed fresh gases into storage chambers whenever there is room.
+  - The recycling network pumps recovered gases into storage chambers for reuse.
+  - Systems such as the distronet and burn chamber draw gases from storage chambers.
+
+  Gas storage chambers are designed so that their contents can be measured with a [textlink="gas analyzer" link="AtmosTools"].
+  Because the output vent is a [textlink="passive vent" link="PassiveVent"], you can use a [textlink="gas analyzer" link="AtmosTools"] on the inlet of the [textlink="pump" link="Pumps"] that draws gas from the storage chamber to measure its contents.
+</Document>

@@ -9,7 +9,7 @@
 - type: radioChannel
   id: CentCom
   name: chat-radio-centcom
-  keycode: '1' # Fire edit - чтобы не конфликтовало
+  keycode: 'y' # Fire edit - латинская клавиша без конфликтов
   frequency: 1337
   color: "#2681a5"
   longRange: true
@@ -17,56 +17,56 @@
 - type: radioChannel
   id: Command
   name: chat-radio-command
-  keycode: '2' # Fire edit - чтобы не конфликтовало
+  keycode: 'c' # Fire edit - латинская клавиша без конфликтов
   frequency: 1353
   color: "#d1c56b" # Fire edit
 
 - type: radioChannel
   id: Engineering
   name: chat-radio-engineering
-  keycode: '3' # Fire edit - чтобы не конфликтовало
+  keycode: 'e' # Fire edit - латинская клавиша без конфликтов
   frequency: 1357
   color: "#cf8f76" # Fire edit
 
 - type: radioChannel
   id: Medical
   name: chat-radio-medical
-  keycode: '4' # Fire edit - чтобы не конфликтовало
+  keycode: 'm' # Fire edit - латинская клавиша без конфликтов
   frequency: 1355
   color: "#5b94aa" # Fire edit
 
 - type: radioChannel
   id: Science
   name: chat-radio-science
-  keycode: '5' # Fire edit - чтобы не конфликтовало
+  keycode: 'n' # Fire edit - латинская клавиша без конфликтов
   frequency: 1351
   color: "#c49dc4" # Fire edit
 
 - type: radioChannel
   id: Security
   name: chat-radio-security
-  keycode: '6' # Fire edit - чтобы не конфликтовало
+  keycode: 's' # Fire edit - латинская клавиша без конфликтов
   frequency: 1359
   color: "#976162" # Fire edit
 
 - type: radioChannel
   id: Service
   name: chat-radio-service
-  keycode: '7' # Fire edit - чтобы не конфликтовало
+  keycode: 'v' # Fire edit - латинская клавиша без конфликтов
   frequency: 1349
   color: "#849b6a" # Fire edit
 
 - type: radioChannel
   id: Supply
   name: chat-radio-supply
-  keycode: '8' # Fire edit - чтобы не конфликтовало
+  keycode: 'u' # Fire edit - латинская клавиша без конфликтов
   frequency: 1347
   color: "#b99f7d" # Fire edit
 
 - type: radioChannel
   id: Syndicate
   name: chat-radio-syndicate
-  keycode: '9' # Fire edit - чтобы не конфликтовало
+  keycode: 't' # Fire edit - латинская клавиша без конфликтов
   frequency: 1213
   color: "#976162" # Fire edit
   longRange: true
@@ -82,7 +82,7 @@
 - type: radioChannel
   id: Binary
   name: chat-radio-binary
-  keycode: '<' # Fire edit - чтобы не конфликтовало
+  keycode: 'b' # Fire edit - латинская клавиша без конфликтов
   frequency: 1001
   color: "#9fd6c1" # Fire edit
   # long range since otherwise it'd defeat the point of a handheld radio independent of telecomms
@@ -91,7 +91,7 @@
 - type: radioChannel
   id: Freelance
   name: chat-radio-freelance
-  keycode: '\' # Fire edit - чтобы не конфликтовало
+  keycode: 'f' # Fire edit - латинская клавиша без конфликтов
   frequency: 1984
   color: "#f6ce64"
   # long range since otherwise it'd defeat the point of a handheld radio independent of telecomms
@@ -100,7 +100,7 @@
 - type: radioChannel
   id: Xenoborg
   name: chat-radio-xenoborg
-  keycode: ']' # Sunrise-Localization
+  keycode: 'x' # Fire edit - латинская клавиша без конфликтов
   frequency: 2002
   color: "#2288ff"
   # long range since I don't wanna make a special xenoborg telecomm server
@@ -109,7 +109,7 @@
 - type: radioChannel
   id: Mothership
   name: chat-radio-mothership
-  keycode: ')' # Sunrise-Localization
+  keycode: 'o' # Fire edit - латинская клавиша без конфликтов
   frequency: 2003
   color: "#ff2222"
   # long range since I don't wanna make a special xenoborg telecomm server

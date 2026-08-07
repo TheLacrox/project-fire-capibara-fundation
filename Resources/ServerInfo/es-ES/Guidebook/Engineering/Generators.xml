@@ -1,0 +1,75 @@
+﻿<Document>
+  # Generadores
+  Los generadores son dispositivos que producen energía para la estación. Varían en tamaño y potencia, y cada uno presenta sus propias particularidades y requisitos.
+
+  Al comienzo del turno, los ingenieros deben instalar generadores de nivel bajo, como los paneles solares y el MAM, para disponer de tiempo suficiente para montar generadores de nivel superior, como el motor de singularidad, que proporcionen energía constante durante el resto del turno.
+
+  <Box>
+    <GuideEntityEmbed Entity="SingularityGenerator" Caption=""/>
+    <GuideEntityEmbed Entity="TeslaGenerator" Caption=""/>
+  </Box>
+  <Box>
+    ## Motores de singularidad y Tesla
+  </Box>
+  <Box>
+    [color=#999999][italic]Dispositivos capaces de generar energía infinita... y con un potencial destructivo igual de enorme[italic][/color]
+  </Box>
+
+  <Box>
+    <GuideEntityEmbed Entity="AmeController" Caption=""/>
+    <GuideEntityEmbed Entity="AmePartFlatpack" Caption=""/>
+  </Box>
+  <Box>
+    ## Motor de antimateria
+  </Box>
+  <Box>
+    [color=#999999][italic]Generador de apoyo a corto plazo para la estación[italic][/color]
+  </Box>
+
+  <Box>
+    <GuideEntityEmbed Entity="TegCirculator" Rotation="180" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="TegCenter" Rotation="90" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="TegCirculator" Caption="" Margin="0"/>
+  </Box>
+  <Box>
+    ## Generador termoeléctrico
+  </Box>
+  <Box>
+    [color=#999999][italic]Generador atmosférico avanzado que aprovecha la energía de los gases[italic][/color]
+  </Box>
+
+  <Box>
+    <GuideEntityEmbed Entity="SolarPanel" Caption=""/>
+    <GuideEntityEmbed Entity="SolarPanel" Caption=""/>
+    <GuideEntityEmbed Entity="SolarPanel" Caption=""/>
+  </Box>
+  <Box>
+    ## Paneles solares
+  </Box>
+  <Box>
+    [color=#999999][italic]Fuente de energía pasiva que requiere poco mantenimiento[italic][/color]
+  </Box>
+
+
+  <Box>
+    <GuideEntityEmbed Entity="PortableGeneratorJrPacman" Caption="" />
+    <GuideEntityEmbed Entity="PortableGeneratorPacman" Caption="" />
+    <GuideEntityEmbed Entity="PortableGeneratorSuperPacman" Caption="" />
+  </Box>
+  <Box>
+    ## Generadores portátiles
+  </Box>
+  <Box>
+    [color=#999999][italic]Generadores portátiles para uso de la tripulación y suministro de emergencia[italic][/color]
+  </Box>
+
+  <Box>
+    <GuideEntityEmbed Entity="GeneratorRTG" Caption="" />
+  </Box>
+  <Box>
+    ## Generador termoeléctrico de radioisótopos
+  </Box>
+  <Box>
+    [color=#999999][italic]Fuente de energía pasiva que no requiere mantenimiento[italic][/color]
+  </Box>
+</Document>

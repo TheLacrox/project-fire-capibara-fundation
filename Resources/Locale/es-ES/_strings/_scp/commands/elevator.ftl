@@ -1,0 +1,17 @@
+elevator-manage-floors-desc = Gestiona las plantas del ascensor indicado: añadir, eliminar, mover o listar.
+elevator-manage-floors-help = Uso: { $command } <elevator_id> <acción> [floor_name] [dirección]\nAcciones: add <floor_name>, remove <floor_name>, move <floor_name> <dirección>, list\nDirecciones para move: up, down o un número de índice
+elevator-manage-floors-not-found = No se ha encontrado ningún ascensor con el ID «{ $elevatorId }».
+elevator-manage-floors-floor-exists = La planta «{ $floorName }» ya existe en el ascensor «{ $elevatorId }».
+elevator-manage-floors-added = Se ha añadido la planta «{ $floorName }» al ascensor «{ $elevatorId }». Plantas actuales: { $floors }
+elevator-manage-floors-floor-not-exists = La planta «{ $floorName }» no existe en el ascensor «{ $elevatorId }».
+elevator-manage-floors-cannot-remove-current = No se puede eliminar la planta actual «{ $floorName }» del ascensor «{ $elevatorId }».
+elevator-manage-floors-removed = Se ha eliminado la planta «{ $floorName }» del ascensor «{ $elevatorId }». Plantas actuales: { $floors }
+elevator-manage-floors-list = Plantas del ascensor «{ $elevatorId }»: { $floors }\nPlanta actual: { $currentFloor }
+elevator-manage-floors-move-help = Para la acción «move», indica floor_name y la dirección: { $command } <elevator_id> move <floor_name> <dirección>\nDirecciones: up, down o un número de índice (desde 0)
+elevator-manage-floors-already-top = La planta «{ $floorName }» ya está en la posición superior.
+elevator-manage-floors-already-bottom = La planta «{ $floorName }» ya está en la posición inferior.
+elevator-manage-floors-invalid-index = El índice «{ $index }» no es válido. Debe estar entre 0 y { $maxIndex }.
+elevator-manage-floors-unknown-direction = La dirección «{ $direction }» es desconocida. Usa «up», «down» o un número de índice válido.
+elevator-manage-floors-moved = Se ha movido la planta «{ $floorName }» a la posición { $newIndex }. Plantas actuales: { $floors }
+elevator-manage-floors-unknown-action = La acción «{ $action }» es desconocida. Acciones válidas: add, remove, move, list.
+elevator-manage-floors-args-error = Se esperaban al menos 2 argumentos: elevator_id y acción.
