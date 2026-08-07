@@ -1,0 +1,12 @@
+ent-ClothingNeckShoulderPatchWhite = distintivo blanco de hombro
+    .desc = Una forma sencilla y cómoda de identificar grupos.
+ent-ClothingNeckShoulderPatchRed = distintivo rojo de hombro
+    .desc = Una forma sencilla y cómoda de identificar grupos.
+ent-ClothingNeckShoulderPatchBlue = distintivo azul de hombro
+    .desc = Una forma sencilla y cómoda de identificar grupos.
+ent-ClothingNeckShoulderPatchGreen = distintivo verde de hombro
+    .desc = Una forma sencilla y cómoda de identificar grupos.
+ent-ClothingNeckShoulderPatchYellow = distintivo amarillo de hombro
+    .desc = Una forma sencilla y cómoda de identificar grupos.
+ent-BoxCardboardShoulderPatches = caja de distintivos de colores
+    .desc = Contiene varios distintivos sencillos y cómodos para identificar grupos.

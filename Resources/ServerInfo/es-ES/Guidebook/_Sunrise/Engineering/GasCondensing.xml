@@ -1,0 +1,14 @@
+﻿<Document>
+  # Condensación de gases
+  La condensación permite transformar ciertos gases en reactivos líquidos para utilizarlos más adelante.
+
+  <Box>
+    <GuideEntityEmbed Entity="BaseGasCondenser"/>
+  </Box>
+
+  El condensador recibe gas de la [textlink="red de tuberías" link="PipeNetworks"] conectada y transforma los gases compatibles en reactivos dentro del recipiente acoplado.
+
+  Resulta útil para obtener sustancias a partir de procesos atmosféricos, como el amoníaco.
+
+  Si el gas no puede condensarse o no se cumplen las condiciones necesarias, el dispositivo no producirá ningún reactivo.
+</Document>

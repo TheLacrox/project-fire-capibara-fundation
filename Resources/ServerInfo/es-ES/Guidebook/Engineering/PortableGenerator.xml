@@ -1,0 +1,47 @@
+<Document>
+  # Generadores portátiles
+
+  La línea de generadores portátiles «P.A.C.M.A.N.» se utiliza para suministrar energía de emergencia o complementaria a salas, zonas e incluso departamentos clave.
+  Son fáciles de instalar y mantener, y pueden alimentar sistemas y zonas esenciales durante un apagón.
+
+  <Box>
+    <GuideEntityEmbed Entity="PortableGeneratorJrPacman" Caption="J.R.P.A.C.M.A.N." />
+    <GuideEntityEmbed Entity="PortableGeneratorPacman" Caption="P.A.C.M.A.N." />
+    <GuideEntityEmbed Entity="PortableGeneratorSuperPacman" Caption="S.U.P.E.R.P.A.C.M.A.N." />
+  </Box>
+
+  # El modelo júnior
+
+  <Box>
+    <GuideEntityEmbed Entity="PortableGeneratorJrPacman" Caption="J.R.P.A.C.M.A.N." />
+    <GuideEntityEmbed Entity="WeldingFuelTank" />
+  </Box>
+
+  El J.R.P.A.C.M.A.N. puede encontrarse por toda la estación en los túneles de mantenimiento y es ideal para que la propia tripulación lo instale cuando haya problemas de suministro.
+  Su potencia de hasta [color=orange][protodata="PortableGeneratorJrPacman" comp="FuelGenerator" member="MaxTargetPower" format="N0"/] W[/color] basta para alimentar una o dos salas, algo que puede resultar inestimable en lugares como Enfermería o Química del Departamento Médico.
+
+  Instalarlo es facilísimo: fíjalo con una llave sobre un cable eléctrico de [color=green]LV[/color], añade combustible de soldadura y enciéndelo.
+
+  El combustible de soldadura es la única fuente de energía que admite el J.R.P.A.C.M.A.N.; se encuentra en depósitos repartidos por la estación, normalmente en las zonas de mantenimiento.
+
+  # Los modelos grandes
+
+  <Box>
+    <GuideEntityEmbed Entity="PortableGeneratorPacman" Caption="P.A.C.M.A.N." />
+    <GuideEntityEmbed Entity="SheetPlasma" />
+  </Box>
+
+  <Box>
+    <GuideEntityEmbed Entity="PortableGeneratorSuperPacman" Caption="S.U.P.E.R.P.A.C.M.A.N." />
+    <GuideEntityEmbed Entity="SheetUranium" />
+  </Box>
+
+  El P.A.C.M.A.N. y el S.U.P.E.R.P.A.C.M.A.N. están pensados para que Ingeniería los use durante apagones importantes o para complementar el suministro cuando haya un déficit.
+  Sirven para arrancar [textlink="motores" link="SingularityTeslaEngine"] más grandes, alimentar departamentos y mucho más.
+
+  El S.U.P.E.R.P.A.C.M.A.N. ofrece mayor potencia (hasta [color=orange][protodata="PortableGeneratorSuperPacman" comp="FuelGenerator" member="MaxTargetPower" format="N0"/] W[/color]) y más autonomía a potencia máxima, aunque pierde eficiencia al reducir la producción.
+
+  Se conectan directamente a líneas de [color=yellow]MV[/color] o [color=orange]HV[/color] mediante [textlink="cables eléctricos" link="VoltageNetworks"] y pueden alternar entre ambas para ofrecer mayor flexibilidad.
+
+  El S.U.P.E.R.P.A.C.M.A.N. y el P.A.C.M.A.N. necesitan láminas de uranio y láminas de plasma como combustible, respectivamente.
+</Document>

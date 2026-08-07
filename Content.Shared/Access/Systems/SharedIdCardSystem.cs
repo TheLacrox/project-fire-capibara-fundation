@@ -1,4 +1,3 @@
-using System.Globalization;
 using System.Linq;
 using Content.Shared.Access.Components;
 using Content.Shared.Administration.Logs;
@@ -7,6 +6,7 @@ using Content.Shared.Database;
 using Content.Shared.Hands.EntitySystems;
 using Content.Shared.IdentityManagement;
 using Content.Shared.Inventory;
+using Content.Shared.Localizations;
 using Content.Shared.PDA;
 using Content.Shared.Roles;
 using Content.Shared.StatusIcon;
@@ -332,7 +332,8 @@ public abstract partial class SharedIdCardSystem : EntitySystem
 
     private static string ExtractFullTitle(IdCardComponent idCardComponent)
     {
-        return $"{idCardComponent.FullName} ({CultureInfo.CurrentCulture.TextInfo.ToTitleCase(idCardComponent.LocalizedJobTitle ?? string.Empty)})"
+        // Fire edit - сохраняем испанские предлоги в названии должности.
+        return $"{idCardComponent.FullName} ({ContentLocalizationManager.FormatTitleCase(idCardComponent.LocalizedJobTitle ?? string.Empty)})"
             .Trim();
     }
 

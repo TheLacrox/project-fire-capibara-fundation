@@ -335,7 +335,7 @@ namespace Content.Server._Sunrise.BloodCult.Runes.Systems
 
             if (!_statusEffectsSystem.HasStatusEffect(args.Target, "Stun"))
             {
-                _popupSystem.PopupEntity("Цель не оглушена", uid, uid);
+                _popupSystem.PopupEntity(Loc.GetString("cult-target-not-stunned"), uid, uid); // Fire edit - Локализация видимого сообщения.
                 return;
             }
 
@@ -383,7 +383,7 @@ namespace Content.Server._Sunrise.BloodCult.Runes.Systems
 
                     _stack.SetCount((material, stackNew), count);
 
-                    _popupSystem.PopupEntity(Loc.GetString($"Пласталь превращается в {MetaData(material).EntityName}!"),
+                    _popupSystem.PopupEntity(Loc.GetString("cult-runic-transmutation-plasteel", ("material", MetaData(material).EntityName)), // Fire edit - Локализация видимого сообщения.
                         args.Performer,
                         args.Performer);
                     var ev = new TwistedConstructSpellUsedEvent();
@@ -397,7 +397,7 @@ namespace Content.Server._Sunrise.BloodCult.Runes.Systems
 
                     if (count < 30)
                     {
-                        _popupSystem.PopupEntity(Loc.GetString("Недостаточно стали"),
+                        _popupSystem.PopupEntity(Loc.GetString("cult-runic-transmutation-not-enough-steel"), // Fire edit - Локализация видимого сообщения.
                             args.Performer,
                             args.Performer);
                         args.Handled = true;
@@ -410,7 +410,7 @@ namespace Content.Server._Sunrise.BloodCult.Runes.Systems
 
                     _bloodstreamSystem.TryModifyBloodLevel((args.Performer, bloodstreamComponent), -15);
 
-                    _popupSystem.PopupEntity(Loc.GetString($"Сталь превращается в {MetaData(shell).EntityName}!"),
+                    _popupSystem.PopupEntity(Loc.GetString("cult-runic-transmutation-steel", ("material", MetaData(shell).EntityName)), // Fire edit - Локализация видимого сообщения.
                         args.Performer,
                         args.Performer);
                     var ev = new TwistedConstructSpellUsedEvent();

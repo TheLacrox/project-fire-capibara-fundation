@@ -74,9 +74,9 @@ public sealed partial class InteractionsUIWindow : DefaultWindow
 
         _spriteSystem = _entityManager.System<SpriteSystem>();
 
-        MainTabContainer.SetTabTitle(0, "Интеракции");
-        MainTabContainer.SetTabTitle(1, "Кастом");
-        MainTabContainer.SetTabTitle(2, "Настройки");
+        MainTabContainer.SetTabTitle(0, Loc.GetString("fire-interactions-tab-main"));
+        MainTabContainer.SetTabTitle(1, Loc.GetString("fire-interactions-tab-custom"));
+        MainTabContainer.SetTabTitle(2, Loc.GetString("fire-interactions-tab-settings"));
 
         SearchInput.OnTextChanged += OnSearchTextChanged;
 
@@ -163,7 +163,7 @@ public sealed partial class InteractionsUIWindow : DefaultWindow
         {
             var isCustom = _customInteractionIds.Contains(interactionId);
 
-            var interactionName = "Unknown";
+            var interactionName = Loc.GetString("generic-unknown"); // Fire edit - локализация отсутствующего названия
 
             if (!isCustom)
             {
@@ -190,7 +190,9 @@ public sealed partial class InteractionsUIWindow : DefaultWindow
                 if (remainingTime > TimeSpan.Zero)
                 {
                     var seconds = (int)Math.Ceiling(remainingTime.TotalSeconds);
-                    button.Text = $"{interactionName} ({seconds}с)";
+                    button.Text = Loc.GetString("fire-interactions-button-cooldown",
+                        ("name", interactionName),
+                        ("seconds", seconds));
                 }
             }
             else
@@ -267,8 +269,10 @@ public sealed partial class InteractionsUIWindow : DefaultWindow
 
             if (!string.IsNullOrEmpty(_searchText))
             {
-                var interactionName = interaction.Name.ToLowerInvariant();
-                var interactionDesc = interaction.Description != null ? interaction.Description.ToLowerInvariant() : "";
+                var interactionName = Loc.GetString(interaction.Name).ToLowerInvariant();
+                var interactionDesc = interaction.Description is { } description
+                    ? Loc.GetString(description).ToLowerInvariant()
+                    : string.Empty; // Fire edit - Поиск по локализованному тексту.
 
                 if (!interactionName.Contains(_searchText) && !interactionDesc.Contains(_searchText))
                     continue;
@@ -329,14 +333,16 @@ public sealed partial class InteractionsUIWindow : DefaultWindow
                 {
                     return i switch
                     {
-                        InteractionPrototype proto => proto.Name,
+                        InteractionPrototype proto => Loc.GetString(proto.Name),
                         CustomInteraction custom => custom.Name,
                         _ => string.Empty
                     };
                 })
                 .ToList();
 
-            var favoritesCollapsible = CreateCategoryCollapsible("⭐ Избранные", sortedFavorites);
+            var favoritesCollapsible = CreateCategoryCollapsible(
+                Loc.GetString("fire-interactions-favorites"),
+                sortedFavorites);
             CategoriesContainer.AddChild(favoritesCollapsible);
         }
 
@@ -344,7 +350,7 @@ public sealed partial class InteractionsUIWindow : DefaultWindow
         {
             var noResultsLabel = new Label
             {
-                Text = "Ничего не найдено",
+                Text = Loc.GetString("fire-interactions-no-results"),
                 HorizontalAlignment = HAlignment.Center,
                 VerticalAlignment = VAlignment.Center,
                 FontColorOverride = TextMuted,
@@ -369,7 +375,7 @@ public sealed partial class InteractionsUIWindow : DefaultWindow
                 {
                     return i switch
                     {
-                        InteractionPrototype proto => proto.Name,
+                        InteractionPrototype proto => Loc.GetString(proto.Name),
                         CustomInteraction custom => custom.Name,
                         _ => string.Empty
                     };
@@ -452,6 +458,11 @@ public sealed partial class InteractionsUIWindow : DefaultWindow
 
     private BoxContainer CreateInteractionButton(InteractionPrototype interaction)
     {
+        var interactionName = Loc.GetString(interaction.Name); // Fire edit - Локализация стандартного взаимодействия.
+        var interactionDescription = interaction.Description is { } description
+            ? Loc.GetString(description)
+            : null;
+
         var buttonBox = new BoxContainer
         {
             Orientation = BoxContainer.LayoutOrientation.Horizontal,
@@ -464,8 +475,8 @@ public sealed partial class InteractionsUIWindow : DefaultWindow
 
         var button = new Button
         {
-            Text = interaction.Name,
-            ToolTip = interaction.Description,
+            Text = interactionName,
+            ToolTip = interactionDescription,
             HorizontalExpand = true,
             MinHeight = 40,
             MaxHeight = 45,
@@ -520,7 +531,9 @@ public sealed partial class InteractionsUIWindow : DefaultWindow
                 if (remainingTime > TimeSpan.Zero)
                 {
                     var seconds = (int)Math.Ceiling(remainingTime.TotalSeconds);
-                    button.Text = $"{interaction.Name} ({seconds}с)";
+                    button.Text = Loc.GetString("fire-interactions-button-cooldown",
+                        ("name", interactionName),
+                        ("seconds", seconds));
                 }
             }
         }
@@ -663,7 +676,9 @@ public sealed partial class InteractionsUIWindow : DefaultWindow
                 if (remainingTime > TimeSpan.Zero)
                 {
                     var seconds = (int)Math.Ceiling(remainingTime.TotalSeconds);
-                    button.Text = $"{interaction.Name} ({seconds}с)";
+                    button.Text = Loc.GetString("fire-interactions-button-cooldown",
+                        ("name", interaction.Name),
+                        ("seconds", seconds));
                 }
             }
         }
@@ -749,7 +764,7 @@ public sealed partial class InteractionsUIWindow : DefaultWindow
 
             var message = customInteraction.InteractionMessages.Count > 0
                 ? _random.Pick(customInteraction.InteractionMessages)
-                : "взаимодействует с";
+                : Loc.GetString("fire-interactions-default-message");
 
             string? soundId = null;
             if (customInteraction.SoundIds.Count > 0)
@@ -913,8 +928,8 @@ public sealed partial class InteractionsUIWindow : DefaultWindow
             var emptyLabel = new Label
             {
                 Text = string.IsNullOrEmpty(_customSearchText)
-                    ? "У вас нет сохраненных взаимодействий"
-                    : "Ничего не найдено",
+                    ? Loc.GetString("fire-interactions-no-saved")
+                    : Loc.GetString("fire-interactions-no-results"),
                 HorizontalAlignment = HAlignment.Center,
                 VerticalAlignment = VAlignment.Center,
                 FontColorOverride = TextMuted,
@@ -967,7 +982,7 @@ public sealed partial class InteractionsUIWindow : DefaultWindow
 
         var editButton = new Button
         {
-            Text = "Редактировать",
+            Text = Loc.GetString("fire-interactions-edit"),
             StyleClasses = { StyleClass.ButtonSquare },
             Margin = new Thickness(0, 0, 4, 0)
         };
@@ -981,7 +996,7 @@ public sealed partial class InteractionsUIWindow : DefaultWindow
 
         var deleteButton = new Button
         {
-            Text = "Удалить",
+            Text = Loc.GetString("fire-interactions-delete"),
             StyleClasses = { StyleClass.ButtonSquare },
         };
 
@@ -1014,7 +1029,8 @@ public sealed partial class InteractionsUIWindow : DefaultWindow
 
         var categoryLabel = new Label
         {
-            Text = $"Категория: {GetCategoryName(interaction.CategoryId)}",
+            Text = Loc.GetString("fire-interactions-category",
+                ("category", GetCategoryName(interaction.CategoryId))),
             FontColorOverride = new Color(208, 166, 92)
         };
 
@@ -1032,7 +1048,7 @@ public sealed partial class InteractionsUIWindow : DefaultWindow
     private string GetCategoryName(string categoryId)
     {
         if (string.IsNullOrEmpty(categoryId))
-            return "Не указана";
+            return Loc.GetString("fire-interactions-category-unspecified");
 
         if (_prototypeManager.TryIndex<InteractionCategoryPrototype>(categoryId, out var category))
             return Loc.GetString(category.Name);
@@ -1078,7 +1094,7 @@ public sealed partial class InteractionsUIWindow : DefaultWindow
     {
         var confirmDialog = new DefaultWindow
         {
-            Title = "Подтверждение",
+            Title = Loc.GetString("fire-interactions-confirmation-title"),
             MinSize = new Vector2(280, 140)
         };
 
@@ -1102,7 +1118,7 @@ public sealed partial class InteractionsUIWindow : DefaultWindow
 
         var questionLabel = new Label
         {
-            Text = $"Удалить '{interaction.Name}'?",
+            Text = Loc.GetString("fire-interactions-delete-question", ("name", interaction.Name)),
             HorizontalExpand = true,
             HorizontalAlignment = HAlignment.Center,
             Margin = new Thickness(0, 0, 0, 12),
@@ -1120,7 +1136,7 @@ public sealed partial class InteractionsUIWindow : DefaultWindow
 
         var cancelButton = new Button
         {
-            Text = "Отмена",
+            Text = Loc.GetString("fire-interactions-cancel"),
             StyleClasses = { StyleClass.ButtonSquare },
             Margin = new Thickness(0, 0, 4, 0)
         };
@@ -1134,7 +1150,7 @@ public sealed partial class InteractionsUIWindow : DefaultWindow
 
         var confirmButton = new Button
         {
-            Text = "Удалить",
+            Text = Loc.GetString("fire-interactions-delete"),
             StyleClasses = { StyleClass.ButtonSquare },
         };
 

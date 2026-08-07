@@ -1,6 +1,8 @@
-﻿- type: gameMap
+﻿# Fire edit - локализуемые названия карты и станции
+- type: gameMap
   id: AdminFaxBase
-  mapName: 'Штаб регионального руководства'
+  mapName: 'Regional Administration Base'
+  mapNameLocId: map-name-scp-regional-administration
   mapPath: /Maps/_Scp/admin_fax.yml
   maxRandomOffset: 0
   randomRotation: false
@@ -10,7 +12,8 @@
       stationProto: ScpRegionalAdministration
       components:
       - type: StationNameSetup
-        mapNameTemplate: 'Штаб региональной администрации'
+        mapNameTemplate: 'Regional Administration Base'
+        stationNameTemplateLocId: station-name-template-scp-regional-administration
         nameGenerator:
           !type:NanotrasenNameGenerator
           prefixCreator: 'SCP'

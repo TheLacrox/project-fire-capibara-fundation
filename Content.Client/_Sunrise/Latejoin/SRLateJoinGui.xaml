@@ -14,7 +14,7 @@
         <cc:VSeparator StyleClasses="LowDivider"/>
         <ScrollContainer  SizeFlagsStretchRatio="1" HorizontalExpand="True">
             <BoxContainer Name="JobList" Orientation="Vertical" Margin="4 4" HorizontalExpand="True" SizeFlagsStretchRatio="1">
-                <Button Name="CrewManifestButton" Text="Crew Manifest" HorizontalAlignment="Center" Visible="False"/>
+                <Button Name="CrewManifestButton" Text="{Loc 'crew-manifest-window-title'}" HorizontalAlignment="Center" Visible="False"/>
             </BoxContainer>
         </ScrollContainer>
         <!--<cc:VSeparator StyleClasses="LowDivider"/>

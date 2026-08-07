@@ -1,0 +1,12 @@
+﻿<Document>
+  # Manual Valve
+  A manual valve is a simple valve that can be opened or closed by hand.
+  <Box>
+    <GuideEntityEmbed Entity="GasValve"/>
+  </Box>
+
+  Gas flows freely in both directions through an open manual valve.
+  A closed manual valve completely stops gas flow between the two connected pipe networks.
+
+  Manual valves are useful as simple shutoffs for maintenance, emergency isolation, or separating different sections of a pipe system.
+</Document>

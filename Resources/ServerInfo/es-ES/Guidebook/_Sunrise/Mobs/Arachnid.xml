@@ -1,0 +1,25 @@
+<Document>
+  # Arácnidos
+
+  <Box>
+    <GuideEntityEmbed Entity="MobArachnid" Caption=""/>
+  </Box>
+
+  Disponen de dos bolsillos adicionales en el inventario. Pueden comer carne cruda sin consecuencias, pero algunos alimentos, como el chocolate y la cebolla, son venenosos para ellos.
+  Se asfixian un 50% más rápido y su sangre azul no puede reponerse con hierro, pues está basada en cobre.
+
+  Sus ataques sin armas causan daño perforante en vez de contundente.
+
+  ## Tejeduría de seda
+
+  <Box>
+    <GuideEntityEmbed Entity="MaterialWebSilk" Caption=""/>
+    <GuideEntityEmbed Entity="ClothingUniformJumpskirtWeb" Caption=""/>
+    <GuideEntityEmbed Entity="WebShield" Caption=""/>
+    <GuideEntityEmbed Entity="WallWeb" Caption=""/>
+  </Box>
+
+  Los arácnidos pueden producir telarañas —o seda— a costa de su nivel de saciedad. Ellos, y solo ellos, pueden tejer con esa seda toda clase de objetos, desde ropa y escudos hasta paredes enteras.
+
+
+</Document>

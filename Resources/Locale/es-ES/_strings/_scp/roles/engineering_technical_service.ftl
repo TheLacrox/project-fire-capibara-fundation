@@ -1,0 +1,9 @@
+job-name-lead-technical-specialist = Ingeniero sénior
+job-description-lead-technical-specialist = Especialista técnico con muchos años de experiencia.
+job-name-electrical-technical-specialist = Electrotécnico
+job-description-electrical-technical-specialist = Ingeniero eléctrico responsable del suministro de energía, los equipos eléctricos y los sistemas de calefacción, ventilación y aire acondicionado (CVAA).
+job-name-general-technical-specialist = Técnico
+job-description-general-technical-specialist = Se ocupa de mantener la maquinaria y los equipos. ¿Ha vuelto a fundirse una bombilla en la sala de descanso? ¿No funciona tu nuevo SCiPhone? ¡Él resolverá tus problemas!
+job-name-technical-trainee = Técnico en prácticas
+job-description-technical-trainee = Técnico principiante. Aprende de los técnicos veteranos y les ayuda con tareas menores.
+job-supervisors-chief-technical-specialist = el ingeniero jefe

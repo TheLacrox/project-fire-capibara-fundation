@@ -1,0 +1,30 @@
+﻿<Document>
+  # Atmospheric Alerts Computer
+  The atmospheric alerts computer displays information about every air alarm and fire alarm on the station.
+
+  <Box>
+    <GuideEntityEmbed Entity="ComputerAlert"/>
+  </Box>
+
+  It is a useful tool for quickly finding areas that require attention.
+
+  The atmospheric alerts computer is often located in Atmospherics, where atmospheric technicians use it to monitor conditions throughout the station.
+  However, it also gives other engineers a good indication of where the station has been damaged.
+
+  The computer lists air alarms in the [color=orange]Warning[/color] and [color=red]Danger[/color] states. It also displays the location of every air alarm on a map, color-coded according to its current status.
+
+  Air alarms with a Normal status are hidden by default.
+  Their visibility can be toggled with the filters at the bottom of the interface.
+
+  The map draws an outline around the area monitored by each air alarm, helping you locate dangerous zones.
+  The color of this outline changes according to the alarm's status.
+
+  If an air alarm has no power, it appears gray in both the list and the map.
+
+  Clicking an air alarm in the list or on the map displays detailed information about the atmosphere in that area, helping you identify the type of emergency in progress.
+
+  The atmospheric alerts computer also displays a list of triggered [textlink="fire alarms" link="FireAndGasControl"] on a separate tab. This lets you quickly locate areas where a fire may be burning.
+
+  Individual alerts, such as those from combustion chambers and freezers, can be silenced: select the alert in the list and press the "Silence alerts" button.
+  This hides the alert from the list, but it remains visible on the map.
+</Document>

@@ -152,11 +152,20 @@ namespace Content.Server.Zombies
 
             if (nearestUid == null || nearestUid == default!)
             {
-                _popup.PopupEntity($"Ближайших выживших не найдено.", uid, uid, PopupType.LargeCaution);
+                // Fire edit: локализация поиска ближайшего выжившего
+                _popup.PopupEntity(Loc.GetString("zombie-nearest-survivor-none"),
+                    uid,
+                    uid,
+                    PopupType.LargeCaution);
             }
             else
             {
-                _popup.PopupEntity($"Ближайший выживший находится {RemoveColorTags(_navMap.GetNearestBeaconString(nearestUid.Value))}", uid, uid, PopupType.LargeCaution);
+                // Fire edit: локализация поиска ближайшего выжившего
+                _popup.PopupEntity(Loc.GetString("zombie-nearest-survivor",
+                        ("direction", RemoveColorTags(_navMap.GetNearestBeaconString(nearestUid.Value)))),
+                    uid,
+                    uid,
+                    PopupType.LargeCaution);
             }
 
             args.Handled = true;

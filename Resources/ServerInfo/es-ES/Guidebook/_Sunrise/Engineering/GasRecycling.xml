@@ -1,0 +1,11 @@
+﻿<Document>
+  # Reciclaje de gases
+  El reciclaje permite devolver gases útiles a los sistemas de la estación en vez de expulsarlos sin más al espacio.
+
+  Normalmente, los depuradores recogen los gases residuales y los envían a la red de residuos.
+  Después se pueden filtrar, separar y devolver a los [textlink="depósitos de gas" link="GasMiningAndStorage"] o destinar a otros procesos.
+
+  Un sistema de reciclaje bien configurado reduce el consumo de gases recién extraídos y ayuda a la estación a superar turnos largos.
+
+  Vigila la composición y la temperatura del gas reciclado: las mezclas calientes o peligrosas pueden dañar el sistema o provocar otra emergencia atmosférica.
+</Document>

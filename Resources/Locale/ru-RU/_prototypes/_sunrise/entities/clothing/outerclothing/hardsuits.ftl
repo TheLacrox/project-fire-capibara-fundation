@@ -43,7 +43,6 @@ ent-ClothingOuterHardsuitPrivateerDamaged = повреждённый скафа�
 ent-ClothingOuterHardsuitPrivateerArmoredDamaged = повреждённый бронескафандр фрилансера
     .desc = Бронескафандр фрилансера с треснувшими пластинами и проколотыми гермоуплотнителями. Он больше не защищает владельца от космоса.
     .suffix = Пираты
-    .suffix = Pirate
 ent-ClothingOuterHardsuitPirateBlackbeard = скафандр Чёрной Бороды
     .desc = Один из самых пугающих скафандров в галактике.
     .suffix = Пират

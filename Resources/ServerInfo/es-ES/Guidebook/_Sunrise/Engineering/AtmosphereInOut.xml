@@ -1,0 +1,25 @@
+﻿<Document>
+  # Entrada y salida de atmósfera
+  Introducir y extraer gases de una atmósfera, o de la ausencia de ella, es una parte esencial del trabajo de Atmosféricos.
+  <Box>
+    <GuideEntityEmbed Entity="GasVentPump"/>
+    <GuideEntityEmbed Entity="GasPassiveVent"/>
+    <GuideEntityEmbed Entity="GasOutletInjector"/>
+    <GuideEntityEmbed Entity="GasVentScrubber"/>
+    <GuideEntityEmbed Entity="PortableScrubber"/>
+  </Box>
+
+  Con estos dispositivos, Atmosféricos puede introducir, extraer o depurar gases no deseados de cualquier atmósfera.
+  Esto permite mantener una atmósfera segura y respirable.
+
+  Algunos de estos dispositivos necesitan [textlink="energía" link="Power"] para funcionar y pueden vincularse a una [textlink="alarma atmosférica" link="AirAlarms"].
+
+  [textlink="Vincular" link="Networking"] dispositivos compatibles a una alarma atmosférica habilita más opciones de configuración y funciones. De lo contrario, se comportan de la forma predeterminada descrita en las subsecciones.
+
+  <Box>
+    <GuideEntityEmbed Entity="AirAlarm"/>
+    <GuideEntityEmbed Entity="Multitool"/>
+    <GuideEntityEmbed Entity="NetworkConfigurator"/>
+  </Box>
+
+</Document>

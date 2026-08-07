@@ -1,0 +1,34 @@
+<Document>
+  # Species
+
+  Nanotrasen employs many sapient species.
+
+  <Box>
+    <GuideEntityEmbed Entity="MobArachnid" Caption="Arachnid"/>
+    <GuideEntityEmbed Entity="MobDiona" Caption="Diona"/>
+    <GuideEntityEmbed Entity="MobDwarf" Caption="Dwarf"/>
+    <GuideEntityEmbed Entity="MobHuman" Caption="Human"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="MobMoth" Caption="Moth"/>
+    <GuideEntityEmbed Entity="MobReptilian" Caption="Reptilian"/>
+    <GuideEntityEmbed Entity="MobSlimePerson" Caption="Slime Person"/>
+    <GuideEntityEmbed Entity="MobVox" Caption="Vox"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="MobVulpkanin" Caption="Vulpkanin"/>
+    <GuideEntityEmbed Entity="MobFelinid" Caption="Felinid"/>
+    <GuideEntityEmbed Entity="MobSwine" Caption="Trottin"/>
+    <GuideEntityEmbed Entity="MobTajaran" Caption="Tajaran"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="MobPredator" Caption="Yautja"/>
+    <GuideEntityEmbed Entity="MobXenoDummy" Caption="Xenomorph"/>
+    <GuideEntityEmbed Entity="MobDemon" Caption="Arcana"/>
+    <GuideEntityEmbed Entity="MobResomi" Caption="Resomi"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="MobMilira" Caption="Milira"/>
+  </Box>
+
+</Document>

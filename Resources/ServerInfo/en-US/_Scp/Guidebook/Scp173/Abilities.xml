@@ -1,0 +1,44 @@
+﻿<Document>
+  # SCP-173 Abilities
+
+  This page describes the active abilities available to the object and the unique mechanics associated with it.
+
+  [textlink="General information about the Sculpture" link="Scp173About"]
+
+  ## "Contaminate Tile" Ability
+
+  Activating this ability contaminates the tile with a special reagent that opens the blast doors in the containment chamber once enough of it accumulates.
+  Use it to escape the containment chamber.
+
+  [textlink="More information about escape methods" link="Scp173ContainmentBreach"]
+
+  ## "Desecrate" Ability
+
+  Activating this ability deals a small amount of damage to every nearby structure and has a chance to open airlocks and blast doors.
+  This ability only works outside the containment chamber.
+
+  ## "Lunge" Ability
+
+  Activating this ability moves you a short distance, killing anyone caught in your path.
+  This ability only works when no more than two people are looking at you, and it cannot be used inside the containment chamber.
+
+  ## "Blind" Ability
+
+  Activating this ability forces everyone nearby to close their eyes for a short time.
+  This ability only works when at least four people are looking at you, and it cannot be used outside the containment chamber.
+
+  ## Safe Period Mechanic
+
+  During the first 15 minutes of the round, you cannot use the "Contaminate Tile" ability.
+
+  This mechanic limits SCP objects at the start of the round, giving personnel time to prepare for the shift.
+
+  ## Neck-Snapping Mechanic
+
+  The game features a unique system that lets SCP-173 automatically kill people it collides with. You do not even need to enable combat mode!
+
+  ## Vision Mechanic
+
+  The game features a unique system that checks whether each character is visible to another character.
+
+</Document>

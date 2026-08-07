@@ -1,0 +1,157 @@
+<Document>
+  # Xenos
+
+  Los xenos (xenomorfos) son formas de vida alienígenas agresivas que actúan en grupo.
+  Tienen sangre ácida, una mente colmena y la capacidad de forzar puertas.
+  Al descuartizarlos se puede obtener carne de xenomorfo.
+
+  [bold][color=#a4885c]________________________________________________________________________[/color]
+
+  # Variantes conocidas
+  # «Perforador»
+
+  Una forma joven que prefiere ocultarse y combatir a corta distancia.
+
+  <Box>
+  <GuideEntityEmbed Entity="MobXeno"/>
+  </Box>
+  - [bold][color=#a4885c]Umbrales de salud:[/color][/bold] 50
+  - [bold][color=#a4885c]Velocidad:[/color][/bold] 4 m/s
+  - [bold][color=#a4885c]Daño (tipo):[/color][/bold] 6 [color=red]Físico[/color]
+  - [bold][color=#a4885c]Resistencias:[/color][/bold] ninguna
+  - [bold][color=#a4885c]Habilidades especiales:[/color][/bold] ninguna
+
+  [bold][color=#a4885c]________________________________________________________________________[/color]
+
+  # «Dron»
+
+  La casta obrera de la colmena. Mantiene el enjambre y ayuda a construir el nido.
+
+  <Box>
+  <GuideEntityEmbed Entity="MobXenoDrone"/>
+  </Box>
+  - [bold][color=#a4885c]Umbrales de salud:[/color][/bold] 80
+  - [bold][color=#a4885c]Velocidad:[/color][/bold] 4 m/s
+  - [bold][color=#a4885c]Daño (tipo):[/color][/bold] 6 [color=red]Físico[/color]
+  - [bold][color=#a4885c]Resistencias:[/color][/bold] ninguna
+  - [bold][color=#a4885c]Habilidades especiales:[/color][/bold] ninguna
+
+  [bold][color=#a4885c]________________________________________________________________________[/color]
+
+  # «Pretoriano»
+
+  Un guardián de la colmena grande y resistente.
+
+  <Box>
+  <GuideEntityEmbed Entity="MobXenoPraetorian"/>
+  </Box>
+  - [bold][color=#a4885c]Umbrales de salud:[/color][/bold] 100
+  - [bold][color=#a4885c]Velocidad:[/color][/bold] 4 m/s
+  - [bold][color=#a4885c]Daño (tipo):[/color][/bold] 6 [color=red]Físico[/color]
+  - [bold][color=#a4885c]Resistencias:[/color][/bold] ninguna
+  - [bold][color=#a4885c]Habilidades especiales:[/color][/bold] ninguna
+
+  [bold][color=#a4885c]________________________________________________________________________[/color]
+
+  # «Devastador»
+
+  Un combatiente cuerpo a cuerpo muy fuerte, peligroso al abrir brechas y en distancias cortas.
+
+  <Box>
+  <GuideEntityEmbed Entity="MobXenoRavager"/>
+  </Box>
+  - [bold][color=#a4885c]Umbrales de salud:[/color][/bold] 100
+  - [bold][color=#a4885c]Velocidad:[/color][/bold] 4 m/s
+  - [bold][color=#a4885c]Daño (tipo):[/color][/bold] 10 [color=red]Físico[/color]
+  - [bold][color=#a4885c]Resistencias:[/color][/bold] ninguna
+  - [bold][color=#a4885c]Habilidades especiales:[/color][/bold] ninguna
+
+  [bold][color=#a4885c]________________________________________________________________________[/color]
+
+  # «Corredor»
+
+  Una casta veloz que emplea tácticas de «golpear y huir».
+
+  <Box>
+  <GuideEntityEmbed Entity="MobXenoRunner"/>
+  </Box>
+  - [bold][color=#a4885c]Umbrales de salud:[/color][/bold] 50
+  - [bold][color=#a4885c]Velocidad:[/color][/bold] 6 m/s
+  - [bold][color=#a4885c]Daño (tipo):[/color][/bold] 5 [color=red]Físico[/color]
+  - [bold][color=#a4885c]Resistencias:[/color][/bold] ninguna
+  - [bold][color=#a4885c]Habilidades especiales:[/color][/bold] ninguna
+
+  [bold][color=#a4885c]________________________________________________________________________[/color]
+
+  # «Rouny»
+
+  Una variante poco común del corredor.
+
+  <Box>
+  <GuideEntityEmbed Entity="MobXenoRouny"/>
+  </Box>
+  - [bold][color=#a4885c]Umbrales de salud:[/color][/bold] 50
+  - [bold][color=#a4885c]Velocidad:[/color][/bold] 6 m/s
+  - [bold][color=#a4885c]Daño (tipo):[/color][/bold] 5 [color=red]Físico[/color]
+  - [bold][color=#a4885c]Resistencias:[/color][/bold] ninguna
+  - [bold][color=#a4885c]Habilidades especiales:[/color][/bold] ninguna
+
+  [bold][color=#a4885c]________________________________________________________________________[/color]
+
+  # «Escupidor»
+
+  Un combatiente a distancia que ataca con ácido.
+
+  <Box>
+  <GuideEntityEmbed Entity="MobXenoSpitter"/>
+  </Box>
+  - [bold][color=#a4885c]Umbrales de salud:[/color][/bold] 50
+  - [bold][color=#a4885c]Velocidad:[/color][/bold] 4 m/s
+  - [bold][color=#a4885c]Daño (tipo):[/color][/bold] 5 [color=orange]Cáustico[/color]
+  - [bold][color=#a4885c]Resistencias:[/color][/bold] ninguna
+  - [bold][color=#a4885c]Habilidades especiales:[/color][/bold] Daño ácido
+
+  [bold][color=#a4885c]________________________________________________________________________[/color]
+
+  # «Torreta ácida»
+
+  Una estructura orgánica defensiva e inmóvil que dispara ácido.
+
+  <Box>
+  <GuideEntityEmbed Entity="WeaponTurretXeno"/>
+  </Box>
+  - [bold][color=#a4885c]Durabilidad:[/color][/bold] 100
+  - [bold][color=#a4885c]Daño (tipo):[/color][/bold] 5 [color=orange]Cáustico[/color]
+  - [bold][color=#a4885c]Resistencias:[/color][/bold] ninguna
+  - [bold][color=#a4885c]Habilidades especiales:[/color][/bold] Daño ácido
+
+  [bold][color=#a4885c]________________________________________________________________________[/color]
+
+  # «Reina»
+
+  El organismo principal de la colmena y el objetivo más peligroso.
+
+  <Box>
+  <GuideEntityEmbed Entity="MobXenoQueen"/>
+  </Box>
+  - [bold][color=#a4885c]Umbrales de salud:[/color][/bold] 300
+  - [bold][color=#a4885c]Velocidad:[/color][/bold] 4 m/s
+  - [bold][color=#a4885c]Daño (tipo):[/color][/bold] 12 [color=red]Físico[/color]
+  - [bold][color=#a4885c]Resistencias:[/color][/bold] ninguna
+  - [bold][color=#a4885c]Habilidades especiales:[/color][/bold] ninguna
+
+  [bold][color=#a4885c]________________________________________________________________________[/color]
+
+  # Objetivos de misión
+  ## Eliminación
+  <Box>
+  <GuideEntityEmbed Entity="MobXenoQueen"/>
+  </Box>
+  Elimina a un objetivo grande y peligroso —la [color=#a4885c]reina[/color]— dentro del tiempo asignado.
+
+  ## Destrucción
+  <Box>
+  <GuideEntityEmbed Entity="XenoWardingTower"/>
+  </Box>
+  Destruye el número requerido de [color=#a4885c]torres guardianas xeno[/color] dentro del tiempo asignado.
+</Document>

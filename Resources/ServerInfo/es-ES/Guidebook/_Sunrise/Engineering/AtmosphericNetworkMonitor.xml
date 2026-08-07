@@ -1,0 +1,47 @@
+﻿<Document>
+  # Monitor de redes atmosféricas
+  El monitor de redes atmosféricas es un ordenador que muestra información sobre las [textlink="redes de tuberías" link="PipeNetworks"] supervisadas de la estación.
+
+  <Box>
+    <GuideEntityEmbed Entity="ComputerAtmosMonitoring"/>
+  </Box>
+
+  Es una herramienta útil para evaluar rápidamente la temperatura, la presión y la composición gaseosa de las [textlink="redes de tuberías" link="PipeNetworks"] de la estación, además de su recorrido por ella.
+
+  ## Lista de redes
+  El monitor muestra una lista de todas las [textlink="redes de tuberías" link="PipeNetworks"] supervisadas de la estación.
+
+  Cada red recibe el nombre y el color del sensor de tubería de gas que la supervisa.
+  Para cambiar el nombre o el color de una red, renómbrala con una etiquetadora o píntala con una pistola de pintura.
+
+  Al hacer clic en una red se mostrará información detallada y se resaltará su recorrido en el mapa de la estación.
+
+  Esta información incluye la cantidad total de gas de la red en moles y su composición.
+  Resulta extremadamente útil para supervisar redes importantes como Distro, que no funciona correctamente por debajo de determinadas presiones.
+
+  ## Mapa de la estación
+  El monitor muestra en el mapa de la estación la ubicación de todas las [textlink="redes de tuberías" link="PipeNetworks"] y de los dispositivos conectados a ellas.
+  Ten en cuenta que una red no necesita tener conectado un sensor de tubería de gas para aparecer en el mapa.
+
+  Los dispositivos aparecen en el mapa con el mismo color que tienen en la estación. Esto ayuda a distinguir las distintas [textlink="redes de tuberías" link="PipeNetworks"] y los dispositivos conectados a ellas.
+
+  Los dispositivos de tuberías se agrupan en la leyenda del mapa según su función:
+  - [bold]Abertura de red[/bold]: dispositivo que conecta una red de tuberías con la atmósfera de la estación, como [textlink="respiraderos" link="AirVents"], [textlink="respiraderos pasivos" link="PassiveVent"] e [textlink="inyectores de aire" link="AirInjector"].
+  - [bold]Depurador atmosférico[/bold]: simplemente un [textlink="depurador atmosférico" link="AirScrubber"].
+  - [bold]Regulador de flujo[/bold]: dispositivo que controla el flujo de gas por una red de tuberías, como [textlink="bombas de gas" link="Pumps"], [textlink="válvulas de gas" link="Valves"] y [textlink="mezcladores/filtros de gas" link="MixingAndFiltering"]. La flecha del dispositivo indica el sentido del flujo y a menudo también determina dónde se separa o divide la red.
+  - [bold]Termorregulador[/bold]: cualquier dispositivo que afecte a la temperatura del gas de una red, como [textlink="termomáquinas" link="Thermomachines"], [textlink="radiadores" link="Radiators"] e incluso las criocápsulas médicas.
+
+  ## Sensores de tuberías de gas
+  Los monitores de redes atmosféricas recopilan datos de las [textlink="redes de tuberías" link="PipeNetworks"] mediante sensores de tuberías de gas.
+
+  <Box>
+    <GuideEntityEmbed Entity="GasPipeSensor"/>
+  </Box>
+
+  De forma predeterminada, la estación debe tener sensores en todas las [textlink="redes de tuberías" link="PipeNetworks"] principales, como Distro y Waste.
+
+  Si quieres supervisar una red nueva, construye un sensor de tubería de gas y aparecerá automáticamente en el monitor.
+  Asegúrate de construir el sensor en la red que quieres supervisar.
+  Las [textlink="redes de tuberías" link="PipeNetworks"] se separan fácilmente mediante una simple bomba o válvula de gas, por lo que el sensor podría acabar mostrando datos de una red completamente distinta.
+
+</Document>

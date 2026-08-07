@@ -1,0 +1,16 @@
+<Document>
+  # Tajaran
+
+  <Box>
+    <GuideEntityEmbed Entity="MobTajaran" Caption=""/>
+  </Box>
+
+  Tajaran are a feline species with claws and a distinctive accent.
+  Their unarmed attacks deal slash damage.
+  Flashes affect them more than usual.
+
+  They can leap short distances, like Vulpkanin.
+  They may spill liquid while drinking, though less often than Vulpkanin.
+  They leave species-specific footprints.
+
+</Document>

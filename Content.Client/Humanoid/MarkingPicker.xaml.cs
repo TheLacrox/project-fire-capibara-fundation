@@ -429,7 +429,12 @@ public sealed partial class MarkingPicker : Control
             colorSelector.SelectorType = ColorSelectorSliders.ColorSelectorType.Hsv; // defaults color selector to HSV
             colorSliders.Add(colorSelector);
 
-            colorContainer.AddChild(new Label { Text = $"{stateNames[i]} color:" });
+            // Fire edit start: локализация подписи цвета маркировки
+            colorContainer.AddChild(new Label
+            {
+                Text = Loc.GetString("marking-color-label", ("name", stateNames[i])),
+            });
+            // Fire edit end
             colorContainer.AddChild(colorSelector);
 
             var listing = _currentMarkings.Markings[_selectedMarkingCategory];

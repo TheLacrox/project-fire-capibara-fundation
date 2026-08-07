@@ -772,7 +772,7 @@ public sealed class StatsBoardSystem : EntitySystem
         if (TryComp<MetaDataComponent>(uid, out var metaDataComponent))
             return metaDataComponent.EntityName;
 
-        return "Кто это блядь?";
+        return Loc.GetString("generic-unknown-title"); // Fire edit - Локализация неизвестного имени.
     }
 }
 

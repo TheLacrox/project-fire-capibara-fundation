@@ -1,0 +1,29 @@
+﻿<Document>
+  # Estados
+
+  El Hombre Ardiente dispone de varios estados exclusivos que determinan sus capacidades y mecánicas.
+
+  Tanto si eres SCP-457 como si formas parte del personal del complejo, puedes identificar su estado por el tamaño con el que se representa a SCP-457 en pantalla.
+
+  [textlink="Información general sobre el Hombre Ardiente" link="Scp457About"]
+
+  ## Estado medio
+
+  En este estado, el Hombre Ardiente no puede entrar en el sistema de ventilación ni destruye estructuras al chocar contra ellas. Es el estado predeterminado del objeto cuando aparece en la ronda.
+
+  Para cambiar de estado, debe absorber suficiente combustible o esperar hasta que su llama pierda intensidad.
+
+  ## Estado pequeño
+
+  En este estado, el Hombre Ardiente tiene poca salud e inflige poco daño, pero puede entrar en el sistema de ventilación y atravesar compuertas herméticas y esclusas.
+  El Hombre Ardiente pasa a este estado 12 minutos después del inicio de la ronda.
+
+  Ten en cuenta que durante los primeros 15 minutos de la ronda no podrás entrar en el sistema de ventilación aunque estés en el estado pequeño.
+
+  [textlink="Más información sobre la mecánica del Tiempo de seguridad" link="Scp457Abilities"]
+
+  ## Estado grande
+
+  En este estado, el objeto es muy grande y fuerte, y puede destruir estructuras al chocar contra ellas.
+  El Hombre Ardiente pasa a este estado después de absorber suficiente combustible.
+</Document>

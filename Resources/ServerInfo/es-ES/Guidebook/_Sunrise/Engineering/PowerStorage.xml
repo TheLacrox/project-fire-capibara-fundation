@@ -1,0 +1,59 @@
+<Document>
+  # Almacenamiento de energía
+  Debido a la [textlink="adaptación de la red" link="Ramping"], el consumo de la estación rara vez es uniforme. Los acumuladores suavizan los picos y las caídas breves, además de proporcionar un margen de tiempo cuando la generación no cubre temporalmente la demanda.
+
+  Cada transformador ([color=orange]HV[/color], [color=yellow]MV[/color], [color=green]LV[/color]) posee un pequeño búfer, pero para mantener en funcionamiento todo un sector de la estación se necesitan unidades SMES.
+
+  ## SMES básico
+  Una unidad de almacenamiento de energía magnética superconductora (SMES) recibe [color=orange]HV[/color] mediante un terminal de cable y entrega energía a la red por el cable situado debajo.
+
+  <Box>
+    <GuideEntityEmbed Entity="SMESBasic"/>
+  </Box>
+
+  El terminal separa la entrada de la salida para evitar que ambas líneas se conecten entre sí.
+
+  <Box HorizontalAlignment="Stretch">
+    <Box>
+      <GuideEntityEmbed Entity="CableTerminal"/>
+    </Box>
+
+    <Box>
+      <GuideEntityEmbed Entity="CableHV" Caption="Salida"/>
+      <GuideEntityEmbed Entity="SMESBasic" Caption="" Margin="0"/>
+      <GuideEntityEmbed Entity="CableTerminal" Caption="" Margin="0" Rotation="270"/>
+      <GuideEntityEmbed Entity="CableHV" Caption="Entrada"/>
+    </Box>
+  </Box>
+
+  El SMES básico almacena [color=orange][protodata="SMESBasic" comp="Battery" member="MaxCharge" format="N0"/] J[/color] y puede suministrar hasta [color=orange][protodata="SMESBasic" comp="PowerNetworkBattery" member="MaxSupply" format="N0"/] W[/color].
+
+  ## SMES avanzado
+  Una variante mejorada para las matrices de suministro de la estación y para mantenerlas activas durante más tiempo cuando falte generación.
+
+  <Box>
+    <GuideEntityEmbed Entity="SMESAdvanced"/>
+  </Box>
+
+  El SMES avanzado almacena [color=orange][protodata="SMESAdvanced" comp="Battery" member="MaxCharge" format="N0"/] J[/color] y suministra hasta [color=orange][protodata="SMESAdvanced" comp="PowerNetworkBattery" member="MaxSupply" format="N0"/] W[/color].
+
+  ## SMES ampliado
+  Un gran acumulador de Sunrise para los tramos de red de alta potencia.
+
+  <Box>
+    <GuideEntityEmbed Entity="SMESExtended"/>
+  </Box>
+
+  El SMES ampliado almacena [color=orange][protodata="SMESExtended" comp="Battery" member="MaxCharge" format="N0"/] J[/color] y suministra hasta [color=orange][protodata="SMESExtended" comp="PowerNetworkBattery" member="MaxSupply" format="N0"/] W[/color].
+
+  ## SMES superampliado
+  El acumulador superior de Sunrise para redes con cargas enormes y reservas de larga duración.
+
+  <Box>
+    <GuideEntityEmbed Entity="SMESSuperExtended"/>
+  </Box>
+
+  El SMES superampliado almacena [color=orange][protodata="SMESSuperExtended" comp="Battery" member="MaxCharge" format="N0"/] J[/color] y suministra hasta [color=orange][protodata="SMESSuperExtended" comp="PowerNetworkBattery" member="MaxSupply" format="N0"/] W[/color].
+
+  Ni siquiera los SMES de mayor capacidad sustituyen a la generación: si la demanda total supera de forma constante la producción, las baterías acabarán descargándose.
+</Document>

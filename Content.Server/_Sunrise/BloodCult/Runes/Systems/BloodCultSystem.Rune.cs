@@ -99,7 +99,7 @@ namespace Content.Server._Sunrise.BloodCult.Runes.Systems
                 return;
 
             var revivals = Math.Max(0, rule.SacrificeCount / 3);
-            args.PushMarkup($"[bold][color=white] Доступно воскрешений: {revivals} [/color][bold]");
+            args.PushMarkup(Loc.GetString("cult-rune-revive-examine-uses", ("revivals", revivals))); // Fire edit - Локализация осмотра руны.
         }
 
         private void TeleportRuneInit(EntityUid uid, CultRuneTeleportComponent component, MapInitEvent args)
@@ -125,7 +125,7 @@ namespace Content.Server._Sunrise.BloodCult.Runes.Systems
 
             args.Verbs.Add(new ActivationVerb()
             {
-                Text = "Изменить название",
+                Text = Loc.GetString("cult-rune-rename-verb"), // Fire edit - Локализация глагола.
                 Act = () =>
                 {
                     _ui.OpenUi(uid, NameSelectorUIKey.Key, actorComponent.PlayerSession);
@@ -145,7 +145,7 @@ namespace Content.Server._Sunrise.BloodCult.Runes.Systems
 
             args.Verbs.Add(new ActivationVerb()
             {
-                Text = "Начертить руну",
+                Text = Loc.GetString("cult-rune-draw-verb"), // Fire edit - Локализация глагола.
                 Act = () =>
                 {
                     _ui.OpenUi(uid, ListViewSelectorUiKey.Key, actorComponent.PlayerSession);
@@ -197,7 +197,7 @@ namespace Content.Server._Sunrise.BloodCult.Runes.Systems
 
                 if (!targetsKill)
                 {
-                    _popupSystem.PopupEntity("Цели не были принесены в жертву.", whoCalled, whoCalled);
+                    _popupSystem.PopupEntity(Loc.GetString("cult-narsie-not-completed-tasks"), whoCalled, whoCalled); // Fire edit - Локализация видимого сообщения.
                     return false;
                 }
 
@@ -1039,13 +1039,13 @@ namespace Content.Server._Sunrise.BloodCult.Runes.Systems
 
             if (isPulled)
             {
-                _popupSystem.PopupEntity("Его кто-то держит!", args.Actor);
+                _popupSystem.PopupEntity(Loc.GetString("cult-sacrifice-target-held"), args.Actor); // Fire edit - Локализация видимого сообщения.
                 return;
             }
 
             if (isCuffed)
             {
-                _popupSystem.PopupEntity("Он в наручниках!", args.Actor);
+                _popupSystem.PopupEntity(Loc.GetString("cult-sacrifice-target-cuffed"), args.Actor); // Fire edit - Локализация видимого сообщения.
                 return;
             }
 

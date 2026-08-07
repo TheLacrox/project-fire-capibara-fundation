@@ -1,0 +1,30 @@
+﻿<Document>
+  # Computadora de alertas atmosféricas
+  La computadora de alertas atmosféricas muestra información sobre todas las alarmas atmosféricas y de incendios de la estación.
+
+  <Box>
+    <GuideEntityEmbed Entity="ComputerAlert"/>
+  </Box>
+
+  Es una herramienta útil para encontrar con rapidez las zonas que requieren atención.
+
+  Suele estar situada en Atmosféricos, donde los técnicos atmosféricos la utilizan para vigilar la atmósfera de toda la estación.
+  No obstante, también ofrece a los demás ingenieros un buen indicador de los daños sufridos por la estación.
+
+  La computadora muestra listas de las alarmas atmosféricas en estado [color=orange]Advertencia[/color] y [color=red]Peligro[/color]. También indica en el mapa la ubicación de todas ellas, coloreadas según su estado actual.
+
+  Las alarmas atmosféricas con estado Normal permanecen ocultas de forma predeterminada.
+  Su visibilidad puede alternarse mediante los filtros de la parte inferior de la interfaz.
+
+  El mapa dibuja un contorno alrededor de la zona supervisada por cada alarma atmosférica, lo que ayuda a localizar las áreas peligrosas.
+  El color del contorno cambia según el estado de la alarma.
+
+  Si una alarma atmosférica no recibe energía, aparecerá en gris tanto en la lista como en el mapa.
+
+  Al seleccionar una alarma atmosférica en la lista o el mapa, se muestra información detallada sobre la atmósfera de esa zona para ayudarte a identificar el tipo de incidente.
+
+  La computadora de alertas atmosféricas también muestra en una pestaña independiente la lista de [textlink="alarmas de incendios" link="FireAndGasControl"] activadas. Esto permite localizar rápidamente las zonas donde podría haber un incendio.
+
+  Las alertas concretas, como las procedentes de cámaras de combustión y congeladores, pueden silenciarse: selecciona la alerta en la lista y pulsa el botón «Silenciar alertas».
+  Esto la ocultará de la lista, pero seguirá apareciendo en el mapa.
+</Document>

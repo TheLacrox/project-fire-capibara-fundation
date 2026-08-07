@@ -1,0 +1,16 @@
+ent-BoxVialScpBase = caja de viales
+    .desc = Una caja de cartón con separadores para transportar viales de forma segura.
+ent-BoxVialScpBaseSecure = { ent-BoxVialScpBase }
+    .desc = { ent-BoxVialScpBase.desc }
+ent-BoxVialAmnesiacA = caja con viales de amnésico de clase A
+    .desc = Contiene tres viales. { reagent-amnesiac-a-desc }
+    .suffix = Amnésico A
+ent-BoxVialAmnesiacB = caja con viales de amnésico de clase B
+    .desc = Contiene tres viales. { reagent-amnesiac-b-desc }
+    .suffix = Amnésico B
+ent-BoxVialAmnesiacC = caja con viales de amnésico de clase C
+    .desc = Contiene tres viales. { reagent-amnesiac-c-desc }
+    .suffix = Amnésico C
+ent-BoxVialAmnesiacD = caja con viales de amnésico de clase D
+    .desc = Contiene tres viales. { reagent-amnesiac-d-desc }
+    .suffix = Amnésico D

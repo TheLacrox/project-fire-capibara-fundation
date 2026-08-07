@@ -1,0 +1,21 @@
+# Fire added - добавлен отсутствовавший английский исходник для амнестиков и мнестиков SCP
+reagent-amnesiac-a-name = Class-A amnestic
+reagent-amnesiac-a-desc = A Class-A amnestic that erases the victim's memories of the last hour. Its mild effect allows it to be administered as an aerosol.
+reagent-amnesiac-b-name = Class-B amnestic
+reagent-amnesiac-b-desc = A Class-B amnestic that erases the victim's memories of the last 24 hours.
+reagent-amnesiac-c-name = Class-C amnestic
+reagent-amnesiac-c-desc = A Class-C amnestic that erases the victim's memories of the last month.
+reagent-amnesiac-d-name = Class-D amnestic
+reagent-amnesiac-d-desc = A Class-D amnestic that completely erases the victim's identity.
+reagent-amnesiac-raw-name = raw amnestic
+reagent-amnesiac-raw-desc = Raw material used to produce substances known as amnestics.
+reagent-amnesiac-a-msg = You forget the last hour of your life.
+reagent-amnesiac-b-msg = You forget the last 24 hours of your life.
+reagent-amnesiac-c-msg = You forget the last month of your life.
+reagent-amnesiac-d-msg = You forget who you are, where you are, and what you are doing here.
+reagent-mnestic-w-name = Class-W mnestic
+reagent-mnestic-w-desc = A Class-W mnestic that allows information about antimemes to be perceived and retained.
+reagent-mnestic-x-name = Class-X mnestic
+reagent-mnestic-x-desc = A Class-X mnestic that restores memories suppressed by amnestics and information about previously perceived antimemes.
+reagent-mnestic-w-msg = You can now perceive and retain memories of antimemes for 30 minutes.
+reagent-mnestic-x-msg = You remember what was forgotten.

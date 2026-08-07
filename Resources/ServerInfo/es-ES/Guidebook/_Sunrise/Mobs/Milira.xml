@@ -1,0 +1,22 @@
+<Document>
+  # Milira
+
+  <Box>
+    <GuideEntityEmbed Entity="MobMilira" Caption=""/>
+  </Box>
+
+  Los milira poseen alas que pueden desplegar y plegar.
+  Son sensibles a las temperaturas elevadas.
+
+  Reciben [color=#ffa500]un 15% más de daño contundente y por calor[/color],
+  [color=#ffa500]un 10% más de daño cortante y perforante[/color],
+  pero [color=#1e90ff]un 30% menos de daño por frío[/color].
+
+  <Box>
+    <GuideEntityEmbed Entity="ClothingOuterArmorMiliraLight" Caption=""/>
+    <GuideEntityEmbed Entity="ClothingOuterArmorMiliraHeavy" Caption=""/>
+    <GuideEntityEmbed Entity="ClothingOuterHardsuitMilira" Caption=""/>
+  </Box>
+
+  Las armaduras y los trajes espaciales normales impiden que los milira desplieguen las alas libremente, pero las armaduras especiales diseñadas para ellos les permiten abrirlas y volar.
+</Document>

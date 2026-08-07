@@ -1,4 +1,5 @@
 using Robust.Shared.Audio;
+using Robust.Shared.Localization;
 using Robust.Shared.Prototypes;
 
 namespace Content.Shared._Sunrise.InteractionsPanel.Data.Prototypes;
@@ -11,7 +12,7 @@ public sealed partial class InteractionSoundPrototype: IPrototype
     public string ID { get; private set; } = default!;
 
     [DataField]
-    public string Name { get; private set; } = string.Empty;
+    public LocId Name { get; private set; } = string.Empty; // Fire edit - Локализуемое название.
 
     [DataField]
     public SoundSpecifier Sound { get; private set; } = default!;

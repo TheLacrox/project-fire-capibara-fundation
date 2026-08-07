@@ -1,0 +1,75 @@
+<Document>
+# Cocinero
+Todo el mundo tiene que comer, y el cocinero se encarga de que la tripulación pueda llevarse a la boca algo mejor que comida basura.
+
+
+[textlink="Haz clic aquí para consultar la lista de recetas de cocina." link="FoodRecipes"]
+
+Antes de nada, tendrás que familiarizarte con la cocina y las herramientas disponibles.
+
+<Box>
+<GuideEntityEmbed Entity="KitchenKnife"/>
+<GuideEntityEmbed Entity="LargeBeaker"/>
+<GuideEntityEmbed Entity="ReagentContainerFlour"/>
+<GuideEntityEmbed Entity="FoodContainerEgg"/>
+<GuideEntityEmbed Entity="MobCow"/>
+</Box>
+<Box>
+<GuideEntityEmbed Entity="VendingMachineChefvend" Caption="Expendedora del cocinero"/>
+<GuideEntityEmbed Entity="KitchenMicrowave"/>
+<GuideEntityEmbed Entity="KitchenSpike"/>
+<GuideEntityEmbed Entity="VendingMachineDinnerware" Caption="Expendedora de vajilla"/>
+</Box>
+
+## Preparación de la cocina:
+
+Es difícil explicar cómo trabajar de cocinero sin que parezca una lista de órdenes, pero estos son los conceptos básicos.
+
+- Comprueba los ingredientes disponibles. La mayoría de las cocinas comienzan con algo de harina, arroz, huevos, cubos de mono y unas cuantas cosas más.
+- Prueba a preparar masa mezclando agua y harina en un vaso de precipitados. ¡Utiliza los fregaderos!
+- Consulta la wiki o la sección Recetas de cocina del manual, introduce en el microondas todos los ingredientes indicados y cocina el plato.
+- Coloca trampas para ratones. Sí, en serio. Si no tomas precauciones contra las plagas, todo tu trabajo puede desaparecer en un instante.
+
+Cuando tengas más experiencia y conozcas los platos disponibles, te convendrá preparar varios menús o una «chuleta» con la que facilitar a Botánica una lista de ingredientes.
+
+## Preparar masa:
+Mezcla harina y agua en un vaso de precipitados. ¡Saca el agua del fregadero!
+<Box>
+<GuideEntityEmbed Entity="LargeBeaker"/>
+<GuideEntityEmbed Entity="ReagentContainerFlour"/>
+<GuideEntityEmbed Entity="DrinkWaterBottleFull" Caption="agua"/>
+<GuideEntityEmbed Entity="FoodDough"/>
+</Box>
+## Preparar harina:
+Introduce trigo en un molinillo, coloca un vaso de precipitados dentro y tritúralo.
+<Box>
+<GuideEntityEmbed Entity="KitchenReagentGrinder"/>
+<GuideEntityEmbed Entity="LargeBeaker"/>
+<GuideEntityEmbed Entity="WheatBushel"/>
+<GuideEntityEmbed Entity="ReagentContainerFlour"/>
+</Box>
+## Conseguir plantas:
+Pide a Botánica lo que necesites. Si no hay ningún botánico, quizá tengas que cultivar las plantas por tu cuenta.
+<Box>
+<GuideEntityEmbed Entity="SignHydro1" Caption=" "/>
+<GuideEntityEmbed Entity="hydroponicsTray"/>
+<GuideEntityEmbed Entity="WheatBushel"/>
+</Box>
+## Obtener leche:
+Haz Alt + clic en una vaca mientras sostienes un recipiente, como un vaso de precipitados, un cubo o una jarra de leche.
+<Box>
+<GuideEntityEmbed Entity="Bucket"/>
+<GuideEntityEmbed Entity="MobCow"/>
+<GuideEntityEmbed Entity="DrinkMilkCarton"/>
+</Box>
+## Cómo despiezar:
+En la mayoría de los casos, podrás utilizar un cuchillo directamente sobre una criatura muerta. Es mejor hacerlo en el congelador, porque el resultado es... desagradable.
+
+Sin embargo, para despiezar monos y otros humanoides tendrás que arrastrarlos hasta un gancho de carne.
+<Box>
+<GuideEntityEmbed Entity="KitchenSpike"/>
+<GuideEntityEmbed Entity="KitchenKnife"/>
+<GuideEntityEmbed Entity="MobMonkey"/>
+<GuideEntityEmbed Entity="FoodMeat"/>
+</Box>
+</Document>

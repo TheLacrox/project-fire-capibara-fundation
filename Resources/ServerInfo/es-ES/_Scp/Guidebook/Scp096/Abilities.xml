@@ -1,0 +1,44 @@
+﻿<Document>
+  # Habilidades de SCP-096
+
+  Aquí se describen las habilidades activables de las que dispone la entidad y sus mecánicas exclusivas.
+
+  [textlink="Información general sobre el Tímido" link="Scp096About"]
+
+  ## Habilidad «Proferir un grito lastimero»
+
+  Al activar esta habilidad, se genera una potente resonancia anómala que destruye las estructuras cercanas mediante una onda sonora.
+  Esta habilidad solo funciona dentro de la cámara de contención. Úsala para destruir la cámara.
+
+  [textlink="Más información sobre los métodos de fuga" link="Scp096ContainmentBreach"]
+
+  ## Habilidad «Desollarse el rostro»
+
+  Al activar esta habilidad, te infliges daño en el rostro y salpicas tu sangre por todas partes.
+  Usarla 5 veces seguidas provocará daños críticos en tu rostro y te hará pasar al estado «Rostro desollado».
+
+  [textlink="Más información sobre los estados" link="Scp096States"]
+
+  [bold]Para activar esta habilidad, debes permanecer quieto durante un par de segundos, hasta que se complete la barra de progreso situada sobre tu cabeza.[/bold]
+
+  ¡La habilidad tiene un tiempo de recarga largo!
+
+  ## Habilidad «Sentarse»
+
+  Al activar esta habilidad, pasas al estado «Sentado». La entidad cambia de aspecto y pierde la capacidad de moverse.
+  En este estado, el Tímido segrega lágrimas con más frecuencia.
+
+  En general, este estado no tiene utilidad práctica. Puedes usarlo en cualquier momento.
+
+  ## Mecánica del periodo de seguridad
+
+  Durante los primeros 15 minutos de la ronda no podrás usar la habilidad «Desollarse el rostro».
+
+  Esta mecánica limita a las entidades SCP al comienzo de la ronda y da al personal tiempo para prepararse para el turno.
+
+  ## Mecánica de la visión
+
+  El juego cuenta con un sistema exclusivo que comprueba si cada personaje puede ver a los demás.
+
+  [bold]Si tú y otra persona os miráis directamente a la cara, pasarás al estado «Ira incipiente» y después al estado «Ira».[/bold] La persona que te haya visto se convertirá en un objetivo válido al que podrás eliminar con facilidad.
+</Document>

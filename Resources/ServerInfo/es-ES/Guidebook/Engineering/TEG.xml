@@ -1,0 +1,234 @@
+<Document>
+  # Motor termoeléctrico (TEG)
+
+  El TEG genera energía intercambiando calor entre gases calientes y fríos.
+  En la estación, el gas caliente suele obtenerse quemando plasma, mientras una matriz de tuberías de [textlink="intercambio térmico" link="Radiators"] en el espacio irradia el calor para enfriar los gases en circulación.
+
+  El TEG depende en gran medida de los [textlink="sistemas atmosféricos" link="Atmospherics"] y sus [textlink="tuberías" link="Pipes"].
+  Sus únicos componentes realmente especiales son el núcleo generador y los circuladores; todo lo demás es equipo atmosférico convencional.
+  Aunque la disposición exacta puede variar mucho según la estación, los componentes y la instalación generales suelen ser los mismos.
+
+  ## Generador
+
+  El generador principal es una máquina compuesta por 3 piezas: el generador central y dos «circuladores», dispuestos así:
+
+  <Box>
+    <GuideEntityEmbed Entity="TegCirculator" Rotation="180" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="TegCenter" Rotation="90" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="TegCirculator" Caption="" Margin="0"/>
+  </Box>
+
+  Los circuladores reciben gas caliente o frío y lo hacen pasar por la máquina para intercambiar calor.
+  Después, el gas sale por el otro extremo del circulador. El generador produce la energía y la transmite por un [color=orange]cable de HV[/color].
+
+  Ten en cuenta que los circuladores son [color=#a4885c]direccionales[/color]: solo dejan pasar el gas en un sentido.
+  Puedes comprobar el sentido dentro del juego examinando el circulador.
+  Debe existir una diferencia de presión entre la entrada y la salida, por lo que suelen instalarse bombas que hay que encender.
+
+  No importa qué lado sea el caliente o el frío; basta con que exista una diferencia de temperatura entre ambos.
+  Los gases de los dos «circuitos» nunca se mezclan: [color=#a4885c]solo intercambian energía[/color].
+  El lado caliente se enfriará y el frío se calentará.
+
+  ## Las tuberías
+
+  Hay 2 [textlink="redes de tuberías" link="PipeNetworks"] principales que debes tener en cuenta: [color=red]el circuito caliente[/color] (donde se quema gas para generar calor) y [color=cyan]el circuito frío[/color] (donde el gas residual calentado se expulsa al espacio o se vuelve a enfriar).
+  Asegúrate de que [color=#a4885c][bold]las dos [textlink="redes de tuberías" link="PipeNetworks"] NO se mezclen[/bold][/color], pues el TEG solo debe transferir calor entre ellas.
+
+  # El circuito caliente
+
+  Como sin duda dijo alguna vez una persona sabia: la mejor forma de calentar algo es prenderle fuego.
+  Bueno, quizá no sea tan sabio según el contexto, pero por suerte el Departamento de Ingeniería tiene justo lo necesario para hacerlo con sensatez.
+
+  Como ya se ha indicado, hay muchas instalaciones posibles para calentar (o enfriar) gases. Esta parte de la guía explica algunos métodos habituales para el circuito caliente que utilizan [color=red]la cámara de combustión[/color].
+
+  Nota al margen: los incendios de plasma arden a temperaturas relativamente bajas en comparación, por ejemplo, con los de tritio.
+  Puede resultar viable extraer tritio mediante una instalación de extracción y hacerlo reaccionar con oxígeno para alcanzar temperaturas verdaderamente infernales y generar energía.
+
+  ## La cámara de combustión
+
+  La cámara de combustión es el método preferido para calentar gases y también suele emplearse con otros fines (véase: producción de tritio).
+
+  En la mayoría de las estaciones (si no en todas), una franja de rejilla de 1 baldosa separa la cámara de combustión del bloque principal de Atmosféricos para impedir que una brecha envíe gas abrasador hacia el departamento. Las cámaras constan de 3 partes importantes:
+  - El [textlink="inyector de aire" link="AirInjector"]/[textlink="respiradero pasivo" link="PassiveVent"]
+  - La salida al espacio
+  - La matriz de [textlink="depuradores" link="AirScrubber"]
+
+  Esta es una capa de una instalación de ejemplo:
+  <Box>
+    <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="BlastDoorOpen" Rotation="0" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="ReinforcedPlasmaWindow" Rotation="0" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="GasVentScrubber" Rotation="90" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="GasPipeTJunction" Rotation="0" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="GasVentScrubber" Rotation="-90" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="ReinforcedPlasmaWindow" Rotation="0" Caption="" Margin="0"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="ReinforcedPlasmaWindow" Rotation="0" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="GasPassiveVent" Rotation="0" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="GasPipeTJunction" Rotation="90" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="GasVentScrubber" Rotation="-90" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="ReinforcedPlasmaWindow" Rotation="0" Caption="" Margin="0"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="ReinforcedPlasmaWindow" Rotation="0" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="ReinforcedPlasmaWindow" Rotation="0" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="ReinforcedPlasmaWindow" Rotation="0" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
+  </Box>
+
+  El [textlink="inyector de aire" link="AirInjector"] (o el [textlink="respiradero pasivo" link="PassiveVent"]) inyecta aire (o permite que fluya) hacia la cámara de combustión.
+  En ambos casos debe colocarse una bomba antes del dispositivo para mantener una presión elevada.
+
+  Existe una diferencia importante entre el [textlink="respiradero pasivo" link="PassiveVent"] y el [textlink="inyector de aire" link="AirInjector"]: el [textlink="inyector de aire" link="AirInjector"] solo puede inyectar aire hasta [color=#a4885c]9MPa[/color], presión que se alcanza con facilidad durante una buena combustión.
+  Lo ideal es sustituir el [textlink="inyector de aire" link="AirInjector"] por un [textlink="respiradero pasivo" link="PassiveVent"] conectado a una bomba volumétrica.
+
+  La salida al espacio (una compuerta blindada que da al espacio en un lado de la cámara) permite expulsar y eliminar los gases residuales.
+  Ábrela de vez en cuando para mantener la presión bajo control o expulsar el exceso de gas de entrada al espacio.
+  Incluso puede resultarte útil la válvula neumática para expulsar el gas de vez en cuando.
+
+  La matriz de [textlink="depuradores" link="AirScrubber"] filtra todos los gases quemados y los envía a través del TEG.
+  Usar los ajustes predeterminados de los [textlink="depuradores" link="AirScrubber"] es mala idea, ya que también filtrarán el valioso plasma.
+
+  En su lugar, utiliza un configurador de red para conectar todos los [textlink="depuradores" link="AirScrubber"] a una alarma atmosférica cercana. Configura los [textlink="depuradores" link="AirScrubber"] desde la alarma para filtrar todo salvo oxígeno y plasma, y también para extraer el aire.
+  Así se recoge y envía al TEG todo el calor disponible.
+
+  Esta es solo una de las muchas formas de montar el circuito caliente; [color=#a4885c]¡combina instalaciones como mejor te convenga![/color]
+  ¡Puedes sustituir las [textlink="bombas de presión" link="Pumps"] por [textlink="bombas volumétricas" link="Pumps"], usar circuitos de [textlink="radiadores" link="Radiators"] para recoger calor o incluso recurrir a una anomalía piroclástica!
+  ¡Las estrellas son el límite!
+
+  # El circuito frío
+
+  Al igual que el circuito caliente, el circuito frío también debe prepararse para que el TEG funcione.
+  Sin embargo, el circuito frío suele ser mucho más sencillo que el caliente; en realidad, solo tiene que estar «relativamente» más frío. Al fin y al cabo, la temperatura ambiente es técnicamente inferior a la de la superficie del Sol, ¿no?
+
+  Existen 3 métodos principales para el circuito frío: [color=#a4885c]el enfriamiento por agua[/color] (véase el vídeo de Liltenhead sobre el TEG), [color=cyan]la matriz refrigerante[/color] y [color=#a4885c]el circuito congelador[/color].
+
+  ## El enfriamiento por agua
+
+  Tan rudimentario como quemar dentro de una tubería, este método consiste en tomar un gas inútil (en este caso, vapor de agua), hacerlo pasar por el TEG y expulsarlo al espacio. Es baratísimo y sencillo, a costa de la eficiencia y de perder el gas para siempre.
+
+  La instalación es tan sencilla que hasta Hamlet podría hacerla. Toma una salida de gas (aquí, vapor de agua), hazlo pasar por el lado frío del TEG y luego expúlsalo al espacio.
+
+  <Box>
+    <GuideEntityEmbed Entity="GasPressurePump" Rotation="90" Caption="" Margin="-1"/>
+    <GuideEntityEmbed Entity="GasPipeStraight" Rotation="90" Caption="" Margin="-1"/>
+    <GuideEntityEmbed Entity="TegCirculator" Rotation="90" Caption="" Margin="-1"/>
+    <GuideEntityEmbed Entity="GasPipeStraight" Rotation="90" Caption="" Margin="-1"/>
+    <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="GasPassiveVent" Rotation="270" Caption="" Margin="-1"/>
+  </Box>
+
+  ## Matriz refrigerante
+
+  Este es el método predeterminado para el circuito frío en muchas estaciones.
+  Como tiene una complejidad moderada y no desperdicia ningún recurso, este [color=#a4885c]debería[/color] ser el método principal para enfriar el TEG.
+  Sin embargo, actualmente la mayoría de las estaciones tienen los radiadores mal conectados (o proponen tuberías incorrectas), lo que reduce mucho su eficiencia.
+
+  Para utilizar correctamente los intercambiadores de calor, deben instalarse en [color=#a4885c]paralelo[/color], no en serie (como ocurre en la mayoría de las estaciones).
+  Debe colocarse una bomba de gas a presión máxima después de los intercambiadores y una bomba volumétrica antes de ellos.
+  El caudal de la bomba volumétrica debe ajustarse con la siguiente fórmula:
+  <Box>
+    [color=cyan]( 200 / número de intercambiadores de calor )[/color] L/s.
+  </Box>
+
+  En pocas palabras, la matriz refrigerante consta de 3 partes principales: un puerto conector de entrada, varias bombas y la matriz de intercambiadores de calor situada en el espacio.
+  Puede instalarse así:
+
+  <Box>
+    <GuideEntityEmbed Entity="GasPipeBend" Rotation="90" Caption="" Margin="-1"/>
+    <GuideEntityEmbed Entity="GasPipeTJunction" Rotation="0" Caption="" Margin="-1"/>
+    <GuideEntityEmbed Entity="GasPipeTJunction" Rotation="0" Caption="" Margin="-1"/>
+    <GuideEntityEmbed Entity="GasPipeTJunction" Rotation="0" Caption="" Margin="-1"/>
+    <GuideEntityEmbed Entity="GasPipeTJunction" Rotation="0" Caption="" Margin="-1"/>
+    <GuideEntityEmbed Entity="GasPipeBend" Rotation="0" Caption="" Margin="-1"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="HeatExchanger" Rotation="0" Caption="" Margin="-1"/>
+    <GuideEntityEmbed Entity="HeatExchanger" Rotation="0" Caption="" Margin="-1"/>
+    <GuideEntityEmbed Entity="HeatExchanger" Rotation="0" Caption="" Margin="-1"/>
+    <GuideEntityEmbed Entity="HeatExchanger" Rotation="0" Caption="" Margin="-1"/>
+    <GuideEntityEmbed Entity="HeatExchanger" Rotation="0" Caption="" Margin="-1"/>
+    <GuideEntityEmbed Entity="GasPipeStraight" Rotation="0" Caption="" Margin="-1"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="GasPipeTJunction" Rotation="90" Caption="" Margin="-1"/>
+    <GuideEntityEmbed Entity="GasPipeTJunction" Rotation="180" Caption="" Margin="-1"/>
+    <GuideEntityEmbed Entity="GasPipeTJunction" Rotation="180" Caption="" Margin="-1"/>
+    <GuideEntityEmbed Entity="GasPipeTJunction" Rotation="180" Caption="" Margin="-1"/>
+    <GuideEntityEmbed Entity="GasPipeBend" Rotation="270" Caption="" Margin="-1"/>
+    <GuideEntityEmbed Entity="GasPipeStraight" Rotation="0" Caption="" Margin="-1"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="ReinforcedWindow" Rotation="0" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="ReinforcedWindow" Rotation="0" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="ReinforcedWindow" Rotation="0" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="ReinforcedWindow" Rotation="0" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="GasPipeBend" Rotation="180" Caption="" Margin="-1"/>
+    <GuideEntityEmbed Entity="GasPressurePump" Rotation="90" Caption="" Margin="-1"/>
+    <GuideEntityEmbed Entity="TegCirculator" Rotation="90" Caption="" Margin="-1"/>
+    <GuideEntityEmbed Entity="GasPipeTJunction" Rotation="0" Caption="" Margin="-1"/>
+    <GuideEntityEmbed Entity="GasVolumePump" Rotation="90" Caption="" Margin="-1"/>
+    <GuideEntityEmbed Entity="GasPipeBend" Rotation="270" Caption="" Margin="-1"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="TegCenter" Rotation="0" Caption="" Margin="-1"/>
+    <GuideEntityEmbed Entity="GasPort" Rotation="180" Caption="" Margin="-1"/>
+  </Box>
+
+  - Puerto conector: úsalo para introducir un gas con gran capacidad térmica. Normalmente se emplea plasma o frezón, pues ambos tienen una capacidad térmica específica muy alta (aunque sirve casi cualquier gas). (Sí, plasma =/= caliente. Puedes enfriarlo y funciona como un excelente medio de intercambio térmico).
+  - Bombas de entrada/salida: garantizan que el gas siga fluyendo por el circulador y la matriz de radiadores. A medida que se enfría y se calienta (y mientras atraviesa el intercambiador), hay que aplicar presión para mantenerlo en movimiento.
+  - Radiador: básicamente, un conjunto de radiadores en el espacio. No hay mucho que añadir salvo que enfrían el gas de su interior. ¡Asegúrate de que estén [color=#a4885c]colocados sobre rejillas, no sobre placas[/color]! De lo contrario, la eficiencia del intercambio térmico se reducirá mucho, pues los radiadores no estarán expuestos directamente al espacio por debajo.
+
+  ## El circuito congelador
+
+  Este método suele utilizarse en instalaciones eficientes del TEG.
+  Es, en esencia, la matriz refrigerante con un congelador en lugar de radiadores.
+  Aunque el congelador consume energía, solo supone una pequeña fracción de lo que genera el TEG y actualmente funciona mejor que la matriz refrigerante predeterminada, así que adelante.
+
+  Sigue los pasos de la matriz refrigerante, pero sustituye los intercambiadores de calor por un congelador, así:
+  <Box>
+    <GuideEntityEmbed Entity="GasPort" Rotation="90" Caption="" Margin="-1"/>
+    <GuideEntityEmbed Entity="GasPipeBend" Rotation="0" Caption="" Margin="-1"/>
+    <GuideEntityEmbed Entity="GasThermoMachineFreezerEnabled" Caption="" Rotation="0" Margin="0"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="GasPipeBend" Rotation="90" Caption="" Margin="-1"/>
+    <GuideEntityEmbed Entity="GasVolumePump" Rotation="270" Caption="" Margin="-1"/>
+    <GuideEntityEmbed Entity="GasPipeTJunction" Rotation="180" Caption="" Margin="-1"/>
+    <GuideEntityEmbed Entity="GasPipeTJunction" Rotation="180" Caption="" Margin="-1"/>
+    <GuideEntityEmbed Entity="GasPipeBend" Rotation="0" Caption="" Margin="-1"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="GasPipeBend" Rotation="180" Caption="" Margin="-1"/>
+    <GuideEntityEmbed Entity="GasPipeStraight" Rotation="90" Caption="" Margin="-1"/>
+    <GuideEntityEmbed Entity="TegCirculator" Rotation="90" Caption="" Margin="-1"/>
+    <GuideEntityEmbed Entity="GasPipeStraight" Rotation="90" Caption="" Margin="-1"/>
+    <GuideEntityEmbed Entity="GasPipeBend" Rotation="270" Caption="" Margin="-1"/>
+  </Box>
+
+  De nuevo, utiliza plasma o frezón en el circuito para obtener la máxima eficiencia (aunque sirve casi cualquier gas).
+
+  ## En busca de una mayor eficiencia
+  Recuerda que Atmosféricos es una ciencia y, como tal, evoluciona constantemente.
+  Las instalaciones anteriores son solo la punta del iceberg; hay muchas formas de montar el TEG y de mejorar los diseños descritos.
+  [color=#a4885c]¡Experimenta![/color]
+
+  Intenta mejorar siempre tanto los diseños que encuentres como los que construyas.
+  El TEG es una herramienta poderosa y un gran poder conlleva una gran responsabilidad.
+  Úsalo con sensatez y aprovéchalo bien.
+
+  El sistema atmosférico de Space Station 14 es complejo y el TEG es solo una de sus partes.
+  [bold]Es como un rompecabezas gigantesco, ¡así que sal ahí fuera y resuélvelo![/bold]
+
+</Document>

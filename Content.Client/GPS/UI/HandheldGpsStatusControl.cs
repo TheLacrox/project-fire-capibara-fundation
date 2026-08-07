@@ -48,7 +48,7 @@ public sealed class HandheldGpsStatusControl : Control
 
     private void UpdateGpsDetails()
     {
-        var posText = "Error";
+        var posText = Loc.GetString("generic-error"); // Fire edit - локализация ошибки координат
         if (_entMan.TryGetComponent(_parent, out TransformComponent? transComp))
         {
             var pos = _transform.GetMapCoordinates(_parent.Owner, xform: transComp);

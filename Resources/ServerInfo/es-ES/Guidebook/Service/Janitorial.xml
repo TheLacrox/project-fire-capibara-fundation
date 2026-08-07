@@ -1,0 +1,58 @@
+<Document>
+# Limpieza
+
+Tu trabajo es mantenerlo todo limpio. A veces resulta duro, pero alguien tiene que hacerlo. Esta guía explica cuáles son tus herramientas y cómo utilizarlas.
+
+## Equipo básico
+<Box>
+<GuideEntityEmbed Entity="MopItem"/>
+<GuideEntityEmbed Entity="JanitorialTrolley"/>
+<GuideEntityEmbed Entity="MopBucket"/>
+<GuideEntityEmbed Entity="Bucket"/>
+<GuideEntityEmbed Entity="TrashBag"/>
+</Box>
+<Box>
+<GuideEntityEmbed Entity="SprayBottleSpaceCleaner"/>
+<GuideEntityEmbed Entity="BoxLightMixed"/>
+<GuideEntityEmbed Entity="SoapNT"/>
+<GuideEntityEmbed Entity="Mousetrap"/>
+</Box>
+
+## Equipo adicional
+<Box>
+<GuideEntityEmbed Entity="WetFloorSign"/>
+<GuideEntityEmbed Entity="Holoprojector" Caption="Proyector de señales holográficas"/>
+<GuideEntityEmbed Entity="LightReplacer"/>
+<GuideEntityEmbed Entity="WireBrush"/>
+</Box>
+<Box>
+<GuideEntityEmbed Entity="AdvMopItem" Caption="Fregona avanzada; solicítala a I+D"/>
+</Box>
+
+## Obtención y eliminación de líquidos
+<Box>
+<GuideEntityEmbed Entity="WaterTankFull"/>
+<GuideEntityEmbed Entity="Sink"/>
+<GuideEntityEmbed Entity="FloorDrain"/>
+</Box>
+
+## Poner orden.
+Vayamos al meollo del asunto. Estamos aquí para limpiar, ¿verdad? Mantengámoslo sencillo. Tus herramientas principales serán la fiel fregona, una bolsa de basura, limpiador espacial y uno de los tres tipos de cubo.
+
+Fregar: llena el carro de agua y busca charcos. Humedece la fregona y límpialos; el charco de agua resultante se secará al poco tiempo. ¡No olvides las señales de suelo mojado!
+- Para vaciar el carro, arrástralo con el cursor hasta un desagüe del suelo. Así verterá todo el líquido de su interior. Suele haber desagües en Medicina, el congelador de la cocina y, por supuesto, el armario de limpieza.
+
+Basura: introdúcela directamente en la bolsa o sostenla en la mano. Haz clic cerca de la basura para recoger todos los desperdicios próximos, o pulsa cada objeto por separado. Usa la bolsa sobre un conducto de residuos para vaciarla.
+- Puede que Carga quiera parte de tu basura; ¡merece la pena preguntar de vez en cuando!
+
+Limpiador espacial: este aerosol milagroso sirve para dos cosas: borrar grafitis y, en caso de apuro, limpiar charcos.
+- Quizá Química pueda proporcionarte más.
+
+## Tareas adicionales
+Un buen conserje siempre busca algo más que hacer, y tienes muchas herramientas a tu disposición. Vigila las luces rotas, ayuda al cocinero con los ratones de la cocina y, si te sientes especialmente generoso, reabastece las máquinas expendedoras y los armarios de emergencia de la estación.
+
+##Información adicional:
+<GuideReagentEmbed Reagent="SpaceCleaner"/>
+<GuideReagentEmbed Reagent="Ammonia"/>
+
+</Document>

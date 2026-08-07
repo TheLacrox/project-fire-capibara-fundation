@@ -1,0 +1,77 @@
+<Document>
+  # Minor Antagonists
+
+  Minor antagonists are ghost-controlled roles that give the dead a second chance to have fun—or sow chaos!—on the station. They appear as the result of random events.
+
+  # Paradox Clone
+
+  <Box>
+    <GuideEntityEmbed Entity="ParadoxCloneDummy"/>
+  </Box>
+
+  This is a perfect copy of a random crew member, brought here by a spacetime anomaly. To correct the paradox and survive, they must find and kill the original.
+
+  They have no special abilities, but their appearance, DNA, fingerprints, clothing, equipment, and ID are all identical. This makes it difficult to tell who is the original and who is the copy... unless you know your coworkers very well!
+
+  # Revenant
+
+  <Box>
+    <GuideEntityEmbed Entity="MobRevenant"/>
+  </Box>
+
+  Revenants are ephemeral beings made of ectoplasm that haunt the crew and drain their [color=#8f63e6]life essence[/color].
+  - Your essence is your own [bold]life force[/bold]. You lose it when you take damage.
+  - Essence is also consumed when you use [bold]abilities[/bold].
+  - To gain essence, first [bold]examine[/bold] souls and assess their value. The more valuable a soul is, the more essence it provides. Then you must [bold]harvest[/bold] it from someone who is critically injured, dead, or asleep. All of this is done with [color=yellow][bold][keybind="Use"][/bold][/color].
+  - [bold]Stolen essence[/bold] is used to purchase new abilities that let you neutralize the crew more effectively.
+  - When you harvest a soul or use an ability, you become [bold]vulnerable[/bold]. The [color=#8f63e6][italic]Corporeal[/italic][/color] status indicates this.
+
+  # Rat King
+
+  <Box>
+    <GuideEntityEmbed Entity="MobRatServant" Caption=""/>
+    <GuideEntityEmbed Entity="MobRatServant" Caption=""/>
+    <GuideEntityEmbed Entity="MobRatKing" Scale="2.4"/>
+    <GuideEntityEmbed Entity="MobRatServant" Caption=""/>
+    <GuideEntityEmbed Entity="MobRatServant" Caption=""/>
+  </Box>
+
+  Rat Kings are enormous rodents capable of [color=yellow]creating armies of rats[/color] by consuming vast quantities of food.
+  - You have several abilities that cost [bold]hunger[/bold].
+  - [color=yellow][italic]Summon Army[/italic][/color] summons a [bold]rat servant[/bold]. You can [bold]order[/bold] it to stay put, follow you, attack a chosen target, or tear apart everything it sees.
+  - [color=yellow][italic]Summon Guardsman[/italic][/color] summons a [bold]rat guard[/bold]. You cannot [bold]give it orders[/bold] in the usual way because it is controlled by another player. The rat guard is a large rat that can summon rat servants to help it at a high hunger cost.
+  - You can create a cloud of [color=#77b58e]ammonia[/color] with [color=purple][italic]Rat King's Domain[/italic][/color]. This purple gas is mildly poisonous to humans but heals rats.
+  - [color=#9daa98][italic]Rummaging[/italic][/color] through a trash can via the context menu lets you collect [bold]food scraps[/bold] to replenish your army.
+  - [bold]You are stronger than most other animals.[/bold] You and your servants can speak and crawl beneath airlocks and tables.
+  - [bold]But your minions are very fragile![/bold] Beware of vacuum, explosions, and sharp objects.
+
+  # Space Dragon
+
+  <Box>
+    <GuideEntityEmbed Entity="MobCarp" Caption=""/>
+    <GuideEntityEmbed Entity="CarpRift" Caption=""/>
+    <GuideEntityEmbed Entity="MobDragon"/>
+    <GuideEntityEmbed Entity="CarpRift" Caption=""/>
+    <GuideEntityEmbed Entity="MobCarp" Caption=""/>
+  </Box>
+
+  Space dragons are enormous alien fish capable of [color=red]devouring the crew[/color] and creating [color=#4b7fcc]carp rifts[/color].
+  - Dragons have powerful jaws that allow them to [color=red][italic]devour[/italic][/color] infrastructure such as doors, windows, and walls.
+  - They can also heal by devouring unconscious or dead crew members.
+  - Your [color=orange][italic]Dragon's Breath[/italic][/color] is a [bold]fiery projectile[/bold] that travels in a straight line, explodes several times, and sets everything in its path ablaze. Try not to hit your own carp!
+  - You can [color=#4b7fcc][italic]summon a carp rift[/italic][/color]. It takes 5 minutes to charge after appearing and [bold]is vulnerable during that time.[/bold] Afterward, it becomes invulnerable and continues summoning carp while the dragon lives. The portal also heals nearby carp and the dragon within a small radius.
+  - If the rift is destroyed before it finishes charging, you will suffer [bold]temporary feedback damage[/bold].
+  - If 5 minutes pass without unlocking a rift, [bold]you will disappear[/bold].
+  - Dragons with three fully charged rifts [bold]will never disappear[/bold], though they can still be killed.
+
+  # Slimes and Spiders
+
+  <Box>
+    <GuideEntityEmbed Entity="MobAdultSlimesBlueAngry" Caption=""/>
+    <GuideEntityEmbed Entity="MobGiantSpiderAngry" Caption=""/>
+  </Box>
+
+  Slimes and spiders are unremarkable, but they independently [color=cyan]infest the station[/color] from time to time. They chase and attack everything they see.
+  - Slimes can [bold]deal additional acid or poison damage[/bold], depending on their color. Water affects them just as it affects slime people.
+  - Spiders have a venomous bite and can [bold]create webs[/bold] that are difficult to cross but easy to cut. They can also break doors, windows, and airlocks.
+</Document>

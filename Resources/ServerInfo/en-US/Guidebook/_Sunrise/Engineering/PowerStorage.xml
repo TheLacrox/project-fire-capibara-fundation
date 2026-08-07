@@ -1,0 +1,59 @@
+<Document>
+  # Power storage
+  Because of [textlink="grid ramping" link="Ramping"], station power consumption is rarely steady. Energy storage smooths out brief dips and spikes and buys time when generation temporarily cannot meet demand.
+
+  Every transformer ([color=orange]HV[/color], [color=yellow]MV[/color], [color=green]LV[/color]) has a small buffer, but SMES units are needed to keep an entire station sector running.
+
+  ## Basic SMES
+  Superconducting Magnetic Energy Storage (SMES) receives [color=orange]HV[/color] through a cable terminal and supplies power to the grid through the cable beneath it.
+
+  <Box>
+    <GuideEntityEmbed Entity="SMESBasic"/>
+  </Box>
+
+  The terminal separates the input and output so the two lines do not connect to each other.
+
+  <Box HorizontalAlignment="Stretch">
+    <Box>
+      <GuideEntityEmbed Entity="CableTerminal"/>
+    </Box>
+
+    <Box>
+      <GuideEntityEmbed Entity="CableHV" Caption="Output"/>
+      <GuideEntityEmbed Entity="SMESBasic" Caption="" Margin="0"/>
+      <GuideEntityEmbed Entity="CableTerminal" Caption="" Margin="0" Rotation="270"/>
+      <GuideEntityEmbed Entity="CableHV" Caption="Input"/>
+    </Box>
+  </Box>
+
+  A basic SMES stores [color=orange][protodata="SMESBasic" comp="Battery" member="MaxCharge" format="N0"/] J[/color] and can supply up to [color=orange][protodata="SMESBasic" comp="PowerNetworkBattery" member="MaxSupply" format="N0"/] W[/color].
+
+  ## Advanced SMES
+  An upgraded model for station power arrays and longer operation during generation shortfalls.
+
+  <Box>
+    <GuideEntityEmbed Entity="SMESAdvanced"/>
+  </Box>
+
+  An advanced SMES stores [color=orange][protodata="SMESAdvanced" comp="Battery" member="MaxCharge" format="N0"/] J[/color] and supplies up to [color=orange][protodata="SMESAdvanced" comp="PowerNetworkBattery" member="MaxSupply" format="N0"/] W[/color].
+
+  ## Extended SMES
+  A large Sunrise storage unit for high-power sections of the grid.
+
+  <Box>
+    <GuideEntityEmbed Entity="SMESExtended"/>
+  </Box>
+
+  An extended SMES stores [color=orange][protodata="SMESExtended" comp="Battery" member="MaxCharge" format="N0"/] J[/color] and supplies up to [color=orange][protodata="SMESExtended" comp="PowerNetworkBattery" member="MaxSupply" format="N0"/] W[/color].
+
+  ## Super-extended SMES
+  Sunrise's top-tier storage unit for extremely heavy grids and long-term backup power.
+
+  <Box>
+    <GuideEntityEmbed Entity="SMESSuperExtended"/>
+  </Box>
+
+  A super-extended SMES stores [color=orange][protodata="SMESSuperExtended" comp="Battery" member="MaxCharge" format="N0"/] J[/color] and supplies up to [color=orange][protodata="SMESSuperExtended" comp="PowerNetworkBattery" member="MaxSupply" format="N0"/] W[/color].
+
+  Even the highest-capacity SMES cannot replace generation: if total demand consistently exceeds production, the batteries will still run dry.
+</Document>

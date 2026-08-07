@@ -2,7 +2,7 @@
                xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                x:Class="Content.Client._Sunrise.InteractionsPanel.CustomInteractionEditor"
                xmlns:gfx="clr-namespace:Robust.Client.Graphics;assembly=Robust.Client"
-               Title="Редактор взаимодействия"
+               Title="{Loc 'fire-custom-interaction-editor-title'}"
                MinSize="520 720"
                SetSize="520 720">
 
@@ -20,7 +20,7 @@
                 </PanelContainer.PanelOverride>
 
                 <BoxContainer Orientation="Vertical" Margin="0">
-                    <Label Text="РЕДАКТОР ВЗАИМОДЕЙСТВИЙ"
+                    <Label Text="{Loc 'fire-custom-interaction-editor-heading'}"
                            FontColorOverride="#00d4ff"
                            HorizontalAlignment="Center"
                            StyleClasses="LabelHeading"
@@ -45,36 +45,36 @@
                         </PanelContainer.PanelOverride>
 
                         <BoxContainer Orientation="Vertical" Margin="12">
-                            <Label Text="📋 Основная информация"
+                            <Label Text="{Loc 'fire-custom-interaction-editor-general'}"
                                    FontColorOverride="#00d4ff"
                                    StyleClasses="LabelSubText"
                                    Margin="0 0 0 6"/>
 
                             <BoxContainer Orientation="Vertical" Margin="0 8 0 4">
-                                <Label Text="Название:"
+                                <Label Text="{Loc 'fire-custom-interaction-editor-name'}"
                                        FontColorOverride="#b8e6ff"
                                        Margin="0 0 0 2"/>
                                 <LineEdit Name="NameInput"
                                          HorizontalExpand="True"
                                          MinHeight="24"
-                                         PlaceHolder="Введите название взаимодействия"
+                                         PlaceHolder="{Loc 'fire-custom-interaction-editor-name-placeholder'}"
                                          StyleClasses="LineEditDark"/>
                             </BoxContainer>
 
                             <BoxContainer Orientation="Vertical" Margin="0 4">
-                                <Label Text="Описание:"
+                                <Label Text="{Loc 'fire-custom-interaction-editor-description'}"
                                        FontColorOverride="#b8e6ff"
                                        Margin="0 0 0 2"/>
                                 <LineEdit Name="DescriptionInput"
                                          HorizontalExpand="True"
                                          MinHeight="24"
-                                         PlaceHolder="Введите описание взаимодействия"
+                                         PlaceHolder="{Loc 'fire-custom-interaction-editor-description-placeholder'}"
                                          StyleClasses="LineEditDark"/>
                             </BoxContainer>
 
                             <BoxContainer Orientation="Horizontal" Margin="0 4" HorizontalExpand="True">
                                 <BoxContainer Orientation="Vertical" HorizontalExpand="True" Margin="0 0 4 0">
-                                    <Label Text="Категория:"
+                                    <Label Text="{Loc 'fire-custom-interaction-editor-category'}"
                                            FontColorOverride="#b8e6ff"
                                            Margin="0 0 0 2"/>
                                     <OptionButton Name="CategoryOption"
@@ -83,7 +83,7 @@
                                 </BoxContainer>
 
                                 <BoxContainer Orientation="Vertical" HorizontalExpand="True" Margin="4 0 0 0">
-                                    <Label Text="Иконка:"
+                                    <Label Text="{Loc 'fire-custom-interaction-editor-icon'}"
                                            FontColorOverride="#b8e6ff"
                                            Margin="0 0 0 2"/>
                                     <OptionButton Name="IconOption"
@@ -100,7 +100,7 @@
                                     </PanelContainer.PanelOverride>
 
                                     <BoxContainer Orientation="Vertical" Margin="8" HorizontalAlignment="Center">
-                                        <Label Text="Превью иконки"
+                                        <Label Text="{Loc 'fire-custom-interaction-editor-icon-preview'}"
                                                FontColorOverride="#b8e6ff"
                                                HorizontalAlignment="Center"
                                                StyleClasses="LabelSubText"
@@ -129,7 +129,7 @@
                         </PanelContainer.PanelOverride>
 
                         <BoxContainer Orientation="Vertical" Margin="12">
-                            <Label Text="Сообщения взаимодействия"
+                            <Label Text="{Loc 'fire-custom-interaction-editor-messages'}"
                                    FontColorOverride="#00d4ff"
                                    StyleClasses="LabelSubText"
                                    Margin="0 0 0 6"/>
@@ -138,7 +138,7 @@
                                 <LineEdit Name="NewMessageInput"
                                          HorizontalExpand="True"
                                          MinHeight="24"
-                                         PlaceHolder="Добавить сообщение..."
+                                         PlaceHolder="{Loc 'fire-custom-interaction-editor-add-message'}"
                                          StyleClasses="LineEditDark"
                                          Margin="0 0 4 0"/>
                                 <Button Name="AddMessageButton"
@@ -148,7 +148,7 @@
                                         MinHeight="24"/>
                             </BoxContainer>
 
-                            <Label Text="%user — имя вызывающего; %target — имя цели"
+                            <Label Text="{Loc 'fire-custom-interaction-editor-placeholders'}"
                                    FontColorOverride="#8e8e93"
                                    StyleClasses="LabelSubText"
                                    Margin="2 0 2 2"/>
@@ -175,7 +175,7 @@
                         </PanelContainer.PanelOverride>
 
                         <BoxContainer Orientation="Vertical" Margin="12">
-                            <Label Text="🔊 Звуковые эффекты"
+                            <Label Text="{Loc 'fire-custom-interaction-editor-sounds'}"
                                    FontColorOverride="#00d4ff"
                                    StyleClasses="LabelSubText"
                                    Margin="0 0 0 6"/>
@@ -197,14 +197,14 @@
 
                                 <BoxContainer Orientation="Vertical">
                                     <Button Name="TestSoundButton"
-                                            Text="▶ Тест"
+                                            Text="{Loc 'fire-custom-interaction-editor-test'}"
                                             StyleClasses="ButtonSquare"
                                             MinWidth="60"
                                             MinHeight="24" />
                                 </BoxContainer>
                             </BoxContainer>
 
-                            <Label Text="Выберите звук и нажмите 'Тест' для прослушивания"
+                            <Label Text="{Loc 'fire-custom-interaction-editor-test-help'}"
                                    FontColorOverride="#8e8e93"
                                    StyleClasses="LabelSubText"
                                    Margin="2 6 6 6"/>
@@ -231,7 +231,7 @@
                         </PanelContainer.PanelOverride>
 
                         <BoxContainer Orientation="Vertical" Margin="12">
-                            <Label Text="Визуальные эффекты"
+                            <Label Text="{Loc 'fire-custom-interaction-editor-visuals'}"
                                    FontColorOverride="#00d4ff"
                                    StyleClasses="LabelSubText"
                                    Margin="0 0 0 6"/>
@@ -240,13 +240,13 @@
                                 <CheckBox Name="SpawnsEffectCheckBox"
                                          VerticalAlignment="Center"
                                          Margin="0 0 6 0"/>
-                                <Label Text="Создавать визуальный эффект"
+                                <Label Text="{Loc 'fire-custom-interaction-editor-create-visual'}"
                                        VerticalAlignment="Center"
                                        FontColorOverride="#b8e6ff"/>
                             </BoxContainer>
 
                             <BoxContainer Orientation="Horizontal" Margin="0 4" HorizontalExpand="True">
-                                <Label Text="Шанс:"
+                                <Label Text="{Loc 'fire-custom-interaction-editor-chance'}"
                                        MinWidth="60"
                                        VerticalAlignment="Center"
                                        FontColorOverride="#b8e6ff"/>
@@ -264,7 +264,7 @@
                             </BoxContainer>
 
                             <BoxContainer Orientation="Horizontal" Margin="0 4" HorizontalExpand="True">
-                                <Label Text="Тип:"
+                                <Label Text="{Loc 'fire-custom-interaction-editor-type'}"
                                        MinWidth="60"
                                        VerticalAlignment="Center"
                                        FontColorOverride="#b8e6ff"/>
@@ -282,13 +282,13 @@
                         </PanelContainer.PanelOverride>
 
                         <BoxContainer Orientation="Vertical" Margin="12">
-                            <Label Text="⏱ Время восстановления"
+                            <Label Text="{Loc 'fire-custom-interaction-editor-cooldown-heading'}"
                                    FontColorOverride="#00d4ff"
                                    StyleClasses="LabelSubText"
                                    Margin="0 0 0 6"/>
 
                             <BoxContainer Orientation="Horizontal" Margin="0 6" HorizontalExpand="True">
-                                <Label Text="Кулдаун:"
+                                <Label Text="{Loc 'fire-custom-interaction-editor-cooldown'}"
                                        MinWidth="60"
                                        VerticalAlignment="Center"
                                        FontColorOverride="#b8e6ff"/>
@@ -299,7 +299,7 @@
                                         Value="3"
                                         Margin="0 0 6 0"/>
                                 <Label Name="CooldownLabel"
-                                       Text="5с"
+                                       Text="{Loc 'fire-custom-interaction-editor-cooldown-example'}"
                                        MinWidth="35"
                                        VerticalAlignment="Center"
                                        FontColorOverride="#00d4ff"/>
@@ -318,13 +318,13 @@
 
                 <BoxContainer Orientation="Horizontal" HorizontalAlignment="Center" Margin="12 10">
                     <Button Name="SaveButton"
-                            Text="СОХРАНИТЬ"
+                            Text="{Loc 'fire-custom-interaction-editor-save'}"
                             StyleClasses="ButtonSquare"
                             MinWidth="120"
                             MinHeight="30"
                             Margin="0 4 0 0"/>
                     <Button Name="CancelButton"
-                            Text="ОТМЕНА"
+                            Text="{Loc 'fire-custom-interaction-editor-cancel'}"
                             StyleClasses="ButtonSquare"
                             MinWidth="120"
                             MinHeight="30"

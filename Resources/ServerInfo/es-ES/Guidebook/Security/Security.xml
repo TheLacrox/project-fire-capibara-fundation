@@ -1,0 +1,43 @@
+<Document>
+# Seguridad
+La prioridad absoluta de [color=#cb0000]Seguridad[/color] es proteger tanto la estación como a la tripulación. El personal de [color=#cb0000]Seguridad[/color] está preparado para cualquier situación y se encarga de mantener el orden y controlar a las multitudes.
+
+Se enfrentan a [textlink="agentes del Sindicato" link="Traitors"], [textlink="operativos nucleares" link="NuclearOperatives"], [textlink="zombis" link="Zombies"] y personal rebelde.
+
+## Personal
+El personal de [color=#cb0000]Seguridad[/color] está formado por cadetes, oficiales y el detective. [color=#cb0000]Seguridad[/color] está dirigida por el alcaide y el jefe de seguridad.
+
+  <Box>
+    <GuideEntityEmbed Entity="ToyFigurineSecurity" Caption="Oficial de seguridad"/>
+    <GuideEntityEmbed Entity="ToyFigurineDetective" Caption="Detective"/>
+    <GuideEntityEmbed Entity="ToyFigurineWarden" Caption="Alcaide"/>
+    <GuideEntityEmbed Entity="ToyFigurineHeadOfSecurity" Caption="Jefe de seguridad"/>
+  </Box>
+
+## Equipo
+En primer lugar están las armas no letales, el paso siguiente a pedirle a alguien que obedezca. Tanto la porra eléctrica como el deshabilitador pueden limitar los movimientos de un agresor, mientras que las esposas impiden que un delincuente se mueva libremente y use las manos. Al quitarle las esposas, también lo derribarás si tienes activo el [color=red]modo de daño[/color].
+  <Box>
+    <GuideEntityEmbed Entity="Stunbaton"/>
+    <GuideEntityEmbed Entity="Handcuffs"/>
+   <GuideEntityEmbed Entity="WeaponDisabler"/>
+  </Box>
+
+## Flashes
+Los [color=#a4885c]flashes[/color] son una herramienta eficaz para dispersar multitudes y detener a objetivos especialmente escurridizos: su gran área de efecto ciega a toda persona que carezca de protección.
+Puedes activar el flash en una zona amplia con el atajo [color=yellow]Z[/color] o atacar directamente a alguien mientras tienes activo el [color=red]modo de daño[/color]. Ten en cuenta que el destello localizado dura [color=yellow]2.5[/color] veces más que el de área amplia.
+Los integrantes de [color=#cb0000]Seguridad[/color] y [color=#a4885c]algunos[/color] otros miembros de la tripulación tienen protección ocular contra granadas cegadoras y flashes.
+  <Box>
+    <GuideEntityEmbed Entity="Flash"/>
+    <GuideEntityEmbed Entity="ClothingEyesGlassesSecurity"/>
+    <GuideEntityEmbed Entity="GrenadeFlashBang"/>
+  </Box>
+
+## Armas letales
+Si la situación lo exige, [color=#cb0000]Seguridad[/color] dispone de rifles láser, escopetas, pistolas y rifles automáticos capaces de abatir con gran potencia de fuego a cualquiera que amenace la estación.
+  <Box>
+    <GuideEntityEmbed Entity="WeaponLaserCarbine"/>
+    <GuideEntityEmbed Entity="WeaponShotgunKammerer"/>
+    <GuideEntityEmbed Entity="WeaponPistolMk58"/>
+    <GuideEntityEmbed Entity="WeaponRifleLecter"/>
+  </Box>
+</Document>

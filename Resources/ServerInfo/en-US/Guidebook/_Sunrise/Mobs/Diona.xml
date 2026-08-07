@@ -1,0 +1,44 @@
+<Document>
+  # Diona
+
+  <Box>
+    <GuideEntityEmbed Entity="MobDiona" Caption=""/>
+  </Box>
+
+  They cannot wear shoes, but kudzu does not slow them down.
+  They become hungry and thirsty more slowly.
+  Their "blood" is sap, which cannot be replenished with iron.
+  As plants, they are poisoned by herbicide, while Robust Harvest heals them (though overuse is risky!).
+
+  They take [color=#1e90ff]30% less blunt damage and 20% less slash damage[/color],
+  but take [color=#ffa500]50% more heat damage, 20% more shock damage, and
+  catch fire easily after taking enough heat damage from any source.[/color]
+
+  ## Make like a tree and put down roots
+  <Box>
+    <GuideEntityEmbed Entity="FloraTree" Caption=""/>
+  </Box>
+  When exposed to a large amount of Robust Harvest, a diona begins growing uncontrollably and turns into an immobile tree, dropping all of their equipment.
+  Chopping down the tree can "return" the diona to a mobile state.
+
+  ## Diona nymphs
+  <Box>
+    <GuideEntityEmbed Entity="MobDionaNymph" Caption=""/>
+    <GuideEntityEmbed Entity="MobDionaNymph" Caption=""/>
+    <GuideEntityEmbed Entity="MobDionaNymph" Caption=""/>
+  </Box>
+  After death, a diona can choose to destroy their body and release their "internal organs" as three nymphs,
+  with the player taking control of the brain nymph.
+  It can speak, but has no hands or inventory and can do very little. Its small size allows the nymph
+  to fit inside a satchel or backpack, though it cannot climb in by itself.
+  Its small form also allows it to squeeze through ventilation pipes.
+  <Box>
+    <GuideEntityEmbed Entity="GasVentScrubber" Caption=""/>
+    <GuideEntityEmbed Entity="ClothingBackpackSatchel" Caption=""/>
+    <GuideEntityEmbed Entity="GasVentPump" Caption=""/>
+  </Box>
+  After 10 minutes, the nymph can regenerate into a full diona. It will have a new randomly generated body and a new name,
+  and aside from their own account, almost no trace will remain of who they used to be.
+
+
+</Document>

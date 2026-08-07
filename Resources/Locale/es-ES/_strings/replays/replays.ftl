@@ -1,0 +1,1 @@
+replay-verb-spectate = Observar

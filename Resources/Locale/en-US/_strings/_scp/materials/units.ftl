@@ -1,2 +1,3 @@
 # bags of concrete
-materials-unit-bag = bags
+# Fire edit - MAKEPLURAL получает форму единственного числа
+materials-unit-bag = bag

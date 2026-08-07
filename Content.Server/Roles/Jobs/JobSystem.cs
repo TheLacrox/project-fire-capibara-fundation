@@ -1,9 +1,9 @@
-﻿using System.Globalization;
-using Content.Server.Chat.Managers;
+﻿using Content.Server.Chat.Managers;
 using Content.Server.Jobs;
 using Content.Server.Mind;
 using Content.Server.Revolutionary.Components;
 using Content.Shared.Mind;
+using Content.Shared.Localizations;
 using Content.Shared.Players;
 using Content.Shared.Roles;
 using Content.Shared.Roles.Jobs;
@@ -55,7 +55,7 @@ public sealed class JobSystem : SharedJobSystem
             return;
 
         _chat.DispatchServerMessage(session, Loc.GetString("job-greet-introduce-job-name",
-            ("jobName", CultureInfo.CurrentCulture.TextInfo.ToTitleCase(prototype.LocalizedName))));
+            ("jobName", ContentLocalizationManager.FormatTitleCase(prototype.LocalizedName)))); // Fire edit - сохраняем испанские предлоги
 
         if (prototype.RequireAdminNotify)
             _chat.DispatchServerMessage(session, Loc.GetString("job-greet-important-disconnect-admin-notify"));

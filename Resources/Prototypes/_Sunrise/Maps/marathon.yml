@@ -11,7 +11,9 @@
       stationProto: StandardNanotrasenStation
       components:
         - type: StationNameSetup
-          mapNameTemplate: '{0} Марафон {1}'
+          # Fire edit - локализуемое название станции
+          mapNameTemplate: '{0} Marathon {1}'
+          stationNameTemplateLocId: station-name-template-sunrise-marathon
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'

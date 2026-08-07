@@ -50,7 +50,7 @@ namespace Content.Server.GameTicking.Commands
             {
                 var options = _prototypeManager
                     .EnumeratePrototypes<GameMapPrototype>()
-                    .Select(p => new CompletionOption(p.ID, p.MapName))
+                    .Select(p => new CompletionOption(p.ID, p.GetLocalizedName(Loc))) // Fire edit - локализуемое название карты
                     .OrderBy(p => p.Value);
 
                 return CompletionResult.FromHintOptions(options, Loc.GetString($"cmd-forcemap-hint"));

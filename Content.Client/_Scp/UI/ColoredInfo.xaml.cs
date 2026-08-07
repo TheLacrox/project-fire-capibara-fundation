@@ -10,12 +10,12 @@ public sealed partial class ColoredInfo : Control
 {
     public string NameString
     {
-        set => Name.Text = Loc.GetString(value);
+        set => Name.Text = value;
     }
 
     public string DescriptionString
     {
-        set => Description.Text = Loc.GetString(value);
+        set => Description.Text = value;
     }
 
     public Color? Color

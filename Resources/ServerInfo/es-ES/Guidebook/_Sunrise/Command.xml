@@ -1,0 +1,54 @@
+<Document>
+  # Mando
+  Los jefes de cada departamento se reúnen para formar el [color=#1b67a5]Mando[/color], la poderosa autoridad que dirige la estación. Suelen tener acceso a equipos especiales y estancias privadas. También es frecuente que alguien los quiera muertos.
+
+  ## Personal
+  El [color=#1b67a5]Mando[/color] está formado por los jefes de departamento: el [color=#9fed58]jefe de personal[/color], el [color=#cb0000]jefe de seguridad[/color], el [color=#5b97bc]director médico[/color], el [color=#f39f27]ingeniero jefe[/color], el [color=#c96dbf]director de investigación[/color], el [color=#b18644]intendente[/color] y, por encima de todos, el [color=#1b67a5]capitán[/color].
+  <Box>
+    <GuideEntityEmbed Entity="ToyFigurineCaptain" Caption="Capitán"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="ToyFigurineHeadOfPersonnel" Caption="Jefe de personal"/>
+    <GuideEntityEmbed Entity="ToyFigurineHeadOfSecurity" Caption="Jefe de seguridad"/>
+    <GuideEntityEmbed Entity="ToyFigurineChiefMedicalOfficer" Caption="Director médico"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="ToyFigurineChiefEngineer" Caption="Ingeniero jefe"/>
+    <GuideEntityEmbed Entity="ToyFigurineResearchDirector" Caption="Director de investigación"/>
+    <GuideEntityEmbed Entity="ToyFigurineQuartermaster" Caption="Intendente"/>
+  </Box>
+
+  ## Asumir el mando
+  ¡Enhorabuena por el ascenso! Además de toda la burocracia adicional, tus nuevas [color=#a4885c]responsabilidades[/color] incluyen dirigir el departamento, introducir cambios y establecer prioridades, velar por la seguridad del personal y el equipo y permitirte algún momento de descanso mientras tus compañeros hacen el trabajo por ti.
+
+  ¡No olvides que todavía tienes un trabajo! Tus sofisticadas herramientas no te conceden el día libre: sigues teniendo que cubrir las ausencias, ayudar a quienes se queden atrás y enseñar a los recién llegados.
+
+  Podrías limitarte a observar mientras la gente se enfada, pero será más sensato que participes y trabajes junto a tu personal. Reasigna a los trabajadores para que desempeñen las tareas que más les gusten o que mejor sepan hacer.
+
+  ## Tu taquilla
+  Para sobrellevar estas nuevas y angustiosas responsabilidades, cada jefe recibe objetos especiales con los que dirigir a sus subordinados. Encontrarás la mayoría en tu [color=#a4885c]taquilla[/color].
+  <Box>
+    <GuideEntityEmbed Entity="LockerCaptain"/>
+  </Box>
+
+  Tu [color=#a4885c]mando a distancia[/color] es sencillo, pero está muy infravalorado. Aunque pequeño, puede abrir y cerrar [color=#a4885c]esclusas[/color], accionar sus [color=#a4885c]pernos[/color], electrificarlas y alternar el [color=#a4885c]acceso de emergencia[/color] a distancia.
+  <Box>
+    <GuideEntityEmbed Entity="DoorRemoteCommand"/>
+  </Box>
+  Este mando te permite controlar por dónde circula el personal. Los jefes pueden expulsar a la gente de zonas peligrosas o abrirles paso rápidamente cuando necesitan recuperar un objeto urgente.
+
+  Al igual que los demás departamentos, dispones de un canal de radio propio del [color=#1b67a5]Mando[/color]. Sin embargo, este canal es especialmente importante porque pueden escucharlo [color=#a4885c]todos los departamentos[/color].
+  Úsalo para comunicarte con los demás jefes y transmitir las necesidades de tus trabajadores.
+
+  El [color=#1b67a5]capitán[/color] y el [color=#9fed58]jefe de personal[/color] tienen acceso a la [color=#a4885c]clave maestra de cifrado[/color], que permite escuchar todos los canales de radio de la estación. Es un recurso extraordinario, pues podrás coordinar personalmente a todos los departamentos.
+  [color=#a4885c]¡No desperdicies esta ventaja![/color]
+  <Box>
+    <GuideEntityEmbed Entity="ClothingHeadsetCommand"/>
+    <GuideEntityEmbed Entity="EncryptionKeyStationMaster"/>
+  </Box>
+
+  Para hacer frente a la montaña de papeleo, encontrarás un [color=#a4885c]sello[/color] en la taquilla. Úsalo para firmar documentos: una vez estampados ya no podrán editarse, así que revisa antes su contenido.
+  <Box>
+    <GuideEntityEmbed Entity="RubberStampCaptain"/>
+  </Box>
+</Document>

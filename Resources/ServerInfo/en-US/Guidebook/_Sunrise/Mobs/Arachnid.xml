@@ -1,0 +1,25 @@
+<Document>
+  # Arachnids
+
+  <Box>
+    <GuideEntityEmbed Entity="MobArachnid" Caption=""/>
+  </Box>
+
+  They have two additional inventory pockets. They can eat raw meat without ill effects, but some foods, such as chocolate and onions, are poisonous to them.
+  They suffocate 50% faster, and their blue blood cannot be replenished with iron because it is copper-based.
+
+  Their unarmed attacks deal piercing damage instead of blunt damage.
+
+  ## Silk weaving
+
+  <Box>
+    <GuideEntityEmbed Entity="MaterialWebSilk" Caption=""/>
+    <GuideEntityEmbed Entity="ClothingUniformJumpskirtWeb" Caption=""/>
+    <GuideEntityEmbed Entity="WebShield" Caption=""/>
+    <GuideEntityEmbed Entity="WallWeb" Caption=""/>
+  </Box>
+
+  Arachnids can produce webs, or silk, making themselves hungrier in the process. They, and only they, can weave this silk into all kinds of objects, from clothing and shields to entire walls.
+
+
+</Document>

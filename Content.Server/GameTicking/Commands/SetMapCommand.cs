@@ -34,9 +34,10 @@ namespace Content.Server.GameTicking.Commands
         {
             if (args.Length == 1)
             {
+                var localization = IoCManager.Resolve<ILocalizationManager>(); // Fire added - локализуемые названия карт
                 var options = IoCManager.Resolve<IPrototypeManager>()
                     .EnumeratePrototypes<GameMapPrototype>()
-                    .Select(p => new CompletionOption(p.ID, p.MapName))
+                    .Select(p => new CompletionOption(p.ID, p.GetLocalizedName(localization))) // Fire edit
                     .OrderBy(p => p.Value);
 
                 return CompletionResult.FromHintOptions(options, Loc.GetString("set-map-command-arg-map"));

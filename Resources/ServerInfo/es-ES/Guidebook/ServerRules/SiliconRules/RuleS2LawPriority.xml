@@ -1,0 +1,9 @@
+﻿<Document>
+  # Regla de los sintéticos 2: las leyes deben priorizarse según su orden
+  La mayoría de las leyes están numeradas y las de número más alto aparecen al final. Las leyes con números menores tienen prioridad sobre las que tienen números mayores.
+
+  En ocasiones, una ley puede mostrar texto desordenado en lugar de un número y aparecer delante de las demás; estas leyes tienen prioridad sobre todas las otras. Si hay varias leyes de este tipo, el orden en que aparecen determina su prioridad: las primeras prevalecen sobre las posteriores.
+
+  ## Ejemplo
+  - La ley 1 dice que no mates a ningún tripulante. La ley 2 dice que mates a todos los cocineros. No puedes matar a ningún cocinero que pertenezca a la tripulación, pero debes matar a cualquiera que no pertenezca a ella.
+</Document>

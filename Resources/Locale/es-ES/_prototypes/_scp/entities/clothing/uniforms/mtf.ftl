@@ -1,0 +1,15 @@
+ent-ClothingUniformNTF = uniforme de la Fuerza de Tareas Móviles
+    .desc = Un uniforme táctico reglamentario de color azul oscuro, con inserciones blindadas y la insignia de la unidad.
+    .suffix = MTF
+ent-ClothingUniformRRH = uniforme de la Fuerza de Tareas Móviles
+    .desc = Un uniforme escarlata intenso hecho de tejido grueso y reforzado con elementos protectores.
+    .suffix = MTF
+ent-ClothingUniformLLH = uniforme de la Fuerza de Tareas Móviles
+    .desc = Un uniforme formal negro con símbolos del Comité de Ética y distintivos de seguridad.
+    .suffix = MTF
+ent-ClothingUniformMH = uniforme de la Fuerza de Tareas Móviles
+    .desc = Un sobrio uniforme gris verdoso con señales de un tratamiento químico intenso.
+    .suffix = MTF
+ent-ClothingUniformHD = uniforme de la Fuerza de Tareas Móviles
+    .desc = Un uniforme ceñido de camuflaje urbano, con elementos blindados reforzados y distintivos propios de la unidad.
+    .suffix = MTF

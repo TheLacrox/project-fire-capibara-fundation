@@ -1,6 +1,13 @@
 ent-MobBasePirateMonkey = monkey
     .desc = New church of neo-darwinists actually believe that EVERY animal evolved from a monkey. Tastes like pork, and killing them is both fun and relaxing.
 
+# Fire added start - добавлены отсутствовавшие базы для унаследованных вариантов
+ent-MobPirateT1Knife = scrap breacher
+    .desc = First through the breach. Rarely comes back, but always makes plenty of noise.
+ent-MobPirateT2Juggernaut = Murmillo
+    .desc = Clad in a heavy, ancient armored spacesuit. Slow, but extremely durable.
+# Fire added end
+
 ent-MobPirateT2JuggernautMG = { ent-MobPirateT2Juggernaut }
     .suffix = Machine gunner
     .desc = { ent-MobPirateT2Juggernaut.desc }

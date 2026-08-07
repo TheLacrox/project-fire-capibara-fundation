@@ -69,7 +69,7 @@ namespace Content.Server._Sunrise.BloodCult.Runes.Systems
             if (!HasComp<BloodCultistComponent>(user))
                 return;
 
-            _popupSystem.PopupEntity("Вы уничтожаете барьер", user, user);
+            _popupSystem.PopupEntity(Loc.GetString("cult-barrier-destroyed"), user, user); // Fire edit - Локализация видимого сообщения.
 
             _entityManager.DeleteEntity(target);
         }

@@ -120,10 +120,10 @@ public sealed partial class SunriseCCVars : CVars
         CVarDef.Create("greetings.enable", false);
 
     public static readonly CVarDef<string> GreetingsMessage =
-        CVarDef.Create("greetings.message", "Привет");
+        CVarDef.Create("greetings.message", "greetings-default-message"); // Fire edit - Локализуемое значение по умолчанию.
 
     public static readonly CVarDef<string> GreetingsAuthor =
-        CVarDef.Create("greetings.author", "Сервер");
+        CVarDef.Create("greetings.author", "greetings-default-author"); // Fire edit - Локализуемое значение по умолчанию.
 
     /*
      * New Life

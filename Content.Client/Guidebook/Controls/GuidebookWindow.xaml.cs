@@ -116,7 +116,7 @@ public sealed partial class GuidebookWindow : FancyWindow, ILinkClickHandler, IA
         EntryContainer.Visible = true;
         SearchBar.Text = "";
         EntryContainer.RemoveAllChildren();
-        using var file = _resourceManager.ContentFileReadText(entry.Text);
+        using var file = _resourceManager.ContentFileReadText(_parsingMan.GetDocumentPath(entry)); // Fire edit - локализованные документы справочника
 
         SearchContainer.Visible = entry.FilterEnabled;
 

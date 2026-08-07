@@ -1,0 +1,105 @@
+﻿<Document>
+  # Motor Tesla
+  El motor Tesla es un potente generador que utiliza una bola de rayos contenida para producir energía para la estación.
+  <Box>
+    <GuideEntityEmbed Entity="TeslaGenerator"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="TeslaEnergyBall"/>
+  </Box>
+
+  Genera energía aprovechando mediante bobinas Tesla los rayos producidos por la bola.
+
+  ## Campo de contención
+  El motor Tesla necesita un campo de contención para impedir que la bola de rayos escape y destruya la estación.
+
+  Se recomienda utilizar un campo de contención del tamaño mínimo para la bola de rayos.
+  Los campos más grandes permiten que la bola se acerque al equipo sensible y pueda alcanzarlo, ignorando las barras de puesta a tierra y las bobinas Tesla instaladas.
+
+  <Box>
+    <GuideEntityEmbed Entity="ContainmentFieldGenerator" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="ContainmentField" Caption="" Rotation="90" Margin="0"/>
+    <GuideEntityEmbed Entity="ContainmentFieldGenerator" Caption="" Margin="0"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="ContainmentField" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="TeslaGenerator" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="ContainmentField" Caption="" Margin="0"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="ContainmentFieldGenerator" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="ContainmentField" Caption="" Rotation="90" Margin="0"/>
+    <GuideEntityEmbed Entity="ContainmentFieldGenerator" Caption="" Margin="0"/>
+  </Box>
+
+  ## Descargas eléctricas
+  Cuando el motor Tesla está activo, la bola de rayos descarga periódicamente sobre los objetos que la rodean.
+
+  La Tesla prefiere alcanzar ciertos objetos, como las bobinas Tesla y las barras de puesta a tierra.
+
+  Si la Tesla no encuentra primero ninguna bobina Tesla ni barra de puesta a tierra, alcanzará casi cualquier objeto de la estación que pueda recibir energía, como subestaciones, APC y maquinaria en general.
+
+  La Tesla no alcanza ciertos objetos, como baterías, luces, PDA y otros artículos de mano.
+
+  También alcanzará a criaturas y tripulantes, electrocutándolos. Ponte guantes aislantes antes de acercarte.
+
+  ## Bobinas Tesla
+  Los rayos pueden aprovecharse con bobinas Tesla, que los convierten en energía para la estación.
+
+  <Box>
+    <GuideEntityEmbed Entity="TeslaCoil" Caption=""/>
+    <GuideEntityEmbed Entity="TeslaCoil"/>
+    <GuideEntityEmbed Entity="TeslaCoil" Caption=""/>
+  </Box>
+
+  Las bobinas Tesla deben colocarse alrededor de la bola de rayos para captar la energía de las descargas y evitar que estas alcancen equipo sensible situado más lejos.
+
+  Las bobinas Tesla sufren daño cada vez que reciben un rayo y acabarán rompiéndose si no se reparan.
+  Vigila el estado de las bobinas Tesla y repáralas cuando sea necesario.
+
+  Cuando un rayo alcanza una bobina Tesla, carga una batería interna que se descarga rápidamente a la red.
+  La bobina descargará esa energía aunque no haya ningún consumidor, por lo que conviene tener un SMES cerca para almacenarla y entregarla de forma estable.
+
+  ## Barras de puesta a tierra
+  Las barras de puesta a tierra ayudan a proteger el equipo sensible de las descargas y sirven de defensa ante una Tesla liberada (Tesloose).
+
+  <Box>
+    <Box>
+      <GuideEntityEmbed Entity="TeslaGroundingRod" Caption=""/>
+    </Box>
+    <Box>
+      <GuideEntityEmbed Entity="TeslaGroundingRod"/>
+    </Box>
+    <Box>
+      <GuideEntityEmbed Entity="TeslaGroundingRod" Caption=""/>
+    </Box>
+  </Box>
+
+  Las barras de puesta a tierra no sufren daño al recibir rayos.
+  Por eso resulta útil formar con ellas una red de seguridad para cuando las bobinas Tesla sufran daños o queden destruidas.
+
+  Los ingenieros deben utilizar barras de puesta a tierra para proteger de los rayos el equipo sensible, como los emisores que alimentan los generadores del campo de contención.
+
+  ## Tesla liberada (Tesloose)
+  Si la bola de rayos escapa del campo de contención, se la denomina Tesla liberada o Tesloose.
+
+  Una Tesla fugada se desplazará al azar por la estación, atraída por objetos que puedan recibir energía, como APC, subestaciones y maquinaria.
+  También descargará con gusto sobre tripulantes y criaturas, electrocutándolos.
+
+  Los guantes aislantes evitarán que la Tesla te electrocute, pero no impedirán que descargue sobre ti.
+
+  <Box>
+    <GuideEntityEmbed Entity="ClothingHandsGlovesColorYellow"/>
+  </Box>
+
+  La Tesla puede destruirse disparándole antipartículas con un desacelerador portátil de partículas. Sin embargo, es mucho más potente que la singularidad y harán falta muchas antipartículas para acabar con ella.
+  Para destruir una Tesloose se recomienda que un grupo de personas utilice varios desaceleradores.
+
+  El Departamento de Investigación puede investigar y fabricar desaceleradores portátiles de partículas; también pueden comprarse a Cargamento.
+
+  <Box>
+    <GuideEntityEmbed Entity="WeaponParticleDecelerator"/>
+  </Box>
+
+
+</Document>

@@ -1,0 +1,55 @@
+﻿<Document>
+  # Mixing and Filtering
+  Gas mixers and filters are essential tools for changing the composition of gases within a [textlink="pipe network" link="PipeNetworks"].
+  <Box>
+    <GuideEntityEmbed Entity="GasMixer"/>
+    <GuideEntityEmbed Entity="GasFilter"/>
+  </Box>
+
+  ## Gas Mixer
+  Gas mixers are used to combine gases in specific proportions within a [textlink="pipe network" link="PipeNetworks"].
+  They are essential for creating controlled gas mixtures for different purposes.
+
+  A gas mixer has 3 connections: 2 inlets and 1 outlet, as shown below:
+  <Box>
+    <GuideEntityEmbed Entity="GasPipeStraight" Caption="Main" Rotation="90"/>
+    <GuideEntityEmbed Entity="GasMixer" Caption="" Rotation="90"/>
+    <GuideEntityEmbed Entity="GasPipeStraight" Caption="Outlet" Rotation="90"/>
+  </Box>
+<Box>
+  <GuideEntityEmbed Entity="GasPipeStraight" Caption="Side"/>
+</Box>
+
+  Gas mixers still respect the requested mixture even when one of the input gases is unavailable. For example:
+  - If a mixture of 22% oxygen and 78% nitrogen is requested but no oxygen is available, the mixer will not operate until oxygen becomes available.
+  - If oxygen is available but its pressure is too low to create the correct mixture at the requested pressure, the mixer will still create the mixture, but its output pressure will be lower than requested.
+
+  Gas mixers also mix gases by pressure rather than by moles. This can cause problems when the gases have different temperatures. For example:
+  - Suppose a gas mixer is set to combine oxygen and nitrogen at a 1:2 ratio and a specified pressure.
+  - In this case, the nitrogen is twice as hot as the oxygen.
+  - A hotter gas has higher pressure and therefore fewer moles per unit of volume than the oxygen.
+  - As a result, when the mixer attempts to create the mixture, the nitrogen will have half as many moles relative to the oxygen.
+  - The result will be 1:1 instead of 1:2. There will be 1 mole of nitrogen for every 1 mole of oxygen, rather than 2 moles of nitrogen for every 1 mole of oxygen.
+
+  Gas mixers can be used for a variety of purposes, including:
+  - Mixing oxygen and nitrogen to create a breathable atmosphere
+  - Mixing oxygen and plasma to burn the plasma and produce tritium
+
+  ## Gas Filter
+  Gas filters are used to separate gases from a mixture within a [textlink="pipe network" link="PipeNetworks"].
+
+  <Box>
+    <GuideEntityEmbed Entity="GasPipeStraight" Caption="Inlet" Rotation="90"/>
+    <GuideEntityEmbed Entity="GasFilter" Caption="" Rotation="90"/>
+    <GuideEntityEmbed Entity="GasPipeStraight" Caption="Outlet" Rotation="90"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="GasPipeStraight" Caption="Filtered outlet"/>
+  </Box>
+
+  Gas filters become blocked and stop filtering gas if either outlet is obstructed.
+
+  Gas filters can be used for a variety of purposes, including:
+  - Removing unwanted gases from a [textlink="pipe network" link="PipeNetworks"]
+  - Separating specific gases for storage in the station's waste network
+</Document>

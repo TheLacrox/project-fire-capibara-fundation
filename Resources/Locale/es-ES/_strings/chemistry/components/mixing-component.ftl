@@ -1,0 +1,9 @@
+mixing-verb-default-mix = mezclar
+mixing-verb-default-grind = moler
+mixing-verb-default-juice = exprimir
+mixing-verb-default-condense = condensar
+mixing-verb-centrifuge = centrifugar
+mixing-verb-electrolysis = electrolizar
+mixing-verb-holy = bendecir
+mixing-verb-stir = remover
+mixing-verb-shake = agitar

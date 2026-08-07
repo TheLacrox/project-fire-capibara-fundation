@@ -1,0 +1,194 @@
+<Document>
+  # Salvamento
+
+  [color=cyan]Salvamento[/color] es una de las fuentes de ingresos más importantes de Carga, pero también una de las más peligrosas. Los especialistas extraen riquezas de los [color=cyan]desechos espaciales[/color] y del misterioso [color=cyan]asteroide minero[/color].
+
+  Aunque el vacío está lleno de horrores, un equipo bien preparado y coordinado puede ganar mucho dinero para Carga.
+
+  ## Preparativos
+
+  Antes de abandonar la estación, asegúrate de llevar todo lo necesario. De lo contrario, probablemente mueras antes de ganar un solo speso.
+
+  <Box>
+    <GuideEntityEmbed Entity="SuitStorageSalv"/>
+    <GuideEntityEmbed Entity="LockerSalvageSpecialist"/>
+    <GuideEntityEmbed Entity="VendingMachineSalvage"/>
+  </Box>
+
+  En la sala inicial de Salvamento encontrarás todo lo imprescindible. Ciencia puede imprimir armas y herramientas mejores, pero es preferible salir con el equipo básico a no llevar nada.
+
+  <Box>
+    <GuideEntityEmbed Entity="ClothingOuterHardsuitSpatio"/>
+    <GuideEntityEmbed Entity="ClothingShoesBootsMag"/>
+    <GuideEntityEmbed Entity="VendingMachineTankDispenserEVA"/>
+  </Box>
+
+  El equipo más básico es el conjunto EVA.
+
+  - [color=cyan]Traje rígido de astronauta[/color]: te mantiene con vida en el espacio. [italic]No olvides activar el casco para respirar y encender su linterna integrada.[/italic]
+  - [color=cyan]Botas magnéticas[/color]: proporcionan gravedad al explorar pecios y evitan que salgas flotando.
+  - [color=cyan]Oxígeno/nitrógeno[/color]: según tu especie necesitarás [color=cyan]nitrógeno[/color], si eres slime o vox, u [color=cyan]oxígeno[/color] en los demás casos. El [color=cyan]dispensador de bombonas[/color] proporciona ambos gases, así que lleva reservas.
+
+  <Box>
+    <GuideEntityEmbed Entity="WeaponProtoKineticAccelerator"/>
+  </Box>
+
+  Todos los especialistas deben ir armados para defenderse de las amenazas.
+
+  - [color=cyan]Acelerador protocinético[/color]: esta arma tiene munición infinita y permite extraer minerales y desplazarse por el espacio. Ciencia puede imprimir mejoras para que dispare con más potencia, alcance o rapidez.
+
+  <Box>
+    <GuideEntityEmbed Entity="Pickaxe"/>
+    <GuideEntityEmbed Entity="OreBag"/>
+  </Box>
+
+  Aunque técnicamente podrías extraer y recoger mineral sólo con el APC y una mochila, los especialistas reciben herramientas más apropiadas.
+
+  - [color=cyan]Pico[/color]: permite extraer minerales a una velocidad razonable y también es una buena arma cuerpo a cuerpo.
+  - [color=cyan]Bolsa de minerales[/color]: al llevarla en la ranura del cinturón, atrae y recoge automáticamente el mineral cercano.
+
+  <Box>
+    <GuideEntityEmbed Entity="FireExtinguisher"/>
+    <GuideEntityEmbed Entity="WeaponGrapplingGun"/>
+    <GuideEntityEmbed Entity="SalvagePDA"/>
+    <GuideEntityEmbed Entity="ComputerRadar"/>
+  </Box>
+
+  Más adelante podrás conseguir medios de transporte avanzados, pero al principio tendrás que conformarte con opciones más humildes.
+
+  - [color=cyan]Extintor[/color]: la mochila propulsora de los pobres. En el espacio puedes aprovechar su retroceso para impulsarte en la dirección contraria. Se recarga con cualquier líquido.
+  - [color=cyan]Pistola de agarre[/color]: herramienta con infinitas posibilidades. Se dispara como un arma normal y se recoge mediante la recarga. Tras engancharte, pulsa [color=yellow][bold][keybind="UseSecondary"][/bold][/color] para acercarte.
+  - [color=cyan]PDA de salvamento[/color]: incluye un GPS AstroNav y sirve como navegador. Memoriza las coordenadas de la estación antes de salir.
+  - [color=cyan]Ordenador de escaneo de masas[/color]: consola con vista cenital que muestra la estación y los objetos del espacio. Úsala para comprobar la posición de pecios o asteroides antes de partir.
+
+  <Box>
+    <GuideEntityEmbed Entity="RadioHandheld"/>
+    <GuideEntityEmbed Entity="HandheldGPSBasic"/>
+    <GuideEntityEmbed Entity="ClothingBeltUtilityFilled"/>
+  </Box>
+
+  Por último, dispones de algunas herramientas adicionales que no son imprescindibles.
+
+  - [color=cyan]Radio portátil[/color]: permite comunicarte con otros especialistas incluso cuando la radio normal no está disponible.
+  - [color=cyan]Sistema de posicionamiento global[/color]: GPS de repuesto idéntico al de la PDA, útil como reserva o para principiantes.
+  - [color=cyan]Cinturón de herramientas[/color]: contiene lo necesario para desmantelar máquinas y equipos de los pecios. Llévalo cuando vayas a recuperar materiales.
+
+  ## Extracciones del imán de salvamento
+
+  En cuanto estés preparado, sal a explorar las estrellas.
+
+  <Box>
+    <GuideEntityEmbed Entity="SalvageMagnet"/>
+  </Box>
+
+  El [color=cyan]imán de salvamento[/color] es una máquina que atrae hasta las inmediaciones distintas zonas del espacio.
+
+  El imán ofrece cinco opciones: una combinación aleatoria de [color=cyan]asteroides[/color], [color=cyan]pecios[/color] y [color=cyan]desechos espaciales[/color]. Tras elegir, atraerá la zona durante los siguientes [bold]6 minutos[/bold]. Cuando se agote el tiempo, todo lo que permanezca en la cuadrícula desaparecerá. Si ninguna propuesta te interesa, se renovarán cada [bold]3 minutos[/bold] hasta que elijas una.
+
+  Durante esos seis minutos, desplázate hasta la zona, recoge todo lo posible y regresa a la estación.
+
+  ### Asteroides
+
+  <Box>
+    <GuideEntityEmbed Entity="Pickaxe"/>
+    <GuideEntityEmbed Entity="OreBag"/>
+    <GuideEntityEmbed Entity="OreProcessor"/>
+  </Box>
+
+  El imán indica los recursos presentes en cada asteroide, por lo que puedes priorizar según las necesidades de la estación. Es una opción relativamente segura: no hay enemigos en los asteroides, aunque todavía existen otros peligros.
+
+  Vuela hasta allí y extrae mineral con el [color=cyan]pico[/color] y la [color=cyan]bolsa de minerales[/color]. Después, procesa todo en el [color=cyan]procesador de minerales[/color] para obtener materiales.
+
+  Ten cuidado: entre las rocas normales puede esconderse [color=red]gibtonita[/color], que explota ante la más mínima perturbación.
+
+  ### Desechos espaciales
+
+  <Box>
+    <GuideEntityEmbed Entity="Wrench"/>
+    <GuideEntityEmbed Entity="FireExtinguisher"/>
+    <GuideEntityEmbed Entity="Recycler"/>
+  </Box>
+
+  Los [color=cyan]desechos espaciales[/color] son una opción versátil que proporciona materiales básicos —acero, vidrio y otros— cuando más escasean al principio del turno. Encontrarás objetos y restos dispersos por la cuadrícula; llévate una taquilla o caja para almacenarlos con comodidad.
+
+  Los restos están llenos de amenazas. Las sanguinarias [color=red]carpas espaciales[/color] y los [color=red]tiburoncillos[/color] atacan a los especialistas, mientras que algunas [color=red]minas terrestres[/color] permanecen activas a bordo y pueden incapacitar al explorador desprevenido.
+
+  Al regresar, coloca la chatarra en el [color=cyan]reciclador[/color] para convertirla en materiales útiles y entrégaselos a Carga para su distribución. Si encuentras objetos valiosos como [color=yellow]monedas, anillos y relojes[/color], dáselos a Carga para que los venda en la [color=cyan]estación comercial automatizada[/color].
+
+  ### Pecios
+
+  <Box>
+    <GuideEntityEmbed Entity="SurvivalKnife"/>
+    <GuideEntityEmbed Entity="Fulton"/>
+    <GuideEntityEmbed Entity="WeaponProtoKineticAccelerator"/>
+  </Box>
+
+  El imán indica el tamaño de los restos. Los [color=cyan]pecios[/color] varían mucho en peligro y valor y suelen albergar más amenazas que los [color=cyan]desechos espaciales[/color]. Mantén la distancia y utiliza el [color=cyan]acelerador protocinético[/color]. Busca botín útil y consulta su valor con la [color=cyan]herramienta de tasación[/color].
+
+  ## Progresión y mejoras
+
+  Aunque el equipo inicial basta para realizar el trabajo básico, los objetos avanzados lo facilitan y permiten acceder al terrible [color=red]asteroide minero[/color].
+
+  ### Tablón de trabajos de salvamento
+
+  <Box>
+    <GuideEntityEmbed Entity="ComputerSalvageJobBoard"/>
+  </Box>
+
+  El [color=cyan]tablón de trabajos de salvamento[/color] es un ordenador situado en la zona de Salvamento. Funciona como el [color=cyan]ordenador de recompensas de Carga[/color]: acepta encargos relacionados con materiales recuperados para ganar spesos y desbloquear [color=yellow]equipo de salvamento avanzado[/color].
+
+  Cuando reúnas todo lo solicitado, imprime una [color=cyan]etiqueta de envío de salvamento[/color] y pégala a la caja o taquilla que contenga los materiales. Comprueba el envío con la [color=cyan]herramienta de tasación[/color] y llévalo a la [color=cyan]estación comercial automatizada[/color] para recibir spesos y desbloquear cajas nuevas en el [color=cyan]ordenador de solicitudes de Carga[/color].
+
+  <Box>
+    <GuideEntityEmbed Entity="Fulton1"/>
+    <GuideEntityEmbed Entity="WeaponCrusher"/>
+    <GuideEntityEmbed Entity="SeismicCharge"/>
+  </Box>
+
+  Completar trabajos de salvamento aumenta tu rango y habilita nuevas compras en el [color=cyan]ordenador de solicitudes de Carga[/color], entre ellas:
+
+  - [color=cyan]Fulton[/color]: después de vincularlo a una baliza Fulton, puedes colocarlo en objetos desprotegidos, como cajas o máquinas, para teletransportarlos hasta la baliza al cabo de unos segundos. Resulta muy útil para mover tanto objetos como personas.
+  - [color=cyan]Armas trituradoras[/color]: línea de armas cuerpo a cuerpo mejoradas. La [color=red]daga trituradora[/color] mejora el cuchillo de supervivencia: ataca automáticamente y más rápido. La [color=red]trituradora[/color] y su versión mejorada, la [color=red]guja trituradora[/color], son alabardas enormes que disparan proyectiles especiales. Por sí solas apenas causan daño, pero atacar rápidamente a un enemigo marcado permite robarle parte de la salud. Todas incorporan un foco.
+  - [color=cyan]Cargas sísmicas[/color]: minas diseñadas para destruir asteroides o abrirse paso por pecios peligrosos. Puedes vincularlas a un detonador remoto o colocarlas en una pared para que exploten tras un intervalo.
+
+  ### Colaboración con Ciencia
+
+  <Box>
+    <GuideEntityEmbed Entity="ToyFigurineScientist"/>
+    <GuideEntityEmbed Entity="ResearchDisk"/>
+  </Box>
+
+  El [color=purple]departamento de Ciencia[/color] es un socio esencial de Salvamento. Ciencia depende de los especialistas para obtener recursos básicos —acero, plástico y vidrio— y avanzados —plata, oro, plasma y uranio—; a cambio, Salvamento necesita sus herramientas mejoradas.
+
+  Habla con los científicos y atiende sus peticiones. Necesitan grandes cantidades de materiales básicos, pero también dependen de ti para conseguir [color=yellow]oro, plata y uranio[/color] con los que fabricar equipo avanzado. Si quieres que te ayuden, ayúdalos primero.
+
+  <Box>
+    <GuideEntityEmbed Entity="MiningDrill"/>
+    <GuideEntityEmbed Entity="HandHeldMassScanner"/>
+    <GuideEntityEmbed Entity="PKAUpgradeRange"/>
+  </Box>
+
+  Ciencia es la única fuente de algunos equipos extremadamente útiles:
+
+  - [color=cyan]Equipo de minería[/color]: los científicos pueden proporcionar [color=yellow]taladros mineros y escáneres de minerales[/color] que aceleran la extracción. También pueden construir un [color=yellow]procesador industrial de minerales[/color], mucho más eficiente al convertir mineral en materiales acabados.
+  - [color=cyan]Escáner de masas portátil[/color]: versión de mano del ordenador de escaneo de masas. Necesita una batería, pero permite consultar tu posición en cualquier lugar.
+  - [color=cyan]Mejoras del APC[/color]: puedes instalar hasta dos de las tres modificaciones únicas: [color=red]daño[/color], [color=yellow]cadencia de tiro[/color] y [color=green]alcance[/color].
+
+  ## El asteroide minero
+
+  Cuando domines el imán de salvamento, el lejano [color=red]asteroide minero[/color] será el siguiente paso. Se llega normalmente en lanzadera o con mochilas propulsoras y es mejor no ir solo debido a sus horribles peligros.
+
+  <Box>
+    <GuideEntityEmbed Entity="MobGoliath"/>
+    <GuideEntityEmbed Entity="MobHivelord"/>
+    <GuideEntityEmbed Entity="MobBasilisk"/>
+  </Box>
+
+  El asteroide minero se divide en dos zonas: la [color=cyan]mazmorra[/color], una estructura aleatoria con enemigos y botín, y el [color=cyan]asteroide[/color], que alberga enormes depósitos minerales, objetos raros y monstruos.
+
+  Vigila a los monstruos: son mucho más peligrosos que los de los pecios y meteoritos.
+
+  - [color=cyan]Goliats[/color]: titanes que inmovilizan con tentáculos a sus víctimas antes de atacarlas con enormes pinzas y dientes. Son difíciles de matar, pero puedes despiezarlos para obtener valiosas [color=cyan]placas de piel de goliat[/color], necesarias para trabajos de salvamento y mejoras del traje rígido.
+  - [color=cyan]Señores de la colmena[/color]: anomalías rápidas e impredecibles que prefieren mantener la distancia e invocar pequeñas [color=cyan]crías de colmena[/color] para abrumar a los especialistas. No son muy resistentes, así que ataca antes de que formen una horda. Dejan [color=cyan]núcleos de señor de la colmena[/color] que se deterioran con rapidez, se utilizan en trabajos y pueden comerse como estimulantes.
+  - [color=cyan]Basiliscos[/color]: horrores helados que acechan en las sombras. Disparan proyectiles de hielo que ralentizan y hieren para debilitar a la presa antes del ataque final. Al derrotarlos, puedes despiezarlos y obtener [color=cyan]mineral de diamante[/color].
+</Document>

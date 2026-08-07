@@ -20,10 +20,16 @@
   chatMessages: ["chat-emote-msg-pain"]
   chatTriggers:
     # Я откровенно хер знает чё сюда можно написать...
+    # Fire edit start - испанские триггеры с сохранением русских вариантов
+    - lanza un grito
+    - suelta un grito
+    - grita de dolor
+    - chilla de dolor
     - вскрикивает
     - подкрикивает
     - кричит от боли
     - визжит от боли
+    # Fire edit end
 
 - type: emoteSounds
   id: SCP082

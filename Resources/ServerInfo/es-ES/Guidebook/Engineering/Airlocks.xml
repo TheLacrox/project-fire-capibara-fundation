@@ -1,0 +1,137 @@
+﻿<Document>
+  # Esclusas
+  Las esclusas sirven para controlar el acceso a distintas zonas de la estación.
+
+  <Box>
+    <GuideEntityEmbed Entity="Airlock" Caption=""/>
+    <GuideEntityEmbed Entity="AirlockGlass" Caption=""/>
+  </Box>
+
+  Las esclusas pueden abrirse usando [color=yellow][bold][keybind="Use"][/bold][/color] con una mano vacía, [color=yellow][bold][keybind="ActivateItemInWorld"][/bold][/color] si tienes las manos ocupadas o chocando contra la esclusa.
+
+  Las esclusas solo se abrirán si llevas una tarjeta de identificación con el nivel de acceso correcto.
+  La tarjeta debe estar en tu mano o en la ranura de identificación.
+  Si llevas varias identificaciones, la esclusa las comprobará todas cuando intentes abrirla.
+  Esto también se aplica a las identificaciones guardadas en una PDA.
+
+  El nivel de acceso necesario para abrir la puerta puede modificarse con un configurador de accesos o usando una multiherramienta sobre la electrónica de puerta de la esclusa, lo que exige desmontarla.
+
+  <Box>
+    <GuideEntityEmbed Entity="AccessConfigurator" Caption=""/>
+    <GuideEntityEmbed Entity="Multitool" Caption=""/>
+    <GuideEntityEmbed Entity="DoorElectronics" Caption=""/>
+  </Box>
+
+  Las esclusas bloquean el paso de los gases, por lo que pueden aislar zonas en caso de una [textlink="brecha en el casco" link="Spacing"] o un [textlink="incendio." link="Fires"]
+  También almacenan gas en su baldosa, incluso cuando están cerradas, así que ten cuidado al abrirlas durante una fuga de gas o después de ella.
+
+  ## Pernos y acceso de emergencia
+  Las esclusas pueden bloquearse con pernos para impedir que se abran o se fuercen a mano. Cuando esto ocurre, la esclusa muestra luces rojas en la parte superior de la puerta.
+
+  También pueden configurarse con acceso de emergencia. En este modo, cualquiera puede abrir la esclusa sin importar su nivel de acceso. Cuando esto ocurre, la esclusa muestra luces amarillas intermitentes en la parte superior de la puerta.
+
+  ## Control remoto
+  Las esclusas pueden controlarse a distancia, ya sea mediante la IA de la estación o con un mando de puertas.
+  <Box>
+    <GuideEntityEmbed Entity="PlayerStationAiEmpty" Caption=""/>
+  </Box>
+  <Box>
+    [color=#999999][italic]La IA de la estación, que puede controlar a distancia todas las esclusas[italic][/color]
+  </Box>
+
+  <Box>
+    <GuideEntityEmbed Entity="DoorRemoteEngineering" Caption=""/>
+    <GuideEntityEmbed Entity="DoorRemoteCommand" Caption=""/>
+    <GuideEntityEmbed Entity="DoorRemoteMedical" Caption=""/>
+    <GuideEntityEmbed Entity="DoorRemoteService" Caption=""/>
+    <GuideEntityEmbed Entity="DoorRemoteSecurity" Caption=""/>
+    <GuideEntityEmbed Entity="DoorRemoteResearch" Caption=""/>
+  </Box>
+  <Box>
+    [color=#999999][italic]Preciados mandos de puertas. Con un poder ilimitado...[italic][/color]
+  </Box>
+
+
+  Los jefes de departamento suelen recibir mandos de puertas para sus respectivos departamentos.
+
+  Con estos mandos pueden abrir y cerrar puertas, activar o retirar sus pernos y establecer el acceso de emergencia.
+
+  ## Enlace
+  Las esclusas pueden conectarse a otros dispositivos mediante el sistema de [textlink="enlace" link="Networking"].
+  Esto permite crear esclusas adecuadas entre la estación y el espacio o enlazar varias esclusas entre sí.
+
+  ## Estilos
+  Las esclusas pueden tener distintos estilos para adaptarse a los departamentos de la estación. El estilo del departamento suele reflejar el nivel de acceso necesario.
+
+  <Box>
+    <GuideEntityEmbed Entity="Airlock" Caption=""/>
+    <GuideEntityEmbed Entity="AirlockCargo" Caption=""/>
+    <GuideEntityEmbed Entity="AirlockCommand" Caption=""/>
+    <GuideEntityEmbed Entity="AirlockEngineering" Caption=""/>
+    <GuideEntityEmbed Entity="AirlockMedical" Caption=""/>
+    <GuideEntityEmbed Entity="AirlockScience" Caption=""/>
+    <GuideEntityEmbed Entity="AirlockSecurity" Caption=""/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="AirlockGlass" Caption=""/>
+    <GuideEntityEmbed Entity="AirlockCargoGlass" Caption=""/>
+    <GuideEntityEmbed Entity="AirlockCommandGlass" Caption=""/>
+    <GuideEntityEmbed Entity="AirlockEngineeringGlass" Caption=""/>
+    <GuideEntityEmbed Entity="AirlockMedicalGlass" Caption=""/>
+    <GuideEntityEmbed Entity="AirlockScienceGlass" Caption=""/>
+    <GuideEntityEmbed Entity="AirlockSecurityGlass" Caption=""/>
+  </Box>
+
+  Las esclusas pueden repintarse con una pistola de pintura.
+  <Box>
+    <GuideEntityEmbed Entity="SprayPainter" Caption=""/>
+  </Box>
+
+  ## Cableado
+  Las esclusas tienen cableado interno bajo el panel de mantenimiento, que puede abrirse con un destornillador.
+  Cada cable controla algún aspecto del funcionamiento de la esclusa.
+  Aplicar un pulso, cortar o reparar un cable afectará a la esclusa de distintas maneras.
+
+  Las luces junto a los cables indican su estado:
+  - Una luz fija indica que el sistema funciona con normalidad.
+  - Una luz intermitente indica que el sistema funciona mal: o no funciona o no se comporta como debería.
+  - La ausencia de luz indica que el sistema no recibe energía.
+
+  A continuación se enumeran los cables y sus funciones:
+
+  [color=#a4885c]Cable de los pernos (BOLT)[/color]
+  - [color=yellow]Aplicar un pulso al cable[/color]: Activa o retira los pernos de la puerta.
+  - [color=red]Cortar el cable[/color]: Activa los pernos de la puerta.
+  - [color=green]Reparar el cable[/color]: No hace nada.
+
+  [color=#a4885c]Cable de alimentación (POWR)[/color]
+  - [color=yellow]Aplicar un pulso al cable[/color]: Corta la alimentación de la puerta durante un breve periodo.
+  - [color=red]Cortar el cable[/color]: Corta la alimentación de la puerta si se cortan ambos cables de alimentación; si solo se corta uno, provoca un cortocircuito que electrocuta a quien no lleve guantes aislantes.
+  - [color=green]Reparar el cable[/color]: Restablece la alimentación de la puerta si ambos cables estaban cortados; si solo lo estaba uno, detiene el cortocircuito.
+
+  [color=#a4885c]Cable de registro (LOG)[/color]
+  - [color=yellow]Aplicar un pulso al cable[/color]: Desactiva temporalmente el registro de la puerta.
+  - [color=red]Cortar el cable[/color]: Desactiva el registro de la puerta.
+  - [color=green]Reparar el cable[/color]: Reactiva el registro de la puerta.
+
+  [color=#a4885c]Luz de los pernos (BLIT)[/color]
+  - [color=yellow]Aplicar un pulso al cable[/color]: Apaga temporalmente el sistema o vuelve a encenderlo.
+  - [color=red]Cortar el cable[/color]: Impide que se encienda la luz que indica si la puerta tiene los pernos activados.
+  - [color=green]Reparar el cable[/color]: Vuelve a encender el sistema.
+
+  [color=#a4885c]Luz del temporizador (TIMR)[/color]
+  - [color=yellow]Aplicar un pulso al cable[/color]: Reduce temporalmente el temporizador de la puerta.
+  - [color=red]Cortar el cable[/color]: Desactiva el temporizador. La puerta se cerrará en cuanto sea seguro hacerlo.
+  - [color=green]Reparar el cable[/color]: Reactiva el temporizador.
+
+  [color=#a4885c]Luz de seguridad (SAFE)[/color]
+  - [color=yellow]Aplicar un pulso al cable[/color]: Desactiva temporalmente el sistema de seguridad.
+  - [color=red]Cortar el cable[/color]: Desactiva el sistema de seguridad. La puerta se cerrará aunque haya un obstáculo.
+  - [color=green]Reparar el cable[/color]: Reactiva el sistema de seguridad.
+
+  [color=#a4885c]Luz de acceso de la IA (AIA)[/color]
+  - [color=yellow]Aplicar un pulso al cable[/color]: No hace nada.
+  - [color=red]Cortar el cable[/color]: Desactiva el acceso de la IA. La IA ya no podrá controlar la puerta.
+  - [color=green]Reparar el cable[/color]: Reactiva el acceso de la IA.
+
+</Document>

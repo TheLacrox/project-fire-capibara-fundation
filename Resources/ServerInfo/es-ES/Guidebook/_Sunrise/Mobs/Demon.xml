@@ -1,0 +1,11 @@
+<Document>
+  # Arcanos
+
+  <Box>
+    <GuideEntityEmbed Entity="MobDemon" Caption=""/>
+  </Box>
+
+  Los arcanos causan daño perforante con sus ataques sin armas.
+  Por lo demás, se parecen a los humanoides normales.
+
+</Document>

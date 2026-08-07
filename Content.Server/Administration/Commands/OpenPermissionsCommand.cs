@@ -26,7 +26,7 @@ namespace Content.Server.Administration.Commands
             // Sunrise edit start - сервис Stellar Echoes является источником прав игрового сервера.
             if (SunriseAdminPermissionsGuard.IsBlocked(_adminManager, player))
             {
-                shell.WriteLine("Права выдаются через Stellar Echoes.");
+                shell.WriteLine(Loc.GetString("cmd-permissions-external-service")); // Fire edit - Локализация ответа команды.
                 return;
             }
             // Sunrise edit end

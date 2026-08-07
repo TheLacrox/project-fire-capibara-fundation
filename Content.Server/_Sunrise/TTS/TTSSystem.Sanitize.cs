@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System.Globalization; // Fire added - выбор санитайзера по культуре.
+using System.Text;
 using System.Text.RegularExpressions;
 using System.Linq;
 using Content.Server.Chat.Systems;
@@ -9,13 +10,31 @@ namespace Content.Server._Sunrise.TTS;
 // ReSharper disable once InconsistentNaming
 public sealed partial class TTSSystem
 {
+    // Fire added start - нерусский текст сохраняет буквы Unicode и пунктуацию.
+    private static readonly Regex UnicodeAllowedCharactersRegex = new(
+        @"[^\p{L}\p{M}\p{N}\p{Zs}\p{P}\p{Sc}\p{Sm}]",
+        RegexOptions.Compiled);
+    private static readonly Regex WhitespaceRegex = new(@"\s+", RegexOptions.Compiled);
+    // Fire added end
+
     private void OnTransformSpeech(TransformSpeechEvent args)
     {
         if (!_isEnabled) return;
         args.Message = args.Message.Replace("+", "");
     }
 
-    private string Sanitize(string text)
+    // Fire edit start - русские преобразования применяются только к русской культуре.
+    internal string SanitizeForCulture(string text, CultureInfo? culture)
+    {
+        if (culture?.TwoLetterISOLanguageName.Equals("ru", StringComparison.OrdinalIgnoreCase) == true)
+            return SanitizeRussian(text);
+
+        text = UnicodeAllowedCharactersRegex.Replace(text, "");
+        text = text.Replace("\uFE0E", "").Replace("\uFE0F", "");
+        return WhitespaceRegex.Replace(text, " ").Trim();
+    }
+
+    private string SanitizeRussian(string text)
     {
         text = text.Trim();
         text = Regex.Replace(text, @"[^a-zA-Zа-яА-ЯёЁ0-9,\-+?!. ]", "");
@@ -28,6 +47,7 @@ public sealed partial class TTSSystem
         text = text.Trim();
         return text;
     }
+    // Fire edit end
 
     private string ReplaceLat2Cyr(Match oneChar)
     {

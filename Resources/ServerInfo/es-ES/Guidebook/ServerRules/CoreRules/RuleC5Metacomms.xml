@@ -1,0 +1,18 @@
+﻿<Document>
+  # Regla fundamental 5: no uses medios externos al juego para comunicarte con otros jugadores
+  Esta regla es de tolerancia cero.
+
+  No utilices ningún medio de comunicación externo para hablar con otros jugadores conectados al mismo servidor o que hayan estado conectados durante la ronda actual. Esto se denomina «metacomunicación» e incluye cualquier forma de comunicación: texto, voz, imágenes y vídeo. Abarca aplicaciones como Discord, Steam y otras plataformas, además de la comunicación presencial.
+
+  Aunque no se comparta información ni se saque provecho de ella, la conducta puede seguir considerándose una infracción. Dada la dificultad de determinar si se está compartiendo información, casi siempre se supondrá que quienes envíen mensajes a otro jugador con el que estén en una ronda, o permanezcan en una llamada de voz con él durante la ronda, comparten información sobre ella. Como también resulta difícil determinar si los usuarios aprovechan la información compartida, casi siempre se supondrá que lo están haciendo.
+
+  La única excepción a esta regla se da cuando [color=#a4885c]todos[/color] los jugadores están en la sala de espera del servidor.
+
+  ## Enseñar a jugadores nuevos
+  Enseñar a otros jugadores no queda exento de esta regla. Si quieres enseñar a un jugador nuevo, se recomienda que veas una retransmisión de su partida sin jugar tú, o que te comuniques con él únicamente mediante los canales internos del juego.
+
+  ## Retransmisiones
+  Las retransmisiones públicas en directo no están exentas de esta regla, aunque implican una responsabilidad distinta. Usar información procedente de una retransmisión pública del juego (espiar una retransmisión) infringe esta regla. También la infringe ver una retransmisión pública mientras se está conectado al mismo servidor. Permitir que los espectadores compartan información sobre la ronda actual, por ejemplo mediante el chat de la retransmisión, constituye una infracción, al igual que utilizar esa información. Compartir con quien retransmite información sobre la ronda actual también infringe la regla si se obtuvo de una fuente distinta de la propia retransmisión. Se espera que los moderadores de la retransmisión hagan cumplir esta norma en la plataforma, además de las medidas que adopten los administradores dentro del juego.
+
+  Retransmitir públicamente no infringe por sí solo la regla, siempre que la emisión esté suficientemente moderada. Se recomienda, aunque no es obligatorio, utilizar un retardo en la retransmisión.
+</Document>

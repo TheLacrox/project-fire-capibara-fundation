@@ -553,7 +553,8 @@ public sealed partial class InjectorSystem : EntitySystem
     {
         if (!_solutionContainer.ResolveSolution(injector.Owner, injector.Comp.SolutionName, ref injector.Comp.Solution, out var solution) || solution.AvailableVolume == 0)
         {
-            _popup.PopupClient("injector-component-cannot-toggle-draw-message", user, user);
+            // Fire edit: локализация сообщения о заполненном инъекторе
+            _popup.PopupClient(Loc.GetString("injector-component-cannot-toggle-draw-message"), user, user);
             return false;
         }
 

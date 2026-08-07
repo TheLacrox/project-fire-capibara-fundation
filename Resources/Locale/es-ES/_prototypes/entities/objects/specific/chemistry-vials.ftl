@@ -1,0 +1,16 @@
+ent-BaseChemistryEmptyVial = vial
+    .desc = Un vial pequeño.
+ent-VestineChemistryVial = { ent-BaseChemistryEmptyVial }
+    .suffix = vestine
+    .desc = { ent-BaseChemistryEmptyVial.desc }
+ent-RadiumChemistryVial = { ent-BaseChemistryEmptyVial }
+    .suffix = radio
+    .desc = { ent-BaseChemistryEmptyVial.desc }
+ent-ChlorineChemistryVial = { ent-BaseChemistryEmptyVial }
+    .suffix = cloro
+    .desc = { ent-BaseChemistryEmptyVial.desc }
+ent-PlasmaChemistryVial = { ent-BaseChemistryEmptyVial }
+    .suffix = plasma
+    .desc = { ent-BaseChemistryEmptyVial.desc }
+ent-BorgVial = vial integrado
+    .desc = Un compartimento interno instalado en un cíborg. Homologado para 30 unidades de cualquier líquido.

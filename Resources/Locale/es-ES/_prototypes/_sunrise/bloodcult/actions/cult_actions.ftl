@@ -1,0 +1,12 @@
+ent-ActionCultTwistedConstruction = { "" }
+    .desc = { "" }
+ent-ActionCultStun = { "" }
+    .desc = { "" }
+ent-ActionShadowShackles = { "" }
+    .desc = { "" }
+ent-ActionCultTeleport = { "" }
+    .desc = { "" }
+ent-ActionCultSummonCombatEquipment = { "" }
+    .desc = { "" }
+ent-ActionCultReturnBloodSpear = { "" }
+    .desc = { "" }

@@ -1,0 +1,75 @@
+﻿<Document>
+  # Termomáquinas
+  Las termomáquinas son dispositivos que modifican la temperatura de los gases dentro de una [textlink="red de tuberías" link="PipeNetworks"] o en la atmósfera que las rodea.
+  <Box>
+    <GuideEntityEmbed Entity="SpaceHeater" Caption=""/>
+    <GuideEntityEmbed Entity="GasThermoMachineHeater" Caption=""/>
+    <GuideEntityEmbed Entity="GasThermoMachineFreezer" Caption=""/>
+  </Box>
+  Son esenciales para mantener la temperatura de los gases en distintas aplicaciones.
+
+  Todas las termomáquinas utilizan [textlink="energía eléctrica" link="Power"] para calentar o enfriar la atmósfera.
+  La cantidad de calor o frío que aportan está directamente relacionada con la energía que consumen.
+
+  Las termomáquinas también tienen un coeficiente de eficiencia que determina cuánto pueden calentar o enfriar la atmósfera por cada unidad de energía consumida.
+
+  Para evitar superar el valor objetivo, las termomáquinas reducen su potencia de calentamiento o refrigeración a medida que se acercan a la temperatura indicada.
+  Sin embargo, siguen consumiendo la misma cantidad de energía eléctrica aunque estén inactivas.
+
+  Todas las termomáquinas tienen una tolerancia de temperatura objetivo de [color=orange][protodata="GasThermoMachineFreezer" comp="GasThermoMachine" member="TemperatureTolerance"/] K[/color]. Esto significa que dejan de calentar o enfriar cuando la temperatura se encuentra a menos de [color=orange][protodata="GasThermoMachineFreezer" comp="GasThermoMachine" member="TemperatureTolerance"/] K[/color] del objetivo.
+
+  ## Calefactor ambiental
+  El calefactor ambiental es un dispositivo portátil de control de temperatura que calienta o enfría el gas de la atmósfera que lo rodea.
+  Es una forma sencilla y eficaz de mantener la temperatura de una sala sin tener que construir una red de tuberías u otro sistema.
+
+  <Box>
+    <GuideEntityEmbed Entity="SpaceHeater"/>
+  </Box>
+
+  Suelen encontrarse en el departamento de Atmósfera, aunque la placa de máquina correspondiente se puede imprimir en una impresora de circuitos, que suele estar en Ciencias.
+
+  El calefactor ambiental puede enfriar hasta [color=orange][protodata="SpaceHeater" comp="SpaceHeater" member="MinTemperature"/] K[/color] y calentar hasta [color=orange][protodata="SpaceHeater" comp="SpaceHeater" member="MaxTemperature"/] K[/color].
+
+  También dispone de tres niveles de potencia que determinan la rapidez con la que calienta o enfría la atmósfera.
+
+  Botánica o Ciencias suelen solicitar estos aparatos para mantener la temperatura de las plantas o del departamento.
+
+  ## Termomáquinas de la red de tuberías (refrigerador y calentador)
+  Las termomáquinas para redes de tuberías son dispositivos fijos de control de temperatura más potentes que permiten calentar o enfriar el gas de una [textlink="red de tuberías" link="PipeNetworks"].
+
+  <Box>
+    <GuideEntityEmbed Entity="GasThermoMachineHeater"/>
+    <GuideEntityEmbed Entity="GasThermoMachineFreezer"/>
+  </Box>
+
+  Consumen [color=orange][protodata="GasThermoMachineFreezer" comp="GasThermoMachine" member="HeatCapacity" format="N0"/] W[/color] de energía y pueden calentar o enfriar el gas de la red hasta un máximo de [color=orange][protodata="GasThermoMachineFreezer" comp="GasThermoMachine" member="MaxTemperature"/] K[/color] o un mínimo de [color=orange][protodata="GasThermoMachineFreezer" comp="GasThermoMachine" member="MinTemperature"/] K[/color].
+
+  Puedes cambiar el modo de una termomáquina desmontándola y usando un destornillador en su placa de máquina.
+  La placa se puede fabricar en una impresora de circuitos, que suele encontrarse en Ciencias.
+
+  <Box>
+    <GuideEntityEmbed Entity="GasThermoMachineFreezer" Caption=""/>
+    <GuideEntityEmbed Entity="MachineFrame" Caption=""/>
+    <GuideEntityEmbed Entity="ThermomachineFreezerMachineCircuitBoard" Caption=""/>
+    <GuideEntityEmbed Entity="Screwdriver" Caption=""/>
+    <GuideEntityEmbed Entity="ThermomachineHeaterMachineCircuitBoard" Caption=""/>
+    <GuideEntityEmbed Entity="MachineFrame" Caption=""/>
+    <GuideEntityEmbed Entity="GasThermoMachineHeater" Caption=""/>
+
+  </Box>
+
+  ## Termomáquinas infernales
+  Ciencias puede investigar termomáquinas más potentes, conocidas acertadamente como calentadores y refrigeradores infernales.
+  Estas máquinas son mucho más potentes que sus equivalentes normales, pero también consumen más energía.
+
+  <Box>
+    <GuideEntityEmbed Entity="GasThermoMachineHellfireHeater"/>
+    <GuideEntityEmbed Entity="GasThermoMachineHellfireFreezer"/>
+  </Box>
+
+  Estas máquinas consumen [color=orange][protodata="GasThermoMachineHellfireFreezer" comp="GasThermoMachine" member="HeatCapacity" format="N0"/] W[/color] de energía y pueden calentar o enfriar el gas de la red hasta un máximo de [color=orange][protodata="GasThermoMachineHellfireFreezer" comp="GasThermoMachine" member="MaxTemperature"/] K[/color] o un mínimo de [color=orange][protodata="GasThermoMachineHellfireFreezer" comp="GasThermoMachine" member="MinTemperature"/] K[/color].
+
+  Sin embargo, también pierden en el entorno [color=orange][protodata="GasThermoMachineHellfireFreezer" comp="GasThermoMachine" member="EnergyLeakPercentage" format="P0"/][/color] de su energía, por lo que calientan o enfrían, respectivamente, la atmósfera circundante.
+  Esto puede ser peligroso si no se controla de forma adecuada.
+
+</Document>

@@ -1,0 +1,76 @@
+<Document>
+  # Mejoras de las esclusas
+  No es raro que algún individuo intrépido intente burlar una esclusa manipulando su cableado interno.
+
+  Por suerte, se pueden instalar ciertas contramedidas en las esclusas para complicarles las cosas a los posibles intrusos.
+
+  ## Esclusas de seguridad media
+  La forma más básica de impedir una intrusión consiste en instalar un revestimiento de acero reforzado que bloquee el acceso al cableado interno de la esclusa.
+
+  Para mejorar una esclusa básica y convertirla en una esclusa de seguridad media, necesitarás los siguientes materiales:
+  <Box HorizontalAlignment="Stretch">
+	  <Box>
+		  <GuideEntityEmbed Entity="SheetSteel" Caption="2 láminas de acero"/>
+	  </Box>
+	  <Box>
+		  <GuideEntityEmbed Entity="Screwdriver" Caption="Destornillador"/>
+	  </Box>
+	  <Box>
+		  <GuideEntityEmbed Entity="Welder" Caption="Soldador"/>
+	  </Box>
+  </Box>
+
+  Para mejorar una esclusa básica:
+  -	Usa el destornillador para abrir el panel de mantenimiento de la esclusa.
+  -	Añade las láminas de acero a la esclusa.
+  -	Suelda las láminas de acero en su sitio.
+  -	Cierra el panel de mantenimiento con el destornillador.
+
+  ## Esclusas de alta seguridad
+  En las esclusas que conducen a las zonas más sensibles de la estación espacial se aconseja utilizar medidas disuasorias más contundentes. Las esclusas de alta seguridad cuentan con un blindaje mejorado para proteger el cableado interno.
+
+  Para mejorar una esclusa de seguridad media y convertirla en una de alta seguridad, necesitarás los siguientes materiales:
+  <Box HorizontalAlignment="Stretch">
+	  <Box>
+		  <GuideEntityEmbed Entity="SheetPlasteel" Caption="2 láminas de plastacero"/>
+	  </Box>
+	  <Box>
+		  <GuideEntityEmbed Entity="Screwdriver" Caption="Destornillador"/>
+	  </Box>
+	  <Box>
+		  <GuideEntityEmbed Entity="Welder" Caption="Soldador"/>
+	  </Box>
+  </Box>
+
+  Para mejorar una esclusa de seguridad media:
+  - Usa el destornillador para abrir el panel de mantenimiento de la esclusa.
+  - Añade las láminas de plastacero a la esclusa.
+  - Suelda las láminas de plastacero en su sitio.
+  - Cierra el panel de mantenimiento con el destornillador.
+
+  ## Esclusas de máxima seguridad
+  También puedes mejorar una esclusa de alta seguridad y convertirla en una de máxima seguridad. Estas esclusas incorporan una capa adicional de malla electrificada sobre las demás protecciones, capaz de electrocutar al personal no autorizado que intente manipularlas.
+
+  Para mejorar una esclusa de alta seguridad y convertirla en una de máxima seguridad, necesitarás los siguientes materiales:
+  <Box HorizontalAlignment="Stretch">
+	  <Box>
+		  <GuideEntityEmbed Entity="SheetPlasteel" Caption="2 láminas de plastacero"/>
+	  </Box>
+    <Box>
+      <GuideEntityEmbed Entity="PartRodMetal" Caption="2 barras de metal"/>
+    </Box>
+	  <Box>
+		  <GuideEntityEmbed Entity="Screwdriver" Caption="Destornillador"/>
+	  </Box>
+	  <Box>
+		  <GuideEntityEmbed Entity="Welder" Caption="Soldador"/>
+	  </Box>
+  </Box>
+
+  Para mejorar una esclusa de alta seguridad:
+  -	Usa el destornillador para abrir el panel de mantenimiento de la esclusa.
+  -	Añade las láminas de plastacero a la esclusa.
+  -	Suelda las láminas de plastacero en su sitio.
+  - Añade las barras de metal a la esclusa.
+  -	Cierra el panel de mantenimiento con el destornillador.
+</Document>

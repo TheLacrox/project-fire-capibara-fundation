@@ -1,0 +1,17 @@
+<Document>
+  # Resomi
+
+  <Box>
+    <GuideEntityEmbed Entity="MobResomi" Caption=""/>
+  </Box>
+
+  Resomi can leap short distances and have claws.
+  They are quite fragile and tolerate high temperatures poorly.
+  They have night vision that can be toggled on and off.
+
+  They take [color=#ffa500]25% more heat damage[/color],
+  but [color=#1e90ff]25% less cold damage[/color].
+
+  Because of their small stature, resomi can be carried in a bag or backpack.
+
+</Document>

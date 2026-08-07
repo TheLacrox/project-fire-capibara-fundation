@@ -158,6 +158,7 @@ ent-VendingMachineWallMedicalCivilian = NanoMed band-aid
     .desc = It's a wall-mounted medical equipment dispenser. Natural chemicals only!
 ent-VendingMachineWallMedical = NanoMed
     .desc = It's a wall-mounted medical equipment dispenser. Natural chemicals only!
+# Fire edit - исправлен недействительный LocId
 ent-VendingMachineChemicalsNanotrasen = ChemVend
     .suffix = ERT
-    .desc = { desc-VendingMachineChemicals.desc }
+    .desc = { ent-VendingMachineChemicals.desc }

@@ -42,7 +42,7 @@ public sealed partial class Scp049System : SharedScp049System
 
         if (!TryMakeMinion(mobStateEntity, scpEntity))
         {
-            var message = Loc.GetString("scp049-cannot-zombify-entity", ("target", mobStateEntity));
+            var message = Loc.GetString("scp049-cannot-zombify-entity", ("name", Name(mobStateEntity.Value)));
             _popup.PopupEntity(message, mobStateEntity.Value, scpEntity);
         }
 

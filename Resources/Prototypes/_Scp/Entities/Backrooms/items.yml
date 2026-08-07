@@ -350,7 +350,7 @@
   - type: SpawnOnUse
     entities:
     - ScpBackroomsSlime
-    popupNoCharges: Посох слабо мерцает, источая иссекающие остатки энергии # TODO: Засунуть в лок
+    popupNoCharges: scp-backrooms-staff-no-charges # Fire edit - локализация сообщения
     soundSuccessFul:
       path: /Audio/Weapons/Guns/Gunshots/Magic/staff_door.ogg
   - type: UseDelay

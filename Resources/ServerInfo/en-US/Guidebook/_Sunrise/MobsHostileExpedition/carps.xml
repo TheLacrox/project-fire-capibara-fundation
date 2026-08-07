@@ -1,0 +1,107 @@
+<Document>
+  # Carps
+
+  Space carp are aggressive predators encountered on salvage expeditions.
+  Most variants can fly and cross low obstacles.
+
+  [bold][color=#a4885c]________________________________________________________________________[/color]
+
+  # Known variants
+  # “Carp”
+
+  The basic expedition carp variant.
+
+  [color=#a4885c]Flying[/color]: the creature hovers above the surface and can cross low obstacles.
+
+  <Box>
+  <GuideEntityEmbed Entity="MobCarpDungeon"/>
+  </Box>
+  - [bold][color=#a4885c]Health threshold:[/color][/bold] 50
+  - [bold][color=#a4885c]Speed:[/color][/bold] 3.5 m/s
+  - [bold][color=#a4885c]Damage (type):[/color][/bold] 6 [color=red]slashing[/color]
+  - [bold][color=#a4885c]Resistances:[/color][/bold] none
+  - [bold][color=#a4885c]Special abilities:[/color][/bold] Flying
+
+  [bold][color=#a4885c]________________________________________________________________________[/color]
+
+  # “Magicarp”
+
+  A rare variety of carp. No magic has been observed.
+
+  [color=#a4885c]Flying[/color]: the creature hovers above the surface and can cross low obstacles.
+
+  <Box>
+  <GuideEntityEmbed Entity="MobCarpMagic"/>
+  </Box>
+  - [bold][color=#a4885c]Health threshold:[/color][/bold] 40
+  - [bold][color=#a4885c]Speed:[/color][/bold] 3.5 m/s
+  - [bold][color=#a4885c]Damage (type):[/color][/bold] 5 [color=red]blunt[/color], 7 [color=red]slashing[/color]
+  - [bold][color=#a4885c]Resistances:[/color][/bold] none
+  - [bold][color=#a4885c]Special abilities:[/color][/bold] Flying
+
+  [bold][color=#a4885c]________________________________________________________________________[/color]
+
+  # “Holocarp”
+
+  A carp made of holographic energy. It certainly feels real.
+
+  [color=#a4885c]Flying[/color]: the creature hovers above the surface and can cross low obstacles.
+
+  <Box>
+  <GuideEntityEmbed Entity="MobCarpHolo"/>
+  </Box>
+  - [bold][color=#a4885c]Health threshold:[/color][/bold] 40
+  - [bold][color=#a4885c]Speed:[/color][/bold] 3.5 m/s
+  - [bold][color=#a4885c]Damage (type):[/color][/bold] 5 [color=red]blunt[/color], 7 [color=red]slashing[/color]
+  - [bold][color=#a4885c]Resistances:[/color][/bold] none
+  - [bold][color=#a4885c]Special abilities:[/color][/bold] Flying, bullet immunity
+
+  [bold][color=#a4885c]________________________________________________________________________[/color]
+
+  # “Rainbow carp”
+
+  A bright and dangerous variety of carp.
+
+  [color=#a4885c]Flying[/color]: the creature hovers above the surface and can cross low obstacles.
+
+  <Box>
+  <GuideEntityEmbed Entity="MobCarpRainbow"/>
+  </Box>
+  - [bold][color=#a4885c]Health threshold:[/color][/bold] 40
+  - [bold][color=#a4885c]Speed:[/color][/bold] 3.5 m/s
+  - [bold][color=#a4885c]Damage (type):[/color][/bold] 5 [color=red]blunt[/color], 7 [color=red]slashing[/color]
+  - [bold][color=#a4885c]Resistances:[/color][/bold] none
+  - [bold][color=#a4885c]Special abilities:[/color][/bold] Flying, beautiful
+
+  [bold][color=#a4885c]________________________________________________________________________[/color]
+
+  # “Space dragon”
+
+  A large and extremely dangerous target associated with carp.
+
+  [color=#a4885c]Flying[/color]: the creature hovers above the surface and can cross low obstacles.
+
+  <Box>
+  <GuideEntityEmbed Entity="MobDragonDungeon"/>
+  </Box>
+  - [bold][color=#a4885c]Health threshold:[/color][/bold] 200
+  - [bold][color=#a4885c]Speed:[/color][/bold] 5 m/s
+  - [bold][color=#a4885c]Damage (type):[/color][/bold] 12 [color=red]brute[/color]
+  - [bold][color=#a4885c]Resistances:[/color][/bold] none
+  - [bold][color=#a4885c]Special abilities:[/color][/bold] Flying, weak projectile reflection
+
+  [bold][color=#a4885c]________________________________________________________________________[/color]
+
+  # Mission objectives
+  ## Elimination
+  <Box>
+  <GuideEntityEmbed Entity="MobDragonDungeon"/>
+  </Box>
+  Eliminate the large and dangerous [color=#a4885c]space dragon[/color] within the allotted time.
+
+  ## Destruction
+  <Box>
+  <GuideEntityEmbed Entity="CarpStatue"/>
+  </Box>
+  Destroy the required number of [color=#a4885c]carp statues[/color] within the allotted time.
+</Document>

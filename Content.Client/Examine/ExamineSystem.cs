@@ -255,7 +255,8 @@ namespace Content.Client.Examine
             else
             {
                 var label = new RichTextLabel();
-                label.SetMessage(FormattedMessage.FromMarkupOrThrow("[bold]???[/bold]"));
+                var unknownName = FormattedMessage.EscapeText(Loc.GetString("generic-unknown-title"));
+                label.SetMessage(FormattedMessage.FromMarkupOrThrow($"[bold]{unknownName}[/bold]")); // Fire edit - Локализация скрытого имени.
                 hBox.AddChild(label);
             }
 

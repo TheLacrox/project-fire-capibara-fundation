@@ -58,7 +58,7 @@ entities:
   - uid: 2
     components:
     - type: MetaData
-      name: Распределительный центр Фонда
+      name: Foundation Distribution Center
     - type: Transform
       pos: -0.75448555,0.32319754
       parent: invalid
@@ -26542,13 +26542,13 @@ entities:
   - uid: 2872
     components:
     - type: MetaData
-      name: '!Распределительный центр Фонда'
+      name: '!Foundation Distribution Center'
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 1.5,11.5
       parent: 2
     - type: WarpPoint
-      location: '!Распределительный центр Фонда'
+      location: '!Foundation Distribution Center'
 - proto: WaterCooler
   entities:
   - uid: 56

@@ -1,0 +1,33 @@
+﻿<Document>
+  # SCP-096 "The Shy Guy"
+
+  This guide explains the object in terms of gameplay and game mechanics. It will NOT cover the object's lore.
+
+  This page collects links to other, more detailed guides about the object and briefly describes each section.
+
+  ## Start of the Round
+
+  At the start of the round or whenever it spawns, SCP-096 is inside its containment chamber.
+  The containment chamber is a safety measure that prevents harm to facility personnel.
+
+  While the object remains inside, it poses almost no threat.
+
+  - Objective of facility personnel: keep the object inside its containment chamber.
+  - Objective of SCP-096: leave the containment chamber.
+
+  [textlink="More information about containment" link="Scp096Containment"]
+
+  [textlink="More information about escape methods" link="Scp096ContainmentBreach"]
+
+  ## States
+
+  States determine the available mechanics and define the object's behavior. Throughout the round, the object will move between different states depending on the actions of those around it or the Shy Guy's own actions.
+
+  [textlink="More information about states" link="Scp096States"]
+
+  ## Abilities
+
+  The Shy Guy has two unique abilities, one of which is the key mechanic that allows it to escape the containment chamber.
+
+  [textlink="More information about abilities" link="Scp096Abilities"]
+</Document>

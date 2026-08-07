@@ -1,0 +1,29 @@
+﻿<Document>
+  # States
+
+  The Burning Man has several unique states that determine its abilities and mechanics.
+
+  Whether you are SCP-457 or facility personnel, you can identify its state by the size of SCP-457's sprite.
+
+  [textlink="General information about the Burning Man" link="Scp457About"]
+
+  ## Medium
+
+  In this state, the Burning Man cannot enter ventilation and does not destroy structures by colliding with them. This is the default state in which the object spawns during a round.
+
+  To enter another state, it must absorb enough fuel or wait until its flame burns down.
+
+  ## Small
+
+  In this state, the Burning Man has low health and deals little damage, but can enter ventilation and pass through blast doors and airlocks.
+  The Burning Man enters this state 12 minutes after the start of the round.
+
+  Note that during the first 15 minutes of the round, you cannot enter ventilation while in the small state!
+
+  [textlink="More about the Safe Time mechanic" link="Scp457Abilities"]
+
+  ## Large
+
+  In this state, the object becomes very large and powerful and can destroy structures by colliding with them.
+  The Burning Man enters this state after absorbing enough fuel.
+</Document>

@@ -1,0 +1,16 @@
+ent-ActionToggleNinjaGloves = Activar o desactivar los guantes de ninja
+    .desc = Activa o desactiva todas las acciones de los guantes al hacer clic izquierdo. Entre ellas se incluyen forzar puertas, drenar energía, aturdir a enemigos y piratear ciertos ordenadores.
+ent-ActionCreateThrowingStar = Crear estrella arrojadiza
+    .desc = Canaliza la energía del traje para crear una estrella arrojadiza que inflige daño adicional a la resistencia.
+ent-ActionCreateSmokeGrenade = Crear granada de humo
+    .desc = Canaliza la energía del traje para crear una granada de humo que facilite una retirada táctica.
+ent-ActionCreateFlashbangGrenade = Crear granada cegadora
+    .desc = Canaliza la energía del traje para crear una granada cegadora que sirva de distracción táctica.
+ent-ActionRecallKatana = Recuperar la katana
+    .desc = Teletransporta la katana de energía vinculada al traje hasta quien lo lleva; el coste depende de la distancia.
+ent-ActionNinjaEmp = Ráfaga EM
+    .desc = Desactiva toda la tecnología cercana mediante un pulso electromagnético.
+ent-ActionTogglePhaseCloak = Camuflaje de fase
+    .desc = Activa o desactiva el camuflaje de fase de tu traje. ¡Ten cuidado: si recibes un impacto, todas las habilidades, incluido el camuflaje, quedarán desactivadas durante 5 segundos!
+ent-ActionEnergyKatanaDash = Desplazamiento con katana
+    .desc = Teletranspórtate a cualquier lugar que puedas ver si tienes la katana de energía en la mano.

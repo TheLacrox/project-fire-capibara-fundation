@@ -1,4 +1,5 @@
 ﻿using Robust.Shared.GameStates;
+using Robust.Shared.Localization;
 
 namespace Content.Shared._Sunrise.BloodCult.Components;
 
@@ -18,5 +19,5 @@ public sealed partial class CultMemberComponent : Component
     public TimeSpan PopupCooldown = TimeSpan.FromSeconds(3.0);
 
     [DataField]
-    public string Reason = "Вы не можете атаковать членов культа";
+    public LocId Reason = "cult-member-cannot-attack"; // Fire edit - Локализация причины запрета атаки.
 }

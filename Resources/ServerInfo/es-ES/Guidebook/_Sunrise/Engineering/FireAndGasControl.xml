@@ -1,0 +1,77 @@
+﻿<Document>
+  # Control de incendios y gases
+  Por desgracia, los [textlink="incendios" link="Fires"], las [textlink="despresurizaciones" link="Spacing"] y otros [textlink="incidentes atmosféricos" link="AtmosphericUpsets"] son habituales en la estación.
+  Estos incidentes pueden propagarse rápidamente y hacer que la atmósfera resulte inhabitable para la tripulación.
+
+  <Box>
+    <GuideEntityEmbed Entity="Firelock"/>
+    <GuideEntityEmbed Entity="FirelockGlass"/>
+    <GuideEntityEmbed Entity="FirelockEdge"/>
+    <GuideEntityEmbed Entity="FireAlarm"/>
+  </Box>
+
+  Para combatirlos, las estaciones disponen de distintos dispositivos que ayudan a impedir su propagación.
+
+  ## Compuertas cortafuegos
+  Las compuertas cortafuegos son una forma sencilla y eficaz de evitar que los incendios se extiendan por la estación.
+
+  Pueden aislar secciones de la estación cuando detectan determinadas condiciones o reciben una orden de una [textlink="alarma atmosférica" link="AirAlarms"] o de incendios conectada, lo que evita que el peligro siga propagándose.
+
+  ## División de la estación en secciones
+  Las compuertas cortafuegos se colocan de forma deliberada en puntos clave para dividir la estación en secciones. Los espacios abiertos, como pasillos o paseos, se separan en tramos más pequeños. Esto impide que las condiciones peligrosas se propaguen a toda la estación a través de salas, pasillos y otros espacios abiertos conectados.
+
+  ## Funcionamiento básico
+  Cuando una compuerta cortafuegos no está conectada a una [textlink="alarma atmosférica" link="AirAlarms"] ni a una alarma de incendios, reacciona a las condiciones que detecta por sí misma. Las compuertas bajarán si:
+  - La temperatura entre sus dos lados difiere en [color=orange][protodata="Firelock" comp="Firelock" member="TemperatureThreshold"/] K[/color] o más.
+  - La presión entre sus dos lados difiere en [color=orange][protodata="Firelock" comp="Firelock" member="PressureThreshold"/] kPa[/color] o más.
+
+  Si estas condiciones persisten, la compuerta cortafuegos entrará en modo de bloqueo. Las compuertas bloqueadas muestran indicadores [color=red]rojos[/color] y no pueden abrirse a mano. Solo puede abrirlas alguien con acceso de Ingeniería o utilizando una palanca.
+
+  Una compuerta cortafuegos sin energía y en modo de bloqueo no puede abrirse con acceso de Ingeniería. En ese caso solo servirá una palanca.
+
+  Si las condiciones a ambos lados vuelven a situarse dentro de una diferencia aceptable, la compuerta abandona el modo de bloqueo y cualquiera puede abrirla de nuevo.
+  Recuerda que esto solo indica que las condiciones son iguales en ambos lados, no que sean seguras.
+
+  Un ejemplo habitual es una compuerta cortafuegos que vuelve a subir porque ambos lados están expuestos al espacio.
+
+  ## Conexión a alarmas atmosféricas y de incendios
+  Las compuertas cortafuegos pueden conectarse a [textlink="alarmas atmosféricas" link="AirAlarms"] y alarmas de incendios para recibir órdenes de cierre.
+  Utilizan el [textlink="sistema de listas" link="Networking"], y puedes conectar estos dispositivos con una multiherramienta o un configurador de redes.
+
+  <Box>
+    <GuideEntityEmbed Entity="Firelock" Caption=""/>
+    <GuideEntityEmbed Entity="Multitool" Caption=""/>
+    <GuideEntityEmbed Entity="NetworkConfigurator" Caption=""/>
+    <GuideEntityEmbed Entity="FireAlarm" Caption=""/>
+    <GuideEntityEmbed Entity="AirAlarm" Caption=""/>
+  </Box>
+
+  Cada compuerta cortafuegos tiene una dirección única. El proceso de conexión es muy parecido al que se utiliza para vincular respiraderos, depuradores y sensores a las alarmas atmosféricas.
+
+  ## Funcionamiento bajo una alarma atmosférica
+  Cuando están conectadas a una alarma atmosférica, las compuertas también bajan cuando la [textlink="alarma atmosférica" link="AirAlarms"] vinculada se lo ordena.
+
+  Bajarán si la alarma atmosférica alcanza el estado [color=red]Peligro[/color]. Permanecerán cerradas hasta que la alarma vuelva al estado [color=green]Normal[/color].
+
+  Las compuertas que estén en modo de bloqueo no subirán aunque la alarma atmosférica vuelva al estado [color=green]Normal[/color]. Incluso después de corregir la diferencia de presión, la compuerta seguirá cerrada hasta que la alarma atmosférica vuelva a enviar el estado normal.
+
+  ## Funcionamiento bajo una alarma de incendios
+  Cuando están conectadas a una alarma de incendios, las compuertas bajan si esta se activa. Permanecerán cerradas hasta que se restablezca la alarma.
+
+  ## Alarmas de incendios
+  Las alarmas de incendios permiten controlar de forma centralizada todas las compuertas cortafuegos conectadas.
+
+  <Box>
+    <GuideEntityEmbed Entity="FireAlarm"/>
+  </Box>
+
+  Los dispositivos con sensores pueden [textlink="vincularse" link="Networking"] a las alarmas de incendios. Estas se activarán si un sensor alcanza el umbral de temperatura [color=red]Peligro[/color] establecido en su configuración.
+
+  Cuando se activa una alarma de incendios, todas las compuertas conectadas reciben el estado [color=red]Peligro[/color] y bajan.
+
+  La alarma se restablece automáticamente cuando el sensor vuelve al umbral de temperatura [color=green]Normal[/color].
+
+  También puedes activar y restablecer una alarma de incendios de forma manual al interactuar con ella.
+
+  Esto permite bajar rápidamente a mano todas las compuertas cortafuegos de una sala o volver a subirlas una vez resuelto el incidente.
+</Document>

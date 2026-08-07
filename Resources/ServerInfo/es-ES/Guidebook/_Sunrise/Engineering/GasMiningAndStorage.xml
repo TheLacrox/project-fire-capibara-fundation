@@ -1,0 +1,66 @@
+﻿<Document>
+  # Extracción y almacenamiento de gases
+  Los gases suelen consumirse de manera irreversible. Tanto si se pierden en el [textlink="espacio" link="Spacing"] como si se emplean en una cámara de combustión, la estación debe producir más para reemplazar lo perdido.
+  También debe almacenar ese gas de forma segura y eficiente.
+
+  ## Extractores de gas
+  Los extractores de gas reponen las reservas de la estación. Se encuentran en los depósitos de gas del departamento de Atmósfera.
+
+  <Box>
+    <GuideEntityEmbed Entity="GasMinerOxygenStation"/>
+    <GuideEntityEmbed Entity="GasMinerNitrogenStation"/>
+  </Box>
+
+  Los extractores producen constantemente gas a temperatura ambiente y lo expulsan a la atmósfera que los rodea. No necesitan energía y nunca dejan de funcionar salvo que alcancen la [bold]presión de corte[/bold] establecida.
+
+  Puedes consultar más información sobre los extractores de gas examinándolos con [color=yellow][bold][keybind="ExamineEntity"][/bold][/color].
+  Prueba a examinar los que aparecen arriba.
+
+  Los extractores de gas tienen varios niveles; las versiones grandes poseen una presión de corte más alta que las pequeñas.
+
+  <Box>
+    <GuideEntityEmbed Entity="GasMinerNitrogen" Caption="300 kPa"/>
+    <GuideEntityEmbed Entity="GasMinerNitrogenStation" Caption="1000 kPa"/>
+    <GuideEntityEmbed Entity="GasMinerNitrogenStationLarge" Caption="4500 kPa"/>
+  </Box>
+
+  Si alguna vez se desanclan los extractores de gas de la estación, se pueden volver a fijar con una llave inglesa normal.
+
+  ## Almacenamiento de gas
+  Los depósitos de gas sirven para guardar el gas producido por los extractores y ponerlo a disposición de otros procesos. Se encuentran en el departamento de Atmósfera.
+
+  <Box>
+    <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="ReinforcedPlasmaWindow" Rotation="0" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="GasOutletInjector" Rotation="270" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="GasMinerOxygenStation" Rotation="0" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="GasPassiveVent" Rotation="0" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
+  </Box>
+
+  <Box>
+    [color=#999999][italic]Ejemplo de un depósito de gas pequeño[italic][/color]
+  </Box>
+
+  Diversos procesos atmosféricos introducen gases en los depósitos y los extraen de ellos.
+  Por ejemplo:
+  - Los extractores suministran gases nuevos a los depósitos si queda espacio.
+  - La red de reciclaje inyecta gases recuperados en los depósitos para volver a utilizarlos.
+  - Sistemas como la red de distribución y la cámara de combustión extraen gases de los depósitos.
+
+  Los depósitos de gas están diseñados para poder medirlos con un [textlink="analizador de gases" link="AtmosTools"].
+  Como la ventilación de salida es una [textlink="ventilación pasiva" link="PassiveVent"], puedes usar un [textlink="analizador de gases" link="AtmosTools"] en la entrada de la [textlink="bomba" link="Pumps"] que extrae gas del depósito para medir su contenido.
+</Document>

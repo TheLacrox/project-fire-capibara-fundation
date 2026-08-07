@@ -63,10 +63,15 @@ public sealed partial class SurveillanceCameraNavMapControl : NavMapControl
             if (netEntity != Focus)
                 continue;
 
+            // Fire edit start - локализация сведений об отслеживаемом объекте
             if (!LocalizedNames.TryGetValue(netEntity, out var name))
-                name = "Unknown";
+                name = Loc.GetString("surveillance-camera-monitor-ui-unknown");
 
-            var message = name + "\nLocation: [x = " + MathF.Round(blip.Coordinates.X) + ", y = " + MathF.Round(blip.Coordinates.Y) + "]";
+            var message = Loc.GetString("surveillance-camera-monitor-ui-tracked-entity",
+                ("name", name),
+                ("x", MathF.Round(blip.Coordinates.X)),
+                ("y", MathF.Round(blip.Coordinates.Y)));
+            // Fire edit end
 
             _trackedEntityLabel.Text = message;
             _trackedEntityPanel.Visible = true;

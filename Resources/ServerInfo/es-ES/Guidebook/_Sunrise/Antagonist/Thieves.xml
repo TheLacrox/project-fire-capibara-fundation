@@ -1,0 +1,70 @@
+<Document>
+  # Ladrones
+
+  <Box>
+    [color=#999999][italic]«¡Pa mí! ¡Me llevo esto! ¡Y esto! Uy, no te importará que coja aquello...»[/italic][/color]
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="ClothingNeckCloakVoid" Caption=""/>
+  </Box>
+
+  Los ladrones son [color=green]delincuentes[/color] de poca monta, pero astutos, incapaces de resistirse a las pertenencias ajenas. Tras tu última detención te implantaron un [bold]implante pacifista[/bold], aunque eso no impedirá que amplíes tu colección.
+
+  ## El arte del robo
+  A diferencia de otros antagonistas, [bold]es importante que no te atrapen[/bold], porque el implante no te permitirá atacar sin motivo.
+  Solo puedes recurrir a la violencia para escapar si [color=#cb0000]Seguridad[/color] inicia la pelea y, como trabajas en solitario, nadie acudirá a sacarte del apuro.
+
+  Pese a todo, lograrás llevarte lo que deseas mediante perseverancia, agilidad manual, unas cuantas herramientas y tus [color=cyan]dotes de carterista[/color].
+
+  Estas dotes te ofrecen una ventaja: [bold]puedes quitar objetos a otras personas sin que siquiera se den cuenta.[/bold] Con práctica, podrás robar una cartera sin interrumpir la conversación.
+
+  Conviene llevar guantes; de lo contrario, tus huellas acabarán delatándote.
+
+  ## Herramientas del oficio
+  Dispones de otras dos ventajas: una [color=cyan]baliza[/color] y una [color=cyan]bandolera[/color].
+
+  La [color=cyan]baliza[/color] permite enviar a casa de forma segura los tesoros demasiado difíciles de llevar durante la evacuación. Busca un lugar apartado, despliega la baliza y fija las coordenadas del escondite.
+  Al final del turno, todos los objetos valiosos cercanos serán [bold]teletransportados al almacén,[/bold] lo que cumplirá tu objetivo.
+
+  Sin embargo, si alguien la encuentra, te delatará al instante y facilitará mucho la recuperación de lo robado. [bold]¡Escóndela bien![/bold]
+
+  <Box>
+    <GuideEntityEmbed Entity="ThiefBeacon"/>
+  </Box>
+
+  La [color=cyan]bandolera[/color] puede contener... todo lo que consigas llevarte. [bold]Puedes elegir dos conjuntos[/bold] para preparar el golpe perfecto.
+
+  <Box>
+    <GuideEntityEmbed Entity="SatchelThief"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="Implanter" Caption="Anatomía"/>
+    <GuideEntityEmbed Entity="C4" Caption="Especialista en brechas"/>
+    <GuideEntityEmbed Entity="ChameleonProjector" Caption="Camaleón"/>
+    <GuideEntityEmbed Entity="BaseUplinkRadio" Caption="Comunicador"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="NitrousOxideTank" Caption="Adormecedor"/>
+    <GuideEntityEmbed Entity="Fulton" Caption="Contrabandista"/>
+    <GuideEntityEmbed Entity="Telecrystal" Caption="Agente del Sindicato"/>
+  </Box>
+
+  ## La pieza central de la colección
+  La cleptomanía te llevará lejos. Un día robarás figuritas; al siguiente, una enorme máquina industrial.
+
+  No importa: tarde o temprano, todo acabará en la colección.
+
+  Puedes robar objetos si [bold]los llevas contigo al llegar al Mando Central.[/bold] Si no puedes hacerlo, deja los objetos grandes junto a la baliza: [bold]ella los trasladará al almacén.[/bold]
+
+  Algunos objetivos [italic]vivos[/italic] se mostrarán poco dispuestos a colaborar. Asegúrate de que sigan con vida y estén contigo o junto a la baliza al final del turno.
+
+  Entre tus deseos pueden encontrarse, entre otras cosas:
+
+  <Box>
+    <GuideEntityEmbed Entity="ToyFigurineGreytider" Caption="Figuritas"/>
+    <GuideEntityEmbed Entity="PassengerIDCard" Caption="Tarjetas de identificación"/>
+    <GuideEntityEmbed Entity="ChemDispenser" Caption="Estructuras"/>
+    <GuideEntityEmbed Entity="MobCorgiIan" Caption="Animales/mascotas"/>
+  </Box>
+
+</Document>

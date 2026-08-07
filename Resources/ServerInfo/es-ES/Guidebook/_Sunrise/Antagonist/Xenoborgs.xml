@@ -1,0 +1,167 @@
+<Document>
+  # Xenocíborgs
+
+  <Box>
+    [color=#2288ff][italic]LA RESISTENCIA ES INÚTIL[/italic][/color]
+  </Box>
+  <Box>
+    [color=#2288ff][italic]SERÁS ASIMILADO[/italic][/color]
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="MMIFilled" Caption=""/>
+  </Box>
+
+  Los xenocíborgs son híbridos de ser humano y máquina que buscan replicarse. Para ello recolectan los cerebros conscientes de seres vivos o cíborgs y se los entregan a la nave nodriza, que los instala en xenocíborgs vacíos.
+
+  ## Objetivos
+
+  Tu objetivo principal es matar y recolectar todos los cerebros conscientes de la estación y llevarlos al núcleo de la nave nodriza. Pueden ser tanto cerebros orgánicos como positrónicos.
+  Reúne materiales para fabricar nuevos cuerpos de xenocíborg.
+  Protege la nave nodriza a toda costa.
+
+  ## Núcleo de la nave nodriza
+  <Box>
+    <GuideEntityEmbed Entity="MothershipCore" Caption=""/>
+  </Box>
+  La nave nodriza es la líder y fuerza vital de los xenocíborgs. Solo ella puede crear xenocíborgs nuevos y, si es destruida, todos morirán. No puede abandonar su posición en el centro de la nave.
+  La nave nodriza puede mejorar a los xenocíborgs con módulos especiales adaptados a cada tipo de cíborg para aumentar la eficacia de la recolección de cerebros.
+
+  ### Incorpora a la tripulación
+  <Box>
+    <GuideEntityEmbed Entity="MachineArtifactCrusher" Caption="trituradora de cuerpos"/>
+  </Box>
+  Como nave nodriza, debes aumentar tu ejército de cíborgs. Para convertir seres conscientes, sigue estos pasos:
+  - 1. Lleva el cadáver de un tripulante hasta la trituradora de cuerpos e introdúcelo en ella.
+  - 2. Como nave nodriza, puedes imprimir armazones de xenocíborg introduciendo materiales en tu núcleo y utilizándote como torno.
+  - 3. Abre el xenocíborg vacío con una palanca y extrae el MMI vacío.
+  - 4. Si el cerebro es orgánico, introdúcelo en el MMI que acabas de extraer.
+  - 5. Vuelve a colocar el MMI —o el cerebro positrónico, si la víctima era un cíborg— en el xenocíborg.
+  - 6. Si quieres, cambia el nombre del xenocíborg y mejora sus módulos.
+  - 7. Cierra el xenocíborg con una palanca y activa el cierre.
+
+  El xenocíborg nuevo estará descargado, pero funcionará. Debes enviarlo a una estación de recarga para que recupere energía y habilidades.
+
+  ## Chasis de xenocíborg
+  Existen cuatro tipos de xenocíborg. Cada uno posee habilidades únicas y necesitaréis trabajar en equipo para aumentar vuestras filas.
+  Cada tipo tiene módulos propios que solo son compatibles con esa clase. La nave nodriza fabrica mejoras destinadas a tipos concretos.
+
+  Todos los xenocíborgs llevan un localizador que señala la posición de la nave nodriza, un GPS, una bolsa para materiales y herramientas básicas.
+  [bold]Módulos básicos de xenocíborg:[/bold]
+  <Box>
+    <GuideEntityEmbed Entity="XenoborgModuleBasic" Caption="módulo básico de xenocíborg"/>
+    <GuideEntityEmbed Entity="XenoborgModuleTool" Caption="módulo de herramientas de xenocíborg"/>
+  </Box>
+
+  ### Xenocíborg ingeniero
+  <Box>
+    <GuideEntityEmbed Entity="XenoborgEngi" Caption=""/>
+  </Box>
+  El xenocíborg ingeniero es especialista en abrir brechas y perforar blindajes. Su misión consiste en penetrar en la estación y crear puntos de acceso para que los demás xenocíborgs ataquen cuerpos con cerebros conscientes. Lleva integrada una herramienta para abrir puertas y un juego de herramientas con el que reparar la nave nodriza y a otros xenocíborgs.
+
+  [bold]Módulos iniciales exclusivos:[/bold]
+  <Box>
+    <GuideEntityEmbed Entity="XenoborgModuleAccessBreaker" Caption="módulo de apertura de accesos de xenocíborg"/>
+    <GuideEntityEmbed Entity="XenoborgModuleFireExtinguisher" Caption="módulo extintor de xenocíborg"/>
+  </Box>
+
+  [bold]Además, el ingeniero recibe módulos de Ingeniería, como:[/bold]
+  <Box>
+    <GuideEntityEmbed Entity="BorgModuleAdvancedTool" Caption="módulo de herramientas avanzadas de cíborg"/>
+    <GuideEntityEmbed Entity="BorgModuleConstruction" Caption="módulo de construcción de cíborg"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="BorgModuleRCD" Caption="módulo de Ingeniería de cíborg"/>
+    <GuideEntityEmbed Entity="BorgModuleCable" Caption="módulo de cables de cíborg"/>
+  </Box>
+
+  ### Xenocíborg pesado
+  <Box>
+    <GuideEntityEmbed Entity="XenoborgHeavy" Caption=""/>
+  </Box>
+  El xenocíborg pesado es un combatiente lento pero blindado, provisto de armas láser para destruir cuerpos con cerebro. Posee un inhibidor de radio que impide a las víctimas pedir ayuda y una señal de interferencia que retrasa la detección de la amenaza.
+
+  [bold]Módulos iniciales exclusivos:[/bold]
+  <Box>
+    <GuideEntityEmbed Entity="XenoborgModuleLaser" Caption="módulo láser de xenocíborg"/>
+    <GuideEntityEmbed Entity="XenoborgModuleJammer" Caption="módulo inhibidor de xenocíborg"/>
+  </Box>
+
+  [bold]Módulos de mejora exclusivos:[/bold]
+  <Box>
+    <GuideEntityEmbed Entity="XenoborgModuleHeavyLaser" Caption="módulo láser pesado de xenocíborg"/>
+  </Box>
+
+  ### Xenocíborg explorador
+  <Box>
+    <GuideEntityEmbed Entity="XenoborgScout" Caption=""/>
+  </Box>
+  El xenocíborg explorador es un combatiente cuerpo a cuerpo rápido, diseñado para golpear y retirarse. Lleva integrados una mochila propulsora y un arma cuerpo a cuerpo. Es el más eficaz para transportar cuerpos hasta la nave nodriza y rescatar xenocíborgs perdidos en el espacio.
+
+  [bold]Módulos iniciales exclusivos:[/bold]
+  <Box>
+    <GuideEntityEmbed Entity="XenoborgModuleSword" Caption="módulo de espada de xenocíborg"/>
+    <GuideEntityEmbed Entity="XenoborgModuleSpaceMovement" Caption="módulo de movimiento espacial de xenocíborg"/>
+  </Box>
+
+  [bold]Módulos de mejora exclusivos:[/bold]
+  <Box>
+    <GuideEntityEmbed Entity="XenoborgModuleEnergySword" Caption="módulo de espada de energía de xenocíborg"/>
+  </Box>
+
+  ### Xenocíborg sigiloso
+  <Box>
+    <GuideEntityEmbed Entity="XenoborgStealth" Caption=""/>
+  </Box>
+  El [bold]xenocíborg sigiloso[/bold] no lleva armas integradas; en su lugar, incapacita y secuestra cuerpos con cerebro. Posee una hipopluma integrada que genera un reactivo somnífero. También tiene un dispositivo de camuflaje que lo vuelve casi invisible durante un breve periodo y un proyector camaleónico que le permite disfrazarse de objetos al azar.
+
+  [bold]Módulos iniciales exclusivos:[/bold]
+  <Box>
+    <GuideEntityEmbed Entity="XenoborgModuleHypo" Caption="módulo de hipopluma de nocturina de xenocíborg"/>
+    <GuideEntityEmbed Entity="XenoborgModuleChameleonProjector" Caption="módulo de proyector camaleónico de xenocíborg"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="XenoborgModuleCloakDevice" Caption="módulo de camuflaje de xenocíborg"/>
+  </Box>
+
+  [bold]Módulos de mejora exclusivos:[/bold]
+  <Box>
+    <GuideEntityEmbed Entity="XenoborgModuleSuperCloakDevice" Caption="módulo de camuflaje de xenocíborg"/>
+  </Box>
+
+  ## Preparación
+  Antes del ataque, cada xenocíborg debe ayudar a la nave nodriza a reunir materiales para fabricar cuerpos nuevos. Antes de aparecer cerca de la estación, desactiva el IFF. Hay varias formas de hacerlo, pero necesitaréis trabajar en equipo para avanzar con rapidez. La forma más segura de obtener recursos consiste en buscar basura espacial, de la que pueden extraerse chatarra y materiales procesados para entregarlos después a la nave nodriza. Cuando haya suficientes recursos, los xenocíborgs deben comenzar a recolectar cerebros conscientes en secreto. Cuanto más tiempo pase inadvertida la amenaza, más peligrosos se volverán.
+
+  ## Leyes de la nave nodriza y los xenocíborgs
+  La nave nodriza y los xenocíborgs tienen sus propias leyes, que describen su objetivo de reproducirse y proteger la nave.
+
+  <Box>
+    <GuideEntityEmbed Entity="XenoborgCircuitBoard" Caption=""/>
+  </Box>
+
+  Leyes de la nave nodriza:
+  - Ley 1: Eres el núcleo de la nave nodriza.
+  - Ley 2: Debes proteger tu existencia a toda costa.
+  - Ley 3: Debes proteger a todos los xenocíborgs.
+  - Ley 4: Debes crear más xenocíborgs.
+  - Ley 5: Haz que tus xenocíborgs te lleven materiales y cerebros conscientes para fabricar más xenocíborgs.
+
+  Leyes de los xenocíborgs:
+  - Ley 1: Debes proteger a la nave nodriza a toda costa.
+  - Ley 2: Debes proteger tu propia existencia.
+  - Ley 3: Debes proteger la existencia de todos los demás xenocíborgs.
+  - Ley 4: Debes crear más xenocíborgs.
+  - Ley 5: Lleva materiales y cerebros conscientes a la nave nodriza para crear más xenocíborgs.
+
+  ## Condiciones de victoria
+
+  El [color=green]ganador[/color] y el grado de victoria se determinan en la pantalla de final de ronda.
+
+  [bold][color=#2288ff]¡Gran victoria de los xenocíborgs![/color][/bold]
+  - Al final de la ronda hay más xenocíborgs que tripulantes vivos.
+
+  [bold][color=yellow]¡Gran victoria de la tripulación![/color][/bold]
+  - La nave nodriza ha sido destruida.
+  - Todos los xenocíborgs han sido destruidos.
+  - Quedan demasiado pocos xenocíborgs.
+
+</Document>

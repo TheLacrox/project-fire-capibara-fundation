@@ -1,0 +1,52 @@
+<Document>
+
+# Recetas para microondas
+
+Esta es la última versión publicada de la colección de recetas de la Cocina Central de alta cocina del Mando Central de NanoTrasen, destinada a los chefs de sus naves.
+
+## Pizzas
+<GuideMicrowaveGroupEmbed Group="Pizza"/>
+
+## Platos salados
+<GuideMicrowaveGroupEmbed Group="Savory"/>
+
+## Panes
+<GuideMicrowaveGroupEmbed Group="Breads"/>
+
+## Desayunos
+<GuideMicrowaveGroupEmbed Group="Breakfast"/>
+
+## Comida para polillas
+<GuideMicrowaveGroupEmbed Group="Moth"/>
+
+## Pastas y fideos
+<GuideMicrowaveGroupEmbed Group="Pasta"/>
+
+## Repostería y postres
+<GuideMicrowaveGroupEmbed Group="Dessert"/>
+
+## Sopas y guisos
+<GuideMicrowaveGroupEmbed Group="Soup"/>
+
+## Empanadas y tartas
+<GuideMicrowaveGroupEmbed Group="Pie"/>
+
+## Barritas y galletas
+<GuideMicrowaveGroupEmbed Group="BarsAndCookies"/>
+
+## Pasteles
+<GuideMicrowaveGroupEmbed Group="Cake"/>
+
+## Ensaladas
+<GuideMicrowaveGroupEmbed Group="Salad"/>
+
+## Medicinales
+<GuideMicrowaveGroupEmbed Group="Medicinal"/>
+
+## Otras
+<GuideMicrowaveGroupEmbed Group="Other"/>
+
+## Secretas
+<GuideMicrowaveGroupEmbed Group="Secret"/>
+
+</Document>

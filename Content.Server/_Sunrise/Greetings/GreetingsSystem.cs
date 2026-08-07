@@ -34,12 +34,12 @@ public sealed class GreetingsSystem : EntitySystem
 
     private void SetGreetingsMessage(string value)
     {
-        _greetingsMessage = value;
+        _greetingsMessage = Loc.TryGetString(value, out var localized) ? localized : value; // Fire edit - Поддержка LocId и произвольного текста.
     }
 
     private void SetGreetingsAuthor(string value)
     {
-        _greetingsAuthor = value;
+        _greetingsAuthor = Loc.TryGetString(value, out var localized) ? localized : value; // Fire edit - Поддержка LocId и произвольного текста.
     }
 
     private void OnPlayerFirstConnection(PlayerFirstConnectionEvent args)

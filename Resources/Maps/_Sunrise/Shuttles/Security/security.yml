@@ -553,6 +553,8 @@ entities:
         - volume: 2500
           temperature: 293.15
           moles:
+            Oxygen: 21.813705
+            Nitrogen: 82.06108
         chunkSize: 4
     - type: GasTileOverlay
     - type: RadiationGridResistance
@@ -2310,8 +2312,9 @@ entities:
       parent: 44868
 - proto: PlastitaniumWindow
   entities:
-  - uid: 1
+  - uid: 7
     components:
+    - type: Transform
       rot: -1.5707963267948966 rad
       pos: -3.7794266,-1.5318359
       parent: 44868

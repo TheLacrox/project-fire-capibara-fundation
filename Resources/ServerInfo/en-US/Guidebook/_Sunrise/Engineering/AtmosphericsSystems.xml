@@ -1,0 +1,58 @@
+﻿<Document>
+  # Atmospherics Systems
+  Atmospherics has many devices for moving, controlling, and otherwise manipulating gases.
+  These devices often work together to maintain a safe atmosphere for the crew or accomplish a shared task.
+
+  This section describes the different systems available to Atmospherics, how they connect, and how best to use them.
+
+
+  <Box>
+    <GuideEntityEmbed Entity="GasPipeStraight" Caption=""/>
+    <GuideEntityEmbed Entity="GasPipeHalf" Caption=""/>
+    <GuideEntityEmbed Entity="GasPipeBend" Caption=""/>
+    <GuideEntityEmbed Entity="GasPipeTJunction" Caption=""/>
+    <GuideEntityEmbed Entity="GasPipeFourway" Caption=""/>
+    <GuideEntityEmbed Entity="GasPressurePump" Caption=""/>
+    <GuideEntityEmbed Entity="GasVolumePump" Caption=""/>
+  </Box>
+  <Box>
+    ## Pipe Networks
+  </Box>
+  <Box>
+    [color=#999999][italic]Connected pipes that serve a shared purpose, commonly called pipenets[italic][/color]
+  </Box>
+
+  <Box>
+    <GuideEntityEmbed Entity="ComputerAlert" Caption=""/>
+    <GuideEntityEmbed Entity="AirAlarm" Caption=""/>
+  </Box>
+  <Box>
+    ## Device Monitoring and Control
+  </Box>
+  <Box>
+    [color=#999999][italic]Monitoring and controlling devices that maintain the local atmosphere[italic][/color]
+  </Box>
+
+  <Box>
+    <GuideEntityEmbed Entity="Firelock" Caption=""/>
+    <GuideEntityEmbed Entity="FireAlarm" Caption=""/>
+  </Box>
+  <Box>
+    ## Fire and Gas Control
+  </Box>
+  <Box>
+    [color=#999999][italic]Devices for controlling and preventing gas leaks and fires[italic][/color]
+  </Box>
+
+  <Box>
+    <GuideEntityEmbed Entity="GasMinerOxygenStation" Caption=""/>
+    <GuideEntityEmbed Entity="AirCanister" Caption=""/>
+  </Box>
+  <Box>
+    ## Gas Mining and Storage
+  </Box>
+  <Box>
+    [color=#999999][italic]Devices that mine new gases for the station and store them for later use[italic][/color]
+  </Box>
+
+</Document>

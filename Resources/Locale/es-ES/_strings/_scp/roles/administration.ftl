@@ -1,0 +1,17 @@
+job-name-director = Director del complejo
+job-description-director = Dirige el Sitio. Gestiona la instalación y ocupa el puesto de mayor rango. Es responsable de que funcione de forma continua y segura, de la contención de las anomalías y de la organización de proyectos.
+job-name-scientific-service-director = Director del servicio científico
+job-description-scientific-service-director = Se encarga de supervisar que el servicio científico de la instalación trabaje de forma eficaz, productiva y segura.
+job-name-security-commander = Jefe de seguridad
+job-description-security-commander = El jefe de seguridad es la máxima autoridad del servicio. Organiza las operaciones y los procedimientos destinados a garantizar la seguridad de la instalación, prepara las patrullas y autoriza experimentos cuando se cumplen todas las condiciones de seguridad.
+job-name-chief-technical-specialist = Ingeniero jefe
+job-description-chief-technical-specialist = Ingeniero jefe con muchos años de experiencia. Se encarga de coordinar todo el servicio.
+job-name-personnel-officer = Responsable de personal
+job-description-personnel-officer = Vela por el buen funcionamiento del servicio auxiliar y también gestiona los accesos del personal y el archivo.
+job-name-head-of-medical-sector = Director médico
+job-description-head-of-medical-sector = El director médico se encarga de que el servicio médico funcione correctamente y responde por las infracciones cometidas durante la actividad asistencial. Es el especialista médico más competente de la instalación: domina todas las materias y conoce los procedimientos y medicamentos.
+job-name-senior-logistics-officer = Intendente
+job-description-senior-logistics-officer = Se encarga de proporcionar a la instalación los materiales necesarios.
+job-supervisors-regional-administration = la Administración Regional
+job-supervisors-O5-command = el Consejo O5
+job-supervisors-director = el director del complejo

@@ -1,0 +1,31 @@
+﻿<Document>
+  # SCP-106 «El Viejo»
+
+  Esta guía explica cómo funciona el objeto dentro del juego y describe sus mecánicas. NO aborda el trasfondo del objeto.
+
+  Esta página reúne enlaces a otras guías más detalladas sobre el objeto e incluye una breve descripción de cada apartado.
+
+  ## Comienzo de la ronda
+
+  Al comienzo de la ronda o tras aparecer, SCP-106 se encuentra en su cámara de contención.
+  La cámara de contención es una medida de seguridad que impide que el objeto cause daños al personal del complejo.
+
+  Mientras permanezca dentro, apenas supone una amenaza.
+
+  - La tarea del personal del complejo consiste en mantener al objeto dentro de la cámara de contención.
+  - La tarea de SCP-106 consiste en abandonar la cámara de contención.
+
+  [textlink="Más información sobre la contención" link="Scp106Containment"]
+
+  ## Fantasma
+
+  El fantasma es una mecánica fundamental para que SCP-106 pueda escapar.
+
+  [textlink="Más información sobre los métodos de fuga" link="Scp106ContainmentBreach"]
+
+  ## Capacidades
+
+  El Viejo cuenta con numerosas capacidades exclusivas; una de ellas constituye la mecánica fundamental para escapar de la cámara de contención.
+
+  [textlink="Más información sobre las capacidades" link="Scp106Abilities"]
+</Document>

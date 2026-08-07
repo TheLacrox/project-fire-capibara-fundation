@@ -102,7 +102,7 @@ public sealed partial class SponsorTierEntry : Control
         TierLabel.Text = $"{tier}";
         if (!string.IsNullOrEmpty(oocColor))
         {
-            OocColorLabel.Text = "цвет";
+            OocColorLabel.Text = Loc.GetString("fire-sponsor-tier-color");
             OocColorLabel.FontColorOverride = Color.FromHex(oocColor);
         }
         ExtraSlotsLabel.Text = $"{extraSlots}";

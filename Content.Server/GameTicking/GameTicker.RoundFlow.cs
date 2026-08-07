@@ -140,7 +140,7 @@ namespace Content.Server.GameTicking
                 !pool.Maps.Contains(mainStationMap.ID))
             {
                 var msg = Loc.GetString("game-ticker-start-round-invalid-map",
-                    ("map", mainStationMap.MapName),
+                    ("map", mainStationMap.GetLocalizedName(_localization)), // Fire edit - локализуемое название карты
                     ("mode", Loc.GetString(CurrentPreset.ModeTitle)));
                 Log.Debug(msg);
                 SendServerMessage(msg);
@@ -228,7 +228,7 @@ namespace Content.Server.GameTicking
                     throw new Exception($"Failed to load game-map grid {ev.GameMap.ID}");
                 }
 
-                _metaData.SetEntityName(mapUid, proto.MapName);
+                _metaData.SetEntityName(mapUid, proto.GetLocalizedName(_localization)); // Fire edit - локализуемое название карты
                 var g = new List<EntityUid> { grid.Value.Owner };
                 RaiseLocalEvent(new PostGameMapLoad(proto, mapId, g, stationName));
                 return g;
@@ -245,7 +245,7 @@ namespace Content.Server.GameTicking
             }
 
             mapId = map.Value.Comp.MapId;
-            _metaData.SetEntityName(map.Value.Owner, proto.MapName);
+            _metaData.SetEntityName(map.Value.Owner, proto.GetLocalizedName(_localization)); // Fire edit - локализуемое название карты
             var gridUids = grids.Select(x => x.Owner).ToList();
             RaiseLocalEvent(new PostGameMapLoad(proto, mapId, gridUids, stationName));
             return gridUids;
@@ -278,7 +278,7 @@ namespace Content.Server.GameTicking
                     throw new Exception($"Failed to load game-map grid {ev.GameMap.ID}");
                 }
 
-                _metaData.SetEntityName(mapUid, proto.MapName);
+                _metaData.SetEntityName(mapUid, proto.GetLocalizedName(_localization)); // Fire edit - локализуемое название карты
                 var g = new List<EntityUid> { grid.Value.Owner };
                 RaiseLocalEvent(new PostGameMapLoad(proto, mapId, g, stationName));
                 return g;
@@ -296,7 +296,7 @@ namespace Content.Server.GameTicking
                 throw new Exception($"Failed to load map");
             }
 
-            _metaData.SetEntityName(map.Value.Owner, proto.MapName);
+            _metaData.SetEntityName(map.Value.Owner, proto.GetLocalizedName(_localization)); // Fire edit - локализуемое название карты
             var gridUids = grids.Select(x => x.Owner).ToList();
             RaiseLocalEvent(new PostGameMapLoad(proto, mapId, gridUids, stationName));
             return gridUids;
@@ -934,7 +934,8 @@ namespace Content.Server.GameTicking
                 if (_webhookIdentifier == null)
                     return;
 
-                var mapName = _gameMapManager.GetSelectedMap()?.MapName ?? Loc.GetString("discord-round-notifications-unknown-map");
+                var mapName = _gameMapManager.GetSelectedMap()?.GetLocalizedName(_localization)
+                    ?? Loc.GetString("discord-round-notifications-unknown-map"); // Fire edit - локализуемое название карты
                 var content = Loc.GetString("discord-round-notifications-started", ("id", RoundId), ("map", mapName));
 
                 var payload = new WebhookPayload { Content = content };

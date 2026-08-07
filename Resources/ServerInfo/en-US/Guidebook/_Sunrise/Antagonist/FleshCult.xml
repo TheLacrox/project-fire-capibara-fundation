@@ -1,0 +1,144 @@
+<Document>
+  # Flesh Cultist
+
+  <Box>
+    [color=#999999][italic]"THE HEART DEMANDS LIVING FLESH."[/italic][/color]
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="MobFleshCultistPreview" Caption=""/>
+  </Box>
+
+  You have been chosen by the flesh. A parasite from an alien dimension lives inside you—the source of your power and your certain death. A flesh cultist is a being born from the fusion of a person and alien biomass. Every sapient species except slime people can serve as a host for the parasite.
+
+  Your fate is sealed: either the parasite is fed, or it will crawl out after devouring you from within. In return, you gain unique abilities. Your main objective is to obtain three humanoid corpses, join the other cultists, and begin a grand ritual to summon the [bold]Flesh Heart[/bold].
+
+  Feed the heart humanoid flesh. Protect it at any cost. You win once most of the station has been infected—the cult's strength lies in its numbers.
+
+  ## Forbidden actions
+
+  Despite your power, you must observe these restrictions:
+
+  - Tampering with the life-support system (releasing plasma into the distribution network, and so on)
+  - Releasing the Singularity or Tesla
+  - Revealing yourself before the Flesh Heart spawns
+  - Killing crew members en masse before creating the Heart
+  - Creating the Flesh Heart on shuttles or outside the station
+  - Completely enclosing the Flesh Heart with construction materials
+  - Sabotaging the supermatter crystal
+
+  Everything else is allowed within the project's rules.
+
+  <Box>
+  <GuideEntityEmbed Entity="MobFleshPudge" Caption="Combat form"/>
+  <GuideEntityEmbed Entity="MobFleshSpider" Caption="Ambush form"/>
+  <GuideEntityEmbed Entity="MobFleshBall" Caption="Suicide-bomber form"/>
+  </Box>
+  <Box>
+  <GuideEntityEmbed Entity="MobFleshBat" Caption="Reconnaissance form"/>
+  <GuideEntityEmbed Entity="MobFleshHugger" Caption="Victim-control form"/>
+  <GuideEntityEmbed Entity="MobFleshWorm" Caption="Distraction form"/>
+</Box>
+
+  ## Communication
+
+  <Box>
+    Use the [bold]cult radio channel[/bold] (command [bold]"+c"[/bold]) to coordinate with the other cultists. A lone cultist is easily destroyed. A united group is a true nightmare for the crew.
+  </Box>
+
+  ## Evolution Shop
+
+  This is your main source of power. You accumulate [bold]evolution points[/bold] by absorbing the bodies of any creatures. A humanoid corpse grants more points than an animal corpse. [color=#ff6b6b]Each corpse can be absorbed only once[/color].
+
+  ## Carol and Recruitment
+
+  The [color=#ff6b6b]cult leader[/color] begins the round with syringes of [bold]Carol[/bold]. They can use them on a target to create new members of the cult.
+
+  [color=#ffaa00]One syringe containing 5 units of Carol[/color] can:
+  - When injected into someone without a Mindshield Implant: [bold]turn them into a new cultist[/bold]
+  - When injected into a protected target: [bold]only poison them[/bold]
+
+  ## Abilities
+
+  ### Offense
+
+  [bold]Spider Form[/bold] | Cost: 2 EP
+  Transform part of your body into an arachnid form. You gain a significant increase in movement speed and moderate protection.
+
+  [bold]Spike Gun[/bold] | Cost: 5 EP
+  Turn your active hand into a deadly flesh gun. Your body forms a bone projectile for ranged attacks.
+
+  [bold]Flesh Facehuggers[/bold] | Cost: 2 EP
+  Spew out living flesh facehuggers that can be thrown at your enemies. They are effective close-range weapons with minds of their own.
+
+  [bold]Flesh Fist[/bold] | Cost: 3 EP
+  Turn your hand into a massive fist. It easily punches through walls and structures and deals tremendous damage to living flesh.
+
+  [bold]Flesh Blade[/bold] | Cost: 4 EP
+  Turn your hand into a deadly blade of bone and flesh. It is the ideal weapon for hand-to-hand combat.
+
+  [bold]Flesh Claw[/bold] | Cost: 2 EP
+  Turn your hand into a functional pincer. Grab items, manipulate machinery, and cut your enemies.
+
+  [bold]Acid Spit[/bold] | Cost: 2 EP
+  Spit acid at your enemies. It deals damage and destroys materials, making it effective against fortified positions.
+
+  ### Defense
+
+  [bold]Flesh Armor[/bold] | Cost: 2 EP
+  Cover yourself in armor made of bone and flesh. It significantly increases your resistance to damage.
+
+  [bold]Heavy Armor[/bold] | Cost: 5 EP
+  Cover yourself in heavy armor. It provides maximum protection from damage.
+
+  [bold]Flash Immunity[/bold] | Cost: 2 EP
+  Your eyes adapt to intense light. Bright flashes no longer blind you.
+
+  [bold]Insulation[/bold] | Cost: 1 EP
+  Electric currents no longer harm you.
+
+  [bold]Pressure[/bold] | Cost: 1 EP
+  Low-pressure environments no longer threaten you. You can operate safely in a vacuum.
+
+  [bold]Thermoregulation[/bold] | Cost: 1 EP
+  Maintain a stable temperature in the cold of space. You can remain in low-temperature environments without taking damage.
+
+  ### Utility
+
+  [bold]Adrenaline Synthesis[/bold] | Cost: 2 EP
+  Gain a dose of combat adrenaline. It briefly increases your speed and grants resistance to stuns.
+
+  [bold]Blood Absorption[/bold] | Cost: 2 EP
+  You instinctively absorb blood from the floor. Pools of blood heal your wounds.
+
+  ### Flesh Heart
+
+  [bold]Create Heart[/bold] | Cost: 10 EP
+  Create the source of the cult's power. It requires three humanoid corpses. Protect the heart from hostile crew members—it is your objective and a source of infinite power.
+  You can create several active hearts to speed up the process.
+
+  ## Survival Strategy
+
+  <Box>
+    [color=#ff6b6b][bold]Remember:[/bold] You are not a war machine. You are a predator in human skin.[/color]
+  </Box>
+
+  ### Early Game
+
+  1. [bold]Hide in the crowd[/bold]—act normally and avoid suspicion. The parasite works slowly. You have time.
+  2. [bold]Find allies[/bold]—use the cult channel and arrange to meet somewhere safe.
+  3. [bold]Begin the hunt[/bold]—kill people and animals one at a time, absorb their bodies, and hide the corpses. Good targets include infidels, enemies of the station, and anyone whose disappearance will not arouse suspicion.
+
+  ### Mid Game
+
+  4. [bold]Gather resources[/bold]—stockpile three corpses in a safe place. Distract the crew by causing incidents.
+  5. [bold]Begin the ritual[/bold]—once your group is strong enough, create the Flesh Heart in a protected area.
+  6. [bold]Protect the heart[/bold]—it is the only thing that matters. Everything else is secondary. Feed it flesh, and it will grow and spawn new warriors.
+
+  ### Late Game
+
+  As your cult grows, the station will become infected. The crew, once strong and organized, will become weakened and demoralized. Your unity and patience will bring victory.
+
+  ## Victory
+
+  The round ends in a [color=red][bold]MAJOR CULT VICTORY[/bold][/color] once most of the station has been infected. You have won. The flesh is victorious.
+</Document>

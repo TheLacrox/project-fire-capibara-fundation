@@ -1,0 +1,11 @@
+﻿<Document>
+  # Passive Vent
+  A passive vent connects a [textlink="pipe network" link="PipeNetworks"] to the surrounding atmosphere without using a pump.
+  <Box>
+    <GuideEntityEmbed Entity="GasPassiveVent"/>
+  </Box>
+
+  It requires no [textlink="power" link="Power"] and simply allows gas to flow naturally between the pipe and the atmosphere according to the pressure difference.
+
+  Passive vents are useful for gas storage, combustion chambers, and other systems that require free gas exchange without active control.
+</Document>

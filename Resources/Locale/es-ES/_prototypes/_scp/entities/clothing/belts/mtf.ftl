@@ -1,0 +1,14 @@
+ent-ClothingBeltMtfSparePouch = cinturón táctico
+    .desc = Una bolsa pequeña y ligera que proporciona espacio adicional. El modelo G8-A más reciente, aunque incómodo, también puede sujetarse a la cintura.
+ent-ClothingBeltMtfConstruction = cinturón de construcción
+    .desc = El M277 es un correaje habitual entre los técnicos de combate para transportar materiales y otros suministros. Consiste en un cinturón modular con distintos enganches. Esta versión sacrifica espacio de almacenamiento a cambio de enganches especializados para cargar materiales.
+ent-ClothingBeltMtfUtility = cinturón de herramientas
+    .desc = El M276 es el equipo de carga reglamentario. Consiste en un cinturón modular con distintos enganches. Esta versión carece de utilidad en combate y los ingenieros suelen usarla para transportar herramientas importantes.
+ent-ClothingBeltMtfMedical = cinturón médico
+    .desc = El M276 es el equipo de carga reglamentario. Consiste en un cinturón modular con distintos enganches. Esta configuración menos habitual está diseñada para transportar suministros médicos voluminosos.
+ent-ClothingBeltMtfSecurity = cinturón de seguridad
+    .desc = El M276 es el equipo de carga reglamentario. Consiste en un cinturón modular con distintos enganches. Esta configuración es habitual entre la policía militar y las fuerzas de paz, aunque también admite algo de munición ligera.
+ent-ClothingBeltMtfAmmo = cinturón de munición
+    .desc = El M276 es el equipo de carga reglamentario. Consiste en un cinturón modular con distintos enganches. Ésta es la variante estándar, diseñada para transportar grandes cantidades de munición.
+ent-ClothingBeltMtfGrenade = cinturón de granadas
+    .desc = El M276 es el equipo de carga reglamentario. Consiste en un cinturón modular con distintos enganches. Esta versión permite transportar hasta 10 granadas.

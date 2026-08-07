@@ -1,0 +1,38 @@
+  # Detonating Cord, Detonator, and Triggers
+
+  This guide explains the basics of assembling explosive charges: the detonator, triggers, and detonating cord.
+
+  ## Main Components
+  <Box>
+  <GuideEntityEmbed Entity="CableDetStack1" Caption="Detonating cord" Scale="1"/>
+  <GuideEntityEmbed Entity="EmptyDetonator" Caption="Empty detonator" Scale="1"/>
+  </Box>
+  ## Trigger Types
+  <Box>
+  <GuideEntityEmbed Entity="TimerTrigger" Caption="Timer trigger" Scale="1"/>
+  <GuideEntityEmbed Entity="SignalTrigger" Caption="Signal trigger" Scale="1"/>
+  <GuideEntityEmbed Entity="VoiceTrigger" Caption="Voice trigger" Scale="1"/>
+  </Box>
+  ## Basic Assembly
+  1. Assemble the detonator by installing one of the triggers and inserting the detonating cord.
+  <Box>
+  <GuideEntityEmbed Entity="BoxDetonator" Caption="" Scale="2"/>
+  <GuideEntityEmbed Entity="WiredDetonator" Caption="" Scale="2"/>
+  </Box>
+  <Box>
+  2. Lay the detonating cord across the floor where you want to create a controlled blast for demolition. The explosion is powerful enough to breach a wall, but its radius is small enough to keep you out of harm's way.
+  </Box>
+  <Box>
+  <GuideEntityEmbed Entity="CableDet" Caption="" Scale="1.5"/>
+  <GuideEntityEmbed Entity="CableDet" Caption="" Scale="1.5"/>
+  <GuideEntityEmbed Entity="CableDet" Caption="" Scale="1.5"/>
+  <GuideEntityEmbed Entity="CableDet" Caption="" Scale="1.5"/>
+  <GuideEntityEmbed Entity="CableDet" Caption="" Scale="1.5"/>
+  <GuideEntityEmbed Entity="CableDet" Caption="" Scale="1.5"/>
+  <GuideEntityEmbed Entity="CableDet" Caption="" Scale="1.5"/>
+  <GuideEntityEmbed Entity="CableDet" Caption="" Scale="1.5"/>
+  <GuideEntityEmbed Entity="CableDet" Caption="" Scale="1.5"/>
+  <GuideEntityEmbed Entity="CableDet" Caption="" Scale="1.5"/>
+  </Box>
+
+  3. Arm the timer trigger in advance to detonate the assembly and attach it to the cord on the floor. Alternatively, attach a prepared detonator with another type of trigger ahead of time and set it off remotely.

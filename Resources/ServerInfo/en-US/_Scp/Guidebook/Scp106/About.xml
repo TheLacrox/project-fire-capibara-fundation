@@ -1,0 +1,31 @@
+﻿<Document>
+  # SCP-106 "The Old Man"
+
+  This guide explains what the object is within the game and how its mechanics work. It does NOT cover the object's lore.
+
+  This page collects links to other, more detailed guides about the object and briefly describes each section.
+
+  ## Round start
+
+  At the start of the round or after spawning, SCP-106 is inside its containment chamber.
+  The containment chamber is a security measure that prevents the object from harming facility personnel.
+
+  While the object remains inside, it poses almost no threat.
+
+  - The facility personnel's objective is to keep the object inside its containment chamber.
+  - SCP-106's objective is to leave the containment chamber.
+
+  [textlink="More about containment" link="Scp106Containment"]
+
+  ## Phantom
+
+  The phantom is a key mechanic required for SCP-106 to escape.
+
+  [textlink="More about escape methods" link="Scp106ContainmentBreach"]
+
+  ## Abilities
+
+  The Old Man has many unique abilities, one of which is the key mechanic that allows it to escape the containment chamber.
+
+  [textlink="More about abilities" link="Scp106Abilities"]
+</Document>

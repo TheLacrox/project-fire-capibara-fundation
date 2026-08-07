@@ -9,7 +9,7 @@
   - !type:BodyAreaTagCondition
     checkInitiator: true
     checkTarget: false
-    categories: [ "ладони" ]
+    categories: [ "palms" ]
     requireExposed: true
   - !type:HasMarkingCondition
     checkInitiator: false
@@ -45,11 +45,11 @@
     - MothWingsWitchwing
     - MothWingsUnderwing
   interactionMessages:
-  - "%user нежно гладит пальчиками крылышки %target"
-  - "%user трепетно касается крыльев %target"
-  - "%user ласково поглаживает крылышки %target"
-  - "%user бережно ласкает крылья %target"
-  - "%user аккуратно гладит крылья %target"
+  - interaction-message-wings-pat-1
+  - interaction-message-wings-pat-2
+  - interaction-message-wings-pat-3
+  - interaction-message-wings-pat-4
+  - interaction-message-wings-pat-5
   interactionSounds:
   - FriendlyStroke
   cooldown: 3
@@ -65,7 +65,7 @@
   - !type:BodyAreaTagCondition
     checkInitiator: true
     checkTarget: false
-    categories: [ "ладони" ]
+    categories: [ "palms" ]
     requireExposed: true
   - !type:HasMarkingCondition
     checkInitiator: false
@@ -101,9 +101,9 @@
     - MothWingsWitchwing
     - MothWingsUnderwing
   interactionMessages:
-  - "%user нежно чешет крылышки %target, массируя их у основания"
-  - "%user ласково почесывает %target за крылышками"
-  - "%user нежно перебирает перышки %target"
+  - interaction-message-wings-scratch-1
+  - interaction-message-wings-scratch-2
+  - interaction-message-wings-scratch-3
   interactionSounds:
   - FriendlyStroke
   cooldown: 3
@@ -119,7 +119,7 @@
   - !type:BodyAreaTagCondition
     checkInitiator: true
     checkTarget: false
-    categories: [ "ладони" ]
+    categories: [ "palms" ]
     requireExposed: true  
   - !type:HasVisualLayerCondition
     checkTarget: true
@@ -159,9 +159,9 @@
     - MothWingsWitchwing
     - MothWingsUnderwing
   interactionMessages:
-  - "%user резко дёргает за крылья %target"
-  - "%user грубо дёргает за крылья %target"
-  - "%user неожиданно дёргает за крылья %target"
+  - interaction-message-wings-pull-1
+  - interaction-message-wings-pull-2
+  - interaction-message-wings-pull-3
   cooldown: 3
 
 - type: interaction
@@ -206,9 +206,9 @@
     - MothWingsWitchwing
     - MothWingsUnderwing
   interactionMessages:
-  - "%user нежно обнимает %target своими крыльями"
-  - "%user укутывает %target в свои крылья"
-  - "%user ласково прижимает к себе %target, укрывая крыльями"
+  - interaction-message-wings-hug-1
+  - interaction-message-wings-hug-2
+  - interaction-message-wings-hug-3
   interactionSounds:
   - FriendlyStroke
   cooldown: 5
@@ -255,8 +255,8 @@
     - MothWingsWitchwing
     - MothWingsUnderwing
   interactionMessages:
-  - "%user заботливо укрывает %target своими крыльями"
-  - "%user прячет %target под своими крылышками"
+  - interaction-message-wings-cover-1
+  - interaction-message-wings-cover-2
   interactionSounds:
   - FriendlyStroke
   cooldown: 5
@@ -303,8 +303,8 @@
     - MothWingsWitchwing
     - MothWingsUnderwing
   interactionMessages:
-  - "%user ласково трется своими крылышками о %target"
-  - "%user нежно приглаживает %target своими крыльями"
+  - interaction-message-wings-rub-1
+  - interaction-message-wings-rub-2
   interactionSounds:
   - FriendlyStroke
   cooldown: 5

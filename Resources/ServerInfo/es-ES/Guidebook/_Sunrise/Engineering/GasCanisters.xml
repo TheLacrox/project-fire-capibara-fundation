@@ -1,0 +1,30 @@
+﻿<Document>
+  # Contenedores de gas
+  <Box>
+    <GuideEntityEmbed Entity="AirCanister"/>
+    <GuideEntityEmbed Entity="OxygenCanister"/>
+    <GuideEntityEmbed Entity="NitrogenCanister"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="CarbonDioxideCanister"/>
+    <GuideEntityEmbed Entity="StorageCanister"/>
+    <GuideEntityEmbed Entity="GasPort"/>
+  </Box>
+
+  Los contenedores de gas permiten almacenar gas en un recipiente portátil para transportarlo con facilidad.
+  Pueden almacenar [color=orange][protodata="StorageCanister" comp="GasCanister" member="Volume"/] litros[/color] de gas.
+
+  Puedes conectar depósitos de mano a un contenedor de gas y rellenarlos mediante su válvula de salida.
+  La válvula de salida también incluye un regulador ajustable para controlar la presión del depósito conectado.
+
+  Si abres la válvula de salida sin un depósito conectado, el gas se liberará a la atmósfera a la presión indicada en el regulador.
+
+  [bold]¡Asegúrate de cerrar la válvula de salida antes de retirar el depósito de mano![/bold]
+
+  ## Puertos conectores
+  Los contenedores de gas y los [textlink="depuradores portátiles" link="PortableScrubber"] pueden conectarse a una [textlink="red de tuberías" link="PipeNetworks"] fijando el dispositivo con una llave inglesa sobre un conector.
+  Una vez conectado, el gas puede entrar y salir libremente del contenedor para igualar la presión, la temperatura y la composición.
+
+  Puedes utilizar una bomba para introducir o extraer gas, algo útil para llenar o vaciar por completo el contenedor.
+
+</Document>

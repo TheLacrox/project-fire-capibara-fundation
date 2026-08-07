@@ -1,0 +1,40 @@
+<Document>
+  # Antecedentes penales
+  Todos los departamentos de Seguridad cuentan con una consola de antecedentes penales que permite registrar y gestionar el historial delictivo y el estado de cualquier integrante del manifiesto de tripulación.
+
+  <Box>
+  <GuideEntityEmbed Entity="ComputerCriminalRecords"/>
+  </Box>
+
+  Cualquiera puede abrir la interfaz, pero sólo quienes tengan acceso de Seguridad pueden modificarla.
+
+  La interfaz incluye los siguientes elementos:
+  - Una barra de búsqueda con un filtro que permite buscar tripulantes por nombre, huellas dactilares o ADN.
+
+  - Una lista de todos los tripulantes del manifiesto. Al seleccionar una entrada aparecerán sus antecedentes penales. La barra de búsqueda filtra la lista; si quieres verla completa, asegúrate de dejarla vacía.
+
+  - Los propios antecedentes penales.
+
+  - El botón de filtro situado bajo la lista permite mostrar sólo a los tripulantes buscados, detenidos o en libertad condicional.
+  En la sección de antecedentes puedes:
+    - Consultar datos de Seguridad sobre un tripulante, como su nombre, huellas y ADN.
+
+    - Cambiar su estado entre [color=gray]Ninguno[/color], [color=yellow]Buscado[/color] y [color=red]Detenido[/color]. Al marcarlo como Buscado tendrás que indicar el motivo.
+
+    - Si está en busca y captura, consultar el motivo bajo el selector de estado.
+
+    - Cuando alguien haya sido detenido, actualizar su estado para que todo el mundo sepa que ya no es necesario capturarlo.
+
+    - Tras cumplir la condena, ponerlo en libertad y cambiar su estado a Ninguno para que nadie crea que se ha fugado.
+
+    - Abrir la ventana Historial delictivo para consultarlo o modificarlo.
+
+  La ventana Historial delictivo enumera los delitos de una persona y puede modificarse de varias maneras:
+    - Automáticamente, al cambiar su estado a Detenido. El motivo se añadirá a «DETENIDO:» para identificar las entradas automáticas.
+
+    - Añadiendo una línea nueva con «Añadir» y escribiendo en el campo de texto. Menciona el delito y la condena; la consola insertará automáticamente la hora del turno.
+
+    - Seleccionando una línea que ya no quieras y pulsando «Eliminar». Perfecto para mantener los registros libres de las travesuras del payaso con tarjetas robadas.
+
+  Ya puedes convertirte en el oficinista que siempre quisiste ser.
+</Document>

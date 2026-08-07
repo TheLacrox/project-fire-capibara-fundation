@@ -1,0 +1,14 @@
+fax-name-regional-administration = [Administración Regional]
+fax-name-o4-headquarters = [Cuartel General O4]
+fax-name-ethics-committee-office = [Comité de Ética]
+fax-name-complex-director-office = Despacho del director del complejo
+fax-name-encrypted = ERR&0*?*%!
+fax-name-chief-researcher-office = Despacho del director del servicio científico
+fax-name-security-commander-office = Despacho del jefe de seguridad
+fax-name-commandant-department = Departamento de comandancia
+fax-name-sps-department = Departamento de la UOE
+fax-name-chief-engineer-office = Despacho del ingeniero jefe
+fax-name-personnel-manager-office = Despacho del responsable de personal
+fax-name-chief-medical-officer-office = Despacho del director médico
+fax-name-quartermaster-office = Despacho del intendente
+fax-name-ethics-committee-representative-office = Despacho del representante del Comité de Ética

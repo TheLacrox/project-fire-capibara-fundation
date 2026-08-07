@@ -1,0 +1,9 @@
+job-name-lead-researcher = Investigador sénior
+job-description-lead-researcher = Estudia objetos anómalos de peligrosidad media y alta y ayuda a los especialistas en contención a desarrollar condiciones de contención más eficaces para los objetos SCP.
+job-name-anomarchology-researcher = Investigador
+job-description-anomarchology-researcher = Los investigadores de base estudian objetos anómalos, desarrollan nuevos equipos y ayudan al personal sénior en proyectos de mayor importancia y responsabilidad.
+job-name-production-specialist = Especialista en producción
+job-description-production-specialist = Especialista en fabricar mecanismos complejos. Produce materiales y objetos en autolathes y protolathes, además de diseñar nueva maquinaria.
+job-name-junior-researcher = Auxiliar de laboratorio
+job-description-junior-researcher = Investigador principiante asignado a otro miembro del personal.
+job-supervisors-scientific-service-director = el director del servicio científico

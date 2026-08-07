@@ -62,3 +62,5 @@ messenger-invite-user-to-group-title = Invite to { $groupName }
 messenger-delete-message = Delete message
 messenger-system-user-joined = { $userName } joined the group
 messenger-system-user-left = { $userName } left the group
+messenger-photo-picker-title = Select a photo
+messenger-image-preview-title = Image preview

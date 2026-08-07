@@ -18,5 +18,8 @@ public sealed partial class StationCentCommComponent : Component
     [DataField]
     public EntityWhitelist? ShuttleWhitelist;
 
+    [DataField]
+    public LocId? GridName;
+
     public MapId MapId = MapId.Nullspace;
 }

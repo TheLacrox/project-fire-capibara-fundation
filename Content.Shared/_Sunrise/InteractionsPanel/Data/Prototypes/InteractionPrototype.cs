@@ -1,4 +1,5 @@
 using Content.Shared._Sunrise.InteractionsPanel.Data.Conditions;
+using Robust.Shared.Localization;
 using Robust.Shared.Prototypes;
 
 namespace Content.Shared._Sunrise.InteractionsPanel.Data.Prototypes;
@@ -11,10 +12,10 @@ public sealed partial class InteractionPrototype : IPrototype
     public string ID { get; private set; } = default!;
 
     [DataField(required: true)]
-    public string Name { get; private set; } = string.Empty;
+    public LocId Name { get; private set; } = string.Empty; // Fire edit - Локализуемое название.
 
     [DataField]
-    public string? Description { get; private set; }
+    public LocId? Description { get; private set; } // Fire edit - Локализуемое описание.
 
     [DataField]
     public ProtoId<InteractionIconPrototype>? Icon { get; private set; }
@@ -26,7 +27,7 @@ public sealed partial class InteractionPrototype : IPrototype
     public List<IAppearCondition> AppearConditions { get; private set; } = new();
 
     [DataField(required: true)]
-    public List<string> InteractionMessages { get; private set; } = new();
+    public List<LocId> InteractionMessages { get; private set; } = new(); // Fire edit - Локализуемые сообщения.
 
     [DataField]
     public List<ProtoId<InteractionSoundPrototype>> InteractionSounds { get; private set; } = new();

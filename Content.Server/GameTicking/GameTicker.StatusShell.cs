@@ -55,7 +55,7 @@ namespace Content.Server.GameTicking
                 }
 
                 jObject["name"] = _baseServer.ServerName;
-                jObject["map"] = _gameMapManager.GetSelectedMap()?.MapName;
+                jObject["map"] = _gameMapManager.GetSelectedMap()?.GetLocalizedName(_localization); // Fire edit - локализуемое название карты
                 jObject["round_id"] = _gameTicker.RoundId;
                 jObject["players"] = players; // Sunrise-Queue
                 jObject["soft_max_players"] = _cfg.GetCVar(CCVars.SoftMaxPlayers);

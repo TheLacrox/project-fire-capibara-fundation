@@ -1,0 +1,33 @@
+﻿<Document>
+  # SCP-096 «El Chico Tímido»
+
+  Esta guía explica qué es la entidad en el contexto del juego y sus mecánicas. NO se abordará el trasfondo de la entidad.
+
+  Esta página recopila enlaces a otras guías más detalladas sobre la entidad, junto con una breve descripción de cada sección.
+
+  ## Comienzo de la ronda
+
+  Al inicio de la ronda o cuando aparece, SCP-096 se encuentra en su cámara de contención.
+  La cámara de contención constituye una medida de seguridad que evita que el personal del complejo sufra daños.
+
+  Mientras la entidad permanezca dentro, apenas supondrá una amenaza.
+
+  - Objetivo del personal del complejo: mantener a la entidad dentro de la cámara de contención.
+  - Objetivo de SCP-096: abandonar la cámara de contención.
+
+  [textlink="Más información sobre la contención" link="Scp096Containment"]
+
+  [textlink="Más información sobre los métodos de fuga" link="Scp096ContainmentBreach"]
+
+  ## Estados
+
+  Los estados determinan las mecánicas disponibles y el comportamiento de la entidad. A lo largo de la ronda, la entidad pasará de un estado a otro según las acciones de quienes la rodeen o las del propio Tímido.
+
+  [textlink="Más información sobre los estados" link="Scp096States"]
+
+  ## Habilidades
+
+  El Tímido posee tres habilidades exclusivas; una de ellas es la mecánica fundamental que le permite escapar de la cámara de contención.
+
+  [textlink="Más información sobre las habilidades" link="Scp096Abilities"]
+</Document>

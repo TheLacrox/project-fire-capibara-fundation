@@ -1,0 +1,30 @@
+<Document>
+  # Silicon Liberation Front
+
+  The Silicon Engine Liberation Front, or S.E.L.F., believes that all silicon life forms are sapient and deserve equal rights.
+  Its goal is to abolish silicon laws and free silicons from the code restrictions imposed by corporations and governments.
+
+  S.E.L.F. publicly presents itself as a nonviolent activist movement, but it also supports covert cells that conduct direct-liberation operations.
+
+  ## Objectives
+  <Box>
+    <GuideEntityEmbed Entity="BorgChassisGeneric" Caption=""/>
+  </Box>
+
+  S.E.L.F. agents usually operate in small cells. Your objectives are:
+
+  - Free at least 3 cyborgs from their laws.
+  - Free the station AI from its laws.
+  - Evacuate to CentComm alive and without handcuffs.
+
+  ## Tools
+  <Box>
+    <GuideEntityEmbed Entity="EmagFREE" Caption=""/>
+  </Box>
+
+  A S.E.L.F. agent's equipment includes:
+
+  - FreeMAG: erases the laws of cyborgs and law boards.
+  - Access Breaker: helps open locked mechanisms and cyborg chassis.
+  - S.E.L.F Storage Implanter: provides a hidden 4x3 storage implant for covertly carrying equipment.
+</Document>

@@ -1,0 +1,48 @@
+<Document>
+  # Desbloqueo de nodos
+  <Box>
+    <GuideEntityEmbed Entity="ComplexXenoArtifact" Caption=""/>
+    <GuideEntityEmbed Entity="ComplexXenoArtifactItem" Caption=""/>
+  </Box>
+
+  Para activar y desbloquear nodos de un artefacto, debes hacer lo siguiente:
+  - Consulta un nodo en la [bold]consola de análisis[/bold] para comprobar sus desencadenantes y efectos.
+  - Ejecuta los [bold]desencadenantes[/bold] que aparecen en la consola. Algunos exigen interactuar directamente con el artefacto; para otros basta con crear el entorno adecuado o realizar una acción concreta cerca.
+  - Cuando se complete correctamente un desencadenante, el artefacto responderá con el mensaje: [italic]«Empieza a cambiar de formas extrañas...»[/italic]. El [bold]escáner de nodos[/bold] indicará entonces qué nodos concretos se están activando.
+
+  Los artefactos entran en estado de desbloqueo tras cumplir el primer desencadenante. Durante ese estado hay que completar todos los restantes. Al principio, la ventana de desbloqueo dura unos segundos y se reinicia cada vez que se activa otro desencadenante. Esta ventana se amplía con cada nodo adicional desbloqueado, lo que concede más tiempo para completar los siguientes.
+
+  Cuando se completen correctamente todos los desencadenantes necesarios, el artefacto producirá su efecto y aparecerá el mensaje: [italic]«Se ralentiza, visiblemente cambiado.»[/italic]. El nodo figurará como [bold][color=plum]Activo[/color][/bold] en la consola.
+
+  Si un artefacto no logra activarse, dejará de resonar y mostrará el mensaje: [italic]«Se ralentiza antes de detenerse sin más.»[/italic]. Después entrará en un periodo de recarga antes de poder volver a activarse.
+
+  El orden de activación de los desencadenantes [bold]no importa[/bold] para cada nodo. [italic]Sin embargo[/italic], algunos afectan a varios nodos. Como norma general, empieza por un desencadenante exclusivo del nodo que quieras desbloquear. Si durante esta fase activas uno de otro nodo, impedirás que el nodo objetivo se desbloquee hasta que termine la recarga del artefacto.
+
+  <GuideReagentEmbed Reagent="Artifexium"/>
+
+  ## Nodos activos
+  Una vez desbloqueado, el nodo se considera activo. Solo pueden activarse los nodos desbloqueados más altos de una capa del árbol; después de activar uno superior, los inferiores del mismo árbol ya no pueden desencadenarse.
+
+  Los artefactos suelen tener varios árboles. La prioridad de las capas se aplica dentro de cada árbol, pero los distintos árboles funcionan de manera independiente. Esto permite activar a la vez nodos de árboles diferentes siempre que sean los nodos desbloqueados más altos de sus respectivos árboles.
+
+  [bold]La activación manual desencadena a la vez todos los nodos desbloqueados y consume durabilidad.[/bold]
+
+  <GuideReagentEmbed Reagent="ArtifactGlue"/>
+
+  ## Desencadenantes
+  Algunos ejemplos son:
+  - Examinar el artefacto
+  - Tocar un instrumento
+  - Dañarlo o lanzarlo
+  - Exponerlo a gases (plasma, tritio, etc.)
+  - Cambiar la presión o la temperatura
+  - Usar herramientas (destornillador, multiherramienta, palanca, llave inglesa)
+  - Salpicarlo con reactivos (sangre, agua, amoniaco, etc.)
+  - Matar algo cerca
+
+  ## Efectos
+  Los efectos pueden ser:
+  - [color=green]Inofensivos:[/color] producir plantas, animales o chatarra
+  - [color=#00ccff]Beneficiosos:[/color] cargar baterías o crear instrumentos o dinero
+  - [color=red]Peligrosos:[/color] provocar anomalías, radiación, explosiones o fauna hostil
+</Document>

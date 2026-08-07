@@ -1,0 +1,27 @@
+﻿<Document>
+  # SCP-173 "The Sculpture"
+
+  This guide explains what the object is within the game and how its mechanics work. It does NOT cover the object's lore.
+
+  This page is a collection of links to other, more detailed guides about the object, together with a brief description of each section.
+
+  ## Start of the Round
+
+  At its starting point, at the beginning of the round, or after spawning, SCP-173 is inside its containment chamber.
+  The containment chamber is a restraining measure that prevents the object from harming complex personnel.
+
+  As long as the object remains inside, it poses almost no threat.
+
+  - The task of complex personnel is to keep the object inside the containment chamber.
+  - SCP-173's task is to leave the containment chamber.
+
+  [textlink="More about containment here" link="Scp173Containment"]
+
+  [textlink="More about escape methods here" link="Scp173ContainmentBreach"]
+
+  ## Abilities
+
+  The Sculpture has several unique abilities, two of which are key mechanics that allow it to escape the containment chamber.
+
+  [textlink="More about abilities here" link="Scp173Abilities"]
+</Document>

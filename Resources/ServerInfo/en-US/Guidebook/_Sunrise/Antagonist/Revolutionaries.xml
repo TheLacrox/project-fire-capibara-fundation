@@ -1,0 +1,85 @@
+<Document>
+  # Revolutionaries
+
+  <Box>
+    [color=#999999][italic]"Long live the revolution!!"[/italic][/color]
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="PosterContrabandRevolt" Caption=""/>
+  </Box>
+
+  Revolutionaries are conversion antagonists sponsored by the [color=#ff0000]Syndicate[/color] whose mission is to seize control of the station. They have no clever tricks, only a cause and strength in numbers.
+
+  ## Objectives
+  You must recruit, shackle, or kill every member of [bold]Command[/bold], in any order.
+  <Box>
+    <GuideEntityEmbed Entity="ToyFigurineCaptain" Caption="Captain"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="ToyFigurineHeadOfPersonnel" Caption="Head of Personnel"/>
+    <GuideEntityEmbed Entity="ToyFigurineHeadOfSecurity" Caption="Head of Security"/>
+    <GuideEntityEmbed Entity="ToyFigurineChiefMedicalOfficer" Caption="Chief Medical Officer"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="ToyFigurineChiefEngineer" Caption="Chief Engineer"/>
+    <GuideEntityEmbed Entity="ToyFigurineResearchDirector" Caption="Research Director"/>
+    <GuideEntityEmbed Entity="ToyFigurineQuartermaster" Caption="Quartermaster"/>
+  </Box>
+  Your goal is [bold]not to destroy the station[/bold], but to [italic]seize it[/italic], so try to keep damage to a minimum.
+
+  [bold]The revolution will lose[/bold] if every [bold][color=#5e9cff]Head Revolutionary[/color][/bold] dies—all [color=red]Revolutionaries[/color] will be deconverted immediately.
+
+  <Box>
+    <GuideEntityEmbed Entity="ClothingBackpackSatchelSmugglerFilled" Caption=""/>
+  </Box>
+  ## Caches
+  The [color=#ff0000]Syndicate's[/color] pawns have kindly hidden between 6 and 15 caches. Anyone can find them, but [bold][color=#5e9cff]Head Revolutionaries[/color][/bold] have a pinpointer that tracks their locations.
+  To find them, you will need a T-ray scanner, as well as a crowbar and wrench to lift the floor tiles.
+
+  ## Head Revolutionaries and conversion
+  [bold][color=#5e9cff]Head Revolutionaries[/color][/bold] are selected at the start of the shift and begin with a [color=cyan]flash[/color] and [color=cyan]sunglasses[/color].
+
+  <Box>
+    <GuideEntityEmbed Entity="Flash"/>
+    <GuideEntityEmbed Entity="ClothingEyesGlassesSunglasses"/>
+  </Box>
+
+  You can convert a crewmember to your cause by attacking them with any [bold]flash[/bold] while in [color=#ff0000]combat mode[/color].
+  However, [bold]you cannot convert a target wearing [color=cyan]flash protection[/color][/bold], such as glasses or a welding mask.
+
+  <Box>
+    <GuideEntityEmbed Entity="ClothingEyesGlassesSunglasses"/>
+    <GuideEntityEmbed Entity="ClothingEyesGlassesSecurity"/>
+    <GuideEntityEmbed Entity="ClothingHeadHatWelding"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="MindShieldImplanter"/>
+  </Box>
+  Another obstacle is [color=cyan]mindshield implants[/color]. They:
+  - Prevent the implanted person from becoming a [color=red]Revolutionary[/color]
+  - Deconvert Revolutionaries, removing their loyalty to the [color=#5e9cff]Head Revolutionary[/color]
+  - [bold]Are visibly destroyed when implanted into a [color=#5e9cff]Head Revolutionary[/color][/bold], giving you away
+  - Do NOT protect against disorientation from a flash
+
+  Assume that [color=#cb0000]Security[/color] personnel already have implants. Some Command roles may also be protected, and even without a mindshield you cannot recruit a Head of Department unless they are an acting head promoted from the rank and file. [bold]A mindshield implant can be removed with an implant extractor after selecting mindshield extraction.[/bold]
+
+  You can obtain an extractor in several ways:
+  - The [color=#5e9cff]Head Revolutionary[/color] starts with its autolathe design
+  - An extractor may be found in a cache
+  - You can wait for Research to study implants and print one at a MedFab
+
+  [bold]Build-specific detail:[/bold] station heads cannot be converted even if they do not have a mindshield. The revolution's targets are only round-start Heads or Heads arriving from the Spaceport; acting Heads do not count as full Heads and are not revolution objectives.
+  <Box>
+    <GuideEntityEmbed Entity="RandomHumanoidSpawnerBlueShieldOperative"/>
+  </Box>
+  ### BlueShield Officer
+  - This special role is responsible for protecting Command members. All Heads carry [bold]BlueShield alert implants[/bold]. These implants [color=red][bold]automatically[/bold][/color] notify the BlueShield over the radio when a Head enters critical condition.
+  - Tip: sabotage the telecommunications servers, find a way to disable radios and clothing tracking sensors, or strike suddenly so your opponents have no time to regroup.
+  <Box>
+    <GuideEntityEmbed Entity="TelecomServerFilledBlueShield"/>
+  </Box>
+  ## Revolutionary
+  A [color=red]Revolutionary[/color] is a crewmember converted by a [bold][color=#5e9cff]Head Revolutionary[/color][/bold].
+
+  [bold][color=red]Revolutionaries[/color] cannot convert others,[/bold] but they can do the dirty work and follow orders.
+</Document>

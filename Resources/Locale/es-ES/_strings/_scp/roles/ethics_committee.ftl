@@ -1,0 +1,3 @@
+job-name-ethics-committee-representative = Representante del Comité de Ética
+job-description-ethics-committee-representative = Representante local del Comité de Ética. Pese al enfoque utilitarista de la Fundación ante los dilemas morales, como miembro del Comité es quien determina qué es ético y correcto. Se asegura de que solo se hagan los sacrificios imprescindibles y de que siempre se elija la alternativa más ética. Su presencia garantiza el cumplimiento de las normas; además, revisa los Procedimientos Especiales de Contención y comprueba que los experimentos no hagan un uso excesivo o indebido de los recursos. Todos deben recordar que el Comité de Ética observa, evalúa y dicta sentencia.
+job-supervisors-ethics-committee = el Comité de Ética

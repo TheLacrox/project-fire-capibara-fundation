@@ -1,0 +1,40 @@
+ui-options-sunrise-round-end-music = Música de final de ronda
+ui-options-function-open-messenger = Abrir Messenger
+
+ui-options-lobby-opacity = Opacidad del vestíbulo
+ui-options-lobby-background-type = Tipo de fondo del vestíbulo
+ui-options-lobby-art = Ilustración del vestíbulo
+ui-options-lobby-animation = Animación del vestíbulo
+ui-options-lobby-parallax = Paralaje del vestíbulo
+ui-options-lobby-unload-resources = Liberar de la memoria de vídeo los recursos del vestíbulo
+ui-options-damage-overlay-enable = Mostrar la superposición de daño
+ui-options-damage-overlay-structures = Mostrar daños en las estructuras
+ui-options-damage-overlay-self = Mostrar el daño recibido
+ui-options-sunrise-general-audio = Audio
+ui-options-sunrise-general-graphics = Gráficos
+ui-options-sunrise-general-lobby = Vestíbulo
+ui-options-sunrise-general-combat = Combate
+ui-options-tab-extra = Opciones adicionales
+ui-options-tape-player-enabled = Activar los reproductores de casetes (requiere reiniciar la ronda)
+ui-options-jump-sound-disable = Desactivar el sonido al saltar
+ui-options-vote-music-disable = Desactivar la música de las votaciones
+ui-options-mute-new-ghost-roles = Silenciar el sonido de aviso de nuevos roles de fantasma
+ui-options-function-toggle-standing = Tumbarse o ponerse de pie
+ui-options-function-cock-gun = Accionar el mecanismo del arma (amartillar o descargar)
+ui-options-function-melee-gun-attack = Golpear con la culata o la bayoneta
+ui-options-function-jump = Saltar
+ui-options-function-reloading = Recargar
+ui-options-function-interact = Abrir el panel de interacciones
+ui-options-function-look-up = Extender la vista hacia el cursor
+ui-options-function-auto-get-up = Levantarse automáticamente después de caer
+ui-options-function-hold-look-up = Mantener pulsada la tecla para extender la vista
+ui-options-chat-icons-enable = Mostrar iconos de los puestos en el chat
+ui-options-chat-pointing-visuals-enable = Mostrar en el chat los avisos visuales con iconos
+ui-options-play-heartbeat-sound = Reproducir el sonido de los latidos
+ui-options-trace = Mostrar la trayectoria de los disparos
+ui-options-trace-tooltip =
+    Si el juego se ralentiza al disparar, desactiva esta opción.
+    Los disparos instantáneos dejarán de mostrar su estela de humo.
+ui-options-tts-enabled = Activar la síntesis de voz (TTS)
+ui-options-tts-queue = Poner en cola los mensajes TTS de la radio
+ui-options-tts-radio-ghost-enabled = Oír como fantasma los mensajes TTS de la radio

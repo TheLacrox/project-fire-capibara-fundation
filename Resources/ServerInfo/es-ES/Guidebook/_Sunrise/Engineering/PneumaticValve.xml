@@ -1,0 +1,43 @@
+﻿<Document>
+  # Válvula neumática
+  La válvula neumática es una válvula bidireccional controlada por una presión de control.
+  <Box>
+    <GuideEntityEmbed Entity="PressureControlledValve"/>
+  </Box>
+
+  La válvula neumática tiene 3 conexiones: entrada, salida y control.
+  El lado de «entrada» será la conexión de entrada o salida con mayor presión y puede cambiar de un lado a otro, lo que hace que la válvula sea bidireccional.
+
+  <Box>
+    <GuideEntityEmbed Entity="GasPipeStraight" Caption="Entrada/salida"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="GasPipeStraight" Caption="Control" Rotation="90"/>
+    <GuideEntityEmbed Entity="PressureControlledValve" Caption=""/>
+    <GuideEntityEmbed Entity="FloorTileItemSteel" Caption=""/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="GasPipeStraight" Caption="Entrada/salida"/>
+  </Box>
+
+  La válvula se [color=green]abrirá[/color] cuando la presión del lado de salida sea al menos [color=orange][protodata="PressureControlledValve" comp="PressureControlledValve" member="Threshold"/] kPa[/color] inferior a la del lado de control.
+
+  La válvula volverá a [color=red]cerrarse[/color] cuando la presión del lado de salida alcance una diferencia máxima de [color=orange][protodata="PressureControlledValve" comp="PressureControlledValve" member="Threshold"/] kPa[/color] respecto a la presión del lado de control.
+
+  Por ejemplo, una válvula neumática con una presión de control de 500 kPa se abrirá cuando la presión de salida sea de 500 kPa - [color=orange][protodata="PressureControlledValve" comp="PressureControlledValve" member="Threshold"/] kPa[/color] o menos, y se cerrará cuando la presión de salida sea de 500 kPa - [color=orange][protodata="PressureControlledValve" comp="PressureControlledValve" member="Threshold"/] kPa[/color] o más.
+
+  La presión de control de la válvula depende de su conexión a una red de tuberías, por lo que puede modificarse sobre la marcha mediante una [textlink="bomba" link="Pumps"] u otra fuente de control de presión.
+
+  ## Diferencias respecto a las bombas
+
+  La válvula neumática no funciona como una [textlink="bomba" link="Pumps"], que realiza trabajo para mover el gas.
+  Es un dispositivo pasivo que aprovecha la mayor presión del gas de entrada para moverlo, por lo que a veces puede llenar volúmenes con mayor rapidez que una [textlink="bomba" link="Pumps"].
+
+  Por ejemplo, una válvula neumática con una presión de control de 500 kPa llenará un volumen más rápido que una [textlink="bomba" link="Pumps"] de presión configurada a 500 kPa.
+  Sin embargo, la [textlink="bomba" link="Pumps"] podrá mantener la presión del volumen con mayor precisión.
+
+  Una válvula neumática puede utilizarse para distintas tareas, entre ellas:
+  - Liberar automáticamente gases de una cámara de combustión mediante la entrada de control
+  - Llenar un volumen con rapidez a partir de una presión de control regulable
+
+</Document>

@@ -1,0 +1,12 @@
+﻿<Document>
+  # Válvula manual
+  La válvula manual es una válvula sencilla que puede abrirse o cerrarse a mano.
+  <Box>
+    <GuideEntityEmbed Entity="GasValve"/>
+  </Box>
+
+  El gas fluye libremente en ambos sentidos a través de una válvula manual abierta.
+  Una válvula manual cerrada detiene por completo el flujo de gas entre las dos redes de tuberías conectadas.
+
+  Las válvulas manuales resultan útiles como cierres sencillos para realizar tareas de mantenimiento, cortar el flujo en una emergencia o separar distintas secciones de un sistema de tuberías.
+</Document>

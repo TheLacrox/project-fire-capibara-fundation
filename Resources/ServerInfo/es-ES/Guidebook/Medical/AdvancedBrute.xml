@@ -1,0 +1,28 @@
+<Document>
+
+  # Medicamentos especializados contra lesiones físicas
+
+  ¡Los mejores científicos de Nanotrasen han sintetizado tres medicamentos aún más específicos contra las lesiones físicas! Cada uno cura un subtipo de daño concreto.
+
+  <GuideReagentEmbed Reagent="Bruizine"/>
+  <GuideReagentEmbed Reagent="Puncturase"/>
+  <GuideReagentEmbed Reagent="Lacerinol"/>
+
+  # Razorium
+
+  [color=red]TEN MUCHO CUIDADO[/color] al utilizar los medicamentos especializados contra lesiones físicas mencionados anteriormente. Si uno de ellos se mezcla con otro tipo de medicamento para lesiones físicas, el resultado será un peligroso compuesto llamado Razorium.
+  <GuideReagentEmbed Reagent="Razorium"/>
+  Para evitarlo, asegúrate de que el paciente haya terminado de metabolizar un medicamento antes de administrarle otro. Vigila el ritmo al que cambia su estado de salud.
+
+  [bold]Estos son algunos ejemplos de mezclas que producen Razorium:[/bold]
+
+  Bicaridine y Puncturase
+
+  Puncturase y Lacerinol
+
+  Bruizine y Bicaridine
+
+  Lacerinol y Bruizine
+
+  Ten en cuenta que [bold]cualquier[/bold] combinación de estos 4 compuestos probablemente se mezclará y producirá Razorium. Ten cuidado al prepararlos, pues contienen Bicaridine. Es muy probable que cualquier resto de Bicaridine se mezcle y produzca Razorium.
+</Document>

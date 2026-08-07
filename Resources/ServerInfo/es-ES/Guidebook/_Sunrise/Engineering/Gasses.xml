@@ -1,0 +1,122 @@
+﻿<Document>
+  # Gases
+  Los gases son una parte esencial del funcionamiento de la estación.
+  Quizá los conozcas como aquello que respiras, pero también tienen muchos otros usos.
+
+  Sus propiedades los hacen útiles para distintas tareas.
+  Atmosféricos también puede sintetizar gases exóticos a partir de otros gases para aplicaciones especiales.
+
+  ## Oxígeno
+  <Box>
+    <GuideEntityEmbed Entity="OxygenCanister" Caption=""/>
+    <GuideEntityEmbed Entity="OxygenTank" Caption=""/>
+    <GuideEntityEmbed Entity="DoubleEmergencyOxygenTank" Caption=""/>
+    <GuideEntityEmbed Entity="ExtendedEmergencyOxygenTank" Caption=""/>
+    <GuideEntityEmbed Entity="EmergencyOxygenTank" Caption=""/>
+  </Box>
+
+  Un gas común que respira la mayoría de las especies de la estación.
+
+  El oxígeno es un oxidante, lo que significa que favorece la combustión.
+  Esto lo hace útil para sintetizar gases en una cámara de combustión, pero también peligroso al mezclarlo con gases inflamables.
+
+  ## Nitrógeno
+  <Box>
+    <GuideEntityEmbed Entity="NitrogenCanister" Caption=""/>
+    <GuideEntityEmbed Entity="NitrogenTank" Caption=""/>
+    <GuideEntityEmbed Entity="DoubleEmergencyNitrogenTank" Caption=""/>
+    <GuideEntityEmbed Entity="ExtendedEmergencyNitrogenTank" Caption=""/>
+    <GuideEntityEmbed Entity="EmergencyNitrogenTank" Caption=""/>
+  </Box>
+
+  Un gas inerte que se utiliza junto con el oxígeno para crear una atmósfera respirable.
+
+  El nitrógeno es muy estable y constituye la mayor parte de la atmósfera respirable estándar.
+
+  Algunas especies, como los slimes, respiran nitrógeno, mientras que los vox necesitan exclusivamente este gas.
+
+  ## Mezcla de aire
+  <Box>
+    <GuideEntityEmbed Entity="AirCanister" Caption=""/>
+    <GuideEntityEmbed Entity="AirTank" Caption=""/>
+  </Box>
+
+  Una mezcla de gases que puede respirar la mayoría de las especies de la estación.
+  Está formada por un 21% de oxígeno y un 79% de nitrógeno.
+
+
+  ## Dióxido de carbono
+  <Box>
+    <GuideEntityEmbed Entity="CarbonDioxideCanister" Caption=""/>
+  </Box>
+
+  Un gas residual producido por la mayoría de las especies de la estación. También es un subproducto habitual de la combustión.
+
+  Aunque pueda parecer inútil, varios departamentos lo emplean en su trabajo.
+
+  ## Vapor de agua
+  <Box>
+    <GuideEntityEmbed Entity="WaterVaporCanister" Caption=""/>
+  </Box>
+  Un gas común generado por la combustión del plasma y otros procesos.
+
+  El vapor de agua tiene una buena capacidad calorífica específica en comparación con otros gases, por lo que resulta útil para transportar calor.
+
+  ## Plasma
+  <Box>
+    <GuideEntityEmbed Entity="PlasmaCanister" Caption=""/>
+  </Box>
+  Un gas muy inflamable utilizado en numerosos procesos de la estación.
+
+  Ingeniería lo emplea para generar energía y producir gases exóticos.
+
+  Su combustión genera mucho calor, además de gases residuales como dióxido de carbono, vapor de agua y tritio, según la eficiencia del proceso.
+
+  El plasma gaseoso también presenta una buena capacidad calorífica específica, lo que lo hace útil para transportar calor.
+
+  ## Tritio
+  <Box>
+    <GuideEntityEmbed Entity="TritiumCanister" Caption=""/>
+  </Box>
+  Un gas radiactivo extremadamente inflamable que se utiliza para producir frezón.
+
+  El tritio se genera quemando plasma en una cámara de combustión y puede utilizarse para crear frezón mediante un complejo proceso de mezcla.
+
+  La eficiencia de la síntesis de tritio depende de distintos factores, como la saturación de la combustión y la temperatura.
+
+  ## Frezón
+  <Box>
+    <GuideEntityEmbed Entity="FrezonCanister" Caption=""/>
+  </Box>
+
+  Un gas muy valioso debido a la dificultad de producirlo y a sus numerosas propiedades.
+
+  Posee una capacidad calorífica específica extremadamente alta, por lo que resulta ideal para transportar grandes cantidades de calor.
+
+  El frezón puede combinarse en el aire con el nitrógeno, producir óxido nitroso y enfriar el aire muy por debajo del punto de congelación.
+
+  Producir frezón es muy difícil: se necesita una mezcla de tritio, oxígeno y nitrógeno ajustada con precisión para que se produzca la reacción.
+  Si quieres producir este gas por tu cuenta, debes saber lo siguiente:
+  - El frezón se produce combinando oxígeno, tritio y nitrógeno.
+  - El tritio y el oxígeno se mezclan en una proporción aproximada de 1:8.
+  - El nitrógeno actúa como catalizador de la reacción. La cantidad consumida depende de la eficiencia de esta.
+  - La reacción del frezón solo se produce a temperaturas criogénicas inferiores a 73.15 K. Su eficiencia, es decir, la cantidad de frezón generado, depende de la temperatura. Cuanto más se acerque a 73.15 K, más frezón se producirá y menos nitrógeno se consumirá.
+
+  Recuerda: Atmosféricos consiste en experimentar y optimizar procesos. ¡Sigue probando hasta que funcione!
+
+  ## Óxido nitroso
+  <Box>
+    <GuideEntityEmbed Entity="NitrousOxideCanister" Caption=""/>
+    <GuideEntityEmbed Entity="EmergencyFunnyOxygenTank" Caption=""/>
+  </Box>
+  Un gas recreativo y residual producido por los slimes y por la combinación de frezón con nitrógeno.
+
+  ## Amoníaco
+  <Box>
+    <GuideEntityEmbed Entity="AmmoniaCanister" Caption=""/>
+  </Box>
+  Un gas generado por la descomposición de cadáveres.
+
+  Puede condensarse en amoníaco líquido, que se utiliza para producir limpiador espacial.
+
+</Document>

@@ -1,0 +1,17 @@
+﻿<Document>
+  # Duración de los vetos
+
+  Los vetos se pueden apelar en la sección de apelaciones de forum.ss14.io.
+
+  ## Temporal
+  Los vetos temporales se levantan automáticamente al cabo de cierto tiempo. Si se trata de un veto del juego, al intentar conectarte se indicará cuánto tiempo queda.
+
+  ## Indefinido
+  Estos vetos solo se retiran tras una apelación aceptada en los foros. Cualquier veto que no indique cuándo caduca ni especifique lo contrario puede considerarse indefinido.
+
+  ## Con aval
+  Este es un veto indefinido que solo se puede apelar con una apelación aceptada y un aval de buena conducta del equipo administrativo de un servidor de SS13 o SS14 conocido, o al menos razonablemente activo, para que se considere la solicitud. Por lo general, los vetos con aval no se pueden apelar hasta que hayan transcurrido al menos seis meses desde su imposición. Sin un aval, un jugador solo puede intentar apelar una vez un veto de este tipo, y únicamente si se impuso de manera indebida. Los vetos con aval suelen aplicarse tras el rechazo de una apelación contra un veto indefinido del juego presentada por jugadores con antecedentes de sanciones y problemas.
+
+  ## Permanente
+  Este veto solo se puede apelar si se impuso de manera indebida, lo que incluye los casos en que no debería haber sido permanente. Si la apelación determina que el veto se impuso correctamente, no podrá volver a apelarse ni será levantado. Estos vetos son extremadamente infrecuentes, pero se aplican a jugadores que siguen causando problemas incluso después de un veto con aval; los usuarios con una conducta totalmente inaceptable también pueden ser expulsados de forma permanente.
+</Document>

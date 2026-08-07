@@ -1,0 +1,16 @@
+<Document>
+  # Reptilianos
+
+  <Box>
+    <GuideEntityEmbed Entity="MobReptilian" Caption=""/>
+  </Box>
+
+  SOLO pueden comer fruta y carne, pero pueden consumir carne cruda y beber sangre sin sufrir efectos nocivos.
+  Prefieren temperaturas algo más altas que los humanos.
+  Pueden arrastrar objetos con la cola y mantener ambas manos libres.
+
+  Sus ataques de garras sin armas causan daño cortante en vez de contundente.
+
+  Reciben [color=#ffa500]un 30% más de daño por frío.[/color]
+
+</Document>

@@ -1,0 +1,12 @@
+job-name-external-administrative-zone-commandant = Comandante jefe
+job-description-external-administrative-zone-commandant = Dirige la unidad de seguridad de la zona administrativa. Coordina a las fuerzas de seguridad para mantener el orden.
+job-name-senior-external-administrative-zone-officer = Comandante sénior
+job-description-senior-external-administrative-zone-officer = Agente veterano de la unidad de seguridad de la zona administrativa. Es un empleado curtido que conoce su trabajo de cabo a rabo.
+job-name-external-administrative-zone-officer = Comandante
+job-description-external-administrative-zone-officer = Agente de la unidad de seguridad de la zona administrativa. Se encarga de mantener el orden entre el personal de la instalación.
+job-name-junior-external-administrative-zone-officer = Comandante júnior
+job-description-junior-external-administrative-zone-officer = Agente recién incorporado a la unidad de seguridad de la zona administrativa. Ayuda a los oficiales de mayor rango a mantener el orden en el complejo.
+job-name-field-medical-specialist = Amnestesiólogo
+job-description-field-medical-specialist = Especialista médico del servicio de seguridad. Presta asistencia sanitaria y administra amnésicos al personal.
+job-supervisors-security-commander = el jefe de seguridad
+job-supervisors-external-administrative-zone-commandant = el comandante jefe

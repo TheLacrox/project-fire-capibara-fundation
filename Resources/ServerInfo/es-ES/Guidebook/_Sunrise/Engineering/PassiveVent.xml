@@ -1,0 +1,11 @@
+﻿<Document>
+  # Respiradero pasivo
+  El respiradero pasivo conecta una [textlink="red de tuberías" link="PipeNetworks"] con la atmósfera circundante sin utilizar una bomba.
+  <Box>
+    <GuideEntityEmbed Entity="GasPassiveVent"/>
+  </Box>
+
+  No necesita [textlink="energía" link="Power"] y permite que el gas fluya de forma natural entre la tubería y la atmósfera según la diferencia de presión.
+
+  Los respiraderos pasivos son útiles en depósitos de gas, cámaras de combustión y otros sistemas que necesiten un intercambio libre de gas sin control activo.
+</Document>

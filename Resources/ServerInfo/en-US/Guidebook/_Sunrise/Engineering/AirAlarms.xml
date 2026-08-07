@@ -1,0 +1,65 @@
+﻿<Document>
+  # Air Alarms
+  An air alarm is a device that lets you centrally monitor and control every atmospheric device linked to it.
+
+  <Box>
+    <GuideEntityEmbed Entity="AirAlarm"/>
+  </Box>
+
+  It allows an atmospheric technician to manage the atmosphere in a given area quickly and efficiently.
+
+  Rooms often have a wall-mounted air alarm for quickly controlling several devices inside them.
+
+  The guide on [textlink="networking" link="Networking"] explains how to link devices.
+
+  ## User interface
+  Interacting with an air alarm opens a menu with 3 sections:
+  - Top: the air alarm's current status. This displays the current pressure and temperature of the area it monitors.
+  - Middle: lists of linked [textlink="air vents" link="AirVent"] and [textlink="air scrubbers" link="AirScrubber"], as well as every sensor sending data to the alarm.
+  - Bottom: buttons for controlling the air alarm's operating modes and a toggle for automatic mode switching.
+
+  ## Alarm status
+  Air alarms quickly communicate the state of the monitored area through the color of the device's indicator:
+  - [color=green]Normal[/color]: the air in the area is safe to breathe.
+  - [color=yellow]Warning[/color]: the area's atmosphere is beginning to deviate from the desired values and is becoming unsafe.
+  - [color=red]Danger[/color]: the area is no longer safe; internals or spacesuits are required.
+
+  Air alarms automatically lower linked [textlink="firelocks" link="FireAndGasControl"] when the status reaches [color=Red]Danger[/color].
+  These [textlink="firelocks" link="FireAndGasControl"] automatically rise when the status returns to [color=green]Normal[/color].
+
+  Air alarms have [textlink="signal" link="Networking"] outputs for each of the three statuses. They can be used to activate other [textlink="signal" link="Networking"] devices when the status changes.
+
+  ## Sensors
+  All [textlink="air vents" link="AirVent"] and [textlink="air scrubbers" link="AirScrubber"] have a built-in sensor that sends data to the air alarm.
+  These sensors can be configured in the [bold]Sensors[/bold] tab of the air alarm menu.
+
+  The air alarm's status is determined directly by each sensor's thresholds.
+  If a sensor reports pressure, temperature, or gas composition outside the configured thresholds, the air alarm will change its status.
+
+  These thresholds can be adjusted or disabled as needed.
+  For example, if you are monitoring a room with a naturally low temperature, such as a freezer, or a high temperature, such as a combustion chamber, you can adjust the temperature thresholds to the expected values.
+
+  You can also build an air sensor and [textlink="link it" link="Networking"] to an air alarm.
+
+  <Box>
+    <GuideEntityEmbed Entity="AirSensor"/>
+  </Box>
+
+  This is useful for monitoring areas that do not yet have an air vent or scrubber.
+
+  ## Operating modes
+  To control connected devices quickly, air alarms have operating modes that change the behavior of every linked device to achieve the desired effect.
+  - None: disables every device linked to the air alarm.
+  - Filtering: enables [textlink="air vents" link="AirVent"] with their external bound set to standard atmospheric pressure. [textlink="Air scrubbers" link="AirScrubber"] are enabled and normally remove all waste gases.
+  - Filtering (Wide): the same as Filtering, but every linked [textlink="air scrubber" link="AirScrubber"] enables WideNet mode.
+  - Fill: enables [textlink="air vents" link="AirVent"] with their external bound set to the maximum pressure of [color=orange][protodata="GasVentPump" comp="GasVentPump" member="MaxPressure"/] kPa[/color]. [textlink="Air scrubbers" link="AirScrubber"] are disabled.
+  - Panic: disables [textlink="air vents" link="AirVent"] and switches [textlink="air scrubbers" link="AirScrubber"] to siphoning mode.
+
+  Air alarms automatically switch between Filtering and Filtering (Wide) depending on the area's current status.
+  - If the area reaches [color=red]Danger[/color] status or higher, the air alarm switches to Filtering (Wide).
+  - If the area reaches [color=green]Normal[/color] or [color=yellow]Warning[/color] status, the air alarm switches to Filtering.
+
+  This behavior can be disabled by clearing the "Auto" checkbox in the bottom section of the air alarm menu.
+
+  Useful advice for dealing with [textlink="depressurization" link="Spacing"] and [textlink="fires" link="Fires"] can be found in their respective guides.
+</Document>

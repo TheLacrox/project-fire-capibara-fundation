@@ -1,0 +1,9 @@
+ent-Scp049AlternativeCanon = ???
+    .desc = Nuestro viejo Doctor con un aspecto nuevo.
+    .suffix = SCP-049 «Canónico» - Meme de admin
+ent-Scp049AlternativeRobotic = ???
+    .desc = Nuestro viejo Doctor con un aspecto nuevo.
+    .suffix = SCP-049 «Robótico» - Meme de admin
+ent-Scp049AlternativeOldFashioned = ???
+    .desc = Nuestro viejo Doctor con un aspecto nuevo.
+    .suffix = SCP-049 «Anticuado» - Meme de admin

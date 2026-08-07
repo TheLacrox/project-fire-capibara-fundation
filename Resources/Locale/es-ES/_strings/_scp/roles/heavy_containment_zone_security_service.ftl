@@ -1,0 +1,9 @@
+job-name-heavy-containment-zone-commandant = Comandante de la UOE
+job-description-heavy-containment-zone-commandant = Comanda la Unidad de Operaciones Especiales. Es responsable de la seguridad de los objetos y coordina las operaciones para hacerles frente durante una brecha de contención.
+job-name-senior-heavy-containment-zone-officer = Oficial sénior de la UOE
+job-description-senior-heavy-containment-zone-officer = Oficial veterano de la Unidad de Operaciones Especiales. Tiene mucha experiencia y sabe desenvolverse tanto en situaciones críticas como en operaciones rutinarias.
+job-name-heavy-containment-zone-officer = Oficial de la UOE
+job-description-heavy-containment-zone-officer = Oficial de la Unidad de Operaciones Especiales. Garantiza la seguridad de los objetos y les hace frente durante una brecha de contención.
+job-name-junior-heavy-containment-zone-officer = Oficial júnior de la UOE
+job-description-junior-heavy-containment-zone-officer = Oficial recién incorporado a la Unidad de Operaciones Especiales. Ayuda a los oficiales de mayor rango a vigilar los objetos del complejo.
+job-supervisors-heavy-containment-zone-commandant = el comandante de la UOE

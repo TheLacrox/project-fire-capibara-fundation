@@ -1,6 +1,8 @@
-﻿- type: gameMap
+﻿# Fire edit - локализуемые названия карты и станции
+- type: gameMap
   id: TransitHub
-  mapName: 'Распределительный центр Фонда'
+  mapName: 'Foundation Distribution Center'
+  mapNameLocId: map-name-scp-transit-hub
   mapPath: /Maps/_Scp/transithub.yml
   maxRandomOffset: 0
   randomRotation: false
@@ -10,7 +12,8 @@
       stationProto: ScpRegionalAdministration
       components:
       - type: StationNameSetup
-        mapNameTemplate: 'Распределительный центр Фонда'
+        mapNameTemplate: 'Foundation Distribution Center'
+        stationNameTemplateLocId: station-name-template-scp-transit-hub
         nameGenerator:
           !type:NanotrasenNameGenerator
           prefixCreator: 'SCP'

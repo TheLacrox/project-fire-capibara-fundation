@@ -1,0 +1,12 @@
+ent-ClothingMaskMtf = máscara antigás
+    .desc = Una máscara protectora reglamentaria con filtración densa. Sus lentes producen la impresión de una mirada vacía e inexpresiva.
+    .suffix = MTF
+ent-ClothingMaskMtfTacticalRed = máscara antigás táctica
+    .desc = Una máscara protectora táctica con filtración densa. Su visor produce la impresión de una mirada vacía e inexpresiva.
+    .suffix = MTF | Roja
+ent-ClothingMaskMtfTacticalWhite = máscara antigás táctica
+    .desc = Una máscara protectora táctica con filtración densa. Su visor produce la impresión de una mirada vacía e inexpresiva.
+    .suffix = MTF | Blanca
+ent-ClothingMaskMtfMilitary = máscara antigás militar
+    .desc = Una máscara protectora táctica con filtración densa. Este modelo se utiliza en tropas regulares.
+    .suffix = MTF

@@ -1,0 +1,31 @@
+﻿<Document>
+  # SCP-082 Abilities
+
+  This page describes the active abilities available to the object and the unique mechanics associated with it.
+
+  [textlink="General information about Fernand" link="Scp082About"]
+
+  ## Airlock Prying Ability
+
+  Activating this ability on an airlock forces it open.
+  This ability only works during the final stage of anger. Use it to open otherwise inaccessible airlocks.
+
+  [bold]To activate this ability, press E on the airlock, then stand still and do not move for a few seconds until the progress bar above your head finishes.[/bold]
+
+  ## Corpse-Devouring Ability
+
+  Fernand devours a person's corpse when this ability is activated.
+  This ability only works during the final stage of anger.
+
+  [bold]To activate this ability, right-click a corpse and press the "Eat" button in the context menu, then stand still and do not move for a few seconds until the progress bar above your head finishes.[/bold]
+
+  ## Anger Mechanic
+
+  Over time, the object will grow hungry. As its hunger increases, its damage and attack speed are multiplied. Red pop-up text will tell you when you are hungry.
+  During the final stage of anger, Security personnel can no longer grab Fernand.
+
+  This mechanic allows Fernand to begin an escape.
+
+  [textlink="More information about escape methods" link="Scp082ContainmentBreach"]
+
+</Document>

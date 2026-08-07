@@ -1,0 +1,97 @@
+<Document>
+  # Motor de singularidad / motor Tesla
+
+  El motor de singularidad / motor Tesla puede proporcionar [color=#a4885c]energía infinita[/color] durante todo el turno, lo que lo convierte en un recurso muy valioso para la estación.
+
+  También puede [color=red]destruir toda la estación[/color] con la misma facilidad y exige una preparación y vigilancia cuidadosas para evitar que [bold]se libere[/bold].
+
+  # Puesta en marcha
+  Ambos motores siguen los mismos pasos básicos de instalación, pero tienen subsistemas y requisitos diferentes.
+
+  ## Campo de contención
+  El campo de contención es un campo de haces que ocupa varias baldosas y repele la singularidad o la Tesla, impidiendo que escape.
+
+  Los láseres de los emisores y los campos de contención también pueden causar daño o lanzarte al espacio profundo; [color=#a4885c]evita tocarlos[/color] cuando estén activos.
+
+  <Box>
+    <GuideEntityEmbed Entity="Emitter"/>
+    <GuideEntityEmbed Entity="ContainmentFieldGenerator"/>
+    <GuideEntityEmbed Entity="ContainmentField"/>
+  </Box>
+
+  Los campos de contención se generan entre generadores del campo de contención activos, alimentados por emisores.
+
+  Un generador del campo de contención puede generar un campo si:
+  - El generador está encendido,
+  - hay otro generador del campo a un máximo de 8 baldosas,
+  - y ambos generadores están sobre el mismo eje cardinal.
+
+  Esto significa que la longitud máxima de un campo de contención es de 7 baldosas.
+
+  Puedes encender un generador del campo de contención interactuando con él mediante [color=yellow][bold][keybind="Use"][/bold][/color].
+  Los generadores del campo de contención no funcionarán si no están encendidos, ni siquiera al recibir el impacto de un emisor. ¡Recuerda encender el generador!
+
+  El generador del campo de contención posee un nivel de energía interno que se llena al recibir impactos de un emisor. Cuando almacena suficiente energía, genera un campo de contención.
+
+  Este nivel de energía disminuye de forma natural con el tiempo y el campo desaparece tras un breve retraso cuando llega a cero.
+
+  Mientras el campo de contención esté activo, no podrás apagar ni desanclar el generador. Debes esperar a que el campo decaiga para poder apagarlo.
+
+  <Box>
+    <GuideEntityEmbed Entity="ContainmentFieldGenerator" Caption=""/>
+    <GuideEntityEmbed Entity="ContainmentField" Caption="" Rotation="90" Margin="0"/>
+    <GuideEntityEmbed Entity="ContainmentField" Caption="" Rotation="90" Margin="0"/>
+    <GuideEntityEmbed Entity="ContainmentField" Caption="" Rotation="90" Margin="0"/>
+    <GuideEntityEmbed Entity="ContainmentFieldGenerator" Caption=""/>
+  </Box>
+
+  ## Emisores
+  Los emisores son los dispositivos que suministran energía a los generadores del campo de contención.
+
+  <Box>
+    <GuideEntityEmbed Entity="Emitter"/>
+  </Box>
+
+  Los emisores se conectan a cables MV y disparan láseres mientras reciban energía y estén encendidos.
+
+  Se recomienda [color=#a4885c]bloquear los emisores[/color] con [color=yellow][bold][keybind="AltActivateItemInWorld"][/bold][/color] para impedir que cualquier intruso libere la singularidad o la Tesla con solo apagar el campo.
+
+  ## Acelerador de partículas
+  El acelerador de partículas (PA) es una estructura de varias baldosas que lanza partículas aceleradas desde sus emisores.
+
+  <Box>
+    <GuideEntityEmbed Entity="ParticleAcceleratorEndCap" Caption="" Margin="0"/>
+  </Box>
+
+  <Box>
+    <GuideEntityEmbed Entity="ParticleAcceleratorControlBox" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="ParticleAcceleratorFuelChamber" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="CableMV" Caption="" Margin="0"/>
+  </Box>
+
+  <Box>
+    <GuideEntityEmbed Entity="ParticleAcceleratorPowerBox" Caption="" Margin="0"/>
+  </Box>
+
+  <Box>
+    <GuideEntityEmbed Entity="ParticleAcceleratorEmitterStarboard" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="ParticleAcceleratorEmitterFore" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="ParticleAcceleratorEmitterPort" Caption="" Margin="0"/>
+  </Box>
+
+  Algunas estaciones ya tienen un PA sin terminar.
+  Para completarlo, comprueba primero que haya un cable MV bajo la caja de alimentación del PA, ancla todas las piezas y añade después un cable LV a cada una.
+
+  <Box>
+    <GuideEntityEmbed Entity="CableApcStack"/>
+  </Box>
+
+  A continuación, usa un destornillador para volver a atornillar los paneles.
+  [color=#a4885c]Escanea las piezas[/color] con la computadora de control del PA para comprobar que funcione (¡el PA no funcionará si no lo escaneas!).
+  Si aparece como incompleto, examínalo para averiguar qué falta.
+
+  <Box>
+    <GuideEntityEmbed Entity="ParticleAcceleratorControlBox"/>
+  </Box>
+
+</Document>

@@ -1,0 +1,10 @@
+advertisement-barber-1 = ¿Quieres un estilo nuevo? ¡No hay problema, la maquinilla ya está en marcha!
+advertisement-barber-2 = ¿Quieres parecer una estrella? ¡Nuestras tijeras conocen el secreto!
+advertisement-barber-3 = Un pequeño retoque y estarás en la portada de una revista.
+advertisement-barber-4 = ¡Nada de movimientos innecesarios, solo estilo!
+advertisement-barber-5 = ¿Qué peinado toca hoy? ¡Tú eliges, yo me encargo!
+advertisement-barber-6 = ¡Rapado al cero: nada de pelo, nada de preocupaciones y siempre a punto para cualquier sorpresa!
+advertisement-barber-7 = Tu peinado está en buenas manos.
+advertisement-barber-8 = Rapado al cero: ¡rápido, con estilo y sin preocuparte por peinarte!
+advertisement-barber-9 = ¡El rapado al cero es la elección de los hombres de verdad y de quienes han perdido el peine!
+advertisement-barber-10 = Tu estilo es nuestra prioridad.

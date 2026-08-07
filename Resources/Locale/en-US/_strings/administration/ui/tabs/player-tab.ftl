@@ -14,3 +14,9 @@ player-tab-is-antag-no = NO
 player-tab-character-name-antag-symbol = {$symbol} {$name}
 
 player-tab-antag-prefix = 🗡
+
+# Fire added start - добавлены отсутствовавшие подписи вкладки игроков Sunrise
+player-tab-sponsor = Sponsor
+player-tab-objectives = Objectives
+player-tab-objectives-button = Objectives
+# Fire added end

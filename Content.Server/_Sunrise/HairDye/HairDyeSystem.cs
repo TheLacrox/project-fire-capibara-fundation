@@ -56,7 +56,8 @@ public sealed class HairDyeSystem : EntitySystem
             return;
         if (!TryComp<HumanoidAppearanceComponent>(args.Target, out var humanoidAppearanceComponent))
         {
-            _popup.PopupEntity("Нельзя использовать краситель", args.User, args.User);
+            // Fire edit: локализация сообщений красителя для волос
+            _popup.PopupEntity(Loc.GetString("hairdye-cannot-use"), args.User, args.User);
             return;
         }
 
@@ -65,7 +66,7 @@ public sealed class HairDyeSystem : EntitySystem
             // facial
             if (!humanoidAppearanceComponent.MarkingSet.TryGetCategory(MarkingCategories.FacialHair, out var targetMarking))
             {
-                _popup.PopupEntity("Нет лицевой растительности", args.User, args.User);
+                _popup.PopupEntity(Loc.GetString("hairdye-no-facial-hair"), args.User, args.User);
                 return;
             }
             var calculatedcolor = Color.InterpolateBetween(targetMarking[0].MarkingColors[0], comp.TargetColor, 0.25f);
@@ -88,7 +89,7 @@ public sealed class HairDyeSystem : EntitySystem
             // hair
             if (!humanoidAppearanceComponent.MarkingSet.TryGetCategory(MarkingCategories.Hair, out var targetMarking))
             {
-                _popup.PopupEntity("Нет волос", args.User, args.User);
+                _popup.PopupEntity(Loc.GetString("hairdye-no-hair"), args.User, args.User);
                 return;
             }
 

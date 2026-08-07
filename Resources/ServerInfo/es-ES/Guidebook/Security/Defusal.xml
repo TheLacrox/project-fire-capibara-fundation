@@ -1,0 +1,73 @@
+<Document>
+  # Desactivación de bombas grandes
+  Has encontrado una bomba grande y está pitando. Estas bombas tardan mucho en detonar y abren un agujero enorme en el casco. Sigue leyendo y nadie explotará.
+
+  ## Equipo
+  Necesitas dos herramientas imprescindibles para desactivarla, aunque una multiherramienta te ayudará enormemente a identificar los cables.
+  <Box>
+    <GuideEntityEmbed Entity="Wirecutter"/>
+    <GuideEntityEmbed Entity="Screwdriver"/>
+    <GuideEntityEmbed Entity="Multitool"/>
+  </Box>
+
+  Como protección, un [color=yellow]traje antibombas[/color] u otro equipo adecuado puede evitar que acabes hecho pedazos.
+  <Box>
+    <GuideEntityEmbed Entity="ClothingHeadHelmetBombSuit"/>
+    <GuideEntityEmbed Entity="ClothingOuterSuitBomb"/>
+    <GuideEntityEmbed Entity="ClothingOuterHardsuitRd"/>
+    <GuideEntityEmbed Entity="ClothingOuterHardsuitAtmos"/>
+  </Box>
+
+  ## Bombas grandes
+  A continuación se muestran los dos tipos habituales de bomba que encontrarás. Una bomba de entrenamiento sólo causa daños menores al casco y, por lo general, no te matará. Una bomba del Sindicato abre un agujero enorme y te hará pedazos si no llevas protección.
+  <Box>
+    <GuideEntityEmbed Entity="SyndicateBomb"/>
+    <GuideEntityEmbed Entity="TrainingBomb"/>
+  </Box>
+
+  ## Armado
+  Para armar una bomba, haz [color=yellow]clic derecho[/color] y selecciona [color=yellow]Iniciar cuenta atrás[/click], o haz [color=yellow]Alt + clic[/color] sobre ella. Empezará a pitar.
+
+  ## Tiempo
+  La bomba tiene un tiempo limitado: como mínimo [protodata="SyndicateBomb" comp="TimerTrigger" member="ShortestDelayOption"/] segundos y como máximo [protodata="SyndicateBomb" comp="TimerTrigger" member="LongestDelayOption"/] segundos. Puedes ver el temporizador al examinarla, salvo que se haya cortado el cable PRCD. Cuando llegue a cero, la bomba detonará.
+
+  ## Pernos
+  De forma predeterminada, una bomba armada se fija al suelo con pernos. Busca el cable BOLT y córtalo para desactivarlos; después podrás retirar los anclajes con una llave y lanzar la bomba al espacio.
+
+  ## Cables
+  Para desactivar la bomba debes acceder al cableado. Abre el panel con un [color=yellow]destornillador[/color]. Una bomba estándar del Sindicato contiene unos [color=yellow]10 cables[/color]: 3 son falsos, [color=red]3 provocarán una detonación[/color] y los demás se describen a continuación junto a los cables BOOM. Puedes realizar 3 acciones con cada cable:
+  - [color=yellow]Pulsar el cable[/color] con una multiherramienta para identificar de forma segura la mayoría de ellos.
+  - [color=red]Cortar el cable[/color] con un cortacables. Puede provocar distintos efectos; no cortes sin motivo.
+  - [color=green]Reparar el cable[/color] con un cortacables para restaurar algunas funciones si la bomba no es desechable.
+
+  Veamos ahora los distintos tipos.
+
+  ## Tipos de cable
+  [color=#a4885c]Cable de activación (LIVE)[/color]
+  - [color=yellow]Pulsar el cable[/color]: el cable emitirá un pitido y retrasará la bomba 30 segundos.
+  - [color=red]Cortar el cable[/color]: desactiva la bomba si está armada; en caso contrario, inicia el temporizador.
+  - [color=green]Reparar el cable[/color]: nada.
+
+  [color=#a4885c]Cable de avance (PRCD)[/color]
+  - [color=yellow]Pulsar el cable[/color]: adelanta el temporizador 15 segundos.
+  - [color=red]Cortar el cable[/color]: impide ver el temporizador al examinar la bomba.
+  - [color=green]Reparar el cable[/color]: nada.
+
+  [color=#a4885c]Cable de retraso (DLAY)[/color]
+  - [color=yellow]Pulsar el cable[/color]: retrasa la bomba 30 segundos.
+  - [color=red]Cortar el cable[/color]: nada.
+  - [color=green]Reparar el cable[/color]: nada.
+
+  [color=#a4885c]Cable explosivo (BOOM)[/color]
+  - [color=yellow]Pulsar el cable[/color]: [color=red]¡la bomba explotará si está armada![/color]
+  - [color=red]Cortar el cable[/color]: [color=red]¡la bomba explotará si está armada![/color] En caso contrario, desactiva la bomba.
+  - [color=green]Reparar el cable[/color]: vuelve a activar la bomba si estaba desactivada.
+
+  [color=#a4885c]Cable de pernos (BOLT)[/color]
+  - [color=yellow]Pulsar el cable[/color]: hace girar los pernos.
+  - [color=red]Cortar el cable[/color]: desactiva los pernos. ¡Lanza la bomba al espacio!
+  - [color=green]Reparar el cable[/color]: vuelve a activar los pernos.
+
+  [color=#a4885c]Cable falso[/color]
+  - Los cables falsos no hacen nada. Puedes pulsarlos, cortarlos y repararlos sin afectar en absoluto a la bomba.
+</Document>

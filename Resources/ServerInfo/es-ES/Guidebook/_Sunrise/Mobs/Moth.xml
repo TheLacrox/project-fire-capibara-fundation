@@ -1,0 +1,21 @@
+<Document>
+  # Personas polilla
+
+  <Box>
+    <GuideEntityEmbed Entity="MobMoth" Caption=""/>
+  </Box>
+
+  Pueden comer algodón, tejidos y ropa, pero casi nada de lo que otros consideran «comida». Prefieren temperaturas algo más bajas que los humanos.
+  Su sangre de insecto no puede regenerarse a partir de hierro como la sangre normal.
+
+  Sus alas les proporcionan una mejor aceleración cuando no hay gravedad en la estación, aunque siguen sin poder moverse en el espacio abierto sin equipo.
+
+  Reciben [color=#1e90ff]un 30% menos de daño por frío[/color], pero [color=#ffa500]un 20% más de daño por calor y se incendian con mayor facilidad[/color].
+  <Box>
+    <GuideEntityEmbed Entity="MobMothroach" Caption=""/>
+    <GuideEntityEmbed Entity="LightBulb" Caption=""/>
+    <GuideEntityEmbed Entity="MobMothroach" Caption=""/>
+    <GuideEntityEmbed Entity="LightBulb" Caption=""/>
+    <GuideEntityEmbed Entity="MobMothroach" Caption=""/>
+  </Box>
+</Document>

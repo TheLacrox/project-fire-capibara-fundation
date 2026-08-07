@@ -1,0 +1,10 @@
+ui-roadmap = Planes
+ui-roadmap-header = PLAN DE DESARROLLO
+ui-roadmap-state-planned = PREVISTO
+ui-roadmap-state-in-progress = EN CURSO
+ui-roadmap-state-partial = PARCIALMENTE COMPLETADO
+ui-roadmap-state-complete = LISTO
+ui-roadmap-click-for-details = Haz clic para ver los detalles
+ui-roadmap-likes-count = Me gusta: {$count}
+ui-roadmap-like-button = Me gusta
+ui-roadmap-like-button-liked = Te gusta

@@ -13,6 +13,7 @@ using Content.Shared._Sunrise.AnnouncementSpeaker.Events;
 using Robust.Shared.Audio;
 using Robust.Shared.Audio.Systems;
 using Robust.Shared.Configuration;
+using Robust.Shared.Localization;
 using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
@@ -31,22 +32,22 @@ public sealed partial class TTSSystem : EntitySystem
     [Dependency] private readonly SharedAudioSystem _audioSystem = default!;
     [Dependency] private readonly AnnouncementSpeakerSystem _announcementSpeakerSystem = default!;
 
-    private readonly List<string> _sampleText =
+    private readonly List<LocId> _sampleTextLocIds =
         new()
         {
-            "Съешь же ещё этих мягких французских булок, да выпей чаю.",
-            "Клоун, прекрати разбрасывать банановые кожурки офицерам под ноги!",
-            "Капитан, вы уверены что хотите назначить клоуна на должность главы персонала?",
-            "Эс Бэ! Тут человек в сером костюме, с тулбоксом и в маске! Помогите!!",
-            "Учёные, тут странная аномалия в баре! Она уже съела мима!",
-            "Я надеюсь что инженеры внимательно следят за сингулярностью...",
-            "Вы слышали эти странные крики в техах? Мне кажется туда ходить небезопасно.",
-            "Вы не видели Гамлета? Мне кажется он забегал к вам на кухню.",
-            "Здесь есть доктор? Человек умирает от отравленного пончика! Нужна помощь!",
-            "Вам нужно согласие и печать квартирмейстера, если вы хотите сделать заказ на партию дробовиков.",
-            "Возле эвакуационного шаттла разгерметизация! Инженеры, нам срочно нужна ваша помощь!",
-            "Бармен, налей мне самого крепкого вина, которое есть в твоих запасах!"
-        };
+            "tts-preview-sample-1",
+            "tts-preview-sample-2",
+            "tts-preview-sample-3",
+            "tts-preview-sample-4",
+            "tts-preview-sample-5",
+            "tts-preview-sample-6",
+            "tts-preview-sample-7",
+            "tts-preview-sample-8",
+            "tts-preview-sample-9",
+            "tts-preview-sample-10",
+            "tts-preview-sample-11",
+            "tts-preview-sample-12",
+        }; // Fire edit - Локализация примеров синтеза речи.
 
 
     private const int MaxMessageChars = 100 * 2; // same as SingleBubbleCharLimit * 2
@@ -84,7 +85,7 @@ public sealed partial class TTSSystem : EntitySystem
             !_prototypeManager.TryIndex<TTSVoicePrototype>(ev.VoiceId, out var protoVoice))
             return;
 
-        var previewText = _rng.Pick(_sampleText);
+        var previewText = Loc.GetString(_rng.Pick(_sampleTextLocIds)); // Fire edit - Локализация примера синтеза речи.
         var soundData = await GenerateTTS(previewText, protoVoice);
         if (soundData is null)
             return;
@@ -376,7 +377,7 @@ public sealed partial class TTSSystem : EntitySystem
     {
         try
         {
-            var textSanitized = Sanitize(text);
+            var textSanitized = SanitizeForCulture(text, Loc.DefaultCulture); // Fire edit - санитайзер учитывает культуру сервера.
             if (textSanitized == "") return null;
             if (char.IsLetter(textSanitized[^1]))
                 textSanitized += ".";

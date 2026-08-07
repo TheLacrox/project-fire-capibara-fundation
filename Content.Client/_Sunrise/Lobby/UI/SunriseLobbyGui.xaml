@@ -81,7 +81,6 @@
                                         HorizontalExpand="True"
                                         Name="ServerName"
                                         StyleClasses="LabelHeadingBigger"
-                                        Text="{Loc 'ui-lobby-welcome'}"
                                         VAlign="Center" />
                                     <controls:HLine Color="{x:Static style:StyleNano.NanoGold}" Thickness="2" />
                                     <info:LinkBanner

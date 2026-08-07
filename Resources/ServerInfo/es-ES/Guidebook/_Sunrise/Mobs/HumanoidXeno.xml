@@ -1,0 +1,27 @@
+<Document>
+  # Xenomorfos humanoides
+
+  <Box>
+    <GuideEntityEmbed Entity="MobXenoDummy" Caption=""/>
+  </Box>
+
+  Los xenomorfos humanoides resisten las diferencias de presión y poseen sangre ácida.
+  Sus ataques sin armas causan daño cortante, contundente y ácido.
+
+  <Box>
+    <GuideReagentEmbed Reagent="FluorosulfuricAcidHumanoidXeno"/>
+  </Box>
+
+  Reciben [color=#ffa500]un 5% más de daño perforante[/color],
+  [color=#ffa500]no reciben daño por frío[/color],
+  [color=#ffa500]reciben un 20% más de daño por calor[/color] y
+  [color=#ffa500]un 25% más de daño eléctrico[/color].
+
+  Sienten hambre más deprisa y necesitan comer con mayor frecuencia, aproximadamente un 20% más.
+  Los xenomorfos no sufren asfixia.
+  No pueden ponerse ciertos objetos: cascos rígidos, trajes presurizados ni botas, salvo vendas para los pies, botas magnéticas y botas ninja.
+  Su sangre es un veneno potente.
+  Sus huellas se parecen a las de los unathi.
+  Sus patas no sufren daño por fragmentos de vidrio.
+
+</Document>

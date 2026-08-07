@@ -1,0 +1,10 @@
+ent-ClothingMaskBandOrange = bandana naranja
+    .desc = Una bandana naranja para cubrirte el rostro con estilo.
+ent-ClothingMaskBandYellow = bandana amarilla
+    .desc = Una bandana amarilla para cubrirte el rostro con estilo.
+ent-ClothingMaskBandCyan = bandana cian
+    .desc = Una bandana cian para cubrirte el rostro con estilo.
+ent-ClothingMaskBandWhite = bandana blanca
+    .desc = Una bandana blanca para cubrirte el rostro con estilo.
+ent-ClothingMaskBandPurple = bandana morada
+    .desc = Una bandana morada para cubrirte el rostro con estilo.

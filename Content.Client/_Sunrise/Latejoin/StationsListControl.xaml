@@ -4,7 +4,7 @@
     <LineEdit Name="FilterLineEdit"
               MinSize="100 0"
               HorizontalExpand="True"
-              PlaceHolder="{Loc Filter}"/>
+              PlaceHolder="{Loc late-join-gui-stations-filter-placeholder}"/>
     <ItemList Name="StationsItemList"
               Access="Public"
               SelectMode="Single"

@@ -1,0 +1,70 @@
+<Document>
+  # Thieves
+
+  <Box>
+    [color=#999999][italic]"Yoink! I'll be taking that! And that! Ooh, don't mind if I do!"[/italic][/color]
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="ClothingNeckCloakVoid" Caption=""/>
+  </Box>
+
+  Thieves are petty but cunning [color=green]criminals[/color] who cannot resist other people's belongings. After your last arrest, you were fitted with a [bold]pacifism implant[/bold], but that will not stop you from expanding your collection.
+
+  ## The Art of Theft
+  Unlike other antagonists, [bold]it is important not to get caught[/bold], because the implant will not let you attack without cause.
+  You can only fight your way out if [color=#cb0000]Security[/color] starts the fight, and since you work alone, nobody will help you get out of trouble.
+
+  Even so, with persistence, sleight of hand, a few tools, and your [color=cyan]pickpocketing skills[/color], you can successfully make off with whatever you want.
+
+  These skills give you an edge: [bold]you can take things from people without them even noticing.[/bold] With practice, you can lift a wallet and keep the conversation going.
+
+  You should wear gloves, or your fingerprints will give you away.
+
+  ## Tools of the Trade
+  You have two more advantages: a [color=cyan]beacon[/color] and a [color=cyan]satchel[/color].
+
+  The [color=cyan]beacon[/color] safely sends home treasures that are too cumbersome to carry during evacuation. Find a secluded spot, deploy the beacon, and set the hideout coordinates.
+  At the end of the shift, all valuable items nearby will be [bold]teleported to your vault,[/bold] completing your objective.
+
+  However, if someone finds it, it will instantly give you away and make recovering the stolen goods easy. [bold]Hide it carefully![/bold]
+
+  <Box>
+    <GuideEntityEmbed Entity="ThiefBeacon"/>
+  </Box>
+
+  The [color=cyan]satchel[/color] can hold... anything you manage to grab. [bold]You can choose two kits[/bold] to pull off the perfect heist.
+
+  <Box>
+    <GuideEntityEmbed Entity="SatchelThief"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="Implanter" Caption="Anatomy"/>
+    <GuideEntityEmbed Entity="C4" Caption="Breacher"/>
+    <GuideEntityEmbed Entity="ChameleonProjector" Caption="Chameleon"/>
+    <GuideEntityEmbed Entity="BaseUplinkRadio" Caption="Communicator"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="NitrousOxideTank" Caption="Sleeper"/>
+    <GuideEntityEmbed Entity="Fulton" Caption="Smuggler"/>
+    <GuideEntityEmbed Entity="Telecrystal" Caption="Syndie"/>
+  </Box>
+
+  ## The Centerpiece of the Collection
+  Kleptomania will take you far. One day you will steal figurines; the next, a huge industrial machine.
+
+  It does not matter: sooner or later, everything will end up in the collection.
+
+  You can steal items if [bold]you have them on you when you arrive at CentComm.[/bold] Otherwise, leave large items next to the beacon—[bold]it will transfer them to your vault.[/bold]
+
+  Some [italic]living[/italic] targets will be reluctant to cooperate. Make sure they are alive and with you or the beacon at the end of the shift.
+
+  Your desires may include, but are not limited to:
+
+  <Box>
+    <GuideEntityEmbed Entity="ToyFigurineGreytider" Caption="Figurines"/>
+    <GuideEntityEmbed Entity="PassengerIDCard" Caption="ID cards"/>
+    <GuideEntityEmbed Entity="ChemDispenser" Caption="Structures"/>
+    <GuideEntityEmbed Entity="MobCorgiIan" Caption="Animals/Pets"/>
+  </Box>
+
+</Document>

@@ -1,0 +1,51 @@
+<Document>
+  # Xenoarqueología
+
+  La xenoarqueología es una rama de Ciencia dedicada a estudiar [bold]artefactos[/bold] alienígenas.
+
+  Desentrañar sus secretos concede puntos de investigación y revela efectos extraños que pueden ser útiles o peligrosos.
+
+  Al comienzo de la ronda suele haber uno o dos artefactos en el laboratorio de Ciencia. Puedes conseguir más de estas formas:
+  - Solicitándolos a [color=orange]Carga[/color].
+  - Encontrándolos durante las tareas de [color=orange]Salvamento[/color].
+  - Ensamblándolos a partir de [bold]fragmentos[/bold].
+  - Esperando a que aparezcan durante ciertos sucesos de la estación.
+
+  ## Artefactos
+  <Box>
+    <GuideEntityEmbed Entity="ComplexXenoArtifact" Caption=""/>
+    <GuideEntityEmbed Entity="ComplexXenoArtifactItem" Caption=""/>
+  </Box>
+
+  Los artefactos contienen [bold]nodos[/bold] distribuidos en [bold]capas[/bold].
+  - Desbloquear un nodo habilita los nodos conectados de las capas superiores.
+  - Cada nodo posee [bold]desencadenantes[/bold]: acciones que deben realizarse cerca del artefacto para desbloquear el nodo.
+  - Al desbloquearse, se activa el [bold]efecto[/bold] del nodo y éste pasa a estar [bold][color=plum]activo[/color][/bold].
+  - Cada nodo tiene una [bold]durabilidad[/bold], es decir, el número de veces que puede activarse manualmente después de desbloquearlo.
+  - Los nodos superiores son más difíciles de alcanzar, pero conceden más [bold]puntos de investigación[/bold].
+  - Desbloquear todos los nodos no concede ninguna bonificación especial, aunque cada nodo otorga puntos de investigación.
+
+  ## Equipo
+  <Box>
+    <GuideEntityEmbed Entity="MachineArtifactAnalyzer" Caption="Analizador"/>
+    <GuideEntityEmbed Entity="ComputerAnalysisConsole" Caption="Consola de análisis"/>
+    <GuideEntityEmbed Entity="NodeScanner" Caption="Escáner de nodos"/>
+  </Box>
+  - [bold]Analizador de artefactos:[/bold] dispositivo fijo que escanea artefactos y envía sus datos a la consola.
+  - [bold][textlink="Consola de análisis:" link="AnalysisConsole"][/bold] dispositivo fijo que muestra el árbol de nodos. Debe vincularse a un analizador con una multiherramienta.
+  - [bold]Escáner de nodos:[/bold] pequeño dispositivo portátil que muestra el ID del nodo que se está activando y si el artefacto está listo para reaccionar. Proporciona al científico la información mínima necesaria para operar dentro de la cámara, cerca del artefacto y lejos de la consola.
+
+  <Box>
+    <GuideEntityEmbed Entity="CrateArtifactContainer" Caption="Contenedor de artefactos"/>
+    <GuideEntityEmbed Entity="HandheldArtifactContainer" Caption="Contenedor portátil"/>
+  </Box>
+  - [bold]Contenedores de artefactos:[/bold] almacenan y transportan artefactos de forma segura e impiden que se activen sus nodos.
+  <Box>
+    <GuideEntityEmbed Entity="MachineArtifactCrusher" Caption="Triturador"/>
+  </Box>
+  - [bold]Triturador de artefactos:[/bold] reduce los artefactos a fragmentos. Puedes reconstruir un artefacto nuevo con cuatro fragmentos.
+  <Box>
+    <GuideEntityEmbed Entity="ArtifactFragment" Caption="Fragmento de artefacto"/>
+  </Box>
+  - [bold]Fragmento de artefacto:[/bold] parte de un artefacto destruido. Puedes reconstruir un artefacto nuevo con cuatro fragmentos desde el menú de fabricación.
+</Document>

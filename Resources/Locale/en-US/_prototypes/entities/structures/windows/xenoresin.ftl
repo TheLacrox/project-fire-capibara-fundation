@@ -1,2 +1,2 @@
-ent-XenoResinWindow = окно из смолы
-    .desc = Прозрачное и затвердевшее, но слегка липкое на ощупь.
+ent-XenoResinWindow = resin window
+    .desc = Transparent and hardened, but slightly sticky to the touch.

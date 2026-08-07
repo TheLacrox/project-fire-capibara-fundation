@@ -1,0 +1,52 @@
+<Document>
+  # Zombies
+
+  <Box>
+    [color=#999999][italic]"They're coming to get you, Barbara!"[/italic][/color]
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="SignBiohazard" Caption=""/>
+  </Box>
+
+  Zombies are conversion antagonists who infect everyone they bite with [color=#7e916e]Romerol[/color], a deadly contagious virus that can spread rapidly if left unchecked.
+
+  <Box>
+    <GuideReagentEmbed Reagent="Romerol"/>
+  </Box>
+
+  ## Initial infection
+  You are patient zero. Your blood is full of [color=#7e916e]Romerol[/color], and you feel an overwhelming urge to share it with every living creature you see.
+
+  As soon as you learn about the infection, [italic]everything changes[/italic]. You only have so much time before you turn, and your goal is to [bold]maximize your chances of taking over the station.[/bold]
+  Use this time to prepare weapons, equipment, and traps. [italic]Space Law no longer means anything to you.[/italic]
+
+  ## Transmission
+  Zombies only know how to shamble, bite, and throw themselves against obstacles. Their bite [bold]does not always transmit [color=#7e916e]Romerol[/color][/bold] through thick layers of clothing, but it certainly hurts.
+
+  The undead can also bite someone in critical condition or a corpse to [bold]instantly convert[/bold] them into a zombie.
+
+  ## Zombie characteristics
+  Zombies are easy to recognize by their dark green skin, red eyes, slow movement, smell of decay, and lack of motor control. When they turn, they drop their headset and gloves, and handcuffs are useless against their bloodthirsty bite.
+
+  Zombies are known for their [bold]resistance to slashing, blunt damage, poison, and cold.[/bold] They can survive in a vacuum and need no food, water, air, or sleep. However, the undead are [italic]highly vulnerable to burns and electrical shocks.[/italic]
+
+  ## Survival
+  When the infection spreads and [color=#cb0000]Security[/color] falls, it is up to the survivors to reach Central Command.
+
+  [bold]Building barricades[/bold] around departments and [bold]bolting doors[/bold] can buy enough time to make weapons, save people, or devise a plan.
+
+  Remember: when everything goes to hell, [italic]you must do what is necessary[/italic], as long as you do not harm the other survivors. Scavenge whatever you can from those who did not make it.
+
+  ## Cure
+  [bold]Those who have already become undead can only be cured through [color=red]death.[/color][/bold]
+
+  If you are infected but have not yet become a zombie, [color=#86caf7]Ambuzol[/color] will cure you, but it will not prevent reinfection. [color=#1274b5]Ambuzol Plus[/color] will cure and protect you, but only while you are alive.
+
+  <Box>
+    <GuideReagentEmbed Reagent="Ambuzol"/>
+  </Box>
+  <Box>
+    <GuideReagentEmbed Reagent="AmbuzolPlus"/>
+  </Box>
+
+</Document>

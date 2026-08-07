@@ -1,0 +1,4 @@
+job-name-mental-control-officer = Oficial de control mental
+job-description-mental-control-officer = Miembro del Departamento de Seguridad Interna, en concreto de la administración de seguridad de archivos e información. Impide que la información de un Nivel de Autorización determinado caiga en manos de personal con una autorización inferior; por ejemplo, que un limpiador con NA0 vea a Ferdinand sin tener permiso para acceder a la información sobre él.
+job-name-internal-security-operative = Agente de seguridad interna
+job-description-internal-security-operative = Miembro del Departamento de Seguridad Interna responsable de proteger y mantener con vida a la administración del complejo y a los representantes de Seguridad Externa, el Tribunal Interno, el Comité de Ética y la Administración Regional de la Fundación. CLASE B

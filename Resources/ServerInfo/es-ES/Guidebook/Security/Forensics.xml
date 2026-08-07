@@ -1,0 +1,48 @@
+<Document>
+  # Investigación forense
+
+  Dispones de muchas herramientas para recoger y examinar las pruebas.
+
+  # Sonda de registros
+
+  Este pequeño accesorio para la PDA resulta muy útil. Instala el cartucho y tu PDA podrá escanear cualquier objeto con control de acceso, como una esclusa, para mostrar quién lo ha utilizado recientemente.
+
+  Por lo general, encontrarás el cartucho en la taquilla del detective. Después de insertarlo en la PDA, abre la pestaña de programas y selecciona la aplicación de la sonda de registros. Con la aplicación abierta, usa la PDA sobre cualquier objeto que requiera acceso y la información aparecerá al instante.
+
+  Recuerda que el nombre mostrado no es fiable el 100% de las veces, pues procede de la tarjeta de identificación de quien utilizó el objeto. Por ejemplo, si alguien abre una esclusa sin tarjeta, la aplicación mostrará «Desconocido».
+
+  <Box>
+    <GuideEntityEmbed Entity="LockerDetective"/>
+    <GuideEntityEmbed Entity="LogProbeCartridge"/>
+  </Box>
+
+  # ADN y huellas dactilares
+
+  ## ¿Cómo se obtiene el ADN de una persona?
+
+  Puedes escanear charcos de sangre, vómito, vasos, botellas, latas y otros recipientes de líquidos con el [color=#a4885c]escáner forense[/color] para obtener el ADN de cualquier persona.
+  <Box>
+    <GuideEntityEmbed Entity="ForensicScanner"/>
+  </Box>
+  Así que ten cuidado antes de pelearte con alguien.
+
+   El mismo escáner forense también identifica las huellas dactilares de quien haya tocado casi cualquier objeto. Si el posible responsable llevaba guantes, imprimirá las fibras que quedaron en la escena del delito.
+
+  ## Ya tengo el ADN. ¿Cómo averiguo a quién pertenece?
+
+  Puedes imprimir la información forense del objeto escaneado para conservarla. Con el papel que contiene el ADN, busca un [color=#a4885c]ordenador de registros de la estación[/color] y localiza a la persona cuyo ADN coincida. El mismo procedimiento sirve para identificar huellas dactilares.
+
+  ## Toma de huellas
+  También puedes tomar las huellas de alguien en el lugar de los hechos: pídele que se quite los guantes y aplícale una almohadilla forense en los dedos. ¡No hace falta volver corriendo al [color=#a4885c]ordenador de registros de la estación[/color] para comprobar si fue el mayordomo!
+
+  <GuideEntityEmbed Entity="ForensicPad"/>
+
+  ## Fibras
+  Las personas que tocan objetos con guantes acaban dejando algunas fibras. Esto complica la investigación, pero un auténtico detective puede resolver cualquier caso.
+
+  Existen hasta [color=red]26[/color] tipos distintos de fibras. ¿Vas a permitir que eso te impida resolver el caso?
+
+  <Box>
+    <GuideEntityEmbed Entity="ComputerStationRecords"/>
+  </Box>
+</Document>

@@ -1,0 +1,78 @@
+<Document>
+  # Comunistas
+
+  Los comunistas son una facción hostil organizada que aparece en expediciones y basa su estrategia en los pelotones y el apoyo mutuo.
+  A diferencia de los grupos dispersos de piratas, los combatientes soviéticos suelen actuar en escuadras: líder + tiradores + sanitario.
+
+  # Soldados del Ejército Regular
+  [bold][color=#a4885c]Características generales:[/color][/bold]
+  - [bold][color=#a4885c]Salud:[/color][/bold] normalmente 100; los sanitarios tienen 80
+  - [bold][color=#a4885c]Velocidad:[/color][/bold] 3.5 m/s (modelos básicos de tirador)
+  - [bold][color=#a4885c]Protección de la armadura antifragmentación:[/color][/bold] [color=red]Contundente[/color] 15% [color=red]Cortante[/color] 15% [color=yellow]Perforante[/color] 45% [color=orange]Térmico[/color] 40%
+  - [bold][color=#a4885c]Rasgos:[/color][/bold] armadura reglamentaria ligera, presión numérica, munición de calidad y granadas explosivas arrojadizas.
+
+  <Box>
+  <GuideEntityEmbed Entity="MobSovietT1Pistol" Caption=""/>
+  <GuideEntityEmbed Entity="MobSovietT1Mosin" Caption=""/>
+  <GuideEntityEmbed Entity="MobSovietT1SMGAlt" Caption=""/>
+  <GuideEntityEmbed Entity="MobSovietT1Dp28" Caption=""/>
+  <GuideEntityEmbed Entity="MobSovietT1RPD" Caption=""/>
+  </Box>
+  <Box>
+  <GuideEntityEmbed Entity="MobSovietT1SLRifle" Caption=""/>
+  <GuideEntityEmbed Entity="MobSovietT1SerzhantSMG" Caption=""/>
+  <GuideEntityEmbed Entity="MobSovietT1SKM" Caption=""/>
+  <GuideEntityEmbed Entity="MobSovietT1PPSH" Caption=""/>
+  <GuideEntityEmbed Entity="MobSovietT1Medic" Caption=""/>
+  </Box>
+
+  - [bold][color=#a4885c]Funciones:[/color][/bold] sargentos de escuadra, fusileros, subfusileros, ametralladores y sanitarios.
+
+  # Tropas de desembarco
+  [bold][color=#a4885c]Características generales:[/color][/bold]
+  - [bold][color=#a4885c]Salud:[/color][/bold] normalmente 100; los sanitarios tienen 80
+  - [bold][color=#a4885c]Velocidad:[/color][/bold] 3.5 m/s de base; los infantes de marina pueden esprintar hasta 4.5 m/s
+  - [bold][color=#a4885c]Protección de la armadura:[/color][/bold] 15% / 50% (por lo general, [color=red]Contundente[/color] y [color=red]Cortante[/color] rondan el 15%, mientras que [color=yellow]Perforante[/color] alcanza el 50%)
+  - [bold][color=#a4885c]Rasgos:[/color][/bold] saltos y volteretas, equipo más pesado y funciones reforzadas para abrir brechas
+
+  <Box>
+  <GuideEntityEmbed Entity="MobSovietT2Revolver" Caption=""/>
+  <GuideEntityEmbed Entity="MobSovietT2Rifle" Caption=""/>
+  <GuideEntityEmbed Entity="MobSovietT2RifleW" Caption=""/>
+  <GuideEntityEmbed Entity="MobSovietT2Raider" Caption=""/>
+  </Box>
+  <Box>
+  <GuideEntityEmbed Entity="MobSovietT3Shotgun" Caption=""/>
+  <GuideEntityEmbed Entity="MobSovietT2Mech" Caption=""/>
+  <GuideEntityEmbed Entity="MobSovietT3Rifle" Caption=""/>
+  <GuideEntityEmbed Entity="MobSovietT3Medic" Caption=""/>
+  </Box>
+
+  # Tácticas de escuadra
+  Los grupos comunistas suelen aparecer como unidades ya organizadas:
+  - Pelotones de infantería (líder + tiradores + sanitario)
+  - Pelotones de subfusileros, grupos de ametralladoras y patrullas
+  - Unidades [bold][color=#FF3B3BFF]MEC[/color][/bold]anizadas ligeras y pesadas
+
+  En combate, esto se traduce en una presión constante y más sostenida, con menos objetivos «solitarios».
+
+  # Mandos y apoyo pesado
+  [bold][color=#a4885c]Características generales:[/color][/bold]
+  - [bold][color=#a4885c]Capitán:[/color][/bold] velocidad de 4.5 m/s, ejerce de líder y refuerzo de fuego
+  - [bold][color=#a4885c]Meca ligero (Martillo):[/color][/bold] 300 HP, blindaje del casco reforzado
+  - [bold][color=#a4885c]Meca pesado:[/color][/bold] 400 HP, máxima resistencia y capacidad de supresión
+  - [bold][color=#a4885c]Osos de combate:[/color][/bold] hasta 300 HP, gran daño cuerpo a cuerpo
+
+  <Box>
+  <GuideEntityEmbed Entity="MobSovietCaptain" Caption=""/>
+  <GuideEntityEmbed Entity="MobSovietT2Mech" Caption=""/>
+  <GuideEntityEmbed Entity="MobSovietT3Mech" Caption=""/>
+  </Box>
+  <Box>
+  <GuideEntityEmbed Entity="MobSovietBear" Caption=""/>
+  <GuideEntityEmbed Entity="MobSovietBearAlt" Caption=""/>
+  <GuideEntityEmbed Entity="MobSovietSpaceBear" Caption=""/>
+  </Box>
+
+  - [bold][color=#a4885c]Amenaza:[/color][/bold] ¡¡¡TIENEN UN OSO DE COMBATE!!!
+</Document>

@@ -1,0 +1,65 @@
+﻿<Document>
+  # Alarmas atmosféricas
+  Una alarma atmosférica permite supervisar y controlar de forma centralizada todos los dispositivos atmosféricos vinculados a ella.
+
+  <Box>
+    <GuideEntityEmbed Entity="AirAlarm"/>
+  </Box>
+
+  Con ella, un técnico atmosférico puede gestionar con rapidez y eficacia la atmósfera de una zona determinada.
+
+  Las salas suelen tener una alarma atmosférica instalada en la pared para controlar rápidamente varios dispositivos de su interior.
+
+  La guía sobre [textlink="vinculación" link="Networking"] explica cómo vincular dispositivos.
+
+  ## Interfaz de usuario
+  Al interactuar con una alarma atmosférica se abre un menú con 3 secciones:
+  - Superior: el estado actual de la alarma. Muestra la presión y la temperatura actuales de la zona supervisada.
+  - Central: listas de [textlink="respiraderos" link="AirVent"] y [textlink="depuradores atmosféricos" link="AirScrubber"] vinculados, además de todos los sensores que envían datos a la alarma.
+  - Inferior: botones para controlar los modos de funcionamiento de la alarma y un interruptor para activar el cambio automático de modo.
+
+  ## Estado de la alarma
+  Las alarmas atmosféricas comunican rápidamente el estado de la zona supervisada mediante el color de su indicador:
+  - [color=green]Normal[/color]: se puede respirar con seguridad en la zona.
+  - [color=yellow]Advertencia[/color]: la atmósfera empieza a desviarse de los valores deseados y deja de ser segura.
+  - [color=red]Peligro[/color]: la zona ya no es segura; se necesitan sistemas de respiración internos o trajes espaciales.
+
+  Las alarmas atmosféricas cierran automáticamente las [textlink="compuertas cortafuegos" link="FireAndGasControl"] vinculadas cuando se alcanza el estado [color=Red]Peligro[/color].
+  Estas [textlink="compuertas cortafuegos" link="FireAndGasControl"] se abren automáticamente cuando el estado vuelve a [color=green]Normal[/color].
+
+  Las alarmas atmosféricas tienen salidas de [textlink="señal" link="Networking"] para cada uno de los tres estados. Pueden utilizarse para activar otros dispositivos de [textlink="señal" link="Networking"] cuando cambie el estado.
+
+  ## Sensores
+  Todos los [textlink="respiraderos" link="AirVent"] y [textlink="depuradores atmosféricos" link="AirScrubber"] incorporan un sensor que envía datos a la alarma.
+  Estos sensores pueden ajustarse en la pestaña [bold]Sensores[/bold] del menú de la alarma atmosférica.
+
+  El estado de la alarma atmosférica depende directamente de los umbrales de cada sensor.
+  Si un sensor informa de una presión, temperatura o composición gaseosa fuera de los umbrales establecidos, la alarma cambiará de estado.
+
+  Estos umbrales pueden ajustarse y desactivarse según sea necesario.
+  Por ejemplo, si supervisas una sala con una temperatura naturalmente baja, como un congelador, o alta, como una cámara de combustión, puedes adaptar los umbrales a los valores esperados.
+
+  También puedes construir un sensor atmosférico y [textlink="vincularlo" link="Networking"] a una alarma.
+
+  <Box>
+    <GuideEntityEmbed Entity="AirSensor"/>
+  </Box>
+
+  Resulta útil para supervisar zonas que todavía no tengan un respiradero ni un depurador.
+
+  ## Modos de funcionamiento
+  Para controlar con rapidez los dispositivos conectados, las alarmas ofrecen modos de funcionamiento que cambian el comportamiento de todos los dispositivos vinculados para lograr el efecto deseado.
+  - Ninguno: desactiva todos los dispositivos vinculados a la alarma atmosférica.
+  - Filtrado: activa los [textlink="respiraderos" link="AirVent"] con su límite externo ajustado a la presión atmosférica estándar. Los [textlink="depuradores atmosféricos" link="AirScrubber"] se activan y eliminan normalmente todos los gases residuales.
+  - Filtrado (amplio): igual que Filtrado, pero todos los [textlink="depuradores atmosféricos" link="AirScrubber"] vinculados activan el modo WideNet.
+  - Llenado: activa los [textlink="respiraderos" link="AirVent"] con su límite externo ajustado a la presión máxima de [color=orange][protodata="GasVentPump" comp="GasVentPump" member="MaxPressure"/] kPa[/color]. Los [textlink="depuradores atmosféricos" link="AirScrubber"] se desactivan.
+  - Pánico: desactiva los [textlink="respiraderos" link="AirVent"] y pone los [textlink="depuradores atmosféricos" link="AirScrubber"] en modo de extracción.
+
+  Las alarmas atmosféricas alternan automáticamente entre Filtrado y Filtrado (amplio) según el estado actual de la zona.
+  - Si la zona alcanza el estado [color=red]Peligro[/color] o uno superior, la alarma cambia a Filtrado (amplio).
+  - Si la zona alcanza el estado [color=green]Normal[/color] o [color=yellow]Advertencia[/color], la alarma cambia a Filtrado.
+
+  Este comportamiento puede desactivarse quitando la marca de «Automático» en la sección inferior del menú.
+
+  Las guías correspondientes ofrecen consejos útiles para solucionar [textlink="despresurizaciones" link="Spacing"] e [textlink="incendios" link="Fires"].
+</Document>

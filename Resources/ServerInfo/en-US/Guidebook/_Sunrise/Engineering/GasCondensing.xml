@@ -1,0 +1,14 @@
+﻿<Document>
+  # Gas Condensation
+  Gas condensation makes it possible to turn certain gases into liquid reagents for later use.
+
+  <Box>
+    <GuideEntityEmbed Entity="BaseGasCondenser"/>
+  </Box>
+
+  A gas condenser receives gas from the connected [textlink="pipe network" link="PipeNetworks"] and converts a suitable gas into a reagent inside the attached container.
+
+  This is useful for obtaining substances from atmospheric processes, such as ammonia.
+
+  If a gas cannot be condensed or the required conditions are not met, the device will not produce a reagent.
+</Document>

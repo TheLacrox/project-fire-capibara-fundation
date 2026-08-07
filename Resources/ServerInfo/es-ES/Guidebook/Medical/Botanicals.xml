@@ -1,0 +1,20 @@
+<Document>
+# Productos botánicos
+
+Botánica y Química a menudo pueden colaborar para producir mejores medicamentos (o cócteles recreativos). Puede ser buena idea proporcionar a Botánica los fertilizantes que necesite y pedir a cambio algunas plantas medicinales.
+
+<Box>
+<GuideEntityEmbed Entity="FoodGalaxythistle"/>
+<GuideEntityEmbed Entity="FoodLingzhi"/>
+<GuideEntityEmbed Entity="FoodAmbrosiaVulgaris"/>
+<GuideEntityEmbed Entity="FoodAloe"/>
+<GuideEntityEmbed Entity="Nettle"/>
+</Box>
+
+<GuideReagentGroupEmbed Group="Botanical"/>
+<GuideReagentEmbed Reagent="UnstableMutagen"/>
+<GuideReagentEmbed Reagent="Cryoxadone"/>
+<GuideReagentEmbed Reagent="Dylovene"/>
+<GuideReagentEmbed Reagent="Phalanximine"/>
+
+</Document>

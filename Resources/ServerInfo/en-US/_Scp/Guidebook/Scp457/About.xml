@@ -1,0 +1,33 @@
+﻿<Document>
+  # SCP-457 "The Burning Man"
+
+  This guide explains what the entity is within the game and how its mechanics work. It does NOT cover the entity's lore.
+
+  This page is a collection of links to other, more detailed guides about the entity, along with a brief description of each section.
+
+  ## Start of the Round
+
+  At the start of the round or after spawning, SCP-457 is inside its containment chamber.
+  The containment chamber is a safety measure that prevents the entity from harming facility personnel.
+
+  While the entity remains inside, it poses almost no threat.
+
+  - The facility personnel's task is to keep the entity inside its containment chamber.
+  - SCP-457's task is to leave the containment chamber.
+
+  [textlink="More information about containment" link="Scp457Containment"]
+
+  [textlink="More information about escape methods" link="Scp457ContainmentBreach"]
+
+  ## States
+
+  States determine the entity's available mechanics and behavior. During the round, the entity will enter different states depending on the actions of those around it or the Burning Man's own actions.
+
+  [textlink="More information about states" link="Scp457States"]
+
+  ## Abilities
+
+  The Burning Man has two unique passive abilities and three active abilities. Two of them are key mechanics that allow it to escape the containment chamber.
+
+  [textlink="More information about abilities" link="Scp457Abilities"]
+</Document>

@@ -1,0 +1,25 @@
+﻿<Document>
+  # Tuberías
+  Las tuberías sirven para transportar gases de un lugar a otro.
+  Hay muchos tipos de tuberías disponibles para construir:
+
+  <Box>
+    <GuideEntityEmbed Entity="GasPipeStraight" Caption="recta"/>
+    <GuideEntityEmbed Entity="GasPipeHalf" Caption="media"/>
+    <GuideEntityEmbed Entity="GasPipeBend" Caption="curva"/>
+    <GuideEntityEmbed Entity="GasPipeTJunction" Caption="unión en T"/>
+    <GuideEntityEmbed Entity="GasPipeFourway" Caption="unión de cuatro vías"/>
+  </Box>
+
+  Las tuberías se [color=#a4885c]conectan automáticamente[/color] a otras cuando se fijan al casco con una llave inglesa, formando una [textlink="red de tuberías" link="PipeNetworks"].
+  Una red de tuberías suele denominarse [textlink="red de conductos" link="PipeNetworks"].
+
+  Las tuberías [color=red]no se conectan[/color] a otras que ya estén conectadas a una tubería distinta.
+  Por ejemplo, no es posible colocar una tubería curva encima de una recta para crear una unión en T improvisada.
+
+  Sin embargo, dos tuberías pueden compartir una casilla siempre que ninguna obstruya la conexión de la otra.
+  Por ejemplo, se pueden colocar dos tuberías curvas en una misma casilla: una transportará gas de norte a este y la otra de oeste a sur.
+
+  Puedes pintar las tuberías y la mayoría de los equipos que manipulan gases con una pistola de pintura.
+  Esto suele hacerse para distinguir los componentes de aire y residuos de la red de distribución de la estación.
+</Document>

@@ -1,0 +1,22 @@
+<Document>
+  # Tecnologías
+
+  Todas las tecnologías tienen un coste y un requisito de nivel para investigarlas. Al desbloquearlas, habilitarás distintas recetas que pueden imprimirse en varias máquinas.
+
+  A continuación se enumeran las tecnologías y sus disciplinas.
+
+  ## Industria
+  <GuideTechDisciplineEmbed Discipline="Industrial"/>
+
+  ## Arsenal
+  <GuideTechDisciplineEmbed Discipline="Arsenal"/>
+
+  ## Experimental
+  <GuideTechDisciplineEmbed Discipline="Experimental"/>
+
+  ## Servicios civiles
+  <GuideTechDisciplineEmbed Discipline="CivilianServices"/>
+
+  ## Bioquímica
+  <GuideTechDisciplineEmbed Discipline="Biochemical"/>
+</Document>

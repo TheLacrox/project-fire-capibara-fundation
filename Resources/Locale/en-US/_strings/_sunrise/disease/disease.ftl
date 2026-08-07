@@ -12,7 +12,8 @@ disease-biohazard-announcement-sender = Central Command
 disease-not-enough-evolution-points = Not enough evolution points
 disease-symptom-headache = You feel a slight headache.
 
-disease-zombie-success = Successfully converted { count } infected to zombies!
+# Fire edit - корректная переменная количества
+disease-zombie-success = Successfully converted { $count } infected to zombies!
 
 action-disease-infect-name = Infect
 action-disease-infect-description = Attempt to infect a target. Uses charges.

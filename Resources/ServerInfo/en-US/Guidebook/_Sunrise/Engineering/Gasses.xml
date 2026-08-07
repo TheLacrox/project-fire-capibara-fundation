@@ -1,0 +1,122 @@
+﻿<Document>
+  # Gases
+  Gases are a critical part of station operations.
+  You may know them as what you breathe, but they also have many other uses.
+
+  Gases have properties that make them useful for different tasks.
+  Atmospherics can also synthesize exotic gases from other gases for specialized applications.
+
+  ## Oxygen
+  <Box>
+    <GuideEntityEmbed Entity="OxygenCanister" Caption=""/>
+    <GuideEntityEmbed Entity="OxygenTank" Caption=""/>
+    <GuideEntityEmbed Entity="DoubleEmergencyOxygenTank" Caption=""/>
+    <GuideEntityEmbed Entity="ExtendedEmergencyOxygenTank" Caption=""/>
+    <GuideEntityEmbed Entity="EmergencyOxygenTank" Caption=""/>
+  </Box>
+
+  A common gas breathed by most species aboard the station.
+
+  Oxygen is an oxidizer, meaning it supports combustion.
+  This makes it useful for synthesizing gases in a burn chamber, but dangerous when mixed with flammable gases.
+
+  ## Nitrogen
+  <Box>
+    <GuideEntityEmbed Entity="NitrogenCanister" Caption=""/>
+    <GuideEntityEmbed Entity="NitrogenTank" Caption=""/>
+    <GuideEntityEmbed Entity="DoubleEmergencyNitrogenTank" Caption=""/>
+    <GuideEntityEmbed Entity="ExtendedEmergencyNitrogenTank" Caption=""/>
+    <GuideEntityEmbed Entity="EmergencyNitrogenTank" Caption=""/>
+  </Box>
+
+  An inert gas used with oxygen to create a breathable atmosphere.
+
+  Nitrogen is highly stable and makes up most of the standard breathable atmosphere.
+
+  Some species, such as slimes, breathe nitrogen, while vox require nitrogen exclusively.
+
+  ## Air mixture
+  <Box>
+    <GuideEntityEmbed Entity="AirCanister" Caption=""/>
+    <GuideEntityEmbed Entity="AirTank" Caption=""/>
+  </Box>
+
+  A mixture of gases breathable by most species aboard the station.
+  It consists of 21% oxygen and 79% nitrogen.
+
+
+  ## Carbon dioxide
+  <Box>
+    <GuideEntityEmbed Entity="CarbonDioxideCanister" Caption=""/>
+  </Box>
+
+  A waste gas produced by most species aboard the station. It is also a common byproduct of combustion.
+
+  Despite seeming useless, several departments use it in their work.
+
+  ## Water vapor
+  <Box>
+    <GuideEntityEmbed Entity="WaterVaporCanister" Caption=""/>
+  </Box>
+  A common gas produced by plasma combustion and other processes.
+
+  Water vapor has good specific heat capacity compared with other gases, making it useful for transferring heat.
+
+  ## Plasma
+  <Box>
+    <GuideEntityEmbed Entity="PlasmaCanister" Caption=""/>
+  </Box>
+  A highly flammable gas used in many processes aboard the station.
+
+  Engineering uses this gas to generate power and produce exotic gases.
+
+  Burning it produces a great deal of heat, along with waste gases such as carbon dioxide, water vapor, and tritium, depending on combustion efficiency.
+
+  Gaseous plasma also has good specific heat capacity, making it useful for transferring heat.
+
+  ## Tritium
+  <Box>
+    <GuideEntityEmbed Entity="TritiumCanister" Caption=""/>
+  </Box>
+  An extremely flammable radioactive gas used to produce frezon.
+
+  Tritium is produced by burning plasma in a burn chamber and can be used to make frezon through a complex mixing process.
+
+  The efficiency of tritium synthesis depends on several factors, such as combustion saturation and temperature.
+
+  ## Frezon
+  <Box>
+    <GuideEntityEmbed Entity="FrezonCanister" Caption=""/>
+  </Box>
+
+  A highly valuable gas because it is difficult to produce and has many useful properties.
+
+  It has an extremely high specific heat capacity, making it ideal for transferring large amounts of heat.
+
+  Frezon can combine with nitrogen in the air, producing nitrous oxide and cooling the air far below freezing.
+
+  Producing frezon is very difficult: it requires a precisely tuned mixture of tritium, oxygen, and nitrogen for the reaction to occur.
+  If you want to produce this gas yourself, here is what you need to know:
+  - Frezon is produced by combining oxygen, tritium, and nitrogen.
+  - Tritium and oxygen are mixed at a ratio of approximately 1:8.
+  - Nitrogen acts as a catalyst for the reaction. The amount of nitrogen consumed depends on the reaction's efficiency.
+  - The frezon reaction occurs only at cryogenic temperatures below 73.15 K. Its efficiency—the amount of frezon produced—depends on temperature. The closer it is to 73.15 K, the more frezon is produced and the less nitrogen is consumed.
+
+  Remember: Atmospherics is about experimentation and process optimization. Keep trying until it works!
+
+  ## Nitrous oxide
+  <Box>
+    <GuideEntityEmbed Entity="NitrousOxideCanister" Caption=""/>
+    <GuideEntityEmbed Entity="EmergencyFunnyOxygenTank" Caption=""/>
+  </Box>
+  A recreational waste gas produced by slimes and by combining frezon with nitrogen.
+
+  ## Ammonia
+  <Box>
+    <GuideEntityEmbed Entity="AmmoniaCanister" Caption=""/>
+  </Box>
+  A gas produced by decomposing bodies.
+
+  It can be condensed into liquid ammonia, which is used to make space cleaner.
+
+</Document>

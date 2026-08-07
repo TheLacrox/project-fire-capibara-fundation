@@ -1,0 +1,10 @@
+storyteller-debug-history-command-description = Adds a mock entry for every storyteller history event type for debugging.
+storyteller-debug-history-command-help = Usage: fill_storyteller_history
+storyteller-debug-history-command-success = Added the debug history entries.
+storyteller-debug-history-event = debug event
+storyteller-debug-history-job = debug job
+storyteller-debug-history-location = debug location
+storyteller-debug-history-cause = debug cause
+storyteller-debug-history-severity = debug severity
+storyteller-debug-history-discipline = debug discipline
+storyteller-debug-history-captain-quarters = captain's quarters

@@ -90,7 +90,7 @@ public sealed class TeleportSpellEui : BaseEui
 
         if (distance > 1.5f)
         {
-            _popupSystem.PopupEntity("Too far", _performer, PopupType.Medium);
+            _popupSystem.PopupEntity(Loc.GetString("cult-teleport-too-far"), _performer, PopupType.Medium); // Fire edit - Локализация видимого сообщения.
             return;
         }
 
@@ -112,7 +112,7 @@ public sealed class TeleportSpellEui : BaseEui
 
         if (runeTransform is null)
         {
-            _popupSystem.PopupEntity("Rune is gone", _performer);
+            _popupSystem.PopupEntity(Loc.GetString("cult-teleport-rune-gone"), _performer); // Fire edit - Локализация видимого сообщения.
             DoStateUpdate();
             return;
         }

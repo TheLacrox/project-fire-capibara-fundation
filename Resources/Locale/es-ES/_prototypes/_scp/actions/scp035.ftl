@@ -1,0 +1,12 @@
+ent-ActionScp035RaiseArmy = Invocar un maniquí
+    .desc = La máscara crea con antimateria una extraña criatura parecida a un maniquí corriente.
+ent-ActionScp035OrderStay = Ordenar que se detenga
+    .desc = La máscara ordena al maniquí que permanezca inmóvil.
+ent-ActionScp035OrderFollow = Ordenar que siga
+    .desc = La máscara ordena al maniquí que la siga.
+ent-ActionScp035OrderKill = Ordenar que mate
+    .desc = La máscara ordena al maniquí que mate.
+ent-ActionScp035OrderLoose = Conceder libertad
+    .desc = La máscara permite que el maniquí actúe por su cuenta.
+ent-ActionScp035Stun = Hipnosis
+    .desc = La máscara obliga a su víctima a detenerse durante un breve periodo de tiempo.

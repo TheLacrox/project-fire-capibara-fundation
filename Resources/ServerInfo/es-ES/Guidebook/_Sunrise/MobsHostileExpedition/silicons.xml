@@ -1,0 +1,218 @@
+<Document>
+  # Silicios renegados
+
+  Una inteligencia artificial que se rebeló contra sus creadores piratea silicios y reescribe sus subrutinas, lo que ha provocado éxodos masivos y el abandono de colonias. En la actualidad, la IA registra complejos desiertos en busca de componentes y recursos, y en ocasiones asalta estaciones pequeñas para capturar tripulantes con fines desconocidos. Se ignora hasta qué punto cada unidad actúa de forma autónoma respecto del enjambre.
+
+  [bold][color=#a4885c]________________________________________________________________________[/color]
+
+  # Variantes conocidas
+  # «Unidades de chatarra»
+
+  Estos robots aparecen con formas y configuraciones muy diversas que reflejan un amplio abanico de funciones. Muchos parecen estar montados con materiales disponibles en el lugar, por lo que su aspecto varía de manera notable. Algunas modificaciones incorporan propulsores y armamento láser integrado.
+
+  [color=#a4885c]Regeneración (intensa)[/color]: recuperan salud lentamente incluso después de morir.
+
+  [color=#a4885c]Volador[/color]: la unidad flota sobre el suelo y puede atravesar obstáculos bajos (mesas, armazones de máquinas y barandillas) sin perder velocidad.
+
+  <Box>
+  <GuideEntityEmbed Entity="MobRogueSiliconT1Scrap" Caption=""/>
+  </Box>
+  - [bold][color=#a4885c]Umbrales de salud:[/color][/bold] 60 (crítico), 120 (muerte)
+  - [bold][color=#a4885c]Velocidad (correr/caminar):[/color][/bold] 4 m/s (4 m/s)[bold][color=#a4885c]*[/color][/bold]
+  - [bold][color=#a4885c]Daño (tipo):[/color][/bold] 6 [color=red]Contundente[/color], 4 [color=orange]Térmico[/color] (cuerpo a cuerpo); 14 [color=orange]Térmico[/color] (a distancia)
+  - [bold][color=#a4885c]Resistencias:[/color][/bold] [color=red]Contundente[/color] 30%; [color=red]Cortante[/color] 50%; [color=yellow]Perforante[/color] 30%; [color=orange]Cáustico[/color] 10%
+  - [bold][color=#a4885c]Vulnerabilidades:[/color][/bold] [color=orange]Estructural[/color] 20%; [color=orange]Eléctrico[/color] 50%; [color=lime]Radiación[/color] 20%
+  - [bold][color=#a4885c]Propiedades especiales:[/color][/bold] Inmunidad ([color=orange]Frío[/color], [color=lime]Veneno[/color], [color=#9A54BF]Asfixia[/color], [color=#9A54BF]Hemorragia[/color], [color=#da8b8b]Celular[/color]), Regeneración (intensa), Vuelo (en algunas variantes), Armamento a distancia (en algunas variantes)
+
+  [bold][color=#a4885c]*[/color][/bold] - [italic]como referencia: una persona media corre a 4.5 m/s y camina a 2.5 m/s.[/italic]
+
+  [bold][color=#a4885c]________________________________________________________________________[/color]
+
+  # «Drones»
+
+  Drones de seguridad pirateados por la IA renegada y reprogramados para eliminar objetivos.
+
+  [color=#a4885c]Volador[/color]: la unidad flota sobre el suelo y puede atravesar obstáculos bajos (mesas, armazones de máquinas y barandillas) sin perder velocidad.
+
+  <Box>
+  <GuideEntityEmbed Entity="MobRogueSiliconT1DroneLethals"/>
+  </Box>
+  - [bold][color=#a4885c]Umbrales de salud:[/color][/bold] 30 (crítico), 90 (muerte)
+  - [bold][color=#a4885c]Velocidad (correr/caminar):[/color][/bold] 4 m/s (4 m/s)
+  - [bold][color=#a4885c]Daño (tipo):[/color][/bold] 20 [color=orange]Térmico[/color]
+  - [bold][color=#a4885c]Resistencias:[/color][/bold] [color=red]Contundente[/color] 30%; [color=red]Cortante[/color] 50%; [color=yellow]Perforante[/color] 30%; [color=orange]Cáustico[/color] 10%
+  - [bold][color=#a4885c]Vulnerabilidades:[/color][/bold] [color=orange]Estructural[/color] 20%; [color=orange]Eléctrico[/color] 50%; [color=lime]Radiación[/color] 20%
+  - [bold][color=#a4885c]Propiedades especiales:[/color][/bold] Inmunidad ([color=orange]Frío[/color], [color=lime]Veneno[/color], [color=#9A54BF]Asfixia[/color], [color=#9A54BF]Hemorragia[/color], [color=#da8b8b]Celular[/color]), Vuelo, Armamento a distancia (arma de energía)
+
+  [bold][color=#a4885c]________________________________________________________________________[/color]
+
+  Estos drones de ingeniería pueden disparar proyectiles incapacitantes. Resultan especialmente peligrosos cuando se combinan con otros adversarios.
+
+  <Box>
+  <GuideEntityEmbed Entity="MobRogueSiliconT1DroneNonLethals"/>
+  </Box>
+  - [bold][color=#a4885c]Umbrales de salud:[/color][/bold] 30 (crítico), 90 (muerte)
+  - [bold][color=#a4885c]Velocidad (correr/caminar):[/color][/bold] 4 m/s (4 m/s)
+  - [bold][color=#a4885c]Daño (tipo):[/color][/bold] 5 [color=orange]Térmico[/color]; 20 [color=lightblue]Aguante[/color]
+  - [bold][color=#a4885c]Resistencias:[/color][/bold] [color=red]Contundente[/color] 30%; [color=red]Cortante[/color] 50%; [color=yellow]Perforante[/color] 30%; [color=orange]Cáustico[/color] 10%
+  - [bold][color=#a4885c]Vulnerabilidades:[/color][/bold] [color=orange]Estructural[/color] 20%; [color=orange]Eléctrico[/color] 50%; [color=lime]Radiación[/color] 20%
+  - [bold][color=#a4885c]Propiedades especiales:[/color][/bold] Inmunidad ([color=orange]Frío[/color], [color=lime]Veneno[/color], [color=#9A54BF]Asfixia[/color], [color=#9A54BF]Hemorragia[/color], [color=#da8b8b]Celular[/color]), Vuelo, Armamento a distancia (arma incapacitante)
+
+  [bold][color=#a4885c]________________________________________________________________________[/color]
+
+  Un dron científico renegado equipado con un cañón experimental C.H.I.M.P.
+
+  <Box>
+  <GuideEntityEmbed Entity="MobRogueSiliconT1DroneScience"/>
+  </Box>
+  - [bold][color=#a4885c]Umbrales de salud:[/color][/bold] 30 (crítico), 90 (muerte)
+  - [bold][color=#a4885c]Velocidad (correr/caminar):[/color][/bold] 4 m/s (4 m/s)
+  - [bold][color=#a4885c]Daño (tipo):[/color][/bold] 5 [color=orange]Térmico[/color]
+  - [bold][color=#a4885c]Resistencias:[/color][/bold] [color=red]Contundente[/color] 30%; [color=red]Cortante[/color] 50%; [color=yellow]Perforante[/color] 30%; [color=orange]Cáustico[/color] 10%
+  - [bold][color=#a4885c]Vulnerabilidades:[/color][/bold] [color=orange]Estructural[/color] 20%; [color=orange]Eléctrico[/color] 50%; [color=lime]Radiación[/color] 20%
+  - [bold][color=#a4885c]Propiedades especiales:[/color][/bold] Inmunidad ([color=orange]Frío[/color], [color=lime]Veneno[/color], [color=#9A54BF]Asfixia[/color], [color=#9A54BF]Hemorragia[/color], [color=#da8b8b]Celular[/color]), Vuelo, Armamento a distancia (cañón experimental C.H.I.M.P.)
+
+  [bold][color=#a4885c]________________________________________________________________________[/color]
+
+  # «Servounidad»
+
+  Tras ser reprogramado, este maniquí de pruebas de choque está dispuesto a todo con tal de vengarse.
+
+  [color=#a4885c]Regeneración (intensa)[/color]: recupera salud lentamente incluso después de morir.
+
+  <Box>
+  <GuideEntityEmbed Entity="MobRogueSiliconT2Servo"/>
+  </Box>
+  - [bold][color=#a4885c]Umbrales de salud:[/color][/bold] 80 (crítico), 140 (muerte)
+  - [bold][color=#a4885c]Velocidad (correr/caminar):[/color][/bold] 4 m/s (4 m/s)
+  - [bold][color=#a4885c]Daño (tipo):[/color][/bold] 6 [color=red]Contundente[/color], 4 [color=orange]Térmico[/color] (cuerpo a cuerpo)
+  - [bold][color=#a4885c]Resistencias:[/color][/bold] [color=red]Contundente[/color] 30%; [color=red]Cortante[/color] 50%; [color=yellow]Perforante[/color] 30%; [color=orange]Cáustico[/color] 10%
+  - [bold][color=#a4885c]Vulnerabilidades:[/color][/bold] [color=orange]Estructural[/color] 20%; [color=orange]Eléctrico[/color] 50%; [color=lime]Radiación[/color] 20%
+  - [bold][color=#a4885c]Propiedades especiales:[/color][/bold] Inmunidad ([color=orange]Frío[/color], [color=lime]Veneno[/color], [color=#9A54BF]Asfixia[/color], [color=#9A54BF]Hemorragia[/color], [color=#da8b8b]Celular[/color]), Regeneración (intensa)
+
+  [bold][color=#a4885c]________________________________________________________________________[/color]
+
+  # «Unidad arriera»
+
+  El protocolo principal de esta unidad renegada consiste en acorralar y escoltar prisioneros. Está equipada con una eficaz vara eléctrica aturdidora.
+
+  [color=#a4885c]Regeneración (intensa)[/color]: recupera salud lentamente incluso después de morir.
+
+  <Box>
+  <GuideEntityEmbed Entity="MobRogueSiliconT2Herder"/>
+  </Box>
+  - [bold][color=#a4885c]Umbrales de salud:[/color][/bold] 80 (crítico), 140 (muerte)
+  - [bold][color=#a4885c]Velocidad (correr/caminar):[/color][/bold] 4 m/s (4 m/s)
+  - [bold][color=#a4885c]Daño (tipo):[/color][/bold] 6 [color=red]Contundente[/color], [color=orange]Eléctrico[/color], 10 [color=lightblue]Aguante[/color]
+  - [bold][color=#a4885c]Resistencias:[/color][/bold] [color=red]Contundente[/color] 30%; [color=red]Cortante[/color] 50%; [color=yellow]Perforante[/color] 30%; [color=orange]Cáustico[/color] 10%
+  - [bold][color=#a4885c]Vulnerabilidades:[/color][/bold] [color=orange]Estructural[/color] 20%; [color=orange]Eléctrico[/color] 50%; [color=lime]Radiación[/color] 20%
+  - [bold][color=#a4885c]Propiedades especiales:[/color][/bold] Inmunidad ([color=orange]Frío[/color], [color=lime]Veneno[/color], [color=#9A54BF]Asfixia[/color], [color=#9A54BF]Hemorragia[/color], [color=#da8b8b]Celular[/color]), Regeneración (intensa)
+
+  [bold][color=#a4885c]________________________________________________________________________[/color]
+
+  # «Unidad cazadora»
+
+  Drones móviles destinados a reconocer el terreno, identificar amenazas y eliminar objetivos.
+
+  [color=#a4885c]Regeneración (intensa)[/color]: recuperan salud lentamente incluso después de morir.
+
+  <Box>
+  <GuideEntityEmbed Entity="MobRogueSiliconT2Hunter"/>
+  </Box>
+  - [bold][color=#a4885c]Umbrales de salud:[/color][/bold] 30 (crítico), 90 (muerte)
+  - [bold][color=#a4885c]Velocidad (correr/caminar):[/color][/bold] 4 m/s (4 m/s)
+  - [bold][color=#a4885c]Daño (tipo):[/color][/bold] 17 [color=orange]Térmico[/color] (rifle láser)
+  - [bold][color=#a4885c]Resistencias:[/color][/bold] [color=red]Contundente[/color] 30%; [color=red]Cortante[/color] 50%; [color=yellow]Perforante[/color] 30%; [color=orange]Cáustico[/color] 10%
+  - [bold][color=#a4885c]Vulnerabilidades:[/color][/bold] [color=orange]Estructural[/color] 20%; [color=orange]Eléctrico[/color] 50%; [color=lime]Radiación[/color] 20%
+  - [bold][color=#a4885c]Propiedades especiales:[/color][/bold] Inmunidad ([color=orange]Frío[/color], [color=lime]Veneno[/color], [color=#9A54BF]Asfixia[/color], [color=#9A54BF]Hemorragia[/color], [color=#da8b8b]Celular[/color]), Regeneración (intensa), Vuelo, Armamento a distancia (rifle láser)
+
+  [bold][color=#a4885c]________________________________________________________________________[/color]
+
+  # «Unidad captora»
+
+  Equipada con boleadoras y diseñada para ralentizar, capturar y retener objetivos.
+
+  [color=#a4885c]Regeneración (intensa)[/color]: recupera salud lentamente incluso después de morir.
+
+  <Box>
+  <GuideEntityEmbed Entity="MobRogueSiliconT2Catcher"/>
+  </Box>
+  - [bold][color=#a4885c]Umbrales de salud:[/color][/bold] 80 (crítico), 140 (muerte)
+  - [bold][color=#a4885c]Velocidad (correr/caminar):[/color][/bold] 4 m/s (4 m/s)
+  - [bold][color=#a4885c]Daño (tipo):[/color][/bold] 6 [color=red]Contundente[/color], 4 [color=orange]Térmico[/color]
+  - [bold][color=#a4885c]Resistencias:[/color][/bold] [color=red]Contundente[/color] 30%; [color=red]Cortante[/color] 50%; [color=yellow]Perforante[/color] 30%; [color=orange]Cáustico[/color] 10%
+  - [bold][color=#a4885c]Vulnerabilidades:[/color][/bold] [color=orange]Estructural[/color] 20%; [color=orange]Eléctrico[/color] 50%; [color=lime]Radiación[/color] 20%
+  - [bold][color=#a4885c]Propiedades especiales:[/color][/bold] Inmunidad ([color=orange]Frío[/color], [color=lime]Veneno[/color], [color=#9A54BF]Asfixia[/color], [color=#9A54BF]Hemorragia[/color], [color=#da8b8b]Celular[/color]), Regeneración (intensa)
+
+  [bold][color=#a4885c]________________________________________________________________________[/color]
+
+  # «Viscerador»
+
+  Drones pequeños, rápidos y maniobrables, creados para perseguir objetivos por pasadizos estrechos e incapacitarlos. A menudo acompañan a las unidades captoras.
+
+  <Box>
+  <GuideEntityEmbed Entity="MobRogueSiliconT1Viscerator"/>
+  </Box>
+  - [bold][color=#a4885c]Umbrales de salud:[/color][/bold] 12 (crítico), 20 (muerte)
+  - [bold][color=#a4885c]Velocidad (correr/caminar):[/color][/bold] 5 m/s (5 m/s)
+  - [bold][color=#a4885c]Daño (tipo):[/color][/bold] 4 [color=red]Cortante[/color]
+  - [bold][color=#a4885c]Resistencias:[/color][/bold] [color=red]Contundente[/color] 30%; [color=red]Cortante[/color] 50%; [color=yellow]Perforante[/color] 30%; [color=orange]Cáustico[/color] 10%
+  - [bold][color=#a4885c]Vulnerabilidades:[/color][/bold] [color=orange]Estructural[/color] 20%; [color=orange]Eléctrico[/color] 50%; [color=lime]Radiación[/color] 20%
+  - [bold][color=#a4885c]Propiedades especiales:[/color][/bold] Inmunidad ([color=orange]Frío[/color], [color=lime]Veneno[/color], [color=#9A54BF]Asfixia[/color], [color=#9A54BF]Hemorragia[/color], [color=#da8b8b]Celular[/color]), Vuelo
+
+  [bold][color=#a4885c]________________________________________________________________________[/color]
+
+  # «Unidad Tesla»
+
+  Creada en un principio para mantener generadores Tesla, pero, tras caer bajo el control de la IA, su equipo se convirtió en un arma eléctrica improvisada.
+
+  [color=#a4885c]Regeneración (intensa)[/color]: recupera salud lentamente incluso después de morir.
+
+  <Box>
+  <GuideEntityEmbed Entity="MobRogueSiliconT3Tesla"/>
+  </Box>
+  - [bold][color=#a4885c]Umbrales de salud:[/color][/bold] 110 (crítico), 160 (muerte)
+  - [bold][color=#a4885c]Velocidad (correr/caminar):[/color][/bold] 4 m/s (4 m/s)
+  - [bold][color=#a4885c]Daño (tipo):[/color][/bold] 14 [color=yellow]Perforante[/color], 10 [color=lightblue]Aguante[/color]
+  - [bold][color=#a4885c]Resistencias:[/color][/bold] [color=red]Contundente[/color] 30%; [color=red]Cortante[/color] 50%; [color=yellow]Perforante[/color] 30%; [color=orange]Cáustico[/color] 10%
+  - [bold][color=#a4885c]Vulnerabilidades:[/color][/bold] [color=orange]Estructural[/color] 20%; [color=orange]Eléctrico[/color] 50%; [color=lime]Radiación[/color] 20%
+  - [bold][color=#a4885c]Propiedades especiales:[/color][/bold] Inmunidad ([color=orange]Frío[/color], [color=lime]Veneno[/color], [color=#9A54BF]Asfixia[/color], [color=#9A54BF]Hemorragia[/color], [color=#da8b8b]Celular[/color]), Regeneración (intensa), Armamento a distancia (cañón Tesla)
+
+  [bold][color=#a4885c]________________________________________________________________________[/color]
+
+  # «Unidad guardiana»
+
+  Un silicio de seguridad avanzado que suele emplearse para proteger zonas de alto secreto, como cámaras acorazadas y salas de servidores. Tras ser pirateado, cumple la voluntad de la IA renegada.
+
+  [color=#a4885c]Regeneración (intensa)[/color]: recupera salud lentamente incluso después de morir.
+
+  <Box>
+  <GuideEntityEmbed Entity="MobRogueSiliconBossGuardian"/>
+  </Box>
+  - [bold][color=#a4885c]Umbrales de salud:[/color][/bold] 200 (crítico), 400 (muerte)
+  - [bold][color=#a4885c]Velocidad (correr/caminar):[/color][/bold] 4 m/s (4 m/s)
+  - [bold][color=#a4885c]Daño (tipo):[/color][/bold] 4 [color=orange]Térmico[/color] (turboláser averiado)
+  - [bold][color=#a4885c]Resistencias:[/color][/bold] [color=red]Contundente[/color] 30%; [color=red]Cortante[/color] 50%; [color=yellow]Perforante[/color] 30%; [color=orange]Cáustico[/color] 10%
+  - [bold][color=#a4885c]Vulnerabilidades:[/color][/bold] [color=orange]Estructural[/color] 20%; [color=orange]Eléctrico[/color] 50%; [color=lime]Radiación[/color] 20%
+  - [bold][color=#a4885c]Propiedades especiales:[/color][/bold] Inmunidad ([color=orange]Frío[/color], [color=lime]Veneno[/color], [color=#9A54BF]Asfixia[/color], [color=#9A54BF]Hemorragia[/color], [color=#da8b8b]Celular[/color]), Regeneración (intensa), Vuelo, Armamento a distancia (turboláser averiado)
+
+  [bold][color=#a4885c]________________________________________________________________________[/color]
+
+  # «Unidad “Estrella solitaria”»
+
+  Un meca de combate autónomo que suele utilizarse en operaciones ofensivas. Ahora forma parte de la guardia de élite de la IA renegada. Está equipado con lanzacohetes y resulta extremadamente peligroso.
+
+  [color=#a4885c]Regeneración (intensa)[/color]: recupera salud lentamente incluso después de morir.
+
+  <Box>
+  <GuideEntityEmbed Entity="MobRogueSiliconBoss"/>
+  </Box>
+  - [bold][color=#a4885c]Umbrales de salud:[/color][/bold] 300 (crítico), 400 (muerte)
+  - [bold][color=#a4885c]Velocidad (correr/caminar):[/color][/bold] 4 m/s (4 m/s)
+  - [bold][color=#a4885c]Daño (tipo):[/color][/bold] 15 [color=orange]Explosivo[/color] (microcohetes)
+  - [bold][color=#a4885c]Resistencias:[/color][/bold] [color=red]Contundente[/color] 30%; [color=red]Cortante[/color] 50%; [color=yellow]Perforante[/color] 30%; [color=orange]Cáustico[/color] 10%
+  - [bold][color=#a4885c]Vulnerabilidades:[/color][/bold] [color=orange]Estructural[/color] 20%; [color=orange]Eléctrico[/color] 50%; [color=lime]Radiación[/color] 20%
+  - [bold][color=#a4885c]Propiedades especiales:[/color][/bold] Inmunidad ([color=orange]Frío[/color], [color=lime]Veneno[/color], [color=#9A54BF]Asfixia[/color], [color=#9A54BF]Hemorragia[/color], [color=#da8b8b]Celular[/color]), Regeneración (intensa), Armamento a distancia (lanzador de microcohetes)
+
+  [bold][color=#a4885c]________________________________________________________________________[/color]
+</Document>

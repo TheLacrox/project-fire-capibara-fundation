@@ -1,0 +1,10 @@
+storyteller-debug-history-command-description = Añade una entrada simulada de cada tipo de evento del historial del narrador para depuración.
+storyteller-debug-history-command-help = Uso: fill_storyteller_history
+storyteller-debug-history-command-success = Se han añadido las entradas de depuración al historial.
+storyteller-debug-history-event = evento de depuración
+storyteller-debug-history-job = puesto de depuración
+storyteller-debug-history-location = ubicación de depuración
+storyteller-debug-history-cause = causa de depuración
+storyteller-debug-history-severity = gravedad de depuración
+storyteller-debug-history-discipline = disciplina de depuración
+storyteller-debug-history-captain-quarters = dependencias del capitán

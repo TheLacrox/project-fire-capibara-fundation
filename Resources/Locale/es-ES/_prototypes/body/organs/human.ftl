@@ -1,0 +1,10 @@
+ent-OrganHumanHeart = corazón
+    .desc = Me da pena el pobre desgraciado sin corazón que lo perdió.
+ent-OrganHumanKidneys = riñones
+    .desc = Filtran las toxinas del torrente sanguíneo.
+ent-OrganHumanLiver = hígado
+    .desc = Sugerencia de maridaje: chianti y habas.
+ent-OrganHumanLungs = pulmones
+    .desc = Extraen oxígeno de la atmósfera y lo envían al torrente sanguíneo para que actúe como transportador de electrones.
+ent-OrganHumanStomach = estómago
+    .desc = Qué asco. Cuesta digerirlo.

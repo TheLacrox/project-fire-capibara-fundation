@@ -1,4 +1,3 @@
-using System.Globalization;
 using System.Linq;
 using System.Numerics;
 using Content.Server._Sunrise.Helpers;
@@ -18,6 +17,7 @@ using Content.Shared.Database;
 using Content.Shared.GameTicking;
 using Content.Shared.Humanoid;
 using Content.Shared.Humanoid.Prototypes;
+using Content.Shared.Localizations;
 using Content.Shared.Mind;
 using Content.Shared.Players;
 using Content.Shared.Preferences;
@@ -316,7 +316,7 @@ namespace Content.Server.GameTicking
                             ("character", MetaData(mob).EntityName),
                             ("gender", character.Gender), // Russian-LastnameGender
                             ("entity", mob),
-                            ("job", CultureInfo.CurrentCulture.TextInfo.ToTitleCase(jobName))),
+                            ("job", ContentLocalizationManager.FormatTitleCase(jobName))), // Fire edit - сохраняем испанские предлоги
                         Loc.GetString("latejoin-arrival-sender"),
                         playDefault: false,
                         colorOverride: Color.Gold);
@@ -328,7 +328,7 @@ namespace Content.Server.GameTicking
                 //             ("character", MetaData(mob).EntityName),
                 //             ("gender", character.Gender), // Russian-LastnameGender
                 //             ("entity", mob),
-                //             ("job", CultureInfo.CurrentCulture.TextInfo.ToTitleCase(jobName))),
+                //             ("job", ContentLocalizationManager.FormatTitleCase(jobName))),
                 //         Loc.GetString("latejoin-arrival-sender"),
                 //         playDefault: false,
                 //         playTts: false);

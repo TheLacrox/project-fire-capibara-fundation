@@ -46,7 +46,7 @@ public sealed partial class AdminNotesControl : Control
     private bool CanCreate { get; set; }
     private bool CanDelete { get; set; }
     private bool CanEdit { get; set; }
-    private string PlayerName { get; set; } = "<Error>";
+    private string PlayerName { get; set; } = Loc.GetString("generic-error"); // Fire edit - локализация резервного имени
 
     public void SetPlayerName(string playerName)
     {

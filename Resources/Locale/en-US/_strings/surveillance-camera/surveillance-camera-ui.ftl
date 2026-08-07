@@ -7,6 +7,9 @@ surveillance-camera-monitor-ui-status-connecting = Connecting:
 surveillance-camera-monitor-ui-status-connected = Connected:
 surveillance-camera-monitor-ui-status-disconnected = Disconnected
 surveillance-camera-monitor-ui-no-subnets = No Subnets
+surveillance-camera-monitor-ui-unknown = Unknown
+surveillance-camera-monitor-ui-tracked-entity = {$name}
+                                                Location: [x = {$x}, y = {$y}]
 
 surveillance-camera-setup = Setup
 surveillance-camera-setup-ui-set = Set

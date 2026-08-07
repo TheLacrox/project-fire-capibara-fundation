@@ -1,0 +1,16 @@
+station-event-fugitive-hunt-announcement = Consulte el fax del capitán para recibir un mensaje confidencial.
+fugitive-spawn = ¡{ CAPITALIZE(THE($name)) } emerge de debajo del suelo!
+fugitive-announcement-GALPOL = GALPOL
+fugi-report-ent-name = INFORME SOBRE FUGITIVO: { $name }
+fugi-report-title = SE BUSCA: { $name }
+fugitive-report-first-line = Se ha avistado en el sector al preso fugado { $name }. Es posible que se esconda en una de las estaciones.
+fugitive-report-inhuman = { CAPITALIZE(THE($name)) } no es humanoide. No disponemos de más información.
+fugitive-report-morphotype = MORFOTIPO: { $species }
+fugitive-report-sex-m = SEXO: M
+fugitive-report-sex-f = SEXO: F
+fugitive-report-sex-n = SEXO: N
+fugitive-report-weight = PESO: { $weight } kg
+fugitive-report-age = EDAD: { $age }
+fugitive-report-last-line = Esta persona está buscada en todo el sector; se prefiere capturarla con vida.
+fugitive-round-end-name = fugitivo
+fugitive-role-greeting = Eres un preso fugado de la cárcel. Tu objetivo es escapar en la lanzadera de evacuación.

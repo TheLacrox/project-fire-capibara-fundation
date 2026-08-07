@@ -1,0 +1,43 @@
+﻿<Document>
+  # SCP-173 Containment
+
+  By default, SCP-173 spawns in its containment chamber, which restricts its movement and prevents it from leaving.
+  The containment chamber is a security measure that keeps the object safely contained.
+
+  [textlink="General information about the Sculpture" link="Scp173About"]
+
+  [textlink="More about escaping as the Sculpture" link="Scp173ContainmentBreach"]
+
+  ## What Should You Do?
+
+  The object's primary method of breaching containment is to use the "Clog Tile" ability. This opens the blast doors in the containment chamber.
+
+  [textlink="More about abilities" link="Scp173Abilities"]
+
+  Keep in mind that the ability cannot be used until 15 minutes after the round begins. During that time, the "Safety Time" mechanic limits the activity of SCP objects and gives personnel time for their initial preparations.
+
+  Once 500 units of the reagent accumulate, the containment chamber's blast doors open automatically. SCP-173 can then leave the chamber and attack personnel.
+
+  The personnel's task is to prevent the Sculpture from contaminating its containment chamber. This requires cleaning the chamber periodically with the help of three D-Class personnel.
+
+  ## Cleaning the Containment Chamber
+
+  The object can contaminate the floor with a unique substance that enters the blast doors' mechanisms and opens them.
+
+  To prevent a containment breach, clean the chamber every 10-15 minutes by bringing in three D-Class personnel and equipping them with mops and cleaning supplies.
+  Never use cleaning grenades to clean it: they only double the amount of the substance!
+
+  ## What Should You Do if the Object Escapes?
+
+  The Foundation has advanced technologies known as "stasis drops" and the "Pandora hangar" that can be used against the object.
+
+  Use the stasis drops on your character to apply them. You will stop blinking for a while, allowing you to restore containment more safely.
+
+  As long as someone is watching the Sculpture, it cannot attack or resist being transported.
+
+  Bring the "Pandora hangar" to SCP-173, open it, and close it around the object. Remember to lock it, or the Sculpture can easily break down the door!
+
+  Now simply drag the "Pandora hangar" into SCP-173's containment chamber and clean the chamber if necessary.
+
+  [textlink="More about unique interactions" link="ScpResearchAdvanced"]
+</Document>

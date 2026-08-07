@@ -1,0 +1,66 @@
+﻿<Document>
+  # Containing SCP-096
+
+  By default, SCP-096 spawns inside its containment chamber, which restricts its movement and prevents it from leaving.
+  The chamber is a containment measure that makes it possible to hold the object safely.
+
+  [textlink="General information about the Shy Guy" link="Scp096About"]
+
+  [textlink="More information about escaping as the Shy Guy" link="Scp096ContainmentBreach"]
+
+  ## What Should You Do?
+
+  The object's primary method of breaching containment is the "Flay Face" ability, which lets it damage its own face.
+
+  [textlink="More information about abilities" link="Scp096Abilities"]
+
+  Note that this ability can only be used 15 minutes after the round begins. Until then, the "safe period" mechanic limits the activity of SCP objects and gives personnel time to prepare for the round.
+
+  Flaying its face 5 times will reduce it to a mass of flesh and place the Shy Guy in the "Flayed Face" state. In this state, it can leave the containment chamber and attack personnel.
+
+  [textlink="More information about states" link="Scp096States"]
+
+  The personnel's objective is to stop the Shy Guy from destroying its face. To do so, they must periodically restore the object's face with medical patches.
+
+  ## How Can You Determine the Extent of Facial Damage?
+
+  Personnel must restore the Shy Guy's face in time, so correctly identifying its condition is crucial.
+
+  Qualified personnel, such as scientists and some medical staff, can immediately assess the severity of the object's injuries. They can see an icon above the object in its upper-right corner.
+
+  The more blood shown on the icon's face, the more severely the face is damaged.
+
+  You can also obtain information by examining the Shy Guy with Shift+Click. The menu provides a visual description of the object's condition that can help you assess the situation.
+
+  Qualified personnel, such as scientists, can determine how critical the injuries are and immediately provide an assessment.
+  If the employee is sufficiently qualified, information about how urgently the face needs to be restored will appear below.
+
+  ## Repairing the Containment Chamber
+
+  The object can generate a powerful anomalous resonance that uses a sound wave to inflict tremendous damage on every nearby structure. Fortunately, its containment chamber is modeled after anechoic chambers and partially suppresses this destructive ability.
+
+  But the containment chamber will not last forever! Constant exposure to extremely powerful sound waves deforms and damages its walls.
+
+  To prevent a containment breach, repairs must be performed every 20-25 minutes. Call qualified technical personnel with the necessary materials and tools.
+  ## What Should You Do If the Object Escapes?
+
+  The Foundation has high-tech equipment such as a "hood" and a "mask" that can be placed on the object.
+  While the object is wearing this equipment, it cannot attack or resist transport.
+
+  The object can tear apart its containment equipment after wearing it for some time. The better the equipment, the harder it is to destroy.
+
+  If the object has destroyed its face, using non-lethal weapons to subdue it before fitting containment equipment is a good approach.
+  Bear in mind that considerable force will be required to subdue it. One employee armed with a taser will not be enough!
+
+  ## Photographs
+
+  Sometimes chance can be decisive. A random event can create copies of a photograph of SCP-096 throughout the facility and in players' inventories.
+
+  Anyone who looks at the photograph becomes a target of the Shy Guy, causing it to enter a different state.
+
+  Photographs can also benefit personnel. If a target of the Shy Guy is placed inside its containment chamber and the chamber is closed in time, the Special Containment Procedures can be restored with minimal casualties.
+
+  A photograph can also be created by using a laboratory camera on the Shy Guy.
+
+  [textlink="More information about unique interactions" link="ScpResearchAdvanced"]
+</Document>

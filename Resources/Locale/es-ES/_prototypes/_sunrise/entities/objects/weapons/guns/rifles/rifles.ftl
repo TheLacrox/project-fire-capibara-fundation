@@ -1,0 +1,12 @@
+ent-WeaponRifleAKMU = AKM-U
+    .desc = Una versión acortada del conocido AKM. Utiliza cartuchos de 7,62 × 39 mm.
+ent-WeaponRifleAK514 = AK-514
+    .desc = Diseñado para sustituir al ya anticuado AKM. Admite varios tipos de munición, entre ellos cartuchos sin vaina de calibre .25 y cartuchos de 7,62 × 39 mm.
+ent-WeaponRifleFamas = FAMAS
+    .desc = Un fusil compacto de configuración bullpup que utiliza cartuchos de 5,56 × 45 mm. Destaca por su elevada cadencia y sus rápidas ráfagas.
+ent-WeaponRifleG36 = G-36
+    .desc = Antiguo fusil de asalto de los ejércitos del Gobierno de la Tierra. Su mira óptica integrada mejora la precisión a media distancia; todavía lo emplean fuerzas coloniales y empresas de seguridad. Utiliza cartuchos de 5,56 × 45 mm.
+ent-WeaponRifleM16A4 = M16A4
+    .desc = Un fusil de asalto ligero y versátil que sigue siendo popular entre mercenarios y milicias. Utiliza cartuchos de 5,56 × 45 mm.
+ent-WeaponRifleLecterMk2 = Lecter Mk2
+    .desc = Una versión mejorada del fusil de asalto militar, equipada con un sistema automático de expulsión del cargador vacío. Utiliza munición de fusil de calibre .20.

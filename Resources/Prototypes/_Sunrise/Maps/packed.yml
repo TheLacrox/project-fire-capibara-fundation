@@ -9,7 +9,9 @@
       stationProto: StandardNanotrasenStation
       components:
         - type: StationNameSetup
-          mapNameTemplate: '{0} Пакед {1}'
+          # Fire edit - локализуемое название станции
+          mapNameTemplate: '{0} Packed {1}'
+          stationNameTemplateLocId: station-name-template-sunrise-packed
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: 'TG'

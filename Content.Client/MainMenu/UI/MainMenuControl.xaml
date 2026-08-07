@@ -36,7 +36,7 @@
             <LineEdit Name="AddressBox"
                       Access="Public"
                       Text="localhost"
-                      PlaceHolder="server address:port"
+                      PlaceHolder="{Loc 'fire-main-menu-server-address-placeholder'}"
                       HorizontalExpand="True" />
         </GridContainer>
         <Button Name="DirectConnectButton"

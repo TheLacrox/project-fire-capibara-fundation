@@ -22,24 +22,26 @@ public sealed class IonStormSystem : EntitySystem
     [Dependency] private readonly IRobustRandom _robustRandom = default!;
 
     // funny
-    private static readonly ProtoId<DatasetPrototype> Threats = "IonStormThreats";
-    private static readonly ProtoId<DatasetPrototype> Objects = "IonStormObjects";
-    private static readonly ProtoId<DatasetPrototype> Crew = "IonStormCrew";
-    private static readonly ProtoId<DatasetPrototype> Adjectives = "IonStormAdjectives";
-    private static readonly ProtoId<DatasetPrototype> Verbs = "IonStormVerbs";
-    private static readonly ProtoId<DatasetPrototype> NumberBase = "IonStormNumberBase";
-    private static readonly ProtoId<DatasetPrototype> NumberMod = "IonStormNumberMod";
-    private static readonly ProtoId<DatasetPrototype> Areas = "IonStormAreas";
-    private static readonly ProtoId<DatasetPrototype> Feelings = "IonStormFeelings";
-    private static readonly ProtoId<DatasetPrototype> FeelingsPlural = "IonStormFeelingsPlural";
-    private static readonly ProtoId<DatasetPrototype> Musts = "IonStormMusts";
-    private static readonly ProtoId<DatasetPrototype> Requires = "IonStormRequires";
-    private static readonly ProtoId<DatasetPrototype> Actions = "IonStormActions";
-    private static readonly ProtoId<DatasetPrototype> Allergies = "IonStormAllergies";
-    private static readonly ProtoId<DatasetPrototype> AllergySeverities = "IonStormAllergySeverities";
-    private static readonly ProtoId<DatasetPrototype> Concepts = "IonStormConcepts";
-    private static readonly ProtoId<DatasetPrototype> Drinks = "IonStormDrinks";
-    private static readonly ProtoId<DatasetPrototype> Foods = "IonStormFoods";
+    // Fire edit start - локализация наборов законов ионного шторма
+    private static readonly ProtoId<LocalizedDatasetPrototype> Threats = "IonStormThreats";
+    private static readonly ProtoId<LocalizedDatasetPrototype> Objects = "IonStormObjects";
+    private static readonly ProtoId<LocalizedDatasetPrototype> Crew = "IonStormCrew";
+    private static readonly ProtoId<LocalizedDatasetPrototype> Adjectives = "IonStormAdjectives";
+    private static readonly ProtoId<LocalizedDatasetPrototype> Verbs = "IonStormVerbs";
+    private static readonly ProtoId<LocalizedDatasetPrototype> NumberBase = "IonStormNumberBase";
+    private static readonly ProtoId<LocalizedDatasetPrototype> NumberMod = "IonStormNumberMod";
+    private static readonly ProtoId<LocalizedDatasetPrototype> Areas = "IonStormAreas";
+    private static readonly ProtoId<LocalizedDatasetPrototype> Feelings = "IonStormFeelings";
+    private static readonly ProtoId<LocalizedDatasetPrototype> FeelingsPlural = "IonStormFeelingsPlural";
+    private static readonly ProtoId<LocalizedDatasetPrototype> Musts = "IonStormMusts";
+    private static readonly ProtoId<LocalizedDatasetPrototype> Requires = "IonStormRequires";
+    private static readonly ProtoId<LocalizedDatasetPrototype> Actions = "IonStormActions";
+    private static readonly ProtoId<LocalizedDatasetPrototype> Allergies = "IonStormAllergies";
+    private static readonly ProtoId<LocalizedDatasetPrototype> AllergySeverities = "IonStormAllergySeverities";
+    private static readonly ProtoId<LocalizedDatasetPrototype> Concepts = "IonStormConcepts";
+    private static readonly ProtoId<LocalizedDatasetPrototype> Drinks = "IonStormDrinks";
+    private static readonly ProtoId<LocalizedDatasetPrototype> Foods = "IonStormFoods";
+    // Fire edit end
 
     /// <summary>
     /// Randomly alters the laws of an individual silicon.
@@ -144,7 +146,8 @@ public sealed class IonStormSystem : EntitySystem
     }
 
     // for your own sake direct your eyes elsewhere
-    private string GenerateLaw()
+    // Fire edit - параметры позволяют интеграционному тесту детерминированно проверить все шаблоны
+    private string GenerateLaw(int? lawTypeOverride = null, int? subjectTypeOverride = null, bool? partOverride = null)
     {
         // pick all values ahead of time to make the logic cleaner
         var threats = Pick(Threats);
@@ -153,7 +156,10 @@ public sealed class IonStormSystem : EntitySystem
         var crew2 = Pick(Crew);
         var adjective = Pick(Adjectives);
         var verb = Pick(Verbs);
-        var number = Pick(NumberBase) + " " + Pick(NumberMod);
+        // Fire edit - локализуемая сборка числового фрагмента закона
+        var number = Loc.GetString("ion-storm-number",
+            ("base", Pick(NumberBase)),
+            ("modifier", Pick(NumberMod)));
         var area = Pick(Areas);
         var feeling = Pick(Feelings);
         var feelingPlural = Pick(FeelingsPlural);
@@ -166,7 +172,8 @@ public sealed class IonStormSystem : EntitySystem
         var drink = Pick(Drinks);
         var food = Pick(Foods);
 
-        var joined = $"{number} {adjective}";
+        // Fire edit - локализуемая сборка фрагментов закона
+        var joined = Loc.GetString("ion-storm-joined", ("number", number), ("adjective", adjective));
         // a lot of things have subjects of a threat/crew/object
         var triple = _robustRandom.Next(0, 3) switch
         {
@@ -180,7 +187,7 @@ public sealed class IonStormSystem : EntitySystem
         var objectsConcept = _robustRandom.Prob(0.5f) ? objects : concept;
         // s goes ahead of require, is/are
         // i dont think theres a way to do this in fluent
-        var (who, plural) = _robustRandom.Next(0, 5) switch
+        var (who, plural) = (subjectTypeOverride ?? _robustRandom.Next(0, 5)) switch
         {
             0 => (Loc.GetString("ion-storm-you"), true),
             1 => (Loc.GetString("ion-storm-the-station"), false),
@@ -194,12 +201,14 @@ public sealed class IonStormSystem : EntitySystem
             1 => Loc.GetString("ion-storm-clowns"),
             _ => Loc.GetString("ion-storm-heads")
         };
-        var part = Loc.GetString("ion-storm-part", ("part", _robustRandom.Prob(0.5f)));
+        var part = Loc.GetString("ion-storm-part", ("part", partOverride ?? _robustRandom.Prob(0.5f)));
         var harm = _robustRandom.Next(0, 6) switch
         {
             0 => concept,
-            1 => $"{adjective} {threats}",
-            2 => $"{adjective} {objects}",
+            // Fire edit start - локализуемый порядок слов
+            1 => Loc.GetString("ion-storm-adjective-subjects", ("adjective", adjective), ("subjects", threats)),
+            2 => Loc.GetString("ion-storm-adjective-subjects", ("adjective", adjective), ("subjects", objects)),
+            // Fire edit end
             3 => Loc.GetString("ion-storm-adjective-things", ("adjective", adjective)),
             4 => crew1,
             _ => Loc.GetString("ion-storm-x-and-y", ("x", crew1), ("y", crew2))
@@ -210,7 +219,7 @@ public sealed class IonStormSystem : EntitySystem
         var subjects = _robustRandom.Prob(0.5f) ? objectsThreats : Loc.GetString("ion-storm-people");
 
         // message logic!!!
-        return _robustRandom.Next(0, 35) switch
+        return (lawTypeOverride ?? _robustRandom.Next(0, 35)) switch
         {
             0  => Loc.GetString("ion-storm-law-on-station", ("joined", joined), ("subjects", triple)),
             1  => Loc.GetString("ion-storm-law-call-shuttle", ("joined", joined), ("subjects", triple)),
@@ -254,9 +263,11 @@ public sealed class IonStormSystem : EntitySystem
     /// Picks a random value from an ion storm dataset.
     /// All ion storm datasets start with IonStorm.
     /// </summary>
-    private string Pick(string name)
+    // Fire edit start - выбор локализованного значения набора
+    private string Pick(ProtoId<LocalizedDatasetPrototype> name)
     {
-        var dataset = _proto.Index<DatasetPrototype>(name);
-        return _robustRandom.Pick(dataset.Values);
+        var dataset = _proto.Index(name);
+        return _robustRandom.Pick(dataset);
     }
+    // Fire edit end
 }

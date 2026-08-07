@@ -1,0 +1,31 @@
+﻿<Document>
+
+  # Investigación de SCP
+
+  [bold]A diferencia de la investigación en una estación espacial, la de la Fundación SCP se centra principalmente en los objetos SCP.[/bold]
+  Para investigar todas las tecnologías hacen falta [color=#8b0000]puntos de investigación SCP[/color]. Se pueden obtener descubriendo los nodos de los SCP mediante el sistema de artefactos de la estación espacial o realizando interacciones únicas.
+
+  ## Mediante el sistema de artefactos
+
+  Para empezar, el objeto SCP debe encontrarse en un radio de 10 casillas de la plataforma de análisis. A diferencia de los artefactos normales, no es necesario colocarlo directamente sobre ella.
+  Este método solo funciona con [color=#2B662B]SCP vivos[/color], como SCP-173.
+
+  En cuanto actives un efecto, los [color=#8b0000]puntos de investigación SCP se añadirán al servidor de investigación de inmediato[/color]. No es necesario extraerlos mediante una consola.
+
+  A partir de ahí, la investigación continúa de la forma habitual, con la única diferencia de que el efecto del desencadenante permanece oculto.
+
+  [italic]Hemos ampliado la lista normal de efectos, así que podrás descubrir otros completamente nuevos que los objetos pueden manifestar. Algunos son una auténtica locura.[/italic]
+
+  ## Mediante interacciones únicas
+
+  Algunos SCP cuentan con interacciones propias, pero todas siguen el mismo esquema:
+
+  - El jugador interactúa con el SCP usando la herramienta necesaria.
+  - Después de esperar cierto tiempo, el jugador recibe [bold]material de investigación[/bold].
+  - El SCP entra en un tiempo de reutilización cuya duración depende de la interacción realizada. No se puede volver a interactuar con él hasta que termine, ni siquiera mediante una interacción distinta.
+
+  El [bold]material de investigación[/bold] obtenido se puede estudiar como un artefacto normal. Cada uno de sus nodos concede [color=#8b0000]muchos más puntos de investigación SCP[/color] que los nodos de los objetos SCP investigados directamente.
+
+  [textlink="Aquí puedes consultar las interacciones únicas disponibles para cada SCP" link="ScpResearchAdvanced"]
+
+</Document>

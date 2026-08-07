@@ -190,7 +190,7 @@ public sealed partial class GunSystem
                             }),
                             (_noMagazineLabel = new Label
                             {
-                                Text = "No Magazine!",
+                                Text = Robust.Shared.Localization.Loc.GetString("fire-gun-no-magazine"),
                                 StyleClasses = {StyleClass.ItemStatus}
                             })
                         }

@@ -4,7 +4,8 @@ statsentry-heal = Получил лечения: { $name }\n
 statsentry-inf-dmg = Нанёс урона: { $name }\n
 statsentry-inf-heal = Вылечил урона: { $name }\n
 statsentry-slp-cnt = Подскользнулся { $name } раз\n
-statsentry-crm-cnt = Кремирован { $name } раз\n
+# Fire edit - исправлена семантика события попадания кремовым пирогом
+statsentry-crm-cnt = Получил пирогом в лицо { $name } раз\n
 statsentry-dre-cnt = Емагнул { $name } дверей\n
 statsentry-elctr-cnt = Шокирован { $name } раз\n
 statsentry-cuff-cnt = Закован { $name } раз\n
@@ -28,13 +29,15 @@ statsentry-firth-murder-killer = Убийца - [color=white]{ $name }[/color]{ 
 statsentry-firth-murder-killer-none = Смерть наступила при неизвестных обстоятельствах.
 statsentry-total-slipped = Игроки в этой смене поскользнулись [color=white]{ $count }[/color] раз.
 statsentry-most-slipped = Больше всех раз поскользнулся [color=white]{ $name }[/color]{ $username } - [color=white]{ $count }[/color].
-statsentry-total-creampied = Всего кремировано игроков: { $total }.
+# Fire edit - исправлена семантика общего счётчика попаданий кремовым пирогом
+statsentry-total-creampied = Игроки получили пирогом по лицу { $total } раз.
 statsentry-most-dead = Больше всего раз умирал [color=white]{ $name }[/color]{ $username }, а именно [color=white]{ $count }[/color] раз.
 statsentry-total-door-emaged = Шлюзы были емагнуты [color=white]{ $count }[/color] раз.
 statsentry-most-door-emaged-character = Больше всего шлюзов емагнул - [color=white]{ $name }[/color]{ $username } - [color=white]{ $count }[/color] раз.
 statsentry-joint-created = Было скручено [color=white]{ $count }[/color] косяков.
 statsentry-total-killed-mice = Было убито [color=white]{ $count }[/color] мышей.
-statsentry-most-kills-mice-character = { $name }[/color]{ $username } устроил геноцид, убив [color=white]{ $count }[/color] мышей.
+# Fire edit - восстановлен открывающий тег цвета
+statsentry-most-kills-mice-character = [color=white]{ $name }[/color]{ $username } устроил геноцид, убив [color=white]{ $count }[/color] мышей.
 statsentry-hamster-killer = Убийцей гамлета был [color=white]{ $name }[/color]{ $username }.
 statsentry-total-cuffed-count = Игроки были закованы [color=white]{ $count }[/color] раз.
 statsentry-player-with-longest-cuffed-time = Больше всего времени в наручниках провёл [color=white]{ $name }[/color]{ $username } - [color=yellow]{ $time }[/color].

@@ -1,0 +1,112 @@
+﻿<Document>
+  # Paneles solares
+  Los paneles solares son una fuente de energía pasiva que requiere poco mantenimiento y genera electricidad a partir de la luz solar recibida.
+
+  Son una fuente de energía renovable que puede complementar los generadores de la red eléctrica de la estación.
+  Resultan muy útiles porque, mientras que la mayoría de los generadores consumen algún tipo de combustible, los paneles solares producen energía gratis.
+
+  <Box>
+    <GuideEntityEmbed Entity="SolarPanel" Caption=""/>
+    <GuideEntityEmbed Entity="SolarPanel"/>
+    <GuideEntityEmbed Entity="SolarPanel" Caption=""/>
+  </Box>
+
+  ## Generación de energía
+  La energía que producen los paneles solares depende de su ángulo respecto al sol y de si otros objetos los tapan.
+
+  Por eso quizá veas algunos paneles generando 0 W mientras otros producen mucho más.
+  Esto se debe a que la estación tapa algunos paneles, así que no te preocupes demasiado.
+  La mayoría de las estaciones tienen conjuntos de paneles solares a todos sus lados, por lo que siempre habrá algunos generando energía.
+
+  Cuando apuntan directamente al sol sin ningún objeto que los tape, los paneles solares normales pueden generar [color=orange][protodata="SolarPanel" comp="SolarPanel" member="MaxSupply" format="N0"] W[/color] de potencia.
+
+  Los paneles solares generan [color=orange]energía HV[/color], por lo que necesitan un [color=orange]cable HV[/color] bajo ellos para conectarse a la red eléctrica de la estación.
+
+  ## Apoyo a la red
+  A primera vista, los paneles solares pueden parecer una fuente de energía innecesaria.
+  Al fin y al cabo, tenemos ese agujero negro gigante en el centro de la estación.
+  ¿Para qué molestarse en preparar paneles solares si podemos usarlo?
+
+  Conviene preparar los paneles solares junto con el [textlink="MAM" link="AME"] por varias razones:
+  - Tener paneles solares activos junto con el [textlink="MAM" link="AME"] prolonga la autonomía de las baterías de la estación mucho más que usar solo el [textlink="MAM" link="AME"]. Esto puede dar a los ingenieros más tiempo para instalar fuentes de energía mayores.
+  - Tener paneles solares activos reduce la carga de otros productores de la red. Por ejemplo, si los conjuntos solares producen suficiente energía para cubrir la mitad de las necesidades de la estación, la carga de los demás motores se reduce en consecuencia y estos pueden consumir menos combustible.
+
+
+  ## Ajuste de los paneles
+  Como la estación orbita una estrella, la posición del sol en el espacio cambia con el tiempo.
+  Los paneles solares deben apuntar directamente al sol para generar energía con eficiencia y moverse con el tiempo para seguir su posición.
+
+  El ángulo de los paneles solares puede ajustarse desde una computadora de control solar.
+  <Box>
+    <GuideEntityEmbed Entity="ComputerSolarControl"/>
+  </Box>
+
+  También puedes ajustar la velocidad a la que se mueven los paneles para seguir el sol.
+
+  La velocidad a la que el sol se desplaza alrededor de la estación cambia en cada turno, así que mide su movimiento y ajusta la velocidad en consecuencia.
+
+  La computadora de control solar también muestra la energía total generada por los paneles solares.
+
+  ## Construcción
+
+  Los paneles solares pueden construirse colocando dos láminas de vidrio sobre un ensamblaje solar.
+  <Box>
+    <GuideEntityEmbed Entity="SolarAssembly" Caption=""/>
+    <GuideEntityEmbed Entity="SheetGlass10" Caption=""/>
+    <GuideEntityEmbed Entity="SolarPanel" Caption=""/>
+  </Box>
+
+  Puedes comprar ensamblajes solares en Cargamento.
+
+  ## Reparaciones
+  A veces los paneles solares sufren daños y deben repararse.
+
+  <Box>
+    <GuideEntityEmbed Entity="SolarPanelBroken"/>
+  </Box>
+
+  Para arreglarlos, usa una palanca para retirar del panel los fragmentos de vidrio roto.
+  Suelda estos fragmentos para convertirlos en láminas de vidrio y úsalas para fabricar un panel nuevo.
+
+  <Box>
+    <GuideEntityEmbed Entity="SolarPanelBroken" Caption=""/>
+    <GuideEntityEmbed Entity="Crowbar" Caption=""/>
+    <GuideEntityEmbed Entity="ShardGlass" Caption=""/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="Welder" Caption=""/>
+    <GuideEntityEmbed Entity="SheetGlass10" Caption=""/>
+    <GuideEntityEmbed Entity="SolarAssembly" Caption=""/>
+    <GuideEntityEmbed Entity="SolarPanel" Caption=""/>
+  </Box>
+
+  ## Preparación de conjuntos de paneles solares
+  Los conjuntos de paneles solares suelen encontrarse en el exterior de la estación y sirven para generar grandes cantidades de energía gratuita.
+
+  Puedes llegar hasta ellos mediante un paseo espacial por el exterior o recorriendo los túneles de mantenimiento de la estación.
+  Las salas de máquinas de los conjuntos solares suelen estar señalizadas y cerradas con acceso de Ingeniería.
+  <Box>
+    <GuideEntityEmbed Entity="SignDirectionalSolar" Caption=""/>
+    <GuideEntityEmbed Entity="AirlockEngineering" Caption=""/>
+  </Box>
+
+  Al comienzo del turno, los paneles solares están desalineados y desconectados de la red.
+  Tendrás que alinearlos y conectarlos a la red eléctrica de la estación para que empiecen a generar energía.
+
+  Por lo general, tendrás que tender un [color=orange]cable HV[/color] desde la sala de máquinas del conjunto solar hasta los paneles y usar después una computadora de control solar para alinearlos.
+
+  Las salas de máquinas de los conjuntos solares suelen tener cerca una computadora de control solar y un [textlink="SMES" link="PowerStorage"] para almacenar la energía generada por los paneles y utilizarla más tarde.
+
+  ## Mejora de los paneles solares
+  Los paneles solares pueden mejorarse para aumentar su producción de energía.
+
+  <Box>
+    <GuideEntityEmbed Entity="SolarPanelPlasma" Caption=""/>
+    <GuideEntityEmbed Entity="SolarPanelUranium" Caption=""/>
+  </Box>
+
+  Para ello, sustituye las láminas de vidrio del ensamblaje solar por láminas de vidrio de plasma o de uranio.
+
+  Los paneles solares de plasma y de uranio generan [color=orange][protodata="SolarPanelPlasma" comp="SolarPanel" member="MaxSupply" format="N0"] W[/color] y [color=orange][protodata="SolarPanelUranium" comp="SolarPanel" member="MaxSupply" format="N0"] W[/color] de potencia, respectivamente.
+  También son mucho más resistentes que los paneles solares normales.
+</Document>

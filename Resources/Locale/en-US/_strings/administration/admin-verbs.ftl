@@ -47,6 +47,8 @@ admin-verbs-pause-map = Pause Map
 admin-verbs-snap-joints = Snap Joints
 admin-verbs-make-minigun = Make Minigun
 admin-verbs-set-bullet-amount = Set Bullet Amount
+admin-verbs-spin = Spin
+admin-verbs-set-scale = Set Scale
 
 # Toggles verbs
 admin-verbs-bolt = Bolt
@@ -63,3 +65,7 @@ admin-verbs-dialog-redescribe-description = Description
 admin-verbs-dialog-rename-and-redescribe-title = Rename & Redescribe
 admin-verbs-dialog-set-bullet-amount-title = Set Bullet Amount
 admin-verbs-dialog-set-bullet-amount-amount = Amount (standard {$cap})
+admin-verbs-dialog-spin-speed = Speed
+admin-verbs-dialog-spin-angular-damping = Angular Damping
+admin-verbs-dialog-set-scale-x = Scale X
+admin-verbs-dialog-set-scale-y = Scale Y

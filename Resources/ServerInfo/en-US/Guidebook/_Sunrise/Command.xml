@@ -1,0 +1,54 @@
+<Document>
+  # Command
+  The heads of each department come together to form [color=#1b67a5]Command[/color], the powerful authority that runs the station. They usually have access to special equipment and private rooms. It is also common for someone to want them dead.
+
+  ## Personnel
+  [color=#1b67a5]Command[/color] consists of the department heads: the [color=#9fed58]Head of Personnel[/color], [color=#cb0000]Head of Security[/color], [color=#5b97bc]Chief Medical Officer[/color], [color=#f39f27]Chief Engineer[/color], [color=#c96dbf]Research Director[/color], [color=#b18644]Quartermaster[/color], and, above them all, the [color=#1b67a5]Captain[/color].
+  <Box>
+    <GuideEntityEmbed Entity="ToyFigurineCaptain" Caption="Captain"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="ToyFigurineHeadOfPersonnel" Caption="HoP"/>
+    <GuideEntityEmbed Entity="ToyFigurineHeadOfSecurity" Caption="HoS"/>
+    <GuideEntityEmbed Entity="ToyFigurineChiefMedicalOfficer" Caption="CMO"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="ToyFigurineChiefEngineer" Caption="CE"/>
+    <GuideEntityEmbed Entity="ToyFigurineResearchDirector" Caption="RD"/>
+    <GuideEntityEmbed Entity="ToyFigurineQuartermaster" Caption="QM"/>
+  </Box>
+
+  ## Taking Charge
+  Congratulations on your promotion! In addition to all the extra paperwork, your new [color=#a4885c]responsibilities[/color] include managing your department, making changes and setting priorities, keeping personnel and equipment safe, and allowing yourself an occasional break while your coworkers do the work for you.
+
+  Do not forget that you still have a job! Your fancy tools do not give you the day off: you must still cover staff shortages, help anyone falling behind, and teach newcomers.
+
+  You could simply sit back and let people grow frustrated, but it is wiser to pitch in and work alongside them. Reassign workers so they can do the tasks they enjoy most or perform best.
+
+  ## Your Locker
+  To handle these new and harrowing responsibilities, each head receives special items for managing their subordinates. You will find most of them in your [color=#a4885c]locker[/color].
+  <Box>
+    <GuideEntityEmbed Entity="LockerCaptain"/>
+  </Box>
+
+  Your [color=#a4885c]door remote[/color] is simple but deeply underrated. Small yet powerful, it can open and close [color=#a4885c]airlocks[/color], toggle their [color=#a4885c]bolts[/color], electrify them, and switch [color=#a4885c]emergency access[/color] remotely.
+  <Box>
+    <GuideEntityEmbed Entity="DoorRemoteCommand"/>
+  </Box>
+  The remote lets you control where personnel can go. Heads can keep people out of dangerous areas or quickly let them through when an item must be retrieved urgently.
+
+  Like the other departments, you have your own [color=#1b67a5]Command[/color] radio channel. This channel is especially important, however, because [color=#a4885c]every department[/color] can hear it.
+  Use it to communicate with the other heads and relay your workers' needs.
+
+  The [color=#1b67a5]Captain[/color] and [color=#9fed58]Head of Personnel[/color] have access to the [color=#a4885c]station master encryption key[/color], which lets them listen to every station radio channel. This is an extraordinary resource because it allows you to coordinate all departments personally.
+  [color=#a4885c]Do not waste this advantage![/color]
+  <Box>
+    <GuideEntityEmbed Entity="ClothingHeadsetCommand"/>
+    <GuideEntityEmbed Entity="EncryptionKeyStationMaster"/>
+  </Box>
+
+  To conquer the mountain of paperwork, your locker contains a [color=#a4885c]rubber stamp[/color]. Use it to sign documents: once stamped, they can no longer be edited, so review their contents first.
+  <Box>
+    <GuideEntityEmbed Entity="RubberStampCaptain"/>
+  </Box>
+</Document>

@@ -278,19 +278,20 @@ namespace Content.Client.RoundEnd
         {
             return type switch
             {
-                StorytellerHistoryType.HelpfulEvent => "Положительные",
-                StorytellerHistoryType.NeutralEvent => "Нейтральные события",
-                StorytellerHistoryType.MinorCalmEvent => "Мелкие проишествия",
-                StorytellerHistoryType.MajorCalmEvent => "Крупные проишествия",
-                StorytellerHistoryType.MinorAntagEvent => "Антагонисты",
-                StorytellerHistoryType.MajorAntagEvent => "Крупные антагонисты",
-                StorytellerHistoryType.Death => "Смерти",
-                StorytellerHistoryType.AnomalyEngine => "Аномальные двигатели",
-                StorytellerHistoryType.Explosion => "Взрывы",
-                StorytellerHistoryType.Research => "Исследования",
-                StorytellerHistoryType.Arrival => "Прибытия",
-                StorytellerHistoryType.Departure => "Крио",
-                _ => type.ToString(),
+                StorytellerHistoryType.HelpfulEvent => Loc.GetString("storyteller-history-type-helpful"),
+                StorytellerHistoryType.NeutralEvent => Loc.GetString("storyteller-history-type-neutral"),
+                StorytellerHistoryType.MinorCalmEvent => Loc.GetString("storyteller-history-type-minor-calm"),
+                StorytellerHistoryType.MajorCalmEvent => Loc.GetString("storyteller-history-type-major-calm"),
+                StorytellerHistoryType.MinorAntagEvent => Loc.GetString("storyteller-history-type-minor-antag"),
+                StorytellerHistoryType.MajorAntagEvent => Loc.GetString("storyteller-history-type-major-antag"),
+                StorytellerHistoryType.Death => Loc.GetString("storyteller-history-type-death"),
+                StorytellerHistoryType.AnomalyEngine => Loc.GetString("storyteller-history-type-anomaly-engine"),
+                StorytellerHistoryType.StationEvent => Loc.GetString("storyteller-history-type-station-event"),
+                StorytellerHistoryType.Explosion => Loc.GetString("storyteller-history-type-explosion"),
+                StorytellerHistoryType.Research => Loc.GetString("storyteller-history-type-research"),
+                StorytellerHistoryType.Arrival => Loc.GetString("storyteller-history-type-arrival"),
+                StorytellerHistoryType.Departure => Loc.GetString("storyteller-history-type-departure"),
+                _ => Loc.GetString("storyteller-history-type-other"),
             };
         }
 
@@ -325,7 +326,7 @@ namespace Content.Client.RoundEnd
             else
             {
                 var titleLabel = new RichTextLabel();
-                titleLabel.SetMarkup("[bold][size=14]Хронология событий раунда:[/size][/bold]\n");
+                titleLabel.SetMarkup(Loc.GetString("round-end-summary-window-storyteller-history-title"));
                 container.AddChild(titleLabel);
 
                 foreach (var entry in history)

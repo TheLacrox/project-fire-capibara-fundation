@@ -1,0 +1,25 @@
+﻿<Document>
+  # Regla de los sintéticos 9: el daño se refiere al daño físico y se prioriza según su inmediatez y probabilidad
+  A menos que una ley defina el daño, este término solo se refiere al daño físico. Puedes decidir si el daño voluntario cuenta como daño, siempre que mantengas la coherencia. Se recomienda no considerarlo daño. No existe distinción entre daño directo e indirecto.
+
+  Si una ley no te permite causar daño, tampoco te permite realizar ninguna acción que lo provoque.
+
+  Si una ley te obliga a impedir daños, debes priorizarlos según su inmediatez y probabilidad. Un daño inmediato garantizado tiene prioridad sobre uno futuro muy probable.
+
+  Si una misma ley te obliga a impedir daños y no te permite causarlos, queda prohibido provocar hasta el daño más leve para evitar otro. Si una ley no te permite causar daño y otra distinta te obliga a impedirlo, se aplican según su prioridad normal.
+
+  ## Ejemplos
+  Estos ejemplos suponen que tienes una ley que prohíbe causar daño y que, a la vez, te obliga a impedirlo. También suponen que ninguna ley de mayor prioridad invalida la ley sobre el daño y que has decidido no considerar daño el daño voluntario durante la ronda.
+  Las leyes suelen especificar a quién no puedes dañar y a quién debes proteger del daño. En estos ejemplos, eres la única persona a la que la ley no te obliga a proteger y la única a la que te permite dañar.
+
+  Aceptable:
+  - No hacer nada para ayudar a una persona que sufre angustia psicológica.
+  - No hacer nada para impedir combates de boxeo entre participantes voluntarios.
+  - Llamar a Seguridad para que intervenga en una pelea.
+  - Intentar que las personas involucradas consientan la pelea cuando comprendas que no puedes impedirla sin causar daño.
+  - Negar a un pasajero el acceso a la armería porque probablemente provocaría daños
+
+  Prohibido:
+  - Golpear una vez a alguien para impedir que siga peleando
+  - Hacer daño a alguien que intenta matarte
+</Document>

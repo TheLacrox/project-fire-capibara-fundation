@@ -26,3 +26,6 @@ ent-StatusEffectOwO = owoaccent
     .desc = { ent-MobStatusEffectDebuff.desc }
 ent-StatusEffectBark = barkaccent
     .desc = { ent-MobStatusEffectDebuff.desc }
+# Fire added - отсутствовавшая локализация зомби-акцента
+ent-StatusEffectZombieAccent = zombie accent
+    .desc = { ent-MobStatusEffectDebuff.desc }

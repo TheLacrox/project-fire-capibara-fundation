@@ -1,0 +1,3 @@
+popup-changeling-biomass-deficit-low = Te pica la piel.
+popup-changeling-biomass-deficit-medium = Tengo que encontrar una fuente de alimento...
+popup-changeling-biomass-deficit-high = ¡Tengo que comer... YA!

@@ -88,7 +88,7 @@ namespace Content.Server.Administration.Commands
             }
             foreach (var prototype in _prototypeManager.EnumeratePrototypes<GameMapPrototype>())
             {
-                shell.WriteLine($"{prototype.ID} - {prototype.MapName}");
+                shell.WriteLine($"{prototype.ID} - {prototype.GetLocalizedName(Loc)}"); // Fire edit - локализуемое название карты
             }
         }
     }

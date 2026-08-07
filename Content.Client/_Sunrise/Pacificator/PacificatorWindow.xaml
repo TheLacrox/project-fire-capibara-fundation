@@ -1,6 +1,6 @@
 <controls:FancyWindow xmlns="https://spacestation14.io"
                 xmlns:controls="clr-namespace:Content.Client.UserInterface.Controls"
-                Title="pacificator-window-title"
+                Title="{Loc 'pacificator-window-title'}"
                 MinSize="270 130"
                 SetSize="360 180">
     <BoxContainer Margin="4 0" Orientation="Horizontal">
@@ -19,7 +19,7 @@
                 <Label Name="StatusLabel" Text="{Loc 'gravity-generator-window-status-fully-charged'}" />
                 <!-- ETA -->
                 <Label Text="{Loc 'gravity-generator-window-eta'}" StyleClasses="StatusFieldTitle" />
-                <Label Name="EtaLabel" Text="N/A" />
+                <Label Name="EtaLabel" Text="{Loc 'fire-ui-not-available'}" />
                 <!-- Charge -->
                 <Label Text="{Loc 'gravity-generator-window-charge'}" StyleClasses="StatusFieldTitle" />
                 <ProgressBar Name="ChargeBar" MaxValue="255">

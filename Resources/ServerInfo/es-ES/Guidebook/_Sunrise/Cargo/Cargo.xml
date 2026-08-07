@@ -1,0 +1,90 @@
+<Document>
+  # Carga
+
+  El departamento de suministros, también conocido como [color=cyan]Carga[/color], proporciona a la estación recursos esenciales como combustible y materias primas, además de objetos para el ocio, desde billetes de lotería hasta peluches.
+
+  Obtiene [color=cyan]spesos[/color], la moneda de la estación, de distintas formas: completa recompensas, vende objetos sin utilidad y realiza labores de salvamento. Con esos fondos puede comprar a proveedores externos todo lo que necesite la tripulación. La misión de Carga es satisfacer las necesidades de toda la estación.
+
+  ## Personal
+
+  Carga está compuesto por [color=cyan]técnicos de carga[/color] y [color=cyan]especialistas en salvamento[/color], bajo la dirección del [color=cyan]intendente[/color].
+
+  <Box>
+    <GuideEntityEmbed Entity="ToyFigurineCargoTech" Caption="Técnico de carga"/>
+    <GuideEntityEmbed Entity="ToyFigurineSalvage" Caption="Especialista en salvamento"/>
+    <GuideEntityEmbed Entity="ToyFigurineQuartermaster" Caption="Intendente"/>
+  </Box>
+
+  ## Ganar dinero
+
+  El principal problema de cualquier departamento de Carga es la falta de dinero.
+
+  Carga obtiene ingresos vendiendo objetos en la [color=cyan]estación comercial[/color]. Casi todo lo que hay en la estación tiene un valor económico que puedes consultar con la [color=cyan]herramienta de tasación[/color]. El precio aumenta si vendes el objeto como parte de una [textlink="recompensa" link="CargoBounties"].
+
+  <Box>
+    <GuideEntityEmbed Entity="AppraisalTool"/>
+    <GuideEntityEmbed Entity="CargoPallet"/>
+    <GuideEntityEmbed Entity="CrateGenericSteel"/>
+  </Box>
+
+  Cuando encuentres algo valioso, llévalo al [color=cyan]muelle de carga[/color]. Si cabe en una [color=cyan]caja[/color], busca una vacía y guarda los objetos en su interior.
+
+  Cuando la [color=cyan]lanzadera de carga[/color] haya partido, coloca todo lo que quieras vender sobre los [color=cyan]palés de carga[/color]. En cuanto atraque, sube a bordo las cajas y los demás objetos destinados a la venta.
+
+  <Box>
+    <GuideEntityEmbed Entity="ComputerPalletConsole"/>
+    <GuideEntityEmbed Entity="CargoPalletSell"/>
+    <GuideEntityEmbed Entity="ComputerCargoOrders"/>
+  </Box>
+
+  Una vez cargada, envía la lanzadera a la estación comercial. Allí, coloca los objetos en los [color=cyan]palés verdes de venta[/color], acércate al [color=cyan]ordenador de ventas de Carga[/color] y pulsa [italic]«Vender»[/italic].
+
+  Ya puedes recoger los spesos obtenidos, volver a la estación y depositarlos en el [color=cyan]ordenador de solicitudes de Carga[/color].
+
+  Puedes aumentar todavía más los ingresos completando [textlink="recompensas" link="CargoBounties"] o vendiendo objetos valiosos obtenidos durante las tareas de [textlink="salvamento" link="Salvage"].
+
+  ## Pedidos
+
+  <Box>
+    <GuideEntityEmbed Entity="ComputerCargoOrders"/>
+  </Box>
+
+  Todos los pedidos comienzan en el [color=cyan]ordenador de solicitudes de Carga[/color]. Antes de nada, el departamento debe disponer de suficientes spesos. Si no hay dinero, habrá que conseguirlo.
+
+  Carga también decide si acepta o rechaza cada solicitud. Cuando escasean los fondos, puede denegar las peticiones menos importantes.
+
+  Para realizar un pedido, pulsa el producto deseado, indica quién lo recibirá, explica para qué lo necesita y selecciona «Aprobar».
+
+  A veces hay un ordenador público de solicitudes de Carga; en ese caso sólo tendrás que aprobar las solicitudes que otras personas hayan creado.
+
+  <Box>
+    <GuideEntityEmbed Entity="CargoPalletBuy"/>
+    <GuideEntityEmbed Entity="PaperCargoInvoice"/>
+  </Box>
+
+  A continuación, tendrás que traer el pedido desde la [color=cyan]estación comercial[/color] hasta la estación.
+
+  La caja del pedido estará sobre uno de los [color=cyan]palés de compra de Carga[/color]. Súbela a la lanzadera y llévala de vuelta.
+
+  Cuando la caja llegue al muelle de carga, lee la etiqueta de la [color=cyan]factura de Carga[/color] para averiguar quién es el destinatario y entrégasela personalmente.
+
+  ## Pilotaje
+
+  Los pedidos llegan a la [color=cyan]estación comercial[/color] orbital y se transportan hasta la estación en la [color=cyan]lanzadera de carga[/color]. La lanzadera no vuela sola, así que tendrás que pilotarla desde dentro o a distancia.
+
+  <Box>
+    <GuideEntityEmbed Entity="ComputerShuttleCargo"/>
+  </Box>
+
+  Busca una [color=cyan]consola de la lanzadera de carga[/color]. Hay una en el muelle de carga y otra dentro de la lanzadera.
+
+  Al interactuar con ella se abrirá la pantalla de navegación. Para pilotar:
+
+  - En primer lugar, abre la pantalla [color=yellow]«DOCK»[/color] y [color=yellow]desacopla[/color] todas las esclusas que conectan la lanzadera con la estación.
+  - Una vez desacoplada, podrás pilotarla. [italic]Recuerda que vuelas por el espacio y que conservarás el impulso.[/italic]
+  - Controles: [color=yellow][keybind="ShuttleStrafeUp"][/color] y [color=yellow][keybind="ShuttleStrafeDown"][/color] desplazan la lanzadera hacia arriba y abajo; [color=yellow][keybind="ShuttleStrafeLeft"][/color] y [color=yellow][keybind="ShuttleStrafeRight"][/color], hacia la izquierda y la derecha; [color=yellow][keybind="ShuttleRotateLeft"][/color] y [color=yellow][keybind="ShuttleRotateRight"][/color] la hacen girar; [color=yellow][keybind="ShuttleBrake"][/color] frena.
+  - A continuación, dirige la lanzadera hacia la [color=cyan]estación comercial[/color].
+  - Cuando llegues, [color=yellow]acóplala[/color] a las esclusas y habrás terminado.
+
+  [textlink="Consulta las recompensas disponibles para aumentar los beneficios de la estación." link="CargoBounties"]
+</Document>

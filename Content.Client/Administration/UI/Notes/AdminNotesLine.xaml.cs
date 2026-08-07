@@ -69,8 +69,12 @@ public sealed partial class AdminNotesLine : BoxContainer
         }
 
         TimeLabel.Text = Note.CreatedAt.ToLocalTime().ToString("yyyy-MM-dd HH:mm:ss");
-        ServerLabel.Text = Note.ServerName ?? "Unknown";
-        RoundLabel.Text = Note.Round == null ? "Unknown round" : "Round " + Note.Round;
+        // Fire edit start - локализация метаданных заметки
+        ServerLabel.Text = Note.ServerName ?? Loc.GetString("admin-notes-unknown-server");
+        RoundLabel.Text = Note.Round == null
+            ? Loc.GetString("admin-notes-unknown-round")
+            : Loc.GetString("admin-notes-round", ("round", Note.Round.Value));
+        // Fire edit end
         AdminLabel.Text = Note.CreatedByName;
         PlaytimeLabel.Text = $"{Note.PlaytimeAtNote.TotalHours: 0.0}h";
 
@@ -143,7 +147,10 @@ public sealed partial class AdminNotesLine : BoxContainer
 
     private string FormatRoleBanMessage()
     {
-        var banMessage = new StringBuilder($"{Loc.GetString("admin-notes-banned-from")} {string.Join(", ", Note.BannedRoles ?? new[] { "unknown" })} ");
+        // Fire edit start - локализация неизвестной роли
+        var bannedRoles = Note.BannedRoles ?? [Loc.GetString("admin-notes-unknown-role")];
+        var banMessage = new StringBuilder($"{Loc.GetString("admin-notes-banned-from")} {string.Join(", ", bannedRoles)} ");
+        // Fire edit end
         return FormatBanMessageCommon(banMessage);
     }
 
@@ -155,14 +162,15 @@ public sealed partial class AdminNotesLine : BoxContainer
         }
         else
         {
-            sb.Append("for ");
+            // Fire edit start - локализованная композиция длительности наказания
             var banLength = Note.ExpiryTime.Value - Note.CreatedAt;
-            if (banLength.Days > 0)
-                sb.Append(Loc.GetString("admin-notes-days", ("days", banLength.TotalDays.ToString(".00"))));
-            else if (banLength.Hours > 0)
-                sb.Append(Loc.GetString("admin-notes-hours", ("hours", banLength.TotalHours.ToString(".00"))));
-            else
-                sb.Append(Loc.GetString("admin-notes-minutes", ("minutes", banLength.TotalMinutes.ToString(".00"))));
+            var duration = banLength.Days > 0
+                ? Loc.GetString("admin-notes-days", ("days", banLength.TotalDays.ToString(".00")))
+                : banLength.Hours > 0
+                    ? Loc.GetString("admin-notes-hours", ("hours", banLength.TotalHours.ToString(".00")))
+                    : Loc.GetString("admin-notes-minutes", ("minutes", banLength.TotalMinutes.ToString(".00")));
+            sb.Append(Loc.GetString("admin-notes-for-duration", ("duration", duration)));
+            // Fire edit end
         }
 
         sb.Append(" - ");

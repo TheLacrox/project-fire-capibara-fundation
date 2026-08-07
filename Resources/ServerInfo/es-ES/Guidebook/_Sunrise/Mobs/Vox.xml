@@ -1,0 +1,28 @@
+<Document>
+  # Vox
+
+  <Box>
+    <GuideEntityEmbed Entity="MobVox" Caption=""/>
+  </Box>
+
+  [color=#ffa500]¡Atención! Esta especie no está recomendada para principiantes debido a su alergia mortal al oxígeno.[/color]
+
+  Los vox respiran nitrógeno y [color=#ffa500]el oxígeno es tóxico para ellos.[/color]
+  Por desgracia, las estaciones están llenas de oxígeno,
+  así que casi siempre deben utilizar un suministro interno de nitrógeno para evitar una exposición mortal.
+
+  Los vox aparecen siempre con equipo respiratorio de nitrógeno en funcionamiento.
+  Su caja de supervivencia contiene una máscara respiratoria de repuesto y un depósito de nitrógeno de emergencia.
+
+  Además de comida normal, pueden consumir sin peligro envoltorios de aperitivos, pieles de plátano, cáscaras de huevo y carne cruda. También les gusta beber combustible de soldadura.
+
+  Los vox [color=#1e90ff]se recuperan lentamente por sí solos de pequeñas cantidades de daño por veneno[/color]
+  siempre que no superen los 20 puntos de daño por veneno.
+  Esto les permite respirar el aire de la estación durante un máximo de treinta segundos sin sufrir daños duraderos,
+  por ejemplo para comer, beber o tomar pastillas rápidamente.
+  Necesitan unos dos minutos para recuperarse de 30 segundos de exposición al oxígeno.
+  Si su salud no empieza a mejorar al cabo de un minuto desde la exposición, deben solicitar atención médica.
+
+  Los vox causan daño cortante con sus ataques sin armas.
+
+</Document>

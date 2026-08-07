@@ -1,0 +1,52 @@
+﻿<Document>
+  # Herramientas de Atmosféricos
+  Los técnicos atmosféricos disponen del mismo conjunto básico de herramientas que los ingenieros, además de dos herramientas especiales: el proyector de holobarreras y el analizador de gases.
+
+  <Box>
+    <GuideEntityEmbed Entity="HolofanProjector"/>
+    <GuideEntityEmbed Entity="GasAnalyzer"/>
+  </Box>
+
+  ## Proyector de holobarreras
+  El proyector de holobarreras crea una barrera de luz sólida que bloquea el flujo de aire y gases, pero permite el paso de personas.
+
+  <Box>
+    <GuideEntityEmbed Entity="HolofanProjector"/>
+    <GuideEntityEmbed Entity="HoloFan"/>
+  </Box>
+
+  Resulta muy útil para atravesar [textlink="zonas de compuertas cortafuegos" link="FireAndGasControl"] sin que se filtre gas entre salas, además de advertir a la tripulación de que puede ser peligroso entrar.
+  También puede formar una barrera temporal que permita a la tripulación pasar rápidamente entre una zona despresurizada y otra presurizada sin dejar escapar el aire de las salas adyacentes.
+
+  Tiene una carga interna que se consume con cada uso. Para recargarlo, extrae la batería e introdúcela en un cargador de baterías o en un recargador.
+
+  Las holobarreras colocadas junto a una [textlink="compuerta cortafuegos" link="FireAndGasControl"] desactivan su bloqueo y permiten abrirla a mano.
+
+  ## Analizador de gases
+  El analizador de gases sirve para estudiar la composición gaseosa de la atmósfera circundante o de cualquier [textlink="dispositivo atmosférico" link="GasManipulation"] que contenga gas.
+
+  <Box>
+    <GuideEntityEmbed Entity="GasAnalyzer"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="GasPipeBend" Caption=""/>
+    <GuideEntityEmbed Entity="GasPressurePump" Caption=""/>
+    <GuideEntityEmbed Entity="SignalControlledValve" Caption=""/>
+    <GuideEntityEmbed Entity="GasFilter" Caption=""/>
+    <GuideEntityEmbed Entity="StorageCanister" Caption=""/>
+    <GuideEntityEmbed Entity="GasThermoMachineFreezer" Caption=""/>
+  </Box>
+
+  Para usarlo, haz clic en un [textlink="dispositivo" link="GasManipulation"] que contenga gas o en el aire de la sala.
+
+  Al utilizarlo, el analizador informa de:
+  - El volumen del dispositivo medido, no el volumen del gas
+  - La presión total del gas en kPa
+  - La temperatura del gas en kelvin (K) y grados Celsius (C)
+  - La composición exacta del gas en moles y como porcentaje del volumen total
+
+  En la parte inferior de la interfaz, el analizador muestra una representación visual de los distintos [textlink="gases" link="Gasses"] de la mezcla y sus concentraciones relativas.
+
+  Al analizar [textlink="dispositivos" link="GasManipulation"] binarios o ternarios, es decir, con dos o tres entradas y salidas, muestra por separado la composición de cada entrada y salida. Esto resulta útil para diagnosticar problemas en instalaciones de [textlink="mezcla y filtrado" link="MixingAndFiltering"] de gases.
+
+</Document>

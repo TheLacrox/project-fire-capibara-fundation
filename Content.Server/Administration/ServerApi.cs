@@ -492,7 +492,7 @@ public sealed partial class ServerApi : IPostInjectInit
                 mapInfo = new InfoResponse.MapInfo
                 {
                     Id = mapPrototype.ID,
-                    Name = mapPrototype.MapName
+                    Name = mapPrototype.GetLocalizedName(_loc) // Fire edit - локализуемое название карты
                 };
             }
 

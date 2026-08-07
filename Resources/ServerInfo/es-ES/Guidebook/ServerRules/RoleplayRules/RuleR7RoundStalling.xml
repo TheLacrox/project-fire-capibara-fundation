@@ -1,0 +1,16 @@
+﻿<Document>
+  # Regla de rol 7: no prolongues la ronda artificialmente
+  Las rondas deben terminar en algún momento. No mantengas una ronda como rehén impidiendo que llegue a su fin natural. Si la mayoría de los jugadores quiere terminarla, no lo impidas. Cancelar el transbordador o evitar que lo llamen puede contribuir a prolongar la ronda de forma artificial, aunque no siempre es así. Abandonar la estación con el disco de autenticación nuclear mientras los agentes nucleares intentan conseguirlo casi siempre se considera una prolongación artificial. Evacuar en el transbordador no lo es.
+
+  Cancelar el transbordador antes de que la ronda alcance los 45 minutos no puede considerarse una prolongación artificial, salvo que haya muerto una parte importante de la tripulación o que una parte considerable de la estación esté dañada o destruida. Una vez cumplidas esas condiciones, que la cancelación se considere o no una prolongación artificial dependerá mucho de la situación concreta.
+
+  ## Ejemplos
+  Aceptable:
+  - Cancelar un transbordador solicitado a los 30 minutos de ronda porque la gente estaba aburrida.
+  - Cancelar un transbordador solicitado porque los agentes nucleares declararon la guerra.
+  - La tripulación decide intentar que el turno dure lo máximo posible. La estación está en buen estado y la mayoría de los tripulantes sigue con vida. Se cancela una llamada automática al transbordador después de 4 horas de ronda.
+
+  Prohibido:
+  - Intentar impedir que los agentes nucleares obtengan el disco de autenticación nuclear volando con él por el espacio u ocultándose fuera de la estación.
+  - Cancelar el transbordador cuando la estación está sumida en el caos y ha muerto el 90% de la tripulación.
+</Document>

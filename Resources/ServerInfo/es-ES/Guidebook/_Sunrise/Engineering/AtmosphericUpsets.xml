@@ -1,0 +1,13 @@
+﻿<Document>
+  # Incidentes atmosféricos
+  Un incidente atmosférico es cualquier alteración de la atmósfera segura de la estación.
+
+  Los tipos más habituales de incidentes atmosféricos son:
+  - [textlink="Incendios" link="Fires"]
+  - [textlink="Despresurizaciones" link="Spacing"]
+  - [textlink="Diferencias de presión" link="DeltaPressure"]
+
+  Los técnicos atmosféricos deben evaluar estas situaciones con rapidez, eliminar la causa y devolver la zona a un estado seguro.
+
+  Por lo general, esto implica aislar la zona, detener la fuga o el incendio y, después, restablecer la presión, la temperatura y la composición de los gases.
+</Document>

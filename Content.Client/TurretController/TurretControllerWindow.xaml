@@ -39,7 +39,7 @@
                         </PanelContainer.PanelOverride>
 
                         <BoxContainer Orientation="Vertical" MinHeight="195" Margin="5 5 5 5">
-                            <Label Name="TurretStatusHeader" Text="{Loc 'turret-controls-window-turret-status-label'}" StyleClasses="ConsoleSubHeading"
+                            <Label Name="TurretStatusHeader" StyleClasses="ConsoleSubHeading"
                                    HorizontalAlignment="Center" />
 
                             <PanelContainer StyleClasses="LowDivider" HorizontalExpand="True" Margin="-5 5 -5 5" SetHeight="2">

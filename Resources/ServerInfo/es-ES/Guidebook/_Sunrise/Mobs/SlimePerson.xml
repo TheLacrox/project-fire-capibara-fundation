@@ -1,0 +1,24 @@
+<Document>
+  # Personas slime
+
+  <Box>
+    <GuideEntityEmbed Entity="MobSlimePerson" Caption=""/>
+  </Box>
+
+  Respiran nitrógeno en lugar de oxígeno. El nitrógeno abunda en el aire de la estación, pero es más difícil encontrarlo comprimido en tanques de gas. Sufren daños considerables si se las rocía o salpica con agua, pero
+  (como las demás especies) pueden beberla sin peligro para mantenerse hidratadas.
+  Exhalan óxido nitroso y son inmunes a sus efectos.
+  Su cuerpo puede procesar 6 reactivos a la vez en lugar de solo 2.
+
+  Las personas slime tienen un [bold]inventario interno de 2x3[/bold] dentro de su membrana mucosa. Cualquiera puede ver lo que contiene y sacar objetos sin su consentimiento,
+  así que ten cuidado.
+
+  Las personas slime poseen una regeneración aproximadamente [color=#1e90ff]dos veces[/color] mayor que otros humanoides y pueden recuperarse de heridas mucho más graves, hasta [color=#1e90ff]tres veces[/color] más rápido que los demás.
+
+  Su «sangre» viscosa no se puede regenerar mediante hierro. La sangre de slime es una fuente de alimento
+  moderadamente nutritiva para otras especies, aunque beber la sangre de tus compañeros de trabajo no suele estar bien visto.
+  Se asfixian un 80% más despacio, pero reciben un 9% más de daño por presión. Esto las convierte, con diferencia, en la especie más capaz de sobrevivir en el vacío absoluto. Durante un tiempo.
+
+  Reciben [color=#1e90ff]un 40% menos de daño contundente[/color], pero [color=#ffa500]un 50% más de daño por frío, un 20% más de daño cortante y un 20% más de daño perforante[/color].
+
+</Document>

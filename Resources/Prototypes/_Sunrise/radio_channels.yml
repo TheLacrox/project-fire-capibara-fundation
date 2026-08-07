@@ -1,14 +1,14 @@
 - type: radioChannel
   id: Law
   name: chat-radio-law
-  keycode: 'n' # Fire edit - чтобы не конфликтовало
+  keycode: 'l' # Fire edit - латинская клавиша без конфликтов
   frequency: 1780
   color: "#ff178b"
 
 - type: radioChannel
   id: BlueShield
   name: chat-radio-blue-shield
-  keycode: 'Z' # Fire edit - чтобы не конфликтовало
+  keycode: 'z' # Fire edit - латинская клавиша без конфликтов
   frequency: 1781
   color: "#005bfb"
   longRange: false
@@ -16,7 +16,7 @@
 - type: radioChannel
   id: USSP
   name: chat-radio-ussp
-  keycode: 'Ё' # Fire edit - чтобы не конфликтовало
+  keycode: 'p' # Fire edit - латинская клавиша без конфликтов
   frequency: 1945
   color: "#CC0000"
   longRange: false
@@ -24,7 +24,7 @@
 - type: radioChannel
   id: USSPSec
   name: chat-radio-ussp-sec
-  keycode: 'ё' # Fire edit - чтобы не конфликтовало
+  keycode: 'd' # Fire edit - латинская клавиша без конфликтов
   frequency: 1984
   color: "#B00000"
   longRange: false
@@ -32,7 +32,7 @@
 - type: radioChannel
   id: USSPCom
   name: chat-radio-ussp-com
-  keycode: '0' # Fire edit - чтобы не конфликтовало
+  keycode: 'q' # Fire edit - латинская клавиша без конфликтов
   frequency: 1991
   color: "#890000"
   longRange: false
@@ -40,7 +40,7 @@
 - type: radioChannel
   id: TSF
   name: chat-radio-tsf
-  keycode: "ы"
+  keycode: 'w' # Fire edit - латинская клавиша без конфликтов
   frequency: 1922
   color: "#22a7ff"
   longRange: true
