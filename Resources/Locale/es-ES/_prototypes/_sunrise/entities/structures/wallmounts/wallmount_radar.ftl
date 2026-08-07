@@ -1,0 +1,9 @@
+ent-WallmountRadar = ordenador de escáner de masas
+    .desc = Una consola mural que detecta cuerpos cercanos según su posición y su masa.
+    .suffix = Monitor de radar
+ent-WallmountRadarBroken = ordenador de escáner de masas roto
+    .desc = Una consola mural que detecta cuerpos cercanos según su posición y su masa. Tiene la pantalla agrietada y apagada.
+    .suffix = Mural roto
+construction-graph-tag-radar-console-board = placa de ordenador de escáner de masas
+ent-WallmountRadarAssembly = montaje de ordenador de escáner de masas
+    .desc = Un montaje de ordenador de escáner de masas.

@@ -1,0 +1,9 @@
+ent-BodyBag = bolsa para cadáveres
+    .desc = Una bolsa de plástico diseñada para guardar y transportar cadáveres y detener su descomposición.
+ent-BodyBagFolded = bolsa para cadáveres
+    .desc = Una bolsa de plástico diseñada para guardar y transportar cadáveres y detener su descomposición.
+    .suffix = Plegada
+ent-Ash = ceniza
+    .desc = Esto solía ser algo, pero ya no lo es.
+ent-Ectoplasm = ectoplasma
+    .desc = Mucho menos mortífero en esta forma.

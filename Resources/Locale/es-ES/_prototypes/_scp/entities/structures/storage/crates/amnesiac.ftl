@@ -1,0 +1,10 @@
+ent-CrateChemistryRawAmnesiac = contenedor de amnésico
+    .desc = Contiene una garrafa de amnésico en bruto para producir amnésicos.
+ent-CrateChemistryAmnesiacA = contenedor de amnésico
+    .desc = Contiene una garrafa de viales de amnésico A.
+ent-CrateChemistryAmnesiacB = contenedor de amnésico
+    .desc = Contiene una garrafa de viales de amnésico B.
+ent-CrateChemistryAmnesiacC = contenedor de amnésico
+    .desc = Contiene una garrafa de viales de amnésico C.
+ent-CrateChemistryAmnesiacD = contenedor de amnésico
+    .desc = Contiene una garrafa de viales de amnésico D.

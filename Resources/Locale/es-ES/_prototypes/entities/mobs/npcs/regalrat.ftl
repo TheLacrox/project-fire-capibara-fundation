@@ -1,3 +1,10 @@
+ent-MobRatKing = rey rata
+    .desc = Él es la rata. Él pone las norrrmas.
+ent-MobRatKingBuff = { ent-MobRatKing }
+    .suffix = Mejorado
+    .desc = { ent-MobRatKing.desc }
+ent-MobRatServant = rata sirvienta
+    .desc = Ella es la ratita. Ella no pone las norrrmas.
 ent-ActionRatKingRaiseArmy = Alzar un ejército
     .desc = Gasta algo de hambre para invocar una rata aliada que te ayude a defenderte.
 ent-ActionRatKingDomain = Dominio del Rey Rata

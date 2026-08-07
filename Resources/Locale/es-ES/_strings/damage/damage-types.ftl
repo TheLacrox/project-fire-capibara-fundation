@@ -1,0 +1,15 @@
+damage-type-asphyxiation = asfixiante
+damage-type-bloodloss = hemorrágico
+damage-type-blunt = contundente
+damage-type-cellular = celular
+damage-type-caustic = cáustico
+damage-type-cold = gélido
+damage-type-heat = térmico
+damage-type-piercing = perforante
+damage-type-poison = tóxico
+damage-type-radiation = radiactivo
+damage-type-shock = eléctrico
+damage-type-slash = cortante
+damage-type-structural = estructural
+damage-type-holy = sagrado
+damage-type-mangleness = degenerativo

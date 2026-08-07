@@ -1,0 +1,10 @@
+ent-ScpToySpawner = { ent-ToySpawner }
+    .desc = { ent-ToySpawner.desc }
+ent-ScpPlushieCatSpawner = generador de peluche de gato
+    .desc = { ent-MarkerBase.desc }
+ent-ScpPlushieFoxSpawner = generador de peluche de zorro
+    .desc = { ent-MarkerBase.desc }
+ent-ScpFigureSpawner = { ent-FigureSpawner }
+    .desc = { ent-FigureSpawner.desc }
+ent-ScpSpacemenFigureSpawner = { ent-SpacemenFigureSpawner }
+    .desc = { ent-SpacemenFigureSpawner.desc }

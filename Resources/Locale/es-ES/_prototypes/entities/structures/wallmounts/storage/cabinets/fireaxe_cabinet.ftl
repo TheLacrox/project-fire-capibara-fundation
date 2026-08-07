@@ -1,0 +1,11 @@
+ent-FireAxeCabinet = vitrina de hacha de bombero
+    .desc = Hay una etiqueta pequeña que dice «Solo para emergencias» junto con indicaciones para usar el hacha con seguridad. Ya, claro.
+ent-FireAxeCabinetOpen = { ent-FireAxeCabinet }
+    .suffix = Abierta
+    .desc = { ent-FireAxeCabinet.desc }
+ent-FireAxeCabinetFilled = { ent-FireAxeCabinet }
+    .suffix = Con contenido
+    .desc = { ent-FireAxeCabinet.desc }
+ent-FireAxeCabinetFilledOpen = { ent-FireAxeCabinetFilled }
+    .suffix = Con contenido, Abierta
+    .desc = { ent-FireAxeCabinetFilled.desc }

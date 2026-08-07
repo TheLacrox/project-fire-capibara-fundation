@@ -1,0 +1,10 @@
+ent-CrateVendingMachineRestockSeedsScpClassDFilled = caja de reposición de MegaSeed
+    .desc = Contiene una caja de reposición para la máquina expendedora MegaSeed.
+ent-CrateVendingMachineRestockNutriMaxScpClassDFilled = caja de reposición de NutriMax
+    .desc = Contiene una caja de reposición para la máquina expendedora NutriMax.
+ent-CrateVendingMachineRestockChefvendScpClassDFilled = caja de reposición de ChefVend
+    .desc = Contiene una caja de reposición para la ChefVend.
+ent-CrateVendingMachineRestockDinnerwareScpClassDFilled = caja de reposición de Plasteel Chef
+    .desc = Contiene una caja de reposición para la máquina expendedora Plasteel Chef.
+ent-CrateVendingMachineRestockBoozeScpClassDFilled = caja de reposición de Booze-O-Mat
+    .desc = Contiene una caja de reposición para la Booze-O-Mat.

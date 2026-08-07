@@ -1,0 +1,12 @@
+ent-Welder = soplete de soldadura
+    .desc = Funde cualquier cosa mientras tenga combustible. ¡No olvides protegerte los ojos!
+ent-WelderIndustrial = soplete industrial
+    .desc = Un soplete industrial con más del doble de capacidad de combustible.
+ent-WelderIndustrialAdvanced = soplete industrial avanzado
+    .desc = Un soplete industrial avanzado con más del doble de capacidad de combustible y una llama más caliente.
+ent-WelderExperimental = soplete experimental
+    .desc = Un soplete experimental capaz de generar su propio combustible y menos dañino para la vista.
+ent-WelderMini = soplete de emergencia
+    .desc = Un soplete en miniatura para casos de emergencia.
+ent-RefuelingWelder = soplete autorrecargable
+    .desc = Un soplete lento que puede repostarse solo con el tiempo.

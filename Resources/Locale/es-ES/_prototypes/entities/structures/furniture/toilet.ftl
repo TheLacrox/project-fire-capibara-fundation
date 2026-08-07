@@ -1,0 +1,14 @@
+ent-BaseToilet = inodoro
+    .desc = El HT-451: una unidad de eliminación por rotación y torsión para residuos pequeños. Este parece sorprendentemente limpio.
+ent-ToiletEmpty = inodoro
+    .desc = El HT-451: una unidad de eliminación por rotación y torsión para residuos pequeños. Este parece sorprendentemente limpio.
+    .suffix = Vacío
+ent-ToiletDirtyWater = { ent-ToiletEmpty }
+    .suffix = Agua sucia
+    .desc = { ent-ToiletEmpty.desc }
+ent-ToiletGoldenEmpty = inodoro dorado
+    .desc = El HT-451G es la versión dorada del aparato. En el lateral pone que está hecho del oro mercuriano más puro y con asiento de cuero auténtico.
+    .suffix = Vacío
+ent-ToiletGoldenDirtyWater = { ent-ToiletGoldenEmpty }
+    .suffix = Agua sucia, Robo
+    .desc = { ent-ToiletGoldenEmpty.desc }

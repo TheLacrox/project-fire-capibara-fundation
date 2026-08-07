@@ -1,3 +1,4 @@
+crafting-menu-name-improvised-modular-receiver = receptor modular improvisado
 crafting-menu-name-FDB = escopeta de dos cañones forjada
 crafting-menu-text-FDB = Es pariente de la escopeta improvisada, pero está fabricada con piezas de mejor calidad y cuenta con un cañón adicional. Aun así, fabricarla requiere tiempo y equipo de soldadura.
 crafting-menu-name-MP = pistola casera
@@ -123,6 +124,5 @@ crafting-menu-name-IMGR = caja de cartuchos (7,62)
 crafting-menu-text-IMGR = Parece una caja artesanal para cartuchos de 7,62 × 39 mm, con un símbolo de bala dibujado a mano en la tapa. No se recomienda mezclar calibres.
 crafting-menu-name-IMGS = caja de cartuchos de postas (.50)
 crafting-menu-text-IMGS = Parece una caja casera para cartuchos de escopeta del calibre .50, con un símbolo de bala dibujado a mano en la tapa. No se recomienda mezclar calibres.
-
 crafting-menu-name-ASSFP = conjunto de piezas de fragua
 crafting-menu-text-ASSFP = Un pequeño conjunto de componentes para ensamblar una fragua sobre un yunque; incluye un encendedor y varias válvulas.

@@ -1,0 +1,16 @@
+ent-CyberEnergyChainsword = motosierra-espada de energía
+    .desc = Clávasela a quien quieras destruir, mental y físicamente.
+ent-CyberMantisBlade = cuchilla mantis
+    .desc = Una cuchilla afilada que sale de tu propio brazo; hora de hacer arder una corporación.
+ent-CyberMantisBladeMaxGuard = cuchilla mantis Max-Guard
+    .desc = Una cuchilla retráctil de gama alta integrada en el antebrazo, diseñada para neutralizaciones rápidas a corta distancia y para abrir brecha en operaciones de seguridad.
+ent-CyberGorillaArm = guantelete G.O.R.I.L.L.A.
+    .desc = Guantelete G.O.R.I.L.L.A. estándar con los limitadores de fábrica retirados. Su enorme fuerza puede abrir esclusas motorizadas, arrancar paneles del suelo y mandar a los invitados indeseados a dar un largo paseo por los aires.
+ent-CyberLaserEmitter = emisor láser rápido
+    .desc = Un emisor láser de Nanotrasen montado en el antebrazo. Optimizado para una alta cadencia de fuego y una potencia controlada, ofrece una supresión fiable frente a amenazas poco blindadas minimizando los daños colaterales.
+ent-CyberGrenadeThrower = lanzagranadas «Rumbler»
+    .desc = Un lanzagranadas integrado de un solo disparo y acción de bisagra. Capaz de disparar granadas de todo tipo, granadas de mano y proyectiles de artillería.
+ent-CyberPistolCHIMP = { ent-WeaponPistolCHIMP }
+    .desc = { ent-WeaponPistolCHIMP.desc }
+ent-CyberPistolCHIMPUpgraded = { ent-WeaponPistolCHIMPUpgraded }
+    .desc = { ent-WeaponPistolCHIMPUpgraded.desc }

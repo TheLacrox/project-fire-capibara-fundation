@@ -1,0 +1,11 @@
+ent-SmokingPipe = pipa
+    .desc = Igual que la que fumaba el abuelo.
+ent-SmokingPipeFilledTobacco = pipa
+    .desc = Igual que la que fumaba el abuelo.
+    .suffix = Tabaco
+ent-SmokingPipeFilledCannabis = pipa
+    .desc = Igual que la que fumaba el abuelo.
+    .suffix = Cannabis
+ent-SmokingPipeFilledCannabisRainbow = pipa
+    .desc = Igual que la que fumaba el abuelo.
+    .suffix = Cannabis arcoíris

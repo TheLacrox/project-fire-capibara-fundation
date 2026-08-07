@@ -1,0 +1,15 @@
+ent-ClothingUniformRandom = { ent-ClothingUniformBase }
+    .desc = Generado por redes neuronales a partir de las últimas tendencias de la moda.
+    .suffix = Aspecto aleatorio
+ent-ClothingRandomSpawner = disfraz colorido aleatorio
+    .desc = { ent-ClothingUniformRandom.desc }
+ent-ClothingUniformRandomArmless = disfraz colorido sin mangas
+    .desc = { ent-ClothingUniformRandom.desc }
+ent-ClothingUniformRandomStandard = disfraz colorido
+    .desc = { ent-ClothingUniformRandom.desc }
+ent-ClothingUniformRandomBra = sujetador colorido
+    .desc = { ent-ClothingUniformRandom.desc }
+ent-ClothingUniformRandomShorts = pantalones coloridos
+    .desc = { ent-ClothingUniformRandom.desc }
+ent-ClothingUniformRandomShirt = disfraz colorido
+    .desc = { ent-ClothingUniformRandom.desc }

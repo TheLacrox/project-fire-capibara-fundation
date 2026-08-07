@@ -1,0 +1,9 @@
+ent-GunLockerSmallFilledG22 = caja fuerte de pistolas
+    .suffix = Llena, Glock-22 Auto
+    .desc = { ent-GunLockerSmall.desc }
+ent-GunLockerSmallFilledM1984 = caja fuerte de pistolas
+    .suffix = Llena, M1984
+    .desc = { ent-GunLockerSmall.desc }
+ent-GunLockerSmallFilledACP14 = caja fuerte de pistolas
+    .suffix = Llena, ACP14
+    .desc = { ent-GunLockerSmall.desc }

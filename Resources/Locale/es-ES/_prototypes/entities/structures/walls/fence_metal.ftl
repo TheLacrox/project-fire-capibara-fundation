@@ -1,0 +1,15 @@
+ent-BaseFenceMetal = valla metálica
+    .desc = Un tramo de valla metálica que delimita algo seguramente muy importante.
+ent-FenceMetalBroken = valla metálica rota
+    .desc = Alguien se enfadó de verdad con un objeto inanimado.
+ent-FenceMetalStraight = { ent-BaseFenceMetal }
+    .suffix = Recta
+    .desc = { ent-BaseFenceMetal.desc }
+ent-FenceMetalCorner = { ent-BaseFenceMetal }
+    .suffix = Esquina
+    .desc = { ent-BaseFenceMetal.desc }
+ent-FenceMetalEnd = { ent-BaseFenceMetal }
+    .suffix = Extremo
+    .desc = { ent-BaseFenceMetal.desc }
+ent-FenceMetalGate = puerta de valla metálica
+    .desc = Podrías usar la puerta en vez de saltarla... si fueras un COBARDE.

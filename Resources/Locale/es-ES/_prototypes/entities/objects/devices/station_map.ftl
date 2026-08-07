@@ -1,0 +1,17 @@
+ent-BaseHandheldStationMap = mapa de la estación
+    .desc = Muestra un plano de la estación actual.
+ent-HandheldStationMap = { ent-BaseHandheldStationMap }
+    .suffix = Portátil, alimentado
+    .desc = { ent-BaseHandheldStationMap.desc }
+ent-HandheldStationMapEmpty = { ent-HandheldStationMap }
+    .suffix = Portátil, vacío
+    .desc = { ent-HandheldStationMap.desc }
+ent-HandheldStationMapUnpowered = { ent-BaseHandheldStationMap }
+    .suffix = Portátil, sin alimentación
+    .desc = { ent-BaseHandheldStationMap.desc }
+ent-HandheldStationMapStatic = { ent-BaseHandheldStationMap }
+    .suffix = Portátil, funciona fuera de la estación
+    .desc = { ent-BaseHandheldStationMap.desc }
+ent-HandheldStationMapNukeops = mapa de la estación objetivo
+    .suffix = Portátil, operativos nucleares
+    .desc = Muestra un plano de la estación objetivo.

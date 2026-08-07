@@ -1,0 +1,16 @@
+ent-UtensilBase = { ent-BaseItem }
+    .desc = { ent-BaseItem.desc }
+ent-UtensilBasePlastic = { ent-PlasticSounds }
+    .desc = { ent-PlasticSounds.desc }
+ent-Fork = tenedor
+    .desc = Un utensilio para comer, perfecto para apuñalar.
+ent-ForkPlastic = tenedor de plástico
+    .desc = Un utensilio para comer, perfecto para apuñalar.
+ent-Spoon = cuchara
+    .desc = No hay cuchara.
+ent-SpoonPlastic = cuchara de plástico
+    .desc = No hay cuchara.
+ent-KnifePlastic = cuchillo de plástico
+    .desc = Eso no es un cuchillo. ESTO es un cuchillo.
+ent-BarSpoon = cucharilla de bar
+    .desc = Tu ayudante personal para mezclar bebidas y cambiar vidas.

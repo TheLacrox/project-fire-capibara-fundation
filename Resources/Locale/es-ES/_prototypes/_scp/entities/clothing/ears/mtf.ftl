@@ -1,9 +1,9 @@
-ent-ClothingHeadsetAltMTF = auriculares de la FOM
+ent-ClothingHeadsetAltMTF = auriculares de la MTF
     .desc = Un dispositivo compacto de comunicaciones con un canal cifrado que garantiza una transmisión estable en condiciones adversas.
-    .suffix = FOM
-ent-ClothingHeadsetAltMTFRRH = auriculares de la FOM
+    .suffix = MTF
+ent-ClothingHeadsetAltMTFRRH = auriculares de la MTF
     .desc = Un dispositivo compacto de comunicaciones con un canal cifrado. Cuenta con módulos adicionales cuyo origen no consta en la documentación.
-    .suffix = FOM
-ent-ClothingHeadsetAltMTFLLH = auriculares de la FOM
+    .suffix = MTF
+ent-ClothingHeadsetAltMTFLLH = auriculares de la MTF
     .desc = Un dispositivo compacto de comunicaciones con un canal cifrado. Su diseño es sobrio, pero incorpora elementos que denotan la condición especial de quien lo utiliza.
-    .suffix = FOM
+    .suffix = MTF

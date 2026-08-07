@@ -1,0 +1,11 @@
+ent-ShotGunCabinet = vitrina de escopeta
+    .desc = Hay una etiqueta pequeña que dice «Solo para emergencias» junto con indicaciones para usar la escopeta con seguridad. Ya, claro.
+ent-ShotGunCabinetOpen = { ent-ShotGunCabinet }
+    .suffix = Abierta
+    .desc = { ent-ShotGunCabinet.desc }
+ent-ShotGunCabinetFilled = { ent-ShotGunCabinet }
+    .suffix = Con contenido
+    .desc = { ent-ShotGunCabinet.desc }
+ent-ShotGunCabinetFilledOpen = { ent-ShotGunCabinetFilled }
+    .suffix = Con contenido, Abierta
+    .desc = { ent-ShotGunCabinetFilled.desc }

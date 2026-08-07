@@ -1,0 +1,9 @@
+ent-ClusterSyndyFlashGrenade = Beso de Dios
+    .desc = La probabilidad de que te baneen por usar esta granada es del 99,9 %.
+ent-SyndyClusterGrenade = granada de racimo del Sindicato
+    .desc = Si la precisión te da igual, esta es tu elección.
+ent-SyndicateVisceratorClusterGrenade = granada de racimo de visceradores
+    .desc = Una granada de racimo del Sindicato que libera un enjambre de drones visceradores.
+ent-RogueSiliconVisceratorClusterGrenade = granada de racimo de visceradores
+    .desc = Una granada de racimo de silicios renegados que libera un enjambre de drones visceradores.
+    .suffix = Silicio renegado

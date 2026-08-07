@@ -1,0 +1,10 @@
+ent-BulletRifle = bala (0.20 rifle)
+    .desc = { ent-BaseBullet.desc }
+ent-BulletRiflePractice = bala (0.20 rifle, prácticas)
+    .desc = { ent-BaseBulletPractice.desc }
+ent-BulletRifleIncendiary = bala (0.20 rifle, incendiaria)
+    .desc = { ent-BaseBulletIncendiary.desc }
+ent-BulletRifleUranium = bala (0.20 rifle, uranio)
+    .desc = { ent-BaseBulletUranium.desc }
+ent-BulletRifleTraceImprovised = bala improvisada (5.56 mm)
+    .desc = Una bala tosca de 5.56 mm que parece capaz de atravesar una cobertura o de rebotar en ella.

@@ -1,0 +1,12 @@
+ent-GlockBox = caja de Glock
+    .desc = Contiene una pistola y un cargador para ella. ¿Querías algo más?
+ent-ACP14Box = caja de ACP14
+    .desc = Contiene una pistola y un cargador para ella. ¿Querías algo más?
+ent-MK58Box = caja de MK58
+    .desc = Contiene una MK58 y un cargador de goma para ella. ¿Querías algo más?
+ent-MK58GoldBox = caja de MK58 dorada
+    .desc = Contiene una MK58 dorada y un cargador de goma para ella. ¡Ave, Seguridad!
+ent-SnubRevolverBox = caja de revólver de cañón corto
+    .desc = Dentro descansan un revólver de cañón corto y un cargador rápido de goma. De la vieja escuela, listo para la acción.
+ent-VP78Box = caja de VP78
+    .desc = Contiene una VP78 y toda una bolsa de cargadores para ella. Seguro que te sobran.

@@ -1,0 +1,12 @@
+ent-BaseCrowbar = palanca
+    .desc = { ent-BaseItem.desc }
+ent-Crowbar = { ent-BaseCrowbar }
+    .desc = Una herramienta polivalente para abrir puertas y luchar contra invasores interdimensionales.
+ent-CrowbarRed = palanca de emergencia
+    .desc = Una palanca de emergencia diseñada para abrir puertas y compuertas cortafuegos durante los apagones.
+ent-CrowbarGreen = { ent-BaseCrowbar }
+    .desc = Una herramienta polivalente para abrir puertas y luchar contra invasores interdimensionales, impresa en un autolathe.
+ent-CrowbarOrange = { ent-BaseCrowbar }
+    .desc = Una herramienta polivalente para abrir puertas y luchar contra invasores interdimensionales, de las que vienen en las cajas de herramientas.
+ent-CrowbarYellow = { ent-BaseCrowbar }
+    .desc = Una herramienta polivalente para abrir puertas y luchar contra invasores interdimensionales, suministrada por Ingeniería.

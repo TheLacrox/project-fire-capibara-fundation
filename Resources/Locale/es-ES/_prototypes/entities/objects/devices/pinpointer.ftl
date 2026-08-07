@@ -1,0 +1,14 @@
+ent-PinpointerBase = localizador
+    .desc = Un dispositivo de seguimiento de mano. Aunque suele ser mucho más capaz, este se ha configurado para fijarse en ciertas señales. Mantenlo en posición vertical para no perder precisión.
+ent-PinpointerNuclear = localizador
+    .desc = { ent-PinpointerBase.desc }
+ent-PinpointerSyndicateNuclear = localizador del Sindicato
+    .desc = Fabricado específicamente para las misiones de los operativos nucleares. ¡Consigue ese disco!
+ent-PinpointerUniversal = localizador universal
+    .desc = Un dispositivo de seguimiento de mano que se fija en cualquier entidad física mientras está apagado. Mantenlo en posición vertical para no perder precisión.
+ent-PinpointerStation = localizador de estación
+    .desc = Un dispositivo de seguimiento de mano que indica la dirección de cualquier estación cercana.
+    .suffix = Estación
+ent-PinpointerMothership = localizador de núcleo
+    .desc = Un dispositivo de seguimiento de mano que indica la dirección del núcleo de la nave nodriza.
+    .suffix = Nave nodriza

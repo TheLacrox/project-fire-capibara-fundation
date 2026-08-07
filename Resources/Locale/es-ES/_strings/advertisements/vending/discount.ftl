@@ -1,0 +1,17 @@
+advertisement-discount-1 = ¡Dan el Barato, no hay quien lo iguale!
+advertisement-discount-2 = No hay nada mejor en este mundo que un bocado de misterio.
+advertisement-discount-3 = ¡No hagas caso a esas otras máquinas, compra mi producto!
+advertisement-discount-4 = ¡Cantidad antes que calidad!
+advertisement-discount-5 = ¡No hagas caso a esos cerebritos de sanidad, compra ya!
+advertisement-discount-6 = Dan el Barato: ¡somos buenos para ti! No, no he podido decirlo sin reírme.
+advertisement-discount-7 = Dan el Barato: solo productos de la mejor calida-*BZZT
+advertisement-discount-8 = Dan el Barato(tm) no se hace responsable de los daños causados por el mal uso de su producto.
+advertisement-discount-9 = ¡Tenemos un amplio surtido de aperitivos baratos!
+thankyou-discount-1 = Gracias por confi-*BZZT
+thankyou-discount-2 = Recuerda: ¡no se admiten devoluciones!
+thankyou-discount-3 = ¡Ahora es tu problema!
+thankyou-discount-4 = Estamos legalmente obligados a recordarte que no te comas eso.
+thankyou-discount-5 = ¡Por favor, no nos demandes!
+thankyou-discount-6 = ¡Te juramos que ya venía así de fábrica!
+thankyou-discount-7 = Ya, pues mucha suerte con eso.
+thankyou-discount-8 = Que disfrutes de tu, ejem... «aperitivo».

@@ -1,0 +1,14 @@
+ent-UnfinishedForgedShotgun = escopeta forjada montada
+    .desc = Solo le falta la soldadura para que todo quede en su sitio.
+ent-UnfinishedPistolForged = piezas de pistola forjada
+    .desc = Puede que requiera algo de montaje. Necesita soldadura.
+ent-UnfinishedRevolverForged = piezas de revólver forjado
+    .desc = Puede que requiera algo de montaje. Necesita soldadura.
+ent-UnfinishedSubMachineGunForged = piezas de subfusil forjado
+    .desc = Puede que requiera algo de montaje. Necesita soldadura.
+ent-UnfinishedSniperForged = piezas de rifle de francotirador forjado
+    .desc = Puede que requiera algo de montaje. Necesita soldadura.
+ent-UnfinishedWeaponRifleForged = piezas de fusil de asalto forjado
+    .desc = Puede que requiera algo de montaje. Necesita soldadura.
+ent-ModularBarrel = cañón modular
+    .desc = Un componente esencial en la fabricación de armas.

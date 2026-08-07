@@ -1,0 +1,14 @@
+ent-BaseDefibrillator = desfibrilador
+    .desc = ¡DESPEJADO! ¡Zzzzat!
+ent-Defibrillator = { ent-BaseDefibrillator }
+    .desc = { ent-BaseDefibrillator.desc }
+ent-DefibrillatorEmpty = { ent-Defibrillator }
+    .suffix = Vacío
+    .desc = { ent-Defibrillator.desc }
+ent-DefibrillatorOneHandedUnpowered = { ent-BaseDefibrillator }
+    .suffix = A una mano, sin carga
+    .desc = { ent-BaseDefibrillator.desc }
+ent-DefibrillatorCompact = desfibrilador compacto
+    .desc = ¡Ahora en tamaño mini!
+ent-DefibrillatorSyndicate = desfibrilador Interdyne
+    .desc = Sirve también como arma de defensa personal contra los de la marea gris con tendencia a los crímenes de guerra.

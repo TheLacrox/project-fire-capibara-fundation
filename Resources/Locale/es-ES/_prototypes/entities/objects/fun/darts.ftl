@@ -1,0 +1,16 @@
+ent-Dart = dardo
+    .desc = Dardo ligero de lanzamiento para jugar a los dardos. ¡Que no te dé en el ojo!
+ent-DartBlue = { ent-Dart }
+    .desc = { ent-Dart.desc }
+ent-DartPurple = { ent-Dart }
+    .desc = { ent-Dart.desc }
+ent-DartYellow = { ent-Dart }
+    .desc = { ent-Dart.desc }
+ent-HypoDart = { ent-Dart }
+    .suffix = Hipodardo
+    .desc = { ent-Dart.desc }
+ent-TargetDarts = diana
+    .desc = Una diana para jugar a los dardos.
+ent-HypoDartBox = caja de hipodardos
+    .desc = Una cajita que contiene un hipodardo. El envoltorio se desintegra al abrirlo y no deja ninguna prueba.
+    .suffix = Hipodardo

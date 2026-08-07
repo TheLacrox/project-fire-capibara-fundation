@@ -1,0 +1,16 @@
+ent-BaseDice = { ent-BaseItem }
+    .desc = { ent-BaseItem.desc }
+ent-PercentileDie = dado percentil
+    .desc = Un dado de diez caras. Para tiradas de d100 funciona mejor que una pelota de golf.
+ent-d20Dice = d20
+    .desc = Un dado de veinte caras. El favorito para tirárselo al máster.
+ent-d12Dice = d12
+    .desc = Un dado de doce caras. Se le nota cierto aire de abandono.
+ent-d10Dice = d10
+    .desc = Un dado de diez caras. Útil para los porcentajes.
+ent-d8Dice = d8
+    .desc = Un dado de ocho caras. Se nota... afortunado.
+ent-d6Dice = d6
+    .desc = Un dado de seis caras. Básico y funcional.
+ent-d4Dice = d4
+    .desc = Un dado de cuatro caras. El abrojo de los frikis.

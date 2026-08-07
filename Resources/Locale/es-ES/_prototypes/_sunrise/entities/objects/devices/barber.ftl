@@ -1,0 +1,14 @@
+ent-BarberRazor = maquinilla eléctrica
+    .desc = La usan los peluqueros para cambiar los peinados.
+ent-BaseBarberHairDye = { ent-BaseItem }
+    .desc = Lo usan los peluqueros para cambiar el color del peinado.
+ent-BarberHairDyeBlue = tinte azul para el pelo
+    .desc = { ent-BaseBarberHairDye.desc }
+ent-BarberHairDyeRed = tinte rojo para el pelo
+    .desc = { ent-BaseBarberHairDye.desc }
+ent-BarberHairDyeGreen = tinte verde para el pelo
+    .desc = { ent-BaseBarberHairDye.desc }
+ent-BarberHairDyeLight = tinte claro para el pelo
+    .desc = { ent-BaseBarberHairDye.desc }
+ent-BarberHairDyeDark = tinte oscuro para el pelo
+    .desc = { ent-BaseBarberHairDye.desc }

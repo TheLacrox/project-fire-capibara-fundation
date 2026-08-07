@@ -1,0 +1,17 @@
+ent-MopItem = fregona
+    .desc = Una fregona que no hay quien pare; te espera la limpieza de vísceras.
+ent-AdvMopItem = fregona avanzada
+    .desc = Una fregona motorizada con un depósito más grande que sustituye rápidamente los reactivos del interior por agua. No incluye contramedidas automáticas antipayaso.
+ent-WetFloorSign = señal de suelo mojado
+    .desc = ¡Atención! ¡Suelo mojado!
+ent-WetFloorSignMineExplosive = { ent-WetFloorSign }
+    .suffix = Explosiva
+    .desc = { ent-WetFloorSign.desc }
+ent-Plunger = desatascador
+    .desc = Un desatascador con ventosa de plástico roja y mango de madera. Sirve para desatascar desagües.
+ent-GoldenPlunger = desatascador dorado
+    .desc = Un desatascador con la ventosa de plástico recubierta de una fina capa de oro, entregado como muestra de agradecimiento por años de servicio. Se sigue usando para desatascar desagües.
+ent-RagItem = trapo húmedo
+    .desc = Supongo que sirve para limpiar desastres.
+ent-WireBrush = cepillo de púas
+    .desc = Un cepillo de púas de acero, perfecto para raspar hasta las manchas de óxido más difíciles.

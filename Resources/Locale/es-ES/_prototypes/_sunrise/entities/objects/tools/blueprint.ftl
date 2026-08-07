@@ -1,0 +1,14 @@
+ent-TechnologyDiskBlueprint = disco de tecnología
+    .desc = Un disco para el servidor de I+D que contiene tecnología de investigación.
+ent-BlueprintMagAsh12Slug = plano de cargador de Ash-12 (calibre 12, bala)
+    .desc = Un plano con el esquema de un cargador de Ash-12 con balas. Se puede insertar en un autolathe y en un fabricador de seguridad.
+ent-BlueprintMagAsh12Beanbag = plano de cargador de Ash-12 con sacos
+    .desc = Un plano con el esquema de un cargador de Ash-12 con sacos. Se puede insertar en un autolathe y en un fabricador de seguridad.
+ent-BlueprintMagAsh12Flare = plano de cargador de Ash-12 con bengalas
+    .desc = Un plano con el esquema de un cargador de Ash-12 con bengalas. Se puede insertar en un autolathe y en un fabricador de seguridad.
+ent-BlueprintImplanterExtractor = { ent-TechnologyDiskBlueprint }
+    .desc = { ent-TechnologyDiskBlueprint.desc }
+ent-BlueprintProtoAdrenalImplant = plano de implante protoadrenal
+    .desc = Un plano con el esquema de un implante protoadrenal. Se puede insertar en un tecnofabricador médico.
+ent-BlueprintFishXenoReaper = plano de xenoborg segador
+    .desc = Un plano con el esquema de un chasis vacío de xenoborg segador. Se puede insertar en el núcleo de la nave nodriza.

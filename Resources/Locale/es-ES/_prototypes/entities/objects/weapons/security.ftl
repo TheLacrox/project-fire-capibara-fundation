@@ -1,0 +1,11 @@
+ent-Stunbaton = porra eléctrica
+    .desc = Una porra eléctrica para incapacitar a la gente. Usarla activamente para hacer daño se considera de mal gusto.
+ent-Truncheon = cachiporra
+    .desc = Una porra rígida con tachuelas de acero, pensada para hacer daño.
+ent-Flash = destello
+    .desc = Una bombilla ultrabrillante con gatillo que deja aturdida a la víctima y le quita la vista un momento. No sirve de nada cuando se funde.
+ent-SciFlash = destello
+    .suffix = 2 cargas
+    .desc = { ent-Flash.desc }
+ent-PortableFlasher = destellador portátil
+    .desc = Una bombilla ultrabrillante con sensor de proximidad, útil para reservar una zona solo a seguridad.

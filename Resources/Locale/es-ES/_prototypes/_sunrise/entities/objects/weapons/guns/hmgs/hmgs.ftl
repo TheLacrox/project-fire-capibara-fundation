@@ -1,0 +1,12 @@
+ent-WeaponMinigunMG100 = minigun MG-100 Vindicator
+    .desc = { ent-BaseItem.desc }
+ent-PowerpackMinigunMG100 = { ent-BasePowerpackMG100 }
+    .desc = { ent-BasePowerpackMG100.desc }
+ent-BasePowerpackMG100 = { ent-BaseItem }
+    .desc = { ent-BaseItem.desc }
+ent-WeaponDL6902PowerPack = ametralladora DL6902
+    .desc = { ent-BaseItem.desc }
+ent-PowerpackDL6902 = mochila de munición DL6902
+    .desc = { ent-BasePowerpackMG100.desc }
+ent-PowerpackMinigunMG100Improvised = mochila de munición (5.56 mm, improvisada)
+    .desc = Una mochila de munición pesada cargada con cartuchos improvisados de 5.56 mm.

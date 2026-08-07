@@ -1,0 +1,14 @@
+ent-ReinforcementRadio = radio de refuerzos del Sindicato
+    .desc = ¡Llama al instante a un agente del Sindicato de calidad dudosa! Solo se le proporciona equipo básico.
+ent-ReinforcementRadioSyndicate = radio de refuerzos del Sindicato
+    .desc = ¡Llama al instante a un agente del Sindicato de calidad dudosa!
+ent-ReinforcementRadioSyndicateNukeops = radio de operativos nucleares
+    .desc = ¡Llama al instante a un operativo nuclear de calidad dudosa! Se le proporciona equipo básico de operativo nuclear.
+    .suffix = Operativos nucleares
+ent-ReinforcementRadioSyndicateAncestor = radio de refuerzo de ancestro genético del Sindicato
+    .desc = Llama en tu ayuda a un ancestro adiestrado especialmente, de tu elección.
+ent-ReinforcementRadioSyndicateAncestorNukeops = { ent-ReinforcementRadioSyndicateAncestor }
+    .suffix = Operativos nucleares
+    .desc = { ent-ReinforcementRadioSyndicateAncestor.desc }
+ent-ReinforcementRadioSyndicateSyndiCat = radio de refuerzo Sindigato
+    .desc = Llama en tu ayuda a un gato fielmente adiestrado con una microbomba.

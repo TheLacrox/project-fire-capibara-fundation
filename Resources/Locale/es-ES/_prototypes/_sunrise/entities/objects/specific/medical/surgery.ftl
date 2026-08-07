@@ -1,0 +1,16 @@
+ent-CauteryAbductor = cauterio de abductor
+    .desc = { ent-Cautery.desc }
+ent-DrillAbductor = taladro de abductor
+    .desc = { ent-Drill.desc }
+ent-ScalpelAbductor = bisturí de abductor
+    .desc = { ent-Scalpel.desc }
+ent-RetractorAbductor = separador quirúrgico de abductor
+    .desc = Una herramienta quirúrgica que sirve para mantener abiertas las incisiones.
+ent-HemostatAbductor = pinza hemostática de abductor
+    .desc = Una herramienta quirúrgica que sirve para comprimir los vasos sanguíneos y evitar hemorragias.
+ent-BoneSetterAbductor = ajustador óseo de abductor
+    .desc = Una herramienta quirúrgica que sirve para recolocar huesos. También los rompe bastante bien.
+ent-SawAbductor = sierra circular de abductor
+    .desc = Crees que con esto podrías cortar cualquier cosa.
+ent-BoneGelAbductor = bote de gel óseo de abductor
+    .desc = { ent-BoneGel.desc }

@@ -1,0 +1,11 @@
+ent-MobWatcherBase = vigilante
+    .desc = Es como si te atravesara con la mirada.
+ent-MobWatcherLavaland = { ent-MobWatcherBase }
+    .desc = { ent-MobWatcherBase.desc }
+ent-MobWatcherIcewing = vigilante alagélida
+    .desc = { ent-MobWatcherBase.desc }
+ent-MobWatcherMagmawing = vigilante alamagma
+    .desc = { ent-MobWatcherBase.desc }
+ent-MobWatcherPride = vigilante del orgullo
+    .desc = Esta rara subespecie solo aparece en junio.
+    .suffix = Admeme

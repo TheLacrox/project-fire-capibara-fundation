@@ -1,0 +1,10 @@
+ent-MysteryFigureBoxTrash = caja de cartón desplegada
+    .desc = Una cajita de cartón de juguete, ya desplegada.
+ent-MysteryFigureBox = caja misteriosa de minifiguras espaciales
+    .desc = Una caja con una minifigura misteriosa dentro. En un lateral aparecen varias figuras «raras» tachadas en negro, incluida una con una silueta grande y no humanoide.
+ent-MysteryLighterBox = caja misteriosa de mecheros de coleccionista
+    .desc = Una caja de mecheros promocionales descatalogados, muchos de los cuales han sido declarados «contrabando» desde entonces.
+    .suffix = Llena
+ent-UplinkLighterBox = { ent-MysteryLighterBox }
+    .suffix = Enlace
+    .desc = { ent-MysteryLighterBox.desc }

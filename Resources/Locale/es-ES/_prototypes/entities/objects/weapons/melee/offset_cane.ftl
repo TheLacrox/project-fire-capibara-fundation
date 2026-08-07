@@ -1,0 +1,10 @@
+ent-OffsetCane = bastón acodado estándar
+    .desc = Un bastón acodado estándar, imprescindible para moverte cuando tus piernas no están para la tarea. Puede que te conceda la sabiduría de los mayores, o puede que no.
+ent-OffsetCaneClown = bastón acodado arcoíris
+    .desc = Un bastón acodado arcoíris, perfecto para payasos y para quien disfrute de una pincelada de color en su vida.
+ent-OffsetCaneMime = bastón acodado a rayas
+    .desc = Un bastón a rayas blancas y negras, perfecto para las actuaciones silenciosas.
+ent-OffsetCaneNT = bastón acodado de Nanotrasen
+    .desc = Un bastón acodado reglamentario de Nanotrasen con el logotipo de NT, el favorito de quienes prefieren un aire más corporativo.
+ent-OffsetCaneWood = bastón acodado de madera
+    .desc = Un bastón acodado de madera, la opción clásica para quien aprecia los materiales naturales y un agarre firme.

@@ -1,0 +1,14 @@
+ent-ScpPlasticFlapsBase = { ent-PlasticFlapsBase }
+    .desc = { ent-PlasticFlapsBase.desc }
+ent-ScpPlasticFlapsClear = tiras de plástico
+    .desc = Tiras de plástico de uso industrial. Desde luego no hay quien las pase. Imposible.
+    .suffix = Transparentes
+ent-ScpPlasticFlapsOpaque = tiras de plástico
+    .desc = Tiras de plástico de uso industrial. Desde luego no hay quien las pase. Imposible.
+    .suffix = Opacas
+ent-ScpPlasticFlapsAirtightClear = tiras de plástico herméticas
+    .desc = Tiras de plástico herméticas de uso industrial, algo más resistentes. Desde luego no hay quien las pase. Imposible.
+    .suffix = Herméticas, transparentes
+ent-ScpPlasticFlapsAirtightOpaque = tiras de plástico herméticas
+    .desc = Tiras de plástico herméticas de uso industrial, algo más resistentes. Desde luego no hay quien las pase. Imposible.
+    .suffix = Herméticas, opacas

@@ -1,0 +1,10 @@
+ent-AlwaysPoweredFloorLight = luminaria de suelo
+    .desc = { ent-AlwaysPoweredWallLight.desc }
+    .suffix = { ent-AlwaysPoweredWallLight.suffix }
+ent-FloorLightEmpty = { ent-AlwaysPoweredFloorLight }
+    .desc = Una luminaria de suelo. Consume energía y produce luz cuando se instala una bombilla.
+    .suffix = { ent-PoweredlightEmpty.suffix }
+ent-PoweredFloorlight = { ent-AlwaysPoweredFloorLight }
+    .desc = { ent-FloorLightEmpty.desc }
+ent-PoweredFloorlightAlwaysPowered = { ent-AlwaysPoweredFloorLight }
+    .desc = { ent-FloorLightEmpty.desc }

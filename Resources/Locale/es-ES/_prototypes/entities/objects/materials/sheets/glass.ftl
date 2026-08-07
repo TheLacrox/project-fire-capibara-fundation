@@ -1,0 +1,17 @@
+ent-SheetRGlass = cristal reforzado
+    .desc = Una lámina de cristal reforzado.
+    .suffix = Completa
+ent-SheetPGlass = cristal de plasma
+    .desc = Una lámina de plasma translúcido.
+    .suffix = Completa
+ent-SheetRPGlass = cristal de plasma reforzado
+    .desc = Una lámina de plasma translúcido reforzado.
+    .suffix = Completa
+ent-SheetUGlass = cristal de uranio
+    .desc = Una lámina de cristal de uranio.
+    .suffix = Completa
+ent-SheetRUGlass = cristal de uranio reforzado
+    .desc = Una lámina reforzada de uranio.
+ent-SheetClockworkGlass = cristal mecánico
+    .desc = Una lámina de cristal endurecido con latón, usada sobre todo por aficionados a la relojería y restos de cultos ratvarianos.
+    .suffix = Completa

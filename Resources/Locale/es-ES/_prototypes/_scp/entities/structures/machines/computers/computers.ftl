@@ -1,6 +1,3 @@
-ent-ScpComputerCodes = consola de introducción de códigos
-    .desc = Un ordenador utilizado para introducir una contraseña.
-
 ent-ScpBaseComputer = { "" }
     .desc = { "" }
 ent-ScpComputer = { ent-BaseComputer }
@@ -85,6 +82,8 @@ ent-ScpComputerFacilityAiFixer = { ent-StationAiFixerComputer }
     .desc = { ent-StationAiFixerComputer.desc }
 ent-ScpComputerTelevision = { ent-ComputerTelevision }
     .desc = { ent-ComputerTelevision.desc }
+ent-ScpComputerFrame = { ent-ComputerFrame }
+    .desc = { ent-ComputerFrame.desc }
 ent-ScpComputerBroken = { ent-ComputerBroken }
     .desc = { ent-ComputerBroken.desc }
 ent-ScpComputerShipyard = { ent-ComputerShipyard }
@@ -134,5 +133,7 @@ ent-ScpComputerShuttleSecurity = { ent-ComputerShuttleSecurity }
     .desc = { ent-ComputerShuttleSecurity.desc }
 ent-ScpComputerPlayerConsole = { ent-CommandConsoleComputer }
     .desc = { ent-CommandConsoleComputer.desc }
+ent-ScpComputerCodes = consola de introducción de códigos
+    .desc = Un ordenador utilizado para introducir una contraseña.
 ent-ScpComputerIcarus = { ent-ComputerIcarus }
     .desc = { ent-ComputerIcarus.desc }

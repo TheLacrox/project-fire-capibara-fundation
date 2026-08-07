@@ -1,0 +1,10 @@
+ent-WeaponGunLaserCarbineSemi = carabina láser IK-30
+    .desc = Una carabina láser de batería semiautomática.
+ent-WeaponGunLaserCarbineAutomatic = carabina láser IK-60
+    .desc = Una carabina láser de batería con disparo automático por ráfagas.
+ent-WeaponRifleLeikha = Leikha
+    .desc = Un fusil de asalto militar de gama alta. Este ha sido reacondicionado con una mira y un selector de ráfaga. Usa munición .20 rifle.
+ent-WeaponRifleARG = ARG
+    .desc = Un antiguo fusil de asalto estándar galáctico, usado desde entonces por diversos grupos paramilitares y antiguas milicias. Usa munición .30 rifle.
+ent-WeaponRifleM52 = Aussec Armory M-52
+    .desc = Uno de los ejemplos menos populares de fusil de asalto pesado. Tiene una potencia de fuego impresionante.

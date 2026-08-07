@@ -1,0 +1,16 @@
+ent-BaseSecurityUpgrade = { ent-BaseItem }
+    .desc = { ent-BaseItem.desc }
+ent-FlareGunSecurityUpgrade = kit de mejora (pistola de bengalas de seguridad)
+    .desc = Kit de modificación para la pistola de bengalas de seguridad. Incluye un cañón de recambio de mayor calibre y ajustes de mira para lanzar con seguridad cualquier granada de mano a larga distancia.
+ent-ModularReceiverAuto = receptor modular automático
+    .desc = Pieza imprescindible para fabricar armas de fuego automáticas.
+ent-ImprovisedModularReceiver = receptor modular improvisado
+    .desc = Un receptor tosco pero funcional, montado con chatarra.
+ent-DrozdUpgrade = kit de mejora (Drozd)
+    .desc = Kit de modificación para el subfusil Drozd. Sustituye la empuñadura y la culata estándar por versiones más ligeras y añade un sistema automático de expulsión del cargador.
+ent-LecterUpgrade = kit de mejora (Lecter)
+    .desc = Kit de modificación para el Lecter de seguridad. Sustituye el guardamanos y la culata estándar por otros de materiales más ligeros y añade un sistema automático de expulsión del cargador.
+ent-VestSecUpgrade = kit de mejora (chaleco de seguridad)
+    .desc = Kit de modificación para el chaleco de seguridad estándar. Sustituye la fibra protectora barata por un material sintético de alta calidad y lo convierte en una versión duradera y de primera. También añade un par de bolsas que no estorban al moverse.
+ent-GauntletGORILLAUpgradeKit = chip de mejora para el guantelete G.O.R.I.L.L.A.
+    .desc = Kit de mejora experimental para el G.O.R.I.L.L.A.

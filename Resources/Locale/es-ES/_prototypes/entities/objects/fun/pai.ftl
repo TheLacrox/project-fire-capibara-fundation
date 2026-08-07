@@ -1,3 +1,11 @@
+ent-PersonalAI = dispositivo de IA personal
+    .desc = ¡Tu colega electrónico con el que da gusto estar!
+ent-SyndicatePersonalAI = dispositivo de IA personal del Sindicato
+    .desc = ¡Tu colega del Sindicato con el que da gusto estar!
+ent-GoldenPersonalAI = dispositivo de IA personal dorado
+    .desc = ¡Tu colega electrónico con el que da gusto estar! ¡Edición dorada especial!
+ent-PotatoAI = inteligencia artificial de patata
+    .desc = Es una patata. La has obligado a adquirir consciencia, monstruo.
 ent-ActionPAIOpenShop = Catálogo de software
     .desc = Instala software nuevo para ayudar a tu propietario.
 ent-ActionPAIMassScanner = Escáner de masas

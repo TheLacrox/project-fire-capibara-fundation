@@ -1,3 +1,9 @@
+ent-Incorporeal = { "" }
+    .desc = Criaturas sin cuerpo físico.
+ent-MobObserverBase = observador
+    .desc = ¡Buu!
+ent-MobObserver = { ent-MobObserverBase }
+    .desc = { ent-MobObserverBase.desc }
 ent-ActionGhostBoo = ¡Buu!
     .desc = ¡Asusta a tus compañeros de tripulación por puro aburrimiento!
 ent-ActionToggleLighting = Cambiar el modo de iluminación

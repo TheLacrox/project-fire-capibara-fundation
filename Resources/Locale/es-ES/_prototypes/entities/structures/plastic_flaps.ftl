@@ -1,0 +1,14 @@
+ent-PlasticFlapsBase = { ent-BaseStructureDynamic }
+    .desc = { ent-BaseStructureDynamic.desc }
+ent-PlasticFlapsClear = cortinillas de plástico
+    .desc = Cortinillas de plástico de uso intensivo. Desde luego, por ahí no pasa nadie. Ni hablar.
+    .suffix = Transparentes
+ent-PlasticFlapsOpaque = cortinillas de plástico
+    .desc = Cortinillas de plástico de uso intensivo. Desde luego, por ahí no pasa nadie. Ni hablar.
+    .suffix = Opacas
+ent-PlasticFlapsAirtightClear = cortinillas de plástico herméticas
+    .desc = Cortinillas de plástico herméticas, de uso intensivo y algo más resistentes. Desde luego, por ahí no pasa nadie. Ni hablar.
+    .suffix = Herméticas, transparentes
+ent-PlasticFlapsAirtightOpaque = cortinillas de plástico herméticas
+    .desc = Cortinillas de plástico herméticas, de uso intensivo y algo más resistentes. Desde luego, por ahí no pasa nadie. Ni hablar.
+    .suffix = Herméticas, opacas

@@ -1,0 +1,10 @@
+ent-SprayPainter = pintor en aerosol
+    .desc = Un pintor en aerosol para pintar esclusas y tuberías.
+ent-SprayPainterRecharging = { ent-SprayPainter }
+    .suffix = Admeme
+    .desc = { ent-SprayPainter.desc }
+ent-SprayPainterEmpty = { ent-SprayPainter }
+    .suffix = Vacío
+    .desc = { ent-SprayPainter.desc }
+ent-SprayPainterAmmo = pintura comprimida
+    .desc = Un cartucho de pintura muy comprimida, de uso habitual en los pintores en aerosol.

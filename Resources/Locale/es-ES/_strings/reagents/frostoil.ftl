@@ -1,0 +1,3 @@
+### Mensajes que aparecen al metabolizar aceite de escarcha.
+
+frost-oil-effect-light-cold = Notas un ligero cosquilleo frío en la garganta...

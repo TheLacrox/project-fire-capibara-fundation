@@ -15,9 +15,9 @@ ghost-role-information-clown-goblin-description = Una criatura horrible que vene
 ghost-role-information-foliant-name = Tomo
 ghost-role-information-foliant-description = Ayuda al bibliotecario a llevar el conocimiento a la estación.
 ghost-role-information-foliant-rules = Eres un libro mímico consciente. Ayuda a tu propietario a hacer más llevadera la vida y comparte el conocimiento con toda la estación.
-ghost-role-information-ert-cyborg-name = Cíborg de combate de la FOM
+ghost-role-information-ert-cyborg-name = Cíborg de combate de la MTF
 ghost-role-information-ert-cyborg-description = Asegurar. Contener. Proteger.
-ghost-role-information-ert-cyborg-rules = Obedece a la FOM, al Cuartel General O4 y a la Administración Regional.
+ghost-role-information-ert-cyborg-rules = Obedece a la MTF, al Cuartel General O4 y a la Administración Regional.
 
 ghost-role-information-ntr-lead-name = Comandante del NTR
 ghost-role-information-ntr-guard-name = Agente del NTR

@@ -1,0 +1,16 @@
+ent-CrateEmergencyExplosive = caja de trajes antiexplosiones
+    .desc = ¿Ciencia desmadrada? ¿Pitidos al otro lado de la esclusa? ¡Cómpralo ya y sé el héroe que la estación merec... digo, necesita! (tiempo no incluido)
+ent-CrateEmergencyFire = caja contra incendios
+    .desc = Solo tú puedes evitar los incendios en la estación. ¡Ponte manos a la obra con dos trajes de bombero, máscaras antigás, linternas, bombonas grandes de oxígeno, extintores y cascos!
+ent-CrateEmergencyInternals = caja de internos
+    .desc = Domina tu energía vital y controla la respiración con 3 mascarillas, trajes de emergencia y bombonas grandes de aire.
+ent-CrateEmergencyInternalsLarge = caja de internos (grande)
+    .desc = Domina tu energía vital y controla la respiración con 6 mascarillas, trajes de emergencia y bombonas grandes de aire.
+ent-CrateNitrogenInternals = caja de internos (nitrógeno)
+    .desc = Contiene cuatro mascarillas y cuatro bombonas grandes de nitrógeno. Pensada para limosos y vox.
+ent-CrateEmergencyRadiation = caja de protección antirradiación
+    .desc = Sobrevive tanto al apocalipsis nuclear como al motor de supermateria con dos juegos de trajes antirradiación. Cada juego incluye casco, traje y contador Geiger. Hasta te ponemos una botella de vodka y unos vasos, visto lo que suele durar quien pide esto.
+ent-CrateEmergencyInflatablewall = caja de barricadas hinchables
+    .desc = Tres pilas de barricadas hinchables para cuando las paredes metálicas de la estación ya no quieren retener la atmósfera.
+ent-CrateGenericBiosuit = caja de trajes antibiológicos de emergencia
+    .desc = Contiene 2 trajes antirriesgos biológicos para que ninguna enfermedad te distraiga de lo que estés haciendo ahí.

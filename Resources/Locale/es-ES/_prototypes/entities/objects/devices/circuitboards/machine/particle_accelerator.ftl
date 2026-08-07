@@ -1,0 +1,12 @@
+ent-MachineParticleAcceleratorEndCapCircuitboard = placa de tapa final del PA
+    .desc = Una placa de máquina para la tapa final de un acelerador de partículas.
+ent-MachineParticleAcceleratorFuelChamberCircuitboard = placa de cámara de combustible del PA
+    .desc = Una placa de máquina para la cámara de combustible de un acelerador de partículas.
+ent-MachineParticleAcceleratorPowerBoxCircuitboard = placa de caja de alimentación del PA
+    .desc = Una placa de máquina para la caja de alimentación de un acelerador de partículas.
+ent-MachineParticleAcceleratorEmitterStarboardCircuitboard = placa de emisor de estribor del PA
+    .desc = Una placa de máquina para el emisor izquierdo de un acelerador de partículas.
+ent-MachineParticleAcceleratorEmitterForeCircuitboard = placa de emisor de proa del PA
+    .desc = Una placa de máquina para el emisor central de un acelerador de partículas.
+ent-MachineParticleAcceleratorEmitterPortCircuitboard = placa de emisor de babor del PA
+    .desc = Una placa de máquina para el emisor derecho de un acelerador de partículas.

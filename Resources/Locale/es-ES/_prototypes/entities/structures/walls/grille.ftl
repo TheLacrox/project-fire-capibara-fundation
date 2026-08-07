@@ -1,0 +1,12 @@
+ent-Grille = rejilla
+    .desc = Una endeble estructura de varillas de hierro.
+ent-ClockworkGrille = rejilla mecánica
+    .desc = Una endeble estructura de varillas de hierro montada al estilo ratvariano tradicional.
+ent-GrilleBroken = rejilla
+    .desc = Una endeble estructura de varillas de hierro. Ha conocido tiempos mejores.
+ent-ClockworkGrilleBroken = rejilla mecánica
+    .desc = Una endeble estructura de varillas de hierro montada al estilo ratvariano tradicional. Ha conocido tiempos mejores.
+ent-GrilleDiagonal = rejilla diagonal
+    .desc = { ent-Grille.desc }
+ent-ClockworkGrilleDiagonal = rejilla mecánica diagonal
+    .desc = { ent-ClockworkGrille.desc }

@@ -1,0 +1,10 @@
+ent-CartridgeAntiMaterielPenetrator = cartucho (15 mm, perforante)
+    .desc = { ent-BaseCartridge.desc }
+ent-CartridgeAntiMaterielBlast = cartucho (15 mm, explosivo)
+    .desc = { ent-BaseCartridge.desc }
+ent-CartridgeAntiMaterielFrag = cartucho (15 mm, de fragmentación)
+    .desc = { ent-BaseCartridge.desc }
+ent-CartridgeAntiMaterielEmp = cartucho (15 mm, PEM)
+    .desc = { ent-BaseCartridge.desc }
+ent-CartridgeAntiMaterielHP = cartucho (15 mm, punta hueca)
+    .desc = { ent-BaseCartridge.desc }

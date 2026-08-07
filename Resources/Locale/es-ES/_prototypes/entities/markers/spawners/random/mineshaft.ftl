@@ -1,0 +1,10 @@
+ent-RandomWoodenSupport = generador de puntal de madera
+    .desc = { ent-MarkerBase.desc }
+ent-RandomWoodenWall = generador de pared de madera
+    .desc = { ent-MarkerBase.desc }
+ent-RandomStalagmiteOrCrystal = generador de estalagmita o cristal
+    .desc = { ent-MarkerBase.desc }
+ent-RandomBrownStalagmite = generador de estalagmita marrón
+    .desc = { ent-MarkerBase.desc }
+ent-RandomGreyStalagmite = generador de estalagmita gris
+    .desc = { ent-MarkerBase.desc }

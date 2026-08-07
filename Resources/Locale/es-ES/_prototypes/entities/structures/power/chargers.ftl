@@ -1,0 +1,16 @@
+ent-BaseRecharger = { ent-BaseMachinePowered }
+    .desc = { ent-BaseMachinePowered.desc }
+ent-BaseItemRecharger = { ent-BaseRecharger }
+    .desc = { ent-BaseRecharger.desc }
+ent-PowerCellRecharger = recargador de baterías
+    .desc = { ent-BaseItemRecharger.desc }
+ent-PowerCageRecharger = recargador de jaulas de energía
+    .desc = { ent-BaseItemRecharger.desc }
+ent-WeaponCapacitorRecharger = recargador
+    .desc = { ent-BaseItemRecharger.desc }
+ent-TurboItemRecharger = recargador turbo
+    .desc = Un recargador overclockeado adaptado con un puerto universal.
+ent-WallWeaponCapacitorRecharger = recargador mural
+    .desc = { ent-BaseItemRecharger.desc }
+ent-BorgCharger = estación de recarga de cíborgs
+    .desc = Un cargador fijo para diversas entidades robóticas y cíborgs. Sorprendentemente espacioso.

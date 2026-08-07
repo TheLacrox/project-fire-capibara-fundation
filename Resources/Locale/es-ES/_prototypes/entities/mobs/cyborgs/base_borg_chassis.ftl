@@ -1,0 +1,16 @@
+ent-BaseBorgChassisNotIonStormable = cíborg
+    .desc = Un híbrido de hombre y máquina que ayuda en las tareas de la estación. Les encanta que les pidan recitar sus leyes una y otra vez.
+ent-BaseBorgChassis = cíborg
+    .desc = Un híbrido de hombre y máquina que ayuda en las tareas de la estación. Les encanta que les pidan recitar sus leyes una y otra vez.
+ent-BaseBorgTransponder = { "" }
+    .desc = { "" }
+ent-BaseXenoborgTransponder = { ent-BaseBorgTransponder }
+    .desc = { ent-BaseBorgTransponder.desc }
+ent-BaseBorgChassisNT = { ent-BaseBorgChassis }
+    .desc = { ent-BaseBorgChassis.desc }
+ent-BaseBorgChassisSyndicate = { ent-BaseBorgChassis }
+    .desc = { ent-BaseBorgChassis.desc }
+ent-BaseBorgChassisDerelict = { ent-BaseBorgChassis }
+    .desc = { ent-BaseBorgChassis.desc }
+ent-BaseXenoborgChassis = xenoborg
+    .desc = Un híbrido de hombre y máquina que busca replicarse. Les encanta extraer cerebros para insertarlos en chasis de xenoborg nuevos y así engrosar su ejército.

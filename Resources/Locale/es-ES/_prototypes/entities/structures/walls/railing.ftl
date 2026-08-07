@@ -1,0 +1,10 @@
+ent-BaseRailing = barandilla
+    .desc = Una barandilla básica para evitar que idiotas como tú se caigan.
+ent-Railing = { ent-BaseRailing }
+    .desc = { ent-BaseRailing.desc }
+ent-RailingCorner = { ent-BaseRailing }
+    .desc = { ent-BaseRailing.desc }
+ent-RailingCornerSmall = { ent-BaseRailing }
+    .desc = { ent-BaseRailing.desc }
+ent-RailingRound = { ent-BaseRailing }
+    .desc = { ent-BaseRailing.desc }

@@ -1,0 +1,15 @@
+ent-ComputerPirateUplink = consola del mercado negro
+    .desc = Una consola vieja y oxidada que se sostiene a duras penas con cables sueltos y suerte. La pantalla parpadea, pero la red del mercado negro sigue respondiendo a las peticiones.
+ent-ComputerPirateExchanger = canjeador del mercado negro
+    .desc = Una consola vieja y oxidada que se sostiene a duras penas con cables sueltos y suerte. La pantalla parpadea, pero la red del mercado negro sigue respondiendo a las peticiones.
+ent-ComputerPirateExchangerWallmount = canjeador del mercado negro
+    .desc = Una versión de pared del canjeador oxidado, apenas con vida pero todavía conectada al mercado negro.
+ent-ComputerPirateUplinkExpedition = consola del mercado negro
+    .suffix = Expedición
+    .desc = { ent-ComputerPirateUplink.desc }
+ent-ComputerPirateExchangerExpedition = canjeador del mercado negro
+    .suffix = Expedición
+    .desc = { ent-ComputerPirateExchanger.desc }
+ent-ComputerPirateExchangerWallmountExpedition = canjeador del mercado negro
+    .suffix = Expedición
+    .desc = { ent-ComputerPirateExchangerWallmount.desc }

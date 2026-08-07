@@ -1,0 +1,11 @@
+ent-ExtinguisherCabinet = vitrina de extintor
+    .desc = Una pequeña vitrina mural diseñada para guardar un extintor.
+ent-ExtinguisherCabinetOpen = { ent-ExtinguisherCabinet }
+    .suffix = Abierta
+    .desc = { ent-ExtinguisherCabinet.desc }
+ent-ExtinguisherCabinetFilled = { ent-ExtinguisherCabinet }
+    .suffix = Con contenido
+    .desc = { ent-ExtinguisherCabinet.desc }
+ent-ExtinguisherCabinetFilledOpen = { ent-ExtinguisherCabinetFilled }
+    .suffix = Con contenido, Abierta
+    .desc = { ent-ExtinguisherCabinetFilled.desc }

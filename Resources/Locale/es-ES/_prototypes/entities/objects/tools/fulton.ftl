@@ -1,0 +1,10 @@
+ent-FultonBeacon = baliza Fulton
+    .desc = Baliza para recibir extracciones Fulton.
+ent-Fulton = Fulton
+    .desc = Sirve para extraer contenedores y objetos, o para reclutar a la fuerza a personas hacia tu base de operaciones.
+    .suffix = Lleno
+ent-Fulton1 = Fulton
+    .suffix = Uno
+    .desc = { ent-Fulton.desc }
+ent-FultonEffect = efecto de Fulton
+    .desc = { "" }

@@ -4,3 +4,6 @@ ent-ScpAirlockShuttle = { ent-ScpAirlockRCDResistant }
 ent-ScpAirlockGlassShuttle = esclusa exterior
     .suffix = SCP, cristal, acoplamiento
     .desc = { ent-ScpAirlockShuttle.desc }
+ent-ScpAirlockShuttleAssembly = { ent-ScpAirlockAssembly }
+    .suffix = Atraque SCP
+    .desc = { ent-ScpAirlockAssembly.desc }

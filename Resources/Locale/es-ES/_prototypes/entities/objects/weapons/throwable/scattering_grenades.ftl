@@ -1,0 +1,15 @@
+ent-ScatteringGrenadeBase = { ent-BaseItem }
+    .desc = { ent-BaseItem.desc }
+ent-ClusterBang = racimo de cegadoras
+    .desc = Solo se puede usar con granadas cegadoras. Explota varias veces.
+ent-ClusterBangFull = Racimo de cegadoras
+    .desc = Lanza tres granadas cegadoras cuando se acaba el temporizador.
+    .suffix = Lleno
+ent-ClusterGrenade = granada de racimo
+    .desc = ¿Por qué usar una granada cuando puedes usar tres a la vez?
+ent-ClusterBananaPeel = racimo de cáscaras de plátano
+    .desc = Al lanzarlo se divide en 6 cáscaras de plátano explosivas, ¡diversión garantizada!
+ent-SlipocalypseClusterSoap = racimo de jabón deslizapocalipsis
+    .desc = Al caer al suelo esparce por la zona trocitos de jabón del Sindicato.
+ent-GrenadeFoamDart = granada de dardos de espuma
+    .desc = Libera una molesta lluvia de dardos de espuma que provoca ronchas graves.

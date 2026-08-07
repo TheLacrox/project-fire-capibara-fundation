@@ -1,0 +1,9 @@
+ent-LogicGateOr = puerta lógica
+    .desc = Una puerta lógica con dos entradas y una salida. Un técnico puede cambiar su modo de funcionamiento con un destornillador.
+    .suffix = O
+ent-EdgeDetector = detector de flancos
+    .desc = Separa los flancos ascendentes y descendentes en pulsos distintos y detecta lo afilado que eres.
+ent-PowerSensor = sensor de energía
+    .desc = Genera señales cuando cambia la red eléctrica. Puede alternar entre los voltajes de los cables.
+ent-MemoryCell = celda de memoria
+    .desc = Un circuito biestable D que almacena una señal modificable mediante los puertos de entrada y habilitación.

@@ -1,0 +1,12 @@
+ent-WildSlimeCube = cubo de slime salvaje
+    .desc = { ent-MonkeyCube.desc }
+ent-PigCube = cubo de cerdo
+    .desc = { ent-MonkeyCube.desc }
+ent-ChikenCube = cubo de pollo
+    .desc = { ent-MonkeyCube.desc }
+ent-InferiorVulpkaninCube = cubo de vulpkanin inferior
+    .desc = { ent-MonkeyCube.desc }
+ent-FelinidCube = cubo de felínido
+    .desc = { ent-MonkeyCube.desc }
+ent-PirateMonkeyCube = cubo de mono pirata
+    .desc = { ent-MonkeyCube.desc }

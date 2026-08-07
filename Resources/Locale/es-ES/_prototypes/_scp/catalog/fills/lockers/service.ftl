@@ -1,0 +1,15 @@
+ent-ScpClosetGastronomicSpecialistFilled = { ent-ScpClosetGastronomicSpecialist }
+    .suffix = Llena
+    .desc = { ent-ScpClosetGastronomicSpecialist.desc }
+ent-ScpClosetJanitorFilled = { ent-ScpClosetJanitor }
+    .suffix = Llena
+    .desc = { ent-ScpClosetJanitor.desc }
+ent-ScpLockerBotanistPhytogeneticistFilled = { ent-ScpLockerBotanistPhytogeneticist }
+    .suffix = Llena
+    .desc = { ent-ScpLockerBotanistPhytogeneticist.desc }
+ent-ScpLockerBoozeFilled = { ent-ScpLockerBooze }
+    .suffix = Llena
+    .desc = { ent-ScpLockerBooze.desc }
+ent-ScpClosetLegalFilled = { ent-ScpClosetLegal }
+    .suffix = Llena
+    .desc = { ent-ScpClosetLegal.desc }

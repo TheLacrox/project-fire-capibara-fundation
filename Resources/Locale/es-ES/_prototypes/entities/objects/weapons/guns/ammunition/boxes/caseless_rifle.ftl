@@ -1,0 +1,10 @@
+ent-BaseMagazineBoxCaselessRifle = caja de munición (.25 sin vaina)
+    .desc = { ent-BaseItem.desc }
+ent-MagazineBoxCaselessRifle = caja de munición (.25 sin vaina)
+    .desc = Una caja de cartón con cartuchos de .25 sin vaina. Diseñada para munición cinética de uso general.
+ent-MagazineBoxCaselessRiflePractice = caja de munición (.25 sin vaina, prácticas)
+    .desc = Una caja de cartón con cartuchos de .25 sin vaina. Diseñada para munición de tiza inofensiva.
+ent-MagazineBoxCaselessRifle10x24 = caja de munición (.25 sin vaina)
+    .desc = { ent-BaseMagazineBoxCaselessRifle.desc }
+ent-MagazineBoxCaselessRifleBig = caja de munición (.25 sin vaina)
+    .desc = { ent-BaseMagazineBoxCaselessRifle.desc }

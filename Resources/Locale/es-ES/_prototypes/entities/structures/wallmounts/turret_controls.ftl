@@ -1,0 +1,14 @@
+ent-WeaponEnergyTurretControlPanelFrame = armazón del panel de torreta centinela
+    .desc = Un conjunto mural incompleto para el panel de control de una torreta centinela.
+ent-WeaponEnergyTurretStationControlPanelBase = panel de control de torreta centinela
+    .desc = Una interfaz mural para configurar a distancia los parámetros de funcionamiento de las torretas centinela vinculadas.
+ent-WeaponEnergyTurretAIControlPanel = panel de control de torreta centinela de la IA
+    .desc = Una interfaz mural que permite a una inteligencia artificial local ajustar los parámetros de funcionamiento de las torretas centinela vinculadas.
+ent-WeaponEnergyTurretSecurityControlPanel = { ent-WeaponEnergyTurretStationControlPanelBase }
+    .suffix = Seguridad
+    .desc = { ent-WeaponEnergyTurretStationControlPanelBase.desc }
+ent-WeaponEnergyTurretCommandControlPanel = { ent-WeaponEnergyTurretStationControlPanelBase }
+    .suffix = Mando
+    .desc = { ent-WeaponEnergyTurretStationControlPanelBase.desc }
+ent-WeaponEnergyTurretStationControlPanel = panel de control de torreta de seguridad
+    .desc = Una interfaz mural para configurar a distancia los parámetros de funcionamiento de las torretas de seguridad vinculadas.

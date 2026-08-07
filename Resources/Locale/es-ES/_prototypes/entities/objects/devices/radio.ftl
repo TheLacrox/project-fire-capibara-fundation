@@ -1,0 +1,4 @@
+ent-RadioHandheld = radio portátil
+    .desc = Una práctica radio de mano.
+ent-RadioHandheldSecurity = radio de seguridad
+    .desc = Una práctica radio de seguridad.

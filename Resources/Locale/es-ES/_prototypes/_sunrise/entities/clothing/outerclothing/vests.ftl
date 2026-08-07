@@ -1,0 +1,16 @@
+ent-ClothingOuterVestArmorSec = chaleco antibalas
+    .desc = Un chaleco antibalas ligero de tipo I que protege de forma decente contra casi todos los tipos de daño.
+ent-ClothingOuterVestArmorMedSec = chaleco antibalas de médico de seguridad
+    .desc = El chaleco antibalas del médico de seguridad, con bolsillitos para cosillas.
+ent-ClothingOuterVestSecurityMedic = chaleco de médico de seguridad
+    .desc = Un chaleco ligero que lleva el médico de seguridad.
+ent-ClothingOuterVestWebSec = chaleco táctico de seguridad
+    .desc = Un chaleco antibalas de tipo I de gran calidad, hecho con un material sintético duro. Es sorprendentemente flexible y ligero pese a su formidable blindaje. Incluye unas cuantas bolsas extra para el equipo.
+ent-ClothingOuterVestWebChameleon = chaleco táctico camaleónico
+    .desc = Un chaleco antibalas sintético con placas holográficas ocultas bajo el correaje.
+    .suffix = Camaleón
+ent-ClothingOuterVestWebEliteChameleon = chaleco camaleónico de élite
+    .desc = Un chaleco antibalas sintético de élite con placas holográficas ocultas bajo las fibras termorresistentes.
+    .suffix = Camaleón
+ent-ClothingOuterVestWebSalvageMerc = chaleco táctico de chatarrero
+    .desc = Un chaleco antibalas versátil, muy apreciado entre los recuperadores por lo bien que protege sin dejar de ser ligero.

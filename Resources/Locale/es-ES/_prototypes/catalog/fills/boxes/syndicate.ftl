@@ -1,0 +1,11 @@
+ent-ElectricalDisruptionKit = kit de sabotaje eléctrico
+    .suffix = Lleno
+    .desc = { ent-BoxCardboard.desc }
+ent-ChemicalSynthesisKit = kit de síntesis química
+    .desc = Un kit de iniciación para el químico aspirante. ¡Incluye dos viales de vestina para todas tus necesidades delictivas!
+ent-ThrowingKnivesKit = kit de cuchillos arrojadizos
+    .desc = Un juego de 4 cuchillos arrojadizos de la marca del Sindicato, perfectos para que se claven en el cuerpo de tus víctimas.
+ent-BoxDeathRattleImplants = caja de implantes de estertor
+    .desc = Seis implantes de estertor para todo el escuadrón.
+ent-CombatBakeryKit = kit de repostería de combate
+    .desc = Un kit de armas horneadas clandestinas.

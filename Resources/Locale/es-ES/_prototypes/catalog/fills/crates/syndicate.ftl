@@ -1,0 +1,9 @@
+ent-CrateSyndicateSurplusBundle = caja de excedentes del Sindicato
+    .desc = Contiene objetos del Sindicato totalmente aleatorios por valor de 50 telecristales. Puede ser chatarra inútil o algo buenísimo.
+    .suffix = Agente
+ent-CrateSyndicateSuperSurplusBundle = caja de superexcedentes del Sindicato
+    .desc = Contiene objetos del Sindicato totalmente aleatorios por valor de 125 telecristales.
+    .suffix = Agente
+ent-CrateCybersunJuggernautBundle = lote juggernaut de Cybersun
+    .desc = Contiene todo lo necesario para liarla parda, menos un arma grande.
+    .suffix = Lleno

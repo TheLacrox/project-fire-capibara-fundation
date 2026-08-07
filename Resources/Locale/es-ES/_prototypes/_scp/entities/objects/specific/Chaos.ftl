@@ -3,7 +3,7 @@ ent-ChaosSpyUplinkImplant = implante de terminal
     .suffix = Caos
 ent-ChaosSpyUplinkImplanter = { ent-BaseImplanter }
     .desc = Una jeringuilla compacta de un solo uso, diseñada exclusivamente para administrar implantes subcutáneos. Después de usarla, asegúrate de limpiarla con jabón o un trapo para eliminar cualquier rastro de ADN.
-    .suffix = terminal, Caos
+    .suffix = Terminal, Caos
 
 ent-ActionOpenTerminalImplant = Abrir terminal
     .desc = Abre el terminal de la Insurgencia del Caos oculto bajo tu piel.

@@ -96,3 +96,6 @@ ent-AirlockStandardGlass = { ent-AirlockGlass }
 ent-AirlockXeno = { ent-Airlock }
     .suffix = Xeno
     .desc = { ent-Airlock.desc }
+ent-AirlockGlassXeno = { ent-AirlockGlass }
+    .suffix = Xeno
+    .desc = { ent-AirlockGlass.desc }

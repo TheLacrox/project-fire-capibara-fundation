@@ -1,0 +1,15 @@
+ent-WeaponShotgunSPAS12 = Spas-12
+    .desc = { ent-BaseWeaponShotgun.desc }
+ent-WeaponShotgunSPAS12Rubber = { ent-WeaponShotgunSPAS12 }
+    .suffix = No letal
+    .desc = { ent-WeaponShotgunSPAS12.desc }
+ent-WeaponShotgunTrenchgun4034 = Trenchgun L-4034
+    .desc = { ent-BaseWeaponShotgun.desc }
+ent-WeaponShotgunTrenchgun4034Sawn = Trenchgun L-4034 recortada
+    .desc = { ent-WeaponShotgunTrenchgun4034.desc }
+ent-WeaponShotgunTrenchgun4034SawnEmpty = Trenchgun L-4034 recortada
+    .suffix = Vacía
+    .desc = { ent-WeaponShotgunTrenchgun4034Sawn.desc }
+ent-WeaponShotgunMinotaurAdmeme = escopeta AS-12 «Hasta la vista»
+    .desc = Suave, potente, absolutamente ilegal. Una escopeta totalmente automática disponible en el mercado que usa cargadores de tambor estándar del calibre 12. Propiedad de Admeme-Marauders. Se puede empuñar a la vez que otra AS-12 para una carnicería máxima.
+    .suffix = Admeme

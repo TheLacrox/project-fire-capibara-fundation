@@ -1,0 +1,16 @@
+ent-FoodNoodlesBase = { ent-FoodInjectableBase }
+    .desc = ¡Eso sí que es buena pasta!
+ent-FoodNoodlesBoiled = espaguetis hervidos
+    .desc = Un plato de pasta a secas, le faltan ingredientes.
+ent-FoodNoodles = espaguetis
+    .desc = Espaguetis con tomate triturado. ¡Igual que los que hacía tu padre maltratador!
+ent-FoodNoodlesCopy = copypasta
+    .desc = Seguramente no deberías probarlo, siempre oyes a la gente hablar de lo malo que es...
+ent-FoodNoodlesMeatball = espaguetis con albóndigas
+    .desc = ¡Eso sí que es una buena albóndiga!
+ent-FoodNoodlesSpesslaw = spesslaw
+    .desc = El favorito de los abogados.
+ent-FoodNoodlesChowmein = chow mein
+    .desc = Una buena mezcla de fideos y verduras salteadas.
+ent-FoodNoodlesButter = fideos con mantequilla
+    .desc = Fideos cubiertos de sabrosa mantequilla. Sencillos y resbaladizos, pero deliciosos.

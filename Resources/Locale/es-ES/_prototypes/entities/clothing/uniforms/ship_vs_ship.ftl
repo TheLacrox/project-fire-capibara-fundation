@@ -1,0 +1,16 @@
+ent-ClothingUniformJumpsuitRecruitNT = mono de recluta
+    .desc = Un elegante mono gris con ribetes azules. Perfecto para el ayudante más digno.
+ent-ClothingUniformJumpsuitRecruitSyndie = mono de recluta del Sindicato
+    .desc = Un dudoso mono gris oscuro. Como si los pasajeros no fueran ya bastante sospechosos.
+ent-ClothingUniformJumpsuitRepairmanNT = mono de reparador
+    .desc = Un mono que te recuerda a cierto puesto de trabajo del sector de la tripulación. Ojalá no te toque hacer el mismo trabajo que ESOS chalados.
+ent-ClothingUniformJumpsuitRepairmanSyndie = mono de reparador del Sindicato
+    .desc = Funcional, elegante y con mucha chulería. Los ingenieros de Nanotrasen ojalá tuvieran tan buena pinta.
+ent-ClothingUniformJumpsuitParamedicNT = mono de paramédico
+    .desc = Un mono básico blanco y azul hecho para los paramédicos de Nanotrasen destinados en sectores de combate.
+ent-ClothingUniformJumpsuitParamedicSyndie = mono de paramédico del Sindicato
+    .desc = Por alguna razón, llevarlo puesto te hace sentir peligrosamente cerca de violar la Convención de Ginebra.
+ent-ClothingUniformJumpsuitChiefEngineerNT = mono de ingeniero jefe
+    .desc = Se suele bromear con que el puesto de ingeniero jefe del sector de combate es donde acaban ascendidos los ingenieros que de verdad piensan en logística. Suerte con eso.
+ent-ClothingUniformJumpsuitChiefEngineerSyndie = mono de ingeniero jefe del Sindicato
+    .desc = Un mono de aspecto siniestro con chaleco reflectante y camiseta interior roja.

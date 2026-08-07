@@ -1,0 +1,12 @@
+ent-CartridgeSRifleBase = cartucho (.20 rifle)
+    .desc = { ent-BaseCartridge.desc }
+    .suffix = { "" }
+ent-CartridgeSRifle = cartucho (.20 rifle)
+    .desc = { ent-CartridgeSRifleBase.desc }
+    .suffix = { "" }
+ent-CartridgeSRifleFlash = cartucho (.20 rifle, fogueo)
+    .desc = { ent-CartridgeSRifleBase.desc }
+    .suffix = { "" }
+ent-CartridgeSRiflePractice = cartucho (.20 rifle, prácticas)
+    .desc = { ent-CartridgeSRifleBase.desc }
+    .suffix = { "" }

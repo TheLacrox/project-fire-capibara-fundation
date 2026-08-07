@@ -1,0 +1,15 @@
+ent-RollerBed = camilla
+    .desc = Sirve para transportar pacientes sin hacerles daño.
+ent-RollerBedSpawnFolded = { ent-RollerBed }
+    .suffix = Plegada
+    .desc = { ent-RollerBed.desc }
+ent-CheapRollerBed = camilla
+    .desc = Una camilla destartalada. Sirve para transportar pacientes.
+ent-CheapRollerBedSpawnFolded = { ent-CheapRollerBed }
+    .suffix = Plegada
+    .desc = { ent-CheapRollerBed.desc }
+ent-EmergencyRollerBed = camilla
+    .desc = Una camilla de aspecto robusto para emergencias.
+ent-EmergencyRollerBedSpawnFolded = { ent-EmergencyRollerBed }
+    .suffix = Plegada
+    .desc = { ent-EmergencyRollerBed.desc }

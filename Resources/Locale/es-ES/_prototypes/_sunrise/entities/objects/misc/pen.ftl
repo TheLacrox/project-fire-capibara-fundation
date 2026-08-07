@@ -1,0 +1,12 @@
+ent-CEPen = bolígrafo del ingeniero jefe
+    .desc = En momentos difíciles puede sustituir a un destornillador.
+ent-CmoPen = bolígrafo del director médico
+    .desc = No usar como jeringuilla.
+ent-HosPen = bolígrafo del jefe de seguridad
+    .desc = Con él puedes taparle la boca a un infractor alborotado.
+ent-QmPen = bolígrafo del intendente
+    .desc = Perfecto para añadir ceros a los precios.
+ent-RdPen = bolígrafo del director de investigación
+    .desc = Investígalo.
+ent-UEGPen = bolígrafo del Gobierno Unido de la Tierra
+    .desc = Este bolígrafo lo entrega a los magistrados el alto tribunal del Gobierno Unido de la Tierra.

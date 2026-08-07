@@ -1,0 +1,14 @@
+ent-BaseCargoPallet = palé de carga
+    .desc = Un elemento habitual de logística y carga. Un recordatorio discreto de dónde van las cajas durante el transporte para evitar espinillas magulladas.
+ent-CargoPallet = { ent-BaseCargoPallet }
+    .desc = { ent-BaseCargoPallet.desc }
+ent-CargoPalletSell = palé de venta de carga
+    .desc = Marca los objetos válidos para vender. Está hecho de plastitanio para desanimar a los vándalos pesados.
+ent-CargoPalletBuy = palé de compra de carga
+    .desc = Marca dónde aparecerán los pedidos una vez comprados. Está hecho de plastitanio para desanimar a los vándalos pesados.
+ent-ContrabandPalletSell = palé de venta de carga
+    .desc = Marca los objetos de contrabando válidos para vender.
+    .suffix = Finanzas, Seguridad
+ent-SecurityPalletBuy = palé de compra de carga
+    .desc = Marca la compra de objetos de contrabando menor afines a Seguridad.
+    .suffix = Finanzas, Seguridad

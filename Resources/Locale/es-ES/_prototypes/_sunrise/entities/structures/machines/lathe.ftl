@@ -1,0 +1,11 @@
+ent-ExosuitFabricatorHyperConvection = fabricador de exotrajes de hiperconvección
+    .desc = Un fabricador de exotrajes muy experimental que aprovecha la potencia del calor extremo para crear objetos más despacio pero a menor coste.
+ent-AutolathePrisonMetus = autotorno de prisión
+    .desc = Produce objetos básicos de metal y vidrio conformes a las normas de la prisión.
+ent-PirateTechFab = fabricador pirata
+    .desc = Imprime armas, munición y equipo básicos para bandas indisciplinadas. El modelo de coste optimizado sacrifica velocidad y variedad a cambio de gastar menos recursos.
+ent-AmmoLathe = torno de munición
+    .suffix = Batalla de lanzaderas
+    .desc = Imprime munición y piezas de reparación para la tripulación del transbordador. El «modelo de coste optimizado» fabrica más despacio y con menos variedad.
+ent-SewingPrinterPrison = impresora de costura de prisión
+    .desc = Diseñada para producir artículos textiles y mantener el orden y la identificación dentro de la prisión.

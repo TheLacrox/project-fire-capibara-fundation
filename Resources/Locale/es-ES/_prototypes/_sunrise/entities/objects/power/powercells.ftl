@@ -1,0 +1,9 @@
+ent-PowerCellSyndicate = célula de energía del Sindicato
+    .desc = Una célula de energía estandarizada y recargable. Esta parece una rara y potente variante de combate del Sindicato.
+    .suffix = Completa
+ent-PowerCellNanoTrasen = célula de energía del ERT
+    .desc = Una célula de energía estandarizada y recargable. Esta parece una rara y potente variante de combate de NanoTrasen.
+    .suffix = Completa
+ent-MakeshiftPowerCage = jaula de energía improvisada
+    .desc = Una jaula de energía improvisada. No es gran cosa, pero es mejor que nada.
+    .suffix = Completa

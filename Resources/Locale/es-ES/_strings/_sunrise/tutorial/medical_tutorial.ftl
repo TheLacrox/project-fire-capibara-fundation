@@ -34,7 +34,7 @@ medical-tut-explain-analyzer-damage-chat = Es la suma de todo el daño del pacie
 medical-tut-explain-analyzer-damage-tts = El daño total indica lo grave que es el estado del paciente. Mira el detalle de abajo para elegir tratamiento.
 
 medical-tut-explain-analyzer-groups-bubble = La sección inferior muestra los grupos y los tipos de daño.
-medical-tut-explain-analyzer-groups-chat = El daño se divide en heridas físicas, quemaduras, toxinas y asfixia. Identifica primero el grupo y luego mira el tipo concreto y la cantidad. Eso te ayuda a elegir el tratamiento correcto.
+medical-tut-explain-analyzer-groups-chat = El daño se divide en traumatismos, quemaduras, toxinas y asfixia. Identifica primero el grupo y luego mira el tipo concreto y la cantidad. Eso te ayuda a elegir el tratamiento correcto.
 medical-tut-explain-analyzer-groups-tts = La sección inferior divide el daño en grupos y tipos concretos. Usa esa información para elegir el tratamiento adecuado.
 
 medical-tut-take-gauze-bubble = Recoge la gasa resaltada con [tutkeybind="UIClick"]. Cambia a la mano libre si hace falta.

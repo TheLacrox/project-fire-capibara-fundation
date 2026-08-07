@@ -1,0 +1,12 @@
+ent-BaseCartridgeHeavyLightRifle = cartucho (7,62R)
+    .desc = Un clásico cartucho de potencia plena del 7.62x54mmR que usan muchos rifles de combate, rifles de tirador y ametralladoras medias. Su mayor alcance frente a los cartuchos intermedios resulta poco práctico en los espacios estrechos de una nave, así que es más habitual en el combate de superficie o en armamento antiguo.
+ent-CartridgeHeavyLightRifle = cartucho (7,62R)
+    .desc = { ent-BaseCartridgeHeavyLightRifle.desc }
+ent-CartridgeHeavyLightRiflePractice = cartucho (7,62R, prácticas)
+    .desc = Un clásico cartucho de potencia plena del 7.62x54mmR que usan muchos rifles de combate, rifles de tirador y ametralladoras medias. Su mayor alcance frente a los cartuchos intermedios resulta poco práctico en los espacios estrechos de una nave, así que es más habitual en el combate de superficie o en armamento antiguo. La munición de tiza suele ser inofensiva y se usa para practicar.
+ent-CartridgeHeavyLightRifleIncendiary = cartucho (7,62R, incendiario)
+    .desc = Un clásico cartucho de potencia plena del 7.62x54mmR que usan muchos rifles de combate, rifles de tirador y ametralladoras medias. Su mayor alcance frente a los cartuchos intermedios resulta poco práctico en los espacios estrechos de una nave, así que es más habitual en el combate de superficie o en armamento antiguo. La munición incendiaria contiene un compuesto de ignición espontánea que prende fuego al objetivo.
+ent-CartridgeHeavyLightRifleUranium = cartucho (7,62R, uranio)
+    .desc = Un clásico cartucho de potencia plena del 7.62x54mmR que usan muchos rifles de combate, rifles de tirador y ametralladoras medias. Su mayor alcance frente a los cartuchos intermedios resulta poco práctico en los espacios estrechos de una nave, así que es más habitual en el combate de superficie o en armamento antiguo. La munición de uranio sustituye el núcleo de plomo del proyectil por material fisible, que irradia al objetivo desde dentro.
+ent-MagazineBoxHeavyRifle = caja de munición (7,62R)
+    .desc = { ent-BaseMagazineBoxHeavyRifle.desc }

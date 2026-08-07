@@ -1,0 +1,9 @@
+ent-ArcadeBase = máquina recreativa
+    .desc = Una máquina recreativa.
+ent-SpaceVillainArcade = recreativa de Villano espacial
+    .desc = { ent-ArcadeBase.desc }
+ent-SpaceVillainArcadeFilled = { ent-SpaceVillainArcade }
+    .suffix = Llena
+    .desc = { ent-SpaceVillainArcade.desc }
+ent-BlockGameArcade = Juego de bloques de NT
+    .desc = Una máquina recreativa con un juego extrañamente familiar.

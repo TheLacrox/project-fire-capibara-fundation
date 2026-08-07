@@ -1,0 +1,10 @@
+advertisement-donut-1 = ¡Todos llevamos un poli dentro!
+advertisement-donut-2 = ¡Espero que tengas hambre!
+advertisement-donut-3 = ¡Más de un millón de dónuts vendidos!
+advertisement-donut-4 = ¡Presumimos de la constancia de nuestros productos!
+advertisement-donut-5 = ¡Dulce, azucarado y delicioso!
+advertisement-donut-6 = ¡Tú dónut te preocupes y sé feliz!
+thankyou-donut-1 = ¡Que disfrutes de tu dónut!
+thankyou-donut-2 = ¡Otro dónut vendido!
+thankyou-donut-3 = ¡Que tenga un buen día, agente!
+thankyou-donut-4 = ¡Espero que te enganches!

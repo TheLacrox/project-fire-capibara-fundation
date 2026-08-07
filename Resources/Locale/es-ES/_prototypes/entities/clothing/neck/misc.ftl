@@ -1,2 +1,12 @@
+ent-ClothingNeckStethoscope = estetoscopio
+    .desc = Un aparato médico anticuado para escuchar los sonidos del cuerpo humano. Además, hace que parezca que sabes lo que haces.
 ent-ActionStethoscope = Auscultar con el estetoscopio
     .desc = { "" }
+ent-ClothingNeckBling = cadena de oro
+    .desc = Joder, qué bien sienta ser un gánster.
+ent-ClothingNeckLawyerbadge = placa de abogado
+    .desc = Una placa que demuestra que su portador es un abogado «legítimo» que aprobó el examen de acceso a la abogacía de NT necesario para ejercer.
+ent-Dinkystar = pegatina de estrella
+    .desc = ¡Una estrellita cutre solo para los oficiales de seguridad más trabajadores! Ya ni siquiera pega.
+ent-ClothingNeckHeadphones = auriculares
+    .desc = Auriculares de calidad de Drunk Masters, con un buen aislamiento acústico.

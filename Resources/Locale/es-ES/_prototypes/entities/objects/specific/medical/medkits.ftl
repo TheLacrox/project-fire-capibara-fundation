@@ -1,0 +1,16 @@
+ent-Medkit = botiquín
+    .desc = Es un botiquín de emergencia para esas pupas tan serias.
+ent-MedkitBurn = botiquín para quemaduras
+    .desc = Un botiquín especializado para cuando el laboratorio de toxinas arde espontáneamente.
+ent-MedkitToxin = botiquín para toxinas
+    .desc = Sirve para tratar la presencia de tóxicos en la sangre.
+ent-MedkitO2 = botiquín para asfixia
+    .desc = Una caja llena de delicias oxigenadas.
+ent-MedkitBrute = botiquín para traumatismos
+    .desc = Un botiquín para cuando te sacuden con una caja de herramientas.
+ent-MedkitAdvanced = botiquín avanzado
+    .desc = Un botiquín avanzado que ayuda a lidiar con heridas avanzadas.
+ent-MedkitRadiation = botiquín para radiación
+    .desc = Si te hubieras tomado el Rad-X no te haría falta esto.
+ent-MedkitCombat = botiquín de combate
+    .desc = Para las armas grandes que hay entre nosotros.

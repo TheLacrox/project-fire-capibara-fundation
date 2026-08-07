@@ -1,0 +1,3 @@
+ent-AnomalyClown = { ent-BaseAnomaly }
+    .suffix = Payaso
+    .desc = Por lo demás es un coche normal, pero parece doblar el espacio mismo en su interior. Notas que las criaturas de dentro vienen a hacerte reír a toda costa...

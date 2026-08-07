@@ -1,0 +1,11 @@
+ent-ScpDoubleBlastDoor = compuerta blindada doble
+    .desc = La puerta pesada de la esclusa hermética. Más te vale no quedarte en medio mientras funcionan.
+ent-ScpDoubleBlastDoorOpen = { ent-ScpDoubleBlastDoor }
+    .suffix = Abierta
+    .desc = { ent-ScpDoubleBlastDoor.desc }
+ent-ScpDoubleBlastDoorNoSound = { ent-ScpDoubleBlastDoor }
+    .suffix = Sin sonido
+    .desc = { ent-ScpDoubleBlastDoor.desc }
+ent-ScpDoubleBlastDoorOpenNoSound = { ent-ScpDoubleBlastDoorOpen }
+    .suffix = Abierta | sin sonido
+    .desc = { ent-ScpDoubleBlastDoorOpen.desc }

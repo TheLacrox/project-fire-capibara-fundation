@@ -1,0 +1,10 @@
+ent-ChairCarp = silla de carpa
+    .desc = Una silla lujosa; sus muchas escamas moradas reflejan la luz de la forma más agradable.
+ent-ComfyChairBrown = silla cómoda marrón
+    .desc = Parece cómoda.
+ent-ChairOfficeGrey = silla de oficina gris
+    .desc = { ent-ChairOfficeLight.desc }
+ent-ChairBarber = silla de barbero
+    .desc = { ent-StoolBase.desc }
+ent-ChairAbductor = silla de abductor
+    .desc = Ser secuestrador no va solo del romanticismo de los viajes interestelares y los experimentos de biología primitiva. También va de horas de estar sentado sin hacer nada delante de monitores de vigilancia y de trabajo meticuloso con manipuladores quirúrgicos. Cuídate la espalda: la cifosis no es precisamente la seña de identidad de un duro secuestrador alienígena.

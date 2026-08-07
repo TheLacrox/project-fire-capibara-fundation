@@ -1,3 +1,7 @@
+ent-AdminObserver = observador de administración
+    .desc = { ent-MobObserverBase.desc }
+ent-BaseAGhostAction = { ent-BaseAction }
+    .desc = { ent-BaseAction.desc }
 ent-ActionAGhostShowSolar = Interfaz de control solar
     .desc = Abre una interfaz de control solar.
 ent-ActionAGhostShowCommunications = Interfaz de comunicaciones

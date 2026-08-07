@@ -1,0 +1,9 @@
+ent-AbductorConsole = consola de abductor
+    .desc = Un ordenador que se usa para espiar la estación.
+ent-AbductorHumanObservationConsole = consola de observación de humanos
+    .desc = Úsala para fijar el destino del teletransportador.
+ent-AbductorHumanObservationConsoleEye = ojo de abductor
+    .desc = El visor del abductor.
+    .suffix = NO MAPEAR
+ent-SlopDispenser = dispensador de pasta nutritiva
+    .desc = Produce el bodrio a partir de biomasa. También puede convertir plantas en biomasa para usarla directamente.

@@ -1,0 +1,11 @@
+ent-ClothingHeadSoftsuitCBURN = casco de la CBURN
+    .desc = Un casco pesado e ignífugo que usan las unidades especiales de limpieza.
+ent-ClothingHeadHelmetPirate = casco EVA pirata
+    .desc = Un casco de traje presurizado. Tiene un par de grietas serias, pero tranquilo: la cinta americana lo arregla todo.
+ent-ClothingHeadHelmetPirateAlt = casco EVA pirata
+    .desc = Un casco de traje presurizado con una calavera pintada, para abordar con estilo.
+ent-ClothingHeadHelmetPirateOld = casco de traje presurizado pirata
+    .desc = Un casco especial de traje presurizado, hecho para la Goleta.
+    .suffix = Pirata, Sunrise
+ent-ClothingHeadHelmetPirateAlt2 = casco EVA pirata
+    .desc = Un casco de traje presurizado.

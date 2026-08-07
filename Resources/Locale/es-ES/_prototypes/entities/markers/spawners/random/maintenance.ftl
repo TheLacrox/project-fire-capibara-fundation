@@ -1,0 +1,15 @@
+ent-MaintenanceFluffSpawner = generador de botín de mantenimiento
+    .suffix = Atrezo + ropa
+    .desc = { ent-MarkerBase.desc }
+ent-MaintenanceToolSpawner = generador de botín de mantenimiento
+    .suffix = Herramientas + celdas + materiales
+    .desc = { ent-MarkerBase.desc }
+ent-MaintenanceWeaponSpawner = generador de botín de mantenimiento
+    .suffix = Chatarra + armas
+    .desc = { ent-MarkerBase.desc }
+ent-MaintenancePlantSpawner = generador de botín de mantenimiento
+    .suffix = Plantas
+    .desc = { ent-MarkerBase.desc }
+ent-MaintenanceInsulsSpawner = generador de botín de mantenimiento
+    .suffix = Guantes aislantes, seguro
+    .desc = { ent-MarkerBase.desc }

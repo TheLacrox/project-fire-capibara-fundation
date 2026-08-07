@@ -1,2 +1,14 @@
+ent-ClothingShoesBootsMagBase = botas magnéticas
+    .desc = Unas botas magnéticas, muy usadas durante las actividades extravehiculares para que quien las lleva siga bien sujeto al vehículo.
+ent-ClothingShoesBootsMag = { ent-ClothingShoesBootsMagBase }
+    .desc = { ent-ClothingShoesBootsMagBase.desc }
+ent-ClothingShoesBootsMagAdv = botas magnéticas avanzadas
+    .desc = Unas botas magnéticas de última generación que no ralentizan a quien las lleva.
+ent-ClothingShoesBootsMagSci = { ent-ClothingShoesBootsMagBase }
+    .desc = { ent-ClothingShoesBootsMagBase.desc }
+ent-ClothingShoesBootsMagBlinding = botas magnéticas de velocidad cegadora
+    .desc = Le quedarían de fábula a alguien tan mandado como tú.
+ent-ClothingShoesBootsMagSyndie = botas magnéticas rojo sangre
+    .desc = Unas botas magnéticas de ingeniería inversa con una fuerte atracción magnética y propulsores integrados. Puede contener 0,75 L de gas.
 ent-ActionToggleMagboots = Activar o desactivar las botas magnéticas
     .desc = Activa o desactiva las botas magnéticas.

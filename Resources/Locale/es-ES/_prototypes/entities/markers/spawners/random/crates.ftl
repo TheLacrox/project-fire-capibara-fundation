@@ -1,0 +1,12 @@
+ent-CrateEmptySpawner = generador de caja vacía
+    .desc = { ent-MarkerBase.desc }
+ent-CrateFilledSpawner = generador de caja llena
+    .suffix = Valor bajo
+    .desc = { ent-MarkerBase.desc }
+ent-LootSpawnerRandomCrateEngineering = generador de caja de ingeniería aleatoria
+    .desc = { ent-MarkerBase.desc }
+ent-LootSpawnerRandomCrateSecurity = generador de caja de seguridad aleatoria
+    .desc = { ent-MarkerBase.desc }
+ent-LootSpawnerRandomLockbox = generador de caja fuerte aleatoria
+    .suffix = 90 %
+    .desc = { ent-MarkerBase.desc }

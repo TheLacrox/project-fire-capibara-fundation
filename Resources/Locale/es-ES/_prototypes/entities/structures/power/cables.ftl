@@ -1,0 +1,17 @@
+ent-CableBase = { "" }
+    .desc = { "" }
+ent-CableHV = cable de alta tensión
+    .desc = Un cable eléctrico naranja de alta tensión.
+ent-CableHVUncuttable = { ent-CableHV }
+    .suffix = No se puede cortar
+    .desc = { ent-CableHV.desc }
+ent-CableMV = cable de media tensión
+    .desc = Un cable eléctrico de media tensión.
+ent-CableMVUncuttable = { ent-CableMV }
+    .suffix = No se puede cortar
+    .desc = { ent-CableMV.desc }
+ent-CableApcExtension = cable de baja tensión
+    .desc = Un cable que se usa para conectar máquinas a un APC.
+ent-CableApcExtensionUncuttable = { ent-CableApcExtension }
+    .suffix = No se puede cortar
+    .desc = { ent-CableApcExtension.desc }

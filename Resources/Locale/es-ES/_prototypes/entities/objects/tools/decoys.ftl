@@ -1,0 +1,12 @@
+ent-BaseDecoy = { ent-BaseItem }
+    .desc = { ent-BaseItem.desc }
+ent-BalloonOperative = globo de operativo
+    .desc = Si te fijas bien, este operativo del Sindicato es en realidad un globo.
+ent-BalloonAgent = globo de sanitario
+    .desc = Si te fijas bien, este sanitario del Sindicato es en realidad un globo.
+ent-BalloonElite = globo de operativo de élite
+    .desc = Si te fijas bien, este operativo de élite del Sindicato es en realidad un globo.
+ent-BalloonJuggernaut = globo de juggernaut
+    .desc = Si te fijas bien, este juggernaut del Sindicato es en realidad un globo.
+ent-BalloonCommander = globo de comandante
+    .desc = Si te fijas bien, este comandante del Sindicato es en realidad un globo.

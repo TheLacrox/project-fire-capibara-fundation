@@ -1,0 +1,10 @@
+ent-APCElectronics = circuito electrónico de APC
+    .desc = Circuito que se utiliza para construir un APC.
+ent-WallmountSubstationElectronics = circuito electrónico de subestación mural
+    .desc = Circuito que se utiliza para construir una subestación mural.
+ent-WallmountGeneratorElectronics = circuito electrónico de generador mural
+    .desc = Circuito que se utiliza para construir un generador mural.
+ent-WallmountGeneratorAPUElectronics = circuito electrónico de APU mural
+    .desc = Circuito que se utiliza para construir una APU mural.
+ent-SolarTrackerElectronics = circuito electrónico de seguidor solar
+    .desc = Placa de circuito avanzada que se utiliza para seguir la estrella más cercana.

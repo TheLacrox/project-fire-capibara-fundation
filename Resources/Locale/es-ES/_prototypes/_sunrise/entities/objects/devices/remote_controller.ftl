@@ -1,0 +1,15 @@
+ent-RemoteShuttleControllerBase = { ent-BaseItem }
+    .desc = { ent-BaseItem.desc }
+ent-RemoteAssaultOpsShuttleController = mando a distancia de lanzadera (unidad de distracción)
+    .desc = ¡Ahora no necesitas piloto, porque el piloto eres tú!
+ent-RemoteNukeOpShuttleController = mando a distancia de lanzadera (operativos nucleares)
+    .desc = ¡Ahora no necesitas piloto, porque el piloto eres tú!
+ent-RemoteSecurityShuttleController = mando a distancia de lanzadera (lanzadera de seguridad)
+    .desc = ¡Ahora no necesitas piloto, porque el piloto eres tú!
+ent-RemoteCargoShuttleController = mando a distancia de lanzadera (lanzadera de carga)
+    .desc = ¡Ahora no necesitas piloto, porque el piloto eres tú!
+ent-RemotePrisonShuttleController = mando a distancia de lanzadera (lanzadera de prisión)
+    .desc = ¡Ahora no necesitas piloto, porque el piloto eres tú!
+ent-DoorRemoteOmni = mando universal de puertas
+    .suffix = CentComm
+    .desc = { ent-DoorRemoteDefault.desc }

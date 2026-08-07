@@ -1,0 +1,10 @@
+ent-SwordMakeshift = espada chapucera
+    .desc = Un trozo de acero afilado sujeto a una varilla metálica; difícilmente se le puede llamar espada.
+ent-SwordImprovised = espada improvisada
+    .desc = No está muy afilada, pero cumple de sobra.
+ent-SwordForged = espada forjada
+    .desc = Hecha de plastacero; basta un roce con la hoja para hacer sangre.
+ent-SwordFlaming = rompealbas
+    .desc = ¿Cómo se perfecciona la perfección? ¡Pues con fuego, claro! ¡Sé la luz que ilumina mantenimiento y lucha con valentía!
+ent-ClaymoreForged = rompemareas
+    .desc = ¡El arma perfecta para un aspirante a caballero de mantenimiento!

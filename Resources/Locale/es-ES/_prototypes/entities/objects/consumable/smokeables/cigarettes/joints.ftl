@@ -1,0 +1,10 @@
+ent-Joint = porro
+    .desc = Materia vegetal seca enrollada en papel fino.
+ent-JointRainbow = porro
+    .desc = Materia vegetal seca enrollada en papel fino. Parece que por dentro es de colores.
+    .suffix = Arcoíris
+ent-Blunt = puro de cannabis
+    .desc = Materia vegetal seca enrollada en una hoja de tabaco seca.
+ent-BluntRainbow = puro de cannabis
+    .desc = Materia vegetal seca enrollada en una hoja de tabaco seca. Parece que por dentro es de colores.
+    .suffix = Arcoíris

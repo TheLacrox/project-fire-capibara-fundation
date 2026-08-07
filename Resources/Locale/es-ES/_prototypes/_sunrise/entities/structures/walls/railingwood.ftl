@@ -1,0 +1,10 @@
+ent-BaseRailingWood = barandilla de madera
+    .desc = Barandilla de madera sencilla, pensada para evitar que idiotas como tú se caigan. Esta tiene su estilo.
+ent-RailingWood = { ent-BaseRailingWood }
+    .desc = { ent-BaseRailingWood.desc }
+ent-RailingCornerWood = { ent-BaseRailingWood }
+    .desc = { ent-BaseRailingWood.desc }
+ent-RailingCornerWoodSmall = { ent-BaseRailingWood }
+    .desc = { ent-BaseRailingWood.desc }
+ent-RailingRoundWood = { ent-BaseRailingWood }
+    .desc = { ent-BaseRailingWood.desc }

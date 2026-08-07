@@ -10,7 +10,7 @@ head-announce-on-spawn = { $name }, { $job }, ha sido designado jefe del departa
 squad-commander-announce-on-spawn = { $name }, { $job }, ha sido designado comandante de la unidad.
 class-d-announce-on-spawn = Se ha registrado un nuevo miembro del personal de clase D: { $name }, { $job }.
 mtf-announce-on-spawn =
-    ¡ATENCIÓN! Una Fuerza Operativa Móvil ha entrado en el complejo.
+    ¡ATENCIÓN! Una MTF ha entrado en el complejo.
     Se recomienda a todos los supervivientes que permanezcan en el refugio o en cualquier otro lugar seguro hasta que la fuerza haya despejado el complejo.
 
 chaos-announce-on-spawn =

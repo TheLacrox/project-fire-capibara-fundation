@@ -1,0 +1,9 @@
+ent-SpectralLocatorUnpowered = localizador espectral
+    .desc = Parece un localizador de anomalías modificado. Se ve muy viejo.
+    .suffix = Sin energía
+ent-SpectralLocator = { ent-SpectralLocatorUnpowered }
+    .suffix = Con energía
+    .desc = { ent-SpectralLocatorUnpowered.desc }
+ent-SpectralLocatorEmpty = { ent-SpectralLocator }
+    .suffix = Vacío
+    .desc = { ent-SpectralLocator.desc }

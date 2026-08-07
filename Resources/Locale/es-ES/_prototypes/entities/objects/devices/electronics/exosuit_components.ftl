@@ -1,0 +1,16 @@
+ent-BaseExosuitParts = componentes base
+    .desc = { ent-BaseItem.desc }
+ent-DurandArmorPlate = placas de blindaje de durand
+    .desc = Placas de blindaje de plastacero para el exotraje Durand.
+ent-GygaxArmorPlate = placas de blindaje de gygax
+    .desc = Placas de blindaje de acero para el exotraje Gygax.
+ent-PhazonArmorPlate = placas de blindaje de phazon
+    .desc = Placas de blindaje de acero para el exotraje Phazon.
+ent-RipleyUpgradeKit = kit de mejora de exotraje
+    .desc = Este kit permite montar un exotraje Ripley MK-II.
+ent-MechAirTank = bombona de aire de exotraje
+    .desc = Una bombona de aire especial capaz de almacenar una gran cantidad de aire.
+ent-MechThruster = propulsor de exotraje
+    .desc = Un propulsor con el que el exotraje puede moverse con seguridad en ausencia de gravedad.
+ent-MechPhasicScanningModule = módulo de escaneo fásico
+    .desc = Una pieza de aplicación que se emplea en la construcción de varios dispositivos.

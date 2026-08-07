@@ -1,0 +1,16 @@
+ent-ShellShotgunImprovisedEmpty = cartucho improvisado vacío
+    .desc = Una vaina hueca de escopeta hecha a mano que puede llenarse con una variedad de perdigones caseros bastante mortíferos.
+ent-ShellShotgunImprovised = cartucho de escopeta improvisado
+    .desc = Un cartucho de escopeta casero que dispara dolorosa metralla de vidrio. La dispersión es tan amplia que no acertaría ni a la pared de un granero.
+ent-ShellShotgunImprovisedIncendiary = cartucho improvisado (incendiario)
+    .desc = Un cartucho de escopeta casero que dispara metralla de vidrio ardiendo. La dispersión es tan amplia que no acertaría ni a la pared de un granero.
+ent-ShellShotgunImprovisedUranium = cartucho improvisado (vidrio de uranio)
+    .desc = Un cartucho de escopeta casero que dispara dolorosa metralla de vidrio de uranio. La dispersión es tan amplia que no acertaría ni a la pared de un granero.
+ent-ShellShotgunCoin = cartucho improvisado (bala de monedas)
+    .desc = Una bala de escopeta casera que dispara un cilindro de monedas. El montón tiende a deshacerse con el disparo, lo que limita su alcance efectivo.
+ent-ShellShotgunBooze = cartucho (.50, alcohol)
+    .desc = { ent-BaseShellHitscanShotgun.desc }
+ent-ShellShotgunHoly = cartucho (.50, sagrado)
+    .desc = { ent-BaseShellShotgun.desc }
+ent-ShellShotgunBirdshot = perdigones finos de calibre 12
+    .desc = Un cartucho de dispersión amplia cargado con decenas de perdigones diminutos. Devastador a bocajarro, casi inútil a distancia.

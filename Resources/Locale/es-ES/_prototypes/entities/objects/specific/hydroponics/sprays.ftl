@@ -1,0 +1,9 @@
+ent-PlantBGoneSpray = Plant-B-Gone
+    .desc = ¡Acaba con esas malas hierbas tan pesadas!
+    .suffix = Lleno
+ent-WeedSpray = espray antihierbas
+    .desc = Es una mezcla tóxica en espray para matar las hierbas pequeñas.
+    .suffix = Lleno
+ent-PestSpray = espray antiplagas
+    .desc = ¡Es un espray eliminador de plagas! ¡No lo inhales!
+    .suffix = Lleno

@@ -1,0 +1,12 @@
+ent-SpawnMobAdultSlimesBlue = generador de limos azules
+    .desc = { ent-MarkerBase.desc }
+ent-SpawnMobAdultSlimesBlueAngry = generador de limos azules enfadados
+    .desc = { ent-MarkerBase.desc }
+ent-SpawnMobAdultSlimesGreen = generador de limos verdes
+    .desc = { ent-MarkerBase.desc }
+ent-SpawnMobAdultSlimesGreenAngry = generador de limos verdes enfadados
+    .desc = { ent-MarkerBase.desc }
+ent-SpawnMobAdultSlimesYellow = generador de limos amarillos
+    .desc = { ent-MarkerBase.desc }
+ent-SpawnMobAdultSlimesYellowAngry = generador de limos amarillos enfadados
+    .desc = { ent-MarkerBase.desc }

@@ -1,0 +1,14 @@
+advertisement-goodcleanfun-1 = ¡Evádete a un mundo de fantasía!
+advertisement-goodcleanfun-2 = ¡Alimenta tu ludopatía!
+advertisement-goodcleanfun-3 = ¡Arruina tus amistades!
+advertisement-goodcleanfun-4 = ¡Tirada de iniciativa!
+advertisement-goodcleanfun-5 = ¡Elfos y enanos!
+advertisement-goodcleanfun-6 = ¡Ordenadores paranoicos!
+advertisement-goodcleanfun-7 = ¡Nada satánico en absoluto!
+advertisement-goodcleanfun-8 = ¡Diversión para siempre!
+advertisement-goodcleanfun-9 = ¡Criptas y Carpas!
+advertisement-goodcleanfun-10 = ¡Juega con tus amigos!
+thankyou-goodcleanfun-1 = ¡Que te diviertas!
+thankyou-goodcleanfun-2 = ¡Ahora sí que juegas en serio!
+thankyou-goodcleanfun-3 = ¡Anda, ve a echar la partida!
+thankyou-goodcleanfun-4 = ¡Empieza a rellenar las hojas de personaje!

@@ -1,0 +1,10 @@
+ent-BaseTarget = { ent-BaseStructureDynamic }
+    .desc = { ent-BaseStructureDynamic.desc }
+ent-TargetHuman = diana humana
+    .desc = Una diana de tiro. Esta es un humano.
+ent-TargetSyndicate = diana del Sindicato
+    .desc = Una diana de tiro. Esta es un agente del Sindicato.
+ent-TargetClown = diana de payaso
+    .desc = Una diana de tiro. Esta es un payaso.
+ent-TargetStrange = diana extraña
+    .desc = Una diana de tiro. No tienes muy claro qué es esta, pero parece especialmente robusta.

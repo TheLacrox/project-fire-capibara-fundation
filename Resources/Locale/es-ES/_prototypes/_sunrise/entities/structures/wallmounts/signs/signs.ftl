@@ -1,0 +1,16 @@
+ent-SignSec = cartel de seguridad
+    .desc = Un cartel que señala el departamento de Seguridad.
+ent-SignLastIdiot = Cero días desde el último idiota
+    .desc = Debe de ser un chiste de Ingeniería.
+ent-SignConspiracyBoard = tablón de conspiraciones
+    .desc = Perfecto para seguir la pista a las múltiples capas de una trama delictiva.
+ent-SignDojo = cartel de dojo
+    .desc = Un cartel que señala un lugar con disciplina y tatamis.
+ent-SignCoreXeno = cartel de núcleo
+    .desc = Un cartel que señala el núcleo del xenoborg. Qué amables al marcártelo.
+ent-SignDoorsXeno = cartel de puertas
+    .desc = Un cartel que avisa de las puertas. No te quedes en medio cuando se cierren; no querrás acabar hecho papilla, ¿verdad?
+ent-SignPowerXeno = cartel de energía
+    .desc = Un cartel que señala los sistemas eléctricos del xenoborg. Peligro eléctrico más adelante.
+ent-SignSpaceXeno = cartel de espacio
+    .desc = Un cartel que indica que estas puertas dan al espacio. ¡Ese pesado xenoborg podría perderse para siempre! No acabes como él.

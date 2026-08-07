@@ -1,0 +1,10 @@
+ent-BaseKeyedInstrument = { ent-BaseHandheldInstrument }
+    .desc = { ent-BaseHandheldInstrument.desc }
+ent-SynthesizerInstrument = sintetizador
+    .desc = { ent-BaseKeyedInstrument.desc }
+ent-SuperSynthesizerInstrument = supersintetizador
+    .desc = Reventando el barrio a base de MIDIs de Touhou desde 2020.
+ent-AccordionInstrument = acordeón
+    .desc = { ent-BaseKeyedInstrument.desc }
+ent-KalimbaInstrument = kalimba
+    .desc = La potencia de un piano al alcance de tus pulgares.

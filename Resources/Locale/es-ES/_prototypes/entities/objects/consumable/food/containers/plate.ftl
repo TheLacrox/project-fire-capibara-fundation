@@ -1,0 +1,16 @@
+ent-FoodPlate = plato grande
+    .desc = Un plato grande, excelente para el pan.
+ent-FoodPlateTrash = plato roto
+    .desc = Un plato roto. Inservible.
+ent-FoodPlateSmall = plato pequeño
+    .desc = Un plato pequeño. Delicado.
+ent-FoodPlateSmallTrash = { ent-FoodPlateTrash }
+    .desc = { ent-FoodPlateTrash.desc }
+ent-FoodPlatePlastic = plato de plástico
+    .desc = Un plato grande de plástico azul, excelente para una tarta de cumpleaños.
+ent-FoodPlateSmallPlastic = plato de plástico
+    .desc = Un plato de plástico azul, excelente para las porciones de tarta de cumpleaños.
+ent-FoodPlateTin = molde para tarta
+    .desc = Un molde de aluminio barato para tartas.
+ent-FoodPlateMuffinTin = molde para magdalenas
+    .desc = Un molde de aluminio barato para magdalenas.

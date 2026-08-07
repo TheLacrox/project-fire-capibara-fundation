@@ -1,0 +1,14 @@
+ent-JugBluespace = garrafa bluespace
+    .desc = Usa tecnología bluespace para contener una cantidad imposible de líquido.
+ent-VialBluespace = vial bluespace
+    .desc = Un vial creado con tecnología bluespace.
+ent-MiniSyringeRSMedical = minijeringuilla tóxica
+    .desc = Una jeringuilla compacta llena de un cóctel químico agresivo para un cíborg médico renegado.
+ent-MiniSyringePyraDerma = minijeringuilla para quemaduras
+    .desc = Una jeringuilla desechable y compacta llena de una mezcla para tratar quemaduras.
+ent-MiniSyringePunctTranex = minijeringuilla para traumatismos
+    .desc = Una jeringuilla desechable y compacta llena de una mezcla para tratar traumatismos.
+ent-MiniSyringeDexPlusSaline = minijeringuilla de oxigenación
+    .desc = Una jeringuilla desechable y compacta llena de una mezcla oxigenante.
+ent-MiniSyringeEphedrine = minijeringuilla estimulante
+    .desc = Una jeringuilla desechable y compacta llena de una dosis de estimulante.

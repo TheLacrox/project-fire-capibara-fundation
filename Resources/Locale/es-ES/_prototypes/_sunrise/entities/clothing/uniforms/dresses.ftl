@@ -1,0 +1,16 @@
+ent-UniformDressMaidBlue = vestido de doncella azul
+    .desc = ¡Siéntete como un personaje de anime!
+ent-UniformDressMaidLong = vestido de doncella largo
+    .desc = Para los amantes de los vestidos clásicos y de lo práctico.
+ent-UniformDressMaidPink = vestido de doncella rosa
+    .desc = ¡Siéntete como un personaje de anime!
+ent-UniformDressSexy = vestido sexi
+    .desc = ¡Un centímetro de tela que se te caiga y Seguridad te detiene!
+ent-UniformDressSuccubusBlack = vestido negro de súcubo con alas
+    .desc = Este vestido desprende una magia infernal... ¡y las alas van de regalo!
+ent-UniformDressSuccubusWhite = vestido blanco de súcubo
+    .desc = Este vestido desprende una magia infernal... ¡y las alas van de regalo!
+ent-UniformDressTango = vestido de tango
+    .desc = ¡Siente el ritmo girando al son de «La cumparsita»!
+ent-UniformDressXeno = vestido xeno
+    .desc = Elegancia y horror a la vez.

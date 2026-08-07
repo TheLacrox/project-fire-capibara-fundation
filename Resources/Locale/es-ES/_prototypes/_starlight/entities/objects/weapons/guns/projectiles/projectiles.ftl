@@ -1,0 +1,12 @@
+ent-BaseBulletStarlight = BaseBullet
+    .desc = ¡Si puedes ver esto, probablemente estés muerto!
+ent-BulletAdvTaser = virote de táser
+    .desc = { ent-BaseBulletStarlight.desc }
+ent-BaseBulletRubber = { ent-BaseBulletStarlight }
+    .desc = { ent-BaseBulletStarlight.desc }
+ent-BulletEnergyCrossbow = { ent-BaseBullet }
+    .desc = { ent-BaseBullet.desc }
+ent-BulletMiniEnergyCrossbow = { ent-BulletEnergyCrossbow }
+    .desc = { ent-BulletEnergyCrossbow.desc }
+ent-BulletGrenadeCleanadeSyndicate = proyectil de granada limpianada maligna
+    .desc = Un proyectil limpianada de calidad Sindicato, lleno de espuma limpiadora agresiva.

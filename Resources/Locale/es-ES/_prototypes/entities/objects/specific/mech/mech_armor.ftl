@@ -1,0 +1,14 @@
+ent-MechArmorThin = blindaje de meca (fino)
+    .desc = Un blindaje mínimo que reduce ligeramente el daño.
+ent-MechArmorLight = blindaje de meca (ligero)
+    .desc = Blindaje ligero de meca: reduce moderadamente el daño físico y por calor.
+ent-MechArmorMediumNT = blindaje de meca (medio NT)
+    .desc = Blindaje medio de meca de Nanotrasen: protección sólida frente al fuego de armas ligeras y una resistencia menor al calor.
+ent-MechArmorHeavyNT = blindaje de meca (pesado NT)
+    .desc = Blindaje pesado de meca de Nanotrasen: gran resistencia física y una resistencia media al calor.
+ent-MechArmorMediumSyndi = blindaje de meca (medio sindi)
+    .desc = Blindaje medio del Sindicato: protección decente, con una resistencia física mejorada.
+ent-MechArmorHeavySyndi = blindaje de meca (pesado sindi)
+    .desc = Blindaje pesado del Sindicato: fuerte frente al daño físico y modesto frente al calor.
+ent-BorgArmorSilicon = blindaje de cíborg
+    .desc = Blindaje estándar de cíborg.

@@ -1,0 +1,14 @@
+advertisement-lawdrobe-1 = ¡PROTESTO! ¡Pon el imperio de la ley de tu parte!
+advertisement-lawdrobe-2 = ¡Da la lata a seguridad hasta que acaten tus propias normas!
+advertisement-lawdrobe-3 = ¿Acaba de entrar un caso nuevo? ¡Ve a sacarlos de la cárcel!
+advertisement-lawdrobe-4 = ¡Un donut al día mantiene a seguridad en la lejanía!
+advertisement-lawdrobe-5 = ¡Nadie está por encima de la ley!
+advertisement-lawdrobe-6 = ¡No, agente, no consiento que me registre!
+advertisement-lawdrobe-7 = ¡Inyectarse drogas espaciales no deja pruebas!
+advertisement-lawdrobe-8 = ¿Nanotrasen te ha hecho daño a ti o a un ser querido? ¡Qué pena!
+advertisement-lawdrobe-9 = ¡Caso cerrado! ¡El acusado va demasiado estiloso!
+thankyou-lawdrobe-1 = ¡Con ese conjunto puedes ganar cualquier caso!
+thankyou-lawdrobe-2 = ¡Llévate otro para tu cliente!
+thankyou-lawdrobe-3 = ¡Ganes o pierdas, cobras igual!
+thankyou-lawdrobe-4 = ¡Recuerda: solo es ilegal si te pillan!
+thankyou-lawdrobe-5 = ¡PROTESTO! ¡Ese conjunto es demasiado guay para un juzgado!

@@ -1,0 +1,10 @@
+ent-BikeHorn = bocina de bicicleta
+    .desc = Una bocina sacada de una bicicleta.
+ent-CluwneHorn = bocina de bicicleta rota
+    .desc = Una bocina rota sacada de una bicicleta.
+ent-GoldenBikeHorn = claxon dorado
+    .desc = Un premio de honk feliz, reza a los dioses por tu recompensa.
+ent-BananiumHorn = bocina de bananio
+    .desc = Una bocina de aire hecha de bananio.
+ent-PushHorn = bocina de empujar
+    .desc = Esta potente bocina de bicicleta espantará cualquier mal humor.

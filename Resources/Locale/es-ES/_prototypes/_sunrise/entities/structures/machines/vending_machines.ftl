@@ -1,0 +1,12 @@
+ent-VendingMachineBarber = barberWend
+    .desc = Aquí puedes comprar artículos para arreglar un peinado desastroso.
+ent-VendingMachineClown = HohohonkersVend
+    .desc = ¡Consigue aquí tu dosis de honk! Sorprende a la estación con HohohonkersVend, la máquina definitiva para bromas desternillantes. ¡Trucándola desbloquearás algo especial!
+ent-VendingMachinePrisonDrobe = PrisonDrobe
+    .desc = Un legado de los antiguos módulos penitenciarios, adaptado a las instalaciones modernas con aislamiento total entre personal y reclusos.
+ent-VendingMachineEVASuitDispenser = dispensador de trajes EVA
+    .desc = Una máquina expendedora de trajes EVA y cascos para uso de emergencia.
+ent-VendingMachineMedicalSecuritySalvaged = NanoMed Security recuperada
+    .desc = Un dispensador de medicamentos maltrecho con las sobras del turno anterior dentro.
+ent-VendingMachineWallMedicalSecurity = NanoMed Security mural
+    .desc = Un dispensador mural de medicamentos para el personal de seguridad. ¡Solo sustancias naturales!

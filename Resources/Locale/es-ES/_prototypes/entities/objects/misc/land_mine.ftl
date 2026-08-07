@@ -1,0 +1,17 @@
+ent-BaseLandMine = { "" }
+    .desc = { "" }
+ent-LandMineKickUnarmed = mina de patada
+    .desc = { ent-BaseLandMine.desc }
+ent-LandMineKick = { ent-LandMineKickUnarmed }
+    .suffix = Armada
+    .desc = { ent-LandMineKickUnarmed.desc }
+ent-LandMineModularUnarmed = mina modular
+    .desc = Este trasto podría contener toda clase de peligros. O la bocina de una bicicleta.
+ent-LandMineModular = { ent-LandMineModularUnarmed }
+    .suffix = Armada
+    .desc = { ent-LandMineModularUnarmed.desc }
+ent-LandMineExplosiveUnarmed = mina explosiva
+    .desc = { ent-BaseLandMine.desc }
+ent-LandMineExplosive = { ent-LandMineExplosiveUnarmed }
+    .suffix = Armada
+    .desc = { ent-LandMineExplosiveUnarmed.desc }

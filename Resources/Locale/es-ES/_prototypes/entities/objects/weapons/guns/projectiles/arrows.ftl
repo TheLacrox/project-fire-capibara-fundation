@@ -1,0 +1,14 @@
+ent-BaseArrow = { ent-BaseItem }
+    .desc = { ent-BaseItem.desc }
+ent-ArrowRegular = flecha
+    .desc = Sientes el poder de la estepa dentro de ti.
+ent-ArrowImprovised = flecha de esquirla de cristal
+    .desc = El proyectil preferido de la marea gris.
+ent-ArrowImprovisedPlasma = flecha de cristal de plasma
+    .desc = El proyectil preferido de la marea gris. ¡Ahora aún más letal!
+ent-ArrowImprovisedUranium = flecha de cristal de uranio
+    .desc = El proyectil preferido de la marea gris. ¡Ahora con radiación añadida!
+ent-ArrowImprovisedCarp = flecha de diente de carpa
+    .desc = La flecha preferida de los expedicionarios. Mata a tus enemigos con los dientes de sus familias.
+ent-ArrowCard = flecha de cartón
+    .desc = No mata por mucho que lo intentes.

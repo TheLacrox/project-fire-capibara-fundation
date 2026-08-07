@@ -1,0 +1,10 @@
+ent-FireExtinguisher = extintor
+    .desc = Apaga incendios.
+ent-BorgFireExtinguisher = propulsor de maniobra
+    .desc = Basado en la tecnología de los extintores, el propulsor de maniobra es... bueno, sí, no es más que un extintor más grande.
+ent-ExtinguisherSpray = chorro de extintor
+    .desc = { ent-Vapor.desc }
+ent-FireExtinguisherMini = extintor de bolsillo
+    .desc = Un modelo de extintor ligero y compacto con estructura de fibra de vidrio. Contiene menos agua que su hermano mayor.
+ent-SelfRechargingFireExtinguisher = extintor autorrecargable
+    .desc = Apaga incendios. Se va rellenando de agua poco a poco.

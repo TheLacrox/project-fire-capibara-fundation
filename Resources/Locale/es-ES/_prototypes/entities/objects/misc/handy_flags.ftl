@@ -1,0 +1,10 @@
+ent-BlankHandyFlag = banderita en blanco
+    .desc = Un trozo de tela blanca enrollado en un palo.
+ent-NTHandyFlag = banderita de Nanotrasen
+    .desc = ¡Gloria a NT! Espera, ¿de verdad han hecho una banderita de mano para una empresa?
+ent-SyndieHandyFlag = banderita del Sindicato
+    .desc = Para patriotas de verdad rebeldes. ¡Muerte a NT!
+ent-LGBTQHandyFlag = banderita LGBTQ
+    .desc = La banderita de «sé gay, comete crímenes».
+ent-PirateHandyFlag = banderita pirata
+    .desc = Sostenla en las manos y demuéstrales a esas carpas que no vas de broma.

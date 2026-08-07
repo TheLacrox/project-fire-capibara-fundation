@@ -1,0 +1,2 @@
+ent-hyperDice = hipercubo
+    .desc = { "" }

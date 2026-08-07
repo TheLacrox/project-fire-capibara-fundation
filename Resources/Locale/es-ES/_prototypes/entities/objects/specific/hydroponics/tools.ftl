@@ -1,0 +1,12 @@
+ent-HydroponicsToolMiniHoe = azadilla
+    .desc = Sirve para quitar malas hierbas o para rascarte la espalda.
+ent-HydroponicsToolClippers = tijeras de podar
+    .desc = Una herramienta para tomar muestras de las plantas.
+ent-HydroponicsToolScythe = guadaña
+    .desc = Una hoja afilada y curva sobre un mango largo de fibrametal; con esta herramienta es fácil cosechar lo que siembras.
+ent-HydroponicsToolHatchet = hachuela
+    .desc = Una hoja de hacha muy afilada sobre un mango corto de fibrametal. Tiene un largo historial cortando cosas, pero ahora se usa para cortar leña.
+ent-HydroponicsToolSpade = paleta
+    .desc = Una herramienta pequeña para cavar y mover tierra.
+ent-PlantBag = bolsa de plantas
+    .desc = Una bolsa para que los botánicos muevan con facilidad sus enormes cosechas.

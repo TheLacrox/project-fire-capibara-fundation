@@ -1,0 +1,10 @@
+ent-Cigar = puro
+    .desc = Un rollo marrón de tabaco y... bueno, no estás muy seguro de qué más.
+ent-CigarSpent = { ent-Cigar }
+    .suffix = Gastado
+    .desc = { ent-Cigar.desc }
+ent-CigarGold = puro habano premium
+    .desc = Un puro digno solo de los mejores entre los mejores.
+ent-CigarGoldSpent = { ent-CigarGold }
+    .suffix = Gastado
+    .desc = { ent-CigarGold.desc }

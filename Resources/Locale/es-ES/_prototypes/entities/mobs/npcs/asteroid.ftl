@@ -1,2 +1,24 @@
+ent-BaseMobAsteroid = { ent-BaseMob }
+    .desc = { ent-BaseMob.desc }
+ent-MobGoliath = goliat
+    .desc = Una bestia enorme que usa largos tentáculos para atrapar a sus presas. No se recomienda amenazarla bajo ninguna circunstancia.
 ent-ActionGoliathTentacle = [color=red]Golpe de tentáculo[/color]
     .desc = ¡Usa tus tentáculos para agarrar y aturdir a otro jugador!
+ent-GoliathTentacle = tentáculo
+    .desc = { "" }
+ent-BaseEffectGoliathTentacleSpawn = tentáculo
+    .desc = { "" }
+ent-EffectGoliathTentacleSpawn = tentáculo
+    .desc = { ent-BaseEffectGoliathTentacleSpawn.desc }
+ent-EffectGoliathTentacleRetract = { ent-BaseEffectGoliathTentacleSpawn }
+    .desc = { ent-BaseEffectGoliathTentacleSpawn.desc }
+ent-MobHivelord = señor de la colmena
+    .desc = Una criatura verdaderamente alienígena: una masa de material orgánico desconocido en fluctuación constante. Al atacar, se desprenden fragmentos suyos que atacan junto al original.
+ent-MobHivelordBrood = cría de señor de la colmena
+    .desc = Un fragmento del señor de la colmena original, que se agrupa tras él. Una sola no supone gran amenaza, pero...
+ent-FoodHivelordRemains = restos de señor de la colmena
+    .desc = Todo lo que queda de un señor de la colmena. Parece ser lo que le permite desprenderse de fragmentos sin hacerse daño... sus propiedades curativas se volverán inertes si no las usas pronto. Intenta no pensar en lo que estás comiendo.
+ent-FoodHivelordRemainsInert = restos inertes de señor de la colmena
+    .desc = Todo lo que queda de un señor de la colmena... Ahora sí que está todo perdido.
+ent-MobBasilisk = basilisco
+    .desc = Una bestia territorial cubierta por un grueso caparazón que absorbe energía. Su mirada congela a las víctimas por dentro.

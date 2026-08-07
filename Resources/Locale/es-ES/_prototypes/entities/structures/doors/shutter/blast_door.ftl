@@ -1,0 +1,14 @@
+ent-BlastDoor = compuerta blindada
+    .desc = En esta pone «PORTÓN BLINDADO».
+ent-BlastDoorOpen = { ent-BlastDoor }
+    .suffix = Abierta
+    .desc = { ent-BlastDoor.desc }
+ent-BlastDoorFrame = marco de compuerta blindada
+    .desc = En esta pone «PORTÓN BLINDADO».
+ent-BlastDoorXeno = compuerta blindada xeno
+    .desc = ¡No pierdas un brazo!
+ent-BlastDoorXenoOpen = { ent-BlastDoorXeno }
+    .suffix = Abierta
+    .desc = { ent-BlastDoorXeno.desc }
+ent-BlastDoorXenoFrame = marco de compuerta blindada xeno
+    .desc = En esta pone «PORTÓN BLINDADO».

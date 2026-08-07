@@ -1,0 +1,16 @@
+ent-Soap = pastilla de jabón
+    .desc = Una pastilla de jabón barata. No huele a nada.
+ent-SoapNT = pastilla de jabón
+    .desc = Una pastilla de jabón de la marca Nanotrasen. Huele a plasma.
+ent-SoapDeluxe = pastilla de jabón
+    .desc = Una pastilla de jabón de lujo de la marca Waffle Co. Huele a fresas.
+ent-SoapSyndie = pastilla de jabón
+    .desc = Una pastilla de jabón que no inspira confianza. Huele a miedo.
+ent-SoapletSyndie = jaboncillo
+    .desc = Un trocito de jabón del Sindicato.
+ent-SoapHomemade = pastilla de jabón
+    .desc = Una pastilla de jabón casera. Huele a... bueno...
+ent-SoapOmega = jabón omega
+    .desc = El jabón más avanzado que conoce la humanidad. Huele a bluespace.
+ent-SoapBorg = pastilla de jabón
+    .desc = Una pastilla de jabón de la marca Nanotrasen. Huele a plasma y a maquinaria.

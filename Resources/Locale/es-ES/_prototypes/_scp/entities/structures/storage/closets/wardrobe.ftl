@@ -1,0 +1,10 @@
+ent-ScpClosetGastronomicSpecialist = armario del especialista gastronómico
+    .desc = Es una unidad de almacenamiento para ropa de hostelería y trampas para ratones.
+ent-ScpClosetJanitor = armario de conserjería
+    .desc = Es una unidad de almacenamiento para la ropa y el equipo de limpieza.
+ent-ScpClosetLegal = armario jurídico
+    .desc = Es una unidad de almacenamiento para la indumentaria y los objetos del tribunal.
+ent-ScpClosetScience = armario de ciencia
+    .desc = Has leído un par de artículos de divulgación; ya va siendo hora de ir en serio.
+ent-ScpClosetPrison = armario de prisión
+    .desc = Contiene una selección de bonitas prendas naranjas para quienes disfrutan de su estancia en el calabozo.

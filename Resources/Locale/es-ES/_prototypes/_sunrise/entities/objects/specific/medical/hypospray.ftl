@@ -1,0 +1,16 @@
+ent-MedipenCombatInjector = medinyector de combate
+    .desc = Un inyector estéril de 4 usos. Contiene sustancias que regeneran casi todos los tipos de daño.
+ent-HyposprayERT = hipospray del ERT
+    .desc = Un inyector estéril para administrar fármacos a los pacientes con rapidez.
+ent-StimpackNT = inyector de efedrina
+    .desc = Contiene efedrina suficiente para notar el efecto de la sustancia durante 30 segundos. Úsalo cuando estés seguro de que vas a entrar al trapo.
+ent-StimpackMiniNT = microinyector de efedrina
+    .desc = Un microinyector de efedrina que te da unos 15 segundos de efecto de la sustancia.
+ent-CoalAutoInjector = autoinyector de carbón
+    .desc = Te limpia la sangre y trata el daño por veneno a lo largo de 30 segundos.
+ent-BeerMedipen = medipen de cerveza
+    .desc = Un medipen de dosis única lleno de cerveza.
+ent-HyposprayMedicalNoFilterBox = hipospray médico hackeado
+    .desc = Una caja que contiene un inyector estéril para administrar fármacos a los pacientes con rapidez. El filtro interno de toxinas se retiró durante el hackeo. El envoltorio se desintegra al abrirlo y no deja restos.
+ent-JetInjectorSyndicate = { ent-JetInjector }
+    .desc = { ent-JetInjector.desc }

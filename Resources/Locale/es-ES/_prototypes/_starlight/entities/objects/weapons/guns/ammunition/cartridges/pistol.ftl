@@ -1,0 +1,13 @@
+ent-CartridgePistol40SP = cartucho (.40 SP)
+    .desc = { ent-BaseCartridgePistol.desc }
+ent-CartridgePistol40HP = cartucho (.40 HP)
+    .desc = { ent-CartridgePistol40SP.desc }
+ent-CartridgePistol40FMJ = cartucho (.40 FMJ)
+    .desc = { ent-CartridgePistol40SP.desc }
+ent-CartridgePistol40AP = cartucho (.40 AP)
+    .desc = { ent-CartridgePistol40SP.desc }
+ent-CartridgePistolImprovised = cartucho improvisado (.35 auto)
+    .desc = Una bala de pistola artesanal; usa fósforo como propelente en lugar de pólvora, lo que la hace mucho menos eficaz.
+ent-CartridgePistolImprovisedMech = { ent-CartridgePistolImprovised }
+    .desc = { ent-CartridgePistolImprovised.desc }
+    .suffix = Meca

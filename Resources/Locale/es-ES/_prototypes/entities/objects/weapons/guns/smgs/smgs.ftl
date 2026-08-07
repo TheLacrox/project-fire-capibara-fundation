@@ -1,0 +1,10 @@
+ent-BaseWeaponSubMachineGun = BaseSMG
+    .desc = Una de esas cosas para apuntar y hacer pum.
+ent-WeaponSubMachineGunAtreides = Atreides
+    .desc = Una rara pistola automática procedente de las Guerras Corporativas. Su cadencia altísima y su perfil compacto la hacen útil en el combate a corta distancia. Pese a su edad, está en un estado extraordinariamente bueno. Se alimenta de cargadores de subfusil del .35.
+ent-WeaponSubMachineGunC20r = subfusil C-20r
+    .desc = Un subfusil clásico y muy extendido, tristemente célebre por su uso entre los Merodeadores Gorlex. Uno de los primeros diseños propios de Waffle Corp., sigue en servicio a día de hoy. Se alimenta de cargadores de subfusil del .35.
+ent-WeaponSubMachineGunDrozd = Drozd
+    .desc = Un subfusil moderno fabricado por la División de Armas Ligeras de Nanotrasen. Destaca por una cadencia excepcional en modo ráfaga, útil para cubrir ángulos defensivos o batirse con hostiles a mayor distancia. Se alimenta de cargadores de subfusil del .35.
+ent-WeaponSubMachineGunWt550 = WT550
+    .desc = Un subfusil excelente, producido por la División de Armas Ligeras de NanoTrasen. Utiliza munición de .35 auto.

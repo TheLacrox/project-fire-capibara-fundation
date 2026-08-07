@@ -1,0 +1,13 @@
+ent-SmallboxItem = { ent-BaseStorageItem }
+    .desc = { ent-BaseStorageItem.desc }
+ent-Matchstick = cerilla
+    .desc = Una simple cerilla, para encender buenos fumables.
+ent-MatchstickSpent = { ent-Matchstick }
+    .suffix = Usada
+    .desc = { ent-Matchstick.desc }
+ent-Matchbox = caja de cerillas
+    .desc = Una cajita de cerillas Casi Pero No Del Todo Plasma Premium.
+ent-GorlexMatchbox = caja de cerillas Gorlex
+    .desc = Una caja de cerillas neumática al estilo del equipamiento de los Gorlex Marauders. Contiene 24 cerillas.
+ent-GorlexMatchstick = cerilla
+    .desc = Una cerilla de grado militar, para encender buenos fumables y a los no combatientes por igual.

@@ -1,0 +1,11 @@
+ent-DefibrillatorCabinet = vitrina de desfibrilador
+    .desc = Una pequeña vitrina mural diseñada para guardar un desfibrilador.
+ent-DefibrillatorCabinetOpen = { ent-DefibrillatorCabinet }
+    .suffix = Abierta
+    .desc = { ent-DefibrillatorCabinet.desc }
+ent-DefibrillatorCabinetFilled = { ent-DefibrillatorCabinet }
+    .suffix = Con contenido
+    .desc = { ent-DefibrillatorCabinet.desc }
+ent-DefibrillatorCabinetFilledOpen = { ent-DefibrillatorCabinetFilled }
+    .suffix = Con contenido, Abierta
+    .desc = { ent-DefibrillatorCabinetFilled.desc }

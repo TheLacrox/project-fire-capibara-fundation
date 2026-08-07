@@ -1,0 +1,10 @@
+ent-HoloparasiteInjector = inyector de holoparásito
+    .desc = Una compleja obra de ingeniería de mano que permite al usuario alojar un guardián holoparásito.
+ent-HoloClownInjector = inyector de holopayaso
+    .desc = Una compleja obra de ingeniería de mano que permite al usuario alojar un guardián holopayaso.
+ent-MagicalLamp = lámpara mágica
+    .desc = No se sabe cómo, pero la federación de magos tuvo que recortar gastos tras el escándalo del merchandising de los genios.
+ent-BoxHoloparasite = caja de holoparásito
+    .desc = Una caja que contiene un inyector de holoparásito.
+ent-BoxHoloclown = caja de holopayaso
+    .desc = Una caja que contiene un inyector de holopayaso.

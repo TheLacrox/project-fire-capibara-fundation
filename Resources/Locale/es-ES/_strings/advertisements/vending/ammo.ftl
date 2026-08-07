@@ -1,0 +1,10 @@
+advertisement-ammo-1 = Estación Liberación: ¡tu tienda para todo lo relacionado con el derecho a las armas!
+advertisement-ammo-2 = ¡Sé patriota hoy mismo, cógete una pistola!
+advertisement-ammo-3 = ¡Armas de calidad a precios de risa!
+advertisement-ammo-4 = ¡Antes muerto que rojo!
+advertisement-ammo-5 = ¡Flota como un astronauta, pica como una bala!
+advertisement-ammo-6 = ¡Ejerce hoy tu derecho a ir armado!
+advertisement-ammo-7 = Las armas no matan a la gente, ¡pero tú sí puedes!
+advertisement-ammo-8 = ¿Quién necesita responsabilidades teniendo armas?
+advertisement-ammo-9 = ¡Asesinar a gente es divertido!
+advertisement-ammo-10 = ¡Anda, ve a pegar tiros!

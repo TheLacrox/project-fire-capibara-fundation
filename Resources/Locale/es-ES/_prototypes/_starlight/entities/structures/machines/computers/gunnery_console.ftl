@@ -1,0 +1,14 @@
+ent-ComputerGunnery = consola de artillería
+    .desc = Una consola táctica de artillería para seleccionar, apuntar y disparar a distancia los cañones de la lanzadera.
+ent-ComputerGunnery1000 = consola de artillería
+    .desc = Una consola táctica de artillería para seleccionar, apuntar y disparar a distancia los cañones de la lanzadera.
+    .suffix = Radar 1000 m
+ent-ComputerGunnery2000 = consola de artillería
+    .desc = Una consola táctica de artillería para seleccionar, apuntar y disparar a distancia los cañones de la lanzadera.
+    .suffix = Radar 2000 m
+ent-ComputerRadar500 = ordenador de escáner de masas avanzado
+    .desc = Un ordenador avanzado para detectar los cuerpos cercanos y mostrarlos según su posición y su masa.
+    .suffix = Radar 500 m
+ent-ComputerRadar1000 = ordenador de escáner de masas avanzado
+    .desc = Un ordenador avanzado para detectar los cuerpos cercanos y mostrarlos según su posición y su masa.
+    .suffix = Radar 1000 m

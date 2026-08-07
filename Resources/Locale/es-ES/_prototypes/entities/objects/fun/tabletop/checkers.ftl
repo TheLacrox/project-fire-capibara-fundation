@@ -1,0 +1,12 @@
+ent-CheckerBoard = tablero de damas
+    .desc = Un tablero de damas. ¡Fichas incluidas!
+ent-CheckerBoardTabletop = tablero de damas
+    .desc = { ent-BaseBoardTabletop.desc }
+ent-CheckerPieceWhite = ficha blanca de damas
+    .desc = { ent-BaseTabletopPiece.desc }
+ent-CheckerCrownWhite = dama blanca coronada
+    .desc = { ent-BaseTabletopPiece.desc }
+ent-CheckerPieceBlack = ficha negra de damas
+    .desc = { ent-BaseTabletopPiece.desc }
+ent-CheckerCrownBlack = dama negra coronada
+    .desc = { ent-BaseTabletopPiece.desc }

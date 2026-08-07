@@ -1,0 +1,12 @@
+ent-BaseAutoMender = autocurador
+    .desc = Un dispositivo para curar a los pacientes de traumatismos, quemaduras o ambos tipos de daño.
+ent-AutoMenderBrute = autocurador de traumatismos
+    .desc = Un dispositivo para curar a los pacientes de traumatismos, quemaduras o ambos tipos de daño. Funciona con bicaridina.
+ent-AutoMenderBruteFilled = { ent-AutoMenderBrute }
+    .suffix = Lleno
+    .desc = { ent-AutoMenderBrute.desc }
+ent-AutoMenderBurn = autocurador de quemaduras
+    .desc = Un dispositivo para curar a los pacientes de traumatismos, quemaduras o ambos tipos de daño. Funciona con dermalina.
+ent-AutoMenderBurnFilled = { ent-AutoMenderBurn }
+    .suffix = Lleno
+    .desc = { ent-AutoMenderBurn.desc }

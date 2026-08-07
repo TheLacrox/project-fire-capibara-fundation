@@ -1,0 +1,11 @@
+ent-BaseStructureFlatpack = paquete plano de estructura base
+    .desc = Un paquete plano que sirve para construir algo.
+ent-SupermatterFlatpack = paquete plano de supermateria
+    .desc = Un paquete plano que sirve para construir un cristal de supermateria.
+ent-SupermatterFlatpackAnchored = paquete plano de supermateria
+    .suffix = Anclado
+    .desc = Un paquete plano que sirve para construir un cristal de supermateria.
+ent-ResearchAndDevelopmentServerFlatpack = paquete plano de servidor de I+D
+    .desc = Un paquete plano que sirve para construir un servidor de investigación.
+ent-ResearchAndDevelopmentComputerFlatpack = paquete plano de ordenador de I+D
+    .desc = Un paquete plano que sirve para construir un ordenador de investigación.

@@ -1,0 +1,16 @@
+ent-ClothingShoesGreenLizardskin = zapatos verdes de piel de lagarto
+    .desc = Puede que hayan perdido algo de brillo con los años, pero estos zapatos verdes de piel de lagarto te quedan perfectos.
+ent-ClothingShoesAerostatic = botas aerostáticas
+    .desc = Unas botas limpias e impecables para las jornadas largas de patrulla.
+ent-ClothingShoesCentcomBlack = zapatos del oficial de operaciones especiales
+    .desc = Zapatos de cuero, negros y de gran calidad; difícilmente encontrarás algo parecido ni en el mercado negro...
+ent-ClothingShoesSchoolBlack = zapatos de colegio negros
+    .desc = Unos zapatos de colegio elegantes y cómodos, de color oscuro y con medias.
+ent-ClothingShoesSchoolWhite = zapatos de colegio blancos
+    .desc = Unos zapatos de colegio elegantes y cómodos, de color claro y con medias.
+ent-ClothingWraps = vendas
+    .desc = Unas vendas de tela resistentes, que suelen usarse como protección o sujeción en entornos duros.
+ent-ClothingWrapsHigh = vendas largas
+    .desc = Unas vendas de tela largas y resistentes, que suelen usarse como protección o sujeción en entornos duros.
+ent-ClothingShoesChameleonSilent = zapatos negros
+    .desc = Unos elegantes zapatos negros.

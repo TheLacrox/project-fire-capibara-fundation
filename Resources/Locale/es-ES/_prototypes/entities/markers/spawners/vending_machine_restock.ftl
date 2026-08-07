@@ -1,0 +1,9 @@
+ent-SpawnVendingMachineRestockFoodDrink = Reposición de máquina expendedora
+    .suffix = Comida o bebida
+    .desc = { ent-MarkerBase.desc }
+ent-SpawnVendingMachineRestockFood = Reposición de máquina expendedora
+    .suffix = Comida
+    .desc = { ent-MarkerBase.desc }
+ent-SpawnVendingMachineRestockDrink = Reposición de máquina expendedora
+    .suffix = Bebida
+    .desc = { ent-MarkerBase.desc }

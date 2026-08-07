@@ -1,0 +1,13 @@
+ent-SinkEmpty = lavabo
+    .desc = Los grifos están apretados al máximo par posible y, aun así, siguen goteando.
+    .suffix = Vacío
+ent-Sink = lavabo
+    .suffix = Agua
+    .desc = { ent-SinkEmpty.desc }
+ent-SinkWide = lavabo ancho
+    .desc = { ent-Sink.desc }
+ent-SinkStemless = lavabo
+    .desc = { ent-SinkEmpty.desc }
+ent-SinkStemlessWater = lavabo
+    .suffix = Agua
+    .desc = { ent-SinkStemless.desc }

@@ -1,0 +1,12 @@
+ent-ToyFigurineBlueshield = figurita del Escudo Azul
+    .desc = Una figurita del Escudo Azul, dispuesto a proteger al personal de mando a toda costa.
+ent-ToyFigurineEnforcementofficer = figurita de agente ejecutor
+    .desc = Una figurita de un agente ejecutor, dispuesto a proteger al abogado a toda costa.
+ent-ToyFigurineBrigmedic = figurita de médico de brigada
+    .desc = Una figurita de un médico de brigada. Parece que preferirías morirte antes que tener que explicarle cómo te has hecho esas heridas.
+ent-ToyFigurineCburn = figurita de CBURN
+    .desc = Una figurita de los defensores de la estación contra... ¿los virus?
+ent-ToyFigurineDeathsquad = figurita del escuadrón de la muerte
+    .desc = Una figurita de... ¿y este quién es?
+ent-ToyFigurineErt = figurita de jefe del ERT
+    .desc = Una figurita de los defensores de la estación contra... no sé, ¿por si acaso?

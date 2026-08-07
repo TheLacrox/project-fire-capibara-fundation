@@ -51,5 +51,5 @@ roadmap-scp062-fr-name = Sustitución de SCP-939 por SCP-062-FR
 roadmap-scp062-fr-description = Sustitución de SCP-939 por SCP-062-FR, una anomalía con requisitos de contención más exigentes que mejorará la experiencia de juego tanto del objeto como del Departamento Científico
 roadmap-community-scp-name = Incorporación de un SCP de la comunidad
 roadmap-community-scp-description = Celebración de un concurso para diseñar el mejor objeto SCP e implementación de la propuesta ganadora
-roadmap-auto-mtf-name = Solicitud de una FOM mediante un botón
-roadmap-auto-mtf-description = Incorporación de la posibilidad de solicitar una Fuerza Operativa Móvil sin intervención de la administración, mediante mecánicas a disposición del personal del complejo
+roadmap-auto-mtf-name = Solicitud de una MTF mediante un botón
+roadmap-auto-mtf-description = Incorporación de la posibilidad de solicitar una MTF sin intervención de la administración, mediante mecánicas a disposición del personal del complejo

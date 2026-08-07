@@ -1,0 +1,11 @@
+construction-recipe-curtains-cloth = cortinas de tela
+construction-recipe-curtains-black = cortinas negras
+construction-recipe-curtains-blue = cortinas azules
+construction-recipe-curtains-sky-blue = cortinas azul celeste
+construction-recipe-curtains-cyan = cortinas cian
+construction-recipe-curtains-green = cortinas verdes
+construction-recipe-curtains-orange = cortinas naranjas
+construction-recipe-curtains-pink = cortinas rosas
+construction-recipe-curtains-purple = cortinas moradas
+construction-recipe-curtains-red = cortinas rojas
+construction-recipe-curtains-white = cortinas blancas

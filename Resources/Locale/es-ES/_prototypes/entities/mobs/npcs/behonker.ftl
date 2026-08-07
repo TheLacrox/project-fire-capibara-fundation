@@ -1,0 +1,14 @@
+ent-BaseMobBehonker = behonker
+    .desc = Un aspecto demoníaco flotante de la madre bocina.
+ent-MobBehonkerElectrical = behonker
+    .suffix = Piro
+    .desc = { ent-BaseMobBehonker.desc }
+ent-MobBehonkerPyro = behonker
+    .suffix = Eléctrico
+    .desc = { ent-BaseMobBehonker.desc }
+ent-MobBehonkerGrav = behonker
+    .suffix = Gravitatorio
+    .desc = { ent-BaseMobBehonker.desc }
+ent-MobBehonkerIce = behonker
+    .suffix = Hielo
+    .desc = { ent-BaseMobBehonker.desc }

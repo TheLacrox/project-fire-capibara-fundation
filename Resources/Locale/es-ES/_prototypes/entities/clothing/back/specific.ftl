@@ -1,0 +1,9 @@
+ent-ClothingBackpackChameleon = mochila
+    .desc = Te la pones a la espalda y guardas cosas dentro.
+    .suffix = Camaleón
+ent-ClothingBackpackWaterTank = mochila de depósito de agua
+    .desc = Contiene una gran cantidad de líquido. Alimenta las boquillas pulverizadoras que lleves en las manos y tiene una ranura lateral para guardarlas.
+ent-ClothingBagPet = bolsa para mascotas
+    .desc = Una bolsa pequeña diseñada para mascotas y animales de poco tamaño.
+ent-ClothingBackpackHarmpack = H.A.R.M.P.A.C.K.
+    .desc = Ahora puedes recargar, dar puñetazos y comerte un aperitivo, todo a la vez.

@@ -1,0 +1,9 @@
+ent-DrinkSpaceGlue = tubo de pegamento espacial
+    .desc = Pegamento de alto rendimiento pensado para el mantenimiento de maquinaria extremadamente compleja. ¡NO BEBER!
+ent-DrinkSpaceLube = tubo de lubricante espacial
+    .desc = Lubricante de alto rendimiento pensado para el mantenimiento de maquinaria extremadamente compleja.
+ent-BottomlessLube = vaso de lubricante sin fondo
+    .desc = Este vaso de precipitados anómalo produce lubricante espacial de forma infinita, así que hay que custodiarlo bien para que no caiga en malas manos.
+    .suffix = DEBUG
+ent-DrinkMopwataBottleRandom = deliciosa agua de fregona
+    .desc = Una botella marrón y turbia con una etiqueta descolorida en la que se ve una fregona. Viene llena de una añada... muy turbia.

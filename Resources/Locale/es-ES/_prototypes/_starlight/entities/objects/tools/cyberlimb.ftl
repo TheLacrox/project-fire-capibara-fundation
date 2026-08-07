@@ -1,0 +1,10 @@
+ent-WrenchCyber = llave inglesa
+    .desc = Una herramienta habitual para montar y desmontar. Recuerda: izquierda aprieta, derecha suelta.
+ent-ScrewdriverCyber = destornillador
+    .desc = Par de apriete industrial en un pequeño formato de destornillador.
+ent-CrowbarCyber = palanca
+    .desc = { ent-BaseItem.desc }
+ent-WirecutterCyber = alicates de corte
+    .desc = Esto mata al cable.
+ent-WelderCyber = soplete de soldadura
+    .desc = Funde cualquier cosa mientras tenga combustible; ¡no te olvides de protegerte los ojos!

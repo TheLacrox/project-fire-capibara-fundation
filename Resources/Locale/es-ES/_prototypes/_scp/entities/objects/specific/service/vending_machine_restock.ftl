@@ -1,0 +1,10 @@
+ent-VendingMachineRestockSeedsScpClassD = caja de reposición de semillas
+    .desc = La etiqueta dice que son semillas de variedades tradicionales, heredadas de nuestros antepasados. ¡Métela en el Seed Servitor!
+ent-VendingMachineRestockNutriMaxScpClassD = caja de reposición de NutriMax
+    .desc = Con nuestras herramientas se te pondrán los dedos verdes. ¡A cosechar! Cárgala en una máquina expendedora NutriMax.
+ent-VendingMachineRestockChefvendScpClassD = caja de reposición de ChefVend
+    .desc = Rellena la ChefVend. Y no rompas más huevos, por favor.
+ent-VendingMachineRestockDinnerwareScpClassD = caja de reposición de Plasteel Chef
+    .desc = ¡En esta cocina nada se sirve crudo! Métela en la ranura de reposición de la Plasteel Chef para empezar.
+ent-VendingMachineRestockBoozeScpClassD = caja de reposición de Booze-O-Mat
+    .desc = ¡Métela en tu Booze-O-Mat! No está a la venta.

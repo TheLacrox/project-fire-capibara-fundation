@@ -1,0 +1,10 @@
+ent-ClothingHeadHatAnimalCat = gorro de gato gris
+    .desc = La cabeza mullida y adorable de un gato gris.
+ent-ClothingHeadHatAnimalCatBrown = gorro de gato marrón
+    .desc = La cabeza mullida y adorable de un gato marrón.
+ent-ClothingHeadHatAnimalCatBlack = gorro de gato negro
+    .desc = La cabeza mullida y adorable de un gato negro.
+ent-ClothingHeadHatAnimalHeadslime = gorro de babosa
+    .desc = Una babosa verde y pegajosa que te pones en la cabeza.
+ent-ClothingHeadHatAnimalMonkey = gorro de mono
+    .desc = Eso es una cabeza de mono. Tiene un agujero en la boca para comer plátanos.

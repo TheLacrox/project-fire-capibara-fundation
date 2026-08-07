@@ -1,0 +1,16 @@
+ent-ClothingHeadHatBeretCE = boina del ingeniero jefe
+    .desc = La boina de esa persona que cada turno te construye un objetivo.
+ent-ClothingHeadHatBeretParamedic = boina de paramédico
+    .desc = Una boina para el paramédico.
+ent-ClothingHeadHatBeretChemistry = boina del químico
+    .desc = Una boina para el químico.
+ent-ClothingHeadHatBeretPatologoanatom = boina del anatomopatólogo
+    .desc = Una boina para el anatomopatólogo.
+ent-ClothingHeadHatBeretAtmos = boina de atmósfera
+    .desc = Una boina para atmósfera.
+ent-ClothingHeadHatBeretSalvageMercBrown = boina marrón de chatarrero
+    .desc = Una boina marrón.
+ent-ClothingHeadHatBeretSalvageMercGreen = boina verde de chatarrero
+    .desc = Una boina verde.
+ent-ClothingHeadHatBeretSalvageMercPurple = boina morada de chatarrero
+    .desc = Una boina morada.

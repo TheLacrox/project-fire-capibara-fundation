@@ -1,0 +1,16 @@
+ent-CrateSecurityArmor = caja de armaduras
+    .desc = Contiene tres chalecos antibalas. Requiere acceso de seguridad para abrirse.
+ent-CrateSecurityHelmet = caja de cascos
+    .desc = Contiene tres protegesesos reglamentarios. Requiere acceso de seguridad para abrirse.
+ent-CrateSecurityNonlethal = caja de armas no letales
+    .desc = Contiene una mezcla de incapacitadores, porras eléctricas y cegadoras. Requiere acceso de seguridad para abrirse.
+ent-CrateSecuritySupplies = caja de suministros de seguridad
+    .desc = Contiene diversos suministros para el equipo de seguridad de la estación. Requiere acceso de seguridad para abrirse.
+ent-CrateRestraints = caja de sujeciones
+    .desc = Contiene dos cajas de esposas y dos de bridas. Requiere acceso de seguridad para abrirse.
+ent-CrateSecurityBiosuit = caja de trajes antibiológicos de seguridad
+    .desc = Contiene 2 trajes antirriesgos biológicos para que ninguna enfermedad te distraiga de tus obligaciones. Requiere acceso de seguridad para abrirse.
+ent-CrateSecurityTrackingMindshieldImplants = caja de implantadores
+    .desc = Contiene 4 implantes Escudo Mental y 4 implantes de rastreo. Requiere acceso de seguridad para abrirse.
+ent-CrateSecNonlethalThrowables = caja de arrojadizos no letales
+    .desc = Contiene una caja de cada uno: granadas cegadoras, de fragmentación y de gas lacrimógeno, además de cuatro bolas. Requiere acceso de seguridad para abrirse.

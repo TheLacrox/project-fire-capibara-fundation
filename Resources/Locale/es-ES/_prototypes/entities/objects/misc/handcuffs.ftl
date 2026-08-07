@@ -1,0 +1,16 @@
+ent-BaseHandcuffs = esposas
+    .desc = Se usan para detener a criminales y demás indeseables.
+ent-Handcuffs = esposas
+    .desc = Se usan para detener a criminales y demás indeseables.
+ent-Cablecuffs = esposas de cable
+    .desc = Esposas caseras fabricadas con cables sobrantes.
+ent-Zipties = bridas
+    .desc = Bridas de plástico resistente y de un solo uso, ideales para inmovilizar a presos alborotados.
+ent-BaseHandcuffsBroken = { ent-BaseItem }
+    .desc = { ent-BaseItem.desc }
+ent-ZiptiesBroken = bridas rotas
+    .desc = Estas bridas parecen haber intentado sujetar los cables equivocados.
+ent-CablecuffsBroken = cables rotos
+    .desc = Estos cables están rotos por varios sitios y no parecen muy útiles.
+ent-ClothingOuterStraightjacket = camisa de fuerza
+    .desc = Se usa para inmovilizar a quienes pueden hacerse daño a sí mismos o a los demás.

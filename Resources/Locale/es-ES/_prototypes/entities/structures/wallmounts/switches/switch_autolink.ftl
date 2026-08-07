@@ -1,0 +1,15 @@
+ent-SignalButtonExt1 = botón exterior 1
+    .suffix = Autoenlace, Ext1
+    .desc = { ent-SignalButton.desc }
+ent-SignalButtonExt2 = botón exterior 2
+    .suffix = Autoenlace, Ext2
+    .desc = { ent-SignalButton.desc }
+ent-SignalButtonExt3 = botón exterior 3
+    .suffix = Autoenlace, Ext3
+    .desc = { ent-SignalButton.desc }
+ent-SignalButtonBridge = botón de las ventanas del puente
+    .suffix = Autoenlace, Puente
+    .desc = { ent-SignalButton.desc }
+ent-SignalButtonWindows = botón de las ventanas exteriores
+    .suffix = Autoenlace, Ventanas
+    .desc = { ent-SignalButton.desc }

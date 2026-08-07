@@ -1,0 +1,7 @@
+marking-VoxFacialHairBeard = Barba vox (púas)
+marking-VoxFacialHairColonel = Bigote vox (coronel)
+marking-VoxFacialHairFu = Bigote vox (púas Fu)
+marking-VoxFacialHairNeck = Barba vox (púas de cuello)
+marking-VoxFacialHairMane = Barba vox (melena)
+marking-VoxFacialHairManeSmall = Barba vox (melena pequeña)
+marking-VoxFacialHairTufts = Patillas vox (mechones)

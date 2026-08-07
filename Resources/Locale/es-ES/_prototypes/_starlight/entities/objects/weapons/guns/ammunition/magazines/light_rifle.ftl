@@ -1,0 +1,17 @@
+ent-LightRifleHeavyBase = { ent-BaseItem }
+    .desc = { ent-BaseItem.desc }
+ent-LightRifleHeavyMagazineEmpty = caja de cargadores (7.62 cualquiera)
+    .suffix = Vacía
+    .desc = { ent-LightRifleHeavyBase.desc }
+ent-LightRifleHeavyMagazineSP = caja de cargadores (7.62 SP)
+    .desc = { ent-LightRifleHeavyBase.desc }
+ent-LightRifleHeavyMagazineHP = caja de cargadores (7.62 HP)
+    .desc = { ent-LightRifleHeavyBase.desc }
+ent-LightRifleHeavyMagazineFMJ = caja de cargadores (7.62 FMJ)
+    .desc = { ent-LightRifleHeavyBase.desc }
+ent-LightRifleHeavyMagazineIncendiary = caja de cargadores (7.62 incendiario)
+    .desc = { ent-LightRifleHeavyBase.desc }
+ent-LightRifleHeavyMagazineUranium = caja de cargadores (7.62 uranio)
+    .desc = { ent-LightRifleHeavyBase.desc }
+ent-LightRifleHeavyMagazineAP = caja de cargadores (7.62 AP)
+    .desc = { ent-LightRifleHeavyBase.desc }

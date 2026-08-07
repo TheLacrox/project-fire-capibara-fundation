@@ -1,0 +1,13 @@
+ent-BaseWeaponSniper = BaseWeaponSniper
+    .desc = Una de esas cosas para apuntar y hacer pum.
+ent-WeaponSniperMosin = Kardashev-Mosin
+    .desc = Toda una reliquia: el Kardashev-Mosin ha servido en casi todos los conflictos armados desde que se creó hace 670 años. El diseño de cerrojo del rifle se mantiene prácticamente idéntico al original, lo mismo da que se use para cazar, para hacer de francotirador o para una guerra de trincheras interminable. Admite 10 cartuchos de .30 rifle.
+ent-WeaponSniperHristov = Hristov
+    .desc = Un rifle antimaterial portátil. Dispara cartuchos perforantes de 14.5 mm. Utiliza munición antimaterial del .60.
+ent-Musket = mosquete
+    .desc = Esto debería haber estado en un museo mucho antes de que tú nacieras. Utiliza munición antimaterial del .60.
+ent-WeaponPistolFlintlock = pistola de chispa
+    .desc = La compañera de todo pirata. ¡Arrr! Utiliza munición de .45 magnum.
+ent-WeaponPistolFlintlockEmpty = { ent-WeaponPistolFlintlock }
+    .suffix = Vacía
+    .desc = { ent-WeaponPistolFlintlock.desc }

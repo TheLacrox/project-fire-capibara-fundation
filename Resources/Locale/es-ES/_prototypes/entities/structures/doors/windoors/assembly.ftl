@@ -1,0 +1,14 @@
+ent-WindoorAssembly = montaje de puerta-ventana
+    .desc = ¡Se abre, se cierra y puedes ver a través de ella!
+ent-WindoorAssemblySecure = montaje de puerta-ventana segura
+    .desc = ¡Se abre, se cierra y puedes ver a través de ella! Esta parece resistente.
+ent-WindoorAssemblyClockwork = montaje de puerta-ventana mecánica
+    .desc = ¡Se abre, se cierra y puedes ver a través de ella! Esta parece resistente.
+ent-WindoorAssemblyPlasma = montaje de puerta-ventana de plasma
+    .desc = ¡Se abre, se cierra y puedes ver a través de ella! Esta parece mora..., no, rosa. Espera...
+ent-WindoorAssemblySecurePlasma = montaje de puerta-ventana de plasma segura
+    .desc = ¡Se abre, se cierra y puedes ver a través de ella! Esta parece resistente y ros..., no, morada. Un momento...
+ent-WindoorAssemblyUranium = montaje de puerta-ventana de uranio
+    .desc = ¡Se abre, se cierra y puedes ver a través de ella! Esta tiene un verde enfermizo...
+ent-WindoorAssemblySecureUranium = montaje de puerta-ventana de uranio segura
+    .desc = ¡Se abre, se cierra y puedes ver a través de ella! ¡Esta parece resistente y de un verde lima radiactivo!

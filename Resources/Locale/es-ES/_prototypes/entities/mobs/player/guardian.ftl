@@ -1,2 +1,10 @@
+ent-MobGuardianBase = GuardianBase
+    .desc = Guardián.
+ent-MobHoloparasiteGuardian = Holoparásito
+    .desc = Un hipnótico remolino de patrones de luz sólida teje un semblante maravilloso y, a la vez, extrañamente familiar. Se yergue orgulloso, sintonizado con la vida de su dueño para sostenerse.
+ent-MobIfritGuardian = Ifrit
+    .desc = Un genio corrompido, arrancado de la fitra para servir a los mezquinos caprichos del mago. Se yergue perverso, sintonizado con la vida de su dueño para sostenerse.
+ent-MobHoloClownGuardian = Holopayaso
+    .desc = Un hipnótico remolino de patrones de luz sólida teje un payaso de color azul y origen dudoso.
 ent-ActionToggleGuardian = Manifestar o retirar al guardián
     .desc = Manifiesta al guardián o lo devuelve al interior de tu cuerpo.

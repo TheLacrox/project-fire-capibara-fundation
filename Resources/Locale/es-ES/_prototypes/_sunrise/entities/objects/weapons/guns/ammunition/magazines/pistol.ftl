@@ -1,0 +1,16 @@
+ent-MagazineP90 = cargador de P90
+    .desc = { ent-BaseItem.desc }
+ent-MagazineMP7 = cargador de MP7
+    .desc = { ent-BaseItem.desc }
+ent-MagazineMP5 = cargador de MP5
+    .desc = { ent-BaseItem.desc }
+ent-MagazinePistolSubMachineGunPPSHExtended = cargador de tambor PPSH
+    .desc = { ent-BaseItem.desc }
+ent-MagazineMP5Extended = { ent-MagazineMP5 }
+    .desc = { ent-MagazineMP5.desc }
+ent-MagazineMP7Extended = { ent-MagazineMP7 }
+    .desc = { ent-MagazineMP7.desc }
+ent-MagazineGlock22 = cargador de Glock22
+    .desc = { ent-BaseItem.desc }
+ent-MagazineP90Extended = { ent-MagazineP90 }
+    .desc = { ent-MagazineP90.desc }

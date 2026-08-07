@@ -1,3 +1,7 @@
+ent-ScpWindoor = puerta-ventana
+    .desc = Es una ventana y una puerta corredera. ¡Vaya!
+ent-ScpWindoorSecure = puerta-ventana segura
+    .desc = Es una ventana resistente y una puerta corredera. ¡Vaya!
 ent-ScpWindoorPlasma = puerta-ventana de plasma
     .desc = Es una ventana rosa *y* una puerta corredera. ¡Increíble!
 ent-ScpWindoorSecurePlasma = puerta-ventana de plasma segura

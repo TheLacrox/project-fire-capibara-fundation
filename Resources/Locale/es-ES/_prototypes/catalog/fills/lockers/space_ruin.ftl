@@ -1,0 +1,9 @@
+ent-LockerOldAISat = armario
+    .suffix = Taquilla de trajes de vacío de la NTSRA
+    .desc = { ent-LockerSyndicate.desc }
+ent-LockerSyndicateShipGearBasic = { ent-LockerSyndicate }
+    .suffix = Equipo básico de nave, aleatorio
+    .desc = { ent-LockerSyndicate.desc }
+ent-LockerSyndicateShipGearBasicChameleonKit = { ent-LockerSyndicateShipGearBasic }
+    .suffix = Equipo básico de nave, aleatorio, kit camaleón
+    .desc = { ent-LockerSyndicateShipGearBasic.desc }
