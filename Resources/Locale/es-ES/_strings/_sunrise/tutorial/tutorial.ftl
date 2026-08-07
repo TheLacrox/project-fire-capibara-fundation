@@ -38,3 +38,4 @@ tutorial-complete-desc = ¡Enhorabuena! Has completado el tutorial.
 tutorial-complete-stay = Quedarme
 tutorial-complete-leave = Salir
 tutorial-complete-next = Siguiente tutorial
+tutorial-start = Empezar tutorial

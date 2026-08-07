@@ -38,3 +38,6 @@ tutorial-complete-desc = Congratulations! You completed the training.
 tutorial-complete-stay = Stay
 tutorial-complete-leave = Leave
 tutorial-complete-next = Next tutorial
+# Fire added start - добавлен отсутствовавший ключ кнопки запуска обучения, из-за него в карточке отображался сырой LocId
+tutorial-start = Start tutorial
+# Fire added end
