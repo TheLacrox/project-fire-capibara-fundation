@@ -36,10 +36,35 @@ configuración de compilación soportada y no define `SUNRISE_PRIVATE`.
 
 ## Configuración en Dokploy
 
-1. Crea una aplicación de tipo **Docker Compose** apuntando a este repositorio.
-2. Rama: la que despliegues (`main`).
-3. Variables de entorno: ninguna es obligatoria. Sin definir nada, gana la configuración
-   horneada en `Docker/server_config.prod.toml`.
+1. Crea una aplicación de tipo **Compose** apuntando a este repositorio.
+   - Rama: `main`
+   - Ruta del compose: `docker-compose.yml` (está en la raíz)
+   - Dokploy construye desde el código; no hace falta publicar la imagen en ningún registro.
+2. Activa **auto-deploy** (webhook de push) si quieres que cada push a `main` redespliegue.
+3. Activa **Enable Isolated Deployment** (ver más abajo).
+4. **Submódulos**: no hace falta que Dokploy los clone. El `Dockerfile` ejecuta
+   `git submodule update --init --recursive` por su cuenta y `RobustToolbox` es un
+   repositorio público sin auth. Solo hace falta que `.git` esté en el contexto de
+   construcción, que es lo que hace un checkout normal de Dokploy.
+5. Define las variables de entorno (sección siguiente).
+6. **Red**:
+   - **UDP 1212** tiene que estar abierto en el host y publicado. Traefik no hace proxy de
+     UDP, así que este puerto va directo.
+   - **TCP 1212** es el endpoint de status/launcher. Ponlo detrás del dominio de Dokploy con
+     HTTPS (Traefik) para que el launcher use `ss14s://<dominio>`, o exponlo directamente.
+7. **Recursos del host**: la construcción desde código es pesada. En una máquina de 10 CPUs
+   tardó unos 10 minutos y la imagen final ocupa 2,3 GB, más el contexto de ~3,3 GB. Da
+   CPU, RAM y disco suficientes al host de Dokploy.
+
+## Aislamiento de red (Enable Isolated Deployment)
+
+Activa el interruptor **Enable Isolated Deployment** de Dokploy para esta aplicación. Crea
+una red Docker propia por aplicación, separada de `dokploy-network` y del resto de apps,
+manteniendo la salida a internet que el servidor necesita para el hub y la autenticación.
+
+Por eso `docker-compose.yml` **no define ningún bloque `networks:`** ni referencia a
+`dokploy-network`: del aislamiento se encarga Dokploy. No añadas un `networks:` propio,
+porque pelea con la inyección de red de Dokploy y rompe la resolución de nombres.
 
 ### Variables disponibles
 
@@ -59,6 +84,41 @@ configuración de compilación soportada y no define `SUNRISE_PRIVATE`.
 
 `SS14_DOMAIN` es la única que conviene fijar siempre: sin ella el launcher no sabe a qué
 dirección mandar a los jugadores.
+
+### Lo mínimo para desplegar
+
+Pegado tal cual en el panel de variables de Dokploy:
+
+```
+SS14_DOMAIN=tu-dominio.com
+```
+
+Eso es todo. El resto tiene valores horneados en `Docker/server_config.prod.toml` que ya
+son los correctos para producción.
+
+### Si además quieres TTS
+
+```
+SS14_TTS_ENABLED=true
+SS14_TTS_API_URL=https://tu-api-de-tts/...
+SS14_TTS_API_TOKEN=el-token
+```
+
+El token es confidencial: va aquí y nunca en el TOML, porque el TOML se hornea en la imagen.
+El `entrypoint.sh` no imprime la lista de argumentos precisamente para que el token no acabe
+en los logs del contenedor.
+
+### Ejemplo completo con todo explícito
+
+```
+SS14_DOMAIN=tu-dominio.com
+SS14_HOSTNAME=[ES] Fundación Capibara [Español] [SCP]
+SS14_HUB_ADVERTISE=true
+SS14_AUTH_MODE=1
+SS14_HOST_USER=TheLacrox
+SS14_SOFT_MAX=50
+SS14_TTS_ENABLED=false
+```
 
 ## Seguridad
 
