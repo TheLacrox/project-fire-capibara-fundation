@@ -1,0 +1,36 @@
+name: fundacion-capibara
+
+services:
+  game-server:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    ports:
+      # Gameplay. Traefik no puede hacer de proxy para UDP, así que tiene que ser
+      # un puerto directo del host.
+      - "1212:1212/udp"
+      # Status/launcher. Este sí puede ir por Dokploy/Traefik con HTTPS.
+      - "1212:1212/tcp"
+    volumes:
+      - ss14-data:/data
+    environment:
+      # Vacío por defecto -> entrypoint.sh omite el --cvar y gana el valor horneado
+      # en Docker/server_config.prod.toml. Defínelas en Dokploy solo para sobrescribir.
+      SS14_HOSTNAME: "${SS14_HOSTNAME:-}"
+      SS14_DESC: "${SS14_DESC:-}"
+      SS14_DOMAIN: "${SS14_DOMAIN:-}"
+      SS14_HUB_ADVERTISE: "${SS14_HUB_ADVERTISE:-true}"
+      SS14_AUTH_MODE: "${SS14_AUTH_MODE:-1}"
+      SS14_HOST_USER: "${SS14_HOST_USER:-}"
+      SS14_SOFT_MAX: "${SS14_SOFT_MAX:-}"
+      SS14_DISCORD: "${SS14_DISCORD:-}"
+      SS14_WEBSITE: "${SS14_WEBSITE:-}"
+      SS14_WIKI: "${SS14_WIKI:-}"
+      # TTS por API HTTP. El token es confidencial: defínelo en Dokploy, no aquí.
+      SS14_TTS_ENABLED: "${SS14_TTS_ENABLED:-false}"
+      SS14_TTS_API_URL: "${SS14_TTS_API_URL:-}"
+      SS14_TTS_API_TOKEN: "${SS14_TTS_API_TOKEN:-}"
+
+volumes:
+  ss14-data:

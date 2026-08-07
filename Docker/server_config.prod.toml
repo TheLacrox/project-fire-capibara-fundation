@@ -1,0 +1,85 @@
+# Fundación Capibara — configuración de producción (horneada en la imagen Docker).
+# Los valores por despliegue y los secretos se inyectan en tiempo de ejecución
+# mediante --cvar desde entrypoint.sh. Nunca pongas tokens en este fichero: acaba
+# dentro de la imagen.
+
+[log]
+path = "logs"
+level = 1
+enabled = true
+
+[net]
+tickrate = 30
+port = 1212
+bindto = "::,0.0.0.0"
+max_connections = 256
+
+[status]
+enabled = true
+# status.connectaddress se fija en runtime desde $SS14_DOMAIN (udp://<dominio>:1212)
+
+[game]
+# NOTA: $SS14_HOSTNAME lo sobrescribe en runtime. Si defines esa variable en Dokploy,
+# gana sobre este valor horneado.
+hostname = "[ES] Fundación Capibara [Español] [SCP]"
+lobbyenabled = true
+soft_max_players = 50
+desc = """¡Bienvenido a Fundación Capibara! Servidor de habla hispana de SCP: Project Fire, \
+con la estación traducida al español. Contén anomalías, sobrevive a las brechas y \
+mantén el Sitio en pie. ¡Únete a nuestra comunidad hispanohablante!"""
+
+[console]
+# SEGURIDAD: detrás de un proxy inverso, loopback ES el proxy. Nunca concedas admin
+# por loopback: cualquiera que alcance el proxy obtendría host completo.
+loginlocal = false
+# Concede host completo automáticamente a esta cuenta al entrar. Solo es seguro con
+# auth.mode = 1, donde los nombres están ligados a cuentas reales de SS14.
+# Sobrescribible por despliegue con $SS14_HOST_USER. Vacío = desactivado.
+login_host_user = "TheLacrox"
+
+[hub]
+advertise = true
+hub_urls = "https://hub.spacestation14.com/"
+tags = "lang:es,region:es,rp:mrp"
+# hub.server_url se fija en runtime desde $SS14_DOMAIN (ss14s://<dominio>)
+
+[infolinks]
+# Botones de «Ver información del servidor» en el launcher.
+# website y wiki se dejan vacíos a propósito: rellénalos vía $SS14_WEBSITE / $SS14_WIKI
+# cuando existan, en vez de apuntar a un dominio que no responde.
+discord = "https://discord.gg/xRsRcpmCVX"
+
+[auth]
+mode = 1   # 0=opcional 1=requerido 2=desactivado. Servidor público -> requerido.
+
+[server]
+# Reinicio periódico por tiempo de actividad DESACTIVADO (0 = apagado).
+# Si lo activas (minutos > 0) solo dispara al final de ronda o sin nadie conectado,
+# y Docker con restart: unless-stopped lo vuelve a levantar.
+uptime_restart_minutes = 0
+
+[database]
+engine = "sqlite"
+sqlite_dbpath = "preferences.db"   # relativo a --data-dir (/data) -> /data/preferences.db
+
+[tts]
+# Este fork habla con una API HTTP de TTS (tts.api_url + tts.api_token), no con el
+# montaje de redis + worker que usan otros forks. El token es confidencial: va por
+# entorno ($SS14_TTS_API_TOKEN), nunca aquí.
+enabled = false
+
+[sponsor]
+# Por defecto viene activado con api_url vacía, lo que hace que el servidor intente
+# llamar a una API que no existe. Desactivado hasta que haya una.
+enabled = false
+
+[servers_hub]
+# Lista de servidores propia del árbol Sunrise. Mismo problema: activada por defecto
+# con urls vacía. Desactivada hasta que haya una.
+enable = false
+
+[build]
+# IMPORTANTE: debe ser distinto del fork_id de Estación Capibara ("capibara").
+# El launcher cachea los ZIP del cliente por fork_id; si dos forks distintos comparten
+# el mismo id, a los jugadores que entren en ambos les sirve el cliente equivocado.
+fork_id = "capibara-fundacion"

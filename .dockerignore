@@ -1,0 +1,24 @@
+# Build artifacts (regenerated inside the image)
+bin/
+obj/
+**/bin/
+**/obj/
+release/
+artifacts/
+*.user
+
+# Editor/local
+.vs/
+.vscode/
+.idea/
+.run/
+
+# Generated / mutating output that must never reach the image
+Resources/MapImages/
+.integration-filters/
+
+# Private tree: never ship it, and never depend on it. Every Content.* csproj guards
+# it with Condition="Exists(...)", so its absence is a supported build configuration.
+SunrisePrivate/
+
+# Do NOT ignore: .git, .gitmodules, RobustToolbox/  (the build needs them)

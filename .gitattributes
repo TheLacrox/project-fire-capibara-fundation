@@ -62,3 +62,12 @@ Resources/Maps/**.yml merge=mapping-merge-driver
 #*.PDF   diff=astextplain
 #*.rtf   diff=astextplain
 #*.RTF   diff=astextplain
+
+###############################################################################
+# Fire added start - los scripts de shell y el Dockerfile van al contenedor Linux;
+# un CRLF rompe el shebang y la imagen no arranca
+###############################################################################
+*.sh        text eol=lf
+entrypoint.sh text eol=lf
+Dockerfile  text eol=lf
+# Fire added end
